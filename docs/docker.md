@@ -1,22 +1,3 @@
----
-sidebar_position: 1
----
-
-import ThemedImage from '@theme/ThemedImage';
-import useBaseUrl from '@docusaurus/useBaseUrl';
-
-# Run with Docker
-
-<ThemedImage
-  alt="Docker"
-  width="50"
-  className="sdk-logo"
-  sources={{
-    light: useBaseUrl('img/light/docker.png'),
-    dark: useBaseUrl('img/docker-icon.png'),
-  }}
-/>
-
 # Run with Docker
 
 Use this tutorial to run SurrealDB from within Docker.
