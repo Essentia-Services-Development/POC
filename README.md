@@ -1,16 +1,15 @@
 # IDEA-Engine-AI
 Public repo for the IDEA Engine AI project
 
-
 <!-- ROADMAP -->
 ## Roadmap
 
-- [x] Text Generation
-    - [x] Connect to Open AI compatible API's i.e. LocalAI
-    - [x] Select different prompts
+- ✅ Text Generation
+    - ✅ Connect to Open AI compatible API's i.e. LocalAI
+    - ✅ Select different prompts
     - [x] Syntax highlighting for code
 - [ ] Image Generation
-    - [ ] Connect to stable diffusion
+    - 🟠 Connect to stable diffusion
 - [x] Authentication
     - [x] Email/Password sign in and registration
     - [x] SSO
