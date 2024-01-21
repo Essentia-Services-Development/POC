@@ -57,3 +57,15 @@ Public repo for the IDEA Engine AI project
     - [x] Kubernetes deployment strategy.
     - [x] Kubernetes Operator
     - [ ] Hardware recommendations.
+
+## Git LFS
+We use Git LFS for dependencies that are expensive to build.
+
+To make sure you have everything you need to start building, you'll need to
+install the `git-lfs` package for your favourite operating system, then run the
+following commands in this repo:
+
+``` PowerShell
+    git lfs install
+    git lfs pull
+```
