@@ -6,15 +6,17 @@ This is the public repo for the IDEA Engine AI project!
 ## Overview
 The platform is a project that is powered by the underlying microservices:
 
-• IDEA Engine - Community Portal
-	○ IDEA Engine - IDEA Project Managment	
-	○ IDEA Engine - Personal AI Companion
-• IDEA Engine - Internal Development Solutions (DevOps)
-	○ IDEA Engine - Model Factory
-	○ IDEA Engine - Coding Factory
-	○ IDEA Engine - DevOps Project Management
-• UniSphere - Universal Data Lake
-• Actcentive - Loyalty Coins
+- ✅ IDEA Engine - Community Portal
+	- ✅ IDEA Engine - IDEA Project Managment	
+	- ✅ IDEA Engine - Personal AI Companion
+- ✅ IDEA Engine - Internal Development Solutions (DevOps)
+  	- ✅ IDEA Engine - Model Factory
+	- ✅ IDEA Engine - Coding Factory
+	- ✅ IDEA Engine - DevOps Project Management
+- ✅ UniSphere - Universal Data Lake
+  - ✅ IDEA Engine - Surreal DB
+  - ✅ IDEA Engine - Qdrant
+- ✅ Actcentive - Loyalty Coins
 
 The IDEA Engine stands as a beacon for global knowledge and prosperity enhancement. It's not just a platform; it's a movement that categorizes its vast community into three distinct segments: individuals, communities, and businesses.
 
@@ -33,7 +35,7 @@ Powering the IDEA Engine is a robust technological foundation:
 	• Databases: Surreal Db, Qdrant, Azure Redis
 	• Web Services: Azure web app service (Linux, NGINX)
 	• Development Frameworks: Rust, Python, JavaScript, NodeJS, TypeScript, ASP. NET CORE 8.0, .NET MAUI .NET 8.0, .NET Blazor, .NET 8.0, ML.NET, Microsoft Semantic Kernel, Microsoft CoPilot's, OpenAI, Stability AI
-	• Programming Languages: Python, C#, NodeJS, React, Ruby
+	• Programming Languages: Rust, Python, C#, NodeJS, React, Ruby
 	• AI Libraries: Huggingface, Langchain
 	• Collaboration Tools: GitHub, GitHub Copilot, GitHub Copilot Chat
 	• IDEs: Visual Studio 2022, VS Code
