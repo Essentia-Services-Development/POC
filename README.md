@@ -6,17 +6,17 @@ This is the public repo for the IDEA Engine AI project!
 ## Overview
 The platform is a project that is powered by the underlying microservices:
 
-- ✅ IDEA Engine - Community Portal
-	- ✅ IDEA Engine - IDEA Project Managment	
-	- ✅ IDEA Engine - Personal AI Companion
-- ✅ IDEA Engine - Internal Development Solutions (DevOps)
-  	- ✅ IDEA Engine - Model Factory
-	- ✅ IDEA Engine - Coding Factory
-	- ✅ IDEA Engine - DevOps Project Management
-- ✅ UniSphere - Universal Data Lake
-  - ✅ IDEA Engine - Surreal DB
-  - ✅ IDEA Engine - Qdrant
-- ✅ Actcentive - Loyalty Coins
+- IDEA Engine - Community Portal
+	- IDEA Engine - IDEA Project Managment	
+	- IDEA Engine - Personal AI Companion
+- IDEA Engine - Internal Development Solutions (DevOps)
+  	- IDEA Engine - Model Factory
+	- IDEA Engine - Coding Factory
+	- IDEA Engine - DevOps Project Management
+- UniSphere - Universal Data Lake
+  - IDEA Engine - Surreal DB
+  - IDEA Engine - Qdrant
+- Actcentive - Loyalty Coins
 
 The IDEA Engine stands as a beacon for global knowledge and prosperity enhancement. It's not just a platform; it's a movement that categorizes its vast community into three distinct segments: individuals, communities, and businesses.
 
