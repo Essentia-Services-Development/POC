@@ -1,0 +1,5 @@
+<step title="Startup Request" date="2023-05-23T09:16:00.089" instance="359730" url="/DebugConsole" method="GET" type="request" pid="92,1,22" ScmType="None" >
+  <step title="Cleanup Xml Logs" date="2023-05-23T09:16:00.095" >
+    <step title="Cleanup Infos" date="2023-05-23T09:16:00.104" totalFiles="274" totalCleanup="114" /><!-- duration: 3ms -->
+  </step><!-- duration: 18ms -->
+</step><!-- duration: 27ms -->

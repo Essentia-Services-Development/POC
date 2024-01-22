@@ -1,0 +1,52 @@
+//
+//  FIELD BUBBLE
+//
+
+
+
+.ps-fieldbubble {
+  position: absolute;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: $padd;
+
+  @if $scss-direction == rtl {
+    padding-left: 25px;
+  } @else {
+    padding-right: 25px;
+  }
+
+  color: $color-text;
+  background-color: $toolbar-submenu-bg;
+
+  // ROUNDED CORNERS
+  @if $scss-rounded == true {
+    border-radius: 6px;
+  }
+
+  @extend %box-shadow;
+}
+
+
+.ps-fieldbubble__wrapper {
+  position: relative;
+}
+
+
+.ps-fieldbubble__message {}
+
+
+.ps-fieldbubble__close {
+  position: absolute;
+  top: 0;
+
+  @if $scss-direction == rtl {
+    left: 0;
+  } @else {
+    right: 0;
+  }
+
+  padding: ($padd / 2);
+}

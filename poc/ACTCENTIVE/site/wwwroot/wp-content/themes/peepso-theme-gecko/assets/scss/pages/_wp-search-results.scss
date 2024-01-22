@@ -1,0 +1,17 @@
+.search-results {
+  .content {
+    > h1 {
+      padding-bottom: var(--PADD);
+      color: var(--GC-COLOR--TEXT--LIGHT);
+      font-weight: normal;
+      font-size: 120%;
+      border-bottom: 3px solid var(--GC-COLOR--PRIMARY--LIGHT);
+
+      strong {
+        display: block;
+        color: var(--GC-COLOR--TEXT);
+        font-size: 180%;
+      }
+    }
+  }
+}

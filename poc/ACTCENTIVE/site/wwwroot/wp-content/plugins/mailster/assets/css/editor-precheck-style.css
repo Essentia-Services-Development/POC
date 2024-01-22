@@ -1,0 +1,70 @@
+body {
+	overflow: hidden;
+	overflow-y: auto;
+}
+body.precheck-highlighter {
+	position: relative;
+}
+highlighterx,
+highlightery {
+	display: none;
+	position: absolute;
+	top: 0;
+	transition: all 0.25s ease-out;
+	opacity: 0;
+	z-index: 1000;
+}
+body.precheck-images-hidden [background] {
+	background-image: none !important;
+}
+body.precheck-structure-enabled td,
+body.precheck-structure-enabled div,
+body.precheck-structure-enabled p {
+	box-shadow: 0 0 0 1px #2bb3e7 !important;
+}
+.precheck-highlighter highlighterx,
+.precheck-highlighter highlightery {
+	display: block;
+	opacity: 1;
+}
+highlighterx,
+highlightery {
+	z-index: 10;
+	background: rgba(43, 179, 231, 0.2);
+}
+highlighterx:before,
+highlighterx:after,
+highlightery:before,
+highlightery:after {
+	content: '';
+	position: absolute;
+	border-color: #2bb3e7;
+	border-style: dashed;
+}
+highlighterx:before {
+	width: 400vh;
+	border-width: 1px 0 0 0;
+	margin: 0 -200vh;
+}
+highlighterx:after {
+	width: 400vh;
+	border-width: 0 0 1px 0;
+	margin: 0 -200vh;
+	bottom: 0;
+}
+highlightery:before {
+	height: 100vh;
+	border-width: 0 1px 0 0;
+	margin: 0 0;
+}
+highlightery:after {
+	height: 100vh;
+	border-width: 0 0 0 1px;
+	right: 0;
+	margin: 0 0;
+}
+.precheck-highlighter highlightery:before,
+.precheck-highlighter highlightery:after {
+	height: 800vh;
+	margin: -400vw 0;
+}

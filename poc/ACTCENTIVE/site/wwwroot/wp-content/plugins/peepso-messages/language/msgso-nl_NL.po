@@ -1,0 +1,622 @@
+# Translation of PeepSo - Chat in Dutch
+# This file is distributed under the same license as the PeepSo - Chat package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2023-05-09 14:17:39+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0\n"
+"Language: nl\n"
+"Project-Id-Version: PeepSo - Chat\n"
+
+#: templates/chat/window.php:14
+msgid "Minimize"
+msgstr "Minimaliseer"
+
+#: classes/configsectionmessages.php:123
+msgid "Chat & Pages"
+msgstr "Chat & pagina's"
+
+#: templates/messages/messages.php:194 templates/messages/view-message.php:113
+msgid "%s to send"
+msgstr "%s om te verzenden"
+
+#: templates/messages/messages.php:89 templates/messages/view-message.php:22
+msgid "All messages"
+msgstr "Alle berichten"
+
+#: templates/messages/messages.php:45
+msgid "Search..."
+msgstr "Zoeken..."
+
+#: templates/messages/messages.php:25
+msgid "Unread"
+msgstr "Ongelezen"
+
+#: templates/messages/messages.php:22
+msgid "All"
+msgstr "Allemaal"
+
+#. Author of the plugin/theme
+msgid "PeepSo"
+msgstr "PeepSo"
+
+#. Description of the plugin/theme
+msgid "Private messages and live chat"
+msgstr "Prive-berichten en live chat"
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://peepso.com"
+msgstr "https://peepso.com"
+
+#. Plugin Name of the plugin/theme
+msgid "PeepSo Core: Chat"
+msgstr "PeepSo Core: Chat"
+
+#: templates/messages/messages.php:205 templates/messages/view-message.php:124
+msgid "Post"
+msgstr "Posten"
+
+#: templates/messages/messages.php:94 templates/messages/view-message.php:78
+msgid "Conversation with"
+msgstr "Gesprek met"
+
+#: templates/messages/messages.php:149 templates/messages/view-message.php:72
+msgid "Done"
+msgstr "Gedaan"
+
+#: templates/messages/conversation-options.php:39
+#: templates/messages/messages.php:138 templates/messages/view-message.php:60
+msgid "Leave this conversation"
+msgstr "Verlaat dit gesprek"
+
+#: templates/messages/conversation-options.php:37
+#: templates/messages/messages.php:135 templates/messages/view-message.php:57
+msgid "Are you sure you want to leave this conversation?"
+msgstr "Bent u zeker dat u dit gesprek wilt verlaten?"
+
+#: templates/messages/conversation-options.php:19
+#: templates/messages/messages.php:114 templates/messages/messages.php:144
+#: templates/messages/view-message.php:40
+#: templates/messages/view-message.php:67
+msgid "Add People to the conversation"
+msgstr "Personen toevoegen aan het gesprek"
+
+#: templates/messages/notification-popover-item.php:28
+msgid "%s ago"
+msgstr "%s geleden"
+
+#: templates/messages/mute.php:27
+msgid "Mute"
+msgstr "Dempen"
+
+#: templates/messages/mute.php:23
+msgid "until I unmute it"
+msgstr "totdat ik het weer inschakel"
+
+#: templates/messages/mute.php:19
+msgid "a week"
+msgstr "een week"
+
+#: templates/messages/mute.php:15
+msgid "a day"
+msgstr "een dag"
+
+#: templates/messages/mute.php:11
+msgid "an hour"
+msgstr "een uur"
+
+#: templates/messages/mute.php:7
+msgid "30 seconds"
+msgstr "30 seconden"
+
+#: templates/messages/mute.php:2
+msgid "How long do you want to mute this conversation?"
+msgstr "Hoe lang wilt u dit gesprek dempen?"
+
+#: templates/messages/message-list.php:13 templates/messages/messages.php:56
+#: templates/messages/messages.php:73 templates/messages/messages.php:76
+msgid "No messages found."
+msgstr "Geen berichten gevonden."
+
+#: templates/messages/messages.php:46
+msgid "Clear search"
+msgstr "Zoekvraag wissen"
+
+#: peepsomessages.php:397 templates/messages/list-header.php:2
+#: templates/messages/messages.php:31
+#: templates/messages/notification-popover-header.php:6
+msgid "New message"
+msgstr "Nieuw bericht"
+
+#: templates/messages/dialogs.php:60 templates/messages/messages.php:202
+#: templates/messages/view-message.php:121
+msgid "Cancel"
+msgstr "Annuleren"
+
+#: templates/messages/dialogs.php:30
+msgid "Select Recipients"
+msgstr "Geadresseerden selecteren"
+
+#: templates/messages/dialogs.php:26
+msgid "Recipients"
+msgstr "Geadresseerden"
+
+#: templates/messages/dialogs.php:13 templates/messages/dialogs.php:37
+msgid "Recipient"
+msgstr "Geadresseerde"
+
+#: templates/messages/dialogs.php:8
+msgid "Write Message"
+msgstr "Schrijf bericht"
+
+#: templates/messages/conversation-notice.php:7
+msgid "%s left the conversation"
+msgstr "%s heeft het gesprek verlaten"
+
+#: templates/messages/conversation-notice-chat.php:11
+#: templates/messages/conversation-notice.php:11
+msgid "%s created a new group conversation"
+msgstr "%s creëerde een nieuwe groepsgesprek"
+
+#: templates/messages/conversation-notice-chat.php:7
+msgid "%s has left the conversation"
+msgstr "%s heeft het gesprek verlaten"
+
+#: templates/chat/window.php:52
+msgid "You turned off chat for this conversation but you can still send a message."
+msgstr "U heeft chat voor dit gesprek uitgeschakeld, maar u kunt nog steeds een bericht sturen."
+
+#: templates/chat/window.php:51
+msgid "Unmute"
+msgstr "Niet langer dempen"
+
+#: templates/chat/window.php:51
+msgid "This conversation is muted. New chat tabs will not pop up and you will not receive notifications."
+msgstr "Dit gesprek is gedempt. Nieuwe chat tabbladen zullen niet verschijnen en u ontvangt geen meldingen."
+
+#: templates/chat/window.php:39 templates/messages/conversation-options.php:14
+#: templates/messages/messages.php:109 templates/messages/view-message.php:35
+msgid "Block this user"
+msgstr "Deze gebruiker blokkeren"
+
+#: templates/chat/window.php:36
+msgid "View full conversation"
+msgstr "Volledig gesprek bekijken"
+
+#: templates/chat/window.php:11 templates/messages/messages.php:100
+#: templates/messages/view-message.php:27
+msgid "Options"
+msgstr "Opties"
+
+#: templates/chat/window-input.php:2 templates/messages/dialogs.php:48
+#: templates/messages/messages.php:176 templates/messages/view-message.php:96
+msgid "Write a message..."
+msgstr "Schrijf een bericht..."
+
+#: templates/chat/sidebar.php:7
+msgid "more"
+msgstr "meer"
+
+#: templates/chat/sidebar-item.php:8 templates/chat/window.php:17
+msgid "Close"
+msgstr "Sluiten"
+
+#: templates/chat/sidebar-item.php:5 templates/chat/window.php:8
+msgid "Loading"
+msgstr "Laden"
+
+#: templates/chat/send-files.php:22 templates/chat/send-message.php:7
+#: templates/chat/send-photos.php:11 templates/messages/messages.php:249
+msgid "just now"
+msgstr "zojuist"
+
+#: peepsomessages.php:1062
+msgid "Start a chat"
+msgstr "Start een gesprek"
+
+#: peepsomessages.php:976
+msgid "Messages and Chat"
+msgstr "Bericht en Chat"
+
+#: peepsomessages.php:963
+msgid "Message and Chat"
+msgstr "Bericht en Chat"
+
+#: peepsomessages.php:944
+msgid "Open minimized chat window for new message"
+msgstr "Open geminimaliseerde chat-venster voor nieuw bericht"
+
+#: peepsomessages.php:937
+msgid "Enable Chat (Messages will still work if you disable Chat)"
+msgstr "Chatten inschakelen (berichten zullen nog steeds werken als u Chat uitschakelt)"
+
+#: peepsomessages.php:878
+msgid "Someone sent me a new message"
+msgstr "Iemand stuurde me een nieuw bericht"
+
+#: peepsomessages.php:793 templates/messages/dialogs.php:61
+msgid "Send Message"
+msgstr "Stuur bericht"
+
+#: peepsomessages.php:657
+msgid "Text"
+msgstr "Tekst"
+
+#: peepsomessages.php:646
+msgid "Your message..."
+msgstr "Uw bericht..."
+
+#: peepsomessages.php:588
+msgid "Search PeepSo Messages Inline"
+msgstr "Zoek PeepSo berichten Inline"
+
+#: peepsomessages.php:587
+msgid "Update PeepSo Message Inline"
+msgstr "PeepSo bericht Inline bijwerken"
+
+#: peepsomessages.php:586
+msgid "Edit PeepSo Message Inline"
+msgstr "PeepSo bericht inline bewerken"
+
+#: peepsomessages.php:584 peepsomessages.php:585
+msgid "Add New PeepSo Message Inline"
+msgstr "Nieuw PeepSo bericht Inline toevoegen"
+
+#: peepsomessages.php:583
+msgid "View PeepSo Message Inline"
+msgstr "Weergave PeepSo bericht Inline"
+
+#: peepsomessages.php:582
+msgid "All PeepSo Messages Inline"
+msgstr "Alle PeepSo berichten Inline"
+
+#: peepsomessages.php:581
+msgid "PeepSo Messages Inline:"
+msgstr "PeepSo berichten Inline:"
+
+#: peepsomessages.php:580 peepsomessages.php:596 peepsomessages.php:597
+msgid "PeepSo Messages Inline"
+msgstr "PeepSo berichten Inline"
+
+#: peepsomessages.php:579
+msgctxt "PeepSo Message Inline"
+msgid "PeepSo Message Inline"
+msgstr "PeepSo bericht Inline"
+
+#: peepsomessages.php:578
+msgctxt "PeepSo Messages Inline"
+msgid "PeepSo Messages Inline"
+msgstr "PeepSo berichten Inline"
+
+#: peepsomessages.php:553 peepsomessages.php:592
+msgid "message"
+msgstr "bericht"
+
+#: peepsomessages.php:552 peepsomessages.php:591
+msgid "sent"
+msgstr "verzonden"
+
+#: peepsomessages.php:551 peepsomessages.php:590
+msgid "Not found in Trash"
+msgstr "Niet gevonden in de Prullenbak"
+
+#: peepsomessages.php:550 peepsomessages.php:589
+msgid "Not found"
+msgstr "Niet gevonden"
+
+#: peepsomessages.php:549
+msgid "Search PeepSo Messages"
+msgstr "Zoek PeepSo berichten"
+
+#: peepsomessages.php:548
+msgid "Update PeepSo Message"
+msgstr "PeepSo bericht bijwerken"
+
+#: peepsomessages.php:547
+msgid "Edit PeepSo Message"
+msgstr "PeepSo bericht bewerken"
+
+#: peepsomessages.php:545 peepsomessages.php:546
+msgid "Add New PeepSo Message"
+msgstr "Nieuw PeepSo bericht toevoegen"
+
+#: peepsomessages.php:544
+msgid "View PeepSo Message"
+msgstr "PeepSo bericht bekijken"
+
+#: peepsomessages.php:543
+msgid "All PeepSo Messages"
+msgstr "Alle berichten van PeepSo"
+
+#: peepsomessages.php:542
+msgid "PeepSo Messages:"
+msgstr "PeepSo berichten:"
+
+#: peepsomessages.php:541 peepsomessages.php:557 peepsomessages.php:558
+msgid "PeepSo Messages"
+msgstr "PeepSo berichten"
+
+#: peepsomessages.php:540
+msgctxt "PeepSo Message"
+msgid "PeepSo Message"
+msgstr "PeepSo bericht"
+
+#: peepsomessages.php:539
+msgctxt "PeepSo Messages"
+msgid "PeepSo Messages"
+msgstr "PeepSo berichten"
+
+#: peepsomessages.php:511
+msgid "Turn off chat"
+msgstr "Chat uitschakelen"
+
+#: peepsomessages.php:510 templates/chat/window.php:29
+msgid "Turn on chat"
+msgstr "Chat inschakelen"
+
+#: peepsomessages.php:507
+msgid "%s and %s"
+msgstr "%s en %s"
+
+#: peepsomessages.php:470
+msgid "Are you sure want to delete these messages?"
+msgstr "Weet u zeker dat u deze berichten wilt verwijderen?"
+
+#: peepsomessages.php:469
+msgid "Please select your bulk action."
+msgstr "Selecteer uw bulk actie."
+
+#: peepsomessages.php:468
+msgid "Please select at least one message for bulk action."
+msgstr "Selecteer ten minste één bericht voor bulk actie."
+
+#: peepsomessages.php:456 templates/messages/conversation-options.php:12
+msgid "Are you sure want to block this user?"
+msgstr "Weet je zeker dat je deze gebruiker wilt blokkeren?"
+
+#: peepsomessages.php:455 peepsomessages.php:515 templates/chat/window.php:24
+#: templates/messages/conversation-options.php:25
+#: templates/messages/conversation-options.php:27
+#: templates/messages/messages.php:121 templates/messages/view-message.php:47
+msgid "Don't send read receipt"
+msgstr "Geen leesbevestiging verzenden"
+
+#: peepsomessages.php:454 peepsomessages.php:514
+#: templates/messages/conversation-options.php:24
+#: templates/messages/conversation-options.php:27
+#: templates/messages/messages.php:121 templates/messages/view-message.php:47
+msgid "Send read receipt"
+msgstr "Leesbevestiging verzenden"
+
+#: peepsomessages.php:452 peepsomessages.php:513
+#: templates/messages/conversation-options.php:31
+#: templates/messages/conversation-options.php:34
+#: templates/messages/messages.php:131 templates/messages/view-message.php:54
+msgid "Unmute conversation"
+msgstr "Gesprek niet langer dempen"
+
+#: peepsomessages.php:451 peepsomessages.php:512 templates/chat/window.php:33
+#: templates/messages/conversation-options.php:32
+#: templates/messages/conversation-options.php:34
+#: templates/messages/messages.php:131 templates/messages/view-message.php:54
+msgid "Mute conversation"
+msgstr "Gesprek dempen"
+
+#: peepsomessages.php:450
+msgid "Send"
+msgstr "Verzenden"
+
+#: peepsomessages.php:354
+msgid "Get it now!"
+msgstr "Nu krijgen!"
+
+#: peepsomessages.php:352
+msgid "The %s plugin requires the PeepSo plugin to be installed and activated."
+msgstr "De plugin %s vereist dat de PeepSo plugin wordt geïnstalleerd en geactiveerd."
+
+#: peepsomessages.php:229
+msgid "Messages & Chat"
+msgstr "Berichten & Chat"
+
+#: peepsomessages.php:142
+msgid "Unread messages"
+msgstr "Ongelezen berichten"
+
+#: classes/messagesshortcode.php:36
+msgid "User messages"
+msgstr "Gebruikersberichten"
+
+#: classes/messagesshortcode.php:36
+msgctxt "Page listing"
+msgid "PeepSo"
+msgstr "PeepSo"
+
+#: classes/messagesshortcode.php:32
+msgid "Displays the list of all chats (messages) and handles the single conversation views."
+msgstr "Toont de lijst van alle chats (berichten) en behandelt de één-gespreksweergave."
+
+#: classes/messagesmodel.php:303 classes/messagesmodel.php:352
+#: classes/messagesmodel.php:534 classes/messagesmodel.php:555
+msgid "You received a new message"
+msgstr "Je hebt een nieuw bericht ontvangen"
+
+#: classes/messagesmodel.php:260 classes/messagesmodel.php:394
+msgid "No participants added."
+msgstr "Geen deelnemers toegevoegd."
+
+#: classes/messagesmodel.php:257 classes/messagesmodel.php:390
+msgid "No author set."
+msgstr "Geen auteur ingesteld."
+
+#: classes/messagesajax.php:426
+msgid "person"
+msgid_plural "people"
+msgstr[0] "persoon"
+msgstr[1] "personen"
+
+#: classes/messagesajax.php:424
+msgid "%1$s %2$s added to the conversation"
+msgstr "%1$s %2$s toegevoegd aan het gesprek"
+
+#: classes/messagesajax.php:398
+msgid "Created a new group conversation"
+msgstr "Nieuw groepsgesprek aangemaakt"
+
+#: classes/messagesajax.php:340
+msgid "No notifications."
+msgstr "Geen meldingen."
+
+#: classes/messagesajax.php:75
+msgid "Failed to send message."
+msgstr "Verzenden van bericht is mislukt."
+
+#: classes/messagesajax.php:68
+msgid "You are not part of this conversation."
+msgstr "U maakt geen deel uit van dit gesprek."
+
+#: classes/messagesajax.php:40 classes/messagesajax.php:78
+msgid "Message sent."
+msgstr "Bericht verzonden."
+
+#: classes/messagesadmin.php:36
+msgid "This will be sent to a user when a new message is received."
+msgstr "Dit zal worden verzonden naar een gebruiker wanneer een nieuw bericht werd ontvangen."
+
+#: classes/messagesadmin.php:35
+msgid "New message email"
+msgstr "Nieuw bericht E-mail"
+
+#: classes/messages.php:478
+msgid "You: "
+msgstr "U: "
+
+#: classes/messages.php:443 peepsomessages.php:508 peepsomessages.php:509
+msgid "%s and %d other"
+msgid_plural "%s and %d others"
+msgstr[0] "%s en %d anderen"
+msgstr[1] "%s en %d, andere"
+
+#: classes/messages.php:296
+msgid "Message from %s"
+msgstr "Bericht van %s"
+
+#: classes/messages.php:180
+msgid "created a new group conversation"
+msgstr "een nieuw groepsgesprek gemaakt"
+
+#: classes/messages.php:176
+msgid "left the conversation"
+msgstr "verliet het gesprek"
+
+#: classes/messages.php:144
+msgid "<span>%1$d</span>-<span>%2$d</span> of <span class=\"ps-tip ps-tip--inline\" aria-label=\""
+msgstr "<span>%1$d</span>-<span>%2$d</span> van <span class=\"ps-tip ps-tip--inline\" aria-label=\""
+
+#: classes/messages.php:144
+msgid "Number of all messages"
+msgstr "Aantal berichten"
+
+#: classes/messages.php:119
+msgid "%1$s and %2$s"
+msgstr "%1$s en %2$s"
+
+#: classes/messages.php:89
+msgid "and"
+msgstr "en"
+
+#: classes/messages.php:74
+msgid " other"
+msgid_plural " others"
+msgstr[0] " andere"
+msgstr[1] " ander"
+
+#: classes/messages.php:42 templates/messages/conversation-message.php:40
+#: templates/messages/conversation-message.php:41
+msgid "Delete"
+msgstr "Verwijderen"
+
+#: classes/messages.php:41
+msgid "Mark as Unread"
+msgstr "Markeren als ongelezen"
+
+#: classes/messages.php:40
+msgid "Mark as Read"
+msgstr "Markeren als gelezen"
+
+#: classes/messages.php:39
+msgid "Bulk Actions"
+msgstr "Bulk acties"
+
+#: classes/configsectionmessages.php:79 peepsomessages.php:226
+msgid "Chat"
+msgstr "Chat"
+
+#: classes/configsectionmessages.php:116
+msgid "Enable on pages"
+msgstr "Inschakelen op pagina's"
+
+#: classes/configsectionmessages.php:113
+msgid "List of pages in which chat windows <strong>should</strong> appear, one page per line.<br />Examples:<br /><strong>/</strong> (Homepage)<br /><strong>/profile</strong> (Profile page)"
+msgstr "Lijst van pagina's waarin chatvensters <strong>wel</strong> mogen verschijnen, één pagina per regel.<br />Voorbeelden:<br /><strong>/</strong> (Homepage)<br /><strong>/profiel</strong> (Profielpagina)"
+
+#: classes/configsectionmessages.php:109
+msgid "Disable on pages"
+msgstr "Uitschakelen op pagina's"
+
+#: classes/configsectionmessages.php:106
+msgid "List of pages in which chat windows <strong>should not</strong> appear, one page per line.<br />Examples:<br /><strong>/</strong> (Homepage)<br /><strong>/profile</strong> (Profile page)"
+msgstr "Lijst van pagina's waarin chatvensters <strong>niet</strong> mogen verschijnen, één pagina per regel.<br />Voorbeelden:<br /><strong>/</strong> (Homepage)<br /><strong>/profiel</strong> (Profielpagina)"
+
+#: classes/configsectionmessages.php:102
+msgid "Page-restriction mode"
+msgstr "Pagina-restrictie modus"
+
+#: classes/configsectionmessages.php:99
+msgid "Select mode in which chat should or should not appear."
+msgstr "Selecteer modus waarin de chat wel of niet moet worden weergegeven."
+
+#: classes/configsectionmessages.php:95
+msgid "Show only on selected pages"
+msgstr "Toon alleen op geselecteerde pagina's"
+
+#: classes/configsectionmessages.php:94
+msgid "Disable on selected pages"
+msgstr "Uitschakelen op geselecteerde pagina's"
+
+#: classes/configsectionmessages.php:73
+msgid "Forced Refresh"
+msgstr "verliet het gesprek"
+
+#: classes/configsectionmessages.php:70
+msgid "Send an extra ajax call every 30 seconds to make sure that messages and chat is synchronized between multiple open browser windows or devices."
+msgstr "Stuur een extra ajax-oproep om de 30 seconden om ervoor te zorgen dat berichten en chatten is gesynchroniseerd tussen meerdere geopende browservensters of apparaten."
+
+#: classes/configsectionmessages.php:66
+msgid "Enable Chat"
+msgstr "Chatten inschakelen"
+
+#: classes/configsectionmessages.php:52 install/activate.php:131
+#: peepsomessages.php:398 peepsomessages.php:875 peepsomessages.php:896
+#: templates/messages/notification-popover-header.php:1
+msgid "Messages"
+msgstr "Berichten"
+
+#: classes/configsectionmessages.php:46
+msgid "Character limit per message"
+msgstr "Tekens per bericht"
+
+#: classes/configsectionmessages.php:35 peepsomessages.php:954
+msgid "Allow new messages only from friends"
+msgstr "Alleen nieuwe berichten toestaan van vrienden"
+
+#: classes/configsectionmessages.php:27
+msgid "Enable \"read\" notifications"
+msgstr "Inschakelen 'gelezen' meldingen"
+
+#: classes/chatajax.php:160
+msgid "Error creating conversation"
+msgstr "Fout bij het maken van gesprek"

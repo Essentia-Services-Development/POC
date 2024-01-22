@@ -1,0 +1,276 @@
+@media only screen and (max-width: 600px) {
+	.theme-browser .theme {
+		width: 100%;
+		margin-right: 0;
+	}
+}
+.upload-field {
+	padding: 10px 0;
+	display: none;
+}
+.upload-field #drag-drop-area {
+	min-height: 260px;
+}
+.theme-overlay .theme-wrap {
+	height: 690px;
+}
+.disclosure {
+	font-style: italic;
+}
+.loading-content .disclosure,
+.no-results .disclosure {
+	display: none !important;
+}
+.wrap .notice:empty {
+	display: none !important;
+}
+
+.wrap .theme-browser .notice {
+	margin: 0;
+}
+.wrap > .notice.inline.theme-notice-installed,
+.wrap > .notice.inline.theme-notice-free,
+.wrap > .notice.inline.theme-notice-updated,
+.wrap > .notice.inline.theme-notice-popular {
+	display: none;
+}
+.browse-installed .wrap > .notice.inline.theme-notice-installed,
+.browse-free .wrap > .notice.inline.theme-notice-free,
+.browse-updated .wrap > .notice.inline.theme-notice-updated,
+.browse-popular .wrap > .notice.inline.theme-notice-popular {
+	display: block;
+}
+.wp-filter .search-form select {
+	display: inline-block;
+	vertical-align: top;
+}
+.wp-filter .search-form input[type='search'].wp-filter-search {
+	margin-top: 0px;
+}
+.wp-filter .search-form .search-submit {
+	display: none;
+}
+.theme-browser .theme .spinner {
+	visibility: visible;
+	display: none;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 1;
+}
+.theme-browser .theme.loading .spinner {
+	display: block;
+}
+.theme-browser .theme {
+	overflow: hidden;
+}
+.theme-browser .theme-name:after {
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	line-height: 1em;
+	margin-left: 2px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+	vertical-align: bottom;
+}
+
+.theme-browser .theme.loading .theme-screenshot {
+	filter: saturate(60%);
+	opacity: 0.4;
+}
+
+.theme-browser .theme .theme-screenshot {
+	min-height: 310px;
+	height: 22vw;
+}
+.theme-browser .theme .theme-screenshot img {
+	pointer-events: none;
+}
+.theme-count:empty {
+	visibility: hidden;
+}
+.theme-browser .theme-actions .activate,
+.theme-browser .theme-actions .deactivate,
+.theme-browser .is-installed .theme-actions .download,
+.theme-browser .is-installed .theme-actions .request-download,
+.theme-browser .is-installed .theme-actions .install,
+.browse-installed .theme-browser .theme-actions .install {
+	display: none;
+}
+.theme-browser .theme.is-installed .theme-actions .buy {
+	display: none;
+}
+.theme-browser .is-installed:not(.active) .theme-actions .activate,
+.theme-browser .active .theme-actions .deactivate {
+	display: inline-block;
+}
+.theme-badge {
+	border: 1px solid;
+	font-size: 12px;
+	font-weight: normal;
+	border-radius: 4px;
+	padding: 0.2em 0.4em;
+	margin-left: 0.6em;
+}
+.browse-installed .theme-installed-badge {
+	display: none;
+}
+.theme-browser .not-supported .theme-actions {
+	display: none;
+}
+.theme-browser .not-supported .theme-screenshot {
+	opacity: 0.5;
+	filter: grayscale(100%);
+}
+.theme-browser .theme .theme-screenshot .theme-screenshot-img {
+	position: absolute;
+	width: 75%;
+	border-radius: 2px;
+	transform: translate(-50%, 50px);
+	left: 50%;
+	transition: transform 0.2s ease-in-out;
+	top: 0;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.11), 0 1px 3px rgba(0, 0, 0, 0.075);
+	pointer-events: none;
+}
+.rtl .theme-browser .theme .theme-screenshot .theme-screenshot-img,
+.rtl .theme-browser .theme .theme-screenshot .theme-screenshot-iframe {
+	transform: translate(50%, 50px);
+	left: auto;
+	right: 50%;
+}
+.theme-browser .theme .theme-screenshot .theme-screenshot-iframe {
+	width: 700px;
+	height: 1200px;
+	transform: translate(-50%, -22%) scale(0.5);
+	box-shadow: none;
+}
+.theme-browser .theme .theme-screenshot .theme-screenshot-bg {
+	filter: blur(20px);
+	-webkit-backface-visibility: hidden;
+	-webkit-perspective: 1000;
+	-webkit-transform: translate3d(0, 0, 0);
+	-webkit-transform: translateZ(0);
+	backface-visibility: hidden;
+	perspective: 1000;
+	transform: translate3d(0, 0, 0) scale(2);
+	transform: translateZ(0) scale(2);
+}
+.theme-browser .theme:hover .theme-screenshot .theme-screenshot-bg {
+	opacity: 0.8;
+}
+.theme-overlay .theme-about {
+	top: 49px;
+	top: 75px;
+}
+.theme-overlay .theme-screenshots {
+	margin-top: -26px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 20px 20px;
+	background-image: url(../img/loading.gif) !important;
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+	only screen and (-o-min-device-pixel-ratio: 32),
+	only screen and (min--moz-device-pixel-ratio: 1.5),
+	only screen and (min-device-pixel-ratio: 1.5) {
+	.theme-overlay .theme-screenshots {
+		background-image: url(../img/loading_2x.gif) !important;
+	}
+}
+
+.theme-overlay .screenshot {
+	overflow: hidden;
+}
+.theme-overlay .theme-info .notice {
+	display: none;
+}
+.theme-overlay.has-update .theme-info .notice {
+	display: block;
+}
+.theme-overlay.loading .screenshot iframe {
+	visibility: hidden;
+}
+.theme-overlay .screenshot img {
+}
+.browse-installed .theme-overlay .screenshot img {
+	display: none;
+}
+.theme-overlay .screenshot iframe {
+	position: absolute;
+	width: 125%;
+	height: 125%;
+	transform: scale(0.8);
+	transform-origin: top left;
+	left: 0;
+}
+.browse-installed .theme-overlay .screenshot iframe {
+	display: block;
+}
+.theme-overlay .theme-files {
+	text-align: left;
+	min-height: 26px;
+}
+.theme-overlay .theme-files label {
+	display: flex;
+	justify-content: space-between;
+	line-height: 2em;
+	margin-bottom: 3px;
+}
+.theme-overlay .theme-file-selector {
+	max-width: 80%;
+	width: 100%;
+}
+
+.theme-overlay .theme-description {
+	max-height: 250px;
+	overflow: auto;
+	text-overflow: ellipsis;
+}
+
+.theme-overlay:not(.is-installed) .delete-theme {
+	display: none;
+}
+
+.wp-core-ui .theme-overlay .button {
+	display: none;
+}
+.wp-core-ui .theme-overlay.has-purchase .button.buy {
+	display: inline-block;
+}
+.wp-core-ui .theme-overlay.has-download .button.download {
+	display: inline-block;
+}
+.wp-core-ui .theme-overlay.is-installed .button.delete-theme {
+	display: inline-block;
+}
+.wp-core-ui .theme-overlay.is-installed .button.default {
+	display: inline-block;
+}
+.wp-core-ui .theme-overlay.active .button.deactivate {
+	display: inline-block;
+}
+.wp-core-ui .theme-overlay.is-installed .button.activate {
+	display: inline-block;
+}
+.wp-core-ui .theme-overlay.is-installed .button.buy {
+	display: none;
+}
+.wp-core-ui .theme-overlay.is-installed .button.download {
+	display: none;
+}
+.wp-core-ui .theme-overlay.is-default .button.default {
+	display: none;
+}
+
+.theme-browser .theme.wporg-item .theme-name:after {
+	content: '';
+	background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" height="500" width="500" version="1.0" viewBox="0 0 5.556 5.556"><path fill="%23464342" d="M2.778.39c.623 0 1.19.238 1.615.629-.208-.006-.416.118-.425.402-.017.573.686.696.307 1.85l-.313.954-.854-2.516c-.014-.039.002-.06.05-.06h.241c.013 0 .023-.011.023-.025v-.143c0-.013-.01-.024-.023-.023-.457.02-.912.02-1.363 0-.013 0-.023.01-.023.024v.143c0 .013.01.023.023.023h.243c.053 0 .069.018.081.053l.351.96-.528 1.593L1.316 1.7c-.01-.032.002-.05.033-.05h.277c.012 0 .022-.011.022-.024v-.143c0-.014-.01-.025-.022-.024-.29.015-.582.018-.853.021A2.386 2.386 0 012.777.389zm2.1 1.25a2.388 2.388 0 01-.954 3.233l.745-2.11c.115-.326.222-.767.21-1.123zm-1.3 3.389a2.381 2.381 0 01-1.495.034l.736-2.108.758 2.074zm-1.822-.092a2.389 2.389 0 01-1.152-3.15l1.152 3.15zM2.778.165a2.613 2.613 0 11-.001 5.226 2.613 2.613 0 010-5.226zm0-.165a2.778 2.778 0 11-.001 5.556 2.778 2.778 0 010-5.556z"/></svg>');
+}
+.theme-browser .theme.envato-item .theme-name:after {
+	content: '';
+	background-image: url('data:image/svg+xml;utf8,<svg viewBox="0 0 42 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g transform="translate(-391.000000, -503.000000)" fill="%2381B636"><path d="M426.607261,503.263091 C428.756617,504.31759 437.503037,523.192068 430.04151,539.630549 C424.049276,552.830534 409.006732,552.832034 401.381459,548.180539 C394.868482,544.205544 384.91978,531.682058 395.933571,516.389576 C396.399732,515.809077 397.517929,515.861577 397.265671,517.615075 C397.087172,518.860073 395.489538,527.798563 398.538762,531.682058 C399.931344,533.624556 400.257362,532.285058 400.257362,532.285058 C400.257362,532.285058 400.019856,519.278573 409.908075,509.404084 C416.185022,503.383091 424.890136,502.420092 426.607261,503.263091" id="Envato"></path></g></g></svg>');
+}

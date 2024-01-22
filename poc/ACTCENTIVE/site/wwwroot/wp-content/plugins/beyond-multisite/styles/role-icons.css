@@ -1,0 +1,39 @@
+
+.be-mu-role-icon {
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    text-align: center;
+    color: #000;
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 15px;
+    color: #fff;
+    cursor: default;
+    padding: 0 !important;
+}
+
+.be-mu-icon-administrator {
+    background: #505D70;
+}
+
+.be-mu-icon-editor {
+    background: #C25B5E;
+}
+
+.be-mu-icon-author {
+    background: #E2975E;
+}
+
+.be-mu-icon-contributor {
+    background: #75C3AD;
+}
+
+.be-mu-icon-subscriber {
+    background: #78B2D7;
+}
+
+.be-mu-icon-custom {
+    background: #A272A2;
+}

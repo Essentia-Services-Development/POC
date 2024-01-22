@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bundle name="Affiliate Egg">
+  <domain name="affegg-tpl">
+    <project name="Affiliate Egg Frontend" slug="affegg-tpl">
+      <source>
+        <directory>.</directory>
+      </source>
+      <target>
+        <directory>languages/tpl</directory>
+      </target>
+      <template locked="true">
+        <file>languages/tpl/affegg-tpl.pot</file>
+      </template>
+    </project>
+  </domain>
+  <domain name="affegg">
+    <project name="Affiliate Egg Admin" slug="affegg">
+      <source>
+        <directory>.</directory>
+      </source>
+      <target>
+        <directory>languages</directory>
+      </target>
+      <template>
+        <file>languages/affegg.pot</file>
+      </template>
+    </project>
+  </domain>
+</bundle>

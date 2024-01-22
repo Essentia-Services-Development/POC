@@ -1,0 +1,332 @@
+# Translation of PeepSo - Email Digest in Swedish
+# This file is distributed under the same license as the PeepSo - Email Digest package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-02-01 10:31:40+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0\n"
+"Language: sv_SE\n"
+"Project-Id-Version: PeepSo - Email Digest\n"
+
+#: peepsoemaildigest.php:822
+msgid "A summary of community activity is sent if you are inactive for more than %d days."
+msgstr ""
+
+#: peepsoemaildigest.php:821
+msgid "%s email digest"
+msgstr ""
+
+#: peepsoemaildigest.php:315
+msgid "Monthly"
+msgstr ""
+
+#: peepsoemaildigest.php:314
+msgid "Biweekly"
+msgstr ""
+
+#: peepsoemaildigest.php:313
+msgid "Weekly"
+msgstr ""
+
+#: peepsoemaildigest.php:312
+msgid "Daily"
+msgstr ""
+
+#: classes/configsectionemaildigest.php:37
+msgid "Use files"
+msgstr ""
+
+#: peepsoemaildigest.php:150
+msgid "Every 2 weeks"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "PeepSo"
+msgstr "PeepSo"
+
+#. Description of the plugin/theme
+msgid "Bring users back with automated newsletter"
+msgstr "Få tillbaka användare med automatiserade nyhetsbrev"
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://peepso.com"
+msgstr "https://peepso.com"
+
+#. Plugin Name of the plugin/theme
+msgid "PeepSo Core: Email Digest"
+msgstr ""
+
+#: templates/general/email-digest.php:41
+msgid "Comment"
+msgstr "Kommentar"
+
+#: templates/general/email-digest.php:41
+msgid "Like"
+msgstr "Gilla"
+
+#: templates/general/email-digest.php:39
+msgid "Read more"
+msgstr "Läs mer"
+
+#: templates/general/email-digest.php:25
+msgid "shared a post"
+msgstr "delat ett inlägg"
+
+#: templates/general/email-digest-recipient.php:16
+msgid "Last email sent: "
+msgstr "Senast skickade e-post: "
+
+#: templates/general/email-digest-recipient.php:13
+msgid "User last login: "
+msgstr "Användarens senaste inloggning: "
+
+#: peepsoemaildigest.php:935
+msgid "Preview email was sent"
+msgstr "Det förhandsgranskade e-postmeddelandet skickades"
+
+#: peepsoemaildigest.php:724
+msgid "Most commented post"
+msgstr "Mest kommenterade inlägg"
+
+#: peepsoemaildigest.php:686
+msgid "Most liked post"
+msgstr "Mest gillade inlägg"
+
+#: peepsoemaildigest.php:624
+msgid "Email digest is not activated"
+msgstr "E-post digest är inte aktiverad"
+
+#: peepsoemaildigest.php:619
+msgid "Email digest sent to %d users"
+msgstr "E-post digest skickad till %d användare"
+
+#: peepsoemaildigest.php:479
+msgid "Other popular posts"
+msgstr "Andra populära inlägg"
+
+#: peepsoemaildigest.php:472
+msgid "There are only %d posts, required at least %d"
+msgstr "Det finns bara %d inlägg, krävs minst %d"
+
+#: peepsoemaildigest.php:400
+msgid "Current time is %s, cron scheduled at %s"
+msgstr "Aktuell tid är %s, Cron schemalagd till %s"
+
+#: peepsoemaildigest.php:364
+msgid "There are %d logs in your database. You can clear the logs by clicking the button below."
+msgstr "Det finns %d loggar i din databas. Du kan rensa loggarna genom att klicka på knappen nedan."
+
+#: peepsoemaildigest.php:363
+msgid "Clear Logs"
+msgstr "Rensa loggarna"
+
+#: peepsoemaildigest.php:362
+msgid "Preview email failed"
+msgstr ""
+
+#: peepsoemaildigest.php:361
+msgid "Preview email sent"
+msgstr ""
+
+#: peepsoemaildigest.php:343
+msgid "PeepSo Email Digest"
+msgstr "PeepSo Epost sammandrag"
+
+#: peepsoemaildigest.php:292
+msgid "Get it now!"
+msgstr "Hämta det nu!"
+
+#: peepsoemaildigest.php:290
+msgid "The %s plugin requires the PeepSo plugin to be installed and activated."
+msgstr "%s tillägget kräver att PeepSo tillägget ska vara installerat och aktiverat."
+
+#: classes/emaildigestadminajax.php:46
+msgid "No Log Found."
+msgstr "Ingen logg hittades."
+
+#: classes/emaildigestadmin.php:42
+msgid "This will be sent to user based on schedule."
+msgstr "Detta kommer att skickas till användare baserat på schemat."
+
+#: classes/emaildigestadmin.php:41
+msgid "Digest Email"
+msgstr "Sammandrag av epost"
+
+#: classes/configsectionemaildigest.php:356
+msgid "Sent Email Digest Logs"
+msgstr "Skickade epost-sammandrags loggar"
+
+#: classes/configsectionemaildigest.php:349
+msgid "The logs keep latest 100 sent Email Digest emails. You can see which users got the emails and what was their last login when the email was generated and sent to them. You can also preview the email that was sent."
+msgstr "Loggarna sparas till de senaste 100 skickade Epost sammandragen. Du kan se vilka användare som fick e-post och vad var deras senaste inloggning när e-postmeddelandet var genererat och skickats till dem. Du kan också förhandsgranska e-postmeddelandet som skickades."
+
+#: classes/configsectionemaildigest.php:341
+msgid "General"
+msgstr "Allmänt"
+
+#: classes/configsectionemaildigest.php:315
+msgid "How many emails should be created in a batch"
+msgstr "Hur många epostmeddelande bör skapas i en omgång"
+
+#: classes/configsectionemaildigest.php:312
+msgid "Depending on the amount of inactive users in your community, not to overload the site there's a batch creation system. This setting controls how many emails will be generated in one batch. This setting does not send the emails. PeepSo mailqueue takes care of the delivery."
+msgstr "Beroende på mängden inaktiva användare i din gemenskap, så för att inte överbelasta webbplatsen så finns det ett system som skapar varje omgång. Den här inställningen styr hur många e-postmeddelanden kommer att genereras i en omgång. Den här inställningen skickar inte e-postmeddelanden. PeepSo epostkö sköter leveransen."
+
+#: classes/configsectionemaildigest.php:308
+msgid "Execute Email Digest email creation via cron job"
+msgstr "Utföra skapande av Epost sammandrag via cron-job"
+
+#: classes/configsectionemaildigest.php:305
+msgid "It's advised to switch this setting on and setup a server-side cron job. You can use this command: wget %s It can easily run every hour."
+msgstr "Det har klokt att slå på den här inställningen och konfigurera ett server-side cron-job. Du kan använda detta kommando: wget %s det kan enkelt köras varje timme."
+
+#: classes/configsectionemaildigest.php:236
+#: classes/configsectionemaildigest.php:243
+#: classes/configsectionemaildigest.php:260
+#: classes/configsectionemaildigest.php:283
+msgid "At"
+msgstr "På"
+
+#: classes/configsectionemaildigest.php:233
+#: classes/configsectionemaildigest.php:256
+#: classes/configsectionemaildigest.php:279
+msgid "The time when Email Digest emails will start to be sent. Emails are sent in batches by the mailqueue, they're not all sent at once, so your users might get them at different times."
+msgstr "Tiden när Epost Sammandrag kommer att börja skickas. Epost skickas i omgångar av epostkön, så de inte alla skickas på en gång, så att användarna kan få dem vid olika tidpunkter."
+
+#: classes/configsectionemaildigest.php:206
+msgid "Sat"
+msgstr "Lör"
+
+#: classes/configsectionemaildigest.php:205
+msgid "Fri"
+msgstr "Fre"
+
+#: classes/configsectionemaildigest.php:204
+msgid "Thu"
+msgstr "Tors"
+
+#: classes/configsectionemaildigest.php:203
+msgid "Wed"
+msgstr "Ons"
+
+#: classes/configsectionemaildigest.php:202
+msgid "Tue"
+msgstr "Tis"
+
+#: classes/configsectionemaildigest.php:201
+msgid "Mon"
+msgstr "Mån"
+
+#: classes/configsectionemaildigest.php:200
+msgid "Sun"
+msgstr "Sön"
+
+#: classes/configsectionemaildigest.php:195
+#: classes/configsectionemaildigest.php:212
+msgid "Every"
+msgstr "Varje"
+
+#: classes/configsectionemaildigest.php:191
+msgid "If selected date is bigger than the number of days in month, email digest will be sent at the end of the month."
+msgstr "Om det valda datumet är större än antalet dagar i månaden, kommer ett mejl att skickas i slutet av månaden."
+
+#: classes/configsectionemaildigest.php:181
+msgid "How often should the Email Digest emails be sent"
+msgstr "Hur ofta ska Epost Sammandrags meddelandena skickas"
+
+#: classes/configsectionemaildigest.php:172
+msgid "Send Email Digest emails to users inactive for more than"
+msgstr "Skicka Epost Sammandrag meddelanden till användare inaktiv i mer än"
+
+#: classes/configsectionemaildigest.php:168
+msgid "Users who didn't visit the site in the number of days selected or more will receive the Email Digest emails."
+msgstr "Användare som inte besökte webbplatsen under det antalet valda dagar eller mer får Epost Sammandrag i epost inboxen."
+
+#: classes/configsectionemaildigest.php:158
+msgid "Send Email Digest emails"
+msgstr "Skicka Epost Sammandrag"
+
+#: classes/configsectionemaildigest.php:155
+msgid "Email Digest emails contains only posts which have 'Public' or 'Site Members' privacy settings. All other posts, meaning with privacy settings of 'Only me' and 'Friends Only' will be ignored and not sent as part of the Email Digest."
+msgstr "Epost Sammandrag innehåller endast inlägg som har 'Offentliga' eller 'webbplatsmedlemmars' sekretessinställningar. Alla andra inlägg, menande med sekretessinställningarna för 'Endast mig' och 'Vänner endast' kommer att ignoreras och inte skickas som en del av Epost Sammandraget."
+
+#: classes/configsectionemaildigest.php:150
+msgid "These settings control the Email Digest plugin. The plugin has been designed to interest and bring inactive users back to your community by showing them most interesting and engaging posts from a given period."
+msgstr "Dessa inställningar styr Epost Sammandrag tillägget. Tillägget har utformats för att intressera och föra inaktiva användare tillbaka till din gemenskap genom att visa dem mest intressanta och engagerande inlägg från en viss period."
+
+#: classes/configsectionemaildigest.php:136
+msgid "Users"
+msgstr "Användare"
+
+#: classes/configsectionemaildigest.php:120
+msgid "Which User Roles should receive the emails"
+msgstr "Vilka användarroller bör få epostmeddelanden"
+
+#: classes/configsectionemaildigest.php:106
+msgid "Subscribe new users by default"
+msgstr "Prenumerera nya användare som standard"
+
+#: classes/configsectionemaildigest.php:99
+msgid "Content"
+msgstr "Innehåll"
+
+#: classes/configsectionemaildigest.php:90
+msgid "Show 'read mode' if the posts can't be shown in full and they hit the limit of characters."
+msgstr "Visa 'läs läge' om inläggen inte kan visas i sin helhet och de når högsta gränsvärdet för antal tecken."
+
+#: classes/configsectionemaildigest.php:86
+msgid "Limit the post length in Email Digest email to"
+msgstr "Begränsa inläggets längd i Epost sammandraget till"
+
+#: classes/configsectionemaildigest.php:79
+msgid "Allow duplicate posts"
+msgstr "Tillåt dubbla inlägg"
+
+#: classes/configsectionemaildigest.php:76
+msgid "With this setting on, most commented on and most liked posts will be showcased as such. However, they might also, and most likely will be shown in the main content of the Email Digest email."
+msgstr "Med den här inställningen på, kommer mest kommenterade och mest gillade inläggen att presenteras som sådana. Men kan de också, troligen visas i det huvudsakliga innehållet i Epost sammandraget."
+
+#: classes/configsectionemaildigest.php:72
+msgid "Include most commented post"
+msgstr "Inkludera mest kommenterade inlägg"
+
+#: classes/configsectionemaildigest.php:69
+msgid "With this setting switched on, Email Digest email will also contain the most commented on post from a given period and showcase it as such."
+msgstr "Med den här inställningen påslagen, kommer Epost sammandragen också innehålla mest kommenterade inlägget från en viss period och visa upp det som sådan."
+
+#: classes/configsectionemaildigest.php:65
+msgid "Include most liked post"
+msgstr "Inkludera mest gillade inlägg"
+
+#: classes/configsectionemaildigest.php:62
+msgid "With this setting switched on, Email Digest email will also contain the most liked post from a given period and showcase it as such."
+msgstr "Med den här inställningen påslagen, kommer Epost sammandragen också innehålla mest gillade inlägget från en viss period och visa upp det som sådan."
+
+#: classes/configsectionemaildigest.php:58
+msgid "Send Email Digest emails even if there are less posts"
+msgstr "Skicka Epost sammandrag även om det finns mindre antal inlägg"
+
+#: classes/configsectionemaildigest.php:55
+msgid "An Email Digest email must have at least 1 new post to be sent out. If there are no new ones it won't be sent."
+msgstr "Ett Epost sammandrag måste ha minst 1 ny inlägg för att det ska skickas ut. Om det inte finns några nya skickas det inte ut."
+
+#: classes/configsectionemaildigest.php:51
+msgid "How many posts should be included per one email"
+msgstr "Hur många inlägg bör inkluderas per e-postmeddelande"
+
+#: classes/configsectionemaildigest.php:29
+msgid "Use images"
+msgstr "Använd bilder"
+
+#: classes/configsectionemaildigest.php:21
+msgid "Email Digest Title"
+msgstr "Titel för e-postsammandrag"
+
+#: classes/configsectionemaildigest.php:18 peepsoemaildigest.php:340
+#: peepsoemaildigest.php:589 peepsoemaildigest.php:829
+msgid "Email Digest"
+msgstr "Epost sammandrag"

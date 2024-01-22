@@ -1,0 +1,32 @@
+//
+//  TEMPORARY MOVED CSS FROM MOBILE APP Theme
+//  CONVERT TO SCSS LATER
+//
+
+.is-mobiloud {} // when mobiloud is activated
+
+.ps-btn--join {
+  .is-mobiloud & {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+}
+
+.gc-widget--mobi {}
+
+.gc-widgets--mobi-top {}
+
+.gc-widgets--mobi-sticky-top {
+  padding-top: 0;
+  padding-bottom: 0;
+  border-bottom: 1px solid var(--DIVIDER--LIGHT);
+}
+
+.has-sticky-widget {}
+
+.has-sticky-widget .gc-header.gc-header--scroll {
+  box-shadow: 0 1px 0 var(--divider);
+}
+
+.gc-widgets--mobi-bottom {}

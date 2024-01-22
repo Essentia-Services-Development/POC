@@ -1,0 +1,118 @@
+.mailster-shortcodes-icon:before,
+.mailster-tags-icon:before {
+	font: normal 16px/1 'mailster-icons' !important;
+	content_: '\e800';
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+.mailster-shortcodes-icon:before,
+.mailster-tags-icon:before {
+	vertical-align: text-bottom !important;
+}
+.mailster-tags-icon:before {
+	content: '';
+}
+#adminmenu #menu-posts-newsletter .wp-menu-image img {
+	width: 16px;
+}
+#dashboard_right_now a.mailster-campaigns:before {
+	content: '';
+	width: 20px;
+	height: 20px;
+	background-image: url('data:image/svg+xml;utf8,<svg version="1.1" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g stroke-linecap="round" stroke-width="1.5" stroke="%23545454" fill="none" stroke-linejoin="round"><path d="M19.509,10h-12.018c-0.823,0 -1.491,0.667 -1.491,1.491v0c0,0.494 0.245,0.957 0.654,1.234l4.964,3.364c1.137,0.77 2.628,0.77 3.764,0l4.963,-3.364c0.41,-0.277 0.655,-0.739 0.655,-1.234v-0.001c0,-0.823 -0.667,-1.49 -1.491,-1.49Z"></path><path d="M6,11.504v7.496c0,1.105 0.895,2 2,2h11c1.105,0 2,-0.895 2,-2v-7.496"></path><path d="M18.554,7.028c0,0 -3.565,-2.416 -5.437,-3.685c-0.678,-0.459 -1.562,-0.456 -2.24,0.003l-6.994,4.74c-0.548,0.371 -0.877,0.991 -0.877,1.654l-0.006,8.26"></path></g><path fill="none" d="M0,0.028h24v24h-24v-24Z"></path></svg>');
+	background-size: contain;
+	background-repeat: no-repeat;
+	margin: 0 2px 0 2px;
+}
+#dashboard_right_now a.mailster-subscribers:before {
+	content: '';
+	width: 20px;
+	height: 20px;
+	background-image: url('data:image/svg+xml;utf8,<svg version="1.1" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g stroke-linecap="round" stroke-width="1.5" stroke="%23545454" fill="none" stroke-linejoin="round"><path d="M20.7925,9.52352c0.790031,0.790031 0.790031,2.07092 0,2.86095c-0.790031,0.790031 -2.07092,0.790031 -2.86095,1.77636e-15c-0.790031,-0.790031 -0.790031,-2.07092 0,-2.86095c0.790031,-0.790031 2.07092,-0.790031 2.86095,-1.77636e-15"></path><path d="M14.2026,5.91236c1.21648,1.21648 1.21648,3.18879 0,4.40528c-1.21648,1.21648 -3.18879,1.21648 -4.40528,0c-1.21648,-1.21648 -1.21648,-3.18879 0,-4.40528c1.21648,-1.21648 3.18879,-1.21648 4.40528,0"></path><path d="M6.06848,9.52352c0.790031,0.790031 0.790031,2.07092 0,2.86095c-0.790031,0.790031 -2.07092,0.790031 -2.86095,1.77636e-15c-0.790031,-0.790031 -0.790031,-2.07092 0,-2.86095c0.790031,-0.790031 2.07092,-0.790031 2.86095,-1.77636e-15"></path><path d="M23,19v-1.096c0,-1.381 -1.119,-2.5 -2.5,-2.5h-0.801"></path><path d="M1,19v-1.096c0,-1.381 1.119,-2.5 2.5,-2.5h0.801"></path><path d="M17.339,19v-1.601c0,-1.933 -1.567,-3.5 -3.5,-3.5h-3.679c-1.933,0 -3.5,1.567 -3.5,3.5v1.601"></path></g><path fill="none" d="M0,0h24v24h-24Z"></path></svg>');
+	background-size: contain;
+	background-repeat: no-repeat;
+	margin: 0 2px 0 2px;
+}
+tr.status-active div.campaign-progress span.bar:before,
+.progress span.bar:before {
+	content: '';
+	display: block;
+	top: -2px;
+	bottom: -2px;
+	width: 20%;
+	min-width: 50px;
+	left: 0%;
+	position: absolute;
+	background: linear-gradient(
+		to right,
+		rgba(255, 255, 255, 0) 0%,
+		rgba(255, 255, 255, 0.2) 50%,
+		rgba(255, 255, 255, 0) 100%
+	);
+	animation: mailster-progress-indicator 0.75s ease infinite;
+}
+
+@keyframes mailster-progress-indicator {
+	0% {
+		left: -20%;
+	}
+	100% {
+		left: 120%;
+	}
+}
+@keyframes mailster-notice-badge {
+	0% {
+		transform: scale(0);
+	}
+	70% {
+		transform: scale(0);
+	}
+	90% {
+		transform: scale(1.2);
+	}
+	100% {
+		transform: scale(1);
+	}
+}
+.mailster-has-notices #menu-posts-newsletter .wp-menu-image::before {
+	content: '';
+	background: #dc3232;
+	border: 1px solid #1d2327;
+	border-radius: 50%;
+	font-size: 0;
+	height: 6px;
+	width: 6px;
+	left: 22px;
+	position: absolute;
+	top: 7px;
+	display: block;
+	padding: 0;
+	animation: mailster-notice-badge 1s ease;
+	animation-iteration-count: 1;
+}
+.mailster-has-notices
+	#menu-posts-newsletter
+	.wp-has-current-submenu
+	.wp-menu-image::before {
+	animation: none;
+}
+.mailster-close-notices #menu-posts-newsletter .wp-menu-image::before {
+	transform: scale(0);
+	animation-direction: reverse;
+}
+
+/*#adminmenu ul>li:not(:last-child) a[href^="post-new.php?post_type=newsletter"]:after,
+#adminmenu ul>li:not(:last-child) a[href^="edit.php?post_type=newsletter&page=mailster_manage_subscribers"]:after,
+#adminmenu ul>li:not(:last-child) a[href^="edit.php?post_type=newsletter&page=mailster_addons"]:after,
+#adminmenu ul>li:not(:last-child) a[href^="edit.php?post_type=newsletter&page=mailster_lists"]:after,
+#adminmenu ul>li:not(:last-child) a[href^="edit.php?post_status=autoresponder&post_type=newsletter"]:after {
+	border-bottom: 1px solid hsla(0,0%,100%,.2);
+	display: block;
+	float: left;
+	margin: 13px -15px 8px;
+	content: "";
+	width: calc(100% + 30px);
+}
+#adminmenu #menu-posts-newsletter ul.wp-submenu-wrap li {
+	clear: both;
+}*/

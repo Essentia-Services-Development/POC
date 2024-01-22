@@ -1,0 +1,10 @@
+.autocontents{ list-style-type:none; counter-reset:list; }
+.post .autocontents li, .widget .autocontents li{list-style-type:none; margin: 0 0 12px 12px}
+.widget .autocontents li a{color: grey}
+.autocontents li:before{ color:#555; }
+.autocontents li.top{ counter-increment:list; counter-reset:list1; font-size: 105% }
+.autocontents li.top:before{ content:counter(list) '. '; }
+.autocontents li.sub_1{ counter-increment:list1; counter-reset:list2; font-size: 95%  }
+.autocontents li.sub_1:before{ content:counter(list) '.' counter(list1) '. '; }
+.autocontents li.sub_2{ counter-increment:list2; font-size: 90% }
+.autocontents li.sub_2:before{ content:counter(list) '.' counter(list1) '.' counter(list2) '. '; }

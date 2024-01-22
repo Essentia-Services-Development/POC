@@ -1,0 +1,251 @@
+// GLOBAL VARIABLES
+body {
+	--PADD--XS: calc(var(--PADD) / 4);
+	--PADD--SM: calc(var(--PADD) / 2);
+	--PADD: 10px;
+	--PADD--MD: calc(var(--PADD) * 2);
+	--PADD--XL: calc(var(--PADD) * 3);
+
+	--CONTAINER: 1280px;
+
+	--DIVIDER: rgba(70, 77, 87, 0.15);
+	--DIVIDER--LIGHT: rgba(70, 77, 87, 0.1);
+	--DIVIDER--LIGHTEN: rgba(70, 77, 87, 0.05);
+	--DIVIDER--DARK: rgba(70, 77, 87, 0.25);
+	--DIVIDER--R: rgba(255, 255, 255, 0.1);
+	--DIVIDER--R--LIGHT: rgba(255, 255, 255, 0.05);
+
+	--FONT-SIZE: 18px;
+	--MIN-FONT-SIZE: 12px;
+	--LINE-HEIGHT: 1.4;
+
+	--COLOR--PRIMARY: #0085ff;
+	--COLOR--PRIMARY--SHADE: #BBDEFB;
+	--COLOR--PRIMARY--LIGHT: #64B5F6;
+	--COLOR--PRIMARY--ULTRALIGHT: #E3F2FD;
+	--COLOR--PRIMARY--DARK: #016df7;
+
+	--COLOR--ALT: #6ac8d2;
+	--COLOR--ALT--LIGHT: #6ac8d2;
+	--COLOR--ALT--DARK: #6ac8d2;
+
+	--COLOR--GRADIENT--DEG: 0deg;
+	--COLOR--GRADIENT--ONE: var(--COLOR--PRIMARY--LIGHT);
+	--COLOR--GRADIENT--TWO: var(--COLOR--ALT--LIGHT);
+	--COLOR--GRADIENT--TEXT: #fff;
+	--COLOR--GRADIENT--LINKS: rgba(255, 255, 255, 0.8);
+	--COLOR--GRADIENT--LINKS--HOVER: #fff;
+	--COLOR--GRADIENT: linear-gradient(var(--COLOR--GRADIENT--DEG), var(--COLOR--GRADIENT--ONE) 0%, var(--COLOR--GRADIENT--TWO) 100%);
+
+	--COLOR--INFO: #0085ff;
+	--COLOR--INFO--LIGHT: #BBDEFB;
+	--COLOR--INFO--ULTRALIGHT: #E3F2FD;
+	--COLOR--INFO--DARK: #016df7;
+	--COLOR--SUCCESS: #66BB6A;
+	--COLOR--SUCCESS--LIGHT: #C8E6C9;
+	--COLOR--SUCCESS--ULTRALIGHT: #E8F5E9;
+	--COLOR--SUCCESS--DARK: #4CAF50;
+	--COLOR--WARNING: #FFA726;
+	--COLOR--WARNING--LIGHT: #FFE0B2;
+	--COLOR--WARNING--ULTRALIGHT: #FFF3E0;
+	--COLOR--WARNING--DARK: #F57C00;
+	--COLOR--ABORT: #E53935;
+	--COLOR--ABORT--LIGHT: #FFCDD2;
+	--COLOR--ABORT--ULTRALIGHT: #FFEBEE;
+	--COLOR--ABORT--DARK: #D32F2F;
+
+	--COLOR--ONLINE: #00b935;
+
+	--COLOR--APP: #fff;
+	--COLOR--APP--LIGHTGRAY: #fbfbfb;
+	--COLOR--APP--GRAY: #f7f7f7;
+	--COLOR--APP--DARKGRAY: #eee;
+	--COLOR--APP--DARK: #46494f;
+	--COLOR--APP--DARKER: #202124;
+
+	--COLOR--HEADING: #333;
+	--COLOR--TEXT: #494954;
+	--COLOR--TEXT--LIGHT: #91919d;
+	--COLOR--TEXT--LIGHTEN: #b0b0b9;
+	--COLOR--TEXT--INVERT: #fff;
+
+	--BORDER-RADIUS--SM: calc(var(--BORDER-RADIUS) / 2);
+	--BORDER-RADIUS: 6px;
+	--BORDER-RADIUS--MD: calc(var(--BORDER-RADIUS) + (var(--BORDER-RADIUS) / 2));
+	--BORDER-RADIUS--XL: calc(var(--BORDER-RADIUS) * 2);
+	--BORDER-RADIUS--AVATAR: 100%;
+
+	--BOX-SHADOW-DIS: 0;
+	--BOX-SHADOW-BLUR: 0;
+	--BOX-SHADOW-THICKNESS: 1px;
+	--BOX-SHADOW-COLOR: rgba(70, 77, 87, 0.05);
+
+	@if $comp_mode {
+		--BOX-SHADOW-THICKNESS: 1px;
+		--BOX-SHADOW-COLOR: rgba(70, 77, 87, 0.15);
+	}
+
+	--BOX-SHADOW--HARD: 0 var(--BOX-SHADOW-DIS) var(--BOX-SHADOW-BLUR) var(--BOX-SHADOW-THICKNESS) var(--BOX-SHADOW-COLOR);
+	--BOX-SHADOW: 0 1px 2px rgba(70, 77, 87, 0.08);
+	--BOX-SHADOW--MD: 0 0 20px rgba(70, 77, 87, 0.15);
+	--BOX-SHADOW--XL: 0 20px 30px rgba(70, 77, 87, 0.1);
+
+	--INPUT-SHADOW: var(--COLOR--PRIMARY--ULTRALIGHT);
+	--INPUT-SHADOW--IN: var(--COLOR--PRIMARY--LIGHT);
+}
+
+// PEEPSO THEME VARIABLES
+body {
+	--PS-COLOR--PRIMARY: var(--COLOR--PRIMARY);
+	--PS-COLOR--PRIMARY--SHADE: var(--COLOR--PRIMARY--SHADE);
+	--PS-COLOR--PRIMARY--LIGHT: var(--COLOR--PRIMARY--LIGHT);
+	--PS-COLOR--PRIMARY--ULTRALIGHT: var(--COLOR--PRIMARY--ULTRALIGHT);
+	--PS-COLOR--PRIMARY--DARK: var(--COLOR--PRIMARY--DARK);
+	--PS-COLOR--ALT: var(--COLOR--ALT);
+	--PS-COLOR--ALT--LIGHT: var(--COLOR--ALT--LIGHT);
+	--PS-COLOR--ALT--DARK: var(--COLOR--ALT--DARK);
+
+	--PS-COLOR--GRADIENT--DEG: var(--COLOR--GRADIENT--DEG);
+	--PS-COLOR--GRADIENT--ONE: var(--COLOR--GRADIENT--ONE);
+	--PS-COLOR--GRADIENT--TWO: var(--COLOR--GRADIENT--TWO);
+	--PS-COLOR--GRADIENT--TEXT: var(--COLOR--GRADIENT--TEXT);
+	--PS-COLOR--GRADIENT--LINKS: var(--COLOR--GRADIENT--LINKS);
+	--PS-COLOR--GRADIENT--LINKS--HOVER: var(--COLOR--GRADIENT--LINKS--HOVER);
+	--PS-COLOR--GRADIENT: var(--COLOR--GRADIENT);
+
+	--PS-COLOR--INFO: var(--COLOR--INFO);
+	--PS-COLOR--INFO--LIGHT: var(--COLOR--INFO--LIGHT);
+	--PS-COLOR--INFO--ULTRALIGHT: var(--COLOR--INFO--ULTRALIGHT);
+	--PS-COLOR--INFO--DARK: var(--COLOR--INFO--DARK);
+	--PS-COLOR--SUCCESS: var(--COLOR--SUCCESS);
+	--PS-COLOR--SUCCESS--LIGHT: var(--COLOR--SUCCESS--LIGHT);
+	--PS-COLOR--SUCCESS--ULTRALIGHT: var(--COLOR--SUCCESS--ULTRALIGHT);
+	--PS-COLOR--SUCCESS--DARK: var(--COLOR--SUCCESS--DARK);
+	--PS-COLOR--WARNING: var(--COLOR--WARNING);
+	--PS-COLOR--WARNING--LIGHT: var(--COLOR--WARNING--LIGHT);
+	--PS-COLOR--WARNING--ULTRALIGHT: var(--COLOR--WARNING--ULTRALIGHT);
+	--PS-COLOR--WARNING--DARK: var(--COLOR--WARNING--DARK);
+	--PS-COLOR--ABORT: var(--COLOR--ABORT);
+	--PS-COLOR--ABORT--LIGHT: var(--COLOR--ABORT--LIGHT);
+	--PS-COLOR--ABORT--ULTRALIGHT: var(--COLOR--ABORT--ULTRALIGHT);
+	--PS-COLOR--ABORT--DARK: var(--COLOR--ABORT--DARK);
+
+	--PS-COLOR--APP: var(--COLOR--APP);
+	--PS-COLOR--APP--LIGHTGRAY: var(--COLOR--APP--LIGHTGRAY);
+	--PS-COLOR--APP--GRAY: var(--COLOR--APP--GRAY);
+	--PS-COLOR--APP--DARKGRAY: var(--COLOR--APP--DARKGRAY);
+	--PS-COLOR--APP--DARK: var(--COLOR--APP--DARK);
+	--PS-COLOR--APP--DARKER: var(--COLOR--APP--DARKER);
+
+	--PS-COLOR--HEADING: var(--COLOR--HEADING);
+	--PS-COLOR--TEXT: var(--COLOR--TEXT);
+	--PS-COLOR--TEXT--LIGHT: var(--COLOR--TEXT--LIGHT);
+	--PS-COLOR--TEXT--LIGHTEN: var(--COLOR--TEXT--LIGHTEN);
+	--PS-COLOR--TEXT--INVERT: var(--COLOR--TEXT--INVERT);
+
+	--PS-FONT-SIZE: 18px;
+	--PS-FONT-SIZE: var(--FONT-SIZE);
+	--PS-LINE-HEIGHT: 1.4;
+	--PS-LINE-HEIGHT: var(--LINE-HEIGHT);
+	--PS-FONT-FAMILY: inherit;
+
+	--PS-BEAUTIFIER-FONT-SIZE: 16px;
+	--PS-BEAUTIFIER-LINE-HEIGHT: 1.4;
+
+	// DROPDOWN
+	--PS-DROPDOWN-FONT-SIZE: 14px;
+
+	// CUSTOMIZER
+	--c-ps-avatar-style: var(--BORDER-RADIUS--AVATAR);
+
+	--c-ps-btn-bg: var(--PS-COLOR--APP--GRAY);
+	--c-ps-btn-color: var(--PS-COLOR--TEXT);
+	--c-ps-btn-bg-hover: var(--PS-COLOR--APP--DARKGRAY);
+	--c-ps-btn-color-hover: var(--PS-COLOR--TEXT);
+	--c-ps-btn-action-bg: var(--PS-COLOR--PRIMARY);
+	--c-ps-btn-action-color: #fff;
+	--c-ps-btn-action-bg-hover: var(--PS-COLOR--PRIMARY--DARK);
+	--c-ps-btn-action-color-hover: #fff;
+
+	--c-ps-navbar-bg: var(--PS-COLOR--APP);
+	--c-ps-navbar-links-color: var(--PS-COLOR--TEXT--LIGHT);
+	--c-ps-navbar-links-color-hover: var(--PS-COLOR--TEXT);
+	--c-ps-navbar-font-size: 14px;
+	--c-ps-navbar-icons-size: 16px;
+
+	--c-ps-post-gap: var(--PADD--MD);
+	--c-ps-post-font-size: 16px;
+	--c-ps-post-bg: var(--PS-COLOR--APP);
+	--c-ps-post-text-color: var(--PS-COLOR--TEXT);
+	--c-ps-post-text-color-light: var(--PS-COLOR--TEXT--LIGHT);
+
+	--c-ps-post-photo-width: auto;
+	--c-ps-post-photo-limit-width: 100%;
+	--c-ps-post-photo-height: 500px;
+	--c-ps-post-gallery-width: 100%;
+	--c-ps-post-attachment-bg: var(--PS-COLOR--APP--GRAY);
+
+	--c-ps-postbox-bg: var(--PS-COLOR--APP);
+	--c-ps-postbox-text-color: var(--PS-COLOR--TEXT);
+	--c-ps-postbox-text-color-light: var(--PS-COLOR--TEXT--LIGHT);
+	--c-ps-postbox-icons-color: var(--text-color--light);
+	--c-ps-postbox-icons-active-color: var(--PS-COLOR--PRIMARY--LIGHT);
+	--c-ps-postbox-type-bg: #f3f4f5;
+	--c-ps-postbox-type-bg-hover: #ecedee;
+	--c-ps-postbox-type-icons-active-color: var(--c-ps-postbox-icons-active-color);
+	--c-ps-postbox-separator-color: var(--DIVIDER--LIGHT);
+	--c-ps-postbox-dropdown-bg: var(--PS-COLOR--APP);
+	--c-ps-postbox-dropdown-bg-light: var(--PS-COLOR--APP--GRAY);
+	--c-ps-postbox-dropdown-text-color: var(--PS-COLOR--TEXT);
+	--c-ps-postbox-dropdown-icon-color: var(--PS-COLOR--TEXT--LIGHT);
+
+	--c-ps-post-pinned-border-color: var(--DIVIDER);
+	--c-ps-post-pinned-border-size: 3px;
+	--c-ps-post-pinned-text-color: var(--PS-COLOR--TEXT--LIGHTEN);
+
+	--c-ps-post-nsfw-blur: 20px;
+
+	--c-ps-checkbox-border: rgba(0, 0, 0, .1);
+
+	--c-ps-profile-cover-height: 40%;
+	--c-ps-profile-avatar-size: 160px;
+
+	--c-ps-bubble-bg: var(--PS-COLOR--WARNING);
+	--c-ps-bubble-color: #fff;
+	--c-ps-notification-unread-bg: var(--PS-COLOR--PRIMARY--ULTRALIGHT);
+
+	// Group
+	--c-ps-group-focus-cover-height: 40%;
+	--c-ps-group-focus-avatar-size: 160px;
+
+	// Chat
+	--c-ps-chat-window-notif-bg: var(--PS-COLOR--WARNING);
+	--c-ps-chat-message-bg: var(--PS-COLOR--APP--DARKGRAY);
+	--c-ps-chat-message-text-color: var(--PS-COLOR--TEXT);
+	--c-ps-chat-message-bg-me: var(--PS-COLOR--PRIMARY);
+	--c-ps-chat-message-text-color-me: #fff;
+
+	// Polls
+	--c-ps-poll-item-color: var(--PS-COLOR--TEXT);
+	--c-ps-poll-item-bg: var(--PS-COLOR--APP--GRAY);
+	--c-ps-poll-item-bg-fill: var(--PS-COLOR--PRIMARY--SHADE);
+
+	//	Hashtags widget
+	--c-ps-hashtag-bg: var(--PS-COLOR--PRIMARY--ULTRALIGHT);
+	--c-ps-hashtag-color: var(--PS-COLOR--PRIMARY--DARK);
+
+	// Hashtag postbox
+	--c-ps-hashtag-postbox-bg : var(--PS-COLOR--PRIMARY--LIGHT);
+	--c-ps-hashtag-postbox-color : #fff;
+
+	// Landing page image
+	--c-ps-landing-background-color: var(--COLOR--APP--GRAY);
+	--c-ps-landing-image-height-mobile: 60%;
+	--c-ps-landing-image-position-mobile: center;
+	--c-ps-landing-image-size-mobile: cover;
+	--c-ps-landing-image-repeat-mobile: no-repeat;
+	--c-ps-landing-image-height: 40%;
+	--c-ps-landing-image-position: center;
+	--c-ps-landing-image-size: cover;
+	--c-ps-landing-image-repeat: no-repeat;
+}

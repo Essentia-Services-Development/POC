@@ -1,0 +1,276 @@
+.gc-widgets {
+  max-width: 100%;
+  padding-top: var(--PADD--MD);
+  padding-bottom: var(--PADD--MD);
+
+  @include mq($from: desktop) {
+    padding-top: var(--grid-gap);
+    padding-bottom: var(--grid-gap);
+  }
+}
+
+.gc-widgets--top {
+  --visibility: var(--c-gc-widgets-top-vis);
+  --visibility--mobile: var(--c-gc-widgets-top-vis-mobile);
+
+  display: var(--visibility--mobile);
+  padding-top: var(--PADD--MD);
+  padding-bottom: 0;
+
+  @include mq($from: desktop) {
+    display: var(--visibility);
+    padding-top: var(--PADD--XL);
+  }
+}
+
+.gc-widgets--app {
+  padding-top: var(--PADD--MD);
+  padding-bottom: var(--PADD--MD);
+
+  @include mq($from: desktop) {
+    padding-top: var(--PADD--XL);
+    padding-bottom: var(--PADD--XL);
+  }
+}
+
+.gc-widgets--app-top {
+  padding-bottom: 0;
+
+  @include mq($from: desktop) {
+    padding-bottom: 0;
+  }
+}
+
+.gc-widgets--app-bottom {
+  padding-top: 0;
+
+  @include mq($from: desktop) {
+    padding-top: 0;
+  }
+}
+
+.gc-sticky__bar {
+  --bar-bg: var(--GC-COLOR--APP);
+  --divider: var(--DIVIDER--LIGHT);
+
+  position: relative;
+  padding-top: var(--bar-padding);
+  padding-bottom: var(--bar-padding);
+  padding-left: 0;
+  padding-right: 0;
+  font-size: var(--bar-font-size);
+  color: var(--bar-text-color);
+  background-color: var(--bar-bg);
+  box-shadow: var(--bar-shadow);
+
+  a {
+    color: var(--bar-link-color);
+
+    &:hover,
+    &:focus {
+      color: var(--bar-link-color--hover);
+    }
+  }
+
+  p {
+    color: var(--bar-text-color);
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  .gc-widget {
+    --text-color: var(--bar-text-color);
+
+    padding: 0;
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+  }
+
+  .gc-widgets {
+    @include mq($until: desktop) {
+      padding-top: 0;
+      padding-bottom: 0;
+    }
+  }
+
+  .psw-userbar {
+    padding-top: var(--PADD--SM);
+    padding-bottom: var(--PADD--SM);
+  }
+
+  @include mq($until: desktop) {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+.gc-sticky__bar--full {
+  .gc-widgets__inner {
+    max-width: 100%;
+  }
+}
+
+.gc-sticky__bar--above-header {
+  --bar-bg: var(--c-gc-sticky-bar-above-bg);
+  --bar-text-color: var(--c-gc-sticky-bar-above-text-color);
+  --bar-link-color: var(--c-gc-sticky-bar-above-link-color);
+  --bar-link-color--hover: var(--c-gc-sticky-bar-above-link-color-hover);
+  --bar-padding: var(--c-gc-sticky-bar-above-add-padd);
+  --bar-font-size: var(--c-gc-sticky-bar-above-font-size);
+  --bar-shadow: 0 1px 0 var(--divider);
+  --visibility: var(--c-gc-sticky-bar-above-vis);
+  --visibility--mobile: var(--c-gc-sticky-bar-above-vis-mobile);
+
+  display: var(--visibility--mobile);
+
+  @include mq($from: desktop) {
+    display: var(--visibility);
+  }
+}
+
+.gc-sticky__bar--under-header {
+  --bar-bg: var(--c-gc-sticky-bar-under-bg);
+  --bar-text-color: var(--c-gc-sticky-bar-under-text-color);
+  --bar-link-color: var(--c-gc-sticky-bar-under-link-color);
+  --bar-link-color--hover: var(--c-gc-sticky-bar-under-link-color-hover);
+  --bar-padding: var(--c-gc-sticky-bar-under-add-padd);
+  --bar-font-size: var(--c-gc-sticky-bar-under-font-size);
+  --bar-shadow: 0 -1px 0 var(--divider);
+  --visibility: var(--c-gc-sticky-bar-under-vis);
+  --visibility--mobile: var(--c-gc-sticky-bar-under-vis-mobile);
+
+  display: var(--visibility--mobile);
+
+  @include mq($from: desktop) {
+    display: var(--visibility);
+  }
+}
+
+.gc-sticky__bar--mobile {
+  --bar-bg: var(--c-gc-sticky-bar-mobile-bg);
+  --bar-text-color: var(--c-gc-sticky-bar-mobile-text-color);
+  --bar-link-color: var(--c-gc-sticky-bar-mobile-link-color);
+  --bar-link-color--hover: var(--c-gc-sticky-bar-mobile-link-color-hover);
+  --bar-padding: var(--c-gc-sticky-bar-mobile-add-padd);
+  --bar-font-size: var(--c-gc-sticky-bar-mobile-font-size);
+  --bar-shadow: 0 -1px 0 var(--divider);
+}
+
+/* TEMPORARY TWEAK */
+.gc-sticky__bar--mobile .psw-userbar {
+  padding-left: 15px;
+	border-top: 1px solid var(--DIVIDER--LIGHT);
+}
+
+.gc-sticky__bar--mobile .psw-userbar__inner {
+  width: 100%;
+}
+
+.gc-sticky__bar--mobile .psw-userbar__user {
+  width: 100%;
+}
+
+.gc-sticky__bar--mobile .psw-userbar__name {
+  padding-left: 0;
+}
+
+.gc-sticky__bar--mobile .ps-notifs {
+  margin-left: auto;
+}
+
+.gc-sticky__bar--mobile .ps-notif {
+	margin: 0;
+  border-left: 1px solid var(--DIVIDER--LIGHT);
+}
+
+.gc-sticky__bar--mobile .ps-notif__toggle {
+  padding: var(--PADD--MD);
+}
+
+.gc-sticky__bar--mobile .ps-notif__bubble {
+  top: var(--PADD);
+}
+/* end of: TEMPORARY TWEAK */
+
+.gc-widgets--above-content {
+  --visibility: var(--c-gc-widgets-above-content-vis);
+  --visibility--mobile: var(--c-gc-widgets-above-content-vis-mobile);
+
+  display: var(--visibility--mobile);
+  grid-area: above-content;
+  padding-top: 0;
+  padding-bottom: var(--PADD--MD);
+
+  @include mq($from: desktop) {
+    display: var(--visibility);
+  }
+
+  // WP Story slider
+  .wpstory-slider-container-free-mode>.wpstory-slider-wrapper {
+    max-width: 500px;
+    margin-left: 0;
+  }
+
+  .wpstory-shortcode-wrapper {
+    margin-bottom: 0;
+  }
+}
+
+.gc-widgets--under-content {
+  --visibility: var(--c-gc-widgets-under-content-vis);
+  --visibility--mobile: var(--c-gc-widgets-under-content-vis-mobile);
+
+  display: var(--visibility--mobile);
+  grid-area: under-content;
+  order: 1;
+  padding-top: 0;
+  padding-bottom: var(--PADD--MD);
+
+  @include mq($from: desktop) {
+    display: var(--visibility);
+    padding-top: var(--PADD--MD);
+    padding-bottom: 0;
+  }
+}
+
+.gc-widgets--bottom {
+  --visibility: var(--c-gc-widgets-bottom-vis);
+  --visibility--mobile: var(--c-gc-widgets-bottom-vis-mobile);
+
+  display: var(--visibility--mobile);
+  padding-top: 0;
+  padding-bottom: var(--PADD--MD);
+
+  @include mq($from: desktop) {
+    display: var(--visibility);
+  }
+}
+
+.gc-widgets__inner {
+  @extend %container;
+
+  @include mq($until: desktop) {
+    .peepso-sts & {
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
+}
+
+.gc-widgets__grid {
+  @include mq($from: desktop) {
+    display: grid;
+    grid-gap: var(--PADD--XL);
+
+    .gc-widgets--top & {
+      grid-template-columns: repeat(var(--c-gc-widgets-top-col), 1fr);
+    }
+
+    .gc-widgets--bottom & {
+      grid-template-columns: repeat(var(--c-gc-widgets-bottom-col), 1fr);
+    }
+  }
+}

@@ -1,0 +1,49 @@
+.psw-login {}
+
+.psw-login--horizontal {
+  .ps-form--login {
+    display: grid;
+    grid-row-gap: var(--PADD);
+    grid-column-gap: var(--PADD);
+    grid-template-areas:
+      "one two three"
+      "four four four";
+
+    .ps-form__row--username {
+      grid-area: one;
+    }
+
+    .ps-form__row--password {
+      grid-area: two;
+    }
+
+    .ps-form__row--submit {
+      grid-area: three;
+    }
+
+    .ps-form__row--remember {
+      grid-area: four;
+    }
+  }
+
+  .psf-login__links {
+    margin-top: 0;
+
+    .psf-login__link {
+      display: inline-block;
+
+      @if $rtl {
+        margin-left: var(--PADD--SM);
+      } @else {
+        margin-right: var(--PADD--SM);
+      }
+
+      &:last-child {
+        margin-left: 0;
+        margin-right: 0;
+      }
+    }
+  }
+}
+
+.psw-login--vertical {}

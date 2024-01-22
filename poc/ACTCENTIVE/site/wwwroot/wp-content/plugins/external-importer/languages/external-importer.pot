@@ -1,0 +1,1354 @@
+# Copyright (C) 2020 External Importer
+# This file is distributed under the same license as the External Importer package.
+msgid ""
+msgstr ""
+"Project-Id-Version: External Importer 1.0.0\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/support/plugin/external-importer\n"
+"POT-Creation-Date: 2020-10-06 07:28:01+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2020-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: application/Autoupdate.php:83
+msgid "New version of %s plugin."
+msgstr ""
+
+#: application/Autoupdate.php:84
+msgid ""
+"Please <a target=\"_blank\" href=\"%s\">find here</a> the releases notes."
+msgstr ""
+
+#: application/ExternalImage.php:162
+msgid "External featured image"
+msgstr ""
+
+#: application/GalleryScheduler.php:82
+msgid "Every 15 minutes"
+msgstr ""
+
+#: application/SyncScheduler.php:96
+msgid "Every 10 minutes"
+msgstr ""
+
+#: application/admin/AdminNotice.php:23
+msgid "Auto import has been saved successfully."
+msgstr ""
+
+#: application/admin/AdminNotice.php:23
+#: application/admin/AutoimportTable.php:46
+msgid "Run now"
+msgstr ""
+
+#: application/admin/AdminNotice.php:24
+msgid "An unexpected error occurred."
+msgstr ""
+
+#: application/admin/AdminNotice.php:25
+msgid "Session variables have been cleared"
+msgstr ""
+
+#: application/admin/AutoimportController.php:32
+#: application/admin/AutoimportController.php:115
+#: application/admin/views/autoimport_index.php:27
+msgid "Auto import"
+msgstr ""
+
+#: application/admin/AutoimportController.php:33
+#: application/admin/views/autoimport_edit.php:7
+msgid "Create auto import"
+msgstr ""
+
+#: application/admin/AutoimportController.php:82
+msgid "Error: %s"
+msgstr ""
+
+#: application/admin/AutoimportController.php:109
+msgid "Autoimport is not found"
+msgstr ""
+
+#: application/admin/AutoimportController.php:136
+msgid "Listing URL is required field."
+msgstr ""
+
+#: application/admin/AutoimportController.php:139
+msgid "The Listing URL is not valid."
+msgstr ""
+
+#: application/admin/AutoimportTable.php:40
+msgid "(no title)"
+msgstr ""
+
+#: application/admin/AutoimportTable.php:45
+#: application/admin/AutoimportTable.php:49
+msgid "Edit"
+msgstr ""
+
+#: application/admin/AutoimportTable.php:47
+#: application/admin/MyListTable.php:135
+msgid "Delete"
+msgstr ""
+
+#: application/admin/AutoimportTable.php:58
+msgid "throttled"
+msgstr ""
+
+#: application/admin/AutoimportTable.php:71
+#: application/admin/ParserConfig.php:89
+#: application/admin/views/_metabox_autoimport.php:20
+msgid "Enabled"
+msgstr ""
+
+#: application/admin/AutoimportTable.php:73
+#: application/admin/ParserConfig.php:90 application/admin/SyncConfig.php:57
+#: application/admin/WooConfig.php:95 application/admin/WooConfig.php:110
+#: application/admin/WooConfig.php:123 application/admin/WooConfig.php:184
+#: application/admin/views/_metabox_autoimport.php:21
+msgid "Disabled"
+msgstr ""
+
+#: application/admin/DeeplinkConfig.php:32
+#: application/admin/DeeplinkConfig.php:44
+msgid "Deeplinks"
+msgstr ""
+
+#: application/admin/DeeplinkConfig.php:37
+msgid "Deeplink settings"
+msgstr ""
+
+#: application/admin/DeeplinkConfig.php:45
+msgid "Add deeplinks."
+msgstr ""
+
+#: application/admin/DeeplinkConfig.php:70
+#: application/admin/ParserConfig.php:153
+msgid "Domain name"
+msgstr ""
+
+#: application/admin/DeeplinkConfig.php:74
+msgid "Deeplink or affiliate parameter"
+msgstr ""
+
+#: application/admin/DevController.php:35
+#: application/admin/views/dev_index.php:4
+msgid "Dev tools"
+msgstr ""
+
+#: application/admin/DropshippingConfig.php:32
+msgid "Dropshipping"
+msgstr ""
+
+#: application/admin/DropshippingConfig.php:37
+msgid "Dropshipping settings"
+msgstr ""
+
+#: application/admin/DropshippingConfig.php:44
+msgid "Pricing rules"
+msgstr ""
+
+#: application/admin/DropshippingConfig.php:54
+msgid "Rounded pricing"
+msgstr ""
+
+#: application/admin/DropshippingConfig.php:57
+msgid "Precise price"
+msgstr ""
+
+#: application/admin/DropshippingConfig.php:58
+msgid "Round"
+msgstr ""
+
+#: application/admin/DropshippingConfig.php:59
+msgid "Round up"
+msgstr ""
+
+#: application/admin/DropshippingConfig.php:60
+msgid "Round down"
+msgstr ""
+
+#: application/admin/DropshippingConfig.php:65
+msgid "Round precision"
+msgstr ""
+
+#: application/admin/DropshippingConfig.php:68
+msgid "Without pennies"
+msgstr ""
+
+#: application/admin/DropshippingConfig.php:69
+msgid "Round to 10 pennies"
+msgstr ""
+
+#: application/admin/DropshippingConfig.php:70
+msgid "With pennies"
+msgstr ""
+
+#: application/admin/DropshippingConfig.php:75
+msgid "Old price"
+msgstr ""
+
+#: application/admin/DropshippingConfig.php:77
+msgid "Apply the rules to old prices also"
+msgstr ""
+
+#: application/admin/DropshippingConfig.php:78
+msgid "If not selected old prices will not be imported."
+msgstr ""
+
+#: application/admin/DropshippingConfig.php:83
+#: application/admin/WooConfig.php:49
+msgid "Product type"
+msgstr ""
+
+#: application/admin/DropshippingConfig.php:86
+msgid "Apply to simple products"
+msgstr ""
+
+#: application/admin/DropshippingConfig.php:87
+msgid "Apply to external products"
+msgstr ""
+
+#: application/admin/DropshippingConfig.php:88
+msgid "Apply to any type of product"
+msgstr ""
+
+#: application/admin/DropshippingConfig.php:116
+msgid "Domain name (optional)"
+msgstr ""
+
+#: application/admin/DropshippingConfig.php:120
+#: application/admin/DropshippingConfig.php:124
+msgid "Price from (optional)"
+msgstr ""
+
+#: application/admin/DropshippingConfig.php:130
+msgid "Percentage"
+msgstr ""
+
+#: application/admin/DropshippingConfig.php:131
+msgid "Flat ammount"
+msgstr ""
+
+#: application/admin/DropshippingConfig.php:136
+msgid "Margin value (required)"
+msgstr ""
+
+#: application/admin/FrontendConfig.php:29
+msgid "Frontend"
+msgstr ""
+
+#: application/admin/FrontendConfig.php:34
+msgid "Frontend Settings"
+msgstr ""
+
+#: application/admin/FrontendConfig.php:40
+msgid "Last updated on %s"
+msgstr ""
+
+#: application/admin/FrontendConfig.php:41
+msgid "Details"
+msgstr ""
+
+#: application/admin/FrontendConfig.php:42
+msgid "Disclosure"
+msgstr ""
+
+#: application/admin/FrontendConfig.php:50
+msgid "Update date"
+msgstr ""
+
+#: application/admin/FrontendConfig.php:51
+msgid "Show update date"
+msgstr ""
+
+#: application/admin/FrontendConfig.php:56
+#: application/admin/FrontendConfig.php:57
+msgid "Show disclaimer"
+msgstr ""
+
+#: application/admin/FrontendConfig.php:62
+msgid "Disclaimer text"
+msgstr ""
+
+#: application/admin/FrontendConfig.php:64
+msgid ""
+"As an %PRODUCT.domain% associate I earn from qualifying purchases. Product "
+"prices and availability are accurate as of the date/time indicated and are "
+"subject to change. Any price and availability information displayed on "
+"%PRODUCT.domain% at the time of purchase will apply to the purchase of this "
+"product."
+msgstr ""
+
+#: application/admin/FrontendConfig.php:70
+msgid "Buy button text"
+msgstr ""
+
+#: application/admin/FrontendConfig.php:71
+msgid "Overwrite the button text for external products."
+msgstr ""
+
+#: application/admin/FrontendConfig.php:71
+msgid "You can use tags: %s."
+msgstr ""
+
+#: application/admin/FrontendConfig.php:79
+msgid "Local redirect"
+msgstr ""
+
+#: application/admin/FrontendConfig.php:80
+msgid "Enable local redirect for affiliate links"
+msgstr ""
+
+#: application/admin/FrontendConfig.php:85
+msgid "Redirect status"
+msgstr ""
+
+#: application/admin/FrontendConfig.php:86
+msgid "HTTP status code to use."
+msgstr ""
+
+#: application/admin/FrontendConfig.php:101
+#: application/admin/FrontendConfig.php:110
+msgid "Redirect prefix"
+msgstr ""
+
+#: application/admin/FrontendConfig.php:102
+msgid "Custom prefix for redirected links."
+msgstr ""
+
+#: application/admin/FrontendConfig.php:110
+msgid "The field \"%s\" can contain only latin letters and digits."
+msgstr ""
+
+#: application/admin/FrontendConfig.php:115
+msgid "Frontend texts"
+msgstr ""
+
+#: application/admin/FrontendConfig.php:118
+msgid "Translation"
+msgstr ""
+
+#: application/admin/FrontendConfig.php:148
+msgid "Translated string"
+msgstr ""
+
+#: application/admin/GeneralConfig.php:29
+msgid "General"
+msgstr ""
+
+#: application/admin/GeneralConfig.php:34
+msgid "Settings"
+msgstr ""
+
+#: application/admin/GeneralConfig.php:41
+msgid "Email alerts"
+msgstr ""
+
+#: application/admin/GeneralConfig.php:42
+msgid ""
+"This options allows you to specify which types of alerts you want to receive "
+"to admin email."
+msgstr ""
+
+#: application/admin/GeneralConfig.php:45
+msgid "Errors only"
+msgstr ""
+
+#: application/admin/GeneralConfig.php:46
+msgid "Warnings and Errors only"
+msgstr ""
+
+#: application/admin/GeneralConfig.php:47
+#: application/admin/GeneralConfig.php:57 application/admin/LogTable.php:105
+msgid "All"
+msgstr ""
+
+#: application/admin/GeneralConfig.php:48
+msgid "None"
+msgstr ""
+
+#: application/admin/GeneralConfig.php:53
+msgid "Log alerts"
+msgstr ""
+
+#: application/admin/GeneralConfig.php:54
+msgid ""
+"This options allows you to specify which types of alerts you want to log to "
+"DB."
+msgstr ""
+
+#: application/admin/GeneralConfig.php:58
+msgid "All without debug"
+msgstr ""
+
+#: application/admin/GeneralConfig.php:63
+msgid "Fixer API key"
+msgstr ""
+
+#: application/admin/GeneralConfig.php:64
+msgid ""
+"Set this if you want to use <a target=\"_blank\" href=\"%s\">Fixer.io</a> "
+"exchange rates."
+msgstr ""
+
+#: application/admin/ImportController.php:34
+#: application/admin/views/import.php:2
+msgid "Product Import"
+msgstr ""
+
+#: application/admin/ImportController.php:84
+msgid ""
+"Please install <a target=\"_blank\" href=\"%s\">WooCommerce plugin</a> so "
+"you can import products."
+msgstr ""
+
+#: application/admin/LicConfig.php:32
+msgid "License"
+msgstr ""
+
+#: application/admin/LicConfig.php:39
+msgid "License key"
+msgstr ""
+
+#: application/admin/LicConfig.php:40
+msgid "Please enter a valid license key."
+msgstr ""
+
+#: application/admin/LicConfig.php:40
+msgid "You can find your key on the %s page."
+msgstr ""
+
+#: application/admin/LicConfig.php:47
+msgid "The field \"%s\" can not be empty."
+msgstr ""
+
+#: application/admin/LicConfig.php:51
+msgid "Invalid License key."
+msgstr ""
+
+#: application/admin/LicConfig.php:55
+msgid "License key is not accepted."
+msgstr ""
+
+#: application/admin/LicConfig.php:55
+msgid "Please try again."
+msgstr ""
+
+#: application/admin/LicConfig.php:55
+msgid ""
+"If you are still having trouble with your License key please <a href=\"%s\" "
+"target=\"_blank\">contact</a> our support team."
+msgstr ""
+
+#: application/admin/LogController.php:42
+msgid "Logs"
+msgstr ""
+
+#: application/admin/MyListTable.php:108
+msgid "ago"
+msgstr ""
+
+#: application/admin/ParserConfig.php:33
+msgid "Extractor"
+msgstr ""
+
+#: application/admin/ParserConfig.php:38
+msgid "Extractor settings"
+msgstr ""
+
+#: application/admin/ParserConfig.php:45
+msgid "Respect robots.txt"
+msgstr ""
+
+#: application/admin/ParserConfig.php:46
+msgid "Read and respect robots.txt rules"
+msgstr ""
+
+#: application/admin/ParserConfig.php:51
+msgid "Sessions"
+msgstr ""
+
+#: application/admin/ParserConfig.php:52
+msgid "Keep session alive"
+msgstr ""
+
+#: application/admin/ParserConfig.php:53
+msgid "Save cookies between requests."
+msgstr ""
+
+#: application/admin/ParserConfig.php:54
+msgid "Clear session variables"
+msgstr ""
+
+#: application/admin/ParserConfig.php:59
+msgid "Daily limit"
+msgstr ""
+
+#: application/admin/ParserConfig.php:60
+msgid "The maximum number of requests for each store. 0 - unlimited."
+msgstr ""
+
+#: application/admin/ParserConfig.php:61
+msgid ""
+"If the limit is reached, then all automatic requests to the store will be "
+"throttled until the end of the day."
+msgstr ""
+
+#: application/admin/ParserConfig.php:71
+msgid "Throttle for 1 hour"
+msgstr ""
+
+#: application/admin/ParserConfig.php:72
+msgid ""
+"Throttle all automatic requests to the store for 1 hour if %d errors occur"
+msgstr ""
+
+#: application/admin/ParserConfig.php:78
+msgid "Throttle for 24 hours"
+msgstr ""
+
+#: application/admin/ParserConfig.php:79
+msgid ""
+"Throttle all automatic requests to the store for 24 hours if %d errors occur"
+msgstr ""
+
+#: application/admin/ParserConfig.php:85
+msgid "Affiliate Egg integration"
+msgstr ""
+
+#: application/admin/ParserConfig.php:86
+msgid ""
+"Use <a target=\"_blank\" href=\"%s\">Affiliate Egg</a> parsers if possible."
+msgstr ""
+
+#: application/admin/ParserConfig.php:95
+msgid "Proxy list"
+msgstr ""
+
+#: application/admin/ParserConfig.php:96
+msgid "Сomma-separated list of proxies in the form of %s, eg: %s"
+msgstr ""
+
+#: application/admin/ParserConfig.php:107
+msgid "Proxy whitelist domains"
+msgstr ""
+
+#: application/admin/ParserConfig.php:108
+msgid "Сomma-separated list of domains for which to use proxies, eg: %s"
+msgstr ""
+
+#: application/admin/ParserConfig.php:119
+msgid "Custom cookies"
+msgstr ""
+
+#: application/admin/ParserConfig.php:136
+#: application/admin/ParserConfig.php:137
+#: application/admin/ParserConfig.php:138
+msgid "Currently throttled domains: %s."
+msgstr ""
+
+#: application/admin/ParserConfig.php:157
+msgid "Cookies"
+msgstr ""
+
+#: application/admin/PluginAdmin.php:75
+msgid "Are you sure?"
+msgstr ""
+
+#: application/admin/StatMetabox.php:36
+msgid "Product synchronization"
+msgstr ""
+
+#: application/admin/StatMetabox.php:50
+msgid "View"
+msgstr ""
+
+#: application/admin/StatMetabox.php:53
+msgid "Sync now"
+msgstr ""
+
+#: application/admin/StatMetabox.php:99
+msgid "Last updated:"
+msgstr ""
+
+#: application/admin/StatMetabox.php:102
+msgid "Status:"
+msgstr ""
+
+#: application/admin/StatMetabox.php:105
+msgid "Error"
+msgstr ""
+
+#: application/admin/StatMetabox.php:107
+msgid "Status code:"
+msgstr ""
+
+#: application/admin/StatMetabox.php:109
+msgid "Success"
+msgstr ""
+
+#: application/admin/StatMetabox.php:113
+msgid "Availability:"
+msgstr ""
+
+#: application/admin/StatMetabox.php:115
+#: application/admin/views/_products.php:92
+msgid "In stock"
+msgstr ""
+
+#: application/admin/StatMetabox.php:118
+#: application/admin/views/_products.php:92
+msgid "Out of stock"
+msgstr ""
+
+#: application/admin/StatMetabox.php:120
+msgid "Last in stock:"
+msgstr ""
+
+#: application/admin/StatMetabox.php:125
+msgid "Currently throttled"
+msgstr ""
+
+#: application/admin/SyncConfig.php:31
+msgid "Synchronization"
+msgstr ""
+
+#: application/admin/SyncConfig.php:36
+msgid "Synchronization Settings"
+msgstr ""
+
+#: application/admin/SyncConfig.php:43
+msgid "Update mode"
+msgstr ""
+
+#: application/admin/SyncConfig.php:44
+msgid ""
+"Frontend synchronization will activate the product update when any visitor "
+"navigates on a product details page."
+msgstr ""
+
+#: application/admin/SyncConfig.php:45
+msgid "Cron synchronization will run on schedule in the background."
+msgstr ""
+
+#: application/admin/SyncConfig.php:48
+msgid "Frontend synchronization"
+msgstr ""
+
+#: application/admin/SyncConfig.php:49
+msgid "Cron synchronization"
+msgstr ""
+
+#: application/admin/SyncConfig.php:54
+msgid "Update period"
+msgstr ""
+
+#: application/admin/SyncConfig.php:58
+#: application/admin/views/_metabox_autoimport.php:45
+msgid "Once a day"
+msgstr ""
+
+#: application/admin/SyncConfig.php:59 application/admin/SyncConfig.php:60
+#: application/admin/SyncConfig.php:61 application/admin/SyncConfig.php:62
+#: application/admin/SyncConfig.php:63 application/admin/SyncConfig.php:64
+#: application/admin/SyncConfig.php:65 application/admin/SyncConfig.php:66
+#: application/admin/SyncConfig.php:67 application/admin/SyncConfig.php:68
+#: application/admin/SyncConfig.php:69 application/admin/SyncConfig.php:70
+#: application/admin/views/_metabox_autoimport.php:46
+#: application/admin/views/_metabox_autoimport.php:48
+msgid "Every %d days"
+msgstr ""
+
+#: application/admin/SyncConfig.php:81 application/admin/WooConfig.php:142
+msgid "Price"
+msgstr ""
+
+#: application/admin/SyncConfig.php:82
+msgid "Update price"
+msgstr ""
+
+#: application/admin/SyncConfig.php:87 application/admin/WooConfig.php:149
+msgid "Regular price"
+msgstr ""
+
+#: application/admin/SyncConfig.php:88
+msgid "Update regular price"
+msgstr ""
+
+#: application/admin/SyncConfig.php:99 application/admin/WooConfig.php:156
+msgid "Stock status"
+msgstr ""
+
+#: application/admin/SyncConfig.php:100
+msgid "Update stock status"
+msgstr ""
+
+#: application/admin/SyncConfig.php:105
+msgid "Out of Stock products"
+msgstr ""
+
+#: application/admin/SyncConfig.php:106
+msgid "How to deal with Out of Stock products"
+msgstr ""
+
+#: application/admin/SyncConfig.php:109
+msgid "Do nothing"
+msgstr ""
+
+#: application/admin/SyncConfig.php:110
+msgid "Hide product price"
+msgstr ""
+
+#: application/admin/SyncConfig.php:111
+msgid "Set Catalog Visibility to Hidden"
+msgstr ""
+
+#: application/admin/SyncConfig.php:112
+msgid "Move product to trash"
+msgstr ""
+
+#: application/admin/SyncConfig.php:113 application/admin/SyncConfig.php:114
+msgid "Move product to trash if unavailable for %d days"
+msgstr ""
+
+#: application/admin/SyncConfig.php:119
+msgid "Delete attached media"
+msgstr ""
+
+#: application/admin/SyncConfig.php:120
+msgid "Delete products with attachments"
+msgstr ""
+
+#: application/admin/SyncConfig.php:121
+msgid ""
+"When deleting a product, also delete the product gallery and featured image. "
+"Make sure you do not use attachments in other posts."
+msgstr ""
+
+#: application/admin/SyncConfig.php:126
+msgid "Published products"
+msgstr ""
+
+#: application/admin/SyncConfig.php:127
+msgid "Only update published products"
+msgstr ""
+
+#: application/admin/WooConfig.php:30 application/admin/views/_products.php:105
+msgid "Import"
+msgstr ""
+
+#: application/admin/WooConfig.php:35
+msgid "Import Settings"
+msgstr ""
+
+#: application/admin/WooConfig.php:42
+msgid "Avoid duplicates"
+msgstr ""
+
+#: application/admin/WooConfig.php:43
+msgid "Avoid importing duplicate products"
+msgstr ""
+
+#: application/admin/WooConfig.php:46 application/admin/WooConfig.php:57
+#: application/admin/WooConfig.php:68 application/admin/WooConfig.php:81
+#: application/admin/WooConfig.php:88 application/admin/WooConfig.php:100
+#: application/admin/WooConfig.php:113 application/admin/WooConfig.php:126
+#: application/admin/WooConfig.php:139 application/admin/WooConfig.php:146
+#: application/admin/WooConfig.php:153 application/admin/WooConfig.php:174
+#: application/admin/WooConfig.php:187 application/admin/WooConfig.php:200
+#: application/admin/WooConfig.php:207 application/admin/WooConfig.php:214
+#: application/admin/WooConfig.php:227 application/admin/WooConfig.php:240
+#: application/admin/WooConfig.php:251 application/admin/WooConfig.php:258
+msgid "General settings"
+msgstr ""
+
+#: application/admin/WooConfig.php:50
+msgid ""
+"External/affiliate products cannot be added to cart. Instead, customers will "
+"click your affiliate link to visit merchant's website."
+msgstr ""
+
+#: application/admin/WooConfig.php:53
+msgid "External/Affiliate product"
+msgstr ""
+
+#: application/admin/WooConfig.php:54
+msgid "Simple product"
+msgstr ""
+
+#: application/admin/WooConfig.php:60
+msgid "Product status"
+msgstr ""
+
+#: application/admin/WooConfig.php:63
+msgid "Published"
+msgstr ""
+
+#: application/admin/WooConfig.php:64
+msgid "Pending Review"
+msgstr ""
+
+#: application/admin/WooConfig.php:65
+msgid "Draft"
+msgstr ""
+
+#: application/admin/WooConfig.php:71
+msgid "Catalog visibility"
+msgstr ""
+
+#: application/admin/WooConfig.php:72
+msgid "This setting determines which shop pages products will be listed on."
+msgstr ""
+
+#: application/admin/WooConfig.php:75
+msgid "Shop and search results"
+msgstr ""
+
+#: application/admin/WooConfig.php:76
+msgid "Shop only"
+msgstr ""
+
+#: application/admin/WooConfig.php:77
+msgid "Search results only"
+msgstr ""
+
+#: application/admin/WooConfig.php:78
+msgid "Hidden"
+msgstr ""
+
+#: application/admin/WooConfig.php:84
+#: application/admin/views/_metabox_autoimport.php:68
+#: application/admin/views/_products.php:19
+msgid "Default category"
+msgstr ""
+
+#: application/admin/WooConfig.php:91
+msgid "Dynamic categories"
+msgstr ""
+
+#: application/admin/WooConfig.php:92
+msgid "Create category automatically from product data (if possible)."
+msgstr ""
+
+#: application/admin/WooConfig.php:96
+msgid "Create category"
+msgstr ""
+
+#: application/admin/WooConfig.php:97
+msgid "Create nested categories"
+msgstr ""
+
+#: application/admin/WooConfig.php:103
+msgid "Image"
+msgstr ""
+
+#: application/admin/WooConfig.php:104
+msgid "Import product image or use external image URL."
+msgstr ""
+
+#: application/admin/WooConfig.php:107
+msgid "Import image to local media library"
+msgstr ""
+
+#: application/admin/WooConfig.php:108
+msgid "Use external image and local image has priority"
+msgstr ""
+
+#: application/admin/WooConfig.php:109
+msgid "Use external image and external image has priority"
+msgstr ""
+
+#: application/admin/WooConfig.php:116
+msgid "Description"
+msgstr ""
+
+#: application/admin/WooConfig.php:120
+msgid "Import description field as short description"
+msgstr ""
+
+#: application/admin/WooConfig.php:121
+msgid "Import description field as full description"
+msgstr ""
+
+#: application/admin/WooConfig.php:122
+msgid "Auto (depending on the size in characters)"
+msgstr ""
+
+#: application/admin/WooConfig.php:129
+msgid "Truncate description"
+msgstr ""
+
+#: application/admin/WooConfig.php:130
+msgid "Max character length in description. 0 - no limit."
+msgstr ""
+
+#: application/admin/WooConfig.php:143
+msgid "Import price"
+msgstr ""
+
+#: application/admin/WooConfig.php:150
+msgid "Import regular price"
+msgstr ""
+
+#: application/admin/WooConfig.php:157
+msgid "Import stock status"
+msgstr ""
+
+#: application/admin/WooConfig.php:160
+msgid "Simple products"
+msgstr ""
+
+#: application/admin/WooConfig.php:163
+msgid "Product URL"
+msgstr ""
+
+#: application/admin/WooConfig.php:164
+msgid "Import product URL"
+msgstr ""
+
+#: application/admin/WooConfig.php:167 application/admin/WooConfig.php:274
+msgid "External products"
+msgstr ""
+
+#: application/admin/WooConfig.php:170 application/admin/views/_products.php:84
+msgid "Attributes"
+msgstr ""
+
+#: application/admin/WooConfig.php:171
+msgid "Import attributes"
+msgstr ""
+
+#: application/admin/WooConfig.php:177 application/admin/views/_products.php:90
+msgid "Gallery images"
+msgstr ""
+
+#: application/admin/WooConfig.php:178
+msgid "Import gallery images or use external images."
+msgstr ""
+
+#: application/admin/WooConfig.php:181
+msgid "Import gallery to local media library"
+msgstr ""
+
+#: application/admin/WooConfig.php:182
+msgid "Use external images and local images take priority"
+msgstr ""
+
+#: application/admin/WooConfig.php:183
+msgid "Use external images and external images take priority"
+msgstr ""
+
+#: application/admin/WooConfig.php:190
+msgid "Number of gallery images"
+msgstr ""
+
+#: application/admin/WooConfig.php:191
+msgid ""
+"Select how many gallery images you want to import. 0 - all. Note, maximum 9 "
+"gallery images will be available if you use external images."
+msgstr ""
+
+#: application/admin/WooConfig.php:203
+msgid "User reviews"
+msgstr ""
+
+#: application/admin/WooConfig.php:204
+msgid "Import user reviews"
+msgstr ""
+
+#: application/admin/WooConfig.php:210
+msgid "Reviews rating"
+msgstr ""
+
+#: application/admin/WooConfig.php:211
+msgid "Import reviews rating"
+msgstr ""
+
+#: application/admin/WooConfig.php:217
+msgid "Number of reviews"
+msgstr ""
+
+#: application/admin/WooConfig.php:218
+msgid "Select how many reviews you want to import. 0 - all."
+msgstr ""
+
+#: application/admin/WooConfig.php:230
+msgid "Truncate reviews"
+msgstr ""
+
+#: application/admin/WooConfig.php:231
+msgid "Max character length in reviews. 0 - no limit."
+msgstr ""
+
+#: application/admin/WooConfig.php:243
+msgid "Tags"
+msgstr ""
+
+#: application/admin/WooConfig.php:244
+msgid "Add a comma separated list of tags."
+msgstr ""
+
+#: application/admin/WooConfig.php:245 application/admin/WooConfig.php:256
+msgid "You can use product data %s."
+msgstr ""
+
+#: application/admin/WooConfig.php:254
+msgid "Custom fields"
+msgstr ""
+
+#: application/admin/WooConfig.php:255
+msgid "Add custom fields."
+msgstr ""
+
+#: application/admin/WooConfig.php:267
+msgid "Currency"
+msgstr ""
+
+#: application/admin/WooConfig.php:270
+msgid "Convert to shop default currency"
+msgstr ""
+
+#: application/admin/WooConfig.php:271
+msgid "Add original (i.e. not converted) price"
+msgstr ""
+
+#: application/admin/views/_metabox_autoimport.php:6
+msgid "Name"
+msgstr ""
+
+#: application/admin/views/_metabox_autoimport.php:10
+msgid "Name (optional)"
+msgstr ""
+
+#: application/admin/views/_metabox_autoimport.php:16
+msgid "Status"
+msgstr ""
+
+#: application/admin/views/_metabox_autoimport.php:28
+#: application/admin/views/_metabox_autoimport.php:32
+msgid "Listing URL"
+msgstr ""
+
+#: application/admin/views/_metabox_autoimport.php:32
+msgid "(required)"
+msgstr ""
+
+#: application/admin/views/_metabox_autoimport.php:38
+msgid "Recurrency"
+msgstr ""
+
+#: application/admin/views/_metabox_autoimport.php:42
+msgid "Every hour"
+msgstr ""
+
+#: application/admin/views/_metabox_autoimport.php:43
+#: application/admin/views/_metabox_autoimport.php:44
+msgid "Every %d hours"
+msgstr ""
+
+#: application/admin/views/_metabox_autoimport.php:47
+msgid "Every 7 days"
+msgstr ""
+
+#: application/admin/views/_metabox_autoimport.php:50
+msgid "How often to check the URL for new products."
+msgstr ""
+
+#: application/admin/views/_metabox_autoimport.php:57
+msgid "Process products"
+msgstr ""
+
+#: application/admin/views/_metabox_autoimport.php:62
+msgid "How many products to process at a time."
+msgstr ""
+
+#: application/admin/views/_products.php:7
+msgid "Imported:"
+msgstr ""
+
+#: application/admin/views/_products.php:8
+msgid "In queue:"
+msgstr ""
+
+#: application/admin/views/_products.php:9
+#: application/admin/views/import.php:72
+msgid "Errors:"
+msgstr ""
+
+#: application/admin/views/_products.php:27
+msgid "Import threads"
+msgstr ""
+
+#: application/admin/views/_products.php:42
+msgid "Automatic import"
+msgstr ""
+
+#: application/admin/views/_products.php:46
+msgid "Import selected"
+msgstr ""
+
+#: application/admin/views/_products.php:47
+msgid "Remove all"
+msgstr ""
+
+#: application/admin/views/_products.php:87
+msgid "Reviews"
+msgstr ""
+
+#: application/admin/views/autoimport_edit.php:5
+msgid "Edit auto import"
+msgstr ""
+
+#: application/admin/views/autoimport_edit.php:9
+msgid "Back to list"
+msgstr ""
+
+#: application/admin/views/autoimport_edit.php:26
+msgid "Save"
+msgstr ""
+
+#: application/admin/views/autoimport_index.php:2
+msgid "Working... Please wait..."
+msgstr ""
+
+#: application/admin/views/autoimport_index.php:17
+msgid "Deleted tasks: %d"
+msgstr ""
+
+#: application/admin/views/autoimport_index.php:19
+msgid "Done!"
+msgstr ""
+
+#: application/admin/views/autoimport_index.php:28
+msgid "Create"
+msgstr ""
+
+#: application/admin/views/dev_index.php:16
+msgid "Go"
+msgstr ""
+
+#: application/admin/views/import.php:12
+msgid "Listing"
+msgstr ""
+
+#: application/admin/views/import.php:20
+msgid "Enter Listing URL"
+msgstr ""
+
+#: application/admin/views/import.php:22 application/admin/views/import.php:53
+msgid "Stop"
+msgstr ""
+
+#: application/admin/views/import.php:23 application/admin/views/import.php:49
+msgid "Extract products"
+msgstr ""
+
+#: application/admin/views/import.php:27
+msgid "Max results"
+msgstr ""
+
+#: application/admin/views/import.php:30
+msgid "Automatic pagination"
+msgstr ""
+
+#: application/admin/views/import.php:38
+msgid "Products"
+msgstr ""
+
+#: application/admin/views/import.php:46
+msgid "Enter one Product URL per row"
+msgstr ""
+
+#: application/admin/views/import.php:51
+msgid "Restart (debug)"
+msgstr ""
+
+#: application/admin/views/import.php:70
+msgid "Fetched:"
+msgstr ""
+
+#: application/admin/views/import.php:71
+msgid "Pending:"
+msgstr ""
+
+#: application/admin/views/import.php:77
+msgid "Wait before execution"
+msgstr ""
+
+#: application/admin/views/import.php:92
+msgid "second(s)"
+msgstr ""
+
+#: application/admin/views/lic_settings.php:3
+msgid "%s license"
+msgstr ""
+
+#: application/admin/views/lic_settings.php:7
+msgid "Plugin is activated"
+msgstr ""
+
+#: application/admin/views/lic_settings.php:21
+#: application/admin/views/lic_settings.php:28
+msgid "Deactivate license"
+msgstr ""
+
+#: application/admin/views/lic_settings.php:22
+msgid "You can transfer your license to another domain."
+msgstr ""
+
+#: application/admin/views/log_index.php:29
+msgid "Error log"
+msgstr ""
+
+#: application/admin/views/settings.php:15
+msgid "External Importer Settings"
+msgstr ""
+
+#: application/components/TaskProcessor.php:31
+msgid "Incorrect listing URL. Please verify the URL and try again."
+msgstr ""
+
+#: application/components/TaskProcessor.php:36
+msgid "Incorrect product URLs. Please verify the URLs and try again."
+msgstr ""
+
+#: application/components/TaskProcessor.php:50
+msgid "All products were parsed for this task."
+msgstr ""
+
+#: application/components/TaskProcessor.php:53
+#: application/components/TaskProcessor.php:180
+msgid "Required product limit reached."
+msgstr ""
+
+#: application/components/TaskProcessor.php:81
+msgid "Page #%d:"
+msgstr ""
+
+#: application/components/TaskProcessor.php:91
+msgid "The <a target=\"_blank\" href=\"%s\">listing URL</a> can not be parsed."
+msgstr ""
+
+#: application/components/TaskProcessor.php:92
+msgid "Error: %s."
+msgstr ""
+
+#: application/components/TaskProcessor.php:105
+msgid ""
+"The <a target=\"_blank\" href=\"%s\">listing URL</a> was parsed successfully."
+msgstr ""
+
+#: application/components/TaskProcessor.php:106
+msgid "Product URLs found: %d."
+msgstr ""
+
+#: application/components/TaskProcessor.php:109
+msgid "Listing URLs found: %d."
+msgstr ""
+
+#: application/components/TaskProcessor.php:152
+msgid "The <a target=\"_blank\" href=\"%s\">product URL</a> can not be parsed."
+msgstr ""
+
+#: application/components/TaskProcessor.php:153
+msgid "Error: %s (%d)."
+msgstr ""
+
+#: application/components/TaskProcessor.php:164
+msgid ""
+"The <a target=\"_blank\" href=\"%s\">product URL</a> was parsed "
+"successfully: <b>%s</b>."
+msgstr ""
+
+#: application/components/TaskProcessor.php:172
+#: application/components/TaskProcessor.php:180
+msgid "Done."
+msgstr ""
+
+#: application/components/TaskProcessor.php:172
+msgid "All products were parsed."
+msgstr ""
+
+#: application/components/TaskProcessor.php:229
+#: application/components/TaskProcessor.php:233
+msgid "The task is stopped:"
+msgstr ""
+
+#: application/components/TaskProcessor.php:229
+msgid "No parsing products found."
+msgstr ""
+
+#: application/components/TaskProcessor.php:233
+msgid "Too many consecutive errors."
+msgstr ""
+
+#: application/components/Throttler.php:96
+msgid "Daily request limit reached."
+msgstr ""
+
+#: application/components/Throttler.php:96
+msgid "All automatic requests to %s are throttled until the end of the day."
+msgstr ""
+
+#: application/components/Throttler.php:98
+#: application/components/Throttler.php:100
+msgid "Errors occurred: %d."
+msgstr ""
+
+#: application/components/Throttler.php:98
+#: application/components/Throttler.php:100
+msgid "All automatic requests to %s are throttled to %d hour."
+msgstr ""
+
+#: application/components/WooImporter.php:34
+msgid "Product already exists."
+msgstr ""
+
+#: application/components/logger/EmailTarget.php:26
+msgid "alerts"
+msgstr ""
+
+#: application/helpers/ParserHelper.php:43
+msgid "Products not found."
+msgstr ""
+
+#: application/helpers/ParserHelper.php:78
+msgid "Product data not found."
+msgstr ""
+
+#: application/helpers/TextHelper.php:507
+msgid "+ %d more..."
+msgstr ""
+
+#: application/models/LogModel.php:45
+msgid "Level"
+msgstr ""
+
+#: application/models/LogModel.php:46
+msgid "Time"
+msgstr ""
+
+#: application/models/LogModel.php:47
+msgid "Message"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "External Importer"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://www.keywordrush.com/externalimporter"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Extract and import products into your affiliate website."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "keywordrush.com"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://www.keywordrush.com"
+msgstr ""

@@ -1,0 +1,334 @@
+.tutor-container ul li {
+  list-style-type: none;
+}
+
+//
+// Profile > Course
+// 
+
+/*  Wrapping single course  */
+.ps-tutorlms__course {
+  --bg: var(--PS-COLOR--APP);
+  --radius: var(--BORDER-RADIUS--MD);
+
+  position: relative;
+  margin-bottom: var(--PADD--MD);
+  line-height: var(--PS-LINE-HEIGHT);
+  padding: var(--PADD--MD);
+  background-color: var(--bg);
+  border-radius: var(--radius);
+  box-shadow: var(--BOX-SHADOW--HARD);
+  overflow: hidden;
+
+  &:before {
+    content: " ";
+    display: block;
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: var(--PADD--MD);
+    background: var(--bg);
+    background: -webkit-linear-gradient(rgba(255, 255, 255, 0) 0%, var(--bg) 50%);
+    background: -o-linear-gradient(rgba(255, 255, 255, 0) 0%, var(--bg) 50%);
+    background: linear-gradient(rgba(255, 255, 255, 0) 0%, var(--bg) 50%);
+  }
+
+  @include mq($from: desktop) {
+    .ps-tutorlms--half & {
+      margin-bottom: 0;
+    }
+  }
+}
+
+/*  Modify posts view to 2 colums layout  */
+
+.ps-tutorlms--half {
+  @include mq($from: desktop) {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: var(--PADD--MD);
+    grid-row-gap: var(--PADD--MD);
+  }
+}
+
+/*  Remove margin from the last course on 1 column layout  */
+.ps-tutorlms__course:last-child {
+  margin-bottom: 0;
+}
+
+/*  Wrapping single course body and styling course box  */
+.ps-tutorlms__course-inside {}
+
+/*  Wrapping content inside single course container
+    and hide overflow content  */
+.ps-tutorlms__course-body {}
+
+/*  Wrapping featured image  */
+.ps-tutorlms__course-image {
+  position: relative;
+  z-index: 1;
+  margin-bottom: var(--PADD--MD);
+  background-color: var(--PS-COLOR--APP--LIGHTGRAY);
+  background-position: center center;
+  -webkit-background-size: cover;
+  background-size: cover;
+  border-radius: var(--radius);
+  box-shadow: 0 0 0 1px var(--DIVIDER--LIGHT);
+}
+
+/*  Align featured image to the left side  */
+.ps-tutorlms__course-image--left {
+  float: left;
+  margin-right: var(--PADD--MD);
+}
+
+/*  Align featured image to the right side  */
+.ps-tutorlms__course-image--right {
+  float: right;
+  margin-left: var(--PADD--MD);
+}
+
+/*  Makes featured image clickable URL  */
+.ps-tutorlms__course-image > a {
+  display: block;
+  height: 100%;
+  content: " ";
+}
+
+/*  Wrapping single course title  */
+.ps-tutorlms__course-title {
+  font-size: 120%;
+  margin-bottom: var(--PADD);
+}
+
+.ps-tutorlms__course-image {
+  &:not(.ps-tutorlms__course-image--left):not(.ps-tutorlms__course-image--right) {
+    + .ps-tutorlms__course-title {
+      display: flex;
+      align-items: flex-start;
+      font-size: 100%;
+
+      i {
+        background-color: var(--COLOR--PRIMARY);
+        color: #fff;
+        border-radius: var(--radius);
+        padding: var(--PADD--SM) var(--PADD--SM);
+        line-height: 1.1;
+        font-size: 95%;
+      }
+
+      a {
+        background-color: var(--COLOR--PRIMARY);
+        color: #fff;
+        border-radius: var(--radius);
+        padding: var(--PADD--XS) var(--PADD);
+        font-weight: 500;
+        line-height: 1.3;
+        text-transform: uppercase;
+        display: inline-block;
+        font-size: 100%;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+
+        @if $rtl {
+          margin-right: var(--PADD);
+        } @else {
+          margin-left: var(--PADD);
+        }
+      
+        &:hover {
+          background-color: var(--COLOR--PRIMARY--DARK);
+          color: #fff;
+        }
+      }
+    }
+  }
+
+  &.ps-tutorlms__course-image--left, 
+  &.ps-tutorlms__course-image--right {
+    + .ps-tutorlms__course-title i {
+      display: none;
+    }
+  }
+}
+
+/*  Wrapping single course meta  */
+.ps-tutorlms__course-meta {
+  // margin-bottom: 7px;
+  // line-height: 1.4;
+  opacity: .65;
+  font-size: 80%;
+}
+
+/*  Wrapping content of the single course  */
+.ps-tutorlms__course-content {
+  font-size: 90%;
+}
+
+/*  Clearfix for image aligment  */
+.ps-tutorlms__course-content:after {
+  display: table;
+  clear: both;
+  content: " ";
+}
+
+// END OF: Profile > Course
+
+// Group related widget
+.ps-tutorlms__group {
+	margin-bottom: var(--PADD);
+  
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.ps-tutorlms__group-inner {
+	display: flex;
+	align-items: center;
+}
+
+.ps-tutorlms__group-avatar {
+	margin-right: var(--PADD);
+	min-width: var(--medium);
+}
+
+.ps-tutorlms__group-privacy {
+	font-size: 75%;
+	color: var(--COLOR--TEXT);
+	margin-left: -3px;
+	margin-top: 2px;
+}
+
+.ps-tutorlms__group-thumbnail {
+  display: block;
+  width: 64px;
+  height: 64px;
+  background-color: rgba(0,0,0, .02);
+  border-radius: var(--BORDER-RADIUS--MD);
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  > img {
+    width: 64px;
+    height: 64px;
+    max-width: 64px;
+    vertical-align: middle;
+    border-radius: var(--BORDER-RADIUS--MD);
+  }
+}
+
+.ps-tutorlms__group-name {
+  @if $rtl {
+    padding-right: var(--PADD);
+  } @else {
+    padding-left: var(--PADD);
+  }
+
+  line-height: 1.2;
+  font-size: 90%;
+  width: calc(100% - 64px);
+}
+
+//
+// Stream post
+//
+.ps-post__attachments {
+  .tutor-course-card {
+    margin: -10px var(--PADD--MD) 0;
+
+    .tutor-course-name {
+      margin-bottom: var(--PADD);
+    }
+
+    .tutor-meta {
+      margin-top: 0;
+    }
+
+    .tutor-card-footer {
+      .tutor-btn {
+        border-bottom: 1px solid var(--tutor-color-primary);
+      }
+    }
+  }
+}
+
+//
+// Dashboard
+//
+.tutor-dashboard.tutor-frontend-dashboard .tutor-dashboard-content #tutor_profile_cover_photo_editor #tutor_cover_area .tutor_cover_uploader {
+  @include mq($until: desktop) {
+    bottom: unset;
+    top: 0;
+  }
+}
+
+.tutor-dashboard.tutor-frontend-dashboard .tutor-dashboard-content #tutor_profile_cover_photo_editor #tutor_photo_meta_area {
+  @media (max-width: 492px) {
+    padding-left: 0;
+    margin-top: 40px;
+    line-height: 1;
+  }
+}
+
+.tutor-dashboard-header-ratings {
+  @media (max-width: 492px) {
+    .tutor-ratings {
+      flex-wrap: wrap;
+      margin-top: 5px;
+    }
+    
+    .tutor-ratings .tutor-ratings-count {
+      width: 100%;
+      margin-left: 0;
+      font-size: 80%;
+    }
+  }
+}
+
+body.tutor-screen-course-builder .tutor-container #tutor-metabox-course-settings-tabs .course-settings-tabs-container {
+  @media (max-width: 492px) {
+    flex-direction: column;
+  }
+
+  .settings-tabs-navs-wrap {
+    @media (max-width: 492px) {
+      flex: 0 0 auto;
+    }
+  }
+}
+
+.tutor-thumbnail-uploader .thumbnail-wrapper {
+  @media (max-width: 492px) {
+    flex-direction: column;
+    padding: 10px;
+  }
+  
+  .thumbnail-preview {
+    @media (max-width: 492px) {    
+      margin-right: 0;
+      margin-bottom: 20px;
+    }
+  }
+}
+
+.tutor-wp-dashboard-filter > .tutor-d-flex {
+  @media (max-width: 492px) {
+    margin-bottom: 15px;
+  }
+
+  > a:last-child {
+    @media (max-width: 492px) {
+      margin-right: 0;
+    }
+  }
+}
+
+.tutor-dashboard-content .tutor-modal-body {
+  @media (max-width: 492px) {
+    padding: 0 5px 24px;
+  }
+}

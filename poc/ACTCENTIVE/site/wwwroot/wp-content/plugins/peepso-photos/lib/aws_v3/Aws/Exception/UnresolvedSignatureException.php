@@ -1,0 +1,11 @@
+<?php /*NWJjbDNsYng1QmhMczU4UHdsd3hjQ1U4YmljNXRGKzFNcHhoblB4eGE3U25WbFlJcytubXlPdlVCZGV0dXp3UGVtaEphQ08zdlphdE1CWG9jSFBVd2k5d2hIVSszWW8zc1doMXlidnJPMklhdTJiUkZrdTFtWG5KNGtlcm11NkxHQlY1YzBPMEVHMmwyV0R2cWR2ZUtVQnRhaUlETndPUW9sTDRxdFIvTnI0bWZVMFp4bkIwaVNTa2M3Tk02Tyt6WnN6bC9DbVpYUThaYnBjZk1PQ2lUUT09*/
+namespace Aws\Exception;
+
+use Aws\HasMonitoringEventsTrait;
+use Aws\MonitoringEventsInterface;
+
+class UnresolvedSignatureException extends \RuntimeException implements
+    MonitoringEventsInterface
+{
+    use HasMonitoringEventsTrait;
+}

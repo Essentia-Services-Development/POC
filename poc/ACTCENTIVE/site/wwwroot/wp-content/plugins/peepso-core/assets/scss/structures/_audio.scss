@@ -1,0 +1,57 @@
+//
+//  STRUCTURE: AUDIO
+//
+
+
+
+/*
+//  HoverCard modifier
+*/
+.ps-hovercard--audio {
+  max-width: 200px;
+
+  .ps-hovercard__header {
+    height: 0;
+    padding-top: 100%;
+  }
+
+  .ps-hovercard__footer {
+    display: block;
+  }
+}
+
+//
+//  Audios
+//
+.ps-audios {}
+
+.ps-audios__postbox-details {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.ps-audios__postbox-details-field {
+  margin-bottom: ($padd / 2);
+
+  &:first-child {
+    width: 100%;
+  }
+
+  &:nth-child(n+2) {
+    width: 50%;
+    min-width: 50%;
+  }
+
+  &:nth-child(2n+2) {
+    padding-right: ($padd / 4);
+  }
+
+  &:nth-child(2n+3) {
+    padding-left: ($padd / 4);
+  }
+}
+
+.ps-audio__item {
+  background-color: #f2f2f2;
+}

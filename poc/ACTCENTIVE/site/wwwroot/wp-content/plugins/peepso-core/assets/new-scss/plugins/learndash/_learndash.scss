@@ -1,0 +1,227 @@
+/*  Wrapping all courses on the profile page  */
+.ps-learndash {}
+
+
+/*  Wrapping single course  */
+.ps-learndash__course {
+  --bg: var(--PS-COLOR--APP);
+  --radius: var(--BORDER-RADIUS--MD);
+
+  position: relative;
+  margin-bottom: var(--PADD--MD);
+  line-height: var(--PS-LINE-HEIGHT);
+  padding: var(--PADD--MD);
+  background-color: var(--bg);
+  border-radius: var(--radius);
+  box-shadow: var(--BOX-SHADOW--HARD);
+  overflow: hidden;
+
+  &:before {
+    content: " ";
+    display: block;
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: var(--PADD--MD);
+    background: var(--bg);
+    background: -webkit-linear-gradient(rgba(255, 255, 255, 0) 0%, var(--bg) 50%);
+    background: -o-linear-gradient(rgba(255, 255, 255, 0) 0%, var(--bg) 50%);
+    background: linear-gradient(rgba(255, 255, 255, 0) 0%, var(--bg) 50%);
+  }
+
+  @include mq($from: desktop) {
+    .ps-learndash--half & {
+      margin-bottom: 0;
+    }
+  }
+}
+
+/*  Modify posts view to 2 colums layout  */
+
+.ps-learndash--half {
+  @include mq($from: desktop) {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: var(--PADD--MD);
+    grid-row-gap: var(--PADD--MD);
+  }
+}
+
+/*  Remove margin from the last course on 1 column layout  */
+.ps-learndash__course:last-child {
+  margin-bottom: 0;
+}
+
+/*  Wrapping single course body and styling course box  */
+.ps-learndash__course-inside {}
+
+/*  Wrapping content inside single course container
+    and hide overflow content  */
+.ps-learndash__course-body {}
+
+/*  Wrapping featured image  */
+.ps-learndash__course-image {
+  position: relative;
+  z-index: 1;
+  margin-bottom: var(--PADD--MD);
+  background-color: var(--PS-COLOR--APP--LIGHTGRAY);
+  background-position: center center;
+  -webkit-background-size: cover;
+  background-size: cover;
+  border-radius: var(--radius);
+  box-shadow: 0 0 0 1px var(--DIVIDER--LIGHT);
+}
+
+/*  Align featured image to the left side  */
+.ps-learndash__course-image--left {
+  float: left;
+  margin-right: var(--PADD--MD);
+}
+
+/*  Align featured image to the right side  */
+.ps-learndash__course-image--right {
+  float: right;
+  margin-left: var(--PADD--MD);
+}
+
+/*  Makes featured image clickable URL  */
+.ps-learndash__course-image > a {
+  display: block;
+  height: 100%;
+  content: " ";
+}
+
+/*  Wrapping single course title  */
+.ps-learndash__course-title {
+  font-size: 120%;
+  margin-bottom: var(--PADD);
+
+  
+}
+
+.ps-learndash__course-image {
+  &:not(.ps-learndash__course-image--left):not(.ps-learndash__course-image--right) {
+    + .ps-learndash__course-title {
+      display: flex;
+      align-items: flex-start;
+      font-size: 100%;
+
+      i {
+        background-color: var(--COLOR--PRIMARY);
+        color: #fff;
+        border-radius: var(--radius);
+        padding: var(--PADD--SM) var(--PADD--SM);
+        line-height: 1.1;
+        font-size: 95%;
+      }
+
+      a {
+        background-color: var(--COLOR--PRIMARY);
+        color: #fff;
+        border-radius: var(--radius);
+        padding: var(--PADD--XS) var(--PADD);
+        font-weight: 500;
+        line-height: 1.3;
+        text-transform: uppercase;
+        display: inline-block;
+        font-size: 100%;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+
+        @if $rtl {
+          margin-right: var(--PADD);
+        } @else {
+          margin-left: var(--PADD);
+        }
+      
+        &:hover {
+          background-color: var(--COLOR--PRIMARY--DARK);
+          color: #fff;
+        }
+      }
+    }
+  }
+
+  &.ps-learndash__course-image--left, 
+  &.ps-learndash__course-image--right {
+    + .ps-learndash__course-title i {
+      display: none;
+    }
+  }
+}
+
+
+/*  Wrapping single course meta  */
+.ps-learndash__course-meta {
+  // margin-bottom: 7px;
+  // line-height: 1.4;
+  opacity: .65;
+  font-size: 80%;
+}
+
+/*  Wrapping content of the single course  */
+.ps-learndash__course-content {
+  font-size: 90%;
+}
+
+/*  Clearfix for image aligment  */
+.ps-learndash__course-content:after {
+  display: table;
+  clear: both;
+  content: " ";
+}
+
+// .ps-ld__group-thumbnail {
+//   min-width: 64px;
+//   background-position: center center;
+//   -webkit-background-size: cover;
+//   background-size: cover;
+// }
+// .ps-ld__group-thumbnail > img {
+//   width: auto;
+//   height: auto;
+// }
+
+// About instructor widget
+.ps-ld__instructor-header {
+	margin-bottom: var(--PADD);
+}
+
+.ps-ld__instructor-desc {
+	font-size: 90%;
+}
+
+.ps-ld__instructor-desc p {
+	margin-bottom: var(--PADD);
+}
+
+.ps-ld__instructor-chat {
+	display: block;
+	text-align: center;
+	font-size: 80%;
+}
+
+// Group related widget
+.ps-ld__group {
+	margin-bottom: var(--PADD);
+}
+
+.ps-ld__group-inner {
+	display: flex;
+	align-items: center;
+}
+
+.ps-ld__group-avatar {
+	margin-right: var(--PADD);
+	min-width: var(--medium);
+}
+
+.ps-ld__group-privacy {
+	font-size: 75%;
+	color: var(--COLOR--TEXT);
+	margin-left: -3px;
+	margin-top: 2px;
+}

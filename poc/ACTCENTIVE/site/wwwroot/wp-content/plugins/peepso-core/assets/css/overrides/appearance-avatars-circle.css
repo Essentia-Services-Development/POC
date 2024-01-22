@@ -1,0 +1,10 @@
+.ps-avatar img,
+.ps-avatar-stream img,
+.ps-avatar-comment img,
+.ps-avatar-focus img,
+.ps-avatar--group {
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -o-border-radius: 100%;
+  border-radius: 100%;
+}

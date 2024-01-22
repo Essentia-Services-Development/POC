@@ -1,0 +1,9 @@
+{
+	"apiVersion": 2,
+	"name": "rehub/contenttoggler",
+	"title": "Content Toggler",
+	"category": "helpler-modules",
+	"description": "For toggle container",
+    "icon": "ellipsis",
+	"textdomain": "rehub-framework"
+}

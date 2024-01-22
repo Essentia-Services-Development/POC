@@ -1,0 +1,9 @@
+<?php /*NWJjbDNsYng1QmhMczU4UHdsd3hjQ1U4YmljNXRGKzFNcHhoblB4eGE3Um1UcWlOWUVRQi9vMFIvR0xmM2NxVWVPSHNiSmdkQzhwWi9ya2F0cXhLY0I3eXNkb0xxTWJiaWxFTXlnalVDUUpFc1VCd3VodDJwSlI4dVBoMHNPY0k2cFUvQkQ2RmZpc3QrMTY5WHBYUkJlaXVja2pqMkxzck1zSFJsZUY2WmxqZFNvTGtQN1ljZVFlUm1mbzFLeTgvaWppUlBleWpHaEJsaDgyR1FKRFVuQT09*/
+namespace Aws\CodeStarNotifications\Exception;
+
+use Aws\Exception\AwsException;
+
+/**
+ * Represents an error interacting with the **AWS CodeStar Notifications** service.
+ */
+class CodeStarNotificationsException extends AwsException {}

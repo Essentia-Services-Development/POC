@@ -1,0 +1,509 @@
+//
+//  COMMENT STRUCTURE
+//
+
+
+
+.ps-comment {
+  position: relative;
+  background-color: $scss-comments-bg;
+
+  @extend %clearfix;
+
+  &.ps-comment-nested {
+    @if $scss-direction == rtl {
+      border-right: $scss-comments-border;
+      border-width: 5px;
+    } @else {
+      border-left: $scss-comments-border;
+      border-width: 5px;
+    }
+
+    @include media('medium') {
+      @if $scss-direction == rtl {
+        margin-right: 60px;
+        border-right: $scss-comments-border;
+      } @else {
+        margin-left: 60px;
+        border-left: $scss-comments-border;
+      }
+    }
+  }
+
+  // ROUNDED CORNERS
+  @if $scss-rounded == true {
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+  }
+}
+
+
+.ps-comment-item {
+  position: relative;
+  display: table;
+  width: 100%;
+  padding: $padding-sm $padding-base;
+  border-top: $scss-comments-border;
+  color: $comment-item-color;
+
+  @if $scss-direction == rtl {
+    padding-left: 22px;
+
+    @include media('medium') {
+      padding-left: 30px;
+    }
+  } @else {
+    padding-right: 22px;
+
+    @include media('medium') {
+      padding-right: 30px;
+    }
+  }
+
+  a {
+    word-wrap: break-word;
+  }
+
+  #wpadminbar & {
+    padding: $padding-sm $padding-base !important;
+    border-top: $scss-comments-border !important;
+    width: 100%;
+  }
+}
+
+
+.ps-comment-body {
+  display: table-cell;
+  vertical-align: middle;
+  word-break: break-word;
+
+  @if $scss-direction == rtl {
+    padding-right: $padding-sm;
+
+    #wpadminbar & {
+      padding-right: $padding-base;
+    }
+
+    @include media('medium') {
+      padding-right: $padding-base;
+    }
+  } @else {
+    padding-left: $padding-sm;
+
+    #wpadminbar & {
+      padding-left: $padding-base;
+    }
+
+    @include media('medium') {
+      padding-left: $padding-base;
+    }
+  }
+
+  .ps-tagging-wrapper {
+    background-color: $tagging-wrapper-bg;
+  }
+
+  .ps-textarea:focus {
+    border-width: 1px;
+  }
+
+  .ps-tagging-beautifier {
+    border: 1px solid transparent;
+    padding: $padding-sm;
+
+    @if $scss-direction == rtl {
+      padding-left: 55px;
+    } @else {
+      padding-right: 55px;
+    }
+
+    line-height: 16px;
+  }
+
+  p {
+    font-size: $font-size-alt;
+    line-height: $line-height-base;
+  }
+}
+
+
+.ps-comment-message {
+  margin-top: ($padding-sm / 2);
+  margin-bottom: $padding-sm;
+
+  p {
+    margin-bottom: 0;
+
+    &:first-child {
+      display: inline;
+    }
+  }
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+
+.ps-comment-content {
+  word-break: break-word;
+
+  p {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+  }
+}
+
+
+.ps-comment__content {
+  word-break: break-word;
+  word-wrap: anywhere;
+  overflow-wrap: anywhere;
+}
+
+
+.ps-comment-links {
+  display: inline-block;
+  padding-left: ($padding-sm / 2);
+  vertical-align: middle;
+  font-size: $font-size-sm;
+
+  a {
+    opacity: 0.75;
+    vertical-align: middle;
+
+    &:hover,
+    &:focus {
+      opacity: 1;
+    }
+  }
+
+  a > span {
+    display: none;
+  }
+
+  &.stream-actions {
+    flex-grow: 2;
+  }
+
+  .actaction-delete {
+    position: absolute;
+    top: $padding-base;
+
+    @if $scss-direction == rtl {
+      left: 14px;
+    } @else {
+      right: 14px;
+    }
+
+    @include media('medium') {
+      @if $scss-direction == rtl {
+        left: 10px;
+      } @else {
+        right: 10px;
+      }
+    }
+  }
+
+  .actaction-report {
+    @if $scss-direction == rtl {
+      float: left;
+      margin-left: -8.5px;
+    } @else {
+      float: right;
+      margin-right: -8.5px;
+    }
+
+    @include media('medium') {
+      @if $scss-direction == rtl {
+        margin-left: -16px;
+      } @else {
+        margin-right: -16px;
+      }
+    }
+  }
+
+  @include media('medium') {
+    a > span {
+      display: inline-block;
+    }
+  }
+
+  @extend %clearfix;
+}
+
+
+.ps-comment-user {
+  font-size: $font-size-alt;
+  font-weight: bold;
+}
+
+
+.ps-comment-time {
+  display: flex;
+  flex-wrap: wrap;
+  color: $color-text-light;
+
+  small {
+    vertical-align: middle;
+  }
+
+  #wpadminbar & {
+    font-size: $font-size-xs;
+
+    span {
+      font-size: $font-size-xs;
+    }
+  }
+}
+
+
+.ps-comment-options {
+  position: absolute;
+  top: $padding-sm;
+
+  @if $scss-direction == rtl {
+    left: $padding-sm;
+  } @else {
+    right: $padding-sm;
+  }
+}
+
+
+.ps-comment-more {
+  padding: $padding-sm $padding-base;
+  border-top: $scss-comments-border;
+  font-size: $font-size-sm;
+  line-height: $font-size-sm;
+}
+
+
+.ps-comment-edit {
+  margin-bottom: $padding-sm;
+
+  .ps-textarea-wrapper {
+    margin-bottom: $padding-sm;
+  }
+
+  .ps-textarea {
+    @if $scss-direction == rtl {
+      padding-left: 55px;
+    } @else {
+      padding-right: 55px;
+    }
+  }
+}
+
+
+.ps-comment-reply {
+  position: relative;
+  left: 0;
+  right: 0.1px;
+  display: table;
+  width: 100%;
+  padding: $padding-base;
+  border-top: $scss-comments-border;
+  background-color: $scss-comments-reply-bg;
+
+  // ROUNDED CORNERS
+  @if $scss-rounded == true {
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+  }
+
+  .ps-comment-send,
+  .ps-textarea-wrapper {
+    display: table-cell;
+    vertical-align: middle;
+  }
+
+  .ps-comment-send {
+    @include media('medium') {
+      width: 115px;
+    }
+  }
+
+  .ps-avatar {
+    display: none;
+    width: 32px;
+    vertical-align: middle;
+
+    img {
+      width: auto;
+      max-width: 32px;
+      padding: 0;
+      border-color: transparent;
+    }
+
+    @include media('medium') {
+      display: table-cell;
+    }
+  }
+
+  .ps-textarea-wrapper {
+    @include media('medium') {
+      @if $scss-direction == rtl {
+        padding-right: $padding-base;
+      } @else {
+        padding-left: $padding-base;
+      }
+    }
+  }
+
+  .ps-textarea {
+    min-height: 38px !important;
+    height: 38px;
+    line-height: 1.2;
+    resize: none;
+    transition: none !important;
+
+    @if $scss-direction == rtl {
+      padding-left: 55px;
+    } @else {
+      padding-right: 55px;
+    }
+
+    &:focus {
+      border-width: 1px;
+    }
+  }
+
+  .textntags-wrapper {
+    height: 35px;
+  }
+
+  .ps-button-cancel {
+    display: none;
+
+    @include media('medium') {
+      display: inline-block;
+    }
+  }
+
+  .ps-tagging-wrapper {
+    background-color: $tagging-wrapper-bg;
+  }
+
+  .ps-tagging-beautifier {
+    padding: $padding-sm;
+
+    @if $scss-direction == rtl {
+      padding-left: 55px;
+    } @else {
+      padding-right: 55px;
+    }
+
+    border: 1px solid transparent;
+    line-height: $line-height-sm;
+  }
+}
+
+
+.ps-commentbox-actions {
+  position: absolute;
+  top: 11px;
+
+  @if $scss-direction == rtl {
+    left: 7px;
+  } @else {
+    right: 7px;
+  }
+}
+
+
+.ps-commentbox__addons {
+  position: absolute;
+  z-index: map-get($zindex, popover);
+  display: none;
+  width: 100px;
+  margin-top: -1px;
+  background-color: $dropdown-bg;
+  border: $dropdown-border;
+  text-align: center;
+
+  // ROUNDED CORNERS
+  @if $scss-rounded == true {
+    border-radius: 6px;
+  }
+
+  @extend %box-shadow-dark;
+}
+
+
+.ps-commentbox__addon {
+  position: relative;
+  padding: 5px;
+
+  > img {
+    display: none;
+  }
+}
+
+
+.ps-commentbox__addon-remove {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  display: none;
+  width: 20px;
+  height: 20px;
+  color: #fff;
+  background-color: rgba(0,0,0,.15);
+  cursor: pointer;
+
+  > i {
+    vertical-align: middle;
+  }
+}
+
+
+.ps-comment-media {
+  margin-bottom: $padding-base;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  &:empty {
+    margin-bottom: 0;
+  }
+}
+
+
+.ps-comment-actions {
+  @if $scss-direction == rtl {
+    text-align: left;
+  } @else {
+    text-align: right;
+  }
+}
+
+
+.ps-comment-loading {
+  @if $scss-direction == rtl {
+    padding-right: $padding-sm;
+  } @else {
+    padding-left: $padding-sm;
+  }
+}
+
+
+.ps-comment-attachment {
+  img {
+    border-radius: $border-radius;
+  }
+}
+
+.ps-comment-time .activity-post-age-text-only {
+  display: none;
+
+  .ps-lightbox & {
+    display: inline-block;
+  }
+}
+
+.ps-comment-time .activity-post-age-link {
+  .ps-lightbox & {
+    display: none;
+  }
+}

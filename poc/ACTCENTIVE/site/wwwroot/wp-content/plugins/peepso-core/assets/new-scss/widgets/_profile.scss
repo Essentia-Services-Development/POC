@@ -1,0 +1,262 @@
+//
+//  CLASS MODIFIERS
+//
+
+//  Avatar modifier for member component
+.psw-avatar--profile {
+  --width: var(--large);
+
+  position: relative;
+  z-index: 2;
+  margin-top: var(--PADD--MD);
+
+  @if $comp_mode {
+    .twenty-fourteen & {
+      margin-left: -10px;
+    }
+  }
+
+  img {
+    border: 5px solid var(--PS-COLOR--APP);
+    box-shadow: 0 0 0 2px var(--DIVIDER);
+  }
+
+  .psw-profile--cover & {
+    img {
+      box-shadow: none;
+    }
+  }
+
+  @include mq($until: desktop) {
+    margin-top: var(--PADD--MD);
+  }
+
+  @include mq($from: desktop) {
+    --width: var(--xlarge);
+
+    .gc-widget & {
+      margin-top: 0;
+    }
+  }
+}
+
+.psw-notifs--profile {
+  position: relative;
+
+  .ps-notif__toggle {
+    position: relative;
+
+    @if $comp_mode {
+      color: var(--PS-COLOR--TEXT--LIGHT);
+
+      &:hover,
+      &focus {
+        color: var(--PS-COLOR--TEXT);
+      }
+    }
+  }
+
+  @include mq($from: desktop) {
+    .ps-notif__box {
+      left: 0;
+      right: auto;
+    }
+  }
+
+  @include mq($until: desktop) {
+    .ps-notif__box {
+      left: -20px !important;
+      right: -20px !important;
+      width: auto !important;
+    }
+  }
+}
+
+
+
+//
+//  PROFILE WIDGET
+//
+.psw-profile {
+  position: relative;
+
+  //  is widget preview
+  .ps-widget--preview & {
+    max-width: 300px;
+    margin: var(--PADD--MD) auto;
+  }
+
+  //  and Gecko is enabled
+  .gc-widget--preview & {
+    max-width: 100%;
+    margin: 0;
+  }
+}
+
+.psw-profile__header {
+  margin-bottom: var(--PADD--MD);
+}
+
+.psw-profile__avatar {
+  position: relative;
+  margin-bottom: var(--PADD--MD);
+  text-align: center;
+}
+
+.psw-profile__cover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  max-height: 120px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  border-radius: var(--BORDER-RADIUS--XL);
+  overflow: hidden;
+
+  .gc-widget & {
+    margin-top: calc(-1 * var(--PADD--MD));
+    margin-left: calc(-1 * var(--PADD--MD));
+    margin-right: calc(-1 * var(--PADD--MD));
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+
+  &:before {
+    content: " ";
+    display: block;
+    padding-top: 50%;
+  }
+}
+
+.psw-profile__meta {
+  .ps-notifs {
+    justify-content: center;
+  }
+
+  .ps-notif {
+    &:before {
+      content: " ";
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      display: block;
+      width: 4px;
+      height: 4px;
+      border-radius: 100%;
+      background-color: var(--DIVIDER);
+
+      @if $rtl {
+        left: calc(-1 * (var(--PADD) - 3px));
+      } @else {
+        right: calc(-1 * (var(--PADD) - 3px));
+      }
+    }
+
+    &:last-child {
+      &:before {
+        display: none;
+      }
+    }
+  }
+}
+
+.psw-profile__title {
+  margin-bottom: var(--PADD);
+  text-align: center;
+
+  a {
+    color: var(--PS-COLOR--TEXT);
+
+    @if $comp_mode {
+      color: var(--PS-COLOR--TEXT) !important;
+    }
+
+    &:hover {
+      color: var(--PS-COLOR--TEXT);
+    }
+  }
+}
+
+.psw-profile__progress {
+  margin-top: var(--PADD);
+}
+
+.psw-profile__progress-message {
+  margin-bottom: var(--PADD);
+  font-size: 80%;
+  text-align: center;
+  color: var(--PS-COLOR--TEXT--LIGHT);
+
+  > a {
+    color: var(--PS-COLOR--TEXT--LIGHT);
+
+    @if $comp_mode {
+      color: var(--PS-COLOR--TEXT--LIGHT) !important;
+    }
+
+    &:hover,
+    &:focus {
+      color: var(--PS-COLOR--TEXT);
+    }
+  }
+}
+
+.psw-profile__progress-bar {
+  @include c-progress;
+}
+
+.psw-profile__menu {
+  .gc-widget & {
+    margin-left: calc(-1 * (var(--PADD--MD)));
+    margin-right: calc(-1 * (var(--PADD--MD)));
+  }
+}
+
+.psw-profile__menu-item {
+  display: block;
+  padding: var(--PADD) var(--PADD--MD);
+  font-size: 80%;
+  color: var(--PS-COLOR--TEXT);
+
+  @if $comp_mode {
+    color: var(--PS-COLOR--TEXT) !important;
+  }
+
+  &:hover,
+  &:focus {
+    color: var(--PS-COLOR--TEXT);
+    background-color: var(--PS-COLOR--APP--GRAY);
+  }
+
+  i {
+    min-width: 20px;
+    text-align: center;
+
+    @if $rtl {
+      margin-left: var(--PADD);
+    } @else {
+      margin-right: var(--PADD);
+    }
+
+    color: var(--PS-COLOR--TEXT--LIGHT);
+  }
+
+  &.ps-navbar__menu-item--home {
+     i {
+       display: inline-block;
+     }
+  }
+}
+
+.psw-profile__menu-title {
+  padding: calc(var(--PADD--MD) - var(--PADD--SM));
+  border-top: 1px solid var(--DIVIDER--LIGHT);
+
+  .gc-widget & {
+    margin-left: calc(-1 * (var(--PADD--MD) - var(--PADD--SM)));
+    margin-right: calc(-1 * (var(--PADD--MD) - var(--PADD--SM)));
+  }
+}

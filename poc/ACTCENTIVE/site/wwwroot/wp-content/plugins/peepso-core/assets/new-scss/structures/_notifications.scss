@@ -1,0 +1,216 @@
+.ps-avatar--notification {
+  --width: var(--medium);
+}
+
+
+
+.ps-notifications {}
+
+.ps-notification {
+  --bg: var(--PS-COLOR--APP);
+
+  background-color: var(--bg);
+  border-bottom: 1px solid var(--DIVIDER--LIGHT);
+
+  .ps-notification__inside {
+    color: var(--PS-COLOR--TEXT--LIGHT);
+    &:hover {
+      color: var(--PS-COLOR--TEXT--LIGHT);
+    }
+    .ps-notification__desc {
+      padding: var(--PADD);
+      text-align: center;
+    }
+  }
+}
+
+.ps-notification__wrapper {
+  &:last-child {
+    .ps-notification {
+      border-bottom: none;
+    }
+  }
+}
+
+.ps-notification--friend {}
+
+.ps-notification--message {}
+
+.ps-notification--unread {
+  --bg: var(--c-ps-notification-unread-bg);
+}
+
+.ps-notification__link {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+
+  .ps-notification--friend & {
+    cursor: default;
+  }
+}
+
+.ps-notification__avatar {
+  min-width: 58px;
+  padding: var(--PADD);
+
+  @if $rtl {
+    padding-left: 0;
+  } @else {
+    padding-right: 0;
+  }
+}
+
+.ps-notification__body {
+  flex-grow: 2;
+  padding: var(--PADD);
+  color: var(--PS-COLOR--TEXT);
+
+  a {
+    color: var(--PS-COLOR--TEXT);
+
+    &:hover {
+      color: var(--PS-COLOR--TEXT--LIGHT);
+    }
+  }
+}
+
+.ps-notification__desc {
+  font-size: 80%;
+  line-height: var(--PS-LINE-HEIGHT);
+
+  .ps-notification__link & {
+    > a {
+      color: var(--PS-COLOR--TEXT);
+
+      &:hover,
+      &:focus {
+        color: var(--PS-COLOR--TEXT--LIGHT);
+      }
+    }
+  }
+}
+
+.ps-notification__desc-quote {
+  display: inline;
+  font-style: italic;
+
+  > span {
+    display: inline-block;
+    color: var(--PS-COLOR--TEXT--LIGHT);
+
+    i {
+      @if $rtl {
+        margin-left: var(--PADD--SM);
+      } @else {
+        margin-right: var(--PADD--SM);
+      }
+    }
+  }
+}
+
+.ps-notification__meta {
+  margin-top: var(--PADD--SM);
+  font-size: 70%;
+  color: var(--PS-COLOR--TEXT--LIGHT);
+  display: flex;
+  justify-content: space-between;
+
+  a {
+    color: var(--PS-COLOR--TEXT--LIGHT);
+
+    &:hover,
+    &:focus {
+      color: var(--PS-COLOR--TEXT);
+    }
+  }
+
+  > span {
+    @if $rtl {
+      margin-left: var(--PADD--SM);
+    } @else {
+      margin-right: var(--PADD--SM);
+    }
+
+    @include mq($until: desktop) {
+      padding-top: var(--PADD--SM);
+      padding-bottom: var(--PADD--SM);
+    }
+
+    &:not(.ps-notification__status) {
+      i {
+        @if $rtl {
+          margin-left: calc(var(--PADD--SM) / 2);
+        } @else {
+          margin-right: calc(var(--PADD--SM) / 2);
+        }
+      }
+    }
+  }
+}
+
+.ps-notification__status {  
+  i {    
+    @if $rtl {
+      margin-right: calc(var(--PADD--SM) / 2);
+    } @else {
+      margin-left: calc(var(--PADD--SM) / 2);
+    }
+  }
+  
+  > span {
+    @include mq($from: desktop) {
+      display: none;
+    }
+  }
+}
+
+.ps-notification__time {
+  position: relative;
+  display: inline-block;
+  transition: all .2s ease;
+
+  .ps-notification:hover & {
+    @if $rtl {
+      padding-left: var(--PADD--SM);
+    } @else {
+      padding-right: var(--PADD--MD);
+    }
+  }
+}
+
+.ps-notification__read {
+  position: absolute;
+  top: 0;
+
+  @if $rtl {
+    left: 0;
+  } @else {
+    right: 0;
+  }
+
+  opacity: 0;
+  transition: all .2s ease;
+
+  .ps-notification:hover & {
+    opacity: 1;
+  }
+}
+
+.ps-notification__actions {
+  display: flex;
+  padding: var(--PADD);
+
+  .ps-btn {
+    @if $rtl {
+      margin-left: var(--PADD--SM);
+    } @else {
+      margin-right: var(--PADD--SM);
+    }
+
+    &:last-child {
+      margin-left: 0;
+      margin-right: 0;
+    }
+  }
+}

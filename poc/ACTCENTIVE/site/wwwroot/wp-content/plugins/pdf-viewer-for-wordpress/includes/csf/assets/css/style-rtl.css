@@ -1,0 +1,590 @@
+/**
+ *
+ * ---------------------------------------------------------
+ * PVFWOF FRAMEWORK RTL CSS MAP
+ * ---------------------------------------------------------
+ *
+ * 01. Base
+ *     01. 01. Header
+ *     01. 02. Header Buttons
+ *     01. 03. Navigation
+ *     01. 04. Content
+ *     01. 05. Section
+ *     01. 06. Show All Settings
+ *     01. 07. Search Input
+ *     01. 08. Copyright
+ *     01. 09. Metabox
+ * 02. Fields
+ *     02. 01. Field: typography
+ *     02. 02. Field: checkbox, radio
+ *     02. 03. Field: switcher
+ *     02. 04. Field: upload
+ *     02. 05. Field: group
+ *     02. 06. Field: repeater
+ *     02. 07. Field: help
+ *     02. 08. Field: icon
+ *     02. 09. Field: gallery
+ *     02. 10. Field: sorter
+ *     02. 11. Field: tabbed
+ *     02. 12. Field: media
+ *     02. 13. Field: notice
+ *     02. 14. Field: border, spacing, dimensions
+ *     02. 15. Field: background
+ *     02. 16. Field: spinner
+ *     02. 17. Field: slider
+ *     02. 18. Field: button_set
+ *     02. 19. Field: link_color
+ *     02. 20. Field: color_group
+ *     02. 21. Field: palette
+ *     02. 22. Field: accordion
+ *     02. 23. Field: date
+ *     02. 24. Field: map
+ *     02. 25. Field: sortable
+ *     02. 26. Field: number
+ * 03. Taxonomy
+ * 04. Profile
+ * 05. Nav Menu
+ * 06. Modal
+ * 07. Customizer
+ * 08. Responsive
+ * 09. Others
+ *
+ * ---------------------------------------------------------
+ *
+ */
+/**
+ * 01. Base
+ */
+.pvfwof-options {
+  margin-left: 20px;
+  margin-right: 0;
+}
+
+/**
+ * 01. 01. Header
+ */
+.pvfwof-header h1 {
+  float: right;
+}
+.pvfwof-header fieldset {
+  float: left;
+}
+
+/**
+ * 01. 02. Header Buttons
+ */
+.pvfwof-buttons {
+  float: left;
+  direction: ltr;
+}
+
+.pvfwof-header-left {
+  float: right;
+}
+
+.pvfwof-header-right {
+  float: left;
+}
+
+/**
+ * 01. 03. Navigation
+ */
+.pvfwof-nav {
+  float: right;
+}
+.pvfwof-nav ul {
+  clear: right;
+}
+.pvfwof-nav ul li .pvfwof-active:after {
+  right: auto;
+  left: 0;
+  border-left-color: #fff;
+  border-right-color: transparent;
+}
+.pvfwof-nav ul li .pvfwof-arrow:after {
+  content: "\f053";
+  right: auto;
+  left: 10px;
+}
+.pvfwof-nav ul li.pvfwof-tab-expanded .pvfwof-arrow:after {
+  transform: rotate(-90deg);
+}
+.pvfwof-nav ul ul li a {
+  padding-right: 25px;
+  padding-left: 15px;
+}
+.pvfwof-nav ul ul:before {
+  left: auto;
+  right: 15px;
+}
+.pvfwof-nav .pvfwof-tab-icon {
+  margin-left: 5px;
+  margin-right: 0;
+}
+
+.pvfwof-nav-background {
+  left: auto;
+  right: 0;
+}
+
+/**
+ * 01. 04. Content
+ */
+.pvfwof-content {
+  margin-left: 0;
+  margin-right: 225px;
+}
+
+/**
+ * 01. 05. Section
+ */
+.pvfwof-sections {
+  float: right;
+}
+
+/**
+ * 01. 06. Show all options
+ */
+.pvfwof-show-all .pvfwof-content {
+  margin-right: 0;
+  overflow: hidden;
+}
+
+.pvfwof-expand-all {
+  float: right;
+  right: auto;
+  left: 40px;
+  margin-right: 0;
+  margin-left: 4px;
+}
+
+/**
+ * 01. 07. Search Input
+ */
+.pvfwof-search {
+  float: right;
+}
+.pvfwof-search input {
+  margin: 0 0 0 5px;
+}
+
+/**
+ * 01. 08. Copyright
+ */
+.pvfwof-copyright {
+  float: right;
+}
+
+/**
+ * 01. 09. Metabox
+ */
+.pvfwof-metabox {
+  margin: -6px -12px -12px -12px;
+}
+.pvfwof-metabox .pvfwof-section-title {
+  padding: 20px;
+}
+
+.pvfwof-section-title .pvfwof-section-icon {
+  margin-left: 5px;
+  margin-right: 0;
+}
+
+/**
+ * 02. Fields
+ */
+.pvfwof-field .pvfwof-title {
+  float: right;
+}
+.pvfwof-field .pvfwof-fieldset {
+  float: left;
+}
+
+.pvfwof-pseudo-field {
+  padding: 0 0 0 5px !important;
+}
+
+/**
+ * 02. 01. Field: typography
+ */
+.pvfwof-field-typography select {
+  margin: 0;
+  width: 100%;
+}
+.pvfwof-field-typography .pvfwof--blocks-inputs .pvfwof--blocks {
+  flex-direction: row-reverse;
+}
+.pvfwof-field-typography .pvfwof--unit {
+  left: 4px;
+  right: auto;
+}
+
+/**
+ * 02. 02. Field: checkbox, radio
+ */
+.pvfwof-field-checkbox ul ul li,
+.pvfwof-field-radio ul ul li {
+  margin-left: 0;
+  margin-right: 8px;
+}
+.pvfwof-field-checkbox ul ul li:first-child,
+.pvfwof-field-radio ul ul li:first-child {
+  margin-right: 0;
+}
+.pvfwof-field-checkbox .pvfwof--inline-list li,
+.pvfwof-field-radio .pvfwof--inline-list li {
+  margin-right: 0;
+  margin-left: 15px;
+}
+.pvfwof-field-checkbox .pvfwof--text,
+.pvfwof-field-radio .pvfwof--text {
+  margin-left: 0;
+  margin-right: 5px;
+}
+
+/**
+ * 02. 03. Field: switcher
+ */
+.pvfwof-field-switcher .pvfwof--switcher {
+  float: right;
+}
+.pvfwof-field-switcher .pvfwof--label {
+  float: right;
+  margin-left: 0;
+  margin-right: 5px;
+}
+
+/**
+ * 02. 04. Field: upload
+ */
+.pvfwof-field-upload .pvfwof--remove,
+.pvfwof-field-upload .pvfwof--button {
+  margin-left: 0;
+  margin-right: 5px;
+}
+
+/**
+ * 02. 05. Field: group
+ */
+.pvfwof-field-group .pvfwof-cloneable-title {
+  padding: 15px 10px 15px 65px;
+}
+.pvfwof-field-group .pvfwof-cloneable-helper {
+  right: auto;
+  left: 10px;
+}
+
+/**
+ * 02. 06. Field: repeater
+ */
+.pvfwof-field-repeater .pvfwof-repeater-helper {
+  border-left: 0;
+  border-right: 1px solid #eee;
+}
+
+/**
+ * 02. 07. Field: help
+ */
+.pvfwof-help {
+  right: auto;
+  left: 5px;
+}
+
+/**
+ * 02. 08. Field: icon
+ */
+.pvfwof-field-icon .button {
+  margin-right: 0;
+  margin-left: 5px;
+}
+.pvfwof-field-icon .pvfwof-icon-preview i {
+  margin-right: 0;
+  margin-left: 5px;
+}
+
+/**
+ * 02. 09. Field: gallery
+ */
+.pvfwof-field-gallery ul li {
+  margin-right: 0;
+  margin-left: 5px;
+}
+.pvfwof-field-gallery .button {
+  margin-right: 0;
+  margin-left: 5px;
+}
+
+/**
+ * 02. 11. Field: tabbed
+ */
+.pvfwof-field-tabbed .pvfwof-tabbed-nav .pvfwof--icon {
+  padding-right: 0;
+  padding-left: 5px;
+}
+.pvfwof-field-tabbed .pvfwof-tabbed-nav a {
+  margin-right: 0;
+  margin-left: 5px;
+}
+
+/**
+ * 02. 12. Field: media
+ */
+.pvfwof-field-media .button {
+  margin-left: 0;
+  margin-right: 7px;
+}
+.pvfwof-field-media .hidden + .button {
+  margin-right: 0;
+}
+
+/**
+ * 02. 13. Field: notice
+ */
+.pvfwof-notice {
+  border-left: none;
+  border-right-style: solid;
+  border-right-width: 4px;
+}
+
+/**
+ * 02. 14. Field: border, spacing, dimensions
+ */
+.pvfwof-field-dimensions .pvfwof--input,
+.pvfwof-field-dimensions .pvfwof-fieldset,
+.pvfwof-field-spacing .pvfwof--input,
+.pvfwof-field-spacing .pvfwof-fieldset,
+.pvfwof-field-border .pvfwof--input,
+.pvfwof-field-border .pvfwof-fieldset {
+  direction: ltr;
+}
+.pvfwof-field-dimensions .pvfwof--inputs,
+.pvfwof-field-dimensions .pvfwof--color,
+.pvfwof-field-spacing .pvfwof--inputs,
+.pvfwof-field-spacing .pvfwof--color,
+.pvfwof-field-border .pvfwof--inputs,
+.pvfwof-field-border .pvfwof--color {
+  float: right;
+}
+.pvfwof-field-dimensions .pvfwof--color,
+.pvfwof-field-spacing .pvfwof--color,
+.pvfwof-field-border .pvfwof--color {
+  margin-right: 4px;
+  direction: rtl;
+}
+
+/**
+ * 02. 15. Field: background
+ */
+.pvfwof-field-background .pvfwof--block {
+  float: right;
+}
+.pvfwof-field-background .pvfwof--select,
+.pvfwof-field-background .pvfwof--media {
+  padding-right: 0;
+}
+.pvfwof-field-background .pvfwof--title {
+  margin-right: 0;
+  margin-left: 5px;
+}
+
+/**
+ * 02. 16. Field: spinner
+ */
+.pvfwof-field-spinner .pvfwof--spin {
+  float: right;
+  direction: ltr;
+}
+
+/**
+ * 02. 17. Field: slider
+ */
+.pvfwof-field-slider .pvfwof-slider-ui {
+  direction: ltr;
+  margin-right: 0;
+  margin-left: 15px;
+}
+.pvfwof-field-slider .pvfwof--input {
+  direction: ltr;
+}
+
+/**
+ * 02. 18. Field: button_set
+ */
+.pvfwof-field-button_set .pvfwof--button-group {
+  float: right;
+}
+
+/**
+ * 02. 19. Field: link_color
+ */
+.pvfwof-field-link_color .pvfwof--left {
+  float: right;
+  margin-right: 0;
+  margin-left: 10px;
+}
+
+/**
+ * 02. 20. Field: color_group
+ */
+.pvfwof-field-color_group .pvfwof--left {
+  float: right;
+  margin-right: 0;
+  margin-left: 10px;
+}
+
+/**
+ * 02. 21. Field: palette
+ */
+.pvfwof-field-palette .pvfwof--palette {
+  margin-right: 0;
+  margin-left: 10px;
+}
+
+/**
+ * 02. 22. Field: accordion
+ */
+.pvfwof-field-accordion .pvfwof--icon {
+  margin-right: 0;
+  margin-left: 2px;
+}
+
+/**
+ * 02. 23. Field: date
+ */
+.pvfwof-field-date .pvfwof--to {
+  margin-left: 0;
+  margin-right: 7px;
+}
+
+/**
+ * 02. 24. Field: map
+ */
+.pvfwof-field-map .pvfwof--map-input:last-child {
+  padding-left: 0;
+  padding-right: 10px;
+}
+
+/**
+ * 02. 25. Field: sortable
+ */
+.pvfwof-field-sortable .pvfwof-sortable-helper {
+  border-left: none;
+  border-right: 1px solid #eee;
+}
+
+/**
+ * 02. 26. Field: number
+ */
+.pvfwof-field-number .pvfwof--wrap {
+  float: right;
+}
+.pvfwof-field-number .pvfwof--unit {
+  left: 4px;
+  right: auto;
+}
+
+/**
+ * 03. Taxonomy
+ */
+.pvfwof-taxonomy-add-fields {
+  margin-right: 0;
+  margin-left: 30px;
+}
+.pvfwof-taxonomy-add-fields .pvfwof-field > .pvfwof-fieldset > .pvfwof-help {
+  left: -5px;
+  right: auto;
+}
+
+.pvfwof-taxonomy-edit-fields {
+  margin-right: 0;
+  margin-left: 35px;
+}
+.pvfwof-taxonomy-edit-fields .pvfwof-field > .pvfwof-fieldset > .pvfwof-help {
+  right: auto;
+  left: -5px;
+}
+
+/**
+ * 04. Profile
+ */
+.pvfwof-profile-options > h2 > .fa {
+  padding-right: 0;
+  padding-left: 7px;
+}
+.pvfwof-profile-options > .pvfwof-field > .pvfwof-fieldset > .pvfwof-help {
+  left: -5px;
+  right: auto;
+}
+
+/**
+ * 05. Nav Menu
+ */
+.pvfwof-nav-menu-options > .pvfwof-fields {
+  margin-left: 0;
+  margin-right: -10px;
+}
+
+.pvfwof-nav-menu-title {
+  padding-left: 14px;
+  padding-right: 12px;
+}
+
+.pvfwof-nav-menu-icon {
+  margin-right: 0;
+  margin-left: 5px;
+}
+
+/**
+ * 06. Modal
+ */
+.pvfwof-modal-content .pvfwof-field {
+  padding: 15px 15px 15px 30px;
+}
+
+.pvfwof-modal-title {
+  padding: 0 16px 0 36px;
+}
+
+.pvfwof-modal-close {
+  right: auto;
+  left: 0;
+}
+
+/**
+ * 07. Customizer
+ */
+.control-section .pvfwof-field .pvfwof-fieldset {
+  margin-right: 0;
+}
+
+/**
+ * 08. Responsive
+ */
+@media only screen and (max-width: 1200px) {
+  .pvfwof-metabox .pvfwof-field .pvfwof-fieldset {
+    margin-left: 0;
+  }
+}
+@media only screen and (max-width: 782px) {
+  .pvfwof .pvfwof-fieldset,
+  .pvfwof .pvfwof-content {
+    margin-right: 0;
+  }
+}
+/**
+ * 09. Others
+ */
+.pvfwof-field .pvfwof--transparent-slider {
+  margin-left: 0;
+  margin-right: 2px;
+}
+.pvfwof-field .pvfwof--transparent-slider .ui-slider-handle {
+  margin: 0 -11px;
+}
+.pvfwof-field .pvfwof--transparent-offset {
+  background-position: center right;
+}
+.pvfwof-field .pvfwof--transparent-text {
+  right: auto;
+  left: 10px;
+}

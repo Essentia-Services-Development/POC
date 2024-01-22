@@ -1,0 +1,159 @@
+# Translation of PeepSo - WP Job Manager Integration in Serbian
+# This file is distributed under the same license as the PeepSo - WP Job Manager Integration package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2023-02-28 07:23:58+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
+"X-Generator: GlotPress/3.0.0\n"
+"Language: sr_RS\n"
+"Project-Id-Version: PeepSo - WP Job Manager Integration\n"
+
+#: templates/overrides/job-dashboard.php:36
+msgid "%s doesn't have any active listings yet"
+msgstr "%s још увек нема активне листинге"
+
+#: classes/wpjm_permissions.php:17
+msgid "Sorry, you can't create job listings"
+msgstr "Жао нам је, не можете да креирате листинге послова"
+
+#: classes/admin/configsectionwpjm.php:49
+msgid "Custom icon CSS class"
+msgstr "Произвољна икона CSS класе"
+
+#: classes/admin/configsectionwpjm.php:46
+msgid "FontAwesome (or similar). Leave empty for default value"
+msgstr "FontAwesome (или слично). Оставите празно за основну вредност"
+
+#: classes/admin/configsectionwpjm.php:42
+msgid "Profile slug"
+msgstr "Профилни slug"
+
+#: classes/admin/configsectionwpjm.php:35
+msgid "Profile label"
+msgstr "Профилна ознака"
+
+#: classes/admin/configsectionwpjm.php:32
+#: classes/admin/configsectionwpjm.php:39
+msgid "Leave empty for default value"
+msgstr "Оставите празно за основну вредност"
+
+#: classes/admin/configsectionwpjm.php:28
+msgid "Advanced"
+msgstr "Напредно"
+
+#. Author of the plugin/theme
+msgid "PeepSo"
+msgstr "PeepSo"
+
+#. Description of the plugin/theme
+msgid "Add integration for WP Job Manager plugin"
+msgstr "Додајте интеграцију за WP Job Manager додатак"
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://peepso.com"
+msgstr "https://peepso.com"
+
+#. Plugin Name of the plugin/theme
+msgid "PeepSo Integrations: WP Job Manager"
+msgstr "PeepSo интеграције: WP Job Manager"
+
+#: templates/overrides/job-dashboard.php:98
+msgid "Add Job"
+msgstr "Додај посао"
+
+#: templates/overrides/job-dashboard.php:66
+msgid "Filled?"
+msgstr "Попуњена позиција?"
+
+#: templates/overrides/job-dashboard.php:61
+msgid "expired"
+msgstr "истекла понуда"
+
+#: templates/overrides/job-dashboard.php:57
+msgid "Featured Job"
+msgstr "Истакнути посао"
+
+#: templates/overrides/job-dashboard.php:38
+msgid "You do not have any active listings."
+msgstr "Немате активних листинга."
+
+#: templates/overrides/job-application.php:23
+msgid "Apply for job"
+msgstr "Пријави се за посао"
+
+#: templates/jobs/profile.php:19
+msgid "Create"
+msgstr "Креирај"
+
+#: peepso-wpjm.php:352
+msgid "Jobs"
+msgstr "Послови"
+
+#: peepso-wpjm.php:291
+msgid "posted a job"
+msgstr "је постовао/ла посао"
+
+#: peepso-wpjm.php:259 peepso-wpjm.php:262
+msgid "WP Job Manager"
+msgstr "WP Job Manager"
+
+#: peepso-wpjm.php:231
+msgid "Get it now!"
+msgstr "Преузми одмах!"
+
+#: peepso-wpjm.php:229
+msgid "The %s plugin requires the PeepSo plugin to be installed and activated."
+msgstr "Додатак %s захтева да PeepSo додатак буде инсталиран и активиран."
+
+#: classes/admin/configsectionwpjm.php:102
+msgid "Activity Stream"
+msgstr "Проток активности"
+
+#: classes/admin/configsectionwpjm.php:95
+msgid "Default privacy"
+msgstr "Подразумевана приватност"
+
+#: classes/admin/configsectionwpjm.php:89
+msgid "Only Me"
+msgstr "Само ја"
+
+#: classes/admin/configsectionwpjm.php:88
+msgid "Friends Only"
+msgstr "Само пријатељи"
+
+#: classes/admin/configsectionwpjm.php:87
+msgid "Site Members"
+msgstr "Чланови сајта"
+
+#: classes/admin/configsectionwpjm.php:86
+msgid "Public"
+msgstr "Јавно"
+
+#: classes/admin/configsectionwpjm.php:81
+msgid "Append title after action text"
+msgstr "Закачи наслов након акционог текста"
+
+#: classes/admin/configsectionwpjm.php:78
+msgid "The title of  the Job Listing will be displayed after the action text as a link"
+msgstr "Наслов листинга за посао ће бити приказан након акционог текста у виду линка"
+
+#: classes/admin/configsectionwpjm.php:74
+msgid "Action text"
+msgstr "Акциони текст"
+
+#: classes/admin/configsectionwpjm.php:64
+msgid "Create activity stream item when someone post a job."
+msgstr "Креирај предмет за проток активности када неко постује понуду за посао."
+
+#: classes/admin/configsectionwpjm.php:56
+msgid "Profile Integration"
+msgstr "Профилна интеграција"
+
+#: classes/admin/configsectionwpjm.php:20
+#: classes/admin/configsectionwpjm.php:68
+msgid "Enabled"
+msgstr "Омогућено"

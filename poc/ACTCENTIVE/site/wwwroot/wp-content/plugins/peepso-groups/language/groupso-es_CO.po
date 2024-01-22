@@ -1,0 +1,1842 @@
+# Translation of PeepSo - Groups in Spanish (Spain)
+# This file is distributed under the same license as the PeepSo - Groups package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2023-10-26 15:45:33+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0\n"
+"Language: es\n"
+"Project-Id-Version: PeepSo - Groups\n"
+
+#: classes/admin/configsectiongroups.php:515
+msgid "Allow groups to override this setting"
+msgstr "Permitir a los grupos sobreescribir este ajuste"
+
+#: classes/admin/configsectiongroups.php:501
+#: templates/groups/group-settings.php:450
+msgid "Members tab"
+msgstr "Pestaña Miembros"
+
+#: classes/admin/configsectiongroups.php:459
+msgid "Allow group managers to pin posts"
+msgstr "Permitir que los administradores de grupos fijen publicaciones"
+
+#: classes/admin/configsectiongroups.php:456
+msgid "Disabled: only comunity/site administrators will be allowed to pin posts"
+msgstr "Deshabilitado: solo los administradores de la comunidad/sitio podrán anclar publicaciones"
+
+#: classes/admin/configsectiongroups.php:456
+msgid "Enabled: group management will be allowed to pin posts."
+msgstr "Habilitado: los administradores del grupo podrán anclar publicaciones."
+
+#: classes/admin/configsectiongroups.php:452
+msgid "Use \"pinned\" style only in group context"
+msgstr "Use el estilo \"anclado\" solo en el contexto del grupo"
+
+#: classes/admin/configsectiongroups.php:449
+msgid "Disabled: pinned group posts will always have the \"pinned\" style"
+msgstr "Deshabilitado: las publicaciones de grupos anclados siempre tendrán el estilo \"fijado\""
+
+#: classes/admin/configsectiongroups.php:449
+msgid "Enabled: pinned group posts will only have a \"pinned\" style when viewed in the group context and single post view"
+msgstr "Habilitado: las publicaciones de grupo ancladas solo tendrán un estilo \"fijado\" cuando se vean en el contexto del grupo y en la vista de publicación única"
+
+#: classes/api/groupajax.php:404
+msgid "Group custom input saved."
+msgstr "Entrada personalizada de grupo guardada."
+
+#: templates/groups/group-category-header.php:68
+#: templates/groups/group-header.php:91
+msgid "Rotate right"
+msgstr "Girar a la derecha"
+
+#: templates/groups/group-category-header.php:64
+#: templates/groups/group-header.php:87
+msgid "Rotate left"
+msgstr "Girar a la izquierda"
+
+#: classes/admin/configsectiongroups.php:434
+msgid "Editing group files"
+msgstr "Edición de archivos de grupo"
+
+#: classes/admin/configsectiongroups.php:423
+msgid "Enabled: group moderators can moderate files in their groups"
+msgstr "Habilitado: los moderadores de grupo pueden moderar archivos en sus grupos"
+
+#: classes/admin/configsectiongroups.php:415
+msgid "Enabled: group managers can moderate files in their groups"
+msgstr "Habilitado: los administradores de grupos pueden moderar archivos en sus grupos"
+
+#: classes/admin/configsectiongroups.php:407
+#: classes/admin/configsectiongroups.php:415
+#: classes/admin/configsectiongroups.php:423
+msgid "Disabled: only admin can moderate files"
+msgstr "Deshabilitado: solo el administrador puede moderar archivos"
+
+#: classes/admin/configsectiongroups.php:407
+msgid "Enabled: group owners can moderate files in their groups"
+msgstr "Habilitado: los propietarios de grupos pueden moderar archivos en sus grupos"
+
+#: templates/groups/group-category.php:39
+msgid "You currently can't post in any groups in this category."
+msgstr "Actualmente no puedes publicar en ningún grupo en esta categoría."
+
+#: classes/admin/configsectiongroups.php:125
+msgid "Default list style"
+msgstr "Estilo de lista predeterminado"
+
+#: classes/admin/configsectiongroups.php:122
+msgid "Controls the default view. If user changes the view, their preference becomes \"sticky\""
+msgstr "Controla la vista predeterminada. Si el usuario cambia la vista, su preferencia se vuelve \"fija\""
+
+#. Author of the plugin/theme
+msgid "PeepSo"
+msgstr "PeepSo"
+
+#. Description of the plugin/theme
+msgid "Public and closed user groups"
+msgstr "Grupos de usuarios públicos y cerrados"
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://peepso.com"
+msgstr "https://peepso.com"
+
+#. Plugin Name of the plugin/theme
+msgid "PeepSo Core: Groups"
+msgstr "PeepSo Core: Grupos"
+
+#: templates/groups/postbox-interaction.php:23
+msgid "A group"
+msgstr "Un grupo"
+
+#: templates/groups/postbox-interaction.php:13
+msgid "My profile"
+msgstr "Mi perfil"
+
+#: templates/groups/groups.php:160 templates/groups/groups.php:167
+msgid "Loading"
+msgstr "Cargando"
+
+#: templates/groups/groups.php:150
+msgid "Group Categories"
+msgstr "Categorías del grupo"
+
+#: templates/groups/groups.php:112
+msgid "No filter"
+msgstr "Sin filtro"
+
+#: templates/groups/groups.php:103
+msgid "Descending"
+msgstr "Descendente"
+
+#: templates/groups/groups.php:94
+msgid "Recently added"
+msgstr "Agregados recientemente"
+
+#: templates/groups/groups.php:64
+msgid "Any of the words"
+msgstr "Cualquiera de las palabras"
+
+#: templates/groups/groups.php:63
+msgid "Exact phrase"
+msgstr "Frase exacta"
+
+#: templates/groups/groups.php:57
+msgid "Show filters"
+msgstr "Mostrar filtros"
+
+#: templates/groups/groups-item.php:31
+msgid "%d pending"
+msgstr "%d pendiente"
+
+#: templates/groups/groups-categories.php:18
+msgid "Show all"
+msgstr "Mostrar todos"
+
+#: templates/groups/group.php:45
+msgid "Currently group is unpublished."
+msgstr "Actualmente el grupo está sin publicar."
+
+#: templates/groups/group.php:36
+msgid "You can still react & comment on posts in this group."
+msgstr "Todavía puedes reaccionar y comentar las publicaciones de este grupo."
+
+#: templates/groups/group.php:33
+msgid "You can still comment on posts in this group."
+msgstr "Todavía puedes comentar las publicaciones de este grupo."
+
+#: templates/groups/group.php:30
+msgid "You can still react to the posts in this group."
+msgstr "Todavía puedes reaccionar a las publicaciones en este grupo."
+
+#: templates/groups/group.php:25
+msgid "This is an announcement group, only the Owners and Managers can create new posts."
+msgstr "Este es un grupo de anuncios, solo los propietarios y administradores pueden crear nuevas publicaciones."
+
+#: templates/groups/group.php:22
+msgid "You must join the group to be able to create new posts."
+msgstr "Debes unirte al grupo para poder crear nuevas publicaciones."
+
+#: templates/groups/group-settings.php:676
+msgid "User immediately becomes a new member after click \"join\" button"
+msgstr "El usuario se convierte inmediatamente en un nuevo miembro después de hacer clic en el botón \"unirse\""
+
+#: templates/groups/group-settings.php:673
+msgid "Automatically accept join requests"
+msgstr "Aceptar solicitudes automáticamente"
+
+#: templates/groups/group-settings.php:625
+msgid "Owners & Managers will not receive notifications about new members"
+msgstr "Los propietarios y administradores no recibirán notificaciones sobre nuevos miembros"
+
+#: templates/groups/group-settings.php:622
+msgid "Disable new member notifications"
+msgstr "Deshabilitar notificaciones sobre nuevos miembros"
+
+#: templates/groups/group-settings.php:592
+#: templates/groups/group-settings.php:603
+msgid "Nothing (default)"
+msgstr "Nada (predeterminado)"
+
+#: templates/groups/group-settings.php:588
+#: templates/groups/group-settings.php:606
+msgid "Reactions and comments"
+msgstr "Reacciones y comentarios"
+
+#: templates/groups/group-settings.php:585
+#: templates/groups/group-settings.php:605
+msgid "Comments"
+msgstr "Comentarios"
+
+#: templates/groups/group-settings.php:582
+#: templates/groups/group-settings.php:604
+msgid "Reactions"
+msgstr "Reacciones"
+
+#: templates/groups/group-settings.php:555
+msgid "Has no effect if the setting above is set to \"yes\""
+msgstr "No tiene efecto si la configuración anterior se establece en \"sí\""
+
+#: templates/groups/group-settings.php:552
+msgid "Allowed non-member actions"
+msgstr "Acciones permitidas para no miembros"
+
+#: templates/groups/group-settings.php:501
+msgid "Disable likes/comments"
+msgstr "Desactivar likes/comentarios"
+
+#: templates/groups/group-settings.php:399
+msgid "Disable new posts"
+msgstr "Deshabilitar nuevas publicaciones"
+
+#: classes/admin/configsectiongroups.php:506
+#: templates/groups/group-settings.php:352
+#: templates/groups/group-settings.php:402
+#: templates/groups/group-settings.php:453
+#: templates/groups/group-settings.php:504
+msgid "Has no effect on Owner, Managers and Site Administrators"
+msgstr "No tiene ningún efecto sobre el propietario, gerentes y los administradores del sitio"
+
+#: templates/groups/group-settings.php:349
+msgid "Enable \"Invite\" button"
+msgstr "Activar el botón \"Invitar\""
+
+#: templates/groups/group-settings.php:325
+#: templates/groups/group-settings.php:334
+#: templates/groups/group-settings.php:376
+#: templates/groups/group-settings.php:385
+#: templates/groups/group-settings.php:426
+#: templates/groups/group-settings.php:435
+#: templates/groups/group-settings.php:477
+#: templates/groups/group-settings.php:486
+#: templates/groups/group-settings.php:528
+#: templates/groups/group-settings.php:537
+#: templates/groups/group-settings.php:649
+#: templates/groups/group-settings.php:658
+#: templates/groups/group-settings.php:700
+#: templates/groups/group-settings.php:709
+msgid "No"
+msgstr "No"
+
+#: templates/groups/group-settings.php:325
+#: templates/groups/group-settings.php:333
+#: templates/groups/group-settings.php:376
+#: templates/groups/group-settings.php:384
+#: templates/groups/group-settings.php:426
+#: templates/groups/group-settings.php:434
+#: templates/groups/group-settings.php:477
+#: templates/groups/group-settings.php:485
+#: templates/groups/group-settings.php:528
+#: templates/groups/group-settings.php:536
+#: templates/groups/group-settings.php:649
+#: templates/groups/group-settings.php:657
+#: templates/groups/group-settings.php:700
+#: templates/groups/group-settings.php:708
+msgid "Yes"
+msgstr "Si"
+
+#: templates/groups/group-settings.php:301
+msgid "Has no effect on Site Administrators"
+msgstr "No tiene ningún efecto sobre los administradores del sitio"
+
+#: templates/groups/group-settings.php:297
+msgid "Enable \"Request To Join\" button"
+msgstr "Habilitar el botón \"Solicitar Unirse\""
+
+#: templates/groups/group-settings.php:296
+msgid "Enable \"Join\" button"
+msgstr "Activar el botón \"Unirse\""
+
+#: templates/groups/group-settings.php:199
+msgid "No rules"
+msgstr "Sin reglas"
+
+#: templates/groups/group-settings.php:167
+msgid "Group Rules"
+msgstr "Reglas del grupo"
+
+#: templates/groups/group-settings.php:145
+msgid "No description"
+msgstr "Sin descripción"
+
+#: templates/groups/group-settings.php:113
+msgid "Group Description"
+msgstr "Descripción del grupo"
+
+#: templates/groups/group-settings.php:100
+msgid "This field might be automatically adjusted  after editing."
+msgstr "Este campo puede ser ajustado de manera automática después de la edición."
+
+#: templates/groups/group-settings.php:100
+msgid "Letters, numbers and dashes are recommended, eg my-amazing-group-123."
+msgstr "Letras, números y guiones son recomendados, por ejemplo, mi-sorprendentes-grupo-123."
+
+#: templates/groups/group-settings.php:68
+msgid "Group Slug"
+msgstr "Lema del Gupo"
+
+#: templates/groups/group-settings.php:27
+#: templates/groups/group-settings.php:74
+#: templates/groups/group-settings.php:120
+#: templates/groups/group-settings.php:174
+#: templates/groups/group-settings.php:233
+#: templates/groups/group-settings.php:308
+#: templates/groups/group-settings.php:359
+#: templates/groups/group-settings.php:409
+#: templates/groups/group-settings.php:460
+#: templates/groups/group-settings.php:511
+#: templates/groups/group-settings.php:562
+#: templates/groups/group-settings.php:632
+#: templates/groups/group-settings.php:683
+msgid "Edit"
+msgstr "Editar"
+
+#: templates/groups/group-settings.php:20
+msgid "Group Name"
+msgstr "Nombre del grupo"
+
+#: templates/groups/group-members-tabs.php:36
+msgid "<span>Banned</span><span class=\"ps-tabs__count\">%s</span>"
+msgstr "<span>Prohibido</span><span class=\"ps-tabs__count\">%s</span>"
+
+#: templates/groups/group-members-tabs.php:30
+msgid "<span>Pending</span><span class=\"ps-tabs__count ps-js-pending-count\" data-id=\"%d\">%s</span>"
+msgstr "<span>Pendiente</span><span class=\"ps-tabs__count ps-js-pending-count\" data-id=\"%d\">%s</span>"
+
+#: templates/groups/group-members-tabs.php:24
+msgid "<span>Invited</span><span class=\"ps-tabs__count ps-js-invited-count\" data-id=\"%d\">%s</span>"
+msgstr "<span>Invitado</span><span class=\"ps-tabs__count ps-js-invited-count\" data-id=\"%d\">%s</span>"
+
+#: templates/groups/group-members-tabs.php:17
+msgid "Management"
+msgstr "Gestión"
+
+#: templates/groups/group-members-tabs.php:11
+msgid "All Members"
+msgstr "Todos los miembros"
+
+#: templates/groups/group-members-search-form.php:81
+msgid "Only users with avatars"
+msgstr "Solo usuarios con avatares"
+
+#: templates/groups/group-members-search-form.php:78
+msgid "Avatars"
+msgstr "Avatares"
+
+#: templates/groups/group-members-search-form.php:70
+msgid "Members I don't follow"
+msgstr "Miembros que no sigo"
+
+#: templates/groups/group-members-search-form.php:69
+msgid "Members I follow"
+msgstr "Miembros que sigo"
+
+#: templates/groups/group-members-search-form.php:68
+msgid "All members"
+msgstr "Todos los miembros"
+
+#: templates/groups/group-members-search-form.php:59
+msgid "Most liked"
+msgstr "Más gustadas"
+
+#: templates/groups/group-members-search-form.php:57
+msgid "Latest members"
+msgstr "Últimos miembros"
+
+#: templates/groups/group-members-search-form.php:56
+msgid "Recently online"
+msgstr "En línea recientemente"
+
+#: templates/groups/group-members-search-form.php:53
+#: templates/groups/groups.php:92
+msgid "Sort"
+msgstr "Ordenar"
+
+#: templates/groups/group-members-search-form.php:37
+msgid "Any"
+msgstr "Cualquiera"
+
+#: templates/groups/group-members-item.php:24
+#: templates/groups/group-members-item.php:31
+msgid "Moderator"
+msgstr "Moderador"
+
+#: templates/groups/group-members-item.php:23
+#: templates/groups/group-members-item.php:30
+msgid "Manager"
+msgstr "Gestor"
+
+#: templates/groups/group-members-item-actions.php:5
+msgid "Manage"
+msgstr "Gestionar"
+
+#: templates/groups/group-header.php:208
+msgid "Settings"
+msgstr "Ajustes"
+
+#: templates/groups/group-header.php:183 templates/groups/group-header.php:216
+msgid "<span class=\"ps-js-pending-count\" data-id=\"%d\">%s</span> pending"
+msgstr "<span class=\"ps-js-pending-count\" data-id=\"%d\">%s</span>pendientes"
+
+#: templates/groups/group-header.php:176
+msgid "%s member"
+msgid_plural "%s members"
+msgstr[0] "%s miembro"
+msgstr[1] "%s miembros"
+
+#: templates/groups/group-header.php:168
+msgid "%s Group"
+msgstr "Grupo %s"
+
+#: templates/groups/group-header.php:79
+msgid "Upload"
+msgstr "Subir"
+
+#: templates/groups/group-category.php:58
+#: templates/groups/group-category.php:59 templates/groups/group.php:76
+#: templates/groups/group.php:77
+msgid "No posts found."
+msgstr "No se encuentran entradas."
+
+#: templates/groups/group-category-header.php:124
+#: templates/groups/group-header.php:201
+msgid "Stream"
+msgstr "Estado"
+
+#: templates/groups/group-category-header.php:111
+msgid "with %d groups"
+msgstr "con %d grupos"
+
+#: templates/groups/group-category-header.php:109
+#: templates/groups/group-header.php:137
+msgid "Group category"
+msgstr "Categoría del grupo"
+
+#: templates/groups/group-category-header.php:94
+#: templates/groups/group-header.php:116
+msgid "Show details"
+msgstr "Mostrar detalles"
+
+#: templates/groups/group-category-header.php:60
+#: templates/groups/group-header.php:83
+msgid "Reposition"
+msgstr "Reposicionar"
+
+#: templates/groups/group-category-header.php:52
+#: templates/groups/group-header.php:75
+msgid "Change cover image"
+msgstr "Cambiar la imagen de portada"
+
+#: templates/groups/group-category-header.php:34
+#: templates/groups/group-header.php:51
+msgid "Change avatar"
+msgstr "Cambiar avatar"
+
+#: templates/groups/group-category-header.php:22
+#: templates/groups/group-header.php:39
+msgid "%s avatar"
+msgstr "%s avatar"
+
+#: templates/groups/group-category-header.php:13
+#: templates/groups/group-header.php:30
+msgid "%s cover photo"
+msgstr "%s imagen de portada"
+
+#: classes/admin/configsectiongroups.php:119
+#: templates/groups/group-category-groups.php:12 templates/groups/groups.php:34
+#: templates/groups/profile-groups.php:15
+msgid "List"
+msgstr "Lista"
+
+#: classes/admin/configsectiongroups.php:118
+#: templates/groups/group-category-groups.php:11 templates/groups/groups.php:33
+#: templates/groups/profile-groups.php:14
+msgid "Grid"
+msgstr "Cuadrícula"
+
+#: templates/groups/dialog-invite.php:58
+msgid "Invite users to group"
+msgstr "Invitar usuarios al grupo"
+
+#: templates/groups/dialog-invite.php:58
+msgid "Add users to group"
+msgstr "Agregar usuarios al grupo"
+
+#: templates/groups/dialog-invite.php:46
+msgid "Invite to Group"
+msgstr "Invitar al Grupo"
+
+#: templates/groups/dialog-invite.php:46
+msgid "Add to group"
+msgstr "Añadir al grupo"
+
+#: templates/groups/dialog-invite.php:46
+msgid "Invited"
+msgstr "Invitado"
+
+#: templates/groups/dialog-invite.php:46
+msgid "Added"
+msgstr "Agregado"
+
+#: templates/groups/dialog-invite.php:22
+msgid "Please note: Users who are either banned, already invited, members or blocked receiving invitations to this group will not show in this listing."
+msgstr "Tenga en cuenta que: Los usuarios que hayan sido baneados, invitados, sean miembros o estén bloqueados al recibir invitaciones a este grupo no aparecerán en este listado."
+
+#: templates/groups/dialog-invite.php:17 templates/groups/group-category.php:60
+#: templates/groups/group.php:78
+msgid "Nothing more to show."
+msgstr "Nada más para mostrar."
+
+#: templates/groups/dialog-invite.php:16
+msgid "Load more"
+msgstr "Cargar más"
+
+#: templates/groups/dialog-invite.php:10
+#: templates/groups/group-members-search-form.php:25
+#: templates/groups/groups.php:56 templates/groups/postbox-interaction.php:29
+msgid "Start typing to search..."
+msgstr "Empieza a escribir para buscar..."
+
+#: templates/groups/dialog-create.php:92 templates/groups/dialog-create.php:99
+#: templates/groups/group-category-groups.php:19 templates/groups/groups.php:43
+#: templates/groups/profile-groups.php:21
+msgid "Create Group"
+msgstr "Crear Grupo"
+
+#: templates/groups/dialog-create.php:43
+#: templates/groups/group-settings.php:226 templates/groups/groups.php:110
+msgid "Category"
+msgid_plural "Categories"
+msgstr[0] "Categoría"
+msgstr[1] "Categorías"
+
+#: templates/groups/dialog-create.php:21 templates/groups/group-settings.php:52
+#: templates/groups/group-settings.php:153
+#: templates/groups/group-settings.php:207
+msgid "Characters left"
+msgstr "Caracteres restantes"
+
+#: templates/groups/dialog-create.php:20
+msgid "Enter your group's description..."
+msgstr "Ingrese la descripción de su grupo..."
+
+#: templates/groups/dialog-create.php:8
+msgid "Enter your group's name..."
+msgstr "Ingrese el nombre de su grupo..."
+
+#: templates/groups/dialog-create.php:4
+msgid "Name"
+msgstr "Nombre"
+
+#: templates/groups/dialog-category-cover-remove.php:7
+#: templates/groups/dialog-cover-remove.php:7
+msgid "Remove Cover Image"
+msgstr "Eliminar imagen de portada"
+
+#: templates/groups/dialog-category-cover-remove.php:1
+#: templates/groups/dialog-cover-remove.php:1
+msgid "Are you sure want to remove this cover image?"
+msgstr "¿Estás seguro de que quieres eliminar esta imagen de portada?"
+
+#: templates/groups/dialog-category-avatar.php:95
+msgid "Change Group Category Avatar"
+msgstr "Cambiar avatar de categoría de grupo"
+
+#: templates/groups/dialog-avatar.php:98
+#: templates/groups/dialog-category-avatar.php:98
+msgid "Done"
+msgstr "Terminado"
+
+#: templates/groups/dialog-avatar.php:95
+msgid "Change Group Avatar"
+msgstr "Cambiar avatar del grupo"
+
+#: templates/groups/dialog-avatar.php:74
+#: templates/groups/dialog-category-avatar.php:74
+msgid "This is how <strong>%s</strong> avatar will appear throughout the entire community."
+msgstr "Así aparecerá el avatar de <strong>%s</strong> en toda la comunidad."
+
+#: templates/groups/dialog-avatar.php:65 templates/groups/dialog-avatar.php:68
+#: templates/groups/dialog-category-avatar.php:65
+#: templates/groups/dialog-category-avatar.php:68
+msgid "Avatar Preview"
+msgstr "Vista previa del Avatar"
+
+#: templates/groups/dialog-avatar.php:60
+#: templates/groups/dialog-category-avatar.php:60
+msgid "No avatar uploaded. Use the button above to select and upload one."
+msgstr "Ningún avatar subido. Utilice el botón de arriba para seleccionar y subir uno."
+
+#: templates/groups/dialog-avatar.php:52
+#: templates/groups/dialog-category-avatar.php:52
+#: templates/groups/dialog-category-cover-remove.php:14
+#: templates/groups/dialog-cover-remove.php:14
+msgid "Confirm"
+msgstr "Confirmar"
+
+#: templates/groups/dialog-avatar.php:35
+#: templates/groups/dialog-category-avatar.php:35
+msgid "Crop"
+msgstr "Recortar"
+
+#: templates/groups/dialog-avatar.php:24
+#: templates/groups/dialog-category-avatar.php:24
+msgid "Automatically Generated. (Maximum width: 160px)"
+msgstr "Generada Automáticamente. (Ancho máximo: 160px)"
+
+#: templates/groups/dialog-avatar.php:20
+#: templates/groups/dialog-category-avatar.php:20
+msgid "Uploaded Photo"
+msgstr "Foto Cargada"
+
+#: templates/groups/dialog-avatar.php:13
+#: templates/groups/dialog-category-avatar.php:13
+#: templates/groups/group-category-header.php:56
+msgid "Upload new"
+msgstr "Subir nuevo"
+
+#: templates/admin/groups.php:20
+msgid "Are you sure?"
+msgstr "¿Está seguro?"
+
+#: templates/admin/groups.php:11
+msgid "Search Groups"
+msgstr "Buscar Grupos"
+
+#: templates/admin/group_categories_button.php:18
+msgid "Add New"
+msgstr "Añadir nuevo"
+
+#: templates/admin/group_categories_button.php:12
+#: templates/admin/group_categories_button.php:25
+msgid "Group categories are currently disabled. You can enable them in PeepSo Config -> Groups"
+msgstr "Actualmente, las categorías de grupo están deshabilitadas. Puede habilitarlas en la Configuración de Peepso -> Grupos"
+
+#: templates/admin/group_categories_button.php:7
+msgid "Collapse All"
+msgstr "Plegar todo"
+
+#: templates/admin/group_categories_button.php:4
+msgid "Expand All"
+msgstr "Desplegar todo"
+
+#: templates/admin/group_categories.php:102
+msgid "Generate"
+msgstr "Generar"
+
+#: templates/admin/group_categories.php:101
+msgid "URL slug"
+msgstr "Slug URL"
+
+#: templates/admin/group_categories.php:55
+#: templates/groups/group-category-header.php:80
+#: templates/groups/group-header.php:103 templates/groups/group-settings.php:36
+#: templates/groups/group-settings.php:83
+#: templates/groups/group-settings.php:128
+#: templates/groups/group-settings.php:182
+#: templates/groups/group-settings.php:241
+#: templates/groups/group-settings.php:317
+#: templates/groups/group-settings.php:368
+#: templates/groups/group-settings.php:418
+#: templates/groups/group-settings.php:469
+#: templates/groups/group-settings.php:520
+#: templates/groups/group-settings.php:571
+#: templates/groups/group-settings.php:641
+#: templates/groups/group-settings.php:692
+msgid "Save"
+msgstr "Guardar"
+
+#: templates/admin/group_categories.php:54
+#: templates/groups/dialog-avatar.php:48
+#: templates/groups/dialog-category-avatar.php:48
+#: templates/groups/dialog-category-cover-remove.php:10
+#: templates/groups/dialog-cover-remove.php:10
+#: templates/groups/dialog-create.php:95
+#: templates/groups/group-category-header.php:79
+#: templates/groups/group-header.php:102 templates/groups/group-settings.php:32
+#: templates/groups/group-settings.php:79
+#: templates/groups/group-settings.php:125
+#: templates/groups/group-settings.php:179
+#: templates/groups/group-settings.php:238
+#: templates/groups/group-settings.php:313
+#: templates/groups/group-settings.php:364
+#: templates/groups/group-settings.php:414
+#: templates/groups/group-settings.php:465
+#: templates/groups/group-settings.php:516
+#: templates/groups/group-settings.php:567
+#: templates/groups/group-settings.php:637
+#: templates/groups/group-settings.php:688
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: templates/admin/group_categories.php:20
+msgid "no name"
+msgstr "sin nombre"
+
+#: groups.php:2858
+msgid "Get it now!"
+msgstr "¡Consíguelo ahora!"
+
+#: groups.php:2856
+msgid "The %s plugin requires the PeepSo plugin to be installed and activated."
+msgstr "El plugin %s requiere que el plugin PeepSo sea instalado y activado."
+
+#: groups.php:2809
+msgid "group cover photo"
+msgstr "foto de portada del grupo"
+
+#: groups.php:2804
+msgid "group avatar"
+msgstr "avatar del grupo"
+
+#: groups.php:2759
+msgid "No result found."
+msgstr "No se encuentra resultado."
+
+#: groups.php:2661
+msgid "Are you sure you want to change the group privacy?"
+msgstr "¿Estás seguro de que quieres cambiar la privacidad del grupo?"
+
+#: groups.php:2660
+msgid "Are you sure you want to change the group URL?"
+msgstr "¿Estás seguro de que quieres cambiar la URL del grupo?"
+
+#: groups.php:2659 groups.php:2660 groups.php:2661
+msgid "All group members will be notified."
+msgstr "Serán notificados todos los miembros del grupo."
+
+#: groups.php:2659
+msgid "Are you sure you want to change the group name?"
+msgstr "¿Estás seguro de que quieres cambiar el nombre del grupo?"
+
+#: groups.php:2658 templates/groups/groups-item.php:29
+msgid "members"
+msgstr "miembros"
+
+#: groups.php:2656
+msgid "Less"
+msgstr "Menos"
+
+#: groups.php:2655 templates/groups/group-category-header.php:154
+#: templates/groups/group-category-header.php:157
+#: templates/groups/group-header.php:263 templates/groups/groups-item.php:66
+msgid "More"
+msgstr "Más"
+
+#: groups.php:2539
+msgid "changed group privacy to %s"
+msgstr "cambió la privacidad del grupo a %s"
+
+#: groups.php:2515
+msgid "renamed a group you're a member of"
+msgstr "cambió el nombre de un grupo al que eres miembro"
+
+#: groups.php:2464
+msgid "accepted you as a group member"
+msgstr "te aceptó como miembro del grupo"
+
+#: groups.php:2418
+msgid "requested to join your group"
+msgstr "solicitaron unirse a tu grupo"
+
+#: groups.php:2411
+msgid "and %s%s more users%s requested to join your group"
+msgstr "y %s%s usuarios más%s solicitaron unirse a su grupo"
+
+#: groups.php:2404
+msgid "and %s%s%s requested to join your group"
+msgstr "y %s%s%s solicitó unirse a su grupo"
+
+#: groups.php:2350
+msgid "accepted your group invitation"
+msgstr "aceptó tu invitación al grupo"
+
+#: groups.php:2309
+msgid "joined your group"
+msgstr "se unió a tu grupo"
+
+#: groups.php:2207
+msgid " added %1$d photo to the album: <a href=\"%3$s\">%2$s</a>"
+msgid_plural " added %1$d photos to the album: <a href=\"%3$s\">%2$s</a>"
+msgstr[0] " agregó %1$d foto al album: <a href=\"%3$s\">%2$s</a>"
+msgstr[1] " agregó %1$d fotos al álbum: <a href=\"%3$s\">%2$s</a>"
+
+#: groups.php:2187 groups.php:2217
+msgid " updated group cover"
+msgstr " portada del grupo actualizada"
+
+#: groups.php:2177
+msgid " updated group avatar"
+msgstr " avatar del grupo actualizado"
+
+#: groups.php:1503 groups.php:1505
+msgid "joined this group"
+msgstr "se unió a este grupo"
+
+#: groups.php:1475 groups.php:1477
+msgid "joined a group"
+msgstr "se unió a un grupo"
+
+#: groups.php:1456
+msgid "You are not a member of this group"
+msgstr "No puedes formar parte de este grupo"
+
+#: groups.php:922
+msgid "groups"
+msgstr "grupos"
+
+#: groups.php:891
+msgctxt "Profile link"
+msgid "Groups"
+msgstr "Grupos"
+
+#: groups.php:866
+msgctxt "Community link"
+msgid "Groups"
+msgstr "Grupos"
+
+#: groups.php:815
+msgid "Post to"
+msgstr "Publicar en"
+
+#: groups.php:708
+msgid "Group Stream Photos"
+msgstr "Fotos del grupo"
+
+#: groups.php:704
+msgid "Group Covers"
+msgstr "Portadas del grupo"
+
+#: groups.php:700
+msgid "Group Avatars"
+msgstr "Avatares del grupo"
+
+#: groups.php:677
+msgid "This will be sent to a group owner when another user comments on the cover"
+msgstr "Esto se enviará al propietario de un grupo cuando otro usuario comente la portada"
+
+#: groups.php:676
+msgid "User Comment Group Cover"
+msgstr "Un usuario comentó la portada del grupo"
+
+#: groups.php:672
+msgid "This will be sent to a group owner when another user comments on the avatar"
+msgstr "Esto se enviará al propietario de un grupo cuando otro usuario comente el avatar"
+
+#: groups.php:671
+msgid "User Comment Group Avatar"
+msgstr "Un usuario comentó el avatar del grupo"
+
+#: groups.php:666
+msgid "Notify Administrators when a new new group is created"
+msgstr "Notificar a los Administradores al crearse un nuevo grupo"
+
+#: groups.php:665
+msgid "New Group Created"
+msgstr "Se ha creado un nuevo grupo"
+
+#: groups.php:661
+msgid "Notify users about new posts in groups."
+msgstr "Notificar usuarios sobre nuevas publicaciones en grupos."
+
+#: groups.php:660
+msgid "New Post In Group"
+msgstr "Nueva publicación en el grupo"
+
+#: groups.php:578
+msgid "Group subscriptions"
+msgstr "Suscripciones de Grupo"
+
+#: groups.php:537
+msgid "{sitename} - New Group Created"
+msgstr "{sitename} - Se ha creado un nuevo grupo"
+
+#: groups.php:484
+msgid "%s posted in %s"
+msgstr "%s publicado en %s"
+
+#: groups.php:445
+msgid "posted in %s"
+msgstr "publicado en %s"
+
+#: groups.php:261 templates/groups/group-header.php:137
+msgid "Group categories"
+msgstr "Categorías del grupo"
+
+#: groups.php:242
+msgid "PeepSo Groups"
+msgstr "Grupos de PeepSo"
+
+#: classes/widgets/widgetgroup.php:59
+msgid "About %s"
+msgstr "Sobre %s"
+
+#: classes/widgets/widgetgroup.php:8 classes/widgets/widgetgroup.php:9
+msgid "PeepSo Groups: about the group"
+msgstr "Grupos PeepSo: sobre el grupo"
+
+#: classes/shortcodes/groupsshortcode.php:188 groups.php:2714
+msgid "The file size you uploaded is too big. The maximum file size is %s."
+msgstr "El tamaño del archivo que subiste es demasiado grande. El tamaño máximo es %s."
+
+#: classes/shortcodes/groupsshortcode.php:186 groups.php:2712
+msgid "The file type you uploaded is not allowed. Only JPEG, PNG, and WEBP allowed."
+msgstr "El tipo de archivo que ha intentado subir no está permitido. Solo se permiten JPEG, PNG y WEBP."
+
+#: classes/shortcodes/groupsshortcode.php:130
+msgctxt "Page listing"
+msgid "PeepSo"
+msgstr "PeepSo"
+
+#: classes/shortcodes/groupsshortcode.php:126
+msgid "Displays the Groups listing and single Group view."
+msgstr "Muestra la Lista de grupos y la Vista de grupo única."
+
+#: classes/shortcodes/groupsshortcode.php:114
+#: classes/shortcodes/groupsshortcode.php:130 groups.php:239 groups.php:252
+#: groups.php:906 install/activate.php:40
+#: templates/groups/group-category-header.php:130
+#: templates/groups/groups.php:149
+msgid "Groups"
+msgstr "Grupos"
+
+#: classes/models/groupuser.php:648
+msgid "Reject"
+msgstr "Rechazar"
+
+#: classes/models/groupuser.php:642
+msgid "Approve"
+msgstr "Aprobar"
+
+#: classes/models/groupuser.php:633
+msgid "Cancel Invitation"
+msgstr "Cancelar invitación"
+
+#: classes/models/groupuser.php:623
+msgid "Unban"
+msgstr "Desbloquear"
+
+#: classes/models/groupuser.php:620
+msgid "Are you sure you want to unban %s and restore as a regular Group Member?"
+msgstr "¿Está seguro que desea desbanear a %s y restaurarlo como un miembro regular del grupo?"
+
+#: classes/models/groupuser.php:597
+msgid "Ban"
+msgstr "Bloquear"
+
+#: classes/models/groupuser.php:593
+msgid "This user will be unable to join or be invited."
+msgstr "Este usuario no podra unirse, o ser invitado."
+
+#: classes/models/groupuser.php:592
+msgid "Are you sure you want to ban this user?"
+msgstr "¿Seguro que deseas desbloquear este usuario?"
+
+#: classes/models/groupuser.php:567
+msgid "Remove"
+msgstr "Expulsar"
+
+#: classes/models/groupuser.php:564
+msgid "To join again the user will have to be invited and/or approved."
+msgstr "Para unirse de nuevo el usuario tendrá que ser invitado o aprobado."
+
+#: classes/models/groupuser.php:561
+msgid "Are you sure you want to remove this user?"
+msgstr "¿Estás seguro de que quieres expulsar este usuario?"
+
+#: classes/models/groupuser.php:547
+msgid "Turn into regular member"
+msgstr "Convertir en miembro regular"
+
+#: classes/models/groupuser.php:544
+msgid "Are you sure you want to make %s a regular Group Member?"
+msgstr "¿Está seguro que desea hacer a %s un miembro regular del grupo?"
+
+#: classes/models/groupuser.php:534
+msgid "Turn into Moderator"
+msgstr "Convertirse en Moderador"
+
+#: classes/models/groupuser.php:531
+msgid "Are you sure you want to make %s a Group Moderator?"
+msgstr "¿Está seguro que desea hacer a %s moderador del grupo?"
+
+#: classes/models/groupuser.php:521
+msgid "Turn into Manager"
+msgstr "Convertirse en administrador"
+
+#: classes/models/groupuser.php:518
+msgid "Are you sure you want to make %s a Group Manager?"
+msgstr "¿Está seguro que desea hacer a %s administrador del grupo?"
+
+#: classes/models/groupuser.php:509
+msgid "Transfer ownership"
+msgstr "Transferir la propiedad"
+
+#: classes/models/groupuser.php:506
+msgid "Are you sure you want to make %s a new Group Owner? There can be only one owner in the group."
+msgstr "¿Está seguro que desea hacer a %s un nuevo propietario del grupo? Puede haber sólo un propietario en el grupo."
+
+#: classes/models/groupuser.php:503
+msgid "yourself"
+msgstr "usted mismo"
+
+#: classes/models/groupuser.php:465
+msgid "To be able to leave, you need to transfer ownership to another user first."
+msgstr "Para ser capaz de salir, debe transferir la propiedad a otro usuario primero."
+
+#: classes/models/groupuser.php:465
+msgid "You can't leave this group."
+msgstr "No puedes abandonar este grupo."
+
+#: classes/models/groupuser.php:463 groups.php:1454
+msgid "You are the group %s"
+msgstr "Usted es el %s del grupo"
+
+#: classes/models/groupuser.php:444
+msgid "You are a group %s"
+msgstr "Usted es un %s del grupo"
+
+#: classes/models/groupuser.php:434 classes/models/groupuser.php:570
+msgid "Leave"
+msgstr "Abandonar"
+
+#: classes/models/groupuser.php:428
+msgid "To join again a member will have to be invited."
+msgstr "Para unirse de nuevo el usuario tendrá que ser invitado."
+
+#: classes/models/groupuser.php:424 classes/models/groupuser.php:575
+msgid "To join again you will have to be approved or invited."
+msgstr "Para unirse de nuevo tendrás que ser aprobado o invitado."
+
+#: classes/models/groupuser.php:421 classes/models/groupuser.php:572
+msgid "Are you sure you want to leave this group?"
+msgstr "¿Seguro que quieres abandonar este grupo?"
+
+#: classes/models/groupuser.php:411
+msgid "Request To Join"
+msgstr "Solicitar ingreso"
+
+#: classes/models/groupuser.php:404
+msgid "Join"
+msgstr "Unirse"
+
+#: classes/models/groupuser.php:397
+msgid "Cancel Request To Join"
+msgstr "Cancelar solicitud de ingreso"
+
+#: classes/models/groupuser.php:391
+msgid "You need to be approved"
+msgstr "Necesitas ser aprobado"
+
+#: classes/models/groupuser.php:390
+msgid "Pending approval"
+msgstr "Aprobación pendiente"
+
+#: classes/models/groupuser.php:383
+msgid "Reject invite"
+msgstr "Rechazar invitación"
+
+#: classes/models/groupuser.php:377
+msgid "Accept invite"
+msgstr "Aceptar invitación"
+
+#: classes/models/groupuser.php:358
+msgid "Add users"
+msgstr "Añadir usuarios"
+
+#: classes/models/groupuser.php:354
+msgid "Invite"
+msgstr "Invitar"
+
+#: classes/models/groupuser.php:137
+msgid "As community administrator, you have the same control as group owner."
+msgstr "Como administrador de la comunidad, tiene el mismo control como propietario de un grupo."
+
+#: classes/models/groupuser.php:120
+msgid "As an owner you can manage all aspects of the group and its content"
+msgstr "Como un propietario puede administrar todos los aspectos del grupo y su contenido"
+
+#: classes/models/groupuser.php:119
+msgid "owner"
+msgstr "propietario"
+
+#: classes/models/groupuser.php:115
+msgid "As a manager you can manage the group members and edit or delete all posts and comments in this group"
+msgstr "Como un administrador puede administrar a los miembros del grupo y editar o borrar todos los mensajes y comentarios en este grupo"
+
+#: classes/models/groupuser.php:114
+msgid "manager"
+msgstr "administrador"
+
+#: classes/models/groupuser.php:110
+msgid "As a moderator you can edit or delete all posts and comments in this group"
+msgstr "Como un moderador puede editar o borrar todos los mensajes y comentarios en este grupo"
+
+#: classes/models/groupuser.php:109
+msgid "moderator"
+msgstr "moderador"
+
+#: classes/models/groupuser.php:103 groups.php:2657
+#: templates/groups/groups-item.php:29
+msgid "member"
+msgstr "miembro"
+
+#: classes/models/groupprivacy.php:35
+msgid "Non-members can't see the group at all."
+msgstr "No miembros no pueden ver el grupo del todo."
+
+#: classes/models/groupprivacy.php:35
+msgid "Users need to be invited."
+msgstr "Los usuarios deben ser invitados."
+
+#: classes/models/groupprivacy.php:34
+msgid "secret"
+msgstr "secreto"
+
+#: classes/models/groupprivacy.php:33
+msgid "Secret"
+msgstr "Secreto"
+
+#: classes/models/groupprivacy.php:28
+msgid "Non-members can only see the group page."
+msgstr "Los usuarios no miembros solo pueden ver la página del grupo."
+
+#: classes/models/groupprivacy.php:28
+msgid "Users need to be invited or request the group membership."
+msgstr "Los usuarios deben ser invitados o solicitar la membresía del grupo."
+
+#: classes/models/groupprivacy.php:27
+msgid "private"
+msgstr "privado"
+
+#: classes/models/groupprivacy.php:26
+msgid "Private"
+msgstr "Privado"
+
+#: classes/models/groupprivacy.php:20
+msgid "Non-members can see the group content, but they can't post."
+msgstr "Los no miembros pueden ver el contenido del grupo, pero no pueden publicar."
+
+#: classes/models/groupprivacy.php:19
+msgid "open"
+msgstr "abierto"
+
+#: classes/models/groupprivacy.php:18
+msgid "Open"
+msgstr "Abrir"
+
+#: classes/models/groupfollower.php:218
+msgid "Receive emails about new posts in this group"
+msgstr "Recibir correos electrónicos sobre publicaciones nuevas en este grupo"
+
+#: classes/models/groupfollower.php:215 groups.php:1470
+msgid "Receive emails"
+msgstr "Recibir e-mails"
+
+#: classes/models/groupfollower.php:211
+msgid "Be notified about new posts in this group"
+msgstr "Recibir notificaciones sobre publicaciones nuevas en este grupo"
+
+#: classes/models/groupfollower.php:208 groups.php:1466
+msgid "Be notified"
+msgstr "Ser notificado"
+
+#: classes/models/groupfollower.php:204
+msgid "Show posts from this group in \"my following\" stream"
+msgstr "Mostrar publicaciones de este grupo en «Mis seguidos»"
+
+#: classes/models/groupfollower.php:201 groups.php:1462
+msgid "Follow"
+msgstr "Seguir"
+
+#: classes/models/groupfollower.php:190
+msgid "Not receiving notifications"
+msgstr "No recibir notificaciones"
+
+#: classes/models/groupfollower.php:186
+msgid "Receiving notifications"
+msgstr "Recibir notificaciones"
+
+#: classes/models/groupfollower.php:176
+msgid "Not following"
+msgstr "No lo sigues"
+
+#: classes/models/groupfollower.php:173
+#: templates/groups/group-members-search-form.php:66
+msgid "Following"
+msgstr "Siguiendo"
+
+#: classes/models/groupcategory.php:79 groups.php:2662
+#: templates/groups/groups.php:128
+msgid "Uncategorized"
+msgstr "Sin categorizar"
+
+#: classes/models/group.php:416
+msgid "This group name cannot be used"
+msgstr "Este nombre de grupo no se puede utilizar"
+
+#: classes/models/group.php:399
+msgid "Maximum length is %s"
+msgstr "La longitud máxima es de %s"
+
+#: classes/models/group.php:395
+msgid "Minimum length is %s characters"
+msgstr "La longitud mínima es de %s caracteres"
+
+#: classes/models/group.php:391
+msgid "This field can't be a number"
+msgstr "Este campo no puede ser un número"
+
+#: classes/models/group.php:382 classes/models/group.php:386
+msgid "This field is required"
+msgstr "Este campo es requerido"
+
+#: classes/api/groupusersajax.php:237 classes/api/groupusersajax.php:242
+msgid "No users found."
+msgstr "No se encontraron usuarios."
+
+#: classes/api/groupuserajax.php:266
+msgid "Invalid role"
+msgstr "Función inválida"
+
+#: classes/api/groupuserajax.php:219
+msgid "Unable to add this user"
+msgstr "No se puede agregar este usuario"
+
+#: classes/api/groupuserajax.php:215
+msgid "added you to a group"
+msgstr "te agregó a un grupo"
+
+#: classes/api/groupuserajax.php:206
+msgid "Unable to invite this user"
+msgstr "No se puede invitar a este usuario"
+
+#: classes/api/groupuserajax.php:204
+msgid "invited you to join a group"
+msgstr "te invitó a unirte a un grupo"
+
+#: classes/api/groupuserajax.php:187
+msgid "You are not allowed to manage members"
+msgstr "No se le permite administrar los miembros"
+
+#: classes/api/groupuserajax.php:138
+msgid "Are you sure you want to block all future invites to this group?"
+msgstr "¿Está seguro de que quiere bloquear las futuras invitaciones a este grupo?"
+
+#: classes/api/groupuserajax.php:137
+msgid "Block invites"
+msgstr "Bloquear invitaciones"
+
+#: classes/api/groupuserajax.php:128
+msgid "Unable to leave this group"
+msgstr "No puede abandonar este grupo"
+
+#: classes/api/groupuserajax.php:108
+msgid "Unable to cancel request to join this group"
+msgstr "No se pudo cancelar su solicitud para unirse a este grupo"
+
+#: classes/api/groupuserajax.php:63 classes/api/groupuserajax.php:87
+msgid "Unable to join this group"
+msgstr "No se puede unir a este grupo"
+
+#: classes/api/groupsajax.php:123
+msgid "No groups found"
+msgstr "No se ha encontrado ningún grupo"
+
+#: classes/api/groupsajax.php:120
+msgid "%s doesn't belong to any groups yet"
+msgstr "%s aún no forma parte de ningún grupo"
+
+#: classes/api/groupsajax.php:120
+msgid "You don't belong to any groups yet"
+msgstr "Aún no formas parte de ningún grupo"
+
+#: classes/api/groupcategoryajax.php:13
+msgid "New Category"
+msgstr "Nueva categoría"
+
+#: classes/api/groupcategoryajax.php:9 classes/api/groupcategoryajax.php:52
+#: classes/api/groupcategoryajax.php:71 classes/api/groupcategoryajax.php:101
+#: classes/api/groupcategoryajax.php:136 classes/api/groupcategoryajax.php:161
+msgid "Insufficient permissions."
+msgstr "Permisos insuficientes."
+
+#: classes/api/groupcategoriesajax.php:53
+msgid "No Categories Found."
+msgstr "No se encontraron categorías."
+
+#: classes/api/groupajax.php:751 classes/api/groupcategoryajax.php:506
+msgid "Changes saved."
+msgstr "Cambios guardados."
+
+#: classes/api/groupajax.php:610 classes/api/groupajax.php:716
+#: classes/api/groupcategoryajax.php:372 classes/api/groupcategoryajax.php:476
+msgid "No file uploaded."
+msgstr "No se ha cargado ningún archivo."
+
+#: classes/api/groupajax.php:599 classes/api/groupcategoryajax.php:361
+msgid "Minimum avatar resolution is %d x %d pixels."
+msgstr "La resolución mínima del avatar es %d x %d pixeles."
+
+#: classes/api/groupajax.php:576 classes/api/groupajax.php:699
+#: classes/api/groupcategoryajax.php:338 classes/api/groupcategoryajax.php:458
+msgid "The file type you uploaded is not allowed."
+msgstr "El tipo de archivo que cargó no está permitido."
+
+#: classes/api/groupajax.php:570 classes/api/groupajax.php:705
+#: classes/api/groupcategoryajax.php:332 classes/api/groupcategoryajax.php:464
+msgid "The file you uploaded is either missing or too large."
+msgstr "El archivo que cargo no se encuentra o es demasiado grande."
+
+#: classes/api/groupajax.php:554 classes/api/groupajax.php:641
+#: classes/api/groupajax.php:721 classes/api/groupajax.php:755
+#: classes/api/groupcategoryajax.php:316 classes/api/groupcategoryajax.php:402
+#: classes/api/groupcategoryajax.php:481
+msgid "You do not have enough permissions."
+msgstr "No tiene permisos suficientes."
+
+#: classes/api/groupajax.php:426 classes/api/groupajax.php:494
+#: classes/api/groupcategoryajax.php:190 classes/api/groupcategoryajax.php:257
+msgid "Invalid access"
+msgstr "Acceso invalido"
+
+#: classes/api/groupajax.php:383 classes/api/groupajax.php:407
+msgid "You are not authorized to change this group categories."
+msgstr "No está autorizado para cambiar las categorías de este grupo."
+
+#: classes/api/groupajax.php:378
+msgid "Group categories saved."
+msgstr "Categorías del grupo guardadas."
+
+#: classes/api/groupajax.php:340
+msgid "You are not authorized to change this group description."
+msgstr "No está autorizado para cambiar la descripción de este grupo."
+
+#: classes/api/groupajax.php:337
+msgid "Group description saved."
+msgstr "Descripción del grupo guardada."
+
+#: classes/api/groupajax.php:294
+msgid "You are not authorized to change this group name."
+msgstr "No está autorizado para cambiar el nombre de este grupo."
+
+#: classes/api/groupajax.php:290
+msgid "Group privacy changed."
+msgstr "Privacidad grupo cambiado."
+
+#: classes/api/groupajax.php:275
+msgid "Invalid Group Privacy"
+msgstr "Privacidad de grupo no válido"
+
+#: classes/api/groupajax.php:245
+msgid "You are not authorized to manage this group's settings"
+msgstr "No está autorizado para cambiar la configuración de este grupo"
+
+#: classes/api/groupajax.php:182 classes/api/groupajax.php:242
+msgid "Group name saved."
+msgstr "Nombre del grupo guardado."
+
+#: classes/api/groupajax.php:139 classes/api/groupajax.php:200
+#: classes/api/groupajax.php:260 classes/api/groupajax.php:309
+#: classes/api/groupajax.php:355 classes/api/groupajax.php:398
+#: classes/api/groupajax.php:544 classes/api/groupajax.php:627
+#: classes/api/groupajax.php:678 classes/api/groupajax.php:737
+#: classes/api/groupcategoryajax.php:307 classes/api/groupcategoryajax.php:389
+#: classes/api/groupcategoryajax.php:438 classes/api/groupcategoryajax.php:495
+msgid "Request could not be verified."
+msgstr "No se pudo verificar la solicitud."
+
+#: classes/api/groupajax.php:124 classes/api/groupajax.php:185
+#: classes/api/groupuserajax.php:273
+msgid "Insufficient permissions"
+msgstr "Permisos insuficientes"
+
+#: classes/api/groupajax.php:121
+msgid "Setting saved"
+msgstr "Configuración guardada"
+
+#: classes/api/groupajax.php:94
+msgid "Request could not be verified"
+msgstr "No se pudo verificar la solicitud"
+
+#: classes/admin/groupslisttable.php:328
+msgid "Show"
+msgstr "Mostrar"
+
+#: classes/admin/groupslisttable.php:310
+msgid "Unpublished"
+msgstr "Sin publicar"
+
+#: classes/admin/groupslisttable.php:308
+#: templates/admin/group_categories.php:80
+msgid "Published"
+msgstr "Publicado"
+
+#: classes/admin/groupslisttable.php:305
+msgid "All"
+msgstr "Todo"
+
+#: classes/admin/groupslisttable.php:279
+msgid "group"
+msgid_plural "groups"
+msgstr[0] "grupo"
+msgstr[1] "grupos"
+
+#: classes/admin/groupslisttable.php:270
+msgid "deleted"
+msgstr "eliminado"
+
+#: classes/admin/groupslisttable.php:251
+msgid "updated"
+msgstr "actualizado"
+
+#: classes/admin/groupslisttable.php:243
+msgid "unpublished your group"
+msgstr "hizo que el grupo dejara de estar publicado"
+
+#: classes/admin/groupslisttable.php:236
+msgid "published your group"
+msgstr "publicó su grupo"
+
+#: classes/admin/groupslisttable.php:200 templates/groups/dialog-avatar.php:8
+#: templates/groups/dialog-category-avatar.php:8
+#: templates/groups/group-category-header.php:72
+#: templates/groups/group-header.php:95
+msgid "Delete"
+msgstr "Borrar"
+
+#: classes/admin/groupslisttable.php:199
+msgid "Unpublish"
+msgstr "Eliminar la publicación"
+
+#: classes/admin/groupslisttable.php:198
+msgid "Publish"
+msgstr "Publicar"
+
+#: classes/admin/groupslisttable.php:173
+msgid "unpublished"
+msgstr "sin publicar"
+
+#: classes/admin/groupslisttable.php:173
+msgid "published"
+msgstr "publicado"
+
+#: classes/admin/groupslisttable.php:128 templates/groups/dialog-create.php:65
+msgid "Privacy"
+msgstr "Privacidad"
+
+#: classes/admin/groupslisttable.php:116
+msgid "Read more"
+msgstr "Leer más"
+
+#: classes/admin/groupslisttable.php:62 templates/groups/group-header.php:213
+msgid "Members"
+msgstr "Miembros"
+
+#: classes/admin/groupslisttable.php:61
+msgid "Status"
+msgstr "Estado"
+
+#: classes/admin/groupslisttable.php:60
+#: templates/groups/group-members-item.php:22
+#: templates/groups/group-members-item.php:29
+msgid "Owner"
+msgstr "Propietario"
+
+#: classes/admin/groupslisttable.php:58
+#: templates/admin/group_categories.php:120
+#: templates/groups/dialog-create.php:16
+msgid "Description"
+msgstr "Descripción"
+
+#: classes/admin/groupslisttable.php:57
+msgid "Group"
+msgstr "Grupo"
+
+#: classes/admin/configsectiongroups.php:522
+msgid "Advanced"
+msgstr "Avanzado"
+
+#: classes/admin/configsectiongroups.php:495
+msgid "Show membership summary for group names on stream"
+msgstr "Mostrar el resumen de la membresía de los nombres de grupos en la lista de actividad reciente"
+
+#: classes/admin/configsectiongroups.php:492
+msgid "When enabled, hovering over group names on stream will display membership and following summary. This feature is likely to slow down stream performance."
+msgstr "Al activar esta opción, al pasar el cursor sobre los nombres de los grupos, se mostrará la membresía y el resumen de seguimiento. Esta característica podría ralentizar la carga de la lista de actividad reciente."
+
+#: classes/admin/configsectiongroups.php:486
+msgid "Email Admins when a new group is created"
+msgstr "Enviar correo electrónico a los Administradores al crear un grupo nuevo"
+
+#: classes/admin/configsectiongroups.php:483
+msgid "Users with Administrator role will receive an email when a new group is created"
+msgstr "Los usuarios asignados como Administradores recibirán un correo electrónico en el momento de creación de un grupo nuevo"
+
+#: classes/admin/configsectiongroups.php:477
+msgid "Replace \"invite\" with \"add\" for Admins"
+msgstr "Remplazar \"invitar\" por \"agregar\" para los administradores"
+
+#: classes/admin/configsectiongroups.php:474
+msgid "Site and Community Administrators will add users to group without the need to confirm."
+msgstr "Administradores del sitio y la comunidad agregarán usuarios al grupo sin necesidad de confirmar."
+
+#: classes/admin/configsectiongroups.php:467
+msgid "Force unique names"
+msgstr "Forzar nombres únicos"
+
+#: classes/admin/configsectiongroups.php:464
+msgid "Enabled: PeepSo will disallow creating groups with the same names. Runs a risk of exposing the existence of secret groups to non-members."
+msgstr "Habilitado: PeepSo no permitirá la creación de grupos con los mismos nombres. Corre el riesgo de exponer la existencia de grupos secretos a los no miembros."
+
+#: classes/admin/configsectiongroups.php:445
+msgid "Pin to top only inside groups"
+msgstr "Fijar arriba solo dentro de los grupos"
+
+#: classes/admin/configsectiongroups.php:442
+msgid "Disabled: pinned group posts will be also pinned to top on author profile and main activity"
+msgstr "Deshabilitado: las publicaciones de grupo fijadas también se fijarán arriba en el perfil del autor y la actividad principal"
+
+#: classes/admin/configsectiongroups.php:442
+msgid "Enabled: pinned group posts will be pinned to top only in group views"
+msgstr "Habilitado: las publicaciones de grupo fijadas se fijarán únicamente arriba en las vistas de grupo"
+
+#: classes/admin/configsectiongroups.php:400
+msgid "Editing group posts and comments"
+msgstr "Edición de publicaciones y comentarios de grupos"
+
+#: classes/admin/configsectiongroups.php:393
+#: classes/admin/configsectiongroups.php:427
+msgid "By group moderators"
+msgstr "Por moderadores de grupos"
+
+#: classes/admin/configsectiongroups.php:389
+msgid "Enabled: group moderators can edit posts and comments in respective groups"
+msgstr "Habilitado: los moderadores de grupos pueden editar publicaciones y comentarios en grupos respectivos"
+
+#: classes/admin/configsectiongroups.php:385
+#: classes/admin/configsectiongroups.php:419
+msgid "By group managers"
+msgstr "Por administradores de grupos"
+
+#: classes/admin/configsectiongroups.php:381
+msgid "Enabled: group managers can edit posts and comments in respective groups"
+msgstr "Habilitado: los administradores de grupos pueden editar publicaciones y comentarios en grupos respectivos"
+
+#: classes/admin/configsectiongroups.php:377
+#: classes/admin/configsectiongroups.php:411
+msgid "By group owners"
+msgstr "Por propietarios de grupos"
+
+#: classes/admin/configsectiongroups.php:373
+#: classes/admin/configsectiongroups.php:381
+#: classes/admin/configsectiongroups.php:389
+msgid "Disabled: only admin can edit posts and comments"
+msgstr "Desactivado: solo el administrador puede editar publicaciones y comentarios"
+
+#: classes/admin/configsectiongroups.php:373
+msgid "Enabled: group owners can edit posts and comments in respective groups"
+msgstr "Habilitado: los propietarios de grupos pueden editar publicaciones y comentarios en grupos respectivos"
+
+#: classes/admin/configsectiongroups.php:366
+#: classes/admin/groupslisttable.php:59
+msgid "Categories"
+msgstr "Categorías"
+
+#: classes/admin/configsectiongroups.php:359
+msgid "Show group count"
+msgstr "Mostrar la cuenta de grupos"
+
+#: classes/admin/configsectiongroups.php:356
+msgid "The count will not be accurate if a category contains unpublished or secret groups."
+msgstr "La cuenta no será precisa si una categoría contiene grupos no publicados o en secreto."
+
+#: classes/admin/configsectiongroups.php:350
+msgid "Hide empty categories"
+msgstr "Ocultar categorías vacías"
+
+#: classes/admin/configsectiongroups.php:347
+msgid "Hide categories which don't have any groups assigned to them."
+msgstr "Ocultar categorías que no tienen grupos asignados a ellas."
+
+#: classes/admin/configsectiongroups.php:341
+msgid "Expand all categories"
+msgstr "Ampliar todas las categorías"
+
+#: classes/admin/configsectiongroups.php:338
+msgid "Disabled: only the first category shows a preview of the group listing."
+msgstr "Desactivado: sólo la primera categoría muestra una vista previa del listado de grupos."
+
+#: classes/admin/configsectiongroups.php:332
+msgid "Each category loads"
+msgstr "Cada categoría carga"
+
+#: classes/admin/configsectiongroups.php:328
+msgid "Only this many groups will show in each category before offering a link to the full category listing."
+msgstr "Solo se mostrará esta cantidad de grupos en cada categoría antes de ofrecer un enlace al listado completo de categorías."
+
+#: classes/admin/configsectiongroups.php:319
+msgid "%d groups"
+msgstr "%d grupos"
+
+#: classes/admin/configsectiongroups.php:306
+msgid "Category listing"
+msgstr "Listado de categorías"
+
+#: classes/admin/configsectiongroups.php:300
+msgid "Each ajax call loads"
+msgstr "Cada carga de llamada ajax"
+
+#: classes/admin/configsectiongroups.php:296
+msgid "Only this many categories will show in each ajax call in category listing."
+msgstr "Solo esta cantidad de categorías se mostrará en cada llamada ajax en la lista de categorías."
+
+#: classes/admin/configsectiongroups.php:293
+#: classes/admin/configsectiongroups.php:322
+msgid "default"
+msgstr "predeterminado"
+
+#: classes/admin/configsectiongroups.php:290
+msgid "%d category"
+msgid_plural "%d categories"
+msgstr[0] "%d categoría"
+msgstr[1] "%d categorías"
+
+#: classes/admin/configsectiongroups.php:280
+msgid "Allowed categories per group"
+msgstr "Categorías permitidas por grupo"
+
+#: classes/admin/configsectiongroups.php:267
+msgid "Allow multiple categories per group"
+msgstr "Permitir múltiples categorías por grupo"
+
+#: classes/admin/configsectiongroups.php:264
+msgid "Users will be able to assign a group to multiple categories"
+msgstr "Los usuarios podrán asignar grupos a múltiples categorías"
+
+#: classes/admin/configsectiongroups.php:257
+msgid "Set group categories as default view."
+msgstr "Definir categorías de grupos como vista predeterminada."
+
+#: classes/admin/configsectiongroups.php:249
+msgid "Enable group categories"
+msgstr "Habilitar las categorías de grupos"
+
+#: classes/admin/configsectiongroups.php:246
+msgid "Users will be able to assign groups to categories."
+msgstr "Los usuarios podrán asignar grupos a las categorías."
+
+#: classes/admin/configsectiongroups.php:238
+msgid "New members"
+msgstr "Nuevos miembros"
+
+#: classes/admin/configsectiongroups.php:231
+msgid "Automatically subscribe new members to emails"
+msgstr "Suscribir automáticamente a los nuevos miembros a notificaciones por correo electrónico"
+
+#: classes/admin/configsectiongroups.php:228
+msgid "Enabled: new group members will automatically be subscribed to receive new posts email notifications"
+msgstr "Habilitado: los nuevos miembros estarán suscritos automáticamente para recibir notificaciones sobre publicaciones nuevas por correo electrónico"
+
+#: classes/admin/configsectiongroups.php:222
+msgid "Automatically subscribe new members to notifications"
+msgstr "Suscribir automáticamente a los nuevos miembros a notificaciones"
+
+#: classes/admin/configsectiongroups.php:219
+msgid "Enabled: new group members will automatically be subscribed to receive new posts notifications (on-site)"
+msgstr "Habilitado: los nuevos miembros estarán suscritos automáticamente para recibir notificaciones sobre publicaciones nuevas (en el sitio web)"
+
+#: classes/admin/configsectiongroups.php:213
+msgid "Notifications"
+msgstr "Notificaciones"
+
+#: classes/admin/configsectiongroups.php:207
+msgid "Action text (on other streams)"
+msgstr "Texto de acción (en otros estados)"
+
+#: classes/admin/configsectiongroups.php:204
+msgid "For example \"joined a group:\". Leave empty for default. Applies to old posts too."
+msgstr "Por ejemplo, \"se unió a un grupo:\". Deje vacío el valor predeterminado. Se aplica también a publicaciones antiguas."
+
+#: classes/admin/configsectiongroups.php:200
+msgid "Action text (on group stream)"
+msgstr "Texto de acción (en el estado del grupo)"
+
+#: classes/admin/configsectiongroups.php:197
+msgid "For example \"joined this group\". Leave empty for default. Applies to old posts too."
+msgstr "Por ejemplo, \"se unió a este grupo\". Deje vacío el valor predeterminado. Se aplica también a publicaciones antiguas."
+
+#: classes/admin/configsectiongroups.php:193
+#: classes/admin/configsectiongroups.php:509
+msgid "Enabled"
+msgstr "Habilitado"
+
+#: classes/admin/configsectiongroups.php:190
+msgid "Enabled: automatically post on user's stream when they join a group. These posts are deleted automatically when the user leaves or is removed/banned from the group."
+msgstr "Activado: se publica automáticamente en el estado del usuario cuando se une a un grupo. Estas publicaciones se eliminan automáticamente cuando se elimina/expulsa al usuario del grupo."
+
+#: classes/admin/configsectiongroups.php:185
+msgid "Post to stream when joining"
+msgstr "Publicar en estado al unirse"
+
+#: classes/admin/configsectiongroups.php:177
+msgid "General"
+msgstr "General"
+
+#: classes/admin/configsectiongroups.php:142
+msgid "Enable group creation"
+msgstr "Habilitar la creación de grupos"
+
+#: classes/admin/configsectiongroups.php:139
+msgid "Disabled: only site admins can create groups"
+msgstr "Deshabilitar: solo los administradores pueden crear grupos"
+
+#: classes/admin/configsectiongroups.php:139
+msgid "Enabled: all site members can create groups"
+msgstr "Habilitar: todos los miembros del sitio pueden crear grupos"
+
+#: classes/admin/configsectiongroups.php:131
+msgid "Group listings"
+msgstr "Listado de grupos"
+
+#: classes/admin/configsectiongroups.php:104
+msgid "Default sort direction"
+msgstr "Dirección de orden predeterminada"
+
+#: classes/admin/configsectiongroups.php:97 templates/groups/groups.php:104
+msgid "Ascending"
+msgstr "Ascendente"
+
+#: classes/admin/configsectiongroups.php:96
+msgid "Descending (default)"
+msgstr "Descendente (predeterminado)"
+
+#: classes/admin/configsectiongroups.php:91
+msgid "Default sort"
+msgstr "Ordenar por defecto"
+
+#: classes/admin/configsectiongroups.php:85 templates/groups/groups.php:96
+msgid "Members count"
+msgstr "Recuento de miembros"
+
+#: classes/admin/configsectiongroups.php:84
+#: templates/groups/group-members-search-form.php:55
+#: templates/groups/groups.php:95
+msgid "Alphabetical"
+msgstr "Alfabético"
+
+#: classes/admin/configsectiongroups.php:83
+msgid "Recently added (default)"
+msgstr "Recientemente añadidos (predeterminado)"
+
+#: classes/admin/configsectiongroups.php:78
+msgid "Allow guest access"
+msgstr "Permitir acceso de invitado"
+
+#: classes/admin/configsectiongroups.php:75
+msgid "Show or hide the groups listing from visitors who are not logged in"
+msgstr "Mostrar u ocultar los listados de grupos de los visitantes que no estén conectados"
+
+#: classes/admin/configsectiongroups.php:70
+msgid "Show creation date"
+msgstr "Mostrar fecha de creación"
+
+#: classes/admin/configsectiongroups.php:67
+msgid "Show or hide the groups creation dates in the groups listing"
+msgstr "Mostrar u ocultar las fechas de creación de grupos en los listados"
+
+#: classes/admin/configsectiongroups.php:61
+msgid "Show owner(s)"
+msgstr "Mostrar el propietario (s)"
+
+#: classes/admin/configsectiongroups.php:58
+msgid "Show or hide the groups owner(s) in the groups listing"
+msgstr "Mostrar u ocultar los propietario (s) del grupo en los listados"
+
+#: classes/admin/configsectiongroups.php:51
+msgid "SEO"
+msgstr "SEO"
+
+#: classes/admin/configsectiongroups.php:45
+msgid "Group slug changes"
+msgstr "Cambios del Slug de grupo"
+
+#: classes/admin/configsectiongroups.php:42
+msgid "Option 3: the group owner can change the slug manually."
+msgstr "Opción 3: el propietario de grupo puede cambiar manualmente el slug."
+
+#: classes/admin/configsectiongroups.php:42
+msgid "Option 2: new group slug will be generated upon group name change."
+msgstr "Opción 2: se generará nuevo slug de grupo al cambio de nombre."
+
+#: classes/admin/configsectiongroups.php:42
+msgid "Option 1: group slug will stay the same as the original group name."
+msgstr "Opción 1: el slug de grupo permanecerá igual que el nombre original del grupo."
+
+#: classes/admin/configsectiongroups.php:38
+msgid "by the group owner"
+msgstr "por el propietario del grupo"
+
+#: classes/admin/configsectiongroups.php:37
+msgid "when group name is changed"
+msgstr "cuando se cambia el nombre del grupo"
+
+#: classes/admin/configsectiongroups.php:36
+msgid "never"
+msgstr "nunca"
+
+#: classes/admin/configsectiongroups.php:31
+msgid "Use slugs in group URLs"
+msgstr "Utilizar barras en URLs de grupo"
+
+#: classes/admin/configsectiongroups.php:28
+msgid "Disabled: /groups/1234/"
+msgstr "Desactivado: /groups 1234 /"
+
+#: classes/admin/configsectiongroups.php:28
+msgid "Enabled: /groups/my-amazing-group/"
+msgstr "Activado: /groups/my-amazing-group /"

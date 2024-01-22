@@ -1,0 +1,180 @@
+//
+//  POLL COMPONENT
+//
+
+
+
+.ps-poll {
+  @extend %clearfix;
+
+  > button {
+    margin-top: $padding-base;
+  }
+
+  @include media('medium') {
+    @if $scss-direction == rtl {
+      padding-left: 50px;
+    } @else {
+      padding-right: 50px;
+    }
+  }
+}
+
+
+.ps-poll__item {
+  position: relative;
+  max-width: 100%;
+  margin-bottom: 4px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  background-color: #f5f5f5;
+  border-radius: 4px;
+
+  @if $scss-direction == rtl {
+    padding-left: 85px;
+    padding-right: 5px;
+  } @else {
+    padding-left: 5px;
+    padding-right: 85px;
+  }
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  @include media('medium') {
+    max-width: 75%;
+  }
+}
+
+
+//
+//  Fills item background by color,
+//  visualise percent value
+//
+.ps-poll__fill {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 0;
+  background-color: #d6f0fd;
+  border-radius: 4px;
+
+  @if $scss-direction == rtl {
+    right: 0;
+  } @else {
+    left: 0;
+  }
+}
+
+
+.ps-poll__percent {
+  position: absolute;
+  top: -3px;
+  font-size: 90%;
+  line-height: 2;
+
+  @if $scss-direction == rtl {
+    left: -80px;
+  } @else {
+    right: -80px;
+  }
+}
+
+
+.ps-poll__votes {
+  position: absolute;
+  display: none;
+  color: $color-text-light;
+  font-size: $font-size-sm;
+  line-height: 2;
+  opacity: .65;
+  white-space: nowrap;
+
+  @if $scss-direction == rtl {
+    right: 102%;
+  } @else {
+    left: 102%;
+  }
+
+  @include media('medium') {
+    display: inline-block;
+  }
+}
+
+
+.ps-poll__form {}
+
+
+.ps-poll__option {
+  display: table;
+  width: 100%;
+  max-width: 350px;
+  margin-top: -1px;
+
+  &:first-child {
+    margin-top: 0;
+  }
+
+  > * {
+    display: table-cell;
+    vertical-align: middle;
+
+    &:first-child {
+      display: none;
+      width: 30px;
+      border-right: 0 !important;
+
+      @include media('medium') {
+        display: table-cell;
+      }
+    }
+
+    &:nth-child(3) {
+      width: 30px;
+      border-left: 0 !important;
+    }
+  }
+
+  input {
+    width: 100%;
+
+    &:focus {
+      position: relative;
+      z-index: 1;
+    }
+  }
+
+  .ps-btn--delete {
+    opacity: .3;
+  }
+
+  &:nth-last-child(n+3),
+  &:nth-last-child(n+3) ~ * {
+    .ps-btn--delete {
+      opacity: 1;
+    }
+  }
+}
+
+
+.ps-poll__actions {
+  padding-top: $padding-sm;
+  padding-bottom: $padding-sm;
+
+  .ps-checkbox {
+    margin-top: 8px;
+
+    @include media('medium') {
+      display: inline-block;
+      margin-left: $padding-base;
+    }
+  }
+}
+
+
+.ps-poll__message {
+  margin-top: $padding-base;
+  color: $color-text-light;
+  font-size: $font-size-sm;
+}

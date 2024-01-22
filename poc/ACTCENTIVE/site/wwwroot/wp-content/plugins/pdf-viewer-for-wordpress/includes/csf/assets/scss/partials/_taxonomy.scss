@@ -1,0 +1,114 @@
+/**
+ * 06. Taxonomy
+ */
+.pvfwof-taxonomy{
+  max-width: 95%;
+
+  > .pvfwof-field{
+    border-top: none !important;
+  }
+
+  > .pvfwof-field-heading{
+    font-size: 1.1em;
+    padding: 20px !important;
+    border: 1px solid #ddd;
+  }
+
+  > .pvfwof-field-subheading{
+    font-size: 12px;
+    padding: 15px !important;
+    border: 1px solid #ddd;
+  }
+
+  > .pvfwof-field-submessage{
+
+    .pvfwof-submessage{
+      padding: 15px;
+      border-left-width: 1px;
+      border-left-style: solid;
+      border-right-width: 1px;
+      border-right-style: solid;
+    }
+  }
+
+  > .pvfwof-field-notice{
+    background-color: transparent;
+  }
+
+  .pvfwof-section-title{
+    display: block;
+    padding: 15px ;
+    background-color: #f9f9f9;
+    border: 1px solid #e5e5e5;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.04);
+  }
+}
+
+.pvfwof-taxonomy-add-fields{
+
+  > .pvfwof-field{
+    padding: 8px 0;
+
+    > .pvfwof-title{
+      float: none;
+      width: 100%;
+      padding: 2px 2px 4px 0;
+
+      h4{
+        font-size: 12px;
+        font-weight: normal;
+      }
+    }
+
+    > .pvfwof-fieldset{
+      float: none;
+      width: 100%;
+
+      > .pvfwof-help{
+        right: -5px;
+      }
+    }
+  }
+
+  + p.submit{
+    margin-top: 0;
+  }
+}
+
+.pvfwof-taxonomy-edit-fields{
+
+  > .pvfwof-field{
+    padding: 20px 0;
+
+    > .pvfwof-title{
+      width: 200px;
+
+      h4{
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 1.3;
+        display: inline-block;
+        vertical-align: middle;
+      }
+    }
+
+    > .pvfwof-fieldset{
+      width: calc(100% - 220px);
+
+      > .pvfwof-help{
+        top: -5px;
+        right: -5px;
+      }
+    }
+  }
+
+  > .pvfwof-field-submessage{
+    margin: 20px 0;
+  }
+
+  > .pvfwof-field-subheading,
+  > .pvfwof-field-heading{
+    margin: 20px 0;
+    border: 1px solid #ddd;
+  }
+}

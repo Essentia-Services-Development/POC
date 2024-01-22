@@ -1,0 +1,1051 @@
+# Copyright (C) 2020 Affiliate Egg Pro
+# This file is distributed under the same license as the Affiliate Egg Pro package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Affiliate Egg Pro 10.0.0\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/support/plugin/affegg\n"
+"POT-Creation-Date: 2020-12-18 15:25:29+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2020-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: application/Autoupdate.php:81
+msgid ""
+"Please <a target=\"_blank\" href=\"%s\">find here</a> the releases notes."
+msgstr ""
+
+#: application/TemplateManager.php:88
+msgid "[custom]"
+msgstr ""
+
+#: application/Widget.php:10
+msgid "Products from storefronts"
+msgstr ""
+
+#: application/Widget.php:25
+msgid "Title:"
+msgstr ""
+
+#: application/Widget.php:30
+msgid "Number of products:"
+msgstr ""
+
+#: application/Widget.php:35
+msgid "Sorting:"
+msgstr ""
+
+#: application/Widget.php:37
+msgid "Last storefronts"
+msgstr ""
+
+#: application/Widget.php:38
+msgid "Last updated products"
+msgstr ""
+
+#: application/Widget.php:39
+msgid "Last added products"
+msgstr ""
+
+#: application/Widget.php:40
+msgid "With discount"
+msgstr ""
+
+#: application/Widget.php:41
+msgid "Random"
+msgstr ""
+
+#: application/Widget.php:45
+msgid "Storefronts:"
+msgstr ""
+
+#: application/Widget.php:47
+msgid "ID of storefronts, with commas"
+msgstr ""
+
+#: application/Widget.php:50
+msgid "Template:"
+msgstr ""
+
+#: application/Widget.php:59
+msgid "Only in stock products"
+msgstr ""
+
+#: application/admin/AffiliateEggAdmin.php:77
+msgid "Are you sure?"
+msgstr ""
+
+#: application/admin/AffiliateEggAdmin.php:78
+msgid "Use shortcode:"
+msgstr ""
+
+#: application/admin/AffiliateEggAdmin.php:88
+#: application/admin/GeneralConfig.php:28
+msgid "Settings"
+msgstr ""
+
+#: application/admin/AffiliateEggAdmin.php:89
+msgid "Deeplink settings"
+msgstr ""
+
+#: application/admin/AffiliateEggAdmin.php:99
+#: application/admin/EggController.php:24
+#: application/admin/views/eggs_index.php:51
+#: application/admin/views/eggs_thickbox.php:12
+#: application/admin/views/eggs_thickbox.php:120
+msgid "Storefronts"
+msgstr ""
+
+#: application/admin/AffiliateEggAdmin.php:153
+msgid ""
+"<a href=\"%s\">Please activate</a> your copy of the Affiliate Egg to receive "
+"automatic updates and get direct support."
+msgstr ""
+
+#: application/admin/AutoblogController.php:25
+msgid "Autobloging"
+msgstr ""
+
+#: application/admin/AutoblogController.php:26
+msgid "Add autoblog"
+msgstr ""
+
+#: application/admin/AutoblogController.php:93
+msgid "Task for autoblog was saved"
+msgstr ""
+
+#: application/admin/AutoblogController.php:93
+#: application/admin/AutoblogTable.php:44
+msgid "Run now"
+msgstr ""
+
+#: application/admin/AutoblogController.php:95
+msgid "Error occurred during saving task for autoblog."
+msgstr ""
+
+#: application/admin/AutoblogController.php:98
+msgid "Not valid URL of directory or this shop is not supported."
+msgstr ""
+
+#: application/admin/AutoblogController.php:109
+msgid "Autoblog is not found"
+msgstr ""
+
+#: application/admin/AutoblogTable.php:38 application/admin/EggTable.php:36
+msgid "(without title)"
+msgstr ""
+
+#: application/admin/AutoblogTable.php:43 application/admin/EggTable.php:41
+msgid "Edit"
+msgstr ""
+
+#: application/admin/AutoblogTable.php:45 application/admin/EggTable.php:45
+#: application/admin/MyListTable.php:148
+msgid "Delete"
+msgstr ""
+
+#: application/admin/AutoblogTable.php:54
+#: application/admin/views/autoblog_metabox.php:154
+msgid "Works"
+msgstr ""
+
+#: application/admin/AutoblogTable.php:56
+#: application/admin/views/autoblog_metabox.php:155
+msgid "Stoped"
+msgstr ""
+
+#: application/admin/CookiesConfig.php:28
+#: application/admin/views/settings.php:10
+msgid "Custom Cookies"
+msgstr ""
+
+#: application/admin/DeeplinkConfig.php:28
+msgid "Affiliate Links"
+msgstr ""
+
+#: application/admin/EggController.php:25
+#: application/admin/views/edit_egg.php:24
+msgid "Add storefront"
+msgstr ""
+
+#: application/admin/EggController.php:95
+msgid "Storefront was saved"
+msgstr ""
+
+#: application/admin/EggController.php:95
+#: application/admin/views/eggs_index.php:52
+msgid "Add new"
+msgstr ""
+
+#: application/admin/EggController.php:97
+msgid "Error occurred while saving storefront"
+msgstr ""
+
+#: application/admin/EggController.php:100
+msgid "Not valid data for storefront"
+msgstr ""
+
+#: application/admin/EggController.php:114
+msgid "Storefront is not found"
+msgstr ""
+
+#: application/admin/EggTable.php:42
+#: application/admin/views/edit_egg_meta_box.php:8
+msgid "Shortcode"
+msgstr ""
+
+#: application/admin/EggTable.php:43 application/admin/GeneralConfig.php:59
+msgid "Update products"
+msgstr ""
+
+#: application/admin/EggTable.php:44 application/admin/GeneralConfig.php:74
+msgid "Update Catalogs"
+msgstr ""
+
+#: application/admin/EggThickboxEditorButton.php:42
+#: application/admin/EggThickboxEditorButton.php:43
+msgid "Add storefronts"
+msgstr ""
+
+#: application/admin/EggThickboxTable.php:41
+msgid "Add"
+msgstr ""
+
+#: application/admin/EnvatoConfig.php:26
+msgid ""
+"This Email will be used for license on your plugin. After activation, you "
+"will get email with login data for <a target=\"_blank\" href=\"http://www."
+"keywordrush.com/en/panel\">user panel</a>, where you can control your "
+"licenses."
+msgstr ""
+
+#: application/admin/EnvatoConfig.php:33 application/admin/EnvatoConfig.php:51
+msgid "The field  \"%s\" can not be empty"
+msgstr ""
+
+#: application/admin/EnvatoConfig.php:37 application/admin/EnvatoConfig.php:55
+msgid "Field \"%s\" filled with wrong data."
+msgstr ""
+
+#: application/admin/EnvatoConfig.php:44
+msgid ""
+"Set your purchase code. <a target=\"_blank\" href=\"https://help.market."
+"envato.com/hc/en-us/articles/202822600-Where-Is-My-Purchase-Code-\">Where to "
+"find?</a>"
+msgstr ""
+
+#: application/admin/EnvatoConfig.php:59
+msgid "Plugin cannot be activated!"
+msgstr ""
+
+#: application/admin/EnvatoConfig.php:65
+msgid "I'd like to be contacted with the latest project news and offers."
+msgstr ""
+
+#: application/admin/EnvatoConfig.php:71
+msgid "Error."
+msgstr ""
+
+#: application/admin/GeneralConfig.php:39
+msgid "Website language"
+msgstr ""
+
+#: application/admin/GeneralConfig.php:40
+msgid "Language of output templates."
+msgstr ""
+
+#: application/admin/GeneralConfig.php:47
+msgid "Cashback Tracker integration"
+msgstr ""
+
+#: application/admin/GeneralConfig.php:48
+msgid "Integration with %s plugin."
+msgstr ""
+
+#: application/admin/GeneralConfig.php:49
+msgid "Convert all affiliate links to trackable cashback links if possible."
+msgstr ""
+
+#: application/admin/GeneralConfig.php:52
+msgid "Enabled"
+msgstr ""
+
+#: application/admin/GeneralConfig.php:53
+msgid "Disabled"
+msgstr ""
+
+#: application/admin/GeneralConfig.php:56
+msgid "default"
+msgstr ""
+
+#: application/admin/GeneralConfig.php:60
+msgid ""
+"Cache lifetime of products in seconds, after which it is necessary to update "
+"the price and availability. 0 - never update."
+msgstr ""
+
+#: application/admin/GeneralConfig.php:67
+msgid "Field \"Update products\" - can't be empty."
+msgstr ""
+
+#: application/admin/GeneralConfig.php:75
+msgid ""
+"Cache lifetime of catalogs in seconds, after which it is necessary to update "
+"the price and availability of catalog products. 0 - never update."
+msgstr ""
+
+#: application/admin/GeneralConfig.php:82
+msgid "Field \"Update catalogs\" - can't be empty."
+msgstr ""
+
+#: application/admin/GeneralConfig.php:89
+msgid "Delay while updating"
+msgstr ""
+
+#: application/admin/GeneralConfig.php:90
+msgid ""
+"Pause in microseconds between a caching of products. More pause - less load "
+"on server. 1000000 microseconds = 1 second."
+msgstr ""
+
+#: application/admin/GeneralConfig.php:97
+msgid "Field \"Delay while updating\" - can't be empty."
+msgstr ""
+
+#: application/admin/GeneralConfig.php:104
+msgid "Pause when updating"
+msgstr ""
+
+#: application/admin/GeneralConfig.php:105
+msgid ""
+"Pause in microseconds when autoupdating catalogs and products. 1000000 "
+"microseconds = 1 second."
+msgstr ""
+
+#: application/admin/GeneralConfig.php:112
+msgid "Field \"Pause when updating\" - can't be empty."
+msgstr ""
+
+#: application/admin/GeneralConfig.php:119
+msgid "Size of description"
+msgstr ""
+
+#: application/admin/GeneralConfig.php:120
+msgid "Maximum size of description in symbols. 0 - don't trim description"
+msgstr ""
+
+#: application/admin/GeneralConfig.php:127
+msgid "Field \"Size of description\" - can't be empty."
+msgstr ""
+
+#: application/admin/GeneralConfig.php:134
+msgid "Save images"
+msgstr ""
+
+#: application/admin/GeneralConfig.php:135
+msgid "Save images to local server."
+msgstr ""
+
+#: application/admin/GeneralConfig.php:145
+msgid ""
+"Set product image as Featured image for a post. <p class=\"description\"> "
+"Image is also loaded into Media library. It is applied only to the new/"
+"updated posts.</p>"
+msgstr ""
+
+#: application/admin/GeneralConfig.php:148
+msgid "Don't set"
+msgstr ""
+
+#: application/admin/GeneralConfig.php:149
+msgid "Set first image"
+msgstr ""
+
+#: application/admin/GeneralConfig.php:150
+msgid "Set second image"
+msgstr ""
+
+#: application/admin/GeneralConfig.php:151
+msgid "Set last image"
+msgstr ""
+
+#: application/admin/GeneralConfig.php:152
+msgid "Set random image"
+msgstr ""
+
+#: application/admin/GeneralConfig.php:160
+msgid "Button color"
+msgstr ""
+
+#: application/admin/GeneralConfig.php:161
+msgid "Button color for standard templates."
+msgstr ""
+
+#: application/admin/GeneralConfig.php:170
+#: application/admin/GeneralConfig.php:180
+msgid "Price history"
+msgstr ""
+
+#: application/admin/GeneralConfig.php:171
+msgid "How long save price history. 0 - deactivate price history."
+msgstr ""
+
+#: application/admin/GeneralConfig.php:180
+msgid "The field \"%s\" can't be more than %d."
+msgstr ""
+
+#: application/admin/GeneralConfig.php:187
+msgid "Allow members to subscribe for price drop alert on email."
+msgstr ""
+
+#: application/admin/GeneralConfig.php:188
+msgid "Active subscriptions now: <b>%d</b>"
+msgstr ""
+
+#: application/admin/GeneralConfig.php:189
+msgid "Messages are sent for last %d days: <b>%d</b>"
+msgstr ""
+
+#: application/admin/GeneralConfig.php:190
+msgid ""
+"This option requires \"Price history\" option (must be enabled) to work."
+msgstr ""
+
+#: application/admin/GeneralConfig.php:196
+msgid "Noindex tag"
+msgstr ""
+
+#: application/admin/GeneralConfig.php:197
+msgid "Add tag &lt;noindex&gt; for all storefronts."
+msgstr ""
+
+#: application/admin/GeneralConfig.php:206
+msgid "Show storefront with ajax"
+msgstr ""
+
+#: application/admin/GeneralConfig.php:207
+msgid ""
+"Load storefronts on via JavaScript. <p class=\"description\"> Usually it "
+"hides storefronts from indexing by search bots. This is not worked if you "
+"use next parameter in shortcode of storefront. </p>"
+msgstr ""
+
+#: application/admin/GeneralConfig.php:216
+msgid "Subid from ID of storefront"
+msgstr ""
+
+#: application/admin/GeneralConfig.php:217
+msgid ""
+"Auto add subid in Deeplink url. <p class=\"description\">It will not adding, "
+"if subid is already exist in Deeplink.</p>"
+msgstr ""
+
+#: application/admin/GeneralConfig.php:226
+msgid "Subid from GET parameter"
+msgstr ""
+
+#: application/admin/GeneralConfig.php:227
+msgid ""
+"Automatically add subid to Deeplink from GET parameter \"affegg_subid \". <p "
+"class=\"description\"> For example, it is possible to use this for tracking "
+"of conversion of ads. Has the top priority if other subid are set. </p>"
+msgstr ""
+
+#: application/admin/GeneralConfig.php:236
+msgid "Local redirect"
+msgstr ""
+
+#: application/admin/GeneralConfig.php:237
+msgid "Make links with local 301 redirect"
+msgstr ""
+
+#: application/admin/GeneralConfig.php:246
+msgid "Reviews"
+msgstr ""
+
+#: application/admin/GeneralConfig.php:247
+msgid "How many reviews will be parsed. \"0\" - all. \"-1\" - disabled"
+msgstr ""
+
+#: application/admin/GeneralConfig.php:257
+msgid "Google Analytics Events"
+msgstr ""
+
+#: application/admin/GeneralConfig.php:258
+msgid ""
+"Add Google Analytics tracking. Also, you need to add to your site Universal "
+"Analytics (analytics.js)"
+msgstr ""
+
+#: application/admin/GeneralConfig.php:267
+msgid "Link  \"See more\""
+msgstr ""
+
+#: application/admin/GeneralConfig.php:268
+msgid "Show Link  \"See more\" after storefront"
+msgstr ""
+
+#: application/admin/GeneralConfig.php:271
+msgid "Don't use Link  \"See more\""
+msgstr ""
+
+#: application/admin/GeneralConfig.php:272
+msgid "Show only if storefront has only one link"
+msgstr ""
+
+#: application/admin/GeneralConfig.php:273
+msgid "Use first link on catalog"
+msgstr ""
+
+#: application/admin/GeneralConfig.php:274
+msgid "Use last link on catalog"
+msgstr ""
+
+#: application/admin/GeneralConfig.php:282
+msgid "Save meta to post"
+msgstr ""
+
+#: application/admin/GeneralConfig.php:283
+msgid ""
+"When you will add storefronts to post, data will be added also to post meta. "
+msgstr ""
+
+#: application/admin/GeneralConfig.php:286
+msgid "Don't add"
+msgstr ""
+
+#: application/admin/GeneralConfig.php:287
+msgid "Add data from product with minimum price"
+msgstr ""
+
+#: application/admin/GeneralConfig.php:288
+msgid "Add data from product with maximum price"
+msgstr ""
+
+#: application/admin/GeneralConfig.php:289
+msgid "Add first product"
+msgstr ""
+
+#: application/admin/GeneralConfig.php:290
+msgid "Add last product"
+msgstr ""
+
+#: application/admin/GeneralConfig.php:291
+msgid "Add data from random product"
+msgstr ""
+
+#: application/admin/HelpController.php:23
+msgid "Search of products"
+msgstr ""
+
+#: application/admin/HelpController.php:24 application/admin/views/help.php:3
+msgid "Help"
+msgstr ""
+
+#: application/admin/LicConfig.php:32
+#: application/admin/views/lic_settings.php:3
+msgid "License"
+msgstr ""
+
+#: application/admin/LicConfig.php:39
+msgid "License key"
+msgstr ""
+
+#: application/admin/LicConfig.php:40
+msgid ""
+"Here you must enter a valid license key. You can find key in your <a href="
+"\"http://www.keywordrush.com/en/panel\">user panel</a>. If you don't have a "
+"key you can buy it on <a href=\"http://www.keywordrush.com/en/affiliateegg"
+"\">the official website</a> of the plugin."
+msgstr ""
+
+#: application/admin/LicConfig.php:47
+msgid "Field \"License key\" can't be empty."
+msgstr ""
+
+#: application/admin/LicConfig.php:51
+msgid "Not valid license key."
+msgstr ""
+
+#: application/admin/LicConfig.php:55
+msgid ""
+"The license key you have entered is invalid. Please verify you have typed "
+"the license key correctly. If you believe that there was a mistake, please, "
+"contacts with <a href=\"http://www.keywordrush.com/en/contact\">support</a>."
+msgstr ""
+
+#: application/admin/MyListTable.php:115
+msgid "ago"
+msgstr ""
+
+#: application/admin/ProxyConfig.php:28
+msgid "Proxy settings"
+msgstr ""
+
+#: application/admin/ProxyConfig.php:35
+msgid "Proxy List"
+msgstr ""
+
+#: application/admin/ProxyConfig.php:36
+msgid "Сomma-separated list of proxies  in the form of %s, eg: %s."
+msgstr ""
+
+#: application/admin/ProxyConfig.php:41
+msgid "API Key"
+msgstr ""
+
+#: application/admin/ProxyConfig.php:42
+msgid ""
+"<a target=\"_blank\" href=\"https://gimmeproxy.com/\">Gimmeproxy</a> API key."
+msgstr ""
+
+#: application/admin/ProxyConfig.php:45 application/admin/ProxyConfig.php:52
+#: application/admin/ProxyConfig.php:59
+msgid "Gimmeproxy"
+msgstr ""
+
+#: application/admin/ProxyConfig.php:48
+msgid "Additional parameters"
+msgstr ""
+
+#: application/admin/ProxyConfig.php:49
+msgid ""
+"You can add any additional parameters to fine-tune your requests in format: "
+"<i>maxCheckPeriod=300&websites=amazon&country=us&supportsHttps=true</i> (<a "
+"target=\"_blank\" href=\"https://gimmeproxy.com/#api\">read more</a>)."
+msgstr ""
+
+#: application/admin/ProxyConfig.php:55
+msgid "Proxy cache TTL"
+msgstr ""
+
+#: application/admin/ProxyConfig.php:56
+msgid ""
+"Use this parameter to set an maximum proxy time to live, in seconds. Once "
+"reaching this limit, a proxy will not be used again."
+msgstr ""
+
+#: application/admin/ProxyConfig.php:68
+msgid "Use proxy"
+msgstr ""
+
+#: application/admin/ProxyConfig.php:75
+msgid "Hosts list (the hosts in this list will going through a proxy server)"
+msgstr ""
+
+#: application/admin/views/autoblog_edit.php:5
+msgid "Edit autoblog"
+msgstr ""
+
+#: application/admin/views/autoblog_edit.php:7
+#: application/admin/views/autoblog_index.php:33
+msgid "Add Autoblog"
+msgstr ""
+
+#: application/admin/views/autoblog_edit.php:9
+msgid "Back to list"
+msgstr ""
+
+#: application/admin/views/autoblog_edit.php:32
+#: application/admin/views/edit_egg.php:53
+msgid "Save"
+msgstr ""
+
+#: application/admin/views/autoblog_index.php:3
+msgid "Work of autoblog"
+msgstr ""
+
+#: application/admin/views/autoblog_index.php:7
+msgid "Please, wait for ending of autoblog work."
+msgstr ""
+
+#: application/admin/views/autoblog_index.php:25
+msgid "Deleted tasks of autoblog:"
+msgstr ""
+
+#: application/admin/views/autoblog_index.php:27
+msgid "Autoblog finished work"
+msgstr ""
+
+#: application/admin/views/autoblog_index.php:32
+msgid "Auto Bloging"
+msgstr ""
+
+#: application/admin/views/autoblog_index.php:39
+msgid ""
+"With autobloging you can adjust automatic creation of posts. For a task of "
+"autobloging use the URL of shop catalog with the updated list of goods, for "
+"example, the section \"new products \"."
+msgstr ""
+
+#: application/admin/views/autoblog_metabox.php:7
+#: application/admin/views/autoblog_metabox.php:11
+#: application/admin/views/edit_egg_meta_box.php:19
+#: application/models/AutoblogModel.php:58 application/models/EggModel.php:46
+msgid "Name"
+msgstr ""
+
+#: application/admin/views/autoblog_metabox.php:16
+#: application/admin/views/autoblog_metabox.php:20
+msgid "Url of catalog"
+msgstr ""
+
+#: application/admin/views/autoblog_metabox.php:21
+msgid "Set catalog url of shop"
+msgstr ""
+
+#: application/admin/views/autoblog_metabox.php:27
+msgid "Frequency"
+msgstr ""
+
+#: application/admin/views/autoblog_metabox.php:31
+msgid "2 times in day"
+msgstr ""
+
+#: application/admin/views/autoblog_metabox.php:32
+msgid "Once a day"
+msgstr ""
+
+#: application/admin/views/autoblog_metabox.php:33
+msgid "Each three days"
+msgstr ""
+
+#: application/admin/views/autoblog_metabox.php:34
+msgid "Once a week"
+msgstr ""
+
+#: application/admin/views/autoblog_metabox.php:36
+msgid "Checking of catalog for new products"
+msgstr ""
+
+#: application/admin/views/autoblog_metabox.php:42
+msgid "Handle products"
+msgstr ""
+
+#: application/admin/views/autoblog_metabox.php:47
+msgid "Only first N products will be handled."
+msgstr ""
+
+#: application/admin/views/autoblog_metabox.php:53
+msgid "Products in one post"
+msgstr ""
+
+#: application/admin/views/autoblog_metabox.php:59
+msgid "How many products do we need to merge in one post."
+msgstr ""
+
+#: application/admin/views/autoblog_metabox.php:66
+msgid "Post status"
+msgstr ""
+
+#: application/admin/views/autoblog_metabox.php:70
+msgid "Published"
+msgstr ""
+
+#: application/admin/views/autoblog_metabox.php:71
+msgid "Draft"
+msgstr ""
+
+#: application/admin/views/autoblog_metabox.php:78
+msgid "User"
+msgstr ""
+
+#: application/admin/views/autoblog_metabox.php:85
+msgid "Name of this user will be used for post publishing"
+msgstr ""
+
+#: application/admin/views/autoblog_metabox.php:91
+msgid "Category"
+msgstr ""
+
+#: application/admin/views/autoblog_metabox.php:98
+msgid "Post category"
+msgstr ""
+
+#: application/admin/views/autoblog_metabox.php:104
+msgid "Template for title"
+msgstr ""
+
+#: application/admin/views/autoblog_metabox.php:111
+msgid "Template for post title"
+msgstr ""
+
+#: application/admin/views/autoblog_metabox.php:112
+msgid "Use tags:"
+msgstr ""
+
+#: application/admin/views/autoblog_metabox.php:113
+msgid ""
+"You can use \"formulas\" with a list of synonyms, of which one will be "
+"selected as random option, for example, {Discount|Sale|Cheap}."
+msgstr ""
+
+#: application/admin/views/autoblog_metabox.php:121
+msgid "Template for shopfronts"
+msgstr ""
+
+#: application/admin/views/autoblog_metabox.php:150
+msgid "Task status"
+msgstr ""
+
+#: application/admin/views/autoblog_metabox.php:157
+msgid "Autobloging can be stoped."
+msgstr ""
+
+#: application/admin/views/edit_egg.php:3
+msgid "Load products"
+msgstr ""
+
+#: application/admin/views/edit_egg.php:7
+msgid "Please, stand by"
+msgstr ""
+
+#: application/admin/views/edit_egg.php:22
+msgid "Edit storefront"
+msgstr ""
+
+#: application/admin/views/edit_egg.php:26
+msgid "Back to list of storefronts"
+msgstr ""
+
+#: application/admin/views/edit_egg.php:38
+msgid ""
+"To create storefront, just add url of pages with products, each link from "
+"new line"
+msgstr ""
+
+#: application/admin/views/edit_egg.php:39
+msgid ""
+"You can also add url of catalog page on shop (it can be also page with "
+"search results, archive, etc) to bulk add list of products."
+msgstr ""
+
+#: application/admin/views/edit_egg.php:40
+msgid "For this, use special symbols, for example:"
+msgstr ""
+
+#: application/admin/views/edit_egg.php:42
+msgid ""
+"Parameter <em>limit=10</em> shows how many products we need to take from "
+"catalog."
+msgstr ""
+
+#: application/admin/views/edit_egg_meta_box.php:23
+msgid "Name of shopfront (not required)"
+msgstr ""
+
+#: application/admin/views/edit_egg_meta_box.php:28
+msgid "Urls"
+msgstr ""
+
+#: application/admin/views/edit_egg_meta_box.php:31
+msgid ""
+"You can set url of single product page or page with list of products. Each "
+"url from new line"
+msgstr ""
+
+#: application/admin/views/edit_egg_meta_box.php:36
+msgid "Template"
+msgstr ""
+
+#: application/admin/views/edit_egg_meta_box.php:49
+msgid "Limit of products"
+msgstr ""
+
+#: application/admin/views/eggs_index.php:3
+msgid "Product update"
+msgstr ""
+
+#: application/admin/views/eggs_index.php:7
+#: application/admin/views/eggs_index.php:16
+msgid "Working... Please wait..."
+msgstr ""
+
+#: application/admin/views/eggs_index.php:12
+msgid "Catalog update"
+msgstr ""
+
+#: application/admin/views/eggs_index.php:37
+msgid "Storefronts has been deleted"
+msgstr ""
+
+#: application/admin/views/eggs_index.php:40
+msgid "Plugin has been activated"
+msgstr ""
+
+#: application/admin/views/eggs_index.php:43
+msgid "Product information was updated"
+msgstr ""
+
+#: application/admin/views/eggs_index.php:46
+msgid "Products were updated"
+msgstr ""
+
+#: application/admin/views/eggs_index.php:58
+msgid "This is a list of your storefronts."
+msgstr ""
+
+#: application/admin/views/eggs_index.php:59
+msgid "Сopy shortcode <em>[affegg id=ID]</em> and insert it to post."
+msgstr ""
+
+#: application/admin/views/eggs_index.php:60
+msgid "Each storefront has unique ID, which must be used in shortcode."
+msgstr ""
+
+#: application/admin/views/eggs_index.php:70
+#: application/admin/views/eggs_thickbox.php:125
+msgid "Search of storefronts"
+msgstr ""
+
+#: application/admin/views/envato_activation.php:2
+msgid "activation"
+msgstr ""
+
+#: application/admin/views/envato_activation.php:5
+msgid ""
+"In order to receive all benefits of Affiliate Egg, you need to activate your "
+"copy of the plugin."
+msgstr ""
+
+#: application/admin/views/envato_activation.php:6
+msgid ""
+"By activating Affiliate Egg license you will unlock premium options - "
+"automatic plugin updates, access to user panel and official support."
+msgstr ""
+
+#: application/admin/views/lic_settings.php:7
+msgid "Plugin is activated"
+msgstr ""
+
+#: application/admin/views/lic_settings.php:21
+#: application/admin/views/lic_settings.php:29
+msgid "Deactivate license"
+msgstr ""
+
+#: application/admin/views/lic_settings.php:22
+msgid "You can transfer your license to another domain."
+msgstr ""
+
+#: application/admin/views/lic_settings.php:23
+msgid ""
+"After deactivating license, you must deactivate and delete Affiliate Egg "
+"from current domain to use plugin on another domain."
+msgstr ""
+
+#: application/admin/views/settings.php:6
+#: application/admin/views/settings.php:70
+msgid "Deeplink Settings"
+msgstr ""
+
+#: application/admin/views/settings.php:14
+msgid "Proxy Settings"
+msgstr ""
+
+#: application/admin/views/settings.php:19
+msgid "Affiliate Egg Settings"
+msgstr ""
+
+#: application/admin/views/settings.php:24
+#: application/admin/views/settings.php:38
+msgid "General settings"
+msgstr ""
+
+#: application/admin/views/settings.php:56
+msgid "This is list of supported shops"
+msgstr ""
+
+#: application/admin/views/settings.php:57
+msgid ""
+"To receive the comissions for a partnership transitions and sale of products "
+"from the links, you must specify Deeplink of CPA-network for each store."
+msgstr ""
+
+#: application/admin/views/settings.php:59
+msgid ""
+"Icons near each settings is only hint of CPA company where we find this "
+"shop. You can use any Deeplink instead"
+msgstr ""
+
+#: application/admin/views/settings.php:62
+msgid ""
+"Also you can use affiliate programs of each shops. For this, add your "
+"partner affiliate ID which will be added to all links of this shop. For "
+"example:"
+msgstr ""
+
+#: application/admin/views/settings.php:66
+msgid "Also you can use the template:"
+msgstr ""
+
+#: application/admin/views/settings.php:70
+msgid "Read more:"
+msgstr ""
+
+#: application/admin/views/settings.php:106
+#: application/admin/views/settings.php:113
+msgid "Read more about this settings"
+msgstr ""
+
+#: application/admin/views/settings.php:106
+#: application/admin/views/settings.php:113
+msgid "here"
+msgstr ""
+
+#: application/models/AutoblogModel.php:59 application/models/EggModel.php:47
+msgid "Date created"
+msgstr ""
+
+#: application/models/AutoblogModel.php:60
+msgid "Last run"
+msgstr ""
+
+#: application/models/AutoblogModel.php:61
+msgid "Status"
+msgstr ""
+
+#: application/models/AutoblogModel.php:62
+msgid "Total posts"
+msgstr ""
+
+#: application/models/AutoblogModel.php:177
+#: application/models/AutoblogModel.php:179
+msgid "Autoblogging"
+msgstr ""
+
+#: application/models/EggModel.php:48
+msgid "Last updated"
+msgstr ""
+
+#: templates/egg_masonry_3cols.php:5
+msgid "Masonry (3 colums)"
+msgstr ""
+
+#: templates/egg_masonry_3cols.php:52
+#: templates/egg_price_comparison_full.php:93
+msgid "See more..."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Affiliate Egg Pro"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://www.keywordrush.com/en/affiliateegg"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Parse, add, update products from affiliate shops. Let you to earn money from "
+"affiliate networks."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "keywordrush.com"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://www.keywordrush.com"
+msgstr ""

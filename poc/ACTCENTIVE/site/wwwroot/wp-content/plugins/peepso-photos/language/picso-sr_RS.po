@@ -1,0 +1,858 @@
+# Translation of PeepSo - Photos in Serbian
+# This file is distributed under the same license as the PeepSo - Photos package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2023-07-18 08:16:31+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
+"X-Generator: GlotPress/3.0.0\n"
+"Language: sr_RS\n"
+"Project-Id-Version: PeepSo - Photos\n"
+
+#: classes/photosajax.php:796
+msgid "Temporary file has been moved"
+msgid_plural "Temporary files has been moved"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: classes/configsectionphotos.php:336
+msgid "Clear history"
+msgstr "Очисти историју"
+
+#: classes/configsectionphotos.php:229
+msgid "Photo size & quality"
+msgstr "Величина и квалитет фотографије"
+
+#: classes/configsectionphotos.php:121
+msgid "User limits"
+msgstr "Ограничења корисника"
+
+#: templates/photos/photo-album-custom.php:216
+#: templates/photos/photo-group-album-custom.php:221
+msgid "Comments are closed"
+msgstr "Коментари су затворени"
+
+#. Author of the plugin/theme
+msgid "PeepSo"
+msgstr "PeepSo"
+
+#. Description of the plugin/theme
+msgid "Photo uploads and albums"
+msgstr "Отпремање фотографија и албума"
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://peepso.com"
+msgstr "https://peepso.com"
+
+#. Plugin Name of the plugin/theme
+msgid "PeepSo Core: Photos"
+msgstr "PeepSo Core: Фотографије"
+
+#: templates/widgets/photos.tpl.php:31
+msgid "View All"
+msgstr "Види све"
+
+#: templates/widgets/community-photos.tpl.php:29
+#: templates/widgets/photos.tpl.php:40
+msgid "No photos"
+msgstr "Нема фотографија"
+
+#: templates/photos/postbox-photos.php:19
+msgid "Say something about this photo..."
+msgstr "Реците нешто о овој фотографији..."
+
+#: templates/photos/postbox-photos.php:8
+msgid "Max photo dimensions: %1$s x %2$spx | Max file size: %3$sMB"
+msgstr "Максималне димензије фотографије: %1$s x %2$spx | Максимална величина фајла: %3$sMB"
+
+#: templates/photos/postbox-photos.php:6
+msgid "Click here to start uploading photos"
+msgstr "Кликните овде да бисте почели отпремање фотографија"
+
+#: templates/photos/popup.php:11
+msgid "Close"
+msgstr "Затвори"
+
+#: templates/photos/photos.php:35
+msgid "Photo Albums"
+msgstr "Албуми фотографија"
+
+#: templates/photos/photos.php:33
+msgid "Recently added photos"
+msgstr "Недавно додате фотографије"
+
+#: templates/photos/photos-group.php:34 templates/photos/photos.php:27
+msgid "Albums"
+msgstr "Албуми"
+
+#: templates/photos/photo-item-album.php:51
+msgid "Friends Only"
+msgstr "Само за пријатеље"
+
+#: templates/photos/photo-item-album.php:45
+msgid "Private"
+msgstr "Приватно"
+
+#: templates/photos/photo-item-album.php:40
+msgid "Members only"
+msgstr "Само за чланове"
+
+#: templates/photos/photo-item-album.php:35
+#: templates/photos/photo-item-album.php:53
+msgid "Public"
+msgstr "Јавно"
+
+#: templates/photos/photo-group-item-album.php:23
+#: templates/photos/photo-item-album.php:26
+msgid "%s photo"
+msgid_plural "%s photos"
+msgstr[0] "%s фотографија"
+msgstr[1] "%s фотографије"
+msgstr[2] "%s фотографија"
+
+#: templates/photos/photo-comment.php:31 templates/photos/photo-item.php:27
+msgid "Gif"
+msgstr "Gif"
+
+#: templates/photos/photo-comment.php:22
+msgid "Uploaded a photo"
+msgstr "Отпремио/ла фотографију"
+
+#: templates/photos/photo-comment.php:21
+msgid "%s uploaded a photo"
+msgstr "%s је отпремио/ла фотографију"
+
+#: templates/photos/photo-album.php:14
+#: templates/photos/photo-group-album.php:19
+msgid "Back to Photos"
+msgstr "Назад на фотографије"
+
+#: templates/photos/photo-album.php:10
+#: templates/photos/photo-group-album.php:15
+msgid "%s Album"
+msgstr "%s албум"
+
+#: templates/photos/photo-album-upload.php:24
+msgid "Add photos to album"
+msgstr "Додај фотографије у албум"
+
+#: templates/photos/photo-album-upload.php:17
+msgid "Upload Photo"
+msgstr "Отпреми фотографију"
+
+#: templates/photos/photo-album-upload.php:1
+msgid "Photo privacy is inherited from the album"
+msgstr "Приватност фотографије је наслеђена од приватности албума"
+
+#: templates/photos/photo-album-dialog.php:56
+#: templates/photos/photo-album-dialog.php:63
+#: templates/photos/photos-group.php:27 templates/photos/photos.php:20
+#: templates/photos/photos.php:41
+msgid "Create Album"
+msgstr "Креирај албум"
+
+#: templates/photos/photo-album-dialog.php:49
+#: templates/photos/photo-album-upload.php:9
+msgid "Please select at least one photo to be uploaded"
+msgstr "Молимо одаберите бар једну фотографију за отпремање"
+
+#: templates/photos/photo-album-dialog.php:46
+#: templates/photos/photo-album-upload.php:6
+msgid "Upload photos to album"
+msgstr "Отпреми фотографије у албум"
+
+#: templates/photos/photo-album-dialog.php:21
+msgid "Album privacy"
+msgstr "Приватност албума"
+
+#: templates/photos/photo-album-dialog.php:13
+msgid "Album name can't be empty"
+msgstr "Назив албума не може бити празан"
+
+#: templates/photos/photo-album-dialog.php:9
+msgid "Album name"
+msgstr "Назив албума"
+
+#: templates/photos/photo-album-custom.php:205
+#: templates/photos/photo-group-album-custom.php:211
+msgid "Post"
+msgstr "Постуј"
+
+#: templates/photos/photo-album-custom.php:204
+#: templates/photos/photo-group-album-custom.php:210
+msgid "Clear"
+msgstr "Уклони"
+
+#: templates/photos/photo-album-custom.php:192
+#: templates/photos/photo-group-album-custom.php:198
+msgid "Write a comment..."
+msgstr "Напиши коментар..."
+
+#: templates/photos/photo-album-custom.php:148
+#: templates/photos/photo-album.php:28
+#: templates/photos/photo-group-album-custom.php:150
+#: templates/photos/photo-group-album.php:33
+#: templates/photos/photos-group.php:42 templates/photos/photos.php:48
+msgid "Oldest first"
+msgstr "Прво најстарије"
+
+#: templates/photos/photo-album-custom.php:147
+#: templates/photos/photo-album.php:27
+#: templates/photos/photo-group-album-custom.php:149
+#: templates/photos/photo-group-album.php:32
+#: templates/photos/photos-group.php:41 templates/photos/photos.php:47
+msgid "Newest first"
+msgstr "Прво најновије"
+
+#: templates/photos/photo-album-custom.php:142
+#: templates/photos/photo-album.php:22
+#: templates/photos/photo-group-album-custom.php:144
+#: templates/photos/photo-group-album.php:27
+#: templates/photos/photos-group.php:21 templates/photos/photos.php:14
+msgid "Large thumbnails"
+msgstr "Велике умањене слике"
+
+#: templates/photos/photo-album-custom.php:141
+#: templates/photos/photo-album.php:21
+#: templates/photos/photo-group-album-custom.php:143
+#: templates/photos/photo-group-album.php:26
+#: templates/photos/photos-group.php:20 templates/photos/photos.php:13
+msgid "Small thumbnails"
+msgstr "Мале умањене слике"
+
+#: templates/photos/photo-album-custom.php:126
+#: templates/photos/photo-group-album-custom.php:128
+msgid "Save description"
+msgstr "Сачувај опис"
+
+#: templates/photos/photo-album-custom.php:119
+#: templates/photos/photo-group-album-custom.php:121
+msgid "No description"
+msgstr "Нема описа"
+
+#: templates/photos/photo-album-custom.php:100
+#: templates/photos/photo-group-album-custom.php:102
+msgid "Description privacy"
+msgstr "Приватност описа"
+
+#: templates/photos/photo-album-custom.php:92
+#: templates/photos/photo-group-album-custom.php:94
+msgid "Edit description"
+msgstr "Измени опис"
+
+#: templates/photos/photo-album-custom.php:90
+#: templates/photos/photo-album-dialog.php:36
+#: templates/photos/photo-group-album-custom.php:92
+msgid "Album description"
+msgstr "Опис албума"
+
+#: templates/photos/photo-album-custom.php:68
+#: templates/photos/photo-group-album-custom.php:70
+msgid "Edit title"
+msgstr "Измени наслов"
+
+#: templates/photos/photo-album-custom.php:62
+#: templates/photos/photo-group-album-custom.php:64
+msgid "Save"
+msgstr "Сачувај"
+
+#: templates/photos/photo-album-custom.php:60
+#: templates/photos/photo-album-custom.php:123
+#: templates/photos/photo-album-dialog.php:59
+#: templates/photos/photo-album-upload.php:20
+#: templates/photos/photo-group-album-custom.php:62
+#: templates/photos/photo-group-album-custom.php:125
+msgid "Cancel"
+msgstr "Откажи"
+
+#: templates/photos/photo-album-custom.php:49
+#: templates/photos/photo-group-album-custom.php:51
+msgid "Add Photos"
+msgstr "Додај фотографије"
+
+#: templates/photos/photo-album-custom.php:37
+#: templates/photos/photo-group-album-custom.php:40
+msgid "Back"
+msgstr "Назад"
+
+#: templates/photos/photo-album-custom.php:28
+#: templates/photos/photo-group-album-custom.php:31
+msgid "Are you sure you want to delete this album?"
+msgstr "Да ли сте сигурни да желите да обришете овај албум?"
+
+#: templates/photos/photo-album-custom.php:24
+#: templates/photos/photo-group-album-custom.php:27
+msgid "Remove album"
+msgstr "Уклони албум"
+
+#: templates/photos/modal-photo-item.php:31
+msgid "Set as my cover"
+msgstr "Постави као моју насловну фотографију"
+
+#: templates/photos/modal-photo-item.php:30
+msgid "Set as my avatar"
+msgstr "Постави као мој аватар"
+
+#: templates/photos/modal-photo-item.php:27
+msgid "Options"
+msgstr "Опције"
+
+#: peepsosharephotos.php:2217
+msgid "Post updates on Activity Stream when user changes groups cover."
+msgstr "Ажурирање постова на протоку активности када корисник промеи насловну фотографију групе."
+
+#: peepsosharephotos.php:2216
+msgid "Enable post updates upon groups cover change"
+msgstr "Омогући ажурирање постова приликом промене насловне фотографије"
+
+#: peepsosharephotos.php:2209
+msgid "Post updates on Activity Stream when user changes groups avatar."
+msgstr "Ажурирање постова на протоку активности када корисник промени аватар групе."
+
+#: peepsosharephotos.php:2208
+msgid "Enable post updates upon groups avatar change"
+msgstr "Омогући ажурирање постова приликом промене аватара у групама"
+
+#: peepsosharephotos.php:2192
+msgid "Post updates on Activity Stream when user changes profile cover."
+msgstr "Ажурирање постова на протоку активности када корисник промени насловну фотографију профила."
+
+#: peepsosharephotos.php:2191
+msgid "Enable post updates upon user cover change"
+msgstr "Омогући ажурирање постова када корисник промени насловну фотографију"
+
+#: peepsosharephotos.php:2184
+msgid "Post updates on Activity Stream when user changes profile avatar."
+msgstr "Ажурирање постова на протоку активности када корисник промени профилни аватар."
+
+#: peepsosharephotos.php:2183
+msgid "Enable post updates upon user avatar change"
+msgstr "Омогући ажурирање постова приликом промене корисничког аватара"
+
+#: peepsosharephotos.php:1887
+msgid "Upload photos"
+msgstr "Отпреми фотографије"
+
+#: peepsosharephotos.php:1674
+msgid "Delete Album"
+msgstr "Обриши албум"
+
+#: peepsosharephotos.php:1288
+msgid "cover photo"
+msgstr "насловна фотографија"
+
+#: peepsosharephotos.php:1283
+msgid "avatar"
+msgstr "аватар"
+
+#: peepsosharephotos.php:1275 peepsosharephotos.php:1298
+msgid "photo"
+msgid_plural "photos"
+msgstr[0] "фотографија"
+msgstr[1] "фотографије"
+msgstr[2] "фотографија"
+
+#: peepsosharephotos.php:1263
+msgid "album"
+msgstr "албум"
+
+#: peepsosharephotos.php:800
+msgid " shared photos"
+msgstr " дељене фотографије"
+
+#: peepsosharephotos.php:792
+msgid " uploaded %1$d photo"
+msgid_plural " uploaded %1$d photos"
+msgstr[0] " је отпремио/ла %1$d фотографију"
+msgstr[1] " је отпремио/ла %1$d фотографије"
+msgstr[2] " је отпремио/ла %1$d фотографија"
+
+#: peepsosharephotos.php:787
+msgid " added %1$d photo to the album: <a href=\"%3$s\">%2$s</a>"
+msgid_plural " added %1$d photos to the album: <a href=\"%3$s\">%2$s</a>"
+msgstr[0] " је додао/ла %1$d фотографију у албум: <a href=\"%3$s\">%2$s</a>"
+msgstr[1] " је додао/ла %1$d фотографије у албум: <a href=\"%3$s\">%2$s</a>"
+msgstr[2] " је додао/ла %1$d фотографија у албум: <a href=\"%3$s\">%2$s</a>"
+
+#: peepsosharephotos.php:769
+msgid " uploaded a new profile cover"
+msgstr " је отпремио/ла нову насловну фотографију профила"
+
+#: peepsosharephotos.php:766
+msgid " uploaded a new avatar"
+msgstr " је отпремио/ла нови аватар"
+
+#: peepsosharephotos.php:660
+msgid "Photo"
+msgstr "Фотографија"
+
+#: peepsosharephotos.php:519 templates/photos/postbox-photos.php:18
+msgid "Supported formats are: gif, jpg, jpeg, tiff, png, and webp."
+msgstr "Подржани формати су: gif, jpg, jpeg, tiff, png и webp."
+
+#: peepsosharephotos.php:518
+msgid "Only "
+msgstr "Само "
+
+#: peepsosharephotos.php:489 peepsosharephotos.php:1471
+msgid "Upload Failed! Please try again."
+msgstr "Отпремање није успело! Молимо покушајте поново."
+
+#: peepsosharephotos.php:433 peepsosharephotos.php:577
+#: peepsosharephotos.php:1394 peepsosharephotos.php:1422
+#: peepsosharephotos.php:1433 templates/photos/photos-group.php:33
+#: templates/photos/photos.php:26
+msgid "Photos"
+msgstr "Фотографије"
+
+#: peepsosharephotos.php:412
+msgid "Get it now!"
+msgstr "Преузми одмах!"
+
+#: peepsosharephotos.php:410
+msgid "The %s plugin requires the PeepSo plugin to be installed and activated."
+msgstr "Додатак %s захтева да PeepSo додатак буде инсталиран и активиран."
+
+#: peepsosharephotos.php:325
+msgid "Stream Photos"
+msgstr "Фотографије са активности"
+
+#: peepsosharephotos.php:321
+msgid "Profile Covers"
+msgstr "Профилне насловне фотографије"
+
+#: peepsosharephotos.php:317
+msgid "Profile Avatars"
+msgstr "Профилни аватари"
+
+#: classes/widgets/widgetphotos.php:112
+msgid "My Photos"
+msgstr "Моје фотографије"
+
+#: classes/widgets/widgetphotos.php:13
+msgid "PeepSo Photos Widget"
+msgstr "PeepSo фотографије виџет"
+
+#: classes/widgets/widgetphotos.php:12 peepsosharephotos.php:436
+msgid "PeepSo Photos"
+msgstr "PeepSo Фотографије"
+
+#: classes/widgets/widgetcommunityphotos.php:95
+msgid "Latest Photos"
+msgstr "Најскорије фотографије"
+
+#: classes/widgets/widgetcommunityphotos.php:12
+#: classes/widgets/widgetcommunityphotos.php:13
+msgid "PeepSo Community Photos"
+msgstr "PeepSo фотографије заједнице"
+
+#: classes/photosmodel.php:663
+msgid "There was an error removing the file %1$s. Error: %2$s"
+msgstr "Догодила се грешка приликом уклањања фајла %1$s. Грешка: %2$s"
+
+#: classes/photosmodel.php:657
+msgid "There was a problem when deleting the file"
+msgstr "Настао је проблем приликом брисања фајла"
+
+#: classes/photosmodel.php:637
+msgid "There was an error setting up Amazon S3 library."
+msgstr "Догодила се грешка приликом подешавања Amazon S3 библиотеке."
+
+#: classes/photosmodel.php:614
+msgid "There was a problem when uploading the file"
+msgstr "Настао је проблем приликом отпремања фајла"
+
+#: classes/photosmodel.php:532
+msgid "Missing Amazon configuration."
+msgstr "Недостаје конфигурација за Amazon."
+
+#: classes/photosajax.php:1202
+msgid "You do not have permission to do that."
+msgstr "Немате дозволу за овај поступак."
+
+#: classes/photosajax.php:1147
+msgid "You are not authorized to change this album access."
+msgstr "Немате овлашћење да измените приступ овом албуму."
+
+#: classes/photosajax.php:1142
+msgid "Photo Album access changed."
+msgstr "Измењен је приступ албуму за фотографије."
+
+#: classes/photosajax.php:1114
+msgid "Invalid extra field."
+msgstr "Неважеће додатно поље."
+
+#: classes/photosajax.php:1085
+msgid "You are not authorized to change this album description."
+msgstr "Немате овлашћење да промените опис овог албума."
+
+#: classes/photosajax.php:1080
+msgid "Photo Album description saved."
+msgstr "Опис албума фотографија је сачуван."
+
+#: classes/photosajax.php:1025
+msgid "Photo Album name saved."
+msgstr "Назив албума фотографија је сачуван."
+
+#: classes/photosajax.php:998 classes/photosajax.php:1030
+msgid "You are not authorized to change this album name."
+msgstr "Немате овлашћење да промените назив овог албума."
+
+#: classes/photosajax.php:993
+msgid "Photo Album has been deleted."
+msgstr "Албум фотографија је обрисан."
+
+#: classes/photosajax.php:913
+msgid "You are not authorized to add photos."
+msgstr "Немате овлашћење да додајете фотографије."
+
+#: classes/photosajax.php:907
+msgid "Activity is not found."
+msgstr "Активност није нађена."
+
+#: classes/photosajax.php:904
+msgid "New photos added"
+msgstr "Нове фотографије су додате"
+
+#: classes/photosajax.php:845 classes/photosajax.php:948
+msgid "Temporary file has been deleted"
+msgid_plural "Temporary files has been deleted"
+msgstr[0] "Привремени фајл је обрисан"
+msgstr[1] "Привремени фајлови су обрисани"
+msgstr[2] "Привремени фајлови су обрисани"
+
+#: classes/photosajax.php:728
+msgid "You are not authorized to create album for this user."
+msgstr "Немате овлашћење да креирате албум за овог корисника."
+
+#: classes/photosajax.php:723
+msgid "Album "
+msgstr "Албум "
+
+#: classes/photosajax.php:659
+msgid "You are not authorized to use this photo as cover."
+msgstr "Немате овлашћење да употребите ову фотографију као насловну фотографију."
+
+#: classes/photosajax.php:654
+msgid "Your profile cover has been changed."
+msgstr "Ваша насловна фотографија је промењена."
+
+#: classes/photosajax.php:603 classes/photosajax.php:665
+#: classes/photosajax.php:734 classes/photosajax.php:919
+msgid "Photo not found"
+msgstr "Фотографија није нађена"
+
+#: classes/photosajax.php:597
+msgid "You are not authorized to use this photo as avatar."
+msgstr "Немате овлашћење да употребите ову фотографију као аватар."
+
+#: classes/photosajax.php:592
+msgid "Your avatar has been changed."
+msgstr "Ваш аватар је промењен."
+
+#: classes/photosajax.php:551 classes/photosajax.php:616
+#: classes/photosajax.php:678 classes/photosajax.php:743
+#: classes/photosajax.php:809 classes/photosajax.php:857
+#: classes/photosajax.php:932 classes/photosajax.php:960
+#: classes/photosajax.php:1011 classes/photosajax.php:1043
+#: classes/photosajax.php:1128
+msgid "Request could not be verified."
+msgstr "Захтев није могао бити верификован."
+
+#: classes/photosajax.php:426
+msgid "%s doesn't have any photos yet"
+msgstr "%s још увек нема фотографије"
+
+#: classes/photosajax.php:426
+msgid "You don't have any photos yet"
+msgstr "Још увек немате фотографије"
+
+#: classes/photosajax.php:369
+msgid "Maximum file upload quota reached. Delete posts with photos to free some space."
+msgstr "Достигли сте максималну квоту за отпремање фајлова. Обришите постове са фотографијама како бисте ослободили простор."
+
+#: classes/photosajax.php:367
+msgid "Only files up to %1$dMB are allowed."
+msgstr "Дозвољени су само фајлови величине до %1$dMB."
+
+#: classes/photosajax.php:365
+msgid "Maximum photo upload quota reached. Delete posts with photos to free some space."
+msgstr "Достигли сте максималну квоту за отпремање слика. Обришите постове са фотографијама како бисте ослободили простор."
+
+#: classes/photosajax.php:361
+msgid "Maximum daily photo upload quota reached. Delete posts with photos to free some space."
+msgstr "Достигли сте максималну дневну квоту за отпремање слика. Обришите постове са фотографијама како бисте ослободили простор."
+
+#: classes/photosajax.php:163
+msgid "Image exceeds maximum photo size of %1$d x %2$d."
+msgstr "Слика превазилази максималну величину за фотографију од %1$d x %2$d."
+
+#: classes/photosajax.php:159
+msgid "Only photos with a maximum of %1$d pixel height are allowed, please resize."
+msgstr "Дозвољене су само фотографије максималне висине до %1$d пиксела, молимо подесите висину."
+
+#: classes/photosajax.php:157
+msgid "Only photos with a maximum of %1$d pixel width are allowed, please resize."
+msgstr "Дозвољене су само фотографије максималне ширине до %1$d пискела, молимо подесите ширину."
+
+#: classes/photosajax.php:117
+msgid "Only files up to %1$dMB are allowed"
+msgstr "Дозвољени су само фајлови величине до %1$dMB"
+
+#: classes/photosajax.php:92
+msgid "Maximum file upload quota reached. Delete posts with photos to free some space"
+msgstr "Достигнута је максимална квота за отпремање фајлова. Обришите постове са фотографијама како бисте ослободили простор"
+
+#: classes/photosadmin.php:304
+msgid "Photo %1$d of post %2$s"
+msgstr "Фотографија %1$d са поста %2$s"
+
+#: classes/photosadmin.php:295
+msgid "Photo of post %s"
+msgstr "Фотографија са поста %s"
+
+#: classes/photosadmin.php:266
+msgid "Configure the use of PeepSo Share Photos."
+msgstr "Конфигуришите употребу PeepSo дељења фотографија."
+
+#: classes/photosadmin.php:263
+msgid "Photos Settings"
+msgstr "Подешавања фотографија"
+
+#: classes/photosadmin.php:213
+msgid "The AWS Secret Key you received when you signed up for AWS (40 characters)"
+msgstr "AWS тајни кључ који сте добили приликом пријаве за AWS (40 карактера)"
+
+#: classes/photosadmin.php:184
+msgid "Turn on the use of Amazon AWS for image storage"
+msgstr "Укључите употребу Amazon AWS за складиштење слика"
+
+#: classes/photosadmin.php:45
+msgid "WordPress maximum upload size allowed is %1$sMB"
+msgstr "Максимална дозвољена величина за отпремање у оквиру WordPress је %1$sMB"
+
+#: classes/configsectionphotos.php:359
+msgid "AWS"
+msgstr "AWS"
+
+#: classes/configsectionphotos.php:347 classes/photosadmin.php:267
+msgid "To enable the use of AWS, set the \"Enable AWS S3 Storage\" to \"YES\" and fill in the additional settings fields.<br/>To get your AWS Access ID and Keys, you can sign up here: %sGet Your AWS Access Keys%s."
+msgstr "Како бисте омогућили употребу AWS, подесите \"Омогући AWS S3 складиште\" на \"ДА\" и попуните поља за додатна подешавања.<br/>Да бисте добили Ваш AWS приступни идентификациони број и кључеве, можете да се пријавите овде: %sПреузмите Ваше AWS приступне кључеве%s."
+
+#: classes/configsectionphotos.php:337 classes/photosadmin.php:252
+msgid "AWS Error History:"
+msgstr "Историја AWS грешака:"
+
+#: classes/configsectionphotos.php:325
+msgid "Don't keep a local copy of uploaded files"
+msgstr "Немојте чувати локалну копију отпремљених фајлова"
+
+#: classes/configsectionphotos.php:322
+msgid "Disabling AWS S3 will cause photos to disappear, because photos will not be redownloaded"
+msgstr "Онемогућавање AWS S3 ће узроковати нестанак фотографија, јер фотографије неће бити поново преузете"
+
+#: classes/configsectionphotos.php:318
+msgid "Bucket location"
+msgstr "Локација Корпе"
+
+#: classes/configsectionphotos.php:312
+msgid "US West (Oregon)"
+msgstr "САД Западне Државе (Орегон)"
+
+#: classes/configsectionphotos.php:311
+msgid "US West (N. California)"
+msgstr "САД Западне Државе (Северна Калифорнија)"
+
+#: classes/configsectionphotos.php:310
+msgid "US East (Ohio)"
+msgstr "САД Источне Државе (Охајо)"
+
+#: classes/configsectionphotos.php:309
+msgid "US East (N. Virginia)"
+msgstr "САД Источне Државе (Северна Вирџинија)"
+
+#: classes/configsectionphotos.php:308
+msgid "South America (São Paulo)"
+msgstr "Јужна Америка (Сао Паоло)"
+
+#: classes/configsectionphotos.php:307
+msgid "EU (Paris)"
+msgstr "ЕУ (Париз)"
+
+#: classes/configsectionphotos.php:306
+msgid "EU (London)"
+msgstr "ЕУ (Лондон)"
+
+#: classes/configsectionphotos.php:305
+msgid "EU (Ireland)"
+msgstr "ЕУ (Ирска)"
+
+#: classes/configsectionphotos.php:304
+msgid "EU (Frankfurt)"
+msgstr "ЕУ (Франкфурт)"
+
+#: classes/configsectionphotos.php:303
+msgid "Canada (Central)"
+msgstr "Канада (Централна)"
+
+#: classes/configsectionphotos.php:302
+msgid "Asia Pacific (Tokyo)"
+msgstr "Азија и Тихи Океан (Токио)"
+
+#: classes/configsectionphotos.php:301
+msgid "Asia Pacific (Sydney)"
+msgstr "Азија и Тихи Океан (Сиднеј)"
+
+#: classes/configsectionphotos.php:300
+msgid "Asia Pacific (Singapore)"
+msgstr "Азија и Тихи Океан (Сингапур)"
+
+#: classes/configsectionphotos.php:299
+msgid "Asia Pacific (Seoul)"
+msgstr "Азија и Тихи Океан (Сеул)"
+
+#: classes/configsectionphotos.php:298
+msgid "Asia Pacific (Mumbai)"
+msgstr "Азија и Тихи Океан (Мумбаи)"
+
+#: classes/configsectionphotos.php:293 classes/photosadmin.php:230
+msgid "Amazon S3 Bucket"
+msgstr "Корпа за Amazon S3"
+
+#: classes/configsectionphotos.php:286 classes/photosadmin.php:238
+msgid "Amazon S3 Bucket is required"
+msgstr "Корпа за Amazon S3 је неопходна"
+
+#: classes/configsectionphotos.php:280 classes/photosadmin.php:231
+msgid "Name of the Bucket to upload your images to on Amazon S3"
+msgstr "Име Корпе за отпремање Ваших слика на Amazon S3"
+
+#: classes/configsectionphotos.php:276 classes/photosadmin.php:212
+msgid "Amazon Secret Access Key"
+msgstr "Тајни приступни кључ за Amazon"
+
+#: classes/configsectionphotos.php:269 classes/photosadmin.php:220
+msgid "Amazon Secret Access Key is required"
+msgstr "Неопходан је тајни приступни кључ за Amazon"
+
+#: classes/configsectionphotos.php:260 classes/photosadmin.php:194
+msgid "Amazon Access Key ID"
+msgstr "Идентификациони број приступног кључа за Amazon"
+
+#: classes/configsectionphotos.php:253 classes/photosadmin.php:202
+msgid "Amazon Access Key ID is required"
+msgstr "Неопходан је идентификациони број приступног кључа за Amazon"
+
+#: classes/configsectionphotos.php:247 classes/photosadmin.php:195
+msgid "The Access Key ID you received when you signed up for AWS (20 characters)"
+msgstr "Идентификациони број приступног кључа који сте добили приликом пријаве за AWS (20 карактера)"
+
+#: classes/configsectionphotos.php:243 classes/photosadmin.php:183
+msgid "Enable AWS S3 storage"
+msgstr "Омогући AWS S3 складиште"
+
+#: classes/configsectionphotos.php:44
+msgid "General"
+msgstr "Опште"
+
+#: classes/configsectionphotos.php:38
+msgid "Autoplay GIFs"
+msgstr "Аутоматски пуштени GIF-ови"
+
+#: classes/configsectionphotos.php:223 classes/photosadmin.php:162
+msgid "Thumbnail quality"
+msgstr "Квалитет умањене слике"
+
+#: classes/configsectionphotos.php:201 classes/photosadmin.php:142
+msgid "Image quality"
+msgstr "Квалитет слике"
+
+#: classes/configsectionphotos.php:191 classes/configsectionphotos.php:213
+#: classes/photosadmin.php:138 classes/photosadmin.php:158
+msgid "recommended"
+msgstr "препоручено"
+
+#: classes/configsectionphotos.php:180 classes/photosadmin.php:172
+msgid "Maximum image height"
+msgstr "Максимална висина слике"
+
+#: classes/configsectionphotos.php:168 classes/photosadmin.php:121
+msgid "Maximum image width"
+msgstr "Максимална ширина слике"
+
+#: classes/configsectionphotos.php:156 classes/photosadmin.php:110
+msgid "Photo Upload Behavior"
+msgstr "Понашање отпремања фотографија"
+
+#: classes/configsectionphotos.php:145 classes/photosadmin.php:105
+msgid "Resize"
+msgstr "Подеси величину"
+
+#: classes/configsectionphotos.php:144 classes/photosadmin.php:104
+msgid "Use Original"
+msgstr "Користи оригинал"
+
+#: classes/configsectionphotos.php:115 classes/photosadmin.php:94
+msgid "Daily photo upload limit per user"
+msgstr "Дневно ограничење отпремања фотографија по кориснику"
+
+#: classes/configsectionphotos.php:104 classes/photosadmin.php:89
+msgid "50"
+msgstr "50"
+
+#: classes/configsectionphotos.php:103 classes/photosadmin.php:88
+msgid "20"
+msgstr "20"
+
+#: classes/configsectionphotos.php:102 classes/photosadmin.php:87
+msgid "10"
+msgstr "10"
+
+#: classes/configsectionphotos.php:101 classes/photosadmin.php:86
+msgid "5"
+msgstr "5"
+
+#: classes/configsectionphotos.php:94 classes/photosadmin.php:75
+msgid "Maximum number of Photos per User"
+msgstr "Максимални број фотографија по кориснику"
+
+#: classes/configsectionphotos.php:83 classes/photosadmin.php:70
+msgid "1000"
+msgstr "1000"
+
+#: classes/configsectionphotos.php:82 classes/photosadmin.php:69
+msgid "500"
+msgstr "500"
+
+#: classes/configsectionphotos.php:81 classes/photosadmin.php:68
+msgid "250"
+msgstr "250"
+
+#: classes/configsectionphotos.php:80 classes/photosadmin.php:67
+msgid "100"
+msgstr "100"
+
+#: classes/configsectionphotos.php:79 classes/configsectionphotos.php:100
+#: classes/photosadmin.php:66 classes/photosadmin.php:85
+msgid "Unlimited"
+msgstr "Неограничено"
+
+#: classes/configsectionphotos.php:74 classes/photosadmin.php:56
+msgid "Allowed space per user in megabytes"
+msgstr "Дозвољени простор по кориснику у мегабајтовима"
+
+#: classes/configsectionphotos.php:71
+msgid "Set 0 for Unlimited"
+msgstr "Подеси на 0 за неограничено"
+
+#: classes/configsectionphotos.php:32 classes/photosadmin.php:44
+msgid "Maximum upload size in megabytes"
+msgstr "Максимална дозвољена величина за отпремање у мегабајтовима"
+
+#: classes/configsectionphotos.php:29
+msgid "WordPress maximum upload size allowed is %1$sMB. WordPress setting takes priority over PeepSo. If you want to allow bigger file uploads please look into WrodPress and / or your server configuration."
+msgstr "Максимална дозвољена величина отпремљеног садржаја за WordPress је %1$sMB. WordPress подешавање има већи приоритет него PeepSo подешавање. Ако желите да дозволите већи капацитет за отпремање, молимо прегледајте WordPress могућности и / или конфигурацију Вашег сервера."

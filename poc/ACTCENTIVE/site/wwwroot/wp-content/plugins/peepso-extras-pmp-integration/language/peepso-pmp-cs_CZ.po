@@ -1,0 +1,362 @@
+# Translation of PeepSo - Paid Memberships Pro Integration in Czech
+# This file is distributed under the same license as the PeepSo - Paid Memberships Pro Integration package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-02-02 12:10:36+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n >= 2 && n <= 4) ? 1 : 2);\n"
+"X-Generator: GlotPress/3.0.0\n"
+"Language: cs_CZ\n"
+"Project-Id-Version: PeepSo - Paid Memberships Pro Integration\n"
+
+#: peepsopmp.php:783
+msgid "private"
+msgstr ""
+
+#: peepsopmp.php:761
+msgid "Check this to make selected <b>Private PeepSo Groups</b> require this membership level."
+msgstr ""
+
+#: peepsopmp.php:758
+msgid "Require this membeship level"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Memberships and access control for your PeepSo community. Requires the Paid Memberships Pro plugin."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "PeepSo"
+msgstr "PeepSo"
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://peepso.com"
+msgstr "https://peepso.com"
+
+#. Plugin Name of the plugin/theme
+msgid "PeepSo Monetization: Paid Memberships Pro"
+msgstr ""
+
+#: templates/pmp/pmp_levels.php:34
+msgid "Select"
+msgstr "Vybrat"
+
+#: templates/pmp/pmp_levels.php:21
+msgid "Free"
+msgstr "Zdarma"
+
+#: templates/pmp/pmp_levels.php:5
+msgid "Price"
+msgstr "Cena"
+
+#: templates/pmp/pmp_levels.php:4
+msgid "Level"
+msgstr "Úroveň"
+
+#: templates/pmp/pmp_checkout.php:743
+msgid "Processing..."
+msgstr "Zpracovává se..."
+
+#: templates/pmp/pmp_checkout.php:733
+msgid "Submit and Confirm"
+msgstr "Odeslat a potvrdit"
+
+#: templates/pmp/pmp_checkout.php:733
+msgid "Submit and Check Out"
+msgstr "Odeslat a zaplatit"
+
+#: templates/pmp/pmp_checkout.php:721
+msgid "Complete Payment"
+msgstr "Dokončit platbu"
+
+#: templates/pmp/pmp_checkout.php:701
+msgid "I agree to the %s"
+msgstr "Souhlasím s %s"
+
+#: templates/pmp/pmp_checkout.php:613
+msgid "what's this?"
+msgstr "co je tohle?"
+
+#: templates/pmp/pmp_checkout.php:612
+msgid "CVV"
+msgstr "CVV"
+
+#: templates/pmp/pmp_checkout.php:579
+msgid "Expiration Date"
+msgstr "Platnost"
+
+#: templates/pmp/pmp_checkout.php:574
+msgid "Card Number"
+msgstr "Číslo karty"
+
+#: templates/pmp/pmp_checkout.php:531
+msgid "Card Type"
+msgstr "Druh karty"
+
+#: templates/pmp/pmp_checkout.php:508
+msgid "We Accept %s"
+msgstr "Přijímáme %s"
+
+#: templates/pmp/pmp_checkout.php:507
+msgid "Payment Information"
+msgstr "Informace o platbě"
+
+#: templates/pmp/pmp_checkout.php:470
+msgid "Confirm Email"
+msgstr ""
+
+#: templates/pmp/pmp_checkout.php:447
+msgid "Phone"
+msgstr "Telefon"
+
+#: templates/pmp/pmp_checkout.php:422
+msgid "Country"
+msgstr "Země"
+
+#: templates/pmp/pmp_checkout.php:369
+msgid "City, State Zip"
+msgstr "Město, PSČ"
+
+#: templates/pmp/pmp_checkout.php:360
+msgid "Postal Code"
+msgstr "PSČ"
+
+#: templates/pmp/pmp_checkout.php:356
+msgid "State"
+msgstr "Stát"
+
+#: templates/pmp/pmp_checkout.php:352
+msgid "City"
+msgstr "Město"
+
+#: templates/pmp/pmp_checkout.php:342
+msgid "Address 2"
+msgstr "Ulice 2"
+
+#: templates/pmp/pmp_checkout.php:338
+msgid "Address 1"
+msgstr "Ulice 1"
+
+#: templates/pmp/pmp_checkout.php:334
+msgid "Last Name"
+msgstr "Příjmení"
+
+#: templates/pmp/pmp_checkout.php:330
+msgid "First Name"
+msgstr "Křestní jméno"
+
+#: templates/pmp/pmp_checkout.php:323
+msgid "Billing Address"
+msgstr "Fakturační adresa"
+
+#: templates/pmp/pmp_checkout.php:306
+msgid "Check Out with PayPal"
+msgstr "Zaplatit PayPalem"
+
+#: templates/pmp/pmp_checkout.php:302
+msgid "Check Out with a Credit Card Here"
+msgstr "Zaplatit kreditní kartou"
+
+#: templates/pmp/pmp_checkout.php:293
+msgid "Choose your Payment Method"
+msgstr "Vyberte platební metodu"
+
+#: templates/pmp/pmp_checkout.php:277
+msgid "You are logged in as <strong>%s</strong>."
+msgstr "Jste přihlášen jako <strong>%s</strong>."
+
+#: templates/pmp/pmp_checkout.php:253
+msgid "LEAVE THIS BLANK"
+msgstr "PONECHTE PRÁZDNÉ"
+
+#: templates/pmp/pmp_checkout.php:252
+msgid "Full Name"
+msgstr "Celé jméno"
+
+#: templates/pmp/pmp_checkout.php:233
+msgid "Confirm Email Address"
+msgstr ""
+
+#: templates/pmp/pmp_checkout.php:224 templates/pmp/pmp_checkout.php:461
+msgid "Email Address"
+msgstr ""
+
+#: templates/pmp/pmp_checkout.php:206
+msgid "Confirm Password"
+msgstr "Potvrdit heslo"
+
+#: templates/pmp/pmp_checkout.php:197
+msgid "Password"
+msgstr "Heslo"
+
+#: templates/pmp/pmp_checkout.php:188
+msgid "Username"
+msgstr "Uživatelské jméno"
+
+#: templates/pmp/pmp_checkout.php:180
+msgid "Log in here"
+msgstr "Přihlaste se zde"
+
+#: templates/pmp/pmp_checkout.php:180
+msgid "Already have an account?"
+msgstr "Máte již účet?"
+
+#: templates/pmp/pmp_checkout.php:179
+msgid "Account Information"
+msgstr "Informace o účtu"
+
+#: templates/pmp/pmp_checkout.php:91 templates/pmp/pmp_checkout.php:623
+msgid "Apply"
+msgstr "Aplikovat"
+
+#: templates/pmp/pmp_checkout.php:79 templates/pmp/pmp_checkout.php:89
+#: templates/pmp/pmp_checkout.php:621
+msgid "Discount Code"
+msgstr "Slevový kód"
+
+#: templates/pmp/pmp_checkout.php:77
+msgid "Click here to enter your discount code"
+msgstr "Klikněte zde pro zadání vašeho slevového kódu"
+
+#: templates/pmp/pmp_checkout.php:77
+msgid "Do you have a discount code?"
+msgstr "Máte slevový kód?"
+
+#: templates/pmp/pmp_checkout.php:75
+msgid "Click here to change your discount code"
+msgstr "Klikněte zde pro změnu vašeho slevového kódu"
+
+#: templates/pmp/pmp_checkout.php:64
+msgid "<p class=\"pmpro_level_discount_applied\">The <strong>%s</strong> code has been applied to your order.</p>"
+msgstr "<p class=\"pmpro_level_discount_applied\"> Kód <strong>%s</strong> byl použit pro Vaši objednávku.</p>"
+
+#: templates/pmp/pmp_checkout.php:54
+msgid "You have selected the <strong>%s</strong> membership level."
+msgstr "Vybrali jste <strong>%s</strong> úroveň členství."
+
+#: templates/pmp/pmp_checkout.php:46
+msgid "change"
+msgstr "změna"
+
+#: templates/pmp/pmp_checkout.php:45
+msgid "Membership Level"
+msgstr "Úroveň členství"
+
+#: templates/pmp/pmp_checkout.php:38
+msgid "Almost done. Review the membership information and pricing below then <strong>click the \"Complete Payment\" button</strong> to finish your order."
+msgstr "Takřka hotovo. Zkontrolujte informace o členství a cenu a poté <strong>klikněte na tlačítko \"Dokončit zaplacení\"</strong> k dokončení objednávky."
+
+#: peepsopmp.php:861
+msgid "unpublished"
+msgstr ""
+
+#: peepsopmp.php:854
+msgid "No Icon"
+msgstr ""
+
+#: peepsopmp.php:841
+msgid "Automatically assign users a selected VIP icon who pick this membership level"
+msgstr ""
+
+#: peepsopmp.php:840
+msgid "PeepSo VIP"
+msgstr ""
+
+#: peepsopmp.php:784
+msgid "secret"
+msgstr ""
+
+#: peepsopmp.php:782
+msgid "open"
+msgstr ""
+
+#: peepsopmp.php:765
+msgid "Automatically add users who pick this membership level to the following groups."
+msgstr ""
+
+#: peepsopmp.php:755
+msgid "PeepSo Groups"
+msgstr ""
+
+#: peepsopmp.php:656
+msgid "Done"
+msgstr ""
+
+#: peepsopmp.php:480
+msgid "PeepSo PMP Integration"
+msgstr "PeepSo PMP integrace"
+
+#: peepsopmp.php:477
+msgid "PMP"
+msgstr ""
+
+#: peepsopmp.php:433
+msgid "Get it now!"
+msgstr "Získejte to nyní!"
+
+#: peepsopmp.php:431
+msgid "The %s plugin requires the PeepSo plugin to be installed and activated."
+msgstr "%s rozšíření  vyžaduje instalaci a aktivaci PeepSo pluginu."
+
+#: peepsopmp.php:139
+msgid "Membership"
+msgstr ""
+
+#: classes/configsectionpmpintegration.php:99
+msgid "General"
+msgstr "Všeobecné"
+
+#: classes/configsectionpmpintegration.php:91
+msgid "Strict group memberships (BETA)"
+msgstr ""
+
+#: classes/configsectionpmpintegration.php:87
+msgid "When enabled, users who lose access to a membership level will be removed from all groups assigned to this membership level"
+msgstr ""
+
+#: classes/configsectionpmpintegration.php:81
+msgid "User Login State Handler"
+msgstr ""
+
+#: classes/configsectionpmpintegration.php:76
+msgid "How would you like to handle the user login state while choosing a membership level? This setting is related to an issue introduced in PMP 2.4.1"
+msgstr ""
+
+#: classes/configsectionpmpintegration.php:72
+msgid "Session"
+msgstr ""
+
+#: classes/configsectionpmpintegration.php:71
+msgid "Cookie"
+msgstr ""
+
+#: classes/configsectionpmpintegration.php:65
+msgid "Hide \"Membership\" tab in user profiles"
+msgstr ""
+
+#: classes/configsectionpmpintegration.php:59
+msgid "Enable email notifications for users that have no membership plans"
+msgstr ""
+
+#: classes/configsectionpmpintegration.php:53
+msgid "Force complete membership for users that have no membership plans"
+msgstr ""
+
+#: classes/configsectionpmpintegration.php:46
+msgid "Enable integration upon PeepSo registration"
+msgstr ""
+
+#: classes/configsectionpmpintegration.php:39
+msgid "Enable PMP Integration"
+msgstr "Povolit PMP integraci"
+
+#: classes/configsectionpmpintegration.php:30
+msgid "Turn on the use of PMP Integration"
+msgstr "Zapněte používání PMP integrace"
+
+#: classes/configsectionpmpintegration.php:25
+msgid "Configure the use of PeepSo PMP Integration."
+msgstr "Konfigurace použití rozšíření PeepSo PMP."

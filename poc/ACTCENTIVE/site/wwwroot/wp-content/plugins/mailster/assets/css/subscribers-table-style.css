@@ -1,0 +1,237 @@
+.row-actions {
+	margin-left: 15px;
+}
+.get-more-referer {
+	margin-left: 15px;
+}
+.nowrap {
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	display: inline-block;
+	width: 100%;
+}
+.tiny {
+	font-size: 10px;
+}
+.bulk-update-info.spinner {
+	padding-left: 23px;
+	width: auto;
+	visibility: visible;
+}
+.bulk-update-info {
+	vertical-align: middle;
+	margin-top: 4px;
+}
+.widefat .column-avatar {
+	width: 46px;
+}
+.widefat .column-userrating {
+	width: 85px;
+}
+.widefat .column-name {
+	white-space: nowrap;
+	overflow: hidden;
+}
+.widefat .column-emails {
+	width: 50px;
+	text-align: right;
+}
+.widefat .column-status {
+	width: 100px;
+}
+.widefat .column-signup {
+	width: 130px;
+}
+.mailster-subscriber-conditions-thickbox .mailster-conditions > .mailster-help {
+	display: none;
+}
+
+.mailster-avatar {
+	display: inline-block;
+	margin-right: 8px;
+	padding: 2px;
+	vertical-align: top;
+}
+.mailster-avatar a {
+	display: block;
+}
+.mailster-avatar-40 {
+	display: block;
+	width: 60px;
+	height: 60px;
+	padding: 2px;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 60px 60px;
+	margin-bottom: 4px;
+}
+.mailster-name {
+	display: inline-block;
+}
+.userrating .mailster-icon {
+}
+.userrating .mailster-icon:before {
+	margin: 0;
+	width: 1.2em;
+	height: 1.2em;
+	background-size: 1.2em 1.2em;
+	vertical-align: middle;
+}
+.userrating .mailster-icon.mailster-icon-star:before {
+	background-image: url('data:image/svg+xml;utf8,<svg version="1.1" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g fill="none"><path stroke="%23ffb900" fill="%23ffb900" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M7.458 20.86l2.81526e-08-1.51005e-08c-.584032.313263-1.31143.093761-1.6247-.490271 -.126301-.23547-.170399-.506358-.125305-.769729l.868-5.023 -3.676-3.559 4.32484e-08 4.2531e-08c-.472532-.464694-.478886-1.22447-.0141923-1.697 .183566-.186662.42314-.308172.682192-.346003l5.082-.733 2.27-4.574 3.97642e-08-7.94342e-08c.299141-.597572 1.02607-.839499 1.62364-.540358 .233761.117019.423339.306597.540358.540358l2.27 4.574 5.082.733 1.00541e-07 1.46825e-08c.655786.0957675 1.10977.705022 1.014 1.36081 -.0378307.259052-.159341.498626-.346003.682192l-3.678 3.557 .868 5.023 2.1535e-08 1.2438e-07c.113064.653026-.324662 1.27406-.977688 1.38713 -.264187.045741-.536083.00168883-.772312-.125129l-4.544-2.369Z"></path></g></svg>');
+}
+.userrating .mailster-icon.mailster-icon-star-half:before {
+	background-image: url('data:image/svg+xml;utf8,<svg version="1.1" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g fill="none"><path stroke="%23ffb900" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M7.458 20.86l2.81526e-08-1.51005e-08c-.584032.313263-1.31143.093761-1.6247-.490271 -.126301-.23547-.170399-.506358-.125305-.769729l.868-5.023 -3.676-3.559 4.32484e-08 4.2531e-08c-.472532-.464694-.478886-1.22447-.0141923-1.697 .183566-.186662.42314-.308172.682192-.346003l5.082-.733 2.27-4.574 3.97642e-08-7.94342e-08c.299141-.597572 1.02607-.839499 1.62364-.540358 .233761.117019.423339.306597.540358.540358l2.27 4.574 5.082.733 1.00541e-07 1.46825e-08c.655786.0957675 1.10977.705022 1.014 1.36081 -.0378307.259052-.159341.498626-.346003.682192l-3.678 3.557 .868 5.023 2.1535e-08 1.2438e-07c.113064.653026-.324662 1.27406-.977688 1.38713 -.264187.045741-.536083.00168883-.772312-.125129l-4.544-2.369Z"></path></g></svg>');
+}
+.userrating .mailster-icon.mailster-icon-star-empty:before {
+	background-image: url('data:image/svg+xml;utf8,<svg version="1.1" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g fill="none"><path stroke="%23cfcfcf" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M7.458 20.86l2.81526e-08-1.51005e-08c-.584032.313263-1.31143.093761-1.6247-.490271 -.126301-.23547-.170399-.506358-.125305-.769729l.868-5.023 -3.676-3.559 4.32484e-08 4.2531e-08c-.472532-.464694-.478886-1.22447-.0141923-1.697 .183566-.186662.42314-.308172.682192-.346003l5.082-.733 2.27-4.574 3.97642e-08-7.94342e-08c.299141-.597572 1.02607-.839499 1.62364-.540358 .233761.117019.423339.306597.540358.540358l2.27 4.574 5.082.733 1.00541e-07 1.46825e-08c.655786.0957675 1.10977.705022 1.014 1.36081 -.0378307.259052-.159341.498626-.346003.682192l-3.678 3.557 .868 5.023 2.1535e-08 1.2438e-07c.113064.653026-.324662 1.27406-.977688 1.38713 -.264187.045741-.536083.00168883-.772312-.125129l-4.544-2.369Z"></path></g></svg>');
+}
+.wp-list-table tr:hover .userrating .mailster-icon:before {
+	color: #e6b800;
+}
+
+table.fixed.wp-list-table {
+	table-layout: auto;
+}
+.wp-list-table .table-data {
+	max-height: 100px;
+	overflow: hidden;
+}
+.mailster-avatar-40.wp-user:before {
+	font-family: 'dashicons';
+	content: '\f120';
+	margin-left: 38px;
+	line-height: 99px;
+	font-size: 100%;
+	background-color: rgba(255, 255, 255, 0.9);
+	border-radius: 50%;
+	font-size: 180%;
+}
+.not-confirmed {
+	font-style: italic;
+	color: #999;
+}
+.wp-list-table ul {
+	margin: 0;
+}
+.wp-list-table th.manage-column span {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	max-width: 85%;
+}
+a.name {
+	font-weight: 700;
+	font-size: 1.2em;
+	line-height: 1.6em;
+	color: #555;
+}
+a.email {
+	font-size: 0.85em;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	width: 100%;
+	display: inline-block;
+}
+.mailster-tag {
+	padding: 0.1em 0.5em;
+	box-sizing: border-box;
+	margin-right: 4px;
+	margin-top: 4px;
+	background: #ddd;
+	text-decoration: none;
+	border-radius: 3px;
+	display: block;
+	font-size: 11px;
+	float: left;
+}
+@media screen and (max-width: 782px) {
+	.widefat .column-emails {
+		width: 50px;
+		text-align: left;
+	}
+}
+#searchform {
+	_overflow: hidden;
+}
+#mailster-filter-wrap {
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-start;
+	margin: 0.6em 0;
+}
+#mailster-filter-wrap a {
+	margin-top: 0.6em;
+	margin-right: 0.3em;
+}
+
+#mailster-conditions-render {
+	overflow: hidden;
+	display: inline-block;
+}
+#mailster-conditions-render .mailster-condition-render-group {
+	display: inline-block;
+	margin-right: 0.2em;
+}
+.mailster-condition-operators:not(.mailster-condition-type) {
+	display: none;
+	border: 1px solid #ccd0d4;
+	position: absolute;
+	border-radius: 2px;
+	background: inherit;
+	padding: 0.2em;
+	transform: translate(-100%, 22%);
+	left: 3px;
+}
+
+#TB_ajaxContent {
+	padding: 0 !important;
+	min-width: 100%;
+	max-width: 100%;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+.rtl #TB_ajaxContent {
+	text-align: right;
+}
+.mailster-subscriber-conditions-thickbox {
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	bottom: 10px;
+}
+.mailster-subscriber-conditions-thickbox .inner {
+	position: relative;
+	padding: 1em;
+	height: 70%;
+	height: calc(100% - 50px);
+	overflow: auto;
+}
+.mailster-subscriber-conditions-thickbox .foot {
+	padding: 10px 20px;
+	border-top: 1px solid #dfdfdf;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+.mailster-subscriber-conditions-thickbox .button.add-condition {
+	margin: 1em;
+}
+.mailster-subscriber-conditions-thickbox .foot button {
+	float: right;
+	margin-left: 6px;
+}
+.rtl .mailster-subscriber-conditions-thickbox .foot button {
+	margin-left: 0px;
+	margin-right: 6px;
+	float: left;
+}
+/* hide WPML language switcher */
+.wrap .icl_subsubsub {
+	display: none !important;
+}

@@ -1,0 +1,25 @@
+.col_wrap_fourth .multi_cat {width: 23%; margin: 0 1% 20px;}
+.multi_cat { background-color: #fff; border: 1px solid #E7E7E7; box-shadow: 0 4px 4px -2px rgba(0,0,0,0.1);   float: left; position: relative; }
+.multi_cat_wrap { position: relative; }
+.multi_cat_header { position: relative; background: #F5F5F5; width: 100%; border-bottom: 1px solid #E2E2E2; }
+.multi_cat_lable { display: inline-block; font-weight: 700; font-size: 13px; line-height: 14px; text-transform: uppercase; color: #333; position: relative; padding: 15px; letter-spacing: 0.5px }
+.multi_cat_lable span { margin-left: 0; margin-right: 7px; position: relative; top: 2px; }
+.category-icon { background-size: 16px 16px !important; background-color: #ccc; width: 16px; height: 16px; float: left; }
+.multi_cat_title { font-size: 13px; font-weight: bold; line-height: 16px }
+.multi_cat_title a { color: #111 !important; text-decoration: none !important; }
+.multi_cat .comm_meta { text-decoration: none !important;}
+.multi_cat_artical { padding: 10px; min-height: 61px; border-bottom: 1px solid #E7E7E7; overflow: hidden; }
+.multi_cat_wrap .multi_cat_artical:last-child { border: none; }
+.multi_cat_artical:hover { background-color: #F6F6F6; }
+.multi_cat_image { float: left; margin: 0 10px 0 0; }
+.cat-pagination { text-align: center; border-radius: 0px; margin: 0px; border-top: 1px solid #E2E2E2; overflow: hidden; padding: 0 5px;   }
+.cat-pagination a { display: block; float: left; cursor: pointer; font-size: 14px; font-weight: 500; text-align: center; min-width: 20px; line-height: 1em; padding: 9px 0px; color: #BABDD3 !important; text-decoration: none !important; }
+.cat-pagination a.active { color: #000000 !important; }
+.multi_cat_meta { margin-top: 5px; display: block; }
+.multi_cat .loading { opacity: .5; }
+.multi_cat .loading:after { content: "\f110"; position: absolute; top: 30px; left: 45%; font-size: 24px; opacity: 1; font-family: rhicons; -webkit-animation: fa-spin 1s linear infinite;  animation: fa-spin 1s linear infinite; }
+.rtl .multi_cat { float: right; }
+.rtl .multi_cat_lable span { margin-left: 7px; margin-right: 0px; }
+.rtl .category-icon { float: right; }
+.rtl .multi_cat_image { float: right; margin: 0px 0px 0px 10px; }
+.rtl .cat-pagination a { float: right; }

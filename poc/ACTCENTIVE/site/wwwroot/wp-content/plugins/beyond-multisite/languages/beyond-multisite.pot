@@ -1,0 +1,4849 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Beyond Multisite 1.13.0\n"
+"POT-Creation-Date: 2023-07-31 08:53+0300\n"
+"PO-Revision-Date: 2017-03-09 20:31+0200\n"
+"Last-Translator: \n"
+"Language-Team: Nikolay Nikolov <nikolay@nikolaydev.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.3.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;esc_html__;esc_attr__;esc_html_e;esc_attr_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: beyond-multisite.php:411 beyond-multisite.php:412 includes/helpers.php:492
+msgid "Beyond Multisite"
+msgstr ""
+
+#: beyond-multisite.php:451
+msgid "Error: Could not create the image."
+msgstr ""
+
+#: beyond-multisite.php:452 includes/activated-in.php:85
+#: includes/cleanup.php:157 includes/copy-maker.php:467
+#: includes/email-users.php:123 includes/plugin-control.php:137
+#: includes/plugin-control.php:197
+msgid "Error: We got an empty response."
+msgstr ""
+
+#: beyond-multisite.php:453
+msgid "Error: This is not a valid email."
+msgstr ""
+
+#: beyond-multisite.php:454 includes/email-users.php:115
+msgid "Error: This is not a valid email to send from."
+msgstr ""
+
+#: beyond-multisite.php:455
+msgid "Error: This is not a valid ID."
+msgstr ""
+
+#: beyond-multisite.php:456
+msgid "Error: The email was not sent."
+msgstr ""
+
+#: beyond-multisite.php:457 includes/activated-in.php:81
+#: includes/cleanup.php:152 includes/copy-maker.php:464
+#: includes/email-users.php:122 includes/email-users.php:594
+#: includes/plugin-control.php:136 includes/plugin-control.php:196
+msgid "Error: You do not have sufficient permissions to make this request."
+msgstr ""
+
+#: beyond-multisite.php:458 includes/activated-in.php:86
+#: includes/ban-users.php:1406 includes/ban-users.php:1670
+#: includes/cleanup.php:153 includes/copy-maker.php:465
+#: includes/email-users.php:124 includes/email-users.php:599
+#: includes/plugin-control.php:138 includes/plugin-control.php:198
+msgid "Error: Invalid security nonce. Please reload the page and try again."
+msgstr ""
+
+#: beyond-multisite.php:459 includes/ban-users.php:1402
+#: includes/ban-users.php:1666 includes/cleanup.php:210
+#: includes/cleanup.php:700 includes/cleanup.php:706 includes/cleanup.php:711
+#: includes/cleanup.php:724 includes/email-users.php:101
+#: includes/email-users.php:645 includes/helpers.php:475
+msgid "Done"
+msgstr ""
+
+#: beyond-multisite.php:460 includes/activated-in.php:88
+#: includes/cleanup.php:186 includes/copy-maker.php:509
+#: includes/email-users.php:135 includes/plugin-control.php:158
+#: includes/plugin-control.php:199
+msgid ""
+"Error: Unexpected server error. If you have WordPress debugging and logging "
+"enabled, you should be able to see more details about the error in the /wp-"
+"content/debug.log file."
+msgstr ""
+
+#: beyond-multisite.php:484 includes/activated-in.php:76
+#: includes/ban-users.php:672 includes/ban-users.php:1404
+#: includes/ban-users.php:1668 includes/ban-users.php:2253
+#: includes/cleanup.php:151 includes/cleanup.php:209
+#: includes/plugin-control.php:126 includes/plugin-control.php:191
+msgid "Error"
+msgstr ""
+
+#: beyond-multisite.php:489
+msgid "Invalid data"
+msgstr ""
+
+#: beyond-multisite.php:494
+msgid "Invalid security nonce"
+msgstr ""
+
+#: beyond-multisite.php:580 includes/ban-users.php:1137
+#: includes/cleanup.php:234 includes/copy-maker.php:95
+#: includes/email-users.php:151 includes/pending-users.php:106
+#: includes/plugin-control.php:369
+msgid "You do not have sufficient permissions to access this page."
+msgstr ""
+
+#: beyond-multisite.php:1300
+msgid "Turn On"
+msgstr ""
+
+#: beyond-multisite.php:1302 beyond-multisite.php:1303
+msgid "This module is turned off."
+msgstr ""
+
+#: beyond-multisite.php:1305
+msgid "Click on the \"Turn On\" button above"
+msgstr ""
+
+#: beyond-multisite.php:1308
+msgid "Turn Off"
+msgstr ""
+
+#: beyond-multisite.php:1310
+msgid "This module is turned on."
+msgstr ""
+
+#: beyond-multisite.php:1343
+msgid "Modules and Settings"
+msgstr ""
+
+#: beyond-multisite.php:1349
+msgid "Plugin Control"
+msgstr ""
+
+#: beyond-multisite.php:1354 beyond-multisite.php:1463
+#: beyond-multisite.php:1978 beyond-multisite.php:2227
+#: beyond-multisite.php:2376 beyond-multisite.php:2643
+#: beyond-multisite.php:2922 beyond-multisite.php:3130
+msgid "Show Settings"
+msgstr ""
+
+#: beyond-multisite.php:1357 beyond-multisite.php:1466
+#: beyond-multisite.php:1981 beyond-multisite.php:2230
+#: beyond-multisite.php:2379 beyond-multisite.php:2646
+#: beyond-multisite.php:2925 beyond-multisite.php:3133
+msgid "Hide Settings"
+msgstr ""
+
+#: beyond-multisite.php:1370 beyond-multisite.php:1479
+#: beyond-multisite.php:1994 beyond-multisite.php:2243
+#: beyond-multisite.php:2402 beyond-multisite.php:2659
+#: beyond-multisite.php:2834 beyond-multisite.php:2882
+#: beyond-multisite.php:2938 beyond-multisite.php:3146
+msgid "Main Features"
+msgstr ""
+
+#: beyond-multisite.php:1374 beyond-multisite.php:1483
+#: beyond-multisite.php:1998 beyond-multisite.php:2247
+#: beyond-multisite.php:2406 beyond-multisite.php:2663
+#: beyond-multisite.php:2838 beyond-multisite.php:2886
+#: beyond-multisite.php:2942 beyond-multisite.php:3150
+msgid "Quick start"
+msgstr ""
+
+#: beyond-multisite.php:1377
+msgid "Network disable plugins to hide them from site administrators"
+msgstr ""
+
+#: beyond-multisite.php:1378
+msgid "Site enable plugins to allow access to only some sites"
+msgstr ""
+
+#: beyond-multisite.php:1379
+msgid "Bulk activate/deactivate plugins on all or some sites in the network"
+msgstr ""
+
+#: beyond-multisite.php:1386
+#, php-format
+msgid ""
+"To network disable or bulk activate/deactivate plugins, visit the "
+"%1$sPlugins%2$s page and use the links under a chosen plugin"
+msgstr ""
+
+#: beyond-multisite.php:1396
+#, php-format
+msgid ""
+"To site enable plugins, on the %1$sSites%2$s page, click \"Edit\" to edit a "
+"site, and then click \"Plugins\""
+msgstr ""
+
+#: beyond-multisite.php:1421
+msgid "Automatically network disable new plugins"
+msgstr ""
+
+#: beyond-multisite.php:1428
+msgid ""
+"Hint: When you add a new plugin, it will be network disabled by default. "
+"This will not change the settings for currently installed plugins."
+msgstr ""
+
+#: beyond-multisite.php:1440 beyond-multisite.php:1955
+#: beyond-multisite.php:2204 beyond-multisite.php:2350
+#: beyond-multisite.php:2616 beyond-multisite.php:2801
+#: beyond-multisite.php:3107 beyond-multisite.php:3323
+msgid "Update Settings"
+msgstr ""
+
+#: beyond-multisite.php:1443 beyond-multisite.php:1958
+#: beyond-multisite.php:2207 beyond-multisite.php:2353
+#: beyond-multisite.php:2619 beyond-multisite.php:2804
+#: beyond-multisite.php:3110 beyond-multisite.php:3326
+msgid "Help"
+msgstr ""
+
+#: beyond-multisite.php:1458
+msgid "Copy Maker"
+msgstr ""
+
+#: beyond-multisite.php:1486
+msgid "Copy a site and paste it into another site"
+msgstr ""
+
+#: beyond-multisite.php:1487
+msgid "Replace new sites with a copy of a template site upon their creation"
+msgstr ""
+
+#: beyond-multisite.php:1494
+#, php-format
+msgid "Visit the %1$sSites%2$s page and click \"Copy\" under a chosen site"
+msgstr ""
+
+#: beyond-multisite.php:1515
+msgid "How many logs to store:"
+msgstr ""
+
+#: beyond-multisite.php:1522 beyond-multisite.php:1523
+#: beyond-multisite.php:1524 beyond-multisite.php:1525
+#: beyond-multisite.php:1526
+#, php-format
+msgid "Last %d"
+msgstr ""
+
+#: beyond-multisite.php:1527
+msgid "All"
+msgstr ""
+
+#: beyond-multisite.php:1535
+msgid ""
+"Hint: The logs contain a list of the taken actions during the process of "
+"copying a site. Viewing the logs helps with debugging. They are stored in "
+"the database and could become big in size if a lot of files were copied."
+msgstr ""
+
+#: beyond-multisite.php:1544
+msgid "Normal site copy settings"
+msgstr ""
+
+#: beyond-multisite.php:1548
+msgid ""
+"The settings below affect the copy process that starts when you manually "
+"click the link to copy a site and the button \"Copy Site\"."
+msgstr ""
+
+#: beyond-multisite.php:1557
+msgid "Copy the title of the site"
+msgstr ""
+
+#: beyond-multisite.php:1565
+msgid "Copy the admin email address of the site"
+msgstr ""
+
+#: beyond-multisite.php:1575 beyond-multisite.php:1819
+msgid "Do not copy posts *"
+msgstr ""
+
+#: beyond-multisite.php:1582 beyond-multisite.php:1826
+msgid ""
+"Hint: At the end of the process of copying the site, all copied posts with "
+"post type \"post\" will be deleted from the newly created site. This does "
+"not affect media files."
+msgstr ""
+
+#: beyond-multisite.php:1593 beyond-multisite.php:1837
+msgid "Do not copy pages *"
+msgstr ""
+
+#: beyond-multisite.php:1600 beyond-multisite.php:1844
+msgid ""
+"Hint: At the end of the process of copying the site, all copied posts with "
+"post type \"page\" will be deleted from the newly created site. This does "
+"not affect media files."
+msgstr ""
+
+#: beyond-multisite.php:1611 beyond-multisite.php:1855
+msgid "Do not copy categories *"
+msgstr ""
+
+#: beyond-multisite.php:1618 beyond-multisite.php:1862
+msgid ""
+"Hint: At the end of the process of copying the site, all copied terms from "
+"the taxonomy \"category\" will be deleted from the newly created site."
+msgstr ""
+
+#: beyond-multisite.php:1629 beyond-multisite.php:1873
+msgid "Do not copy tags *"
+msgstr ""
+
+#: beyond-multisite.php:1636 beyond-multisite.php:1880
+msgid ""
+"Hint: At the end of the process of copying the site, all copied terms from "
+"the taxonomy \"post_tag\" will be deleted from the newly created site."
+msgstr ""
+
+#: beyond-multisite.php:1647 beyond-multisite.php:1891
+msgid "Do not copy media files **"
+msgstr ""
+
+#: beyond-multisite.php:1654 beyond-multisite.php:1898
+msgid ""
+"Hint: The uploaded files are not copied, but the ones in the destination "
+"site are still deleted. At the end of the process of copying the site, all "
+"copied posts with post type \"attachment\" will be deleted from the newly "
+"created site."
+msgstr ""
+
+#: beyond-multisite.php:1665
+msgid "Template site copy settings"
+msgstr ""
+
+#: beyond-multisite.php:1669
+msgid ""
+"You can choose a site to be automatically copied into new sites upon their "
+"creation. This does not change existing sites. The settings below are about "
+"sites copied upon creation."
+msgstr ""
+
+#: beyond-multisite.php:1677
+msgid ""
+"Automatically replace new sites with a copy of the default template site "
+"upon their creation"
+msgstr ""
+
+#: beyond-multisite.php:1684
+msgid "Hint: This enables the feature"
+msgstr ""
+
+#: beyond-multisite.php:1693
+msgid "Do not replace automatically sites created by a Super Administrator"
+msgstr ""
+
+#: beyond-multisite.php:1700
+msgid "Site ID of the default template site:"
+msgstr ""
+
+#: beyond-multisite.php:1707
+msgid ""
+"Hint: Enter the site ID of the site that will be copied into new sites. "
+"Cannot be the main site."
+msgstr ""
+
+#: beyond-multisite.php:1714
+msgid "Enter a site ID before updating the settings. Cannot be the main site."
+msgstr ""
+
+#: beyond-multisite.php:1720
+msgid ""
+"Interrupt and postpone the rest of the copy process if it takes more than:"
+msgstr ""
+
+#: beyond-multisite.php:1728
+#, php-format
+msgid "%d second"
+msgstr ""
+
+#: beyond-multisite.php:1729 beyond-multisite.php:1730
+#: beyond-multisite.php:1731 beyond-multisite.php:1732
+#: beyond-multisite.php:1733 beyond-multisite.php:1734
+#: beyond-multisite.php:1735 beyond-multisite.php:1736
+#: beyond-multisite.php:1737 beyond-multisite.php:1738
+#: beyond-multisite.php:1739 beyond-multisite.php:1740
+#: beyond-multisite.php:1741 beyond-multisite.php:1742
+#: beyond-multisite.php:1743 beyond-multisite.php:1744
+#: beyond-multisite.php:1745 beyond-multisite.php:1746
+#: beyond-multisite.php:1747 beyond-multisite.php:1748
+#: beyond-multisite.php:1749 beyond-multisite.php:1750
+#: beyond-multisite.php:1751 beyond-multisite.php:1752
+#, php-format
+msgid "%d seconds"
+msgstr ""
+
+#: beyond-multisite.php:1760
+msgid ""
+"Hint: Right after the new site is created (in the same request), the plugin "
+"will start replacing it with a copy of the template site. Usually this is "
+"very fast, but if the template site is bigger or the server is slower, it "
+"may require more time than what would be comfortable for the user to wait "
+"(or also than what is available in one request before being stopped by the "
+"server). In this case the copy process will continue from where it left of "
+"when the new site is visited for the first time. The visitor will see a "
+"message, and the site will be unusable until the copying process is "
+"completed. You can choose the amount of time to spend copying in the initial "
+"request, before deciding to interrupt the process and postpone it to be "
+"finished on the first visit of the new site."
+msgstr ""
+
+#: beyond-multisite.php:1780
+msgid "Do not copy the users from the template site"
+msgstr ""
+
+#: beyond-multisite.php:1781
+msgid ""
+"Copy these users from the template site, that do not exist in the new site"
+msgstr ""
+
+#: beyond-multisite.php:1782
+msgid ""
+"Replace the existing users in the new site with all the users from the "
+"template site"
+msgstr ""
+
+#: beyond-multisite.php:1792
+msgid "Copy the title of the template site"
+msgstr ""
+
+#: beyond-multisite.php:1800
+msgid "Copy the admin email address of the template site"
+msgstr ""
+
+#: beyond-multisite.php:1808
+msgid ""
+"Notify the network administrator via email if there was an error during the "
+"copy process"
+msgstr ""
+
+#: beyond-multisite.php:1909
+msgid "WP-CLI Command"
+msgstr ""
+
+#: beyond-multisite.php:1913
+msgid "You can also use the following command to copy a site:"
+msgstr ""
+
+#: beyond-multisite.php:1923
+msgid ""
+"The command has 3 required arguments: the site ID to copy from, the site ID "
+"to paste into, and the number of seconds to wait until it stops and leaves "
+"the process to be finished later when the site we paste into is visited for "
+"the first time."
+msgstr ""
+
+#: beyond-multisite.php:1931
+msgid ""
+"The rest of the settings will be used from the \"Template site copy "
+"settings\" above!"
+msgstr ""
+
+#: beyond-multisite.php:1940
+msgid "* Still copies them, but it deletes them at the end."
+msgstr ""
+
+#: beyond-multisite.php:1945
+msgid ""
+"** Actual files are not copied, attachment posts are still copied, but it "
+"deletes them at the end."
+msgstr ""
+
+#: beyond-multisite.php:1973
+msgid "Insert HTML"
+msgstr ""
+
+#: beyond-multisite.php:2004
+#, php-format
+msgid "Insert custom HTML code before the closing %1$s tag or the %2$s tag"
+msgstr ""
+
+#: beyond-multisite.php:2012
+msgid ""
+"Show the HTML code either on the front-end or the back-end of all or some "
+"sites"
+msgstr ""
+
+#: beyond-multisite.php:2018 beyond-multisite.php:2422
+#: beyond-multisite.php:3161
+msgid "Click on the \"Show Settings\" button above"
+msgstr ""
+
+#: beyond-multisite.php:2034 beyond-multisite.php:2117
+#, php-format
+msgid "Insert HTML before %s:"
+msgstr ""
+
+#: beyond-multisite.php:2040 beyond-multisite.php:2123 includes/cleanup.php:413
+#: includes/cleanup.php:443 includes/cleanup.php:535 includes/cleanup.php:1263
+#: includes/plugin-control.php:656
+msgid "Affect sites with:"
+msgstr ""
+
+#: beyond-multisite.php:2048 beyond-multisite.php:2131 includes/cleanup.php:450
+#: includes/cleanup.php:542 includes/cleanup.php:1270
+#: includes/email-users.php:321 includes/plugin-control.php:663
+msgid "Any site ID (All sites)"
+msgstr ""
+
+#: beyond-multisite.php:2049 beyond-multisite.php:2132 includes/cleanup.php:451
+#: includes/cleanup.php:543 includes/cleanup.php:1271
+#: includes/email-users.php:322 includes/plugin-control.php:664
+msgid "Only these site IDs:"
+msgstr ""
+
+#: beyond-multisite.php:2050 beyond-multisite.php:2133 includes/cleanup.php:452
+#: includes/cleanup.php:544 includes/cleanup.php:1272
+#: includes/email-users.php:323 includes/plugin-control.php:665
+msgid "All except these site IDs:"
+msgstr ""
+
+#: beyond-multisite.php:2059 beyond-multisite.php:2142 includes/cleanup.php:461
+#: includes/cleanup.php:553 includes/cleanup.php:1281
+#: includes/email-users.php:332 includes/email-users.php:356
+#: includes/plugin-control.php:674
+msgid "Accepts: Comma-separated numbers or an empty string."
+msgstr ""
+
+#: beyond-multisite.php:2064 beyond-multisite.php:2147
+msgid "Affect page types:"
+msgstr ""
+
+#: beyond-multisite.php:2070 beyond-multisite.php:2153
+msgid "Front-end pages using the theme"
+msgstr ""
+
+#: beyond-multisite.php:2076
+msgid ""
+"Hint: The code will be added to all public pages of the selected site(s) "
+"that use the theme template. This includes the wp-signup.php page. The "
+"wp_head action hook is used."
+msgstr ""
+
+#: beyond-multisite.php:2086 beyond-multisite.php:2169
+msgid "Front-end login related pages"
+msgstr ""
+
+#: beyond-multisite.php:2092
+msgid ""
+"Hint: The code will be added to all login related pages (login, lost "
+"password, reset password) of the selected site(s). The login_head action "
+"hook is used."
+msgstr ""
+
+#: beyond-multisite.php:2101 beyond-multisite.php:2184
+msgid "Back-end admin pages"
+msgstr ""
+
+#: beyond-multisite.php:2107
+msgid ""
+"Hint: The code will be added to all admin pages of the selected site(s). The "
+"admin_head action hook is used."
+msgstr ""
+
+#: beyond-multisite.php:2159
+msgid ""
+"Hint: The code will be added to all public pages of the selected site(s) "
+"that use the theme template. This includes the wp-signup.php page. The "
+"wp_footer action hook is used."
+msgstr ""
+
+#: beyond-multisite.php:2175
+msgid ""
+"Hint: The code will be added to all login related pages (login, lost "
+"password, reset password) of the selected site(s). The login_footer action "
+"hook is used."
+msgstr ""
+
+#: beyond-multisite.php:2190
+msgid ""
+"Hint: The code will be added to all admin pages of the selected site(s). The "
+"admin_print_footer_scripts action hook is used."
+msgstr ""
+
+#: beyond-multisite.php:2222 includes/email-users.php:77
+#: includes/email-users.php:78 includes/email-users.php:167
+msgid "Email Users"
+msgstr ""
+
+#: beyond-multisite.php:2250
+msgid "Bulk send emails to all or some users in the network"
+msgstr ""
+
+#: beyond-multisite.php:2251
+msgid "Target users by ID or role in all or some selected sites"
+msgstr ""
+
+#: beyond-multisite.php:2258
+#, php-format
+msgid "Visit the %1$sEmail Users%2$s page"
+msgstr ""
+
+#: beyond-multisite.php:2279 beyond-multisite.php:2709
+msgid "Maximum email sending speed:"
+msgstr ""
+
+#: beyond-multisite.php:2288 beyond-multisite.php:2289
+#: beyond-multisite.php:2290 beyond-multisite.php:2291
+#: beyond-multisite.php:2292 beyond-multisite.php:2293
+#: beyond-multisite.php:2294 beyond-multisite.php:2295
+#: beyond-multisite.php:2296 beyond-multisite.php:2297
+#: beyond-multisite.php:2298 beyond-multisite.php:2299
+#: beyond-multisite.php:2300 beyond-multisite.php:2301
+#: beyond-multisite.php:2302 beyond-multisite.php:2718
+#: beyond-multisite.php:2719 beyond-multisite.php:2720
+#: beyond-multisite.php:2721 beyond-multisite.php:2722
+#: beyond-multisite.php:2723 beyond-multisite.php:2724
+#: beyond-multisite.php:2725 beyond-multisite.php:2726
+#: beyond-multisite.php:2727 beyond-multisite.php:2728
+#: beyond-multisite.php:2729 beyond-multisite.php:2730
+#: beyond-multisite.php:2731 beyond-multisite.php:2732
+#: includes/email-users.php:769 includes/email-users.php:822
+#, php-format
+msgid "%d per hour"
+msgstr ""
+
+#: beyond-multisite.php:2309 beyond-multisite.php:2739
+msgid "Hint: Ask your hosting provider for your limit"
+msgstr ""
+
+#: beyond-multisite.php:2317
+msgid "Allow users to unsubscribe and add the unsubscribe footer to emails"
+msgstr ""
+
+#: beyond-multisite.php:2323
+msgid ""
+"Hint: If it is checked, the unsubscribe footer message below will be added "
+"at the end of all email messages sent via this module. Users can unsubscribe "
+"via the link in the footer or via the drop-down menu added to their profile "
+"settings page."
+msgstr ""
+
+#: beyond-multisite.php:2333
+msgid "Unsubscribe footer message:"
+msgstr ""
+
+#: beyond-multisite.php:2338
+msgid "Shortcodes for the unsubscribe footer message:"
+msgstr ""
+
+#: beyond-multisite.php:2340
+msgid ""
+"The URL of the page that unsubscribes the user automatically when visited."
+msgstr ""
+
+#: beyond-multisite.php:2343 beyond-multisite.php:2774
+#: includes/email-users.php:484
+msgid "The URL of the main network site."
+msgstr ""
+
+#: beyond-multisite.php:2368
+msgid "Captcha"
+msgstr ""
+
+#: beyond-multisite.php:2387 beyond-multisite.php:2572
+msgid ""
+"Error: The GD PHP extension is not found on your server. It is required for "
+"the Captcha module to work. Please contact your hosting provider about this."
+msgstr ""
+
+#: beyond-multisite.php:2411
+msgid "Protect the WordPress forms from spam bots with a customizable captcha"
+msgstr ""
+
+#: beyond-multisite.php:2416
+msgid ""
+"Choose the captcha size, character count, character set, and which forms to "
+"protect"
+msgstr ""
+
+#: beyond-multisite.php:2445 includes/ban-users.php:1158
+#: includes/cleanup.php:266 includes/copy-maker.php:113
+#: includes/email-users.php:175
+#, php-format
+msgid ""
+"%sERROR:%s At least one database table is missing. Please deactivate the "
+"plugin and activate it to trigger the database tables creation again."
+msgstr ""
+
+#: beyond-multisite.php:2456
+msgid "Character set:"
+msgstr ""
+
+#: beyond-multisite.php:2463
+msgid "Numbers"
+msgstr ""
+
+#: beyond-multisite.php:2464
+msgid "Letters"
+msgstr ""
+
+#: beyond-multisite.php:2465
+msgid "Numbers and letters"
+msgstr ""
+
+#: beyond-multisite.php:2472
+msgid "Character count:"
+msgstr ""
+
+#: beyond-multisite.php:2478
+msgid "Captcha height:"
+msgstr ""
+
+#: beyond-multisite.php:2485
+msgid "Use text captcha on the login form"
+msgstr ""
+
+#: beyond-multisite.php:2491
+msgid ""
+"Hint: This is less secure but useful if you are getting a lot of brute force "
+"requests to the login page and you want to avoid the extra server load of "
+"the image captcha generation."
+msgstr ""
+
+#: beyond-multisite.php:2499
+msgid "Display captcha on:"
+msgstr ""
+
+#: beyond-multisite.php:2505
+msgid "Login form"
+msgstr ""
+
+#: beyond-multisite.php:2511
+msgid "Lost password form"
+msgstr ""
+
+#: beyond-multisite.php:2517
+msgid "Reset password form"
+msgstr ""
+
+#: beyond-multisite.php:2523
+msgid "User signup form"
+msgstr ""
+
+#: beyond-multisite.php:2529
+msgid "Blog signup form (logged-out visitors)"
+msgstr ""
+
+#: beyond-multisite.php:2535
+msgid "Blog signup form (logged-in users)"
+msgstr ""
+
+#: beyond-multisite.php:2541
+msgid "Comment form (logged-out visitors)"
+msgstr ""
+
+#: beyond-multisite.php:2547
+msgid "Comment form (logged-in users)"
+msgstr ""
+
+#: beyond-multisite.php:2557 beyond-multisite.php:2571
+msgid "Captcha Preview:"
+msgstr ""
+
+#: beyond-multisite.php:2564
+msgid "Update Preview"
+msgstr ""
+
+#: beyond-multisite.php:2582
+msgid ""
+"Note: On some forms the captcha size will be limited to the available space."
+msgstr ""
+
+#: beyond-multisite.php:2589
+msgid "Store images in the:"
+msgstr ""
+
+#: beyond-multisite.php:2596
+msgid "Uploads folder"
+msgstr ""
+
+#: beyond-multisite.php:2597
+msgid "Plugin folder"
+msgstr ""
+
+#: beyond-multisite.php:2605
+msgid ""
+"Hint: If there are any problmes with the captcha images in the uploads "
+"folder caused by a CDN or a plugin, you can switch to using the plugin "
+"folder instead."
+msgstr ""
+
+#: beyond-multisite.php:2638
+msgid "Cleanup"
+msgstr ""
+
+#: beyond-multisite.php:2666
+msgid "Bulk delete comments across the network by chosen criteria"
+msgstr ""
+
+#: beyond-multisite.php:2667
+msgid "Bulk delete revisions across the network by age"
+msgstr ""
+
+#: beyond-multisite.php:2668
+msgid "Bulk delete empty or old sites"
+msgstr ""
+
+#: beyond-multisite.php:2669
+msgid "Bulk delete leftover database tables"
+msgstr ""
+
+#: beyond-multisite.php:2670
+msgid "Bulk delete users without a role"
+msgstr ""
+
+#: beyond-multisite.php:2677
+#, php-format
+msgid "Visit the %1$sNetwork Cleanup%2$s page"
+msgstr ""
+
+#: beyond-multisite.php:2698
+msgid "Scheduled site deletion notification settings"
+msgstr ""
+
+#: beyond-multisite.php:2703
+msgid ""
+"When you schedule sites to be deleted, the administrators of those sites "
+"will be notified via email. The settings below are about those email "
+"notifications."
+msgstr ""
+
+#: beyond-multisite.php:2745 includes/email-users.php:431
+msgid "From email:"
+msgstr ""
+
+#: beyond-multisite.php:2751 includes/email-users.php:437
+msgid "From name:"
+msgstr ""
+
+#: beyond-multisite.php:2757 includes/email-users.php:443
+msgid "Subject:"
+msgstr ""
+
+#: beyond-multisite.php:2763 includes/email-users.php:449
+msgid "Message:"
+msgstr ""
+
+#: beyond-multisite.php:2768 includes/email-users.php:455
+msgid "Shortcodes for the Message field:"
+msgstr ""
+
+#: beyond-multisite.php:2770
+msgid "A list of links to the sites where the user is an administrator."
+msgstr ""
+
+#: beyond-multisite.php:2772
+msgid "The number of days of waiting time before the deletion."
+msgstr ""
+
+#: beyond-multisite.php:2777
+msgid "Send test email to:"
+msgstr ""
+
+#: beyond-multisite.php:2781
+msgid ""
+"Hint: Send a test email to one of your emails to see how everything looks "
+"like."
+msgstr ""
+
+#: beyond-multisite.php:2787 includes/email-users.php:519
+msgid "Send Test Email"
+msgstr ""
+
+#: beyond-multisite.php:2792
+msgid "Hint: First udpate the settings if you have changed them."
+msgstr ""
+
+#: beyond-multisite.php:2819 includes/activated-in.php:523
+#: includes/activated-in.php:538
+msgid "Activated in?"
+msgstr ""
+
+#: beyond-multisite.php:2841
+msgid "See a list of sites where a plugin or a theme is activated in"
+msgstr ""
+
+#: beyond-multisite.php:2848
+#, php-format
+msgid ""
+"Visit the %1$sPlugins%2$s page or the %3$sThemes%2$s page and click "
+"\"Activated in?\" under a chosen plugin or theme"
+msgstr ""
+
+#: beyond-multisite.php:2867 includes/pending-users.php:43
+#: includes/pending-users.php:44 includes/pending-users.php:233
+msgid "Pending Users"
+msgstr ""
+
+#: beyond-multisite.php:2891
+msgid ""
+"Manage signups that are not yet activated: activate, resend email, or delete"
+msgstr ""
+
+#: beyond-multisite.php:2894
+msgid "Search not yet activated signups by username or email"
+msgstr ""
+
+#: beyond-multisite.php:2901
+#, php-format
+msgid "Visit the %1$sPending Users%2$s page"
+msgstr ""
+
+#: beyond-multisite.php:2917
+msgid "Ban Users"
+msgstr ""
+
+#: beyond-multisite.php:2945
+msgid "Ban users and their IP address (denies login, signup, and commenting)"
+msgstr ""
+
+#: beyond-multisite.php:2952
+#, php-format
+msgid ""
+"To ban users, visit the %1$sUsers%2$s page and click \"Ban\" under a chosen "
+"user (first the user has to login once to detect the IP)"
+msgstr ""
+
+#: beyond-multisite.php:2962
+#, php-format
+msgid "To see all banned users, visit the %1$sBanned Users%2$s page"
+msgstr ""
+
+#: beyond-multisite.php:2987
+#, php-format
+msgid "Add the %1$sLast IP%2$s column on the %3$sUsers%4$s page"
+msgstr ""
+
+#: beyond-multisite.php:3001
+#, php-format
+msgid "Add the %1$sBan Status%2$s column on the %3$sUsers%4$s page"
+msgstr ""
+
+#: beyond-multisite.php:3015
+msgid "Show a country flag next to the IP address of users"
+msgstr ""
+
+#: beyond-multisite.php:3027
+msgid "IP address detection:"
+msgstr ""
+
+#: beyond-multisite.php:3033
+msgid ""
+"Hint: In most cases it is best to choose REMOTE_ADDR, which is the only "
+"secure option (not easy for the user to spoof the IP address). But if you "
+"are using CloudFlare you should choose either Auto or HTTP_CF_CONNECTING_IP. "
+"Auto gives priority to HTTP_CF_CONNECTING_IP. If there is a proxy server use "
+"HTTP_X_FORWARDED_FOR and you may need to enter the trusted proxy IP "
+"addresses below in order to get the correct value here. If the REMOTE_ADDR "
+"is valid and not a trusted proxy we will use it even if you choose "
+"HTTP_X_FORWARDED_FOR."
+msgstr ""
+
+#: beyond-multisite.php:3052 beyond-multisite.php:3055
+#: beyond-multisite.php:3058 beyond-multisite.php:3061
+#: beyond-multisite.php:3064 beyond-multisite.php:3067
+msgid "[Invalid or empty]"
+msgstr ""
+
+#: beyond-multisite.php:3075
+msgid "Auto"
+msgstr ""
+
+#: beyond-multisite.php:3075 beyond-multisite.php:3076
+#: beyond-multisite.php:3077 beyond-multisite.php:3078
+#: beyond-multisite.php:3080 beyond-multisite.php:3081
+#, php-format
+msgid "(Your IP: %s)"
+msgstr ""
+
+#: beyond-multisite.php:3079
+msgid " - Enter trusted proxies below"
+msgstr ""
+
+#: beyond-multisite.php:3088
+msgid "Trusted proxies (comma-separated IPs):"
+msgstr ""
+
+#: beyond-multisite.php:3094
+msgid ""
+"Hint: These will be removed from the HTTP_X_FORWARDED_FOR value so we can "
+"get the correct IP address."
+msgstr ""
+
+#: beyond-multisite.php:3125
+msgid "Improvements"
+msgstr ""
+
+#: beyond-multisite.php:3155
+msgid ""
+"Various small improvements that save you some time or change some features"
+msgstr ""
+
+#: beyond-multisite.php:3181
+#, php-format
+msgid "Add the %1$sID%2$s column on the %3$sUsers%4$s page"
+msgstr ""
+
+#: beyond-multisite.php:3195
+#, php-format
+msgid ""
+"Add the %1$sDashboard%2$s action link in the %1$sSites%2$s column on the "
+"%3$sUsers%4$s page"
+msgstr ""
+
+#: beyond-multisite.php:3210
+#, php-format
+msgid "Add the %1$sID%2$s column on the %3$sSites%4$s page"
+msgstr ""
+
+#: beyond-multisite.php:3223
+msgid ""
+"Hide plugin meta information (version, author, etc.) from site administrators"
+msgstr ""
+
+#: beyond-multisite.php:3232
+msgid ""
+"Add quick links to network plugins menu items under the Plugins menu on all "
+"sites (visible only for Super Admins)"
+msgstr ""
+
+#: beyond-multisite.php:3241
+msgid ""
+"Add quick links to network themes menu items under the Themes menu on all "
+"sites (visible only for Super Admins)"
+msgstr ""
+
+#: beyond-multisite.php:3251
+#, php-format
+msgid ""
+"Disable the %1$sPassword Changed%2$s notification email that is sent to the "
+"network admin when a user password is changed"
+msgstr ""
+
+#: beyond-multisite.php:3264
+#, php-format
+msgid ""
+"Add the %1$sbe-mu-wp-signup-class%2$s CSS class to the body tag on the wp-"
+"signup.php page"
+msgstr ""
+
+#: beyond-multisite.php:3277
+#, php-format
+msgid ""
+"Delete any leftover database tables when a site is permanently deleted "
+"(%sWarning! First try the same feature in the Cleanup module to see if there "
+"are any speed issues on your server%s)."
+msgstr ""
+
+#: beyond-multisite.php:3289
+msgid ""
+"Delete the leftover empty uploads folder when a site is permanently deleted"
+msgstr ""
+
+#: beyond-multisite.php:3297
+msgid ""
+"Show an icon in the admin bar and in \"My Sites\" for sites that discourage "
+"search engine indexing"
+msgstr ""
+
+#: beyond-multisite.php:3307
+#, php-format
+msgid "Add a role icon in the %1$sSites%2$s column on the %3$sUsers%4$s page"
+msgstr ""
+
+#: includes/activated-in.php:73 includes/cleanup.php:124
+#: includes/copy-maker.php:566 includes/email-users.php:108
+#: includes/plugin-control.php:124
+msgid "Processing..."
+msgstr ""
+
+#: includes/activated-in.php:74 includes/cleanup.php:156
+msgid "Error: Cannot write to export folder."
+msgstr ""
+
+#: includes/activated-in.php:75
+msgid "Checking..."
+msgstr ""
+
+#: includes/activated-in.php:77 includes/cleanup.php:149
+msgid "Download IDs"
+msgstr ""
+
+#: includes/activated-in.php:78 includes/cleanup.php:150
+msgid "Download URLs"
+msgstr ""
+
+#: includes/activated-in.php:79 includes/cleanup.php:125
+#: includes/copy-maker.php:462 includes/email-users.php:120
+#: includes/plugin-control.php:134
+msgid ""
+"Error: There is another request that is still running. Please wait a few "
+"seconds and try again. If this problem continues, please reload the page."
+msgstr ""
+
+#: includes/activated-in.php:82
+msgid "Error: This plugin is network activated."
+msgstr ""
+
+#: includes/activated-in.php:83
+msgid ""
+"Error: There is at least one database table missing. Please deactivate "
+"Beyond Multisite and activate it to trigger database tables creation again."
+msgstr ""
+
+#: includes/activated-in.php:87
+msgid "Sites checked so far:"
+msgstr ""
+
+#: includes/activated-in.php:104 includes/cleanup.php:4430
+#: includes/cleanup.php:4439 includes/cleanup.php:4448
+#: includes/cleanup.php:4457 includes/cleanup.php:4466
+#: includes/cleanup.php:4475 includes/copy-maker.php:415
+#: includes/email-users.php:102 includes/email-users.php:1551
+#: includes/email-users.php:1560 includes/plugin-control.php:151
+#: includes/plugin-control.php:1234
+msgid "Close"
+msgstr ""
+
+#: includes/activated-in.php:350
+#, php-format
+msgid "Activated in %1$d sites (out of %2$d in total)"
+msgstr ""
+
+#: includes/activated-in.php:352
+#, php-format
+msgid "Activated in 1 site (out of %d in total)"
+msgstr ""
+
+#: includes/activated-in.php:398 includes/cleanup.php:2773
+#: includes/cleanup.php:2963 includes/cleanup.php:3193
+#: includes/cleanup.php:3431 includes/cleanup.php:3727
+#: includes/email-users.php:1427
+#, php-format
+msgid "Showing results %1$d - %2$d on page %3$d/%4$d"
+msgstr ""
+
+#: includes/activated-in.php:414 includes/activated-in.php:428
+#: includes/activated-in.php:451 includes/cleanup.php:3216
+#: includes/cleanup.php:3235 includes/cleanup.php:3250
+#: includes/cleanup.php:3452 includes/cleanup.php:3471
+#: includes/cleanup.php:3488 includes/cleanup.php:3742
+#: includes/cleanup.php:3760 includes/cleanup.php:3775
+#: includes/email-users.php:1442 includes/email-users.php:1454
+#: includes/email-users.php:1470 includes/improvements.php:147
+#: includes/improvements.php:185
+msgid "ID"
+msgstr ""
+
+#: includes/activated-in.php:415 includes/activated-in.php:429
+#: includes/activated-in.php:452 includes/cleanup.php:3217
+#: includes/cleanup.php:3236 includes/cleanup.php:3251
+#: includes/cleanup.php:3453 includes/cleanup.php:3472
+#: includes/cleanup.php:3489 includes/cleanup.php:3743
+#: includes/cleanup.php:3761 includes/cleanup.php:3776
+msgid "URL"
+msgstr ""
+
+#: includes/activated-in.php:416 includes/activated-in.php:431
+#: includes/activated-in.php:453 includes/ban-users.php:1842
+#: includes/ban-users.php:1884 includes/ban-users.php:1901
+#: includes/cleanup.php:2982 includes/cleanup.php:3001
+#: includes/cleanup.php:3019 includes/cleanup.php:3219
+#: includes/cleanup.php:3240 includes/cleanup.php:3253
+#: includes/cleanup.php:3455 includes/cleanup.php:3476
+#: includes/cleanup.php:3491 includes/cleanup.php:3744
+#: includes/cleanup.php:3763 includes/cleanup.php:3777
+#: includes/copy-maker.php:277 includes/copy-maker.php:298
+#: includes/copy-maker.php:315 includes/email-users.php:1444
+#: includes/email-users.php:1457 includes/email-users.php:1472
+#: includes/pending-users.php:353 includes/pending-users.php:387
+#: includes/pending-users.php:406 includes/plugin-control.php:428
+#: includes/plugin-control.php:494 includes/plugin-control.php:516
+msgid "Actions"
+msgstr ""
+
+#: includes/activated-in.php:433 includes/cleanup.php:3003
+#: includes/cleanup.php:3765 includes/copy-maker.php:581
+#: includes/email-users.php:1459
+msgid "Edit"
+msgstr ""
+
+#: includes/activated-in.php:437
+msgid "Themes"
+msgstr ""
+
+#: includes/activated-in.php:440 includes/plugin-control.php:73
+msgid "Plugins"
+msgstr ""
+
+#: includes/activated-in.php:463 includes/ban-users.php:1920
+#: includes/cleanup.php:2827 includes/cleanup.php:3036
+#: includes/cleanup.php:3266 includes/cleanup.php:3504
+#: includes/cleanup.php:3804 includes/copy-maker.php:333
+#: includes/email-users.php:1488 includes/pending-users.php:427
+msgid "Go to page:"
+msgstr ""
+
+#: includes/activated-in.php:481 includes/ban-users.php:1939
+#: includes/cleanup.php:2846 includes/cleanup.php:3055
+#: includes/cleanup.php:3283 includes/cleanup.php:3523
+#: includes/cleanup.php:3825 includes/cleanup.php:3828
+#: includes/copy-maker.php:353 includes/email-users.php:1507
+#: includes/pending-users.php:446
+msgid "Previous Page"
+msgstr ""
+
+#: includes/activated-in.php:486 includes/ban-users.php:1944
+#: includes/cleanup.php:2851 includes/cleanup.php:3060
+#: includes/cleanup.php:3288 includes/cleanup.php:3528
+#: includes/cleanup.php:3836 includes/cleanup.php:3839
+#: includes/copy-maker.php:358 includes/email-users.php:1512
+#: includes/pending-users.php:451
+msgid "Next Page"
+msgstr ""
+
+#: includes/activated-in.php:495 includes/cleanup.php:3306
+#: includes/cleanup.php:3546 includes/cleanup.php:3852
+msgid "Export Site IDs"
+msgstr ""
+
+#: includes/activated-in.php:498 includes/cleanup.php:3309
+#: includes/cleanup.php:3549 includes/cleanup.php:3855
+msgid "Export Site URLs"
+msgstr ""
+
+#: includes/ban-users.php:86 includes/ban-users.php:87
+#: includes/ban-users.php:1734
+msgid "Banned Users"
+msgstr ""
+
+#: includes/ban-users.php:174
+#, php-format
+msgid "Information about the IP %s:"
+msgstr ""
+
+#: includes/ban-users.php:180
+msgid "MxToolBox Blacklists"
+msgstr ""
+
+#: includes/ban-users.php:185
+msgid "CleanTalk"
+msgstr ""
+
+#: includes/ban-users.php:190
+msgid "Project Honey Pot"
+msgstr ""
+
+#: includes/ban-users.php:195
+msgid "Stop Forum Spam"
+msgstr ""
+
+#: includes/ban-users.php:200
+msgid "The Spamhaus Project"
+msgstr ""
+
+#: includes/ban-users.php:205
+msgid "MxToolBox ARIN"
+msgstr ""
+
+#: includes/ban-users.php:210
+msgid "Google"
+msgstr ""
+
+#: includes/ban-users.php:217
+msgid "Error: Invalid IP address"
+msgstr ""
+
+#: includes/ban-users.php:614
+msgid ""
+"Your IP address is banned from login, signup and comments. We logged you out."
+msgstr ""
+
+#: includes/ban-users.php:626
+msgid "Ban Status"
+msgstr ""
+
+#: includes/ban-users.php:635
+msgid "Last IP"
+msgstr ""
+
+#: includes/ban-users.php:707
+msgid "Andorra"
+msgstr ""
+
+#: includes/ban-users.php:708
+msgid "United Arab Emirates"
+msgstr ""
+
+#: includes/ban-users.php:709
+msgid "Afghanistan"
+msgstr ""
+
+#: includes/ban-users.php:710
+msgid "Antigua and Barbuda"
+msgstr ""
+
+#: includes/ban-users.php:711
+msgid "Anguilla"
+msgstr ""
+
+#: includes/ban-users.php:712
+msgid "Albania"
+msgstr ""
+
+#: includes/ban-users.php:713
+msgid "Armenia"
+msgstr ""
+
+#: includes/ban-users.php:714
+msgid "Angola"
+msgstr ""
+
+#: includes/ban-users.php:715
+msgid "Antarctica"
+msgstr ""
+
+#: includes/ban-users.php:716
+msgid "Argentina"
+msgstr ""
+
+#: includes/ban-users.php:717
+msgid "American Samoa"
+msgstr ""
+
+#: includes/ban-users.php:718
+msgid "Austria"
+msgstr ""
+
+#: includes/ban-users.php:719
+msgid "Australia"
+msgstr ""
+
+#: includes/ban-users.php:720
+msgid "Aruba"
+msgstr ""
+
+#: includes/ban-users.php:721
+msgid "Aland Islands"
+msgstr ""
+
+#: includes/ban-users.php:722
+msgid "Azerbaijan"
+msgstr ""
+
+#: includes/ban-users.php:723
+msgid "Bosnia and Herzegovina"
+msgstr ""
+
+#: includes/ban-users.php:724
+msgid "Barbados"
+msgstr ""
+
+#: includes/ban-users.php:725
+msgid "Bangladesh"
+msgstr ""
+
+#: includes/ban-users.php:726
+msgid "Belgium"
+msgstr ""
+
+#: includes/ban-users.php:727
+msgid "Burkina Faso"
+msgstr ""
+
+#: includes/ban-users.php:728
+msgid "Bulgaria"
+msgstr ""
+
+#: includes/ban-users.php:729
+msgid "Bahrain"
+msgstr ""
+
+#: includes/ban-users.php:730
+msgid "Burundi"
+msgstr ""
+
+#: includes/ban-users.php:731
+msgid "Benin"
+msgstr ""
+
+#: includes/ban-users.php:732
+msgid "Saint Barthelemy"
+msgstr ""
+
+#: includes/ban-users.php:733
+msgid "Bermuda"
+msgstr ""
+
+#: includes/ban-users.php:734
+msgid "Brunei Darussalam"
+msgstr ""
+
+#: includes/ban-users.php:735
+msgid "Bolivia, Plurinational State of"
+msgstr ""
+
+#: includes/ban-users.php:736
+msgid "Bonaire, Sint Eustatius and Saba"
+msgstr ""
+
+#: includes/ban-users.php:737
+msgid "Brazil"
+msgstr ""
+
+#: includes/ban-users.php:738
+msgid "Bahamas"
+msgstr ""
+
+#: includes/ban-users.php:739
+msgid "Bhutan"
+msgstr ""
+
+#: includes/ban-users.php:740
+msgid "Bouvet Island"
+msgstr ""
+
+#: includes/ban-users.php:741
+msgid "Botswana"
+msgstr ""
+
+#: includes/ban-users.php:742
+msgid "Belarus"
+msgstr ""
+
+#: includes/ban-users.php:743
+msgid "Belize"
+msgstr ""
+
+#: includes/ban-users.php:744
+msgid "Canada"
+msgstr ""
+
+#: includes/ban-users.php:745
+msgid "Cocos (Keeling) Islands"
+msgstr ""
+
+#: includes/ban-users.php:746
+msgid "Congo, the Democratic Republic of the"
+msgstr ""
+
+#: includes/ban-users.php:747
+msgid "Central African Republic"
+msgstr ""
+
+#: includes/ban-users.php:748
+msgid "Congo"
+msgstr ""
+
+#: includes/ban-users.php:749
+msgid "Switzerland"
+msgstr ""
+
+#: includes/ban-users.php:750
+msgid "Cote d'Ivoire"
+msgstr ""
+
+#: includes/ban-users.php:751
+msgid "Cook Islands"
+msgstr ""
+
+#: includes/ban-users.php:752
+msgid "Chile"
+msgstr ""
+
+#: includes/ban-users.php:753
+msgid "Cameroon"
+msgstr ""
+
+#: includes/ban-users.php:754
+msgid "China"
+msgstr ""
+
+#: includes/ban-users.php:755
+msgid "Colombia"
+msgstr ""
+
+#: includes/ban-users.php:756
+msgid "Costa Rica"
+msgstr ""
+
+#: includes/ban-users.php:757
+msgid "Cuba"
+msgstr ""
+
+#: includes/ban-users.php:758
+msgid "Cabo Verde"
+msgstr ""
+
+#: includes/ban-users.php:759
+msgid "Curacao"
+msgstr ""
+
+#: includes/ban-users.php:760
+msgid "Christmas Island"
+msgstr ""
+
+#: includes/ban-users.php:761
+msgid "Cyprus"
+msgstr ""
+
+#: includes/ban-users.php:762
+msgid "Czechia"
+msgstr ""
+
+#: includes/ban-users.php:763
+msgid "Germany"
+msgstr ""
+
+#: includes/ban-users.php:764
+msgid "Djibouti"
+msgstr ""
+
+#: includes/ban-users.php:765
+msgid "Denmark"
+msgstr ""
+
+#: includes/ban-users.php:766
+msgid "Dominica"
+msgstr ""
+
+#: includes/ban-users.php:767
+msgid "Dominican Republic"
+msgstr ""
+
+#: includes/ban-users.php:768
+msgid "Algeria"
+msgstr ""
+
+#: includes/ban-users.php:769
+msgid "Ecuador"
+msgstr ""
+
+#: includes/ban-users.php:770
+msgid "Estonia"
+msgstr ""
+
+#: includes/ban-users.php:771
+msgid "Egypt"
+msgstr ""
+
+#: includes/ban-users.php:772
+msgid "Western Sahara"
+msgstr ""
+
+#: includes/ban-users.php:773
+msgid "Eritrea"
+msgstr ""
+
+#: includes/ban-users.php:774
+msgid "Spain"
+msgstr ""
+
+#: includes/ban-users.php:775
+msgid "Ethiopia"
+msgstr ""
+
+#: includes/ban-users.php:776
+msgid "Finland"
+msgstr ""
+
+#: includes/ban-users.php:777
+msgid "Fiji"
+msgstr ""
+
+#: includes/ban-users.php:778
+msgid "Falkland Islands (Malvinas)"
+msgstr ""
+
+#: includes/ban-users.php:779
+msgid "Micronesia, Federated States of"
+msgstr ""
+
+#: includes/ban-users.php:780
+msgid "Faroe Islands"
+msgstr ""
+
+#: includes/ban-users.php:781
+msgid "France"
+msgstr ""
+
+#: includes/ban-users.php:782
+msgid "Gabon"
+msgstr ""
+
+#: includes/ban-users.php:783
+msgid "United Kingdom of Great Britain and Northern Ireland"
+msgstr ""
+
+#: includes/ban-users.php:784
+msgid "Grenada"
+msgstr ""
+
+#: includes/ban-users.php:785
+msgid "Georgia"
+msgstr ""
+
+#: includes/ban-users.php:786
+msgid "French Guiana"
+msgstr ""
+
+#: includes/ban-users.php:787
+msgid "Guernsey"
+msgstr ""
+
+#: includes/ban-users.php:788
+msgid "Ghana"
+msgstr ""
+
+#: includes/ban-users.php:789
+msgid "Gibraltar"
+msgstr ""
+
+#: includes/ban-users.php:790
+msgid "Greenland"
+msgstr ""
+
+#: includes/ban-users.php:791
+msgid "Gambia"
+msgstr ""
+
+#: includes/ban-users.php:792
+msgid "Guinea"
+msgstr ""
+
+#: includes/ban-users.php:793
+msgid "Guadeloupe"
+msgstr ""
+
+#: includes/ban-users.php:794
+msgid "Equatorial Guinea"
+msgstr ""
+
+#: includes/ban-users.php:795
+msgid "Greece"
+msgstr ""
+
+#: includes/ban-users.php:796
+msgid "South Georgia and the South Sandwich Islands"
+msgstr ""
+
+#: includes/ban-users.php:797
+msgid "Guatemala"
+msgstr ""
+
+#: includes/ban-users.php:798
+msgid "Guam"
+msgstr ""
+
+#: includes/ban-users.php:799
+msgid "Guinea-Bissau"
+msgstr ""
+
+#: includes/ban-users.php:800
+msgid "Guyana"
+msgstr ""
+
+#: includes/ban-users.php:801
+msgid "Hong Kong"
+msgstr ""
+
+#: includes/ban-users.php:802
+msgid "Heard Island and McDonald Islands"
+msgstr ""
+
+#: includes/ban-users.php:803
+msgid "Honduras"
+msgstr ""
+
+#: includes/ban-users.php:804
+msgid "Croatia"
+msgstr ""
+
+#: includes/ban-users.php:805
+msgid "Haiti"
+msgstr ""
+
+#: includes/ban-users.php:806
+msgid "Hungary"
+msgstr ""
+
+#: includes/ban-users.php:807
+msgid "Indonesia"
+msgstr ""
+
+#: includes/ban-users.php:808
+msgid "Ireland"
+msgstr ""
+
+#: includes/ban-users.php:809
+msgid "Israel"
+msgstr ""
+
+#: includes/ban-users.php:810
+msgid "Isle of Man"
+msgstr ""
+
+#: includes/ban-users.php:811
+msgid "India"
+msgstr ""
+
+#: includes/ban-users.php:812
+msgid "British Indian Ocean Territory"
+msgstr ""
+
+#: includes/ban-users.php:813
+msgid "Iraq"
+msgstr ""
+
+#: includes/ban-users.php:814
+msgid "Iran, Islamic Republic of"
+msgstr ""
+
+#: includes/ban-users.php:815
+msgid "Iceland"
+msgstr ""
+
+#: includes/ban-users.php:816
+msgid "Italy"
+msgstr ""
+
+#: includes/ban-users.php:817
+msgid "Jersey"
+msgstr ""
+
+#: includes/ban-users.php:818
+msgid "Jamaica"
+msgstr ""
+
+#: includes/ban-users.php:819
+msgid "Jordan"
+msgstr ""
+
+#: includes/ban-users.php:820
+msgid "Japan"
+msgstr ""
+
+#: includes/ban-users.php:821
+msgid "Kenya"
+msgstr ""
+
+#: includes/ban-users.php:822
+msgid "Kyrgyzstan"
+msgstr ""
+
+#: includes/ban-users.php:823
+msgid "Cambodia"
+msgstr ""
+
+#: includes/ban-users.php:824
+msgid "Kiribati"
+msgstr ""
+
+#: includes/ban-users.php:825
+msgid "Comoros"
+msgstr ""
+
+#: includes/ban-users.php:826
+msgid "Saint Kitts and Nevis"
+msgstr ""
+
+#: includes/ban-users.php:827
+msgid "Korea, Democratic People's Republic of"
+msgstr ""
+
+#: includes/ban-users.php:828
+msgid "Korea, Republic of"
+msgstr ""
+
+#: includes/ban-users.php:829
+msgid "Kuwait"
+msgstr ""
+
+#: includes/ban-users.php:830
+msgid "Cayman Islands"
+msgstr ""
+
+#: includes/ban-users.php:831
+msgid "Kazakhstan"
+msgstr ""
+
+#: includes/ban-users.php:832
+msgid "Lao People's Democratic Republic"
+msgstr ""
+
+#: includes/ban-users.php:833
+msgid "Lebanon"
+msgstr ""
+
+#: includes/ban-users.php:834
+msgid "Saint Lucia"
+msgstr ""
+
+#: includes/ban-users.php:835
+msgid "Liechtenstein"
+msgstr ""
+
+#: includes/ban-users.php:836
+msgid "Sri Lanka"
+msgstr ""
+
+#: includes/ban-users.php:837
+msgid "Liberia"
+msgstr ""
+
+#: includes/ban-users.php:838
+msgid "Lesotho"
+msgstr ""
+
+#: includes/ban-users.php:839
+msgid "Lithuania"
+msgstr ""
+
+#: includes/ban-users.php:840
+msgid "Luxembourg"
+msgstr ""
+
+#: includes/ban-users.php:841
+msgid "Latvia"
+msgstr ""
+
+#: includes/ban-users.php:842
+msgid "Libya"
+msgstr ""
+
+#: includes/ban-users.php:843
+msgid "Morocco"
+msgstr ""
+
+#: includes/ban-users.php:844
+msgid "Monaco"
+msgstr ""
+
+#: includes/ban-users.php:845
+msgid "Moldova, Republic of"
+msgstr ""
+
+#: includes/ban-users.php:846
+msgid "Montenegro"
+msgstr ""
+
+#: includes/ban-users.php:847
+msgid "Saint Martin (French part)"
+msgstr ""
+
+#: includes/ban-users.php:848
+msgid "Madagascar"
+msgstr ""
+
+#: includes/ban-users.php:849
+msgid "Marshall Islands"
+msgstr ""
+
+#: includes/ban-users.php:850
+msgid "Macedonia, the former Yugoslav Republic of"
+msgstr ""
+
+#: includes/ban-users.php:851
+msgid "Mali"
+msgstr ""
+
+#: includes/ban-users.php:852
+msgid "Myanmar"
+msgstr ""
+
+#: includes/ban-users.php:853
+msgid "Mongolia"
+msgstr ""
+
+#: includes/ban-users.php:854
+msgid "Macao"
+msgstr ""
+
+#: includes/ban-users.php:855
+msgid "Northern Mariana Islands"
+msgstr ""
+
+#: includes/ban-users.php:856
+msgid "Martinique"
+msgstr ""
+
+#: includes/ban-users.php:857
+msgid "Mauritania"
+msgstr ""
+
+#: includes/ban-users.php:858
+msgid "Montserrat"
+msgstr ""
+
+#: includes/ban-users.php:859
+msgid "Malta"
+msgstr ""
+
+#: includes/ban-users.php:860
+msgid "Mauritius"
+msgstr ""
+
+#: includes/ban-users.php:861
+msgid "Maldives"
+msgstr ""
+
+#: includes/ban-users.php:862
+msgid "Malawi"
+msgstr ""
+
+#: includes/ban-users.php:863
+msgid "Mexico"
+msgstr ""
+
+#: includes/ban-users.php:864
+msgid "Malaysia"
+msgstr ""
+
+#: includes/ban-users.php:865
+msgid "Mozambique"
+msgstr ""
+
+#: includes/ban-users.php:866
+msgid "Namibia"
+msgstr ""
+
+#: includes/ban-users.php:867
+msgid "New Caledonia"
+msgstr ""
+
+#: includes/ban-users.php:868
+msgid "Niger"
+msgstr ""
+
+#: includes/ban-users.php:869
+msgid "Norfolk Island"
+msgstr ""
+
+#: includes/ban-users.php:870
+msgid "Nigeria"
+msgstr ""
+
+#: includes/ban-users.php:871
+msgid "Nicaragua"
+msgstr ""
+
+#: includes/ban-users.php:872
+msgid "Netherlands"
+msgstr ""
+
+#: includes/ban-users.php:873
+msgid "Norway"
+msgstr ""
+
+#: includes/ban-users.php:874
+msgid "Nepal"
+msgstr ""
+
+#: includes/ban-users.php:875
+msgid "Nauru"
+msgstr ""
+
+#: includes/ban-users.php:876
+msgid "Niue"
+msgstr ""
+
+#: includes/ban-users.php:877
+msgid "New Zealand"
+msgstr ""
+
+#: includes/ban-users.php:878
+msgid "Oman"
+msgstr ""
+
+#: includes/ban-users.php:879
+msgid "Panama"
+msgstr ""
+
+#: includes/ban-users.php:880
+msgid "Peru"
+msgstr ""
+
+#: includes/ban-users.php:881
+msgid "French Polynesia"
+msgstr ""
+
+#: includes/ban-users.php:882
+msgid "Papua New Guinea"
+msgstr ""
+
+#: includes/ban-users.php:883
+msgid "Philippines"
+msgstr ""
+
+#: includes/ban-users.php:884
+msgid "Pakistan"
+msgstr ""
+
+#: includes/ban-users.php:885
+msgid "Poland"
+msgstr ""
+
+#: includes/ban-users.php:886
+msgid "Saint Pierre and Miquelon"
+msgstr ""
+
+#: includes/ban-users.php:887
+msgid "Pitcairn"
+msgstr ""
+
+#: includes/ban-users.php:888
+msgid "Puerto Rico"
+msgstr ""
+
+#: includes/ban-users.php:889
+msgid "Palestine, State of"
+msgstr ""
+
+#: includes/ban-users.php:890
+msgid "Portugal"
+msgstr ""
+
+#: includes/ban-users.php:891
+msgid "Palau"
+msgstr ""
+
+#: includes/ban-users.php:892
+msgid "Paraguay"
+msgstr ""
+
+#: includes/ban-users.php:893
+msgid "Qatar"
+msgstr ""
+
+#: includes/ban-users.php:894
+msgid "Reunion"
+msgstr ""
+
+#: includes/ban-users.php:895
+msgid "Romania"
+msgstr ""
+
+#: includes/ban-users.php:896
+msgid "Serbia"
+msgstr ""
+
+#: includes/ban-users.php:897
+msgid "Russian Federation"
+msgstr ""
+
+#: includes/ban-users.php:898
+msgid "Rwanda"
+msgstr ""
+
+#: includes/ban-users.php:899
+msgid "Saudi Arabia"
+msgstr ""
+
+#: includes/ban-users.php:900
+msgid "Solomon Islands"
+msgstr ""
+
+#: includes/ban-users.php:901
+msgid "Seychelles"
+msgstr ""
+
+#: includes/ban-users.php:902
+msgid "Sudan"
+msgstr ""
+
+#: includes/ban-users.php:903
+msgid "Sweden"
+msgstr ""
+
+#: includes/ban-users.php:904
+msgid "Singapore"
+msgstr ""
+
+#: includes/ban-users.php:905
+msgid "Saint Helena, Ascension and Tristan da Cunha"
+msgstr ""
+
+#: includes/ban-users.php:906
+msgid "Slovenia"
+msgstr ""
+
+#: includes/ban-users.php:907
+msgid "Svalbard and Jan Mayen"
+msgstr ""
+
+#: includes/ban-users.php:908
+msgid "Slovakia"
+msgstr ""
+
+#: includes/ban-users.php:909
+msgid "Sierra Leone"
+msgstr ""
+
+#: includes/ban-users.php:910
+msgid "San Marino"
+msgstr ""
+
+#: includes/ban-users.php:911
+msgid "Senegal"
+msgstr ""
+
+#: includes/ban-users.php:912
+msgid "Somalia"
+msgstr ""
+
+#: includes/ban-users.php:913
+msgid "Suriname"
+msgstr ""
+
+#: includes/ban-users.php:914
+msgid "South Sudan"
+msgstr ""
+
+#: includes/ban-users.php:915
+msgid "Sao Tome and Principe"
+msgstr ""
+
+#: includes/ban-users.php:916
+msgid "El Salvador"
+msgstr ""
+
+#: includes/ban-users.php:917
+msgid "Sint Maarten (Dutch part)"
+msgstr ""
+
+#: includes/ban-users.php:918
+msgid "Syrian Arab Republic"
+msgstr ""
+
+#: includes/ban-users.php:919
+msgid "Swaziland"
+msgstr ""
+
+#: includes/ban-users.php:920
+msgid "Turks and Caicos Islands"
+msgstr ""
+
+#: includes/ban-users.php:921
+msgid "Chad"
+msgstr ""
+
+#: includes/ban-users.php:922
+msgid "French Southern Territories"
+msgstr ""
+
+#: includes/ban-users.php:923
+msgid "Togo"
+msgstr ""
+
+#: includes/ban-users.php:924
+msgid "Thailand"
+msgstr ""
+
+#: includes/ban-users.php:925
+msgid "Tajikistan"
+msgstr ""
+
+#: includes/ban-users.php:926
+msgid "Tokelau"
+msgstr ""
+
+#: includes/ban-users.php:927
+msgid "Timor-Leste"
+msgstr ""
+
+#: includes/ban-users.php:928
+msgid "Turkmenistan"
+msgstr ""
+
+#: includes/ban-users.php:929
+msgid "Tunisia"
+msgstr ""
+
+#: includes/ban-users.php:930
+msgid "Tonga"
+msgstr ""
+
+#: includes/ban-users.php:931
+msgid "Turkey"
+msgstr ""
+
+#: includes/ban-users.php:932
+msgid "Trinidad and Tobago"
+msgstr ""
+
+#: includes/ban-users.php:933
+msgid "Tuvalu"
+msgstr ""
+
+#: includes/ban-users.php:934
+msgid "Taiwan, Province of China"
+msgstr ""
+
+#: includes/ban-users.php:935
+msgid "Tanzania, United Republic of"
+msgstr ""
+
+#: includes/ban-users.php:936
+msgid "Ukraine"
+msgstr ""
+
+#: includes/ban-users.php:937
+msgid "Uganda"
+msgstr ""
+
+#: includes/ban-users.php:938
+msgid "United States Minor Outlying Islands"
+msgstr ""
+
+#: includes/ban-users.php:939
+msgid "United States of America"
+msgstr ""
+
+#: includes/ban-users.php:940
+msgid "Uruguay"
+msgstr ""
+
+#: includes/ban-users.php:941
+msgid "Uzbekistan"
+msgstr ""
+
+#: includes/ban-users.php:942
+msgid "Holy See"
+msgstr ""
+
+#: includes/ban-users.php:943
+msgid "Saint Vincent and the Grenadines"
+msgstr ""
+
+#: includes/ban-users.php:944
+msgid "Venezuela, Bolivarian Republic of"
+msgstr ""
+
+#: includes/ban-users.php:945
+msgid "Virgin Islands, British"
+msgstr ""
+
+#: includes/ban-users.php:946
+msgid "Virgin Islands, U.S."
+msgstr ""
+
+#: includes/ban-users.php:947
+msgid "Viet Nam"
+msgstr ""
+
+#: includes/ban-users.php:948
+msgid "Vanuatu"
+msgstr ""
+
+#: includes/ban-users.php:949
+msgid "Wallis and Futuna"
+msgstr ""
+
+#: includes/ban-users.php:950
+msgid "Samoa"
+msgstr ""
+
+#: includes/ban-users.php:951
+msgid "Yemen"
+msgstr ""
+
+#: includes/ban-users.php:952
+msgid "Mayotte"
+msgstr ""
+
+#: includes/ban-users.php:953
+msgid "South Africa"
+msgstr ""
+
+#: includes/ban-users.php:954
+msgid "Zambia"
+msgstr ""
+
+#: includes/ban-users.php:955
+msgid "Zimbabwe"
+msgstr ""
+
+#: includes/ban-users.php:978
+msgid "View IP in CleanTalk"
+msgstr ""
+
+#: includes/ban-users.php:981
+msgid "View IP in Project Honey Pot"
+msgstr ""
+
+#: includes/ban-users.php:984
+msgid "View IP in Stop Forum Spam"
+msgstr ""
+
+#: includes/ban-users.php:987
+msgid "View IP in Google"
+msgstr ""
+
+#: includes/ban-users.php:991
+msgid "Not detected"
+msgstr ""
+
+#: includes/ban-users.php:1000 includes/ban-users.php:1011
+#: includes/ban-users.php:1249 includes/ban-users.php:1258
+#: includes/ban-users.php:1456 includes/ban-users.php:1509
+#: includes/email-users.php:370
+msgid "Banned"
+msgstr ""
+
+#: includes/ban-users.php:1010
+msgid "User:"
+msgstr ""
+
+#: includes/ban-users.php:1010 includes/ban-users.php:1013
+#: includes/ban-users.php:1016
+msgid "Not Banned"
+msgstr ""
+
+#: includes/ban-users.php:1011
+msgid "IP:"
+msgstr ""
+
+#: includes/ban-users.php:1069 includes/ban-users.php:1097
+#: includes/ban-users.php:1887
+msgid "Unban"
+msgstr ""
+
+#: includes/ban-users.php:1077 includes/ban-users.php:1105
+msgid "Ban"
+msgstr ""
+
+#: includes/ban-users.php:1119
+msgid "Search banned users"
+msgstr ""
+
+#: includes/ban-users.php:1124
+msgid "Hint: This will search in the User ID, Username and IP address."
+msgstr ""
+
+#: includes/ban-users.php:1199 includes/ban-users.php:1495
+#: includes/ban-users.php:1504 includes/email-users.php:369
+msgid "Not banned"
+msgstr ""
+
+#: includes/ban-users.php:1265 includes/ban-users.php:1391
+msgid "Ban user and IP"
+msgstr ""
+
+#: includes/ban-users.php:1280
+#, php-format
+msgid ""
+"The user %s cannot be banned. We do not have his IP address. The user has to "
+"visit the site while logged-in at least once while this plugin is active and "
+"this module is turned on. It is also possible that the user is hiding his IP."
+msgstr ""
+
+#: includes/ban-users.php:1290 includes/ban-users.php:1314
+#: includes/ban-users.php:1395 includes/ban-users.php:1537
+msgid "Go back to users"
+msgstr ""
+
+#: includes/ban-users.php:1305
+#, php-format
+msgid ""
+"The user %s cannot be banned by you. The user has the same IP address as "
+"you. Banning the user will also ban you."
+msgstr ""
+
+#: includes/ban-users.php:1330 includes/ban-users.php:1566
+msgid "Username:"
+msgstr ""
+
+#: includes/ban-users.php:1334 includes/ban-users.php:1570
+msgid "IP address:"
+msgstr ""
+
+#: includes/ban-users.php:1345 includes/ban-users.php:1357
+#: includes/ban-users.php:1589
+msgid "Ban period:"
+msgstr ""
+
+#: includes/ban-users.php:1350 includes/ban-users.php:2152
+msgid "Permanent"
+msgstr ""
+
+#: includes/ban-users.php:1351 includes/ban-users.php:1352
+#: includes/ban-users.php:1353 includes/ban-users.php:2154
+#: includes/ban-users.php:2156 includes/ban-users.php:2158
+#, php-format
+msgid "%d days"
+msgstr ""
+
+#: includes/ban-users.php:1364 includes/ban-users.php:1576
+msgid "User ban status:"
+msgstr ""
+
+#: includes/ban-users.php:1367 includes/ban-users.php:1579
+msgid "IP ban status:"
+msgstr ""
+
+#: includes/ban-users.php:1372 includes/ban-users.php:1608
+msgid "Users with the same IP:"
+msgstr ""
+
+#: includes/ban-users.php:1384 includes/ban-users.php:1618
+msgid "None detected"
+msgstr ""
+
+#: includes/ban-users.php:1419
+msgid "What will the ban do?"
+msgstr ""
+
+#: includes/ban-users.php:1422
+msgid ""
+"The banned user will be logged-out and will be denied login from any IP "
+"address."
+msgstr ""
+
+#: includes/ban-users.php:1426
+msgid ""
+"If there are other users with the same IP, they will be logged-out. However, "
+"they will be able to login from another IP."
+msgstr ""
+
+#: includes/ban-users.php:1431
+msgid "No one will be able to login, signup or comment from the banned IP."
+msgstr ""
+
+#: includes/ban-users.php:1535
+msgid "Go back to banned users"
+msgstr ""
+
+#: includes/ban-users.php:1557 includes/ban-users.php:1653
+msgid "Unban user and IP"
+msgstr ""
+
+#: includes/ban-users.php:1595
+msgid "Ban date:"
+msgstr ""
+
+#: includes/ban-users.php:1639
+msgid ""
+"The IP remains banned after you unban the user, because there is another "
+"banned user with the same IP."
+msgstr ""
+
+#: includes/ban-users.php:1728 includes/copy-maker.php:207
+#: includes/pending-users.php:227
+msgid "Page"
+msgstr ""
+
+#: includes/ban-users.php:1747
+#, php-format
+msgid ""
+"There are %1$d search results for \"%2$s\". To go back to all banned users "
+"%3$sclick here%4$s."
+msgstr ""
+
+#: includes/ban-users.php:1761
+#, php-format
+msgid ""
+"There is 1 search result for \"%1$s\". To go back to all banned users "
+"%2$sclick here%3$s."
+msgstr ""
+
+#: includes/ban-users.php:1774
+#, php-format
+msgid ""
+"There are no search results for \"%1$s\". To go back to all banned users "
+"%2$sclick here%3$s."
+msgstr ""
+
+#: includes/ban-users.php:1796 includes/pending-users.php:299
+msgid "There are no results for that search query."
+msgstr ""
+
+#: includes/ban-users.php:1801
+#, php-format
+msgid ""
+"There are no banned users. You can ban a user from the %1$sUsers%2$s page."
+msgstr ""
+
+#: includes/ban-users.php:1836 includes/ban-users.php:1874
+#: includes/ban-users.php:1895 includes/cleanup.php:2979
+#: includes/cleanup.php:2994 includes/cleanup.php:3016
+msgid "User ID"
+msgstr ""
+
+#: includes/ban-users.php:1837 includes/ban-users.php:1875
+#: includes/ban-users.php:1896 includes/cleanup.php:2981
+#: includes/cleanup.php:2999 includes/cleanup.php:3018
+#: includes/email-users.php:1443 includes/email-users.php:1455
+#: includes/email-users.php:1471 includes/pending-users.php:348
+#: includes/pending-users.php:382 includes/pending-users.php:402
+msgid "Username"
+msgstr ""
+
+#: includes/ban-users.php:1838 includes/ban-users.php:1876
+#: includes/ban-users.php:1897
+msgid "IP"
+msgstr ""
+
+#: includes/ban-users.php:1839 includes/ban-users.php:1879
+#: includes/ban-users.php:1898
+msgid "Ban Period"
+msgstr ""
+
+#: includes/ban-users.php:1840 includes/ban-users.php:1881
+#: includes/ban-users.php:1899
+msgid "Ban Date and Time"
+msgstr ""
+
+#: includes/ban-users.php:1841 includes/ban-users.php:1883
+#: includes/ban-users.php:1900
+msgid "User Deleted"
+msgstr ""
+
+#: includes/ban-users.php:1856 includes/cleanup.php:1055
+#: includes/email-users.php:303
+msgid "Not deleted"
+msgstr ""
+
+#: includes/ban-users.php:1862 includes/cleanup.php:1050
+#: includes/email-users.php:298
+msgid "Deleted"
+msgstr ""
+
+#: includes/ban-users.php:1909 includes/copy-maker.php:322
+#: includes/pending-users.php:414
+#, php-format
+msgid ""
+"The date and time have been converted to your chosen format and timezone. "
+"You can change them in the %1$sGeneral Options%2$s."
+msgstr ""
+
+#: includes/ban-users.php:1980 includes/ban-users.php:2006
+msgid "Your IP is banned from signup."
+msgstr ""
+
+#: includes/ban-users.php:2021 includes/ban-users.php:2071
+#: includes/ban-users.php:2074 includes/ban-users.php:2077
+#: includes/captcha.php:797 includes/captcha.php:805 includes/captcha.php:825
+#: includes/captcha.php:835 includes/captcha.php:899 includes/captcha.php:905
+#: includes/captcha.php:923 includes/captcha.php:932 includes/captcha.php:1002
+#: includes/captcha.php:1008 includes/captcha.php:1026
+#: includes/captcha.php:1035 includes/captcha.php:1106
+#: includes/captcha.php:1110 includes/captcha.php:1129
+#: includes/captcha.php:1148
+msgid "ERROR"
+msgstr ""
+
+#: includes/ban-users.php:2022
+msgid "Your IP address is banned from comments."
+msgstr ""
+
+#: includes/ban-users.php:2023 includes/captcha.php:1107
+#: includes/captcha.php:1111 includes/captcha.php:1139
+#: includes/captcha.php:1157
+msgid "Go Back"
+msgstr ""
+
+#: includes/ban-users.php:2072
+msgid "This user and your IP address are banned from login."
+msgstr ""
+
+#: includes/ban-users.php:2075
+msgid "This user is banned from login."
+msgstr ""
+
+#: includes/ban-users.php:2078
+msgid "Your IP address is banned from login."
+msgstr ""
+
+#: includes/captcha.php:189
+msgid "Security Number:"
+msgstr ""
+
+#: includes/captcha.php:191
+msgid "Security Text:"
+msgstr ""
+
+#: includes/captcha.php:201
+msgid "Please enter the number from the security image."
+msgstr ""
+
+#: includes/captcha.php:203
+msgid "Please enter the text from the security image."
+msgstr ""
+
+#: includes/captcha.php:213
+msgid "This is not the correct security number."
+msgstr ""
+
+#: includes/captcha.php:215
+msgid "This is not the correct security text."
+msgstr ""
+
+#: includes/captcha.php:521 includes/captcha.php:529 includes/captcha.php:622
+#: includes/captcha.php:630 includes/captcha.php:729 includes/captcha.php:750
+#: includes/captcha.php:758 includes/captcha.php:863 includes/captcha.php:871
+#: includes/captcha.php:959 includes/captcha.php:967 includes/captcha.php:1066
+#: includes/captcha.php:1074 includes/captcha.php:1221
+#: includes/captcha.php:1229
+msgid "Security Image:"
+msgstr ""
+
+#: includes/captcha.php:522 includes/captcha.php:623 includes/captcha.php:730
+#: includes/captcha.php:751 includes/captcha.php:864 includes/captcha.php:960
+#: includes/captcha.php:1067 includes/captcha.php:1222
+msgid "Error: Could not save the answer to the database."
+msgstr ""
+
+#: includes/captcha.php:564 includes/captcha.php:669 includes/captcha.php:798
+#: includes/captcha.php:900 includes/captcha.php:1003 includes/captcha.php:1106
+#: includes/captcha.php:1241 includes/email-users.php:2406
+msgid "An unexpected error occurred."
+msgstr ""
+
+#: includes/captcha.php:586 includes/captcha.php:692 includes/captcha.php:826
+#: includes/captcha.php:924 includes/captcha.php:1027 includes/captcha.php:1130
+msgid "Invalid or expired request."
+msgstr ""
+
+#: includes/captcha.php:737
+msgid "Security Code:"
+msgstr ""
+
+#: includes/captcha.php:1132 includes/captcha.php:1150
+#, php-format
+msgid ""
+"%1$sYou have to %2$sgo back and RELOAD THE PAGE%3$s to make a new valid "
+"request.%4$s%1$sBefore you reload %2$scopy your comment%3$s, so you can "
+"paste it (instead of writing it again).%4$s"
+msgstr ""
+
+#: includes/captcha.php:1263
+msgid "Incorrect security text or expired request."
+msgstr ""
+
+#: includes/cleanup.php:91 includes/cleanup.php:92 includes/cleanup.php:240
+msgid "Network Cleanup"
+msgstr ""
+
+#: includes/cleanup.php:127
+msgid "WARNING! You are about to PERMANENTLY DELETE COMMENTS!"
+msgstr ""
+
+#: includes/cleanup.php:128 includes/cleanup.php:130 includes/cleanup.php:132
+#: includes/cleanup.php:135 includes/cleanup.php:137 includes/cleanup.php:139
+#: includes/cleanup.php:141 includes/cleanup.php:143 includes/cleanup.php:145
+#: includes/cleanup.php:147 includes/copy-maker.php:461
+#: includes/plugin-control.php:133
+msgid "Do you want to continue?"
+msgstr ""
+
+#: includes/cleanup.php:129
+msgid "WARNING! You are about to PERMANENTLY DELETE REVISIONS!"
+msgstr ""
+
+#: includes/cleanup.php:131
+msgid "WARNING! You are about to PERMANENTLY DELETE SITES!"
+msgstr ""
+
+#: includes/cleanup.php:133
+msgid "WARNING! You are about to SCHEDULE a PERMANENT SITE DELETION!"
+msgstr ""
+
+#: includes/cleanup.php:134
+msgid ""
+"NOTICE! Archived, spammed, or deleted sites are EXCLUDED from scheduled "
+"deletions."
+msgstr ""
+
+#: includes/cleanup.php:136
+msgid "You are about to mark sites as deleted."
+msgstr ""
+
+#: includes/cleanup.php:138
+msgid "You are about to schedule sites to be marked as deleted."
+msgstr ""
+
+#: includes/cleanup.php:140
+msgid "You are about to mark sites as archived."
+msgstr ""
+
+#: includes/cleanup.php:142
+msgid "You are about to schedule sites to be marked as archived."
+msgstr ""
+
+#: includes/cleanup.php:144
+msgid ""
+"You are about to PERMANENTLY DELETE all database tables of non-existent "
+"sites."
+msgstr ""
+
+#: includes/cleanup.php:146
+msgid ""
+"You are about to PERMANENTLY DELETE all users that do not have a role in any "
+"site."
+msgstr ""
+
+#: includes/cleanup.php:148
+msgid "Please enter a whole number value for X:"
+msgstr ""
+
+#: includes/cleanup.php:154
+msgid ""
+"Error: Invalid data sent. If you are entering a list of role slugs, do not "
+"use any empty spaces and make sure they are slugs and not role names. Read "
+"the text description in the Delete Users section for more information."
+msgstr ""
+
+#: includes/cleanup.php:158 includes/email-users.php:109
+#: includes/plugin-control.php:139
+msgid "Error: Invalid form data sent."
+msgstr ""
+
+#: includes/cleanup.php:159
+msgid ""
+"Error: You are trying to mark as deleted sites that are already marked as "
+"deleted."
+msgstr ""
+
+#: includes/cleanup.php:160
+msgid ""
+"Error: You are trying to mark as archived sites that are already marked as "
+"archived."
+msgstr ""
+
+#: includes/cleanup.php:161 includes/plugin-control.php:143
+msgid ""
+"Error: The field for the site IDs is filled, but you chose a setting that "
+"ignores it."
+msgstr ""
+
+#: includes/cleanup.php:162
+msgid "Error: Missing sites data."
+msgstr ""
+
+#: includes/cleanup.php:163
+msgid "Error: You cannot delete the main site of the network."
+msgstr ""
+
+#: includes/cleanup.php:164 includes/email-users.php:114
+msgid "Error: There is another task in progress. Please reload the page."
+msgstr ""
+
+#: includes/cleanup.php:165
+msgid ""
+"Error: Archived, spammed or deleted sites cannot be scheduled for deletion. "
+"You can only execute now."
+msgstr ""
+
+#: includes/cleanup.php:167 includes/plugin-control.php:145
+msgid ""
+"Error: The field for the site IDs is empty or invalid. The current settings "
+"require a comma-separated list of site IDs."
+msgstr ""
+
+#: includes/cleanup.php:169 includes/cleanup.php:171
+#, php-format
+msgid ""
+"Error: You have to enter a whole number between 1 and %d. Please try again."
+msgstr ""
+
+#: includes/cleanup.php:173 includes/cleanup.php:174
+msgid "Sites processed with primary deletion:"
+msgstr ""
+
+#: includes/cleanup.php:175 includes/plugin-control.php:147
+msgid "Sites processed so far:"
+msgstr ""
+
+#: includes/cleanup.php:176
+msgid "Tables processed so far:"
+msgstr ""
+
+#: includes/cleanup.php:177 includes/email-users.php:126
+msgid "Users processed so far:"
+msgstr ""
+
+#: includes/cleanup.php:178 includes/email-users.php:127
+msgid "This will abort the current task. Are you sure?"
+msgstr ""
+
+#: includes/cleanup.php:179 includes/email-users.php:128
+msgid ""
+"Even though you aborted, there is probably a task already created. You "
+"should reload the page to see it."
+msgstr ""
+
+#: includes/cleanup.php:181 includes/email-users.php:130
+msgid ""
+"Cancelling this task will stop it from taking further actions, but every "
+"action taken so far will not be undone. Cancelling the task cannot be "
+"reversed."
+msgstr ""
+
+#: includes/cleanup.php:183 includes/email-users.php:132
+msgid "Are you sure you want to cancel the task?"
+msgstr ""
+
+#: includes/cleanup.php:184 includes/email-users.php:133
+msgid "This will delete all data about the task from the database."
+msgstr ""
+
+#: includes/cleanup.php:185 includes/email-users.php:134
+msgid "Are you sure you want to remove the task?"
+msgstr ""
+
+#: includes/cleanup.php:211 includes/helpers.php:140
+#: includes/plugin-control.php:190
+msgid "Loading..."
+msgstr ""
+
+#: includes/cleanup.php:212
+msgid "Error: Unexpected server error."
+msgstr ""
+
+#: includes/cleanup.php:283
+#, php-format
+msgid ""
+"%1$sWARNING:%2$s The features on this page can %3$sdelete permanently%4$s "
+"comments, revisions, users and sites along with their uploaded files. "
+"%3$sMake a full backup%4$s before you continue. Be very careful and proceed "
+"at your own risk."
+msgstr ""
+
+#: includes/cleanup.php:293
+msgid "Delete Comments"
+msgstr ""
+
+#: includes/cleanup.php:298
+#, php-format
+msgid "Important Information (%1$sLearn more...%2$s):"
+msgstr ""
+
+#: includes/cleanup.php:309
+#, php-format
+msgid ""
+"Comments are deleted directly from the database (%1$shooks%2$s related to "
+"deleting a comment will not run)"
+msgstr ""
+
+#: includes/cleanup.php:320
+#, php-format
+msgid ""
+"All %1$snested comments%2$s of deleted comments are also deleted and are not "
+"counted in the results"
+msgstr ""
+
+#: includes/cleanup.php:329
+msgid ""
+"Only regular comments (with an empty type or \"comment\" type) are deleted"
+msgstr ""
+
+#: includes/cleanup.php:335
+msgid ""
+"All comment meta data of comments that do not exist is also deleted (affects "
+"all comment types)"
+msgstr ""
+
+#: includes/cleanup.php:343
+msgid "Comment status:"
+msgstr ""
+
+#: includes/cleanup.php:350 includes/cleanup.php:377 includes/cleanup.php:396
+#: includes/cleanup.php:499 includes/cleanup.php:1048 includes/cleanup.php:1077
+#: includes/cleanup.php:1115 includes/cleanup.php:1176
+#: includes/cleanup.php:1208 includes/cleanup.php:1239
+#: includes/email-users.php:296 includes/email-users.php:371
+#: includes/email-users.php:394 includes/email-users.php:410
+msgid "Any"
+msgstr ""
+
+#: includes/cleanup.php:351
+msgid "Pending"
+msgstr ""
+
+#: includes/cleanup.php:352
+msgid "Approved"
+msgstr ""
+
+#: includes/cleanup.php:353 includes/email-users.php:393
+msgid "Spammed"
+msgstr ""
+
+#: includes/cleanup.php:354
+msgid "Trashed"
+msgstr ""
+
+#: includes/cleanup.php:355
+msgid "Post trashed"
+msgstr ""
+
+#: includes/cleanup.php:363
+msgid ""
+"Hint: \"Post trashed\" comments are for posts or pages that are in the "
+"trash. These comments are not visible on the \"edit comments\" admin page."
+msgstr ""
+
+#: includes/cleanup.php:370
+msgid "Comment URLs:"
+msgstr ""
+
+#: includes/cleanup.php:378
+msgid "Filled URL field"
+msgstr ""
+
+#: includes/cleanup.php:379
+msgid "Has a URL in the text"
+msgstr ""
+
+#: includes/cleanup.php:380
+msgid "Filled URL field or URL in the text"
+msgstr ""
+
+#: includes/cleanup.php:381
+msgid "Filled URL field and URL in the text"
+msgstr ""
+
+#: includes/cleanup.php:388
+msgid "Comment date/time:"
+msgstr ""
+
+#: includes/cleanup.php:397 includes/cleanup.php:398 includes/cleanup.php:399
+#: includes/cleanup.php:400 includes/cleanup.php:401 includes/cleanup.php:501
+#: includes/cleanup.php:502 includes/cleanup.php:503 includes/cleanup.php:506
+#: includes/cleanup.php:1078 includes/cleanup.php:1079
+#: includes/cleanup.php:1080 includes/cleanup.php:1085
+#: includes/cleanup.php:1126 includes/cleanup.php:1127
+#: includes/cleanup.php:1128 includes/cleanup.php:1133
+#, php-format
+msgid "Older than %d days"
+msgstr ""
+
+#: includes/cleanup.php:402 includes/cleanup.php:403 includes/cleanup.php:404
+#: includes/cleanup.php:405 includes/cleanup.php:406 includes/cleanup.php:1086
+#: includes/cleanup.php:1087 includes/cleanup.php:1088
+#: includes/cleanup.php:1093 includes/cleanup.php:1134
+#: includes/cleanup.php:1135 includes/cleanup.php:1136
+#: includes/cleanup.php:1141
+#, php-format
+msgid "In the last %d days"
+msgstr ""
+
+#: includes/cleanup.php:420
+msgid "Any amount of"
+msgstr ""
+
+#: includes/cleanup.php:421 includes/cleanup.php:422 includes/cleanup.php:423
+#: includes/cleanup.php:424 includes/cleanup.php:425
+#, php-format
+msgid "At least %d"
+msgstr ""
+
+#: includes/cleanup.php:432
+msgid "comments in total"
+msgstr ""
+
+#: includes/cleanup.php:433
+msgid "pending comments"
+msgstr ""
+
+#: includes/cleanup.php:434
+msgid "approved comments"
+msgstr ""
+
+#: includes/cleanup.php:435
+msgid "spammed comments"
+msgstr ""
+
+#: includes/cleanup.php:436
+msgid "trashed comments"
+msgstr ""
+
+#: includes/cleanup.php:468 includes/cleanup.php:3147
+msgid "Preview Comment Deletion"
+msgstr ""
+
+#: includes/cleanup.php:470 includes/cleanup.php:3311
+msgid "Execute Comment Deletion!"
+msgstr ""
+
+#: includes/cleanup.php:476
+msgid "Delete Revisions"
+msgstr ""
+
+#: includes/cleanup.php:481
+msgid ""
+"What are revisions? Revisions are old versions of posts (including pages and "
+"some custom post types)."
+msgstr ""
+
+#: includes/cleanup.php:484 includes/cleanup.php:588
+msgid "Learn more..."
+msgstr ""
+
+#: includes/cleanup.php:491
+msgid "Revision date/time:"
+msgstr ""
+
+#: includes/cleanup.php:500
+#, php-format
+msgid "Older than %d day"
+msgstr ""
+
+#: includes/cleanup.php:504
+#, php-format
+msgid "Older than %1$s days (%2$s year)"
+msgstr ""
+
+#: includes/cleanup.php:505
+#, php-format
+msgid "Older than %1$s days (%2$s years)"
+msgstr ""
+
+#: includes/cleanup.php:513
+msgid "Exclude from deletion:"
+msgstr ""
+
+#: includes/cleanup.php:522
+msgid "None"
+msgstr ""
+
+#: includes/cleanup.php:523 includes/cleanup.php:524 includes/cleanup.php:525
+#: includes/cleanup.php:526 includes/cleanup.php:527 includes/cleanup.php:528
+#, php-format
+msgid "The %d most recent for each post"
+msgstr ""
+
+#: includes/cleanup.php:560 includes/cleanup.php:3387
+msgid "Preview Revision Deletion"
+msgstr ""
+
+#: includes/cleanup.php:562 includes/cleanup.php:3551
+msgid "Execute Revision Deletion!"
+msgstr ""
+
+#: includes/cleanup.php:575
+msgid "Delete Sites"
+msgstr ""
+
+#: includes/cleanup.php:586
+msgid "Important Information"
+msgstr ""
+
+#: includes/cleanup.php:595
+msgid ""
+"You can either permanently delete sites (delete database tables and uploaded "
+"files) or just mark them as deleted"
+msgstr ""
+
+#: includes/cleanup.php:603
+msgid ""
+"You can either delete now or allow site admins to cancel the deletion within "
+"a given amount of days"
+msgstr ""
+
+#: includes/cleanup.php:611
+msgid ""
+"If you choose to schedule deletion, the admins of the affected sites will be "
+"notified. Also the sites that are marked as archived, spam or deleted will "
+"be excluded."
+msgstr ""
+
+#: includes/cleanup.php:620
+#, php-format
+msgid ""
+"Scheduled site deletion tasks will run automatically in the background using "
+"the %1$sWordPress cron%2$s feature"
+msgstr ""
+
+#: includes/cleanup.php:631
+#, php-format
+msgid ""
+"Before scheduling a site deletion task please check the %1$ssettings%2$s for "
+"the Cleanup module"
+msgstr ""
+
+#: includes/cleanup.php:661
+msgid "Cancel Site Deletion Task"
+msgstr ""
+
+#: includes/cleanup.php:690
+msgid "There is an active scheduled site deletion task."
+msgstr ""
+
+#: includes/cleanup.php:695 includes/cleanup.php:703 includes/cleanup.php:709
+#: includes/cleanup.php:835 includes/email-users.php:666
+#: includes/email-users.php:752 includes/email-users.php:864
+msgid "Active"
+msgstr ""
+
+#: includes/cleanup.php:696 includes/cleanup.php:727
+msgid "Waiting for Stage 1"
+msgstr ""
+
+#: includes/cleanup.php:697 includes/cleanup.php:704
+msgid "Waiting for Stage 2"
+msgstr ""
+
+#: includes/cleanup.php:713 includes/email-users.php:639
+msgid "Remove Task"
+msgstr ""
+
+#: includes/cleanup.php:715
+msgid "There is a finished scheduled site deletion task."
+msgstr ""
+
+#: includes/cleanup.php:725
+msgid "Already started"
+msgstr ""
+
+#: includes/cleanup.php:740 includes/email-users.php:681
+msgid "Task statistics"
+msgstr ""
+
+#: includes/cleanup.php:746 includes/cleanup.php:846
+msgid "Total notifications to send:"
+msgstr ""
+
+#: includes/cleanup.php:752 includes/cleanup.php:878
+msgid "Total sites to delete:"
+msgstr ""
+
+#: includes/cleanup.php:758 includes/cleanup.php:918 includes/cleanup.php:1312
+msgid "Deletion type:"
+msgstr ""
+
+#: includes/cleanup.php:766 includes/cleanup.php:854
+msgid "Sent notifications:"
+msgstr ""
+
+#: includes/cleanup.php:772 includes/cleanup.php:886
+msgid "Scheduled site deletions:"
+msgstr ""
+
+#: includes/cleanup.php:778 includes/cleanup.php:802 includes/cleanup.php:892
+#: includes/cleanup.php:904 includes/cleanup.php:3005
+#: includes/copy-maker.php:300
+msgid "View"
+msgstr ""
+
+#: includes/cleanup.php:782 includes/cleanup.php:926
+msgid "Deletion starts*:"
+msgstr ""
+
+#: includes/cleanup.php:790 includes/cleanup.php:862
+msgid "Notifications skipped**:"
+msgstr ""
+
+#: includes/cleanup.php:796 includes/cleanup.php:898
+msgid "Cancelled site deletions:"
+msgstr ""
+
+#: includes/cleanup.php:806 includes/cleanup.php:934
+#: includes/email-users.php:699 includes/email-users.php:829
+msgid "Task ID:"
+msgstr ""
+
+#: includes/cleanup.php:814 includes/cleanup.php:870
+msgid "Notifications failed:"
+msgstr ""
+
+#: includes/cleanup.php:820 includes/cleanup.php:910
+msgid "Deleted sites:"
+msgstr ""
+
+#: includes/cleanup.php:826
+msgid "Cron jobs:"
+msgstr ""
+
+#: includes/cleanup.php:831
+msgid "None found!"
+msgstr ""
+
+#: includes/cleanup.php:833
+msgid "One missing!"
+msgstr ""
+
+#: includes/cleanup.php:943
+msgid "Task progress"
+msgstr ""
+
+#: includes/cleanup.php:949
+msgid "Stage 1:"
+msgstr ""
+
+#: includes/cleanup.php:955
+msgid "Description: Notifying administrators and scheduling deletions"
+msgstr ""
+
+#: includes/cleanup.php:960
+msgid "Stage 2:"
+msgstr ""
+
+#: includes/cleanup.php:966
+msgid "Description: Waiting for deletion cancellations"
+msgstr ""
+
+#: includes/cleanup.php:971
+msgid "Stage 3:"
+msgstr ""
+
+#: includes/cleanup.php:977
+msgid "Description: Executing site deletions"
+msgstr ""
+
+#: includes/cleanup.php:998
+msgid "Stop refreshing the page"
+msgstr ""
+
+#: includes/cleanup.php:1005
+msgid "Force chosen speed"
+msgstr ""
+
+#: includes/cleanup.php:1010
+msgid ""
+"If you want to force the maximum email sending speed that you chose from the "
+"module settings, you can make this page refresh automatically once every 15 "
+"seconds."
+msgstr ""
+
+#: includes/cleanup.php:1018
+#, php-format
+msgid ""
+"%1$s* The date and time have been converted to your chosen format and "
+"timezone. You can change them in the %2$sGeneral Options%3$s.%4$s** If a "
+"site scheduled for deletion is marked as archived, spam or deleted after the "
+"task has been created, the site admins will not be notified. The site will "
+"still be affected by deletion though.%5$s"
+msgstr ""
+
+#: includes/cleanup.php:1040
+msgid "Attributes:"
+msgstr ""
+
+#: includes/cleanup.php:1049 includes/email-users.php:297
+msgid "Public"
+msgstr ""
+
+#: includes/cleanup.php:1051 includes/email-users.php:299
+msgid "Spam"
+msgstr ""
+
+#: includes/cleanup.php:1052 includes/email-users.php:300
+msgid "Archived"
+msgstr ""
+
+#: includes/cleanup.php:1053 includes/email-users.php:301
+msgid "Mature"
+msgstr ""
+
+#: includes/cleanup.php:1054 includes/email-users.php:302
+msgid "Not public"
+msgstr ""
+
+#: includes/cleanup.php:1056 includes/email-users.php:304
+msgid "Not spam"
+msgstr ""
+
+#: includes/cleanup.php:1057 includes/email-users.php:305
+msgid "Not archived"
+msgstr ""
+
+#: includes/cleanup.php:1058 includes/email-users.php:306
+msgid "Not mature"
+msgstr ""
+
+#: includes/cleanup.php:1065
+msgid "Registered:"
+msgstr ""
+
+#: includes/cleanup.php:1081 includes/cleanup.php:1129
+#, php-format
+msgid "Older than %1$d days (%2$d year)"
+msgstr ""
+
+#: includes/cleanup.php:1082 includes/cleanup.php:1083
+#: includes/cleanup.php:1084 includes/cleanup.php:1130
+#: includes/cleanup.php:1131 includes/cleanup.php:1132
+#, php-format
+msgid "Older than %1$d days (%2$d years)"
+msgstr ""
+
+#: includes/cleanup.php:1089 includes/cleanup.php:1137
+#, php-format
+msgid "In the last %1$d days (%2$d year)"
+msgstr ""
+
+#: includes/cleanup.php:1090 includes/cleanup.php:1091
+#: includes/cleanup.php:1092 includes/cleanup.php:1138
+#: includes/cleanup.php:1139 includes/cleanup.php:1140
+#, php-format
+msgid "In the last %1$d days (%2$d years)"
+msgstr ""
+
+#: includes/cleanup.php:1100
+msgid "Last updated:"
+msgstr ""
+
+#: includes/cleanup.php:1116 includes/cleanup.php:1117
+#: includes/cleanup.php:1118
+#, php-format
+msgid "Less than %d min after registration"
+msgstr ""
+
+#: includes/cleanup.php:1119 includes/cleanup.php:1120
+#: includes/cleanup.php:1121
+#, php-format
+msgid "Less than %d hours after registration"
+msgstr ""
+
+#: includes/cleanup.php:1122
+#, php-format
+msgid "Less than %d day after registration"
+msgstr ""
+
+#: includes/cleanup.php:1123 includes/cleanup.php:1124
+#: includes/cleanup.php:1125
+#, php-format
+msgid "Less than %d days after registration"
+msgstr ""
+
+#: includes/cleanup.php:1149
+msgid ""
+"Hint: A site update is publishing or deleting a post/page, or updating a "
+"published post/page."
+msgstr ""
+
+#: includes/cleanup.php:1157
+#, php-format
+msgid ""
+"Warning: All sites created before WordPress 5.1 and at the same time created "
+"while the timezone for the main site of the network was not UTC, are "
+"affected by %1$sa bug in WordPress%2$s. This bug will cause incorrect site "
+"selection when you use the currently selected option because the registered "
+"time and the last updated time were using a different timezone."
+msgstr ""
+
+#: includes/cleanup.php:1169
+msgid "Published posts count:"
+msgstr ""
+
+#: includes/cleanup.php:1177
+msgid "0 (ignore first post)"
+msgstr ""
+
+#: includes/cleanup.php:1180 includes/cleanup.php:1212
+#: includes/cleanup.php:1243
+msgid "0 or 1"
+msgstr ""
+
+#: includes/cleanup.php:1181 includes/cleanup.php:1182
+#: includes/cleanup.php:1183 includes/cleanup.php:1213
+#: includes/cleanup.php:1214 includes/cleanup.php:1215
+#: includes/cleanup.php:1244 includes/cleanup.php:1245
+#: includes/cleanup.php:1246
+#, php-format
+msgid "Less than %d"
+msgstr ""
+
+#: includes/cleanup.php:1191
+msgid ""
+"Hint: Newly created sites have a \"Hello world!\" post by default. If you "
+"choose the option \"0 (ignore first post)\", that post will be ignored, and "
+"only sites with no other published posts will be affected. But if that post "
+"was modified, or deleted and another one added in its place, then it will "
+"not be ignored."
+msgstr ""
+
+#: includes/cleanup.php:1201
+msgid "Published pages count:"
+msgstr ""
+
+#: includes/cleanup.php:1209
+msgid "0 (ignore first page)"
+msgstr ""
+
+#: includes/cleanup.php:1223
+msgid ""
+"Hint: Newly created sites have a sample page by default. If you choose the "
+"option \"0 (ignore first page)\", that page will be ignored, and only sites "
+"with no other published pages will be affected. But if that page was "
+"modified, or deleted and another one added in its place, then it will not be "
+"ignored."
+msgstr ""
+
+#: includes/cleanup.php:1232
+msgid "Approved comments count:"
+msgstr ""
+
+#: includes/cleanup.php:1240
+msgid "0 (ignore first comment)"
+msgstr ""
+
+#: includes/cleanup.php:1254
+msgid ""
+"Hint: Newly created sites have one example comment by default. If you choose "
+"the option \"0 (ignore first comment)\", that comment with comment ID 1 will "
+"be ignored (even if modified), and only sites with no other approved "
+"comments will be affected."
+msgstr ""
+
+#: includes/cleanup.php:1287
+msgid "Skip previously cancelled:"
+msgstr ""
+
+#: includes/cleanup.php:1294 includes/email-users.php:2439
+msgid "Yes"
+msgstr ""
+
+#: includes/cleanup.php:1295 includes/email-users.php:2440
+msgid "No"
+msgstr ""
+
+#: includes/cleanup.php:1303
+msgid ""
+"Hint: You can choose to exclude sites which deletion has been cancelled in "
+"the past (but not earlier than version 1.1.0). We are talking about "
+"individually cancelled sites, not about cancelling the whole site deletion "
+"task."
+msgstr ""
+
+#: includes/cleanup.php:1320 includes/cleanup.php:5439
+msgid "Permanent deletion"
+msgstr ""
+
+#: includes/cleanup.php:1321 includes/cleanup.php:5441
+msgid "Mark as deleted (change last updated time)"
+msgstr ""
+
+#: includes/cleanup.php:1322 includes/cleanup.php:5443
+msgid "Mark as deleted (keep last updated time)"
+msgstr ""
+
+#: includes/cleanup.php:1323 includes/cleanup.php:5445
+msgid "Mark as archived (change last updated time)"
+msgstr ""
+
+#: includes/cleanup.php:1324 includes/cleanup.php:5447
+msgid "Mark as archived (keep last updated time)"
+msgstr ""
+
+#: includes/cleanup.php:1331
+msgid ""
+"Hint: When marking as deleted/archived, it is useful to change the last "
+"updated time, if you plan to later do a permanent deletion after a certain "
+"time has passed since you marked them as deleted/archived. Also keep in mind "
+"that permanent deletion will delete the database tables and the uploaded "
+"files."
+msgstr ""
+
+#: includes/cleanup.php:1340
+msgid "Deletion time and cancellation:"
+msgstr ""
+
+#: includes/cleanup.php:1351 includes/cleanup.php:1352
+#: includes/cleanup.php:1353 includes/cleanup.php:1354
+#, php-format
+msgid "Schedule, notify, and wait %d days"
+msgstr ""
+
+#: includes/cleanup.php:1355
+msgid "No cancellation. Execute now!"
+msgstr ""
+
+#: includes/cleanup.php:1363
+msgid ""
+"Hint: You can notify site admins and give them some time to cancel the "
+"deletion, or you can delete now."
+msgstr ""
+
+#: includes/cleanup.php:1372 includes/cleanup.php:3671
+msgid "Preview Site Deletion"
+msgstr ""
+
+#: includes/cleanup.php:1374 includes/cleanup.php:3857
+msgid "Execute Site Deletion!"
+msgstr ""
+
+#: includes/cleanup.php:1394
+msgid "Delete Leftover Database Tables"
+msgstr ""
+
+#: includes/cleanup.php:1399
+msgid ""
+"When a site is permanently deleted, some database tables may be left behind. "
+"These are tables created by the plugins it used. With this feature you can "
+"delete all leftover database tables of non-existent sites."
+msgstr ""
+
+#: includes/cleanup.php:1408
+#, php-format
+msgid ""
+"%sWARNING!%s On some servers this feature can cause a very slow MySQL query "
+"that cannot finish. This is related to how the INFORMATION_SCHEMA tables are "
+"set up. Be prepared to contact your hosting administrator in case of "
+"problems."
+msgstr ""
+
+#: includes/cleanup.php:1418
+msgid "Preview Leftover Tables Deletion"
+msgstr ""
+
+#: includes/cleanup.php:1420 includes/cleanup.php:2861
+msgid "Execute Leftover Tables Deletion!"
+msgstr ""
+
+#: includes/cleanup.php:1426
+msgid "Delete Users"
+msgstr ""
+
+#: includes/cleanup.php:1429
+msgid "Delete Users Without a Role"
+msgstr ""
+
+#: includes/cleanup.php:1433
+#, php-format
+msgid ""
+"When a site is permanently deleted, users that only had a %srole%s in that "
+"site will now have no roles anywhere. These users are still working, people "
+"can login, edit their profile, comment on sites (if allowed), and even "
+"create sites if this is allowed in your network (if they create a site, they "
+"will have a role in it). You could choose to leave them, but if you want "
+"with this feature you can delete all users without a role in any site. Super "
+"Administrators will not be affected. The deletion is global and permanent. "
+"The users will not be notified. If they are the author of any content on any "
+"sites, the content will not be deleted and it will not be assigned to "
+"another user."
+msgstr ""
+
+#: includes/cleanup.php:1446
+msgid "Delete Users by Role"
+msgstr ""
+
+#: includes/cleanup.php:1450
+#, php-format
+msgid ""
+"All users that have %sonly%s the selected role in any site, will be deleted. "
+"If they have any other role anywhere, they will be skipped. Super "
+"Administrators will not be affected. The deletion is global and permanent. "
+"The users will not be notified. If they are the author of any content on any "
+"sites, the content will not be deleted and it will not be assigned to "
+"another user."
+msgstr ""
+
+#: includes/cleanup.php:1459
+msgid "Delete Users by a List of Roles"
+msgstr ""
+
+#: includes/cleanup.php:1461
+msgid ""
+"You enter a comma-separated list of role slugs. Users with at least one of "
+"the provided roles (in any site), who also do not have any role that is not "
+"in the list in any site, will be deleted. You can include custom roles too. "
+"Make sure you are writing the role slugs, not the role names! The role slugs "
+"are lower case and have no spaces, but they can also be different from the "
+"role name in other ways, so do not assume they are always a lower case "
+"version of the name. To see the slug you can go to edit the site that has "
+"the role you want and click on the Users tab. We have put a list of the "
+"roles with the slugs there. Super Administrators will not be affected. The "
+"deletion is global and permanent. The users will not be notified. If they "
+"are the author of any content on any sites, the content will not be deleted "
+"and it will not be assigned to another user."
+msgstr ""
+
+#: includes/cleanup.php:1475
+msgid "User Selection:"
+msgstr ""
+
+#: includes/cleanup.php:1482
+msgid "Without a role in any site"
+msgstr ""
+
+#: includes/cleanup.php:1483
+msgid "Only Administrator role in any site"
+msgstr ""
+
+#: includes/cleanup.php:1484
+msgid "Only Editor role in any site"
+msgstr ""
+
+#: includes/cleanup.php:1485
+msgid "Only Author role in any site"
+msgstr ""
+
+#: includes/cleanup.php:1486
+msgid "Only Contributor role in any site"
+msgstr ""
+
+#: includes/cleanup.php:1487
+msgid "Only Subscriber role in any site"
+msgstr ""
+
+#: includes/cleanup.php:1488
+msgid "Only any of the roles from a custom list in any site"
+msgstr ""
+
+#: includes/cleanup.php:1495 includes/email-users.php:269
+msgid "Role slugs (comma-separated)"
+msgstr ""
+
+#: includes/cleanup.php:1504 includes/cleanup.php:2929
+msgid "Preview User Deletion"
+msgstr ""
+
+#: includes/cleanup.php:1506 includes/cleanup.php:3070
+msgid "Execute User Deletion!"
+msgstr ""
+
+#: includes/cleanup.php:2728
+msgid "Leftover Database Table Deletion Completed"
+msgstr ""
+
+#: includes/cleanup.php:2730
+msgid "Preview Leftover Database Table Deletion"
+msgstr ""
+
+#: includes/cleanup.php:2742
+msgid "Affected tables count:"
+msgstr ""
+
+#: includes/cleanup.php:2752
+msgid ""
+"NOTICE! These results include default WordPress database tables (not added "
+"by plugins) that belong to permanently deleted site(s). This should usually "
+"not happen. Please make sure that you really want to delete these tables."
+msgstr ""
+
+#: includes/cleanup.php:2788 includes/cleanup.php:2799
+#: includes/cleanup.php:2809 includes/cleanup.php:2978
+#: includes/cleanup.php:2993 includes/cleanup.php:3015
+msgid "#"
+msgstr ""
+
+#: includes/cleanup.php:2789 includes/cleanup.php:2800
+#: includes/cleanup.php:2810 includes/plugin-control.php:427
+#: includes/plugin-control.php:491 includes/plugin-control.php:515
+msgid "Name"
+msgstr ""
+
+#: includes/cleanup.php:2817 includes/cleanup.php:3026
+#: includes/cleanup.php:3259 includes/cleanup.php:3497
+#: includes/cleanup.php:3787 includes/copy-maker.php:139
+#: includes/email-users.php:1479 includes/pending-users.php:194
+msgid "An error occurred."
+msgstr ""
+
+#: includes/cleanup.php:2927
+msgid "User Deletion Completed"
+msgstr ""
+
+#: includes/cleanup.php:2941
+msgid "Affected users count:"
+msgstr ""
+
+#: includes/cleanup.php:3145
+msgid "Comment Deletion Completed"
+msgstr ""
+
+#: includes/cleanup.php:3158 includes/cleanup.php:3398
+#: includes/cleanup.php:3687
+msgid "Affected sites:"
+msgstr ""
+
+#: includes/cleanup.php:3159
+msgid "Affected comments:"
+msgstr ""
+
+#: includes/cleanup.php:3209 includes/cleanup.php:3445
+msgid "Deleted*"
+msgstr ""
+
+#: includes/cleanup.php:3211 includes/cleanup.php:3447
+msgid "For deletion*"
+msgstr ""
+
+#: includes/cleanup.php:3242
+msgid "Comments"
+msgstr ""
+
+#: includes/cleanup.php:3297
+msgid "* That many comments were deleted from the site."
+msgstr ""
+
+#: includes/cleanup.php:3300
+msgid ""
+"* That many comments would be deleted from the site if you execute the "
+"deletion with the current settings."
+msgstr ""
+
+#: includes/cleanup.php:3385
+msgid "Revision Deletion Completed"
+msgstr ""
+
+#: includes/cleanup.php:3399
+msgid "Affected revisions:"
+msgstr ""
+
+#: includes/cleanup.php:3478
+msgid "Posts"
+msgstr ""
+
+#: includes/cleanup.php:3480
+msgid "Pages"
+msgstr ""
+
+#: includes/cleanup.php:3537
+msgid "* That many revisions were deleted from the site."
+msgstr ""
+
+#: includes/cleanup.php:3540
+msgid ""
+"* That many revisions would be deleted from the site if you execute the "
+"deletion with the current settings."
+msgstr ""
+
+#: includes/cleanup.php:3663
+msgid "Site Deletion Completed"
+msgstr ""
+
+#: includes/cleanup.php:3666
+#, php-format
+msgid "Cancelled Site Deletions (Task ID: %s)"
+msgstr ""
+
+#: includes/cleanup.php:3668
+#, php-format
+msgid "Scheduled Site Deletions (Task ID: %s)"
+msgstr ""
+
+#: includes/cleanup.php:3694
+msgid ""
+"NOTICE! This is a scheduled deletion, so archived, spammed, or deleted sites "
+"have been excluded."
+msgstr ""
+
+#: includes/cleanup.php:3767 includes/copy-maker.php:582
+#: includes/improvements.php:176 includes/plugin-control.php:395
+msgid "Dashboard"
+msgstr ""
+
+#: includes/cleanup.php:3785
+msgid "No additional details available for permanently deleted sites."
+msgstr ""
+
+#: includes/cleanup.php:4273
+#, php-format
+msgid ""
+"This site is scheduled for deletion on %1$s at %2$s %3$s!%4$sClick the "
+"button below to cancel the deletion."
+msgstr ""
+
+#: includes/cleanup.php:4284
+msgid "Cancel Deletion!"
+msgstr ""
+
+#: includes/cleanup.php:4484 includes/cleanup.php:4493
+#: includes/cleanup.php:4502 includes/cleanup.php:4511
+#: includes/cleanup.php:4520 includes/copy-maker.php:423
+#: includes/email-users.php:1542 includes/plugin-control.php:125
+msgid "Abort"
+msgstr ""
+
+#: includes/copy-maker.php:80 includes/copy-maker.php:81
+#: includes/copy-maker.php:213
+msgid "Logs of copied sites"
+msgstr ""
+
+#: includes/copy-maker.php:135 includes/pending-users.php:190
+msgid "The operation was successful."
+msgstr ""
+
+#: includes/copy-maker.php:150
+msgid "Log for task ID:"
+msgstr ""
+
+#: includes/copy-maker.php:159
+msgid "Number of errors in this log:"
+msgstr ""
+
+#: includes/copy-maker.php:162
+msgid "Scroll to:"
+msgstr ""
+
+#: includes/copy-maker.php:181
+msgid "There is no data for this task ID."
+msgstr ""
+
+#: includes/copy-maker.php:238
+#, php-format
+msgid ""
+"Only the last %1$d logs are currently beeing stored. You can change this "
+"from the %2$splugin settings%3$s for the Copy Maker module."
+msgstr ""
+
+#: includes/copy-maker.php:248
+msgid "There are no logs of copied sites at the moment."
+msgstr ""
+
+#: includes/copy-maker.php:264 includes/pending-users.php:334
+msgid "There are no results on this page."
+msgstr ""
+
+#: includes/copy-maker.php:266 includes/pending-users.php:336
+msgid "Go to page 1"
+msgstr ""
+
+#: includes/copy-maker.php:273 includes/copy-maker.php:290
+#: includes/copy-maker.php:311
+msgid "Task ID"
+msgstr ""
+
+#: includes/copy-maker.php:274 includes/copy-maker.php:291
+#: includes/copy-maker.php:312
+msgid "Date and time*"
+msgstr ""
+
+#: includes/copy-maker.php:275 includes/copy-maker.php:293
+#: includes/copy-maker.php:313
+msgid "Errors"
+msgstr ""
+
+#: includes/copy-maker.php:276 includes/copy-maker.php:296
+#: includes/copy-maker.php:314
+msgid "Size"
+msgstr ""
+
+#: includes/copy-maker.php:303 includes/pending-users.php:393
+msgid "Delete"
+msgstr ""
+
+#: includes/copy-maker.php:383
+msgid "Copy"
+msgstr ""
+
+#: includes/copy-maker.php:456
+msgid ""
+"Are you sure you want to delete this log? This action cannot be reversed!"
+msgstr ""
+
+#: includes/copy-maker.php:457 includes/pending-users.php:89
+msgid "Error: Invalid action."
+msgstr ""
+
+#: includes/copy-maker.php:458
+#, php-format
+msgid ""
+"WARNING! You are about to PERMANENTLY DELETE the site: %1$sand REPLACE it "
+"with a copy of the site: %2$s"
+msgstr ""
+
+#: includes/copy-maker.php:460
+#, php-format
+msgid ""
+"All database tables with a name that starts with %3$s, and all files and "
+"folders inside the folder %4$s will be deleted."
+msgstr ""
+
+#: includes/copy-maker.php:466
+msgid "Error: Some data is missing for the request."
+msgstr ""
+
+#: includes/copy-maker.php:468
+msgid "Error: Copying from or pasting into the main site is not allowed."
+msgstr ""
+
+#: includes/copy-maker.php:469
+msgid ""
+"Error: It seems that your network is created a long time ago in a very old "
+"version of WordPress and it might not be compatible with this module of the "
+"plugin. Please contact our support to investigate this. Sorry for the "
+"inconvenience."
+msgstr ""
+
+#: includes/copy-maker.php:472
+msgid "Error: The site you are trying to copy from does not exist."
+msgstr ""
+
+#: includes/copy-maker.php:473
+msgid "Error: The site you are trying to paste into does not exist."
+msgstr ""
+
+#: includes/copy-maker.php:474
+msgid "Error: Cannot get the URL of the site to copy from."
+msgstr ""
+
+#: includes/copy-maker.php:475
+msgid "Error: Cannot get the URL of the site to paste into."
+msgstr ""
+
+#: includes/copy-maker.php:476
+msgid "Error: The site ID for the site to copy from is invalid."
+msgstr ""
+
+#: includes/copy-maker.php:477
+msgid "Error: The site ID for the site to paste into is invalid."
+msgstr ""
+
+#: includes/copy-maker.php:478
+msgid ""
+"Error: The site ID to paste into is the same as the site ID to copy from."
+msgstr ""
+
+#: includes/copy-maker.php:479
+msgid "Error: The data for the current stage is invalid."
+msgstr ""
+
+#: includes/copy-maker.php:480
+msgid "Error: The upload folders of both sites have the same path."
+msgstr ""
+
+#: includes/copy-maker.php:481
+msgid "Error: Cannot read from the uploads folder of the site to copy from."
+msgstr ""
+
+#: includes/copy-maker.php:482
+msgid "Error: Cannot write to the uploads folder of the site to paste into."
+msgstr ""
+
+#: includes/copy-maker.php:483 includes/copy-maker.php:487
+#: includes/copy-maker.php:491 includes/copy-maker.php:495
+#: includes/copy-maker.php:499 includes/copy-maker.php:503
+msgid "Error: Something went very wrong."
+msgstr ""
+
+#: includes/copy-maker.php:484
+msgid "The prefix for the site to copy from is empty."
+msgstr ""
+
+#: includes/copy-maker.php:485 includes/copy-maker.php:489
+#: includes/copy-maker.php:493 includes/copy-maker.php:497
+#: includes/copy-maker.php:501 includes/copy-maker.php:505
+msgid ""
+"We had to abort in the middle of copying. Since we did not finished, the "
+"site that was going to be replaced is probably now damaged. It should be "
+"deleted."
+msgstr ""
+
+#: includes/copy-maker.php:488
+msgid "The prefix for the site to paste into is empty."
+msgstr ""
+
+#: includes/copy-maker.php:492
+msgid "The database name for the site to paste into is empty."
+msgstr ""
+
+#: includes/copy-maker.php:496
+msgid "Both sites have the same prefix."
+msgstr ""
+
+#: includes/copy-maker.php:500
+msgid "The site to paste into has the same prefix as the main site."
+msgstr ""
+
+#: includes/copy-maker.php:504
+msgid "The prefix of the site to paste into is invalid."
+msgstr ""
+
+#: includes/copy-maker.php:507
+#, php-format
+msgid "Working on: Stage %1$d (Parts done: %2$d)"
+msgstr ""
+
+#: includes/copy-maker.php:531
+msgid "Normal Site Copy"
+msgstr ""
+
+#: includes/copy-maker.php:539
+msgid "Copy from site ID:"
+msgstr ""
+
+#: includes/copy-maker.php:545
+msgid "Paste into site ID:"
+msgstr ""
+
+#: includes/copy-maker.php:551
+msgid "Copy Site"
+msgstr ""
+
+#: includes/copy-maker.php:555
+msgid "Or"
+msgstr ""
+
+#: includes/copy-maker.php:556
+msgid "paste into new site"
+msgstr ""
+
+#: includes/copy-maker.php:557
+msgid "(but uses \"Template site copy settings\")"
+msgstr ""
+
+#: includes/copy-maker.php:575
+msgid "The Copy is Completed"
+msgstr ""
+
+#: includes/copy-maker.php:583 includes/plugin-control.php:394
+msgid "Visit"
+msgstr ""
+
+#: includes/copy-maker.php:584
+#, php-format
+msgid "View Log (%d errors)"
+msgstr ""
+
+#: includes/copy-maker.php:4764
+msgid ""
+"It is required that you set the 3 arguments 'from', 'to', and 'for'. They "
+"tell us from which site ID to copy into which site ID, and for how many "
+"seconds before we stop and leave the rest work for when the site is visited "
+"for the first time."
+msgstr ""
+
+#: includes/copy-maker.php:4774
+msgid ""
+"All 3 arguments must be a whole positive number and the site ID of the site "
+"you copy from must be different from the one you paste into."
+msgstr ""
+
+#: includes/copy-maker.php:4782
+#, php-format
+msgid ""
+"The copy process was started, but it did not finish! To finish it visit the "
+"destination site or its dashboard. It took %s seconds."
+msgstr ""
+
+#: includes/copy-maker.php:4785
+#, php-format
+msgid "The copy process was completed. It took %s seconds."
+msgstr ""
+
+#: includes/copy-maker.php:4787
+#, php-format
+msgid ""
+"The copy process did finish, but with errors! It took %s seconds. Check the "
+"copy log for task ID %s."
+msgstr ""
+
+#: includes/copy-maker.php:4790
+#, php-format
+msgid ""
+"The copy process was interrupted due to a fatal error! It took %s seconds. "
+"The site we pasted into (site ID %d) is probably damaged now, and it should "
+"be deleted. Check the copy log for task ID %s."
+msgstr ""
+
+#: includes/copy-maker.php:4795
+#, php-format
+msgid ""
+"The copy process did not start due to a pre-copy error! It took %s seconds. "
+"Check the copy log for task ID %s."
+msgstr ""
+
+#: includes/copy-maker.php:4798
+#, php-format
+msgid ""
+"The copy process was interrupted due to a pre-request fatal error! It took "
+"%s seconds. The site we pasted into (site ID %d) is probably damaged now, "
+"and it should be deleted. Check the copy log for task ID %s."
+msgstr ""
+
+#: includes/copy-maker.php:4802
+#, php-format
+msgid "Unknown error! It took %s seconds. Check the copy log for task ID %s."
+msgstr ""
+
+#: includes/copy-maker.php:4952
+#, php-format
+msgid ""
+"The process of replacing the new site with a copy of the %ssite with ID %d%s "
+"was started, but it did not finish! To finish it %svisit the new site%s or "
+"its %sdashboard%s. It took %s seconds. %sView log%s."
+msgstr ""
+
+#: includes/copy-maker.php:4962
+#, php-format
+msgid ""
+"The new site was replaced with a copy of the %ssite with ID %d%s! It took %s "
+"seconds. %sView log%s."
+msgstr ""
+
+#: includes/copy-maker.php:4968
+#, php-format
+msgid ""
+"The new site was replaced with a copy of the %ssite with ID %d%s, but with "
+"errors! It took %s seconds. %sView log%s."
+msgstr ""
+
+#: includes/copy-maker.php:4974
+#, php-format
+msgid ""
+"The process of replacing the new site with a copy of the %ssite with ID %d%s "
+"was interrupted due to a fatal error! The new site is probably damaged now, "
+"and it should be deleted. It took %s seconds. %sView log%s."
+msgstr ""
+
+#: includes/copy-maker.php:4981
+#, php-format
+msgid ""
+"The new site was not replaced with a copy of the %ssite with ID %d%s, "
+"because of a pre-copy error! It took %s seconds. %sView log%s."
+msgstr ""
+
+#: includes/copy-maker.php:4988
+#, php-format
+msgid ""
+"The process of replacing the new site with a copy of the %ssite with ID %d%s "
+"was interrupted due to a pre-request fatal error! The new site is probably "
+"damaged now, and it should be deleted. It took %s seconds. %sView log%s."
+msgstr ""
+
+#: includes/copy-maker.php:4995
+#, php-format
+msgid ""
+"The process of replacing the new site with a copy of the %ssite with ID %d%s "
+"resulted in an unknown error! It took %s seconds. %sView log%s."
+msgstr ""
+
+#: includes/copy-maker.php:5133 includes/copy-maker.php:5219
+#, php-format
+msgid "Error while copying the template site (Task ID: %s)"
+msgstr ""
+
+#: includes/copy-maker.php:5135 includes/copy-maker.php:5221
+#, php-format
+msgid ""
+"There was an error while copying the template site into a new site. %sView "
+"log%s."
+msgstr ""
+
+#: includes/copy-maker.php:5154 includes/copy-maker.php:5178
+msgid "Template Site Copy"
+msgstr ""
+
+#: includes/copy-maker.php:5157 includes/copy-maker.php:5181
+#, php-format
+msgid ""
+"%sNotice%s: The new site will automatically be replaced with a copy of the "
+"site with %sID %d%s (%s)!"
+msgstr ""
+
+#: includes/copy-maker.php:5164 includes/copy-maker.php:5188
+msgid "The \"Template site copy settings\" will be used for this copy!"
+msgstr ""
+
+#: includes/copy-maker.php:5227
+msgid "Configuring site, please wait. This page may reload several times."
+msgstr ""
+
+#: includes/email-users.php:103
+msgid "Affected Users:"
+msgstr ""
+
+#: includes/email-users.php:104 includes/email-users.php:491
+msgid "Export Emails"
+msgstr ""
+
+#: includes/email-users.php:110
+msgid ""
+"Error: A setting in the user selection form was chosen, that requires a "
+"comma-separated list of IDs to be provided, but we did not receive a valid "
+"list for it."
+msgstr ""
+
+#: includes/email-users.php:112
+msgid ""
+"Error: A setting in the user selection form was chosen, that ignores the "
+"field for the comma-separated list of IDs, but there is data in it."
+msgstr ""
+
+#: includes/email-users.php:116
+msgid ""
+"Error: This is not a valid user to send to. Please enter the username of an "
+"existing user."
+msgstr ""
+
+#: includes/email-users.php:117
+msgid "Error: Could not get the message content. Try reloading the page."
+msgstr ""
+
+#: includes/email-users.php:118
+msgid "Error: One or more fields are empty. Please fill all fields."
+msgstr ""
+
+#: includes/email-users.php:119
+msgid "Error: We could not send the email."
+msgstr ""
+
+#: includes/email-users.php:125
+msgid "Are you sure you want to send the email to the selected users?"
+msgstr ""
+
+#: includes/email-users.php:234
+msgid "User Selection"
+msgstr ""
+
+#: includes/email-users.php:240
+msgid "Role:"
+msgstr ""
+
+#: includes/email-users.php:248
+msgid "Any or no role"
+msgstr ""
+
+#: includes/email-users.php:249
+msgid "Any role"
+msgstr ""
+
+#: includes/email-users.php:250
+msgid "Super Admin"
+msgstr ""
+
+#: includes/email-users.php:251
+msgid "Administrator"
+msgstr ""
+
+#: includes/email-users.php:252
+msgid "Editor"
+msgstr ""
+
+#: includes/email-users.php:253
+msgid "Author"
+msgstr ""
+
+#: includes/email-users.php:254
+msgid "Contributor"
+msgstr ""
+
+#: includes/email-users.php:255
+msgid "Subscriber"
+msgstr ""
+
+#: includes/email-users.php:256
+msgid "Any role from a list"
+msgstr ""
+
+#: includes/email-users.php:263
+msgid ""
+"Hint: Both \"Any or no role\" and \"Super Admin\" will ignore the next two "
+"fields."
+msgstr ""
+
+#: includes/email-users.php:277
+msgid ""
+"Users with at least one of the provided roles will be affected. You can "
+"include custom roles too. Make sure you are writing the role slugs, not the "
+"role names! The role slugs are lower case and have no spaces, but they can "
+"also be different from the role name in other ways, so do not assume they "
+"are always a lower case version of the name. To see the slug you can go to "
+"edit the site that has the role you want and click on the Users tab. We have "
+"put a list of the roles with the slugs there."
+msgstr ""
+
+#: includes/email-users.php:288
+msgid "Role in sites by attribute:"
+msgstr ""
+
+#: includes/email-users.php:307
+msgid "Not deleted or spam"
+msgstr ""
+
+#: includes/email-users.php:314
+msgid "Role in sites by ID:"
+msgstr ""
+
+#: includes/email-users.php:338
+msgid "Select users with:"
+msgstr ""
+
+#: includes/email-users.php:345
+msgid "Any user ID (All users)"
+msgstr ""
+
+#: includes/email-users.php:346
+msgid "Only these user IDs:"
+msgstr ""
+
+#: includes/email-users.php:347
+msgid "All except these user IDs:"
+msgstr ""
+
+#: includes/email-users.php:362
+msgid "Ban status:"
+msgstr ""
+
+#: includes/email-users.php:378
+msgid ""
+"The Ban Users module is turned off. All users are treated as not banned."
+msgstr ""
+
+#: includes/email-users.php:385
+msgid "Spam status:"
+msgstr ""
+
+#: includes/email-users.php:392
+msgid "Not spammed"
+msgstr ""
+
+#: includes/email-users.php:401
+msgid "Unsubscribe status:"
+msgstr ""
+
+#: includes/email-users.php:408
+msgid "Not unsubscribed"
+msgstr ""
+
+#: includes/email-users.php:409
+msgid "Unsubscribed"
+msgstr ""
+
+#: includes/email-users.php:417
+msgid ""
+"The unsubscribe feature is turned off. All users are treated as not "
+"unsubscribed."
+msgstr ""
+
+#: includes/email-users.php:425
+msgid "Email Message"
+msgstr ""
+
+#: includes/email-users.php:458
+msgid ""
+"If the first and last names are set, this shows the full name. If only the "
+"first name is set, it shows it. If the first name is empty, it shows the "
+"username."
+msgstr ""
+
+#: includes/email-users.php:462
+msgid "The display name of the user."
+msgstr ""
+
+#: includes/email-users.php:464
+msgid "The username of the user."
+msgstr ""
+
+#: includes/email-users.php:466
+msgid "The first name of the user. Could be empty."
+msgstr ""
+
+#: includes/email-users.php:468
+msgid "The last name of the user. Could be empty."
+msgstr ""
+
+#: includes/email-users.php:470
+msgid ""
+"A list of links to the sites where the user has an administrator role. If "
+"there are no such sites, an empty string is shown."
+msgstr ""
+
+#: includes/email-users.php:473
+msgid ""
+"A list of links to the sites where the user has an administrator role, but "
+"only the sites that are also selected in the \"User Selection\" form by the "
+"field \"Role in sites by ID\" (the field \"Role in sites by attribute\" is "
+"ignored for this list, but still used for user selection). If there are no "
+"such sites, an empty string is shown."
+msgstr ""
+
+#: includes/email-users.php:478
+msgid ""
+"The title of the site, where the user has an administrator role. If there "
+"are multiple such sites, then the one with lower site ID is chosen. If there "
+"are no such sites, an empty string is shown."
+msgstr ""
+
+#: includes/email-users.php:481
+msgid ""
+"The URL of the site, where the user has an administrator role. If there are "
+"multiple such sites, then the one with lower site ID is chosen. If there are "
+"no such sites, an empty string is shown."
+msgstr ""
+
+#: includes/email-users.php:488 includes/email-users.php:1379
+msgid "Preview User Selection"
+msgstr ""
+
+#: includes/email-users.php:494 includes/email-users.php:1522
+msgid "Send Email"
+msgstr ""
+
+#: includes/email-users.php:498
+msgid "Test Email"
+msgstr ""
+
+#: includes/email-users.php:504
+msgid "Send to this user:"
+msgstr ""
+
+#: includes/email-users.php:511
+msgid ""
+"Hint: Enter the username of the user, to which you want to send the test "
+"email."
+msgstr ""
+
+#: includes/email-users.php:648
+msgid "There is a finished email task."
+msgstr ""
+
+#: includes/email-users.php:660
+msgid "Cancel Task"
+msgstr ""
+
+#: includes/email-users.php:669
+msgid "There is an active email task."
+msgstr ""
+
+#: includes/email-users.php:685
+#, php-format
+msgid "(updates automatically, last updated: %s)"
+msgstr ""
+
+#: includes/email-users.php:693 includes/email-users.php:786
+msgid "Total emails to send:"
+msgstr ""
+
+#: includes/email-users.php:707 includes/email-users.php:794
+msgid "Sending emails:"
+msgstr ""
+
+#: includes/email-users.php:713 includes/email-users.php:837
+msgid "Task status:"
+msgstr ""
+
+#: includes/email-users.php:721 includes/email-users.php:802
+msgid "Sent emails:"
+msgstr ""
+
+#: includes/email-users.php:727 includes/email-users.php:845
+msgid "Sending mode:"
+msgstr ""
+
+#: includes/email-users.php:732 includes/email-users.php:850
+msgid "Real-time"
+msgstr ""
+
+#: includes/email-users.php:734 includes/email-users.php:852
+msgid "Background"
+msgstr ""
+
+#: includes/email-users.php:741 includes/email-users.php:810
+msgid "Failed emails:"
+msgstr ""
+
+#: includes/email-users.php:747 includes/email-users.php:859
+msgid "Cron job:"
+msgstr ""
+
+#: includes/email-users.php:755 includes/email-users.php:867
+msgid "Not needed"
+msgstr ""
+
+#: includes/email-users.php:757 includes/email-users.php:869
+msgid "Not found"
+msgstr ""
+
+#: includes/email-users.php:765 includes/email-users.php:818
+msgid "Sending speed:"
+msgstr ""
+
+#: includes/email-users.php:890
+msgid "Switch to Background sending mode"
+msgstr ""
+
+#: includes/email-users.php:895
+msgid "Switch to Real-time sending mode"
+msgstr ""
+
+#: includes/email-users.php:902
+msgid ""
+"There are two sending modes. The default background mode uses cron jobs to "
+"do the work in the background. You do not have to stay on this page, and the "
+"work is done during a page load. This can also slow down the page load for "
+"users. It is also possible to not be able to achieve the set sending speed "
+"if you do not have a lot of page loads. The other mode is real-time. Real-"
+"time mode only does work while you keep this page open and does not use any "
+"cron jobs. It does not slow the page load and it always achieves the set "
+"sending speed (unless your server sending limit is reached or the server "
+"connection is too slow)."
+msgstr ""
+
+#: includes/email-users.php:913
+msgid "Please keep this page open."
+msgstr ""
+
+#: includes/email-users.php:914
+msgid ""
+"This task in currently in real-time sending mode. Please keep this page "
+"open. If you close it, the task will pause working and will continue the "
+"next time you open this page."
+msgstr ""
+
+#: includes/email-users.php:917
+msgid "You are free to leave this page."
+msgstr ""
+
+#: includes/email-users.php:918
+msgid ""
+"This task in currently in background sending mode. You are free to leave "
+"this page, and it will continue working."
+msgstr ""
+
+#: includes/email-users.php:1377
+msgid "Scheduling Emails Completed"
+msgstr ""
+
+#: includes/email-users.php:1396
+msgid "Affected users:"
+msgstr ""
+
+#: includes/email-users.php:1461
+msgid "User Sites"
+msgstr ""
+
+#: includes/email-users.php:2378
+msgid "Invalid request."
+msgstr ""
+
+#: includes/email-users.php:2387
+msgid "Invalid token."
+msgstr ""
+
+#: includes/email-users.php:2392
+msgid "The unsubscribe features is currently turned off."
+msgstr ""
+
+#: includes/email-users.php:2403
+msgid ""
+"You will no longer receive emails from the network administrator. You can "
+"change back this setting from your user profile page."
+msgstr ""
+
+#: includes/email-users.php:2409
+msgid ""
+"You are already unsubscribed from these emails. No changes were made. You "
+"can change back this setting from your user profile page."
+msgstr ""
+
+#: includes/email-users.php:2423 includes/email-users.php:2498
+msgid "Unsubscribe"
+msgstr ""
+
+#: includes/email-users.php:2429
+msgid "Unsubscribe from network administrator emails"
+msgstr ""
+
+#: includes/email-users.php:2513
+msgid "List of roles"
+msgstr ""
+
+#: includes/email-users.php:2515
+msgid ""
+"You can see the role slugs on the right of the role name. This list is "
+"provided by the Beyond Multisite plugin, so you can see the role slugs of "
+"custom roles and use them in the Email Users module."
+msgstr ""
+
+#: includes/improvements.php:222
+msgid "Network: Plugins"
+msgstr ""
+
+#: includes/improvements.php:230 includes/improvements.php:257
+msgid "Network: Add New"
+msgstr ""
+
+#: includes/improvements.php:238 includes/improvements.php:265
+msgid "Network: Edit"
+msgstr ""
+
+#: includes/improvements.php:249
+msgid "Network: Themes"
+msgstr ""
+
+#: includes/improvements.php:378 includes/improvements.php:407
+msgid "Search engine indexing is discouraged"
+msgstr ""
+
+#: includes/improvements.php:510
+#, php-format
+msgid "Missing role (%s)"
+msgstr ""
+
+#: includes/pending-users.php:26
+msgid "Search pending users"
+msgstr ""
+
+#: includes/pending-users.php:31
+msgid "Hint: This will search in the Username and User Email"
+msgstr ""
+
+#: includes/pending-users.php:86
+msgid "Are you sure you want to activate this user?"
+msgstr ""
+
+#: includes/pending-users.php:87
+msgid "Are you sure you want to resend the activation email to this user?"
+msgstr ""
+
+#: includes/pending-users.php:88
+msgid ""
+"Are you sure you want to delete this user? This action cannot be reversed!"
+msgstr ""
+
+#: includes/pending-users.php:249
+#, php-format
+msgid ""
+"There are %1$d search results for \"%2$s\". To go back to all pending users "
+"%3$sclick here%4$s."
+msgstr ""
+
+#: includes/pending-users.php:263
+#, php-format
+msgid ""
+"There is 1 search result for \"%1$s\". To go back to all pending users "
+"%2$sclick here%3$s."
+msgstr ""
+
+#: includes/pending-users.php:276
+#, php-format
+msgid ""
+"There are no search results for \"%1$s\". To go back to all pending users "
+"%2$sclick here%3$s."
+msgstr ""
+
+#: includes/pending-users.php:303
+msgid "There are no pending users. All signups are activated."
+msgstr ""
+
+#: includes/pending-users.php:311
+msgid "These users have not yet activated their accounts."
+msgstr ""
+
+#: includes/pending-users.php:349 includes/pending-users.php:383
+#: includes/pending-users.php:403
+msgid "User Email"
+msgstr ""
+
+#: includes/pending-users.php:351 includes/pending-users.php:384
+#: includes/pending-users.php:404
+msgid "Registered*"
+msgstr ""
+
+#: includes/pending-users.php:352 includes/pending-users.php:386
+#: includes/pending-users.php:405
+msgid "Registration Type"
+msgstr ""
+
+#: includes/pending-users.php:368
+msgid "User signup"
+msgstr ""
+
+#: includes/pending-users.php:370
+msgid "User and website signup"
+msgstr ""
+
+#: includes/pending-users.php:373
+#, php-format
+msgid "Added to %ssite ID %s%s (role: %s)"
+msgstr ""
+
+#: includes/pending-users.php:377
+msgid "[Unknown]"
+msgstr ""
+
+#: includes/pending-users.php:389
+msgid "Activate"
+msgstr ""
+
+#: includes/pending-users.php:391
+msgid "Resend Email"
+msgstr ""
+
+#: includes/plugin-control.php:87 includes/plugin-control.php:88
+#: includes/plugin-control.php:409
+msgid "Site Plugin Control"
+msgstr ""
+
+#: includes/plugin-control.php:127 includes/plugin-control.php:258
+msgid "Network Enable"
+msgstr ""
+
+#: includes/plugin-control.php:128 includes/plugin-control.php:279
+msgid "Network Disable"
+msgstr ""
+
+#: includes/plugin-control.php:129 includes/plugin-control.php:283
+msgid "Network Enabled"
+msgstr ""
+
+#: includes/plugin-control.php:130 includes/plugin-control.php:234
+#: includes/plugin-control.php:243 includes/plugin-control.php:262
+msgid "Network Disabled"
+msgstr ""
+
+#: includes/plugin-control.php:131
+msgid "You are about to BULK ACTIVATE the plugin:"
+msgstr ""
+
+#: includes/plugin-control.php:132
+msgid "You are about to BULK DEACTIVATE the plugin:"
+msgstr ""
+
+#: includes/plugin-control.php:140
+msgid "Error: Invalid mode data sent."
+msgstr ""
+
+#: includes/plugin-control.php:141
+msgid "Error: The plugin is network activated."
+msgstr ""
+
+#: includes/plugin-control.php:142
+msgid "Error: The plugin can only be network activated/deactivated."
+msgstr ""
+
+#: includes/plugin-control.php:144
+msgid "Error: The plugin does not exist."
+msgstr ""
+
+#: includes/plugin-control.php:148
+msgid "Bulk Activation Completed"
+msgstr ""
+
+#: includes/plugin-control.php:149
+msgid "Bulk Deactivation Completed"
+msgstr ""
+
+#: includes/plugin-control.php:150
+msgid "Importing Settings Completed"
+msgstr ""
+
+#: includes/plugin-control.php:152
+msgid ""
+"WARNING! You are about to IMPORT SETTINGS from the plugin Multisite Plugin "
+"Manager. All current plugin control SETTINGS WILL BE LOST! This action will "
+"affect site-specific settings too. This can only be undone manually!"
+msgstr ""
+
+#: includes/plugin-control.php:157
+msgid "You are about to permanently hide the import settings message"
+msgstr ""
+
+#: includes/plugin-control.php:192 includes/plugin-control.php:475
+msgid "Enable"
+msgstr ""
+
+#: includes/plugin-control.php:193 includes/plugin-control.php:463
+msgid "Disable"
+msgstr ""
+
+#: includes/plugin-control.php:194 includes/plugin-control.php:466
+msgid "Enabled"
+msgstr ""
+
+#: includes/plugin-control.php:195 includes/plugin-control.php:478
+msgid "Disabled"
+msgstr ""
+
+#: includes/plugin-control.php:237
+msgid "Network Activated"
+msgstr ""
+
+#: includes/plugin-control.php:246
+msgid "Network Only"
+msgstr ""
+
+#: includes/plugin-control.php:307 includes/plugin-control.php:312
+msgid "Bulk Activate/Deactivate"
+msgstr ""
+
+#: includes/plugin-control.php:307
+msgid "(incompatible)"
+msgstr ""
+
+#: includes/plugin-control.php:379
+msgid "Error: Missing ID."
+msgstr ""
+
+#: includes/plugin-control.php:386
+#, php-format
+msgid "Edit Site: %s"
+msgstr ""
+
+#: includes/plugin-control.php:415
+msgid ""
+"Network enabled, network activated, and network only plugins are not shown "
+"on this page."
+msgstr ""
+
+#: includes/plugin-control.php:417
+#, php-format
+msgid "You can network disable plugins from the %1$sPlugins%2$s page."
+msgstr ""
+
+#: includes/plugin-control.php:429 includes/plugin-control.php:495
+#: includes/plugin-control.php:517
+msgid "Description"
+msgstr ""
+
+#: includes/plugin-control.php:507
+msgid "There are no plugins to show here at this time."
+msgstr ""
+
+#: includes/plugin-control.php:639
+#, php-format
+msgid "Bulk Activate/Deactivate: %s"
+msgstr ""
+
+#: includes/plugin-control.php:648
+msgid ""
+"This plugin is not compatible with the bulk activate/deactivate feature. To "
+"avoid problems, it is recommended that you do not use this feature on this "
+"plugin. Sorry for the inconvenience."
+msgstr ""
+
+#: includes/plugin-control.php:685
+msgid "Bulk Activate"
+msgstr ""
+
+#: includes/plugin-control.php:690
+msgid "Bulk Deactivate"
+msgstr ""
+
+#: includes/plugin-control.php:1065
+msgid "You are not allowed to control this plugin."
+msgstr ""
+
+#: includes/plugin-control.php:1084
+msgid ""
+"Do you want to import settings from \"Multisite Plugin Manager\" to the "
+"\"Plugin Control\" module of \"Beyond Multisite\"?"
+msgstr ""
+
+#: includes/plugin-control.php:1091
+#, php-format
+msgid ""
+"We detect that you have used the plugin %1$sMultisite Plugin Manager%2$s. We "
+"can import your user control settings from there if you want. All plugins "
+"with user control setting set to %1$sNone%2$s will become %1$sNetwork "
+"Disabled%2$s, and the ones set to %1$sAll Users%2$s will become %1$sNetwork "
+"Enabled%2$s. Any override settings for individual sites will also be "
+"imported. Auto-activate settings will be ignored. All current settings will "
+"be lost."
+msgstr ""
+
+#: includes/plugin-control.php:1102
+msgid "Import Settings"
+msgstr ""
+
+#: includes/plugin-control.php:1104
+msgid "Permanently Hide This Message"
+msgstr ""

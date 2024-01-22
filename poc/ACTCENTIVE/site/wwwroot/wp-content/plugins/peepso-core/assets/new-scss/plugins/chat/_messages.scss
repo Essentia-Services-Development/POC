@@ -1,0 +1,25 @@
+.ps-message {}
+
+.ps-message--me {}
+
+.ps-form--messages-new {}
+
+.ps-message__postbox {
+  z-index: 0;
+  margin-bottom: 0;
+  box-shadow: inset var(--BOX-SHADOW--HARD);
+}
+
+.ps-message__recipients {}
+
+.ps-message__recipients-label {}
+
+.ps-message__recipients-select {
+  margin-bottom: var(--PADD);
+}
+
+.ps-message__recipient {}
+
+.ps-message__recipient-info {}
+
+.ps-message__recipient-name {}

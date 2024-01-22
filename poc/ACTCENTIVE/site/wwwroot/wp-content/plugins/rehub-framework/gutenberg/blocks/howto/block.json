@@ -1,0 +1,9 @@
+{
+	"apiVersion": 1,
+	"name": "rehub/howto",
+	"title": "How to",
+	"category": "helpler-modules",
+	"description": "Make instructions block with steps",
+	"textdomain": "rehub-framework",
+	"editorStyle": "rhpb-howto"
+}

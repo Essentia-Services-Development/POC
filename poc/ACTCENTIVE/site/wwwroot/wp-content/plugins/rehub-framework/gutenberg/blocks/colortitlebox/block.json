@@ -1,0 +1,10 @@
+{
+	"apiVersion": 2,
+	"name": "rehub/colortitlebox",
+	"title": "Color title box",
+	"category": "helpler-modules",
+	"description": "For making great box containers",
+    "icon": "info-outline",
+	"textdomain": "rehub-framework",
+	"editorStyle": "rhcolortitlebox"
+}

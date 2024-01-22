@@ -1,0 +1,298 @@
+# Copyright (C) 2020 Affiliate Egg Pro
+# This file is distributed under the same license as the Affiliate Egg Pro package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Affiliate Egg Pro 10.0.0\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/support/plugin/affegg-tpl\n"
+"POT-Creation-Date: 2020-12-18 15:25:32+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2020-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: application/PriceAlert.php:80
+msgid "All fields are required."
+msgstr ""
+
+#: application/PriceAlert.php:83
+msgid "Your email address is invalid."
+msgstr ""
+
+#: application/PriceAlert.php:86
+msgid "The price has already been reached."
+msgstr ""
+
+#: application/PriceAlert.php:94
+msgid "You already tracking this product."
+msgstr ""
+
+#: application/PriceAlert.php:114
+msgid ""
+"We are now tracking this product for you. Please verify your email address "
+"to be notified of price drops."
+msgstr ""
+
+#: application/PriceAlert.php:116
+msgid "Internal Error. Please notify the administrator."
+msgstr ""
+
+#: application/PriceAlert.php:122
+msgid "Welcome to %s"
+msgstr ""
+
+#: application/PriceAlert.php:132
+msgid "Hello,"
+msgstr ""
+
+#: application/PriceAlert.php:133
+msgid "You have successfully set a price drop alert for %s."
+msgstr ""
+
+#: application/PriceAlert.php:134
+msgid ""
+"We will not send you any price alerts until you verified your email address."
+msgstr ""
+
+#: application/PriceAlert.php:135
+msgid ""
+"Please open this link to validate your email address:<br> <a href=\"%s\">%s</"
+"a>"
+msgstr ""
+
+#: application/PriceAlert.php:143
+msgid ""
+"<br><pre class=\"moz-signature\" cols=\"72\">--\r\n"
+"Thank You,\r\n"
+" Team %s</pre>"
+msgstr ""
+
+#: application/PriceAlert.php:196
+msgid ""
+"Your email has been verified. We will let you know by email when the Price "
+"Drops."
+msgstr ""
+
+#: application/PriceAlert.php:196
+msgid "Success!"
+msgstr ""
+
+#: application/PriceAlert.php:213
+msgid "You are now unsubscribed from our Price Alerts via email."
+msgstr ""
+
+#: application/PriceAlert.php:213
+msgid "Unsubscribed!"
+msgstr ""
+
+#: application/PriceAlert.php:229
+msgid "  Ok  "
+msgstr ""
+
+#: application/PriceAlert.php:282
+msgid "Price alert: \"%s\""
+msgstr ""
+
+#: application/PriceAlert.php:298
+msgid "Good news!"
+msgstr ""
+
+#: application/PriceAlert.php:299
+msgid "The price target you set for the item has been reached."
+msgstr ""
+
+#: application/PriceAlert.php:300
+msgid "<a href=\"%s\">Save %s (%s%%) on %s</a>"
+msgstr ""
+
+#: application/PriceAlert.php:302
+msgid "Desired Price: %s"
+msgstr ""
+
+#: application/PriceAlert.php:303
+msgid "Current Price: <strong>%s</strong>"
+msgstr ""
+
+#: application/PriceAlert.php:304 templates/egg_price_tracker_alert.php:37
+msgid "as of"
+msgstr ""
+
+#: application/PriceAlert.php:305
+msgid "Price dropped from %s to %s"
+msgstr ""
+
+#: application/PriceAlert.php:307
+msgid "<a href=\"%s\">More info...</a>"
+msgstr ""
+
+#: application/PriceAlert.php:310
+msgid ""
+"This present alert has now expired. You may <a href=\"%s\">create a new "
+"alert</a> for this item."
+msgstr ""
+
+#: application/PriceAlert.php:311
+msgid ""
+"If you don't want to receive any price alerts from us in the future, <a href="
+"\"%s\">please click here</a>."
+msgstr ""
+
+#: application/TemplateHelper.php:277 templates/egg_price_tracker_alert.php:35
+msgid "Price"
+msgstr ""
+
+#: application/Widget.php:25
+msgid "Title:"
+msgstr ""
+
+#: application/admin/GeneralConfig.php:56
+msgid "default"
+msgstr ""
+
+#: templates/blocks/price_alert_inline.php:9
+msgid "Wait For A Price Drop"
+msgstr ""
+
+#: templates/blocks/price_alert_inline.php:14
+#: templates/blocks/price_alert_inline.php:15
+msgid "Your Email"
+msgstr ""
+
+#: templates/blocks/price_alert_inline.php:18
+#: templates/blocks/price_alert_inline.php:24
+msgid "Desired Price"
+msgstr ""
+
+#: templates/blocks/price_alert_inline.php:30
+msgid "SET ALERT"
+msgstr ""
+
+#: templates/blocks/price_alert_inline.php:35
+msgid "You will receive a notification when the price drops."
+msgstr ""
+
+#: templates/blocks/price_history.php:7
+msgid "Price History"
+msgstr ""
+
+#: templates/blocks/price_history.php:15
+msgid "Statistics"
+msgstr ""
+
+#: templates/blocks/price_history.php:18
+msgid "Current Price"
+msgstr ""
+
+#: templates/blocks/price_history.php:30
+msgid "Highest Price"
+msgstr ""
+
+#: templates/blocks/price_history.php:36
+msgid "Lowest Price"
+msgstr ""
+
+#: templates/blocks/price_history.php:42
+msgid "Since"
+msgstr ""
+
+#: templates/blocks/price_history.php:45
+msgid "Last price changes"
+msgstr ""
+
+#: templates/egg_carousel.php:5
+msgid "Slider"
+msgstr ""
+
+#: templates/egg_grid_3cols.php:6
+msgid "Grid (3 colums)"
+msgstr ""
+
+#: templates/egg_grid_3cols.php:60 templates/egg_item.php:46
+#: templates/egg_item_autoblog.php:48 templates/egg_list.php:54
+#: templates/egg_price_tracker_alert.php:42
+msgid "Buy now"
+msgstr ""
+
+#: templates/egg_grid_3cols.php:76 templates/egg_item.php:81
+#: templates/egg_item_autoblog.php:103 templates/egg_list.php:65
+#: templates/egg_tile_3cols.php:37
+msgid "See more..."
+msgstr ""
+
+#: templates/egg_item.php:6
+msgid "Product сard"
+msgstr ""
+
+#: templates/egg_item.php:58 templates/egg_item_autoblog.php:60
+#: templates/egg_price_comparison_full.php:56
+msgid "Features"
+msgstr ""
+
+#: templates/egg_item.php:68 templates/egg_item_autoblog.php:70
+#: templates/egg_price_comparison_full.php:50
+msgid "Description"
+msgstr ""
+
+#: templates/egg_item_autoblog.php:6
+msgid "Product сard for Auto Bloging"
+msgstr ""
+
+#: templates/egg_item_autoblog.php:75
+#: templates/egg_price_comparison_full.php:66
+msgid "User reviews"
+msgstr ""
+
+#: templates/egg_item_autoblog.php:90
+msgid "View all reviews"
+msgstr ""
+
+#: templates/egg_list.php:6 templates/wegg_list.php:5
+msgid "List"
+msgstr ""
+
+#: templates/egg_price_comparison_full.php:5
+msgid "Price comparison (full)"
+msgstr ""
+
+#: templates/egg_price_comparison_short.php:6
+msgid "Price comparison (short)"
+msgstr ""
+
+#: templates/egg_price_tracker_alert.php:5
+msgid "Price tracker & alert"
+msgstr ""
+
+#: templates/egg_tile_3cols.php:5 templates/wegg_tile_3cols.php:5
+msgid "Tile (3 columns)"
+msgstr ""
+
+#: templates/wegg_grid.php:5
+msgid "Grid (1 column)"
+msgstr ""
+
+#: templates/wegg_tile.php:5
+msgid "Tile (1 column)"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Affiliate Egg Pro"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://www.keywordrush.com/en/affiliateegg"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Parse, add, update products from affiliate shops. Let you to earn money from "
+"affiliate networks."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "keywordrush.com"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://www.keywordrush.com"
+msgstr ""

@@ -1,0 +1,24 @@
+.ps-classifieds {}
+
+.ps-classifieds__grid {
+  --grid-columns: 2;
+
+  @include mq($from: desktop) {
+    display: grid;
+    grid-template-columns: repeat(var(--grid-columns), 1fr);
+    grid-column-gap: var(--PADD);
+    grid-row-gap: var(--PADD);
+  }
+}
+
+.ps-classifieds__grid--2 {
+  --grid-columns: 2;
+}
+.ps-classifieds__grid--3 {
+  --grid-columns: 3;
+}
+.ps-classifieds__grid--4 {
+  --grid-columns: 4;
+}
+
+.ps-classifieds__loading {}

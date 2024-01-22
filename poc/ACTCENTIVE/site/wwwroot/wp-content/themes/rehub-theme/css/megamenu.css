@@ -1,0 +1,9 @@
+nav.top_menu ul li.rh-megamenu{position: static;}
+nav.top_menu ul li.rh-megamenu > ul.sub-menu{width: 100% !important; padding: 0; margin: 0; }
+nav.top_menu ul li.rh-megamenu > ul.sub-menu > li.menu-item-object-gs_sim{padding: 20px}
+nav.top_menu ul li.rh-megamenu > ul > li > a{border: none; padding: 0; margin: 0; box-shadow: none; text-transform: none; text-decoration: none;}
+nav.top_menu ul li.rh-megamenu ul li:hover{box-shadow: none;}
+nav.top_menu ul li.rh-megamenu ul.sub-menu{ border: none; }
+.rh-megamenu .widget_categories li a, .rh-megamenu .widget_nav_menu li a, .rh-megamenu .widget_recent_entries li a, .rh-megamenu .widget_pages ul li a, .rh-megamenu .widget_product_categories ul li a{display: inline-block; margin-bottom: 10px}
+.rh-megamenu h4{margin-top: 0 }
+.rh-megamenu .wpsm_recent_posts_list .item-small-news{border: none; padding: 0 0 8px 0}

@@ -1,0 +1,39 @@
+.psw-friends {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: var(--PADD--SM);
+  grid-row-gap: var(--PADD--SM);
+  justify-content: center;
+}
+
+.psw-friends__item {
+  .ps-avatar--member {
+    img {
+      box-shadow: var(--box-shadow);
+    }
+  }
+}
+
+.psw-friends__count {
+  grid-column-start: 1;
+  grid-column-end: 5;
+  margin-top: var(--PADD--SM);
+  font-size: 80%;
+  color: var(--PS-COLOR--TEXT--LIGHT);
+
+  &:empty {
+    display: none;
+  }
+}
+
+.psw-friends__more {
+  margin-top: var(--PADD--MD);
+}
+
+.psw-friends__info {
+  grid-column-start: 1;
+  grid-column-end: 5;
+  font-size: 90%;
+  color: var(--PS-COLOR--TEXT--LIGHT);
+  text-align: center;
+}

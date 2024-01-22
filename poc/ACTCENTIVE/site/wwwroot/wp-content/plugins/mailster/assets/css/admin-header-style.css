@@ -1,0 +1,187 @@
+#mailster-admin-toolbar {
+	margin-left: -20px;
+	padding-left: 20px;
+	position: relative;
+	z-index: 1001;
+	background: #fff;
+	border-bottom: 1px solid #c3c4c4;
+	display: flex;
+}
+.rtl #mailster-admin-toolbar {
+	margin-left: 0;
+	margin-right: -20px;
+	padding-right: 20px;
+}
+#mailster-admin-toolbar .mailster-logo {
+	padding: 17px 0 5px;
+	margin: 0 10px 0 3px;
+	width: 30px;
+	transition: transform 0.2s ease-in-out;
+}
+#mailster-admin-toolbar .mailster-logo:hover {
+	transform: scale(1.05);
+}
+#mailster-admin-toolbar .mailster-logo:focus {
+	box-shadow: none;
+}
+#mailster-admin-toolbar .mailster-tab.is-active {
+	border-bottom: 4px solid #2271b1;
+	padding-bottom: 9px;
+	opacity: 1;
+}
+#mailster-admin-toolbar .mailster-tab:hover {
+	opacity: 1;
+}
+#mailster-admin-toolbar .panel-tabs .panel-tab {
+	text-decoration: none;
+}
+#mailster-admin-toolbar .panel-tabs button.panel-tab {
+	width: 80px;
+	height: 58px;
+	opacity: 0.8;
+	padding: 8px 0;
+	transition: opacity 0.2s ease-in-out;
+}
+#mailster-admin-toolbar .panel-tabs button.is-active {
+	border-bottom: 4px solid #2271b1;
+	padding-bottom: 4px;
+	opacity: 1;
+}
+#mailster-admin-toolbar .panel-tabs button.is-loading {
+	background-image: url(../img/inactive.png);
+	pointer-events: none;
+}
+#mailster-admin-toolbar .panel-tabs button:hover {
+	opacity: 1;
+	background-color: #f0f0f0;
+}
+
+#wpbody-content > .mailster-help {
+	float: right;
+	margin: 5px;
+}
+.rtl #wpbody-content > .mailster-help {
+	float: left;
+}
+#screen-meta + .mailster-help {
+	margin: 5px 35px 5px 5px;
+}
+#mailster-admin-toolbar .mailster-tab {
+	display: inline-block;
+	font-size: 14px;
+	line-height: 2em;
+	padding: 17px 5px 5px;
+	margin: 0 5px;
+	text-decoration: none;
+	color: inherit;
+	opacity: 0.6;
+	padding-bottom: 13px;
+	white-space: nowrap;
+}
+#mailster-admin-toolbar .mailster-help {
+	float: right;
+	display: flex;
+	justify-content: flex-end;
+}
+.rtl #mailster-admin-toolbar .mailster-help {
+	float: left;
+	justify-content: flex-start;
+}
+#mailster-admin-toolbar .panel-tabs {
+	display: flex;
+	justify-content: flex-end;
+	flex-basis: 100px;
+	margin-left: auto;
+}
+.rtl #mailster-admin-toolbar .panel-tabs {
+	justify-content: flex-end;
+	margin-left: 0;
+	margin-right: auto;
+}
+#mailster-admin-toolbar .panel-tabs .panel-tab {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	background-color: #fff;
+	width: 100%;
+	color: #757575;
+	white-space: nowrap;
+}
+#mailster-admin-toolbar .panel-tabs .panel-tab.action {
+	font-weight: bold;
+	line-height: 1.5em;
+	width: auto;
+	padding: 0 2em;
+}
+#mailster-admin-toolbar .panel-tabs .panel-tab.action.expired {
+	color: #fff;
+	background-color: #e74c3c;
+}
+.mailster-help {
+	display: inline-block;
+	width: 18px;
+	height: 18px;
+	font-size: 14px;
+	vertical-align: top;
+	border-radius: 50%;
+	text-decoration: none !important;
+	text-align: center;
+	margin: auto 2px;
+	line-height: 127%;
+	position: relative;
+	z-index: 2;
+	background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false"><path d="M12 4.75a7.25 7.25 0 100 14.5 7.25 7.25 0 000-14.5zM3.25 12a8.75 8.75 0 1117.5 0 8.75 8.75 0 01-17.5 0zM12 8.75a1.5 1.5 0 01.167 2.99c-.465.052-.917.44-.917 1.01V14h1.5v-.845A3 3 0 109 10.25h1.5a1.5 1.5 0 011.5-1.5zM11.25 15v1.5h1.5V15h-1.5z" fill="%23aaa"></path></svg>');
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.mailster-help:hover {
+	background-color: #2bb3e7;
+	background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false"><path d="M12 8.75a1.5 1.5 0 01.167 2.99c-.465.052-.917.44-.917 1.01V14h1.5v-.845A3 3 0 109 10.25h1.5a1.5 1.5 0 011.5-1.5zM11.25 15v1.5h1.5V15h-1.5z" fill="%23fff"></path></svg>');
+}
+.mailster-help[hidden] {
+	display: none !important;
+}
+@media only screen and (max-width: 782px) {
+	#mailster-admin-toolbar {
+		display: none;
+	}
+	#wpbody-content > .mailster-help {
+		margin: 10px 5px;
+	}
+}
+#wpbody .fs-secure-notice {
+	position: absolute;
+	top: 0;
+	left: -20px;
+	right: 0px;
+	z-index: 1;
+}
+.fs-submenu-item.pricing.upgrade-mode {
+	color: #2bb3e7;
+}
+#fs_frame iframe {
+	min-height: 900px !important;
+}
+
+#mailster-bf2023dash {
+	opacity: 0.8;
+}
+#mailster-bf2023dash:hover {
+	animation: blink normal 1.5s infinite ease-in-out;
+}
+@keyframes blink {
+	0% {
+		opacity: 1;
+	}
+	50% {
+		opacity: 0.2;
+	}
+	100% {
+		opacity: 1;
+	}
+}

@@ -1,0 +1,120 @@
+//
+//  WIDGET: USERBAR
+//
+
+
+
+.ps-widget--userbar {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+
+  .ps-badgeos__widget {
+    @if $scss-direction == rtl {
+      padding-right: 15px;
+    } @else {
+      padding-left: 15px;
+    }
+  }
+
+  .ps-badgeos__widget-title {
+    display: none;
+  }
+}
+
+
+.ps-widget--userbar__avatar {
+  width: 30px;
+
+  @if $scss-direction == rtl {
+    margin-left: 10px;
+  } @else {
+    margin-right: 10px;
+  }
+}
+
+
+.ps-widget--userbar__name {
+  .ps-widget--userbar--space & {
+    flex-grow: 2;
+  }
+}
+
+
+.ps-widget--userbar__vip {
+  @if $scss-direction == rtl {
+    padding-left: 5px;
+  } @else {
+    padding-right: 5px;
+  }
+
+  &:empty {
+    display: none;
+  }
+}
+
+
+.ps-widget--userbar__notifications {
+  display: flex;
+
+  @if $scss-direction == rtl {
+    margin-right: 15px;
+  } @else {
+    margin-left: 15px;
+  }
+
+  > span {
+    @if $scss-direction == rtl {
+      margin-left: 5px;
+    } @else {
+      margin-right: 5px;
+    }
+
+    &:last-child {
+      margin-left: 0;
+      margin-right: 0;
+    }
+
+    > a {
+      display: block;
+    }
+  }
+}
+
+
+.ps-widget--userbar__logout {
+  @if $scss-direction == rtl {
+    margin-right: 5px;
+    padding-right: 5px;
+    border-right: 1px solid rgba(0,0,0, .08);
+  } @else {
+    margin-left: 5px;
+    padding-left: 5px;
+    border-left: 1px solid rgba(0,0,0, .08);
+  }
+
+  > a {
+    display: block;
+  }
+}
+
+
+.ps-widget--userbar--left {
+  justify-content: flex-start;
+}
+
+
+.ps-widget--userbar--right {
+  justify-content: flex-end;
+}
+
+
+.ps-widget--userbar--center {
+  justify-content: center;
+}
+
+
+.ps-widget--userbar--space {
+  justify-content: space-between;
+}

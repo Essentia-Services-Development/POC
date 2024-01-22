@@ -1,0 +1,362 @@
+# Translation of PeepSo - Paid Memberships Pro Integration in Dutch
+# This file is distributed under the same license as the PeepSo - Paid Memberships Pro Integration package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-02-02 09:21:05+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0\n"
+"Language: nl\n"
+"Project-Id-Version: PeepSo - Paid Memberships Pro Integration\n"
+
+#: peepsopmp.php:783
+msgid "private"
+msgstr ""
+
+#: peepsopmp.php:761
+msgid "Check this to make selected <b>Private PeepSo Groups</b> require this membership level."
+msgstr ""
+
+#: peepsopmp.php:758
+msgid "Require this membeship level"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Memberships and access control for your PeepSo community. Requires the Paid Memberships Pro plugin."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "PeepSo"
+msgstr "PeepSo"
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://peepso.com"
+msgstr "https://peepso.com"
+
+#. Plugin Name of the plugin/theme
+msgid "PeepSo Monetization: Paid Memberships Pro"
+msgstr "PeepSo Monetisatie: Paid Memberships Pro"
+
+#: templates/pmp/pmp_levels.php:34
+msgid "Select"
+msgstr "Selecteer"
+
+#: templates/pmp/pmp_levels.php:21
+msgid "Free"
+msgstr "Gratis"
+
+#: templates/pmp/pmp_levels.php:5
+msgid "Price"
+msgstr "Prijs"
+
+#: templates/pmp/pmp_levels.php:4
+msgid "Level"
+msgstr "Niveau"
+
+#: templates/pmp/pmp_checkout.php:743
+msgid "Processing..."
+msgstr "Wordt verwerkt..."
+
+#: templates/pmp/pmp_checkout.php:733
+msgid "Submit and Confirm"
+msgstr "Indienen en bevestigen"
+
+#: templates/pmp/pmp_checkout.php:733
+msgid "Submit and Check Out"
+msgstr "Indienen en Check Out"
+
+#: templates/pmp/pmp_checkout.php:721
+msgid "Complete Payment"
+msgstr "Betaling afronden"
+
+#: templates/pmp/pmp_checkout.php:701
+msgid "I agree to the %s"
+msgstr "Ik ga akkoord met de %s"
+
+#: templates/pmp/pmp_checkout.php:613
+msgid "what's this?"
+msgstr "wat is dit?"
+
+#: templates/pmp/pmp_checkout.php:612
+msgid "CVV"
+msgstr "CVV"
+
+#: templates/pmp/pmp_checkout.php:579
+msgid "Expiration Date"
+msgstr "Vervaldatum"
+
+#: templates/pmp/pmp_checkout.php:574
+msgid "Card Number"
+msgstr "Kaartnummer"
+
+#: templates/pmp/pmp_checkout.php:531
+msgid "Card Type"
+msgstr "Kaarttype"
+
+#: templates/pmp/pmp_checkout.php:508
+msgid "We Accept %s"
+msgstr "Wij accepteren %s"
+
+#: templates/pmp/pmp_checkout.php:507
+msgid "Payment Information"
+msgstr "Betalingsgegevens"
+
+#: templates/pmp/pmp_checkout.php:470
+msgid "Confirm Email"
+msgstr ""
+
+#: templates/pmp/pmp_checkout.php:447
+msgid "Phone"
+msgstr "Telefoon"
+
+#: templates/pmp/pmp_checkout.php:422
+msgid "Country"
+msgstr "Land"
+
+#: templates/pmp/pmp_checkout.php:369
+msgid "City, State Zip"
+msgstr "Stad, Staatscode"
+
+#: templates/pmp/pmp_checkout.php:360
+msgid "Postal Code"
+msgstr "Postcode"
+
+#: templates/pmp/pmp_checkout.php:356
+msgid "State"
+msgstr "Staat"
+
+#: templates/pmp/pmp_checkout.php:352
+msgid "City"
+msgstr "Stad"
+
+#: templates/pmp/pmp_checkout.php:342
+msgid "Address 2"
+msgstr "Adres 2"
+
+#: templates/pmp/pmp_checkout.php:338
+msgid "Address 1"
+msgstr "Adres 1"
+
+#: templates/pmp/pmp_checkout.php:334
+msgid "Last Name"
+msgstr "Achternaam"
+
+#: templates/pmp/pmp_checkout.php:330
+msgid "First Name"
+msgstr "Voornaam"
+
+#: templates/pmp/pmp_checkout.php:323
+msgid "Billing Address"
+msgstr "Factuuradres"
+
+#: templates/pmp/pmp_checkout.php:306
+msgid "Check Out with PayPal"
+msgstr "Uitchecken met PayPal"
+
+#: templates/pmp/pmp_checkout.php:302
+msgid "Check Out with a Credit Card Here"
+msgstr "Hier uitchecken met kredietkaart"
+
+#: templates/pmp/pmp_checkout.php:293
+msgid "Choose your Payment Method"
+msgstr "Kies uw betalingsmethode"
+
+#: templates/pmp/pmp_checkout.php:277
+msgid "You are logged in as <strong>%s</strong>."
+msgstr "U bent ingelogd als <strong>%s</strong>."
+
+#: templates/pmp/pmp_checkout.php:253
+msgid "LEAVE THIS BLANK"
+msgstr "LAAT DIT VAK LEEG"
+
+#: templates/pmp/pmp_checkout.php:252
+msgid "Full Name"
+msgstr "Volledige naam"
+
+#: templates/pmp/pmp_checkout.php:233
+msgid "Confirm Email Address"
+msgstr ""
+
+#: templates/pmp/pmp_checkout.php:224 templates/pmp/pmp_checkout.php:461
+msgid "Email Address"
+msgstr ""
+
+#: templates/pmp/pmp_checkout.php:206
+msgid "Confirm Password"
+msgstr "Bevestig wachtwoord"
+
+#: templates/pmp/pmp_checkout.php:197
+msgid "Password"
+msgstr "Wachtwoord"
+
+#: templates/pmp/pmp_checkout.php:188
+msgid "Username"
+msgstr "Gebruikersnaam"
+
+#: templates/pmp/pmp_checkout.php:180
+msgid "Log in here"
+msgstr "Log hier in"
+
+#: templates/pmp/pmp_checkout.php:180
+msgid "Already have an account?"
+msgstr "Heb je al een account?"
+
+#: templates/pmp/pmp_checkout.php:179
+msgid "Account Information"
+msgstr "Accountgegevens"
+
+#: templates/pmp/pmp_checkout.php:91 templates/pmp/pmp_checkout.php:623
+msgid "Apply"
+msgstr "Toepassen"
+
+#: templates/pmp/pmp_checkout.php:79 templates/pmp/pmp_checkout.php:89
+#: templates/pmp/pmp_checkout.php:621
+msgid "Discount Code"
+msgstr "Kortingscode"
+
+#: templates/pmp/pmp_checkout.php:77
+msgid "Click here to enter your discount code"
+msgstr "Klik hier om uw kortingscode in te voeren"
+
+#: templates/pmp/pmp_checkout.php:77
+msgid "Do you have a discount code?"
+msgstr "Heb je een kortingscode?"
+
+#: templates/pmp/pmp_checkout.php:75
+msgid "Click here to change your discount code"
+msgstr "Klik hier om uw kortingscode te wijzigen"
+
+#: templates/pmp/pmp_checkout.php:64
+msgid "<p class=\"pmpro_level_discount_applied\">The <strong>%s</strong> code has been applied to your order.</p>"
+msgstr "<p class=\"pmpro_level_discount_applied\"> de <strong>%s</strong>-code is toegepast op uw bestelling.</p>"
+
+#: templates/pmp/pmp_checkout.php:54
+msgid "You have selected the <strong>%s</strong> membership level."
+msgstr "U hebt het <strong>%s</strong> lidmaatschapsniveau geselecteerd."
+
+#: templates/pmp/pmp_checkout.php:46
+msgid "change"
+msgstr "wijzigen"
+
+#: templates/pmp/pmp_checkout.php:45
+msgid "Membership Level"
+msgstr "Lidmaatschapsniveau"
+
+#: templates/pmp/pmp_checkout.php:38
+msgid "Almost done. Review the membership information and pricing below then <strong>click the \"Complete Payment\" button</strong> to finish your order."
+msgstr "Bijna klaar. Bekijk de lidmaatschapsinformatie en prijzen hieronder en vervolgens <strong>klikt u op de knop \"volledige betaling\"</strong> om uw bestelling te verwerken."
+
+#: peepsopmp.php:861
+msgid "unpublished"
+msgstr "niet gepubliceerd"
+
+#: peepsopmp.php:854
+msgid "No Icon"
+msgstr "Geen pictogram"
+
+#: peepsopmp.php:841
+msgid "Automatically assign users a selected VIP icon who pick this membership level"
+msgstr "Wijs automatisch een VIP-icoon toe aan gebruikers die dit lidmaatschapsniveau kiezen"
+
+#: peepsopmp.php:840
+msgid "PeepSo VIP"
+msgstr "PeepSo VIP"
+
+#: peepsopmp.php:784
+msgid "secret"
+msgstr "geheim"
+
+#: peepsopmp.php:782
+msgid "open"
+msgstr "open"
+
+#: peepsopmp.php:765
+msgid "Automatically add users who pick this membership level to the following groups."
+msgstr "Automatisch gebruikers met dit lidmaatschapsniveau aan de volgende groepen toevoegen."
+
+#: peepsopmp.php:755
+msgid "PeepSo Groups"
+msgstr "PeepSo Groepen"
+
+#: peepsopmp.php:656
+msgid "Done"
+msgstr ""
+
+#: peepsopmp.php:480
+msgid "PeepSo PMP Integration"
+msgstr "PeepSo PMP integratie"
+
+#: peepsopmp.php:477
+msgid "PMP"
+msgstr "PMP"
+
+#: peepsopmp.php:433
+msgid "Get it now!"
+msgstr "Haal het nu!"
+
+#: peepsopmp.php:431
+msgid "The %s plugin requires the PeepSo plugin to be installed and activated."
+msgstr "De plugin %s vereist dat de PeepSo plugin wordt geïnstalleerd en geactiveerd."
+
+#: peepsopmp.php:139
+msgid "Membership"
+msgstr "Lidmaatschap"
+
+#: classes/configsectionpmpintegration.php:99
+msgid "General"
+msgstr "Algemeen"
+
+#: classes/configsectionpmpintegration.php:91
+msgid "Strict group memberships (BETA)"
+msgstr "Strikte groepslidmaatschappen (BETA)"
+
+#: classes/configsectionpmpintegration.php:87
+msgid "When enabled, users who lose access to a membership level will be removed from all groups assigned to this membership level"
+msgstr "Wanneer ingeschakeld, zullen gebruikers die de toegang tot een lidmaatschapsniveau verliezen worden verwijderd uit alle groepen die zijn toegewezen aan dit lidmaatschapsniveau"
+
+#: classes/configsectionpmpintegration.php:81
+msgid "User Login State Handler"
+msgstr "Gebruiker login State Handler"
+
+#: classes/configsectionpmpintegration.php:76
+msgid "How would you like to handle the user login state while choosing a membership level? This setting is related to an issue introduced in PMP 2.4.1"
+msgstr "Hoe wil je de gebruikers login status behandelen bij het kiezen van een lidmaatschapsniveau? Deze instelling is gerelateerd aan een probleem dat is ingevoerd in PMP 2.4.1"
+
+#: classes/configsectionpmpintegration.php:72
+msgid "Session"
+msgstr "Sessie"
+
+#: classes/configsectionpmpintegration.php:71
+msgid "Cookie"
+msgstr "Cookie"
+
+#: classes/configsectionpmpintegration.php:65
+msgid "Hide \"Membership\" tab in user profiles"
+msgstr "Verberg \"Lidmaatschap\" tabblad in gebruikersprofielen"
+
+#: classes/configsectionpmpintegration.php:59
+msgid "Enable email notifications for users that have no membership plans"
+msgstr "Meldingen via e-mail inschakelen voor gebruikers die geen lidmaatschapsplan hebben"
+
+#: classes/configsectionpmpintegration.php:53
+msgid "Force complete membership for users that have no membership plans"
+msgstr ""
+
+#: classes/configsectionpmpintegration.php:46
+msgid "Enable integration upon PeepSo registration"
+msgstr ""
+
+#: classes/configsectionpmpintegration.php:39
+msgid "Enable PMP Integration"
+msgstr "Inschakelen van PMP integratie"
+
+#: classes/configsectionpmpintegration.php:30
+msgid "Turn on the use of PMP Integration"
+msgstr "Inschakelen van het gebruik van PMP integratie"
+
+#: classes/configsectionpmpintegration.php:25
+msgid "Configure the use of PeepSo PMP Integration."
+msgstr "Het gebruik van PeepSo PMP integratie configureren."

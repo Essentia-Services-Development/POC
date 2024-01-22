@@ -1,0 +1,434 @@
+# Translation of PeepSo - Friends in Esperanto
+# This file is distributed under the same license as the PeepSo - Friends package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-08-02 09:15:19+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0\n"
+"Language: eo\n"
+"Project-Id-Version: PeepSo - Friends\n"
+
+#: peepsofriends.php:220
+msgid "Posts from your friends"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "PeepSo"
+msgstr "PeepSo"
+
+#. Description of the plugin/theme
+msgid "Friend connections and \"friends\" privacy level"
+msgstr "Kunligo de amikoj kaj nivelo de privateco de \"amikoj\""
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://peepso.com"
+msgstr "https://peepso.com"
+
+#. Plugin Name of the plugin/theme
+msgid "PeepSo Core: Friends"
+msgstr "Peepso kerno: amikoj"
+
+#: templates/widgets/friendsbirthday.tpl.php:117
+msgid "No upcoming birthdays."
+msgstr "Neniuj venontaj naskiĝtagoj."
+
+#: templates/widgets/friendsbirthday.tpl.php:100
+msgid "Birthday tomorrow."
+msgid_plural "Birthday in %s days.</span>"
+msgstr[0] "Naskiĝtago morgaŭ."
+msgstr[1] "Naskiĝtago post %s tagoj.</span>"
+
+#: templates/widgets/friendsbirthday.tpl.php:67
+#: templates/widgets/friendsbirthday.tpl.php:116
+msgid "Upcoming Birthday"
+msgstr "Venontaj naskiĝtagoj"
+
+#: templates/widgets/friendsbirthday.tpl.php:55
+msgid "No friends' birthdays today."
+msgstr "Neniuj amikaj naskiĝtagoj hodiaŭ."
+
+#: templates/widgets/friendsbirthday.tpl.php:39
+msgid "Say Happy Birthday!"
+msgstr "Diru bonan naskiĝtagon!"
+
+#: templates/widgets/friendsbirthday.tpl.php:21
+#: templates/widgets/friendsbirthday.tpl.php:54
+msgid "Birthday Today"
+msgstr "Naskiĝtago hodiaŭ"
+
+#: templates/widgets/friends.tpl.php:49
+#: templates/widgets/mutual-friends.tpl.php:40
+msgid "No friends"
+msgstr "Neniuj amikoj"
+
+#: templates/widgets/friends.tpl.php:41
+msgid "View All"
+msgstr "Vidi ĉiujn"
+
+#: templates/messages/list-header.php:2
+msgid "New message"
+msgstr "Nova mesaĝo"
+
+#: templates/friends/submenu.php:17
+msgid "Friend requests"
+msgstr "Amikiĝpetoj"
+
+#: templates/friends/pending.php:39
+msgid "Sent requests"
+msgstr "Senditaj petoj"
+
+#: templates/friends/pending.php:20
+msgid "Received requests"
+msgstr "Ricevitaj petoj"
+
+#: templates/friends/notification-popover-item.php:41
+msgid "Approve"
+msgstr "Aprobi"
+
+#: templates/friends/notification-popover-item.php:35
+msgid "Ignore"
+msgstr "Ignori"
+
+#: templates/friends/notification-popover-header.php:3
+msgid "Search friends"
+msgstr "Serĉi amikojn"
+
+#: templates/friends/dialog-remove-friend.php:1
+msgid "Are you sure want to remove a friend?"
+msgstr "Ĉu vi certas ke vi volas forigi amikon?"
+
+#: peepsofriends.php:820
+msgid "Someone sent me a friend request"
+msgstr "Iu sendis al mi amikiĝpeton"
+
+#: peepsofriends.php:702
+msgid "Add as your friend"
+msgstr "Aldoni kiel vian amikon"
+
+#: peepsofriends.php:697
+msgid "Add Friend"
+msgstr "Aldoni amikon"
+
+#: peepsofriends.php:684
+msgid "Friends limit reached"
+msgstr "Amika limo atingita"
+
+#: peepsofriends.php:646
+msgid "Reject Request"
+msgstr "Rifuzi peton"
+
+#: peepsofriends.php:641
+msgid "Reject"
+msgstr "Rifuzi"
+
+#: peepsofriends.php:635
+msgid "Accept Request"
+msgstr "Akcepti peton"
+
+#: peepsofriends.php:630
+msgid "Accept"
+msgstr "Akcepti"
+
+#: peepsofriends.php:615 peepsofriends.php:620
+msgid "Cancel Friend Request"
+msgstr "Nuligi amikiĝpeton"
+
+#: peepsofriends.php:604
+msgid "Unfriend"
+msgstr "Eksamikigi"
+
+#: peepsofriends.php:602
+msgid "Remove friend"
+msgstr "Forigi amikon"
+
+#: peepsofriends.php:597
+msgid "Friend"
+msgstr "Amiko"
+
+#: peepsofriends.php:537 templates/friends/dialog-remove-friend.php:10
+msgid "Cancel"
+msgstr "Nuligi"
+
+#: peepsofriends.php:535
+msgid "Are you sure?"
+msgstr "Ĉu vi certas?"
+
+#: peepsofriends.php:534 peepsofriends.php:536
+#: templates/friends/dialog-remove-friend.php:7
+#: templates/friends/dialog-remove-friend.php:14
+msgid "Remove Friend"
+msgstr "Forigi amikon"
+
+#: peepsofriends.php:439
+msgid "Friends Only"
+msgstr "Nur amikoj"
+
+#: peepsofriends.php:308
+msgid "Get it now!"
+msgstr "Akiru ĝin nun!"
+
+#: peepsofriends.php:306
+msgid "The %s plugin requires the PeepSo plugin to be installed and activated."
+msgstr "La %s kromprogramo bezonas ke la PeepSo kromprogramo estas instalita kaj aktivigita."
+
+#: peepsofriends.php:180
+msgid "Pending friend requests"
+msgstr "Atendantaj amikiĝpetoj"
+
+#: install/activate.php:86 peepsofriends.php:366 peepsofriends.php:367
+#: templates/friends/notification-popover-header.php:1
+msgid "Friend Requests"
+msgstr "Amikiĝpetoj"
+
+#: classes/widgets/widgetmutualfriends.php:16
+msgid "PeepSo Mutual Friends Widget"
+msgstr "PeepSo komunaj amikaj kromprogrameto"
+
+#: classes/widgets/widgetmutualfriends.php:15
+msgid "PeepSo Mutual Friends"
+msgstr "PeepSo komunaj amikoj"
+
+#: classes/widgets/widgetfriendsbirthday.php:204
+msgid "Max number of upcoming birthdays to show:"
+msgstr "Maksimumaj venontaj naskiĝtagoj por montri:"
+
+#: classes/widgets/widgetfriendsbirthday.php:189
+msgid "How many days ahead?"
+msgstr "Post kiom da tagoj?"
+
+#: classes/widgets/widgetfriendsbirthday.php:184
+msgid "Show upcoming birthdays"
+msgstr "Montri venontajn naskiĝtagojn"
+
+#: classes/widgets/widgetfriendsbirthday.php:178
+msgid "Upcoming Birthdays"
+msgstr "Venontaj naskiĝtagoj"
+
+#: classes/widgets/widgetfriendsbirthday.php:175
+msgid "Hide if empty"
+msgstr "Kaŝi se malplena"
+
+#: classes/widgets/widgetfriendsbirthday.php:165
+msgid "Title"
+msgstr "Titolo"
+
+#: classes/widgets/widgetfriendsbirthday.php:162
+msgid "General Settings"
+msgstr "Ĉefaj agordoj"
+
+#: classes/widgets/widgetfriendsbirthday.php:149
+msgid "Upcoming Friends Birthdays"
+msgstr "Venontaj amikaj naskiĝtagoj"
+
+#: classes/widgets/widgetfriendsbirthday.php:15
+msgid "PeepSo Friends Birthday Widget"
+msgstr "PeepSo amikaj naskiĝtagaj kromprogrameto"
+
+#: classes/widgets/widgetfriendsbirthday.php:14
+msgid "PeepSo Friends Birthday"
+msgstr "PeepSo amikaj naskiĝtagoj"
+
+#: classes/widgets/widgetfriends.php:132
+msgid "My Friends"
+msgstr "Miaj amikoj"
+
+#: classes/widgets/widgetfriends.php:18
+msgid "PeepSo Friends Widget"
+msgstr "PeepSo amikaj kromprogrameto"
+
+#: classes/widgets/widgetfriends.php:17
+msgid "PeepSo Friends"
+msgstr "PeepSo amikoj"
+
+#: classes/userautofriends.php:172
+msgid "The user has been successfully added."
+msgstr "La uzanto estis sukcese aldonita."
+
+#: classes/userautofriends.php:121
+msgid "The user has been successfully removed."
+msgstr "La uzanto estis sukcese forigita."
+
+#: classes/userautofriends.php:92
+msgid "The user is now friends with all other users."
+msgstr "La uzanto nun amikiĝis kun ĉiuj aliaj uzantoj."
+
+#: classes/userautofriends.php:86 classes/userautofriends.php:115
+#: classes/userautofriends.php:166
+msgid "Could not verify nonce."
+msgstr "Ne povis validigi nonce-on."
+
+#: classes/userautofriends.php:53
+msgid "1 item"
+msgid_plural "%s items"
+msgstr[0] "1 aĵo"
+msgstr[1] "%s aĵoj"
+
+#: classes/userautofriends.php:15 classes/userautofriends.php:80
+#: classes/userautofriends.php:109 classes/userautofriends.php:138
+#: classes/userautofriends.php:160
+msgid "Insufficient permissions."
+msgstr "Mankas permesoj."
+
+#: classes/friendsrequests.php:555 classes/friendsrequests.php:565
+msgid "Friend Request Ignored"
+msgstr "Amikiĝpeto ignorita"
+
+#: classes/friendsrequests.php:545
+msgid "Friend Request Denied"
+msgstr "Amikiĝpeto rifuzita"
+
+#: classes/friendsrequests.php:520
+msgid "accepted your friend request"
+msgstr "akceptis vian amikiĝpeton"
+
+#: classes/friendsrequests.php:502 classes/friendsrequests.php:509
+msgid "%s accepted your friend request"
+msgstr "%s akceptis vian amikiĝpeton"
+
+#: classes/friendsrequests.php:475 classes/friendsrequests.php:482
+msgid "New Friend Request from %s"
+msgstr "Nova amikiĝpeto de %s"
+
+#: classes/friendsrequests.php:286 classes/friendsshortcode.php:145
+#: peepsofriends.php:862
+msgid " mutual friend"
+msgid_plural " mutual friends"
+msgstr[0] "komuna amiko"
+msgstr[1] " komunaj amikoj"
+
+#: classes/friendsrequests.php:72 classes/friendsrequests.php:104
+#: classes/friendsrequests.php:142
+msgid "You do not have enough permissions."
+msgstr "Vi ne havas sufiĉajn permesojn."
+
+#: classes/friendsrequests.php:58
+msgid "[FRIENDS] request already sent"
+msgstr "[AMIKOJ] peto jam sendita"
+
+#: classes/friendspostswidget.php:17
+msgid "This will select up to 5 posts, displaying the most recent post by each of up to five users that are friends."
+msgstr "Ĉi tio elektos ĝis 5 afiŝojn, montrante la plej novajn afiŝojn el ĝis 5 uzantoj kiuj estas amikoj."
+
+#: classes/friendspostswidget.php:16
+msgid "Friends Posts"
+msgstr "Afiŝoj de amikoj"
+
+#: classes/friendsconfig.php:82
+msgid "This will be sent to a user when a friend request is accepted."
+msgstr "Ĉi tiu estos sendita al uzanto kiam amikiĝpeto estas akceptita."
+
+#: classes/friendsconfig.php:81
+msgid "Friend Request Accepted"
+msgstr "Amikiĝpeto akceptita"
+
+#: classes/friendsconfig.php:77
+msgid "This will be sent to a user when a friend request is received."
+msgstr "Ĉi tiu estos sendita al uzanto kiam amikiĝpeto estas ricevita."
+
+#: classes/friendsconfig.php:76
+msgid "Friend Request Received"
+msgstr "Amikiĝpeto ricevita"
+
+#: classes/friendsconfig.php:60
+msgid "Friends Settings"
+msgstr "Amikaj agordoj"
+
+#: classes/friendsconfig.php:40
+msgid "Members can send messages to"
+msgstr "Membroj povas sendi mesaĝojn al"
+
+#: classes/friendsajax.php:292 classes/widgets/widgetmutualfriends.php:109
+msgid "Mutual Friends"
+msgstr "Komunaj amikoj"
+
+#: classes/friendsajax.php:247
+msgid "%s has no friends yet"
+msgstr "%s ankoraŭ ne havas amikojn"
+
+#: classes/friendsajax.php:247
+msgid "You have no friends yet"
+msgstr "Vi ankoraŭ ne havas amikojn"
+
+#: classes/friendsajax.php:187 templates/friends/pending.php:33
+msgid "You currently have no friend requests"
+msgstr "Vi nuntempe ne havas amikiĝpeton"
+
+#: classes/friendsajax.php:46 classes/friendsajax.php:117 peepsofriends.php:675
+msgid "%s already has %d friends"
+msgstr "%s jam havas %d amikojn"
+
+#: classes/friendsajax.php:44 classes/friendsajax.php:119 peepsofriends.php:673
+msgid "You already have %d friends"
+msgstr "Vi jam havas %d amikojn"
+
+#: classes/admin/userautofriendslisttable.php:224
+msgid "user"
+msgid_plural "users"
+msgstr[0] "uzanto"
+msgstr[1] "uzantoj"
+
+#: classes/admin/userautofriendslisttable.php:218
+msgid "removed"
+msgstr "forigita"
+
+#: classes/admin/userautofriendslisttable.php:212
+msgid "befriend"
+msgstr "amikiĝi kun"
+
+#: classes/admin/userautofriendslisttable.php:167
+msgid "Remove from list autofriends creation."
+msgstr "Forigi de listo de kreado de aŭtomataj amikiĝoj."
+
+#: classes/admin/userautofriendslisttable.php:166
+#: classes/admin/userautofriendslisttable.php:192
+msgid "Remove"
+msgstr "Forigi"
+
+#: classes/admin/userautofriendslisttable.php:163
+msgid "Befriend All users."
+msgstr "Amikiĝi kun ĉiuj uzantoj."
+
+#: classes/admin/userautofriendslisttable.php:162
+#: classes/admin/userautofriendslisttable.php:191
+msgid "Befriend All Users"
+msgstr "Amikiĝi kun ĉiuj uzantoj"
+
+#: classes/admin/userautofriendslisttable.php:90
+msgid "Actions"
+msgstr "Agoj"
+
+#: classes/admin/userautofriendslisttable.php:89 install/activate.php:81
+#: peepsofriends.php:218 peepsofriends.php:571 peepsofriends.php:574
+#: peepsofriends.php:817 peepsofriends.php:882 peepsofriends.php:910
+#: templates/friends/submenu.php:9
+msgid "Friends"
+msgstr "Amikoj"
+
+#: classes/admin/userautofriendslisttable.php:88
+msgid "Name"
+msgstr "Nomo"
+
+#: classes/admin/configsectionfriends.php:92
+msgid "Auto Friends"
+msgstr "Aŭtomata amikiĝo"
+
+#: classes/admin/configsectionfriends.php:63
+msgid "Adding a user to the list below will automatically create friendship between that user and any newly registered user. It will not create friendships between this user and already existing ones. <br> To create missing friendship connections, please use the button on the right. Once clicked it'll add that user as friends to everyone else in your PeepSo community. <br> Removing user from the list below will <strong>NOT</strong> remove existing friendship connections. "
+msgstr "Aldoni uzanton al la suba listo aŭtomate kreos amikecon inter tiu uzanto kaj iu nove registrita uzanto. Ĝi ne kreos amikecojn inter ĉi tiu uzanto kaj jam ekzistantaj.<br> Por krei amikecajn rilatojn mankantajn, bonvolu uzi la dekstran butonon. Alklakite, ĝi aldonos tiun uzanton kiel amikon kun ĉiuj aliaj en via PeepSo komunumo. <br> Forigo de uzanto de la suba listo <strong>NE</strong> forigos ekzistantajn amikecajn rilatojn. "
+
+#: classes/admin/configsectionfriends.php:57
+msgid "search"
+msgstr "serĉi"
+
+#: classes/admin/configsectionfriends.php:35
+#: classes/admin/configsectionfriends.php:42
+msgid "Maximum amount of friends"
+msgstr "Maksimuma nombro de amikoj"
+
+#: classes/admin/configsectionfriends.php:32
+msgid "Too many friendships can result in degraded performance for the user. Limit of friends applies to all users, including the administrators."
+msgstr "Tro da amikoj povas rezulti en degrado de rendimento por la uzanto. Limigo de amikoj aplikas al ĉiuj uzantoj, inkluzive al administrantoj."

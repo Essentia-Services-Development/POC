@@ -1,0 +1,98 @@
+/* This applied only when FAQs Module on KB Main Page does not have any category assigned */
+/**
+ * Notifications on the frontend for logged in users with correct access that are hidden for other users
+ * (use '!important' to insure any extra frontend styles are ignored for this particular content)
+ */
+/*
+justify-content:
+ - flex-start
+ - flex-end
+ - center
+ - space-between
+ - space-around
+ - space-evenly
+align-items:
+ - stretch
+ - flex-start
+ - flex-end
+ - center
+ - baseline
+ */
+@keyframes spin {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(360deg); } }
+/*
+start   - aligns items to be flush with the start edge of their cell
+end     - aligns items to be flush with the end edge of their cell
+center  - aligns items in the center of their cell
+stretch - fills the whole height of the cell (this is the default)
+ */
+#epkb-modular-main-page-container #eckb-kb-faqs-not-assigned {
+  display: block !important;
+  margin: 0 20px  !important;
+  padding: 20px  !important;
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: rgba(149, 157, 165, 0.3) 0px 8px 24px; }
+  #epkb-modular-main-page-container #eckb-kb-faqs-not-assigned .eckb-kb-faqs-not-assigned-title {
+    text-align: left !important;
+    font-size: 20px; }
+  #epkb-modular-main-page-container #eckb-kb-faqs-not-assigned .eckb-kb-faqs-not-assigned-body {
+    margin-left: 20px !important; }
+    #epkb-modular-main-page-container #eckb-kb-faqs-not-assigned .eckb-kb-faqs-not-assigned-body p {
+      padding: 10px 0; }
+    #epkb-modular-main-page-container #eckb-kb-faqs-not-assigned .eckb-kb-faqs-not-assigned-body a.eckb-kb-faqs-not-assigned-btn {
+      display: inline-block;
+      height: fit-content;
+      background-color: #2EA3F2;
+      padding: 10px;
+      position: relative;
+      font-family: 'Open Sans', sans-serif;
+      font-size: 12px;
+      text-align: center;
+      text-decoration: none;
+      color: #fff;
+      border: solid 1px #186f8f;
+      background-image: linear-gradient(bottom, #2EA3F2, #3EB8E5);
+      background-image: -o-linear-gradient(bottom, #2EA3F2, #3EB8E5);
+      background-image: -moz-linear-gradient(bottom, #2EA3F2, #3EB8E5);
+      background-image: -webkit-linear-gradient(bottom, #2EA3F2, #3EB8E5);
+      background-image: -ms-linear-gradient(bottom, #2EA3F2, #3EB8E5);
+      background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #2EA3F2), color-stop(1, #3EB8E5));
+      border-radius: 5px;
+      box-shadow: inset 0px 1px 0px #7FD2F1, 0px 1px 0px #fff; }
+      #epkb-modular-main-page-container #eckb-kb-faqs-not-assigned .eckb-kb-faqs-not-assigned-body a.eckb-kb-faqs-not-assigned-btn a {
+        text-decoration: none; }
+      #epkb-modular-main-page-container #eckb-kb-faqs-not-assigned .eckb-kb-faqs-not-assigned-body a.eckb-kb-faqs-not-assigned-btn:hover {
+        cursor: pointer;
+        background-image: linear-gradient(bottom, #0e8bdf, #3EB8E5);
+        background-image: -o-linear-gradient(bottom, #0e8bdf, #3EB8E5);
+        background-image: -moz-linear-gradient(bottom, #0e8bdf, #3EB8E5);
+        background-image: -webkit-linear-gradient(bottom, #0e8bdf, #3EB8E5);
+        background-image: -ms-linear-gradient(bottom, #0e8bdf, #3EB8E5);
+        background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #0e8bdf), color-stop(1, #3EB8E5));
+        border-radius: 5px; }
+      #epkb-modular-main-page-container #eckb-kb-faqs-not-assigned .eckb-kb-faqs-not-assigned-body a.eckb-kb-faqs-not-assigned-btn:focus {
+        outline: 0; }
+  #epkb-modular-main-page-container #eckb-kb-faqs-not-assigned .eckb-kb-faqs-not-assigned-footer {
+    margin-left: 20px !important; }
+    #epkb-modular-main-page-container #eckb-kb-faqs-not-assigned .eckb-kb-faqs-not-assigned-footer p {
+      margin-top: 25px !important;
+      font-size: 16px !important;
+      font-family: Nunito,sans-serif !important;
+      font-style: italic !important; }
+    #epkb-modular-main-page-container #eckb-kb-faqs-not-assigned .eckb-kb-faqs-not-assigned-footer span {
+      font-size: 16px !important;
+      font-family: Nunito,sans-serif !important;
+      font-style: italic !important; }
+    #epkb-modular-main-page-container #eckb-kb-faqs-not-assigned .eckb-kb-faqs-not-assigned-footer a {
+      color: #2ea3f2 !important;
+      font-size: 16px !important;
+      font-family: Nunito,sans-serif !important;
+      font-style: italic !important; }
+      #epkb-modular-main-page-container #eckb-kb-faqs-not-assigned .eckb-kb-faqs-not-assigned-footer a:hover {
+        color: #0e8bdf !important;
+        text-decoration: underline !important;
+        text-decoration-color: #0e8bdf !important; }

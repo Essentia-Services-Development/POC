@@ -1,0 +1,73 @@
+.ps-postbox__poll {}
+
+.ps-postbox__poll-inner {}
+
+.ps-postbox__poll-container {}
+
+.ps-postbox__poll-options {
+  padding: var(--PADD);
+}
+
+.ps-postbox__poll-option {
+  display: flex;
+  margin-bottom: var(--PADD--SM);
+
+  @if $comp_mode {
+    &.form-group {
+      padding-bottom: 0;
+      margin-bottom: var(--PADD--SM);
+    }
+  }
+
+  > .ps-input {
+    margin-left: var(--PADD--SM);
+    margin-right: var(--PADD--SM);
+  }
+
+  .ps-btn--delete {
+    opacity: .5;
+    cursor: not-allowed;
+  }
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  &:first-child:nth-last-child(n+3),
+  &:first-child:nth-last-child(n+3) ~ .ps-postbox__poll-option {
+    .ps-btn--delete {
+      opacity: 1;
+      cursor: pointer;
+    }
+  }
+}
+
+.ps-postbox__poll-actions {
+  padding: var(--PADD);
+  border-top: 1px dashed var(--DIVIDER);
+  border-bottom: 1px solid var(--DIVIDER--LIGHT);
+
+  .ps-checkbox {
+    font-size: 80%;
+  }
+
+  @include mq($until: desktop) {
+    .ps-btn {
+      width: 100%;
+      margin-bottom: var(--PADD);
+    }
+  }
+
+  @include mq($from: desktop) {
+    display: flex;
+    align-items: center;
+
+    .ps-btn {
+      @if $rtl {
+        margin-left: var(--PADD);
+      } @else {
+        margin-right: var(--PADD);
+      }
+    }
+  }
+}

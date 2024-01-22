@@ -1,0 +1,258 @@
+.toolbar {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom:30px;
+    z-index: 9999;
+    cursor: default;
+}
+ a#viewBookmark {
+    display: none ;
+  }
+
+.secondaryToolbar {
+    bottom:0px !important;
+    top:0px!important;
+}
+
+.tnc-pdf-back-to-btn {
+    bottom:80px !important;
+}
+#viewerContainer {
+    top: 30px;
+    bottom: 100px !important;
+    
+} 
+
+html[dir="ltr"] #outerContainer.sidebarOpen #sidebarContainer {
+    bottom: 53px !important;
+}
+
+html[dir="ltr"] .findbar {
+    left: 64px;
+    bottom: 60px !important;
+    top: unset;
+}
+
+.doorHanger:before {
+    bottom:-20px !important;
+    transform: rotate(183deg);
+}
+
+#toolbarContainer {
+    width: 100%;
+    max-width: 800px;
+    width:800px;
+    margin: auto;
+    text-align: center;
+    padding: 5px 10px;
+    border-radius:0px;
+}
+
+.toolbarButtonSpacer {
+    width:5px !important;
+}
+
+.logo_block {
+    display: none;
+}
+
+#toolbarViewerMiddle {
+    position: absolute;
+    left: 52%;
+    transform: translateX(-43%);
+}
+
+#tnc-share {
+    left:33%;
+}
+html[dir="ltr"] #outerContainer.sidebarOpen #sidebarContainer {
+    bottom: 0px !important;
+    width: 209px;
+    top:0px !important;
+} 
+
+/**Viewer Media Query**/
+
+@media only screen and (max-width:990px) {
+    .splitToolbarButton.hiddenSmallView {
+        display: none !important;
+    }
+
+    span#scaleSelectContainer {
+        display: none !important;
+    }
+    button#presentationMode {
+        display: none !important;
+    }
+
+    button#openFile {
+        display: none !important;
+    }
+
+    button#print {
+        display: none !important;
+    }
+
+    /* button#download {
+        display: none !important;
+    } */
+
+    /* a#viewBookmark {
+        display: none !important;
+    } */
+
+    .verticalToolbarSeparator.hiddenSmallView {
+        display: none !important;
+    }
+
+    #toolbarContainer {
+        width:400px;
+    }
+    #toolbarViewerMiddle {
+       left:56%;
+    }
+    .tnc-pdf-back-to-btn {
+        display:none;
+    }
+
+  }
+
+  @media only screen and (max-width:700px) {
+    #toolbarViewerMiddle {
+        left:60%;
+     }
+  }
+
+   
+  @media only screen and (max-width:440px) {
+    #toolbarContainer {
+        width:290px;
+    }
+
+    button#viewFind {
+        display: none !important;
+    } 
+
+    #toolbarViewerMiddle {
+        left: 67%;
+    }
+
+  }
+
+  @media only screen and (max-width:365px) {
+    #toolbarViewerMiddle {
+        left: 71%;
+    }
+  }
+
+  div#secondaryToolbar {
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 2), screen and (min-resolution: 2dppx) {
+    .findbar {
+    top: unset !important;
+    }
+    .toolbar-bottom-center.icon-large  #toolbarSidebar {
+        margin-top:-8px !important;
+    }
+
+    html[dir="ltr"] .toolbar-bottom-center.icon-large  #sidebarContent {
+        top:53px !important;
+    }
+
+    html[dir="ltr"] .toolbar-bottom-center.icon-small .findbar {
+        left: 25%  !important;
+     } 
+     html[dir="ltr"] .toolbar-bottom-center.icon-medium .findbar {
+        left: 25%  !important;
+     } 
+     html[dir="ltr"] .toolbar-bottom-center.icon-large .findbar {
+        left: 25%  !important;
+     } 
+}
+
+div#findbar::after {
+    width: 0  !important;
+    height: 0  !important;
+    border-left: 10px solid transparent !important;
+    border-right: 10px solid transparent !important;
+    border-top: 15px solid var(--doorhanger-border-color) !important;
+    position: absolute !important;
+    top: 100% !important;
+    right: 10px !important;
+}
+
+
+.toolbar-bottom-center.icon-small  #toolbarContainer {
+    padding: 12px 10px;
+}
+
+.toolbar-bottom-center.icon-medium  #toolbarContainer {
+    padding: 5px 8px;
+}
+
+.toolbar-bottom-center.icon-large  #toolbarContainer {
+    padding: 5px 8px;
+}
+
+html[dir="ltr"] .toolbar-bottom-center.icon-small .findbar {
+    left: 31.5% ;
+    bottom: 97px !important;
+}
+html[dir="ltr"] .toolbar-bottom-center.icon-medium .findbar {
+    left: 31.5%;
+    bottom: 93px !important;
+}
+
+html[dir="ltr"] .toolbar-bottom-center.icon-large .findbar {
+    left: 31.5%;
+    bottom: 102px !important;
+}
+
+
+.toolbar-bottom-center.icon-small #tnc-share {
+    top: -68px !important;
+}
+
+.toolbar-bottom-center.icon-medium #tnc-share {
+    top: -87px !important;
+}
+
+.toolbar-bottom-center.icon-large #tnc-share {
+    top: -95px !important;
+}
+
+.toolbar-bottom-center.icon-large  #toolbarSidebar {
+    margin-top:-15px;
+}
+
+html[dir="ltr"] .toolbar-bottom-center.icon-large  #sidebarContent {
+    top:46px;
+}
+
+/*right toolbar responsive */
+@media only screen and (max-width:1390px) {
+    .secondaryToolbar {
+        bottom: 102px !important;
+        top:unset !important;
+    }
+}
+
+#loadingBar {
+    max-width: 818px;
+    margin: auto;
+    text-align: center;
+    top: -7px;
+}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,109 @@
+/**
+ * Custom theme stylesheet.
+ * @version 1.0
+ * @author Eyal Fitoussi
+ */
+/* GMW PT default search results stylesheet */
+
+.gmw-pt-radius-wrapper {	
+	padding: 3px 5px;
+	background: #f9f9f9;
+	border: 1px solid #ddd;
+	font-size: 11px;
+	text-align: center;
+	display: inline  !important;
+	margin:5px;
+}
+
+div.gmw-results-wrapper .gmw-per-page {
+    margin: 0px 0 0px 5px;
+    float: right;
+    font-size: 12px;
+    padding: 3px;
+    color: #444;
+}
+
+div.gmw-results-wrapper .gmw-per-page{height: auto;}					
+/* pagination */
+
+.gmw-results-wrapper ul.gmw-pagination {
+	float: right;
+	text-align: center;
+	margin:0px;
+	list-style:none;
+	padding:0px;
+}
+
+.gmw-results-wrapper ul.gmw-pagination li  {
+	text-align:center;
+	display: inline-block;
+	margin:0 0 0 2px;
+}
+
+.gmw-results-wrapper ul.gmw-pagination li a, 
+.gmw-results-wrapper ul.gmw-pagination li span {
+	padding: 4px 10px;
+	font-size: 12px;
+	text-decoration: none;
+	background-color: #fff;
+	display: inline-block;
+	color:#1B5A64;
+	line-height: 20px;
+}
+
+.gmw-results-wrapper ul.gmw-pagination li a:hover, 
+.gmw-results-wrapper ul.gmw-pagination li span {
+	background-color: #f7f7f7;
+	color: #000;
+}
+
+@media (max-width: 768px){
+	.gmw-results-wrapper ul.gmw-pagination{float: none !important; text-align: inherit !important;}
+	div.gmw-results-wrapper .gmw-per-page{float: none; margin: 0 0 10px 0}
+	.gmw-results-count{display: block;float: none; margin: 0 0 10px 0}
+}
+
+
+
+
+.rh-gmw-post-list{ padding: 25px; margin-bottom: 15px; border: 1px solid #e3e3e3; background-color: #fff; position: relative; }
+.rh-gmw-post-list, .offer_grid.offer_grid_com{ box-shadow: 0 1px 3px rgba(0,0,0,.16); border: none;}
+.rh-gmw-list-image{width: 140px;  margin: 0 20px 20px 0; padding-right: 20px }
+.rh-gmw-list-image figure{width: 150px; max-width: 140px; height: 140px;border: 1px solid #eee;  padding: 5px; vertical-align: middle; text-align: center; position: relative;display: table-cell; margin-bottom:5px; }
+.rh-gmw-list-image figure img{width: auto; max-height: 128px}
+.rh-gmw-list-desc, .rh-gmw-list-image, .rh-gmw-list-additional{ display: table-cell;vertical-align: top; }
+.rh-gmw-list-desc{padding: 0 20px 0 0}
+.rh-gmw-list-desc h2{font-size: 18px; line-height: 22px; margin: 0 0 10px 0}
+.rh-gmw-list-desc h2 a{color: #111 !important}
+.rh-gmw-list-desc p{margin-bottom: 15px; line-height: 20px; font-size: 90%}
+.rh-gmw-list-desc .hotmeter_wrap{margin-bottom: 15px}
+.rh-gmw-list-additional{width: 175px; padding: 0 0 0 20px; vertical-align: middle; text-align: center;border-left: 1px dashed #ccc;}
+.rh-gmw-list-additional .single_priced_block{margin-bottom: 10px}
+.rh-gmw-post-list .post-meta{margin: 0 0 10px 0; overflow: hidden;}
+.rh-gmw-post-list .post-meta span{margin: 0 5px 0 0}
+.rh-gmw-post-list .simplefavorite-button{background-color: #FEF3F3; color: #cc0000; font-size: 13px;padding: 1px 7px;border-radius: 3px; margin: 0 6px 0 0}
+.rh-gmw-post-list .simplefavorite-button i{font-size: 12px}
+.rh-gmw-post-list .wpsm-button-new-compare{margin: 6px 0 0 0; background: none transparent !important; border: none !important; box-shadow: none !important; display: block !important;}
+.rh-gmw-post-list .wppl-address{font-size: 85%; line-height: 20px}
+.rh-gmw-list-additional > div{margin: 0 0 10px 0}
+.rh-gmw-list-additional .radius-dis{margin: 0 0 5px 0; display: inline-block;}
+.rh-gmw-list-additional .radius-dis:before{content: "\f3c5"; font-family: rhicons; margin: 0 8px; color: #62c4c0;}
+
+ 
+@media screen and (max-width: 700px){
+	.gmw-results-count{display: block;float: none; margin: 0 0 10px 0}
+	.rh-gmw-post-list{padding: 0}
+	.rh-gmw-list-desc, .rh-gmw-list-image, .rh-gmw-list-additional{display: block;}
+	.rh-gmw-list-image{padding:20px 0 0 0; margin: 0 auto 30px auto}
+	.rh-gmw-list-image{width: 100%}
+	.rh-gmw-list-image > div{width: 150px; margin: 0 auto 5px auto}
+	.rh-gmw-list-desc{padding: 15px}
+	.rh-gmw-list-additional {
+	    width: auto;
+	    padding: 15px;
+	    vertical-align: middle;
+	    text-align: inherit; 
+	    border-top: 1px dashed #ccc;
+	    background: #f2fbff;
+	}	
+}

@@ -1,0 +1,128 @@
+.ps-sharebox {
+  --grid-items: 4;
+  --grid-items--mobile: 3;
+
+  display: grid;
+  grid-template-columns: repeat(var(--grid-items--mobile), 1fr);
+  grid-column-gap: var(--PADD);
+  grid-row-gap: var(--PADD--MD);
+  margin: var(--PADD) var(--PADD--XL);
+
+  @include mq($from: desktop) {
+    grid-template-columns: repeat(var(--grid-items), 1fr);
+  }
+}
+
+.ps-sharebox__item {
+  font-size: 80%;
+  text-align: center;
+
+  @if $comp_mode {
+    text-decoration: none;
+  }
+
+  &:hover {
+    .ps-sharebox__icon {
+      background-color: var(--PS-COLOR--APP--DARKGRAY);
+      color: var(--PS-COLOR--TEXT);
+    }
+
+    .ps-sharebox__title {
+      color: var(--PS-COLOR--TEXT);
+    }
+  }
+
+  &.ps-tooltip {
+    &:after {
+      line-height: 1;
+    }
+  }
+
+  // Copy link
+  &:first-child {
+    .ps-sharebox__icon {
+      background-color: var(--PS-COLOR--APP--DARK);
+    }    
+
+    &:hover {
+      .ps-sharebox__icon {
+        background-color: var(--PS-COLOR--APP--DARKER);
+      }
+    }
+  }
+}
+
+.ps-sharebox__icon {
+  --icon-wrapper: 65px;
+
+  display: block;    
+  width: var(--icon-wrapper);
+  height: var(--icon-wrapper);
+  text-align: center;
+  margin: 0 auto;
+  color: var(--PS-COLOR--TEXT);
+  background-color: var(--PS-COLOR--APP--GRAY);
+  border-radius: 50%;
+  margin-bottom: var(--PADD--SM);
+  transition: all 0.2s ease-in;
+
+  @include mq($until: desktop) {
+    --icon-wrapper: 40px;
+  }
+
+  > i {
+    font-size: 25px;
+    color: var(--color);
+
+    @include mq($until: desktop) {
+      font-size: 18px;
+    }
+
+    &:before {
+      width: var(--icon-wrapper);
+      min-width: var(--icon-wrapper);
+      height: var(--icon-wrapper);
+      line-height: var(--icon-wrapper);
+      text-align: center;
+      border-radius: 50%;
+    }
+  }
+
+  .gcis.gci-link {
+    --color: var(--PS-COLOR--TEXT--INVERT);
+  }
+
+  .gcib.gci-facebook-f {
+    --color: #3b5998;
+  }
+
+  .gcib.gci-twitter {
+    --color: #00acee;
+  }
+
+  .gcib.gci-linkedin {
+    --color: #0e76a8;
+  }
+
+  .gcib.gci-reddit-alien {
+    --color: #FF4500;
+  }
+
+  .gcib.gci-pinterest-p {
+    --color: #df0022;
+  }
+
+  .gcib.gci-whatsapp {
+    --color: #0cc042;
+  }
+
+  .gcib.gci-google {
+    --color: #3b7ded;
+  }
+}
+
+.ps-sharebox__title {
+  display: block;
+  color: var(--PS-COLOR--TEXT--LIGHT);
+  transition: all 0.2s ease-in;
+}

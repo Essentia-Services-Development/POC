@@ -1,0 +1,26 @@
+.ps-emoticon {
+  width: 20px;
+  min-width: 20px;
+  height: 20px;
+  display: inline-block;
+  vertical-align: top;
+  background-image: url("../images/moods/emo.png");
+}
+
+.ps-postbox .ps-emoticon {
+  vertical-align: top;
+}
+
+.ps-post .ps-emoticon {
+  vertical-align: bottom;
+}
+
+@media(-webkit-min-device-pixel-ratio:1.5),
+(min--moz-device-pixel-ratio:1.5),
+(-o-min-device-pixel-ratio:3/2),
+(min-resolution:1.5dppx) {
+  .ps-emoticon {
+    background-image: url("../images/moods/emo@2x.png");
+    background-size: 140px 180px;
+  }
+}

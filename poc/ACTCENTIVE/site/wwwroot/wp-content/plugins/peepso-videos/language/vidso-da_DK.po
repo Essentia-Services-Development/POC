@@ -1,0 +1,872 @@
+# Translation of PeepSo - Audio & Video in Danish
+# This file is distributed under the same license as the PeepSo - Audio & Video package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-11-02 07:48:03+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0\n"
+"Language: da_DK\n"
+"Project-Id-Version: PeepSo - Audio & Video\n"
+
+#: classes/configsectionvideos.php:258
+msgid "Clear history"
+msgstr ""
+
+#: classes/configsectionvideos.php:34
+msgid "Autoplay on activity stream"
+msgstr ""
+
+#: classes/configsectionvideos.php:30
+msgid "When enabled, videos will be autoplayed when visible on activity stream."
+msgstr ""
+
+#: classes/configsectionvideos.php:809
+msgid "Media Library"
+msgstr "Mediebibliotek"
+
+#: classes/configsectionvideos.php:799
+msgid "When enabled all users are able to access all files in media library."
+msgstr "Når det er aktiveret, kan alle brugere få adgang til alle filer i mediebiblioteket."
+
+#: classes/adminvideosqueuelisttable.php:73
+msgid "Thumbnail"
+msgstr "Thumbnail"
+
+#: classes/adminvideosqueuelisttable.php:206
+msgid "See post"
+msgstr "Se indlæg"
+
+#: classes/adminvideosqueuelisttable.php:72
+msgid "Link"
+msgstr "Link"
+
+#: templates/videos/content-media-pending.php:15
+msgid "Video is being processed. You'll be notified when it's ready."
+msgstr "Videoen behandles. Du får besked, når den er klar."
+
+#. Author of the plugin/theme
+msgid "PeepSo"
+msgstr "PeepSo"
+
+#. Description of the plugin/theme
+msgid "Upload audio and video files. Link and embed audio and video from supported providers"
+msgstr "Upload lyd- og videofiler. Link og integrer lyd og video fra understøttede udbydere"
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://peepso.com"
+msgstr "https://peepso.com"
+
+#: templates/widgets/videos.tpl.php:32
+msgid "View All"
+msgstr "Se alle"
+
+#: templates/widgets/community-videos.tpl.php:36
+#: templates/widgets/videos.tpl.php:48
+msgid "No video"
+msgstr "Ingen video"
+
+#: templates/widgets/community-videos.tpl.php:34
+#: templates/widgets/videos.tpl.php:46
+msgid "No audio"
+msgstr "Ingen lyd"
+
+#: templates/widgets/community-videos.tpl.php:31
+#: templates/widgets/videos.tpl.php:43
+msgid "No media"
+msgstr "Ingen medier"
+
+#: templates/videos/videos-group.php:23 templates/videos/videos.php:18
+msgid "Oldest first"
+msgstr "Ældste først"
+
+#: templates/videos/videos-group.php:22 templates/videos/videos.php:17
+msgid "Newest first"
+msgstr "Nyeste først"
+
+#: templates/videos/videos-group.php:17 templates/videos/videos.php:12
+msgid "Large thumbnails"
+msgstr "Store thumbnails"
+
+#: templates/videos/videos-group.php:16 templates/videos/videos.php:11
+msgid "Small thumbnails"
+msgstr "Små thumbnails"
+
+#: templates/videos/postbox-videos.php:105
+msgid ""
+"Your video was uploaded successfully!\n"
+"It's been added to the queue, we will notify you when your video is published."
+msgstr ""
+"Din video blev uploadet med succes!\n"
+"Den er blevet tilføjet til køen, og vi giver dig besked, når din video er offentliggjort."
+
+#: templates/videos/postbox-videos.php:103
+msgid "Your video was uploaded successfully!"
+msgstr "Din video blev uploadet med succes!"
+
+#: templates/videos/postbox-videos.php:16
+msgid "Enter video URL here"
+msgstr "Angiv video URL her"
+
+#: templates/videos/postbox-audio.php:89
+msgid ""
+"Your audio was uploaded successfully!\n"
+"It's been added to the queue, we will notify you when your audio is published."
+msgstr ""
+"Din lyd blev uploadet med succes!\n"
+"Det er blevet tilføjet til køen, vi giver dig besked, når din lyd udgives."
+
+#: templates/videos/postbox-audio.php:78
+msgid "Album (optional)"
+msgstr "Album (valgfrit)"
+
+#: templates/videos/postbox-audio.php:74
+msgid "Artist (optional)"
+msgstr "Kunstner (valgfri)"
+
+#: templates/videos/postbox-audio.php:70 templates/videos/postbox-videos.php:92
+msgid "Enter the title..."
+msgstr "Indtast titel..."
+
+#: templates/videos/postbox-audio.php:58 templates/videos/postbox-videos.php:80
+msgid "Upload failed: "
+msgstr "Upload mislykkedes: "
+
+#: templates/videos/postbox-audio.php:55 templates/videos/postbox-videos.php:77
+msgid "File uploaded"
+msgstr "Fil uploadet"
+
+#: templates/videos/postbox-audio.php:43 templates/videos/postbox-videos.php:43
+msgid "Max file size: %1$sMB"
+msgstr "Max filstørrelse: %1$sMB"
+
+#: templates/videos/postbox-audio.php:40 templates/videos/postbox-videos.php:40
+msgid "Upload"
+msgstr "Upload"
+
+#: templates/videos/postbox-audio.php:29 templates/videos/postbox-videos.php:29
+msgid "or"
+msgstr "eller"
+
+#: templates/videos/postbox-audio.php:16
+msgid "Audio URL"
+msgstr "Audio URL"
+
+#: templates/videos/post-edit.php:1
+msgid "Enter video URL here. Use browser link, not embed code."
+msgstr "Angiv video URL'en her. Brug browserens link, og ikke indlejret kode."
+
+#: templates/videos/content-media-pending.php:22
+msgid "Video failed to convert."
+msgstr "Video blev ikke konverteret."
+
+#: templates/videos/content-media-pending.php:20
+msgid "It has now converted."
+msgstr "Den er nu konverteret."
+
+#: templates/videos/content-media-pending.php:17
+msgid "Video is being converted. It should be available in a few minutes."
+msgstr "Videoen bliver konverteret. Den vil være klar om et par minutter."
+
+#: templates/videos/card.php:10
+msgid "Album"
+msgstr "Album"
+
+#: templates/videos/card.php:6
+msgid "Artist"
+msgstr "Kunstner"
+
+#: peepsovideos.php:1818
+msgid "Video conversion failed"
+msgstr "Videokonvertering mislykkedes"
+
+#: peepsovideos.php:1812
+msgid "Video conversion complete"
+msgstr "Videokonvertering færdig"
+
+#: peepsovideos.php:1756
+msgid "video"
+msgstr "video"
+
+#: peepsovideos.php:1465
+msgid "by"
+msgstr "af"
+
+#: peepsovideos.php:1450
+msgid "posted an audio"
+msgstr "udgav en audio"
+
+#: peepsovideos.php:1432
+msgid "posted a video"
+msgstr "udgav en video"
+
+#: peepsovideos.php:1430 peepsovideos.php:1452
+msgid "posted"
+msgstr "udgav"
+
+#: peepsovideos.php:618
+msgid "Video Uploads"
+msgstr "Video uploads"
+
+#. Plugin Name of the plugin/theme
+#: peepsovideos.php:597
+msgid "PeepSo Core: Audio & Video"
+msgstr "PeepSo Core: Audio & video"
+
+#: peepsovideos.php:544
+msgid "Get it now!"
+msgstr "Få det nu!"
+
+#: peepsovideos.php:542
+msgid "The %s plugin requires the PeepSo plugin to be installed and activated."
+msgstr "Dette %s plugin kræver at PeepSo plugin er installeret og aktiveret."
+
+#: peepsovideos.php:96 peepsovideos.php:1829
+msgid "Videos"
+msgstr "Videoer"
+
+#: peepsovideos.php:93 peepsovideos.php:1829
+msgid "Audio & Video"
+msgstr "Audio & video"
+
+#: classes/widgets/widgetvideos.php:117
+msgid "My Media"
+msgstr "Mine medier"
+
+#: classes/widgets/widgetvideos.php:13
+msgid "PeepSo Audio & Video Widget"
+msgstr "Peepso lyd og video widget"
+
+#: classes/widgets/widgetvideos.php:12
+msgid "PeepSo Audio & Video"
+msgstr "Peepso lyd og video"
+
+#: classes/widgets/widgetcommunityvideos.php:117
+#: classes/widgets/widgetvideos.php:134
+msgid "All"
+msgstr "Alle"
+
+#: classes/widgets/widgetcommunityvideos.php:114
+#: classes/widgets/widgetvideos.php:131
+msgid "Media type"
+msgstr "Media type"
+
+#: classes/widgets/widgetcommunityvideos.php:111
+#: classes/widgets/widgetvideos.php:128
+msgid "Advanced"
+msgstr "Avanceret"
+
+#: classes/widgets/widgetcommunityvideos.php:100
+msgid "Latest Media"
+msgstr "Seneste media"
+
+#: classes/widgets/widgetcommunityvideos.php:13
+msgid "PeepSo Community Audio & Video Widget"
+msgstr "PeepSo Community audio & video widget"
+
+#: classes/widgets/widgetcommunityvideos.php:12
+msgid "PeepSo Community Audio & Video"
+msgstr "PeepSo community audio & video"
+
+#: classes/videosupload.php:977
+msgid "Your video failed to convert"
+msgstr "Din video blev ikke konverteret"
+
+#: classes/videosupload.php:969
+msgid "Your video is ready"
+msgstr "Din video er klar"
+
+#: classes/videosupload.php:855
+msgid "line:"
+msgstr "linje:"
+
+#: classes/videosupload.php:854
+msgid "file:"
+msgstr "fil:"
+
+#: classes/videosupload.php:853 classes/videosupload.php:857
+msgid "message:"
+msgstr "besked:"
+
+#: classes/videosupload.php:846
+msgid "Server resources exceeded"
+msgstr "Serverens ressourcer overskredet"
+
+#: classes/videosupload.php:831
+msgid "Transcoder Read Job Failed: "
+msgstr "Transcoder læsejob fejlede:"
+
+#: classes/videosupload.php:815
+msgid "Transcoder Job Failed: "
+msgstr "Transcoder job fejlede: "
+
+#: classes/videosupload.php:701
+msgid "Poster"
+msgstr "Plakat"
+
+#: classes/videosupload.php:647
+msgid "Animated WEBM"
+msgstr "Animeret WEBM"
+
+#: classes/videosupload.php:634
+msgid "Animated GIF"
+msgstr "Animeret GIF"
+
+#: classes/videosupload.php:588
+msgid "Failed to convert videos."
+msgstr "Fejlede i konvertering af videoer."
+
+#: classes/videosupload.php:474
+msgid "Source file not found"
+msgstr "Kildefil ikke fundet"
+
+#: classes/videosupload.php:454
+msgid "Nothing to convert?"
+msgstr "Intet at konvertere?"
+
+#: classes/videosupload.php:442
+msgid "Missing shell_exec() or exec()"
+msgstr "Manglende shell_exec() eller exec()"
+
+#: classes/videosupload.php:409
+msgid "There was a problem when creating transcoder job."
+msgstr "Der opstod et problem under oprettelse af transcoder job."
+
+#: classes/videosupload.php:334
+msgid "There was a problem when deleting file"
+msgstr "Der var et problem under sletning af fil"
+
+#: classes/videosupload.php:293
+msgid "There was a problem when uploading the file"
+msgstr "Der var et problem under upload af fil"
+
+#: classes/videosupload.php:202
+msgid "Missing Amazon configuration."
+msgstr "Manglende Amazon konfiguration."
+
+#: classes/videosupload.php:104
+msgid "Failed to create transcoder job."
+msgstr "Kunne ikke oprette transcoder job."
+
+#: classes/videosupload.php:86
+msgid "Failed upload video to s3."
+msgstr "Fejlede under upload af video til s3."
+
+#: classes/videosajax.php:291
+msgid "Failed to upload media."
+msgstr "Fejlede under upload af media."
+
+#: classes/videosajax.php:273
+msgid "File extension is not allowed"
+msgstr "Fil-ekstension ikke tilladt"
+
+#: classes/videosajax.php:258
+msgid "Invalid filetype"
+msgstr "Ugyldig filtype"
+
+#: classes/videosajax.php:241
+msgid "Maximum file upload quota reached. Delete posts with videos to free some space"
+msgstr "Maksimal filupload kvote nået. Slet indlæg med videoer for at frigøre noget plads"
+
+#: classes/videosajax.php:216
+msgid "Maximum file upload quota reached. Delete posts with %s to free some space."
+msgstr "Maksimal filupload kvote nået. Slet indlæg med %s for at frigøre noget plads."
+
+#: classes/videosajax.php:215
+msgid "videos"
+msgstr "videoer"
+
+#: classes/videosajax.php:215
+msgid "audio"
+msgstr "audio"
+
+#: classes/videosajax.php:213
+msgid "Only files up to %1$dMB are allowed."
+msgstr "Kun filer op til %1$dMB er tilladte."
+
+#: classes/videosajax.php:156
+msgid "%s doesn't have any videos yet"
+msgstr "%s har ikke nogen videoer endnu"
+
+#: classes/videosajax.php:156
+msgid "You don't have any videos yet"
+msgstr "Du har ingen videoer endnu"
+
+#: classes/videosajax.php:83
+msgid "Sorry, this is not a valid audio.<br><small>Please make sure you're using a valid URL, not an embed code.</small>"
+msgstr "Beklager, dette er ikke en gyldig lyd.<br><small>Sørg for, at du bruger en gyldig URL, ikke en indlejringskode.</small>"
+
+#: classes/videosajax.php:81
+msgid "Sorry, this is not a valid video.<br><small>Please make sure you're using a valid URL, not an embed code.</small>"
+msgstr "Beklager, dette er ikke en gyldig video.<br><small>Sørg for, at du bruger en gyldig URL, ikke en indlejringskode.</small>"
+
+#: classes/videosadmin.php:79
+msgid "This will be sent to a video owner when video conversion is failed"
+msgstr "Dette vil blive sendt til en videoejer, når videokonverteringen mislykkes"
+
+#: classes/videosadmin.php:78
+msgid "Video Conversion Failed"
+msgstr "Videokonvertering mislykkedes"
+
+#: classes/videosadmin.php:74
+msgid "This will be sent to a video owner when video conversion is complete"
+msgstr "Dette vil blive sendt til videoens ejer, når videokonverteringen er fuldført"
+
+#: classes/videosadmin.php:73
+msgid "Video Conversion Complete"
+msgstr "Videokonvertering færdig"
+
+#: classes/videosadmin.php:36
+msgid "Video of post %s"
+msgstr "Video til indlæg %s"
+
+#: classes/configsectionvideos.php:474
+#: classes/widgets/widgetcommunityvideos.php:119
+#: classes/widgets/widgetvideos.php:136 peepsovideos.php:100
+#: peepsovideos.php:678 peepsovideos.php:1662
+msgid "Audio"
+msgstr "Audio"
+
+#: classes/configsectionvideos.php:467
+msgid "Last.fm API key"
+msgstr "Last.fm API nøgle"
+
+#: classes/configsectionvideos.php:464
+msgid "here"
+msgstr "her"
+
+#: classes/configsectionvideos.php:464
+msgid "You can get the API key %s"
+msgstr "Du kan få API nøglen %s"
+
+#: classes/configsectionvideos.php:456
+msgid "Cover art download will be attempted via Last.fm API."
+msgstr "Cover art download vil blive forsøgt via Last.fm API."
+
+#: classes/configsectionvideos.php:455
+msgid "Cover Art"
+msgstr "Cover art"
+
+#: classes/configsectionvideos.php:449
+msgid "Allowed space per user for audio"
+msgstr "Tilladt plads pr bruger til audio"
+
+#: classes/configsectionvideos.php:438
+msgid "Maximum audio upload size"
+msgstr "Maksimum audio upload størrelse"
+
+#: classes/configsectionvideos.php:422
+msgid "Users will be able to upload audio files. The files will be published immediately without conversion."
+msgstr "Brugere vil være i stand til at uploade audio filer. Filerne vil blive offentliggjort med det samme uden konvertering."
+
+#: classes/configsectionvideos.php:420
+msgid "Audio uploads"
+msgstr "Audio uploads"
+
+#: classes/configsectionvideos.php:413
+msgid "%s appears to be %s"
+msgstr "%s synes at være %s"
+
+#: classes/configsectionvideos.php:412
+msgid "disabled"
+msgstr "deaktiveret"
+
+#: classes/configsectionvideos.php:412
+msgid "enabled"
+msgstr "aktiveret"
+
+#: classes/configsectionvideos.php:403
+msgid "Audio uploads don't require a cron job or conversion, but they require a PHP function finfo_open() to work properly."
+msgstr "Audio uploads kræver ikke et cron-job eller konvertering, men de kræver en PHP-funktion finfo_open() for at fungere korrekt."
+
+#: classes/configsectionvideos.php:388
+msgid "When enabled users are able to link and/or upload audio."
+msgstr "Når det er aktiveret, er brugere i stand til at linke og/eller uploade audio."
+
+#: classes/configsectionvideos.php:375
+msgid "Video uploads"
+msgstr "Video uploads"
+
+#: classes/configsectionvideos.php:369
+msgid "Output format"
+msgstr "Output format"
+
+#: classes/configsectionvideos.php:365
+msgid "WEBM file format results in smaller files, but conversion might use more server resources."
+msgstr "WEBM-fil format resulterer i mindre filer, men konvertering kan bruge flere serverressourcer."
+
+#: classes/configsectionvideos.php:362
+msgid "Both"
+msgstr "Begge"
+
+#: classes/configsectionvideos.php:361
+msgid "WEBM"
+msgstr "WEBM"
+
+#: classes/configsectionvideos.php:360
+msgid "GIF"
+msgstr "GIF"
+
+#: classes/configsectionvideos.php:355
+msgid "Generate animated gif"
+msgstr "Genererer animeret GIF"
+
+#: classes/configsectionvideos.php:351
+msgid "When enabled a quick few second gif will be generated from the video. It’ll be visible when hovering cursor over the video."
+msgstr "Når det er aktiveret, genereres en hurtig få sekunders GIF fra videoen. Det vil være synligt, når du holder markøren over videoen."
+
+#: classes/configsectionvideos.php:346
+msgid "Generate poster videos"
+msgstr "Genererer plakat videoer"
+
+#: classes/configsectionvideos.php:342
+msgid "When enabled video preview thumbnail will be generated. With the option disabled, there will be no preview frame. It’ll just be black background with a play icon on it."
+msgstr "Når det er aktiveret, genereres en thumbnail for forhåndsvisning af video. Med indstillingen deaktiveret, vil der ikke være nogen forhåndsvisningsramme. Det vil bare være sort baggrund med et afspilningsikon på."
+
+#: classes/configsectionvideos.php:340
+msgid "Thumbnails and previews"
+msgstr "Thumbnails og forhåndsvisninger"
+
+#: classes/configsectionvideos.php:333
+msgid "Delete original file after conversion"
+msgstr "Slet original fil efter konvertering"
+
+#: classes/configsectionvideos.php:330
+msgid "Deleting the original file after conversion is recommended to save space on the server"
+msgstr "Det anbefales at slette den originale fil efter konvertering for at spare plads på serveren"
+
+#: classes/configsectionvideos.php:325
+msgid "Path to the FFprobe binary"
+msgstr "Sti til FFprobe binary"
+
+#: classes/configsectionvideos.php:322
+msgid "The FFprobe library is required for video resolution analysis. Please ask your hosting provider about it."
+msgstr "FFprobe-biblioteket er påkrævet til analyse af videoopløsning. Spørg venligst din hosting-udbyder om det."
+
+#: classes/configsectionvideos.php:318
+msgid "Never upscale videos"
+msgstr "Aldrig opskalér videoer"
+
+#: classes/configsectionvideos.php:314
+msgid "When enabled, source videos with resolution lower than the defined output resolution will not be upscaled. The nearest lower resolution will be preferred. This setting is recommended to save space."
+msgstr "Når det er aktiveret, vil kildevideoer med en opløsning, der er lavere end den definerede outputopløsning, ikke blive opskaleret. Den nærmeste lavere opløsning foretrækkes. Denne indstilling anbefales for at spare plads."
+
+#: classes/configsectionvideos.php:310
+msgid "Output resolution"
+msgstr "Output opløsning"
+
+#: classes/configsectionvideos.php:306
+msgid "Applies to newly uploaded videos"
+msgstr "Gælder for nyligt uploadede videoer"
+
+#: classes/configsectionvideos.php:294
+msgid "FFmpeg extra param"
+msgstr "FFmpeg extra param"
+
+#: classes/configsectionvideos.php:288
+msgid "Path to the FFmpeg binary"
+msgstr "Sti til FFmpeg binary"
+
+#: classes/configsectionvideos.php:285
+msgid "The FFmpeg library is required for video conversions. Please ask your hosting provider about it."
+msgstr "FFmpeg-biblioteket er påkrævet til videokonverteringer. Spørg venligst din hosting-udbyder om det."
+
+#: classes/configsectionvideos.php:283
+msgid "Conversions with ffmpeg"
+msgstr "Konverteringer med ffmpeg"
+
+#: classes/configsectionvideos.php:270
+msgid "To enable the use of AWS, set the \"Enable AWS S3 & Elastic Transcoder Integration\" to \"YES\" and fill in the additional settings fields.<br/>To get your AWS Access ID and Keys, you can sign up here: %sGet Your AWS Access Keys%s."
+msgstr "For at aktivere brugen af AWS skal du indstille \"Enable AWS S3 & Elastic Transcoder Integration\" til \"YES\" og udfylde de resterende indstillingsfelter.<br/>For at få dit AWS-adgangs-id og -nøgler kan du tilmelde dig her: %sGet Your AWS Access Keys%s."
+
+#: classes/configsectionvideos.php:259
+msgid "AWS Error History:"
+msgstr "AWS fejlhistorik:"
+
+#: classes/configsectionvideos.php:247
+msgid "Don't keep a local copy of uploaded files"
+msgstr "Opbevar ikke en lokal kopi af uploadede filer"
+
+#: classes/configsectionvideos.php:241
+msgid "Elastic Transcoder Preset Id"
+msgstr "Elastic Transcoder Preset Id"
+
+#: classes/configsectionvideos.php:235
+msgid "Amazon Elastic Transcoder Preset is required"
+msgstr "Amazon Elastic Transcoder Preset er påkrævet"
+
+#: classes/configsectionvideos.php:226
+msgid "Elastic Transcoder Pipeline Id"
+msgstr "Elastic Transcoder Pipeline Id"
+
+#: classes/configsectionvideos.php:220
+msgid "Amazon Elastic Transcoder Pipeline is required"
+msgstr "Amazon Elastic Transcoder Pipeline er påkrævet"
+
+#: classes/configsectionvideos.php:211
+msgid "Amazon S3 Bucket"
+msgstr "Amazon S3 Bucket"
+
+#: classes/configsectionvideos.php:205
+msgid "Amazon S3 Bucket is required"
+msgstr "Amazon S3 Bucket er påkrævet"
+
+#: classes/configsectionvideos.php:199
+msgid "Name of the Bucket to upload your videos to on Amazon S3"
+msgstr "Navn på den Bucket, du bruger til upload af videoer på Amazon S3"
+
+#: classes/configsectionvideos.php:195
+msgid "AWS Region"
+msgstr "AWS region"
+
+#: classes/configsectionvideos.php:189
+msgid "US West (Oregon)"
+msgstr "Amerikansk Vest (Oregon)"
+
+#: classes/configsectionvideos.php:188
+msgid "US West (N. California)"
+msgstr "Amerikansk Vest (N. California)"
+
+#: classes/configsectionvideos.php:187
+msgid "US East (Ohio)"
+msgstr "Amerikansk Øst (Ohio)"
+
+#: classes/configsectionvideos.php:186
+msgid "US East (N. Virginia)"
+msgstr "Amerikansk Øst (N. Virginia)"
+
+#: classes/configsectionvideos.php:185
+msgid "South America (São Paulo)"
+msgstr "Sydamerika (São Paulo)"
+
+#: classes/configsectionvideos.php:184
+msgid "EU (Paris)"
+msgstr "EU (Paris)"
+
+#: classes/configsectionvideos.php:183
+msgid "EU (London)"
+msgstr "EU (London)"
+
+#: classes/configsectionvideos.php:182
+msgid "EU (Ireland)"
+msgstr "EU (Ireland)"
+
+#: classes/configsectionvideos.php:181
+msgid "EU (Frankfurt)"
+msgstr "EU (Frankfurt)"
+
+#: classes/configsectionvideos.php:180
+msgid "Canada (Central)"
+msgstr "Canada (Central)"
+
+#: classes/configsectionvideos.php:179
+msgid "Asia Pacific (Tokyo)"
+msgstr "Asien I Stillehavsområdet (Tokyo)"
+
+#: classes/configsectionvideos.php:178
+msgid "Asia Pacific (Sydney)"
+msgstr "Asien I Stillehavsområdet (Sydney)"
+
+#: classes/configsectionvideos.php:177
+msgid "Asia Pacific (Singapore)"
+msgstr "Asien I Stillehavet (Singapore)"
+
+#: classes/configsectionvideos.php:176
+msgid "Asia Pacific (Seoul)"
+msgstr "Asien I Stillehavet (Seoul)"
+
+#: classes/configsectionvideos.php:175
+msgid "Asia Pacific (Mumbai)"
+msgstr "Asien I Stillehavsområdet (Mumbai)"
+
+#: classes/configsectionvideos.php:170
+msgid "Amazon Secret Access Key"
+msgstr "Amazon hemmelig adgangsnøgle"
+
+#: classes/configsectionvideos.php:164
+msgid "Amazon Secret Access Key is required"
+msgstr "Amazon Secret Access Key er påkrævet"
+
+#: classes/configsectionvideos.php:155
+msgid "Amazon Access Key ID"
+msgstr "Amazon Access Key ID"
+
+#: classes/configsectionvideos.php:148
+msgid "Amazon Access Key ID is required"
+msgstr "Amazon Access Key ID er påkrævet"
+
+#: classes/configsectionvideos.php:142
+msgid "The Access Key ID you received when you signed up for AWS (20 characters)"
+msgstr "Den Access Key ID du modtog, da du tilmeldte dig AWS (20 characters)"
+
+#: classes/configsectionvideos.php:140
+msgid "Conversions with AWS Elastic Transcoder"
+msgstr "Konverteringer med AWS Elastic Transcoder"
+
+#: classes/configsectionvideos.php:133
+msgid "Allowed file extensions"
+msgstr "Tilladte fil ekstensions"
+
+#: classes/configsectionvideos.php:130
+msgid "One per line, it will allow MP4 if empty. The only officially supported format at the moment is mp4."
+msgstr "En per linje, den tillader MP4, hvis den er tom. Det eneste officielt understøttede format i øjeblikket er mp4."
+
+#: classes/configsectionvideos.php:124
+msgid "Advanced options"
+msgstr "Avancerede muligheder"
+
+#: classes/configsectionvideos.php:116
+msgid "Please bear in mind, video conversion is an advanced feature which carries a lot of technical requirements. It is recommended to test in on a staging copy of your website before deploying it live. By checking this field you confirm you understand all technical requirements that have to be met in order to use this feature, as outlined in the \"important information\" box."
+msgstr "Vær opmærksom på, at videokonvertering er en avanceret funktion, som har mange tekniske krav. Det anbefales at teste en iscenesættelse af dit websted, før du implementerer det live. Ved at markere dette felt bekræfter du, at du forstår alle tekniske krav, der skal opfyldes for at bruge denne funktion, som beskrevet i boksen \"vigtige oplysninger\"."
+
+#: classes/configsectionvideos.php:111
+msgid "Allowed space per user for video"
+msgstr "Tilladt plads pr bruger til video"
+
+#: classes/configsectionvideos.php:108 classes/configsectionvideos.php:446
+msgid "In megabytes. 0 (zero) for no limit"
+msgstr "I megabytes. 0 (zero) for ingen grænse"
+
+#: classes/configsectionvideos.php:100
+msgid "Maximum video upload size"
+msgstr "Maximum video upload størrelse"
+
+#: classes/configsectionvideos.php:97 classes/configsectionvideos.php:435
+msgid "In megabytes - WordPress maximum upload size allowed is %1$sMB"
+msgstr "I megabytes - WordPress maximum tilladte upload størrelse er %1$sMB"
+
+#: classes/configsectionvideos.php:81 classes/configsectionvideos.php:430
+msgid "Limits"
+msgstr "Grænser"
+
+#: classes/configsectionvideos.php:49
+#: classes/widgets/widgetcommunityvideos.php:118
+#: classes/widgets/widgetvideos.php:135 peepsovideos.php:649
+#: peepsovideos.php:1631
+msgid "Video"
+msgstr "Video"
+
+#: classes/configsectionvideos.php:42
+msgid "Play inline on mobile"
+msgstr "Spil inline på mobile"
+
+#: classes/configsectionvideos.php:38
+msgid "When enabled, PeepSo will attempt fo force an inline player on mobile devices. The results may vary depending on video providers."
+msgstr "Når det er aktiveret, vil PeepSo forsøge at tvinge en inline-afspiller på mobile enheder. Resultaterne kan variere afhængigt af videoudbydere."
+
+#: classes/configsectionvideos.php:26 classes/configsectionvideos.php:76
+#: classes/configsectionvideos.php:392 classes/configsectionvideos.php:426
+#: classes/configsectionvideos.php:460 classes/configsectionvideos.php:803
+msgid "Enabled"
+msgstr "Aktiveret"
+
+#: classes/configsectionvideos.php:22
+msgid "When enabled users are able to link and/or upload videos."
+msgstr "Når det er aktiveret, kan brugere linke til og/eller uploade videoer."
+
+#: classes/adminvideosqueuelisttable.php:366
+msgid "%1$d video %2$s"
+msgid_plural "%1$d videos %2$s"
+msgstr[0] "%1$d video %2$s"
+msgstr[1] "%1$d videoer %2$s"
+
+#: classes/adminvideosqueuelisttable.php:360
+msgid "updated"
+msgstr "opdateret"
+
+#: classes/adminvideosqueuelisttable.php:334
+msgid "deleted"
+msgstr "slettet"
+
+#: classes/adminvideosqueuelisttable.php:308
+msgid "Delete"
+msgstr "Slet"
+
+#: classes/adminvideosqueuelisttable.php:307
+msgid "Set to \"waiting\""
+msgstr "Indstil til \"venter\""
+
+#: classes/adminvideosqueuelisttable.php:250
+msgid "0 bytes"
+msgstr "0 bytes"
+
+#: classes/adminvideosqueuelisttable.php:246
+msgid " byte"
+msgstr " byte"
+
+#: classes/adminvideosqueuelisttable.php:242
+msgid " bytes"
+msgstr " byte"
+
+#: classes/adminvideosqueuelisttable.php:238
+msgid " KB"
+msgstr " KB"
+
+#: classes/adminvideosqueuelisttable.php:234
+msgid " MB"
+msgstr " MB"
+
+#: classes/adminvideosqueuelisttable.php:230
+msgid " GB"
+msgstr " GB"
+
+#: classes/adminvideosqueuelisttable.php:193
+msgid "Unknown"
+msgstr "Ukendt"
+
+#: classes/adminvideosqueuelisttable.php:187
+msgid "Rejected"
+msgstr "Afvist"
+
+#: classes/adminvideosqueuelisttable.php:184
+msgid "Ready"
+msgstr "Klar"
+
+#: classes/adminvideosqueuelisttable.php:180
+msgid "Retry"
+msgstr "Prøv igen"
+
+#: classes/adminvideosqueuelisttable.php:173
+msgid "Delay"
+msgstr "Udsæt"
+
+#: classes/adminvideosqueuelisttable.php:170
+msgid "Processing"
+msgstr "Behandler"
+
+#: classes/adminvideosqueuelisttable.php:166
+#: classes/adminvideosqueuelisttable.php:176
+msgid "Failed"
+msgstr "Mislykkedes"
+
+#: classes/adminvideosqueuelisttable.php:162
+#: classes/adminvideosqueuelisttable.php:190
+msgid "Success"
+msgstr "Succes"
+
+#: classes/adminvideosqueuelisttable.php:158
+msgid "Waiting"
+msgstr "Afventer"
+
+#: classes/adminvideosqueuelisttable.php:77
+msgid "Status"
+msgstr "Status"
+
+#: classes/adminvideosqueuelisttable.php:76
+msgid "Date"
+msgstr "Dato"
+
+#: classes/adminvideosqueuelisttable.php:75
+msgid "File Size"
+msgstr "Filstørrelse"
+
+#: classes/adminvideosqueuelisttable.php:74
+msgid "Title"
+msgstr "Titel"
+
+#: classes/adminvideosqueuelisttable.php:71
+msgid "User"
+msgstr "Bruger"

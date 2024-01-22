@@ -1,0 +1,38 @@
+
+#wp-admin-bar-be-mu-noindex .ab-item:before {
+    content: "\f530";
+    padding-top: 6px;
+}
+
+#wp-admin-bar-be-mu-noindex .ab-item {
+    padding-right: 2px !important;
+}
+
+@media screen and (max-width:782px) {
+
+    #wpadminbar #wp-admin-bar-be-mu-noindex>.ab-item:before
+    {
+        display: block;
+        text-indent: 0;
+        font: 400 32px/1 dashicons;
+        speak: none;
+        top: 7px;
+        width: 52px;
+        text-align: center;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        padding-top: 0px;
+    }
+
+    li#wp-admin-bar-be-mu-noindex > a.ab-item {
+        text-overflow: clip !important;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+
+    li#wp-admin-bar-be-mu-noindex {
+        display: block !important;
+        width: 52px;
+    }
+
+}

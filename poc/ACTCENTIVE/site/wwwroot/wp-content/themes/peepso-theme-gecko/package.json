@@ -1,0 +1,8 @@
+{
+  "private": true,
+  "devDependencies": {
+    "@peepso/prettier-config": "^1.0.3",
+    "prettier": "^2.7.1"
+  },
+  "prettier": "@peepso/prettier-config"
+}

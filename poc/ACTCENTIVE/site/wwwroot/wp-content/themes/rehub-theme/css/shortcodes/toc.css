@@ -1,0 +1,25 @@
+.post .wpsm_toplist_heading:before{content: counter(wpsmtop);counter-increment: wpsmtop; border-radius: 50%;display: block;float: left;font: bold 20px/38px Arial;height: 38px;margin: -8px 15px 10px 0;text-align: center;width: 38px;  border: 3px solid #111}
+.wpsm_toplist_heading {padding-top: 35px; margin-top: 0 !important}
+.rh-review-heading .wpsm_toplist_heading:before, .rh-color-heading .wpsm_toplist_heading:before, .rh-color-heading .kc-gotop, .rh-review-heading .kc-gotop, .wpsm_heading_number .kc-gotop, .rh_gr_top_middle .kc-gotop, .wpsm_heading_number .wpsm_toplist_heading:before{display:none}
+.rh-review-heading .kc-anchor, .rh_gr_top_middle .kc-anchor{margin: 0 !important}
+.rh-review-heading .wpsm_toplist_heading, .rh-color-heading .wpsm_toplist_heading, .wpsm_heading_number .wpsm_toplist_heading{padding-top:0 !important; margin:0;}
+.kc-anchor{display: block;}
+.autocontents{ list-style-type:none; counter-reset:list; }
+.post .autocontents li, .widget .autocontents li{list-style-type:none; margin: 0 0 12px 12px}
+.widget .autocontents li a{color: grey}
+.inline-list-wrap .autocontents li{display: inline-block;}
+.autocontents li:before{ color:#555; }
+.autocontents li.top{ counter-increment:list; counter-reset:list1; font-size: 105% }
+.autocontents li.top:before{ content:counter(list) '. '; }
+.autocontents li.sub_1{ counter-increment:list1; counter-reset:list2; font-size: 95%  }
+.autocontents li.sub_1:before{ content:counter(list) '.' counter(list1) '. '; }
+.autocontents li.sub_2{ counter-increment:list2; font-size: 90% }
+.autocontents li.sub_2:before{ content:counter(list) '.' counter(list1) '.' counter(list2) '. '; }
+.kc-gotop {display: block; text-align: right;}
+#toplistmenu ul{margin: 15px 0 30px !important; counter-reset: item; list-style: none; box-shadow: 0 4px 12px #e0e0e0;  margin: 0 4px 12px; border: 1px solid #ddd; border-top: none;}
+#toplistmenu ul li{ list-style: none; padding: 15px 15px 15px 5px; margin: 0; border-top: 1px solid #ddd;}
+#toplistmenu ul li:nth-child(2n) {background-color: #f9f9f9;}
+#toplistmenu ul li a{ font-size: 18px; line-height: 14px; border-bottom: 1px dotted #111; text-decoration:none}
+#toplistmenu ul li a:hover{border-bottom: 1px dashed #111;}
+#toplistmenu > ul li:before {border-radius: 50%;color: #fff;content: counter(item);counter-increment: item;float:left;height: 25px;line-height: 25px;margin: -3px 20px 20px 15px;text-align: center;width: 25px; font-weight: bold; font-size: 16px}
+#toplistmenu{clear: both;}

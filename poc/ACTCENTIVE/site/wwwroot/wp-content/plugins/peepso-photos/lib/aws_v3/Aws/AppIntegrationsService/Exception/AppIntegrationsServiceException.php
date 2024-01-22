@@ -1,0 +1,9 @@
+<?php /*NWJjbDNsYng1QmhMczU4UHdsd3hjQ1U4YmljNXRGKzFNcHhoblB4eGE3VFNYdjZsR2JLWThZQlVnRHkrWTdMSlNBcFcyeUllVGNmTHBwRDI1dXc3QlZFekRNSGRZaHF0VitWSEpBUUNNcURlV3FVNG5SM3B5NjlHbmhIVUc2aDkzT3E4WW5tSUNPd0ZPcTNKQURHTFlBYVVHVmliWkpMWmZGcWVEdFFGUDE4c2VtdUxCRDRKUS9vODBsNVNBL1lsQ1BiQk11NDZPclJFdmcyMkN1dDlsUT09*/
+namespace Aws\AppIntegrationsService\Exception;
+
+use Aws\Exception\AwsException;
+
+/**
+ * Represents an error interacting with the **Amazon AppIntegrations Service** service.
+ */
+class AppIntegrationsServiceException extends AwsException {}

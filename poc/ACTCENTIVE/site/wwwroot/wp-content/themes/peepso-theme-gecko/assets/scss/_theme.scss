@@ -1,0 +1,82 @@
+@import 'helpers/mq';
+@import 'helpers/clearfix';
+@import 'helpers/container';
+
+@import 'reset';
+@import 'wp';
+
+// Theme parts
+@import 'theme/header';
+@import 'theme/header-sidebar';
+@import 'theme/footer';
+@import 'theme/widgets';
+@import 'theme/widget';
+@import 'theme/blog';
+@import 'main';
+@import 'content';
+@import 'sidebar';
+//@import 'footer';
+//@import 'widgets';
+
+// Structures
+@import 'structures/table';
+
+// Pages
+@import 'pages/product';
+@import 'pages/wp-404';
+@import 'pages/wp-search-results';
+
+// Components
+@import 'components/dropdown';
+@import 'components/scroll-to-top';
+@import 'components/sidenav';
+
+// Blocks
+@import 'blocks/container';
+
+@import 'comments';
+@import 'landing';
+@import 'profile';
+@import 'members';
+
+@import 'peepso';
+@import 'peepso/photos-trim';
+@import 'peepso/navbar';
+
+@import 'overrides';
+@import 'modal';
+
+// Integrations
+@import 'integrations/woocommerce';
+@import 'integrations/edd';
+@import 'integrations/dokan';
+@import 'integrations/wpem';
+@import 'integrations/mobiloud';
+@import 'integrations/wpmobileapp';
+@import 'integrations/tutorlms';
+@import 'integrations/wpstories';
+@import 'integrations/wpjm';
+@import 'integrations/ideapush';
+@import 'integrations/wpadverts';
+
+@import 'widgets/wp-archives';
+@import 'widgets/wp-recent-posts';
+@import 'widgets/wp-calendar';
+@import 'widgets/wp-categories';
+@import 'widgets/wp-comments';
+@import 'widgets/wp-gallery';
+@import 'widgets/wp-meta';
+@import 'widgets/wp-navigation';
+@import 'widgets/wp-pages';
+@import 'widgets/wp-search';
+@import 'widgets/wp-tags';
+
+@media screen and (max-width: 980px) {
+	.hide-sidebars-mobile .sidebar {
+		display: none;
+	}
+
+	.hide-footer-widgets-mobile .footer > .footer__wrapper {
+		display: none;
+	}
+}

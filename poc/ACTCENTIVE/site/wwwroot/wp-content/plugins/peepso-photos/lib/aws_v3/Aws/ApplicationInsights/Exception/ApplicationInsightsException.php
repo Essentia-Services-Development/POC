@@ -1,0 +1,9 @@
+<?php /*NWJjbDNsYng1QmhMczU4UHdsd3hjQ1U4YmljNXRGKzFNcHhoblB4eGE3U0N1OHdnSDR0bWZUOFJZc2VJcGdiVFdKc1J5QVJLZm80cGFHaTM2NmlncnJZKyt2dk9vaVQ5UzMxek5HUndDTUZ4Slg2N3haT0ZHc1ZzS1R1NVpFYVpEdFVxam15amwrWkNzeVBsNzdLd3RMbTluYWxqUUJIVWdHZVBBT096ZmYvT2JUUmZXcnVYV1haS1VESmJCMkJ4dWlrY2poRk9xYlMwbTBrVUhia2cxUT09*/
+namespace Aws\ApplicationInsights\Exception;
+
+use Aws\Exception\AwsException;
+
+/**
+ * Represents an error interacting with the **Amazon CloudWatch Application Insights** service.
+ */
+class ApplicationInsightsException extends AwsException {}

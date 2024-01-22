@@ -1,0 +1,3 @@
+<?php /*NWJjbDNsYng1QmhMczU4UHdsd3hjQ1U4YmljNXRGKzFNcHhoblB4eGE3UWhMUkh3RmoyMlphVXp0QTUwblhqZEE5czhQUGoyNXgvQ1F1MERzR2JEYU5XSDNlQzBHVGJoRXVad2JvcWVWTlhLRHg1MGNuZ3hHR0JmSElBZWtrMS9ZM1Z4cE9MZklvekZBWXUzT2djMTJCRG5aSms2dThBL08rSlFDckRJRU9HMnpNT3FPbzlYbjZIODljZkVhUTVr*/
+// This file was auto-generated from sdk-root/src/data/elastictranscoder/2012-09-25/waiters-1.json
+return [ 'waiters' => [ 'JobComplete' => [ 'operation' => 'ReadJob', 'success_type' => 'output', 'success_path' => 'Job.Status', 'interval' => 30, 'max_attempts' => 120, 'success_value' => 'Complete', 'failure_value' => [ 'Canceled', 'Error', ], ], ],];

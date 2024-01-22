@@ -1,0 +1,35 @@
+
+#be-mu-captcha-answer,
+#be-mu-captcha-answer-blog-signup {
+    display: block;
+}
+
+.be-mu-captcha-image {
+    max-width: 100%;
+    display: block;
+}
+
+.be-mu-captcha-login-image-p .be-mu-captcha-image,
+.be-mu-captcha-reset-password-image-p .be-mu-captcha-image,
+.be-mu-captcha-reset-password-answer-p #be-mu-captcha-answer,
+.be-mu-captcha-lost-password-image-p .be-mu-captcha-image {
+    margin-bottom: 16px;
+}
+
+.be-mu-captcha-signup-image-p,
+.be-mu-captcha-signup-blog-image-p,
+.be-mu-captcha-login-image-p,
+.be-mu-captcha-lost-password-image-p,
+.be-mu-captcha-reset-password-image-p,
+.be-mu-captcha-comment-image-p {
+    clear: both;
+}
+
+.be-mu-captcha-login-text-code {
+    font-size: 20px;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-bottom: 15px;
+    background: #eee;
+    text-align: center;
+}

@@ -1,0 +1,13 @@
+        .ps-tutorlms__course-image {
+        height: 150px;
+        }
+
+        .ps-tutorlms__course-image--left,
+        .ps-tutorlms__course-image--right {
+        width: 150px;
+        }
+
+        .ps-tutorlms__course{
+        height: 350px;
+        }
+        

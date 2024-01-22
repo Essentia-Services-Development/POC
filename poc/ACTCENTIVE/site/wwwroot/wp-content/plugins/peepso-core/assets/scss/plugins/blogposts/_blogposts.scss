@@ -1,0 +1,254 @@
+/*
+
+    Blog Posts CSS
+
+*/
+
+
+.ps-comments--blogpost {
+  font-size: 14px;
+  line-height: 1.2;
+}
+
+.ps-comments--blogpost small {
+  font-size: 10px;
+}
+
+.ps-comments--blogpost .ps-textarea-wrapper .ps-textarea {
+  margin: 0 !important;
+  vertical-align: middle;
+}
+
+.ps-comments--blogpost a .ps-img-vipicons {
+  position: relative;
+  top: 1px;
+  vertical-align: baseline;
+}
+
+.ps-comments--blogpost .ps-commentbox-actions {
+  top: 10px;
+  line-height: 1;
+}
+
+/*  Wrapping all blog posts on the profile page  */
+.ps-blogposts {}
+
+/*  Clearfix for 2 columns layout  */
+.ps-blogposts:after {
+  display: table;
+  clear: both;
+  content: " ";
+}
+
+/*  Modify posts view to 2 colums layout  */
+.ps-blogposts--half {}
+
+@media only screen and (min-width:481px) {
+  .ps-blogposts--half {
+    margin-left: -7px;
+    margin-right: -7px;
+  }
+}
+
+/*  Wrapping single post  */
+.ps-blogposts__post {
+  margin-bottom: 14px;
+}
+
+@media only screen and (max-width:480px) {
+  .ps-blogposts__post {
+    height: auto !important;
+  }
+}
+
+/*  Remove margin from the last post on 1 column layout  */
+.ps-blogposts__post:last-child {
+  margin-bottom: 0;
+}
+
+@media only screen and (min-width:481px) {
+  /*  Modify single post to 2 columns layout  */
+  .ps-blogposts--half .ps-blogposts__post {
+    float: left;
+    width: 50%;
+    margin: 0;
+    padding: 7px;
+  }
+
+  /*  Force every 3rd post to start with new line  */
+  .ps-blogposts--half .ps-blogposts__post:nth-child(2n+1) {
+    clear: both;
+  }
+}
+
+/*  Wrapping single post body and styling post box  */
+.ps-blogposts__post-inside {
+  position: relative;
+  height: 100%;
+  padding: 14px;
+  background-color: $scss-blogposts-post-bg;
+  border: 1px solid $scss-blogposts-post-border;
+}
+
+/*  Wrapping content inside single post container
+    and hide overflow content  */
+.ps-blogposts__post-body {
+  height: 100%;
+  overflow: hidden;
+}
+
+/*  Wrapping featured image  */
+.ps-blogposts__post-image {
+  position: relative;
+  z-index: 1;
+  margin-bottom: 14px;
+  background-color: $scss-blogposts-post-image-bg;
+  background-position: center center;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+/*  Align featured image to the left side  */
+.ps-blogposts__post-image--left {
+  float: left;
+  margin-right: 14px;
+}
+
+/*  Align featured image to the right side  */
+.ps-blogposts__post-image--right {
+  float: right;
+  margin-left: 14px;
+}
+
+/*  Makes featured image clickable URL  */
+.ps-blogposts__post-image > a {
+  display: block;
+  height: 100%;
+  content: " ";
+}
+
+/*  Wrapping single post title  */
+.ps-blogposts__post-title {
+  //display: inline-block;
+  margin-bottom: 7px !important;
+  padding: 0 !important;
+  font-size: 20px !important;
+  line-height: 1.4 !important;
+
+  //white-space: nowrap;
+  //overflow: hidden;
+  //text-overflow: ellipsis;
+}
+
+/*  Wrapping single post meta  */
+.ps-blogposts__post-meta {
+  margin-bottom: 7px;
+  line-height: 1.4;
+  opacity: .65;
+}
+
+/*  Wrapping content of the single post  */
+.ps-blogposts__post-content {
+  line-height: 1.4;
+}
+
+/*  Clearfix for image aligment  */
+.ps-blogposts__post-content:after {
+  display: table;
+  clear: both;
+  content: " ";
+}
+
+.ps-blogposts__authorbox {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-top: 1px solid $scss-blogposts-authorbox-border;
+  border-bottom: 1px solid $scss-blogposts-authorbox-border;
+}
+
+.ps-blogposts__authorbox > a,
+.ps-blogposts__authorbox > span,
+.ps-blogposts__authorbox > .ps-img-vipicons {
+  font-size: 18px;
+  vertical-align: middle;
+}
+
+.ps-blogposts__authorbox > span {
+  margin-right: 5px;
+}
+
+.ps-blogposts__authorbox > .ps-img-vipicons {
+  max-width: 14px !important;
+  height: auto !important;
+}
+
+.ps-blogposts__authorbox > .ps-avatar {
+  margin-right: 15px;
+  vertical-align: middle;
+}
+
+.ps-blogposts__authorbox-desc {
+  margin-top: 10px;
+  text-align: justify;
+}
+
+/*
+CM POST SUBMISSION (profile/username/blogposts/create)
+*/
+.add_post_form_container .success, .add_post_form_container .error {
+  display:block;
+  padding:10px;
+  width:100%;
+  margin-bottom: 10px;
+}
+
+.add_post_form_container .success {
+  background: green;
+  color:white;
+}
+
+.add_post_form_container .error {
+  background: red;
+  color:white;
+}
+
+//
+//  USP PRO Integration
+//
+.peepso {
+  .usp-pro {
+    .usp-fieldset {
+      margin-bottom: $padd--med !important;
+    }
+
+    .usp-label {
+      display: block;
+      margin-bottom: ($padd / 2);
+    }
+
+    .usp-input {
+      //@extend %ps-input;
+    }
+
+    .usp-input-files {
+      height: auto !important;
+      padding: $padd;
+      border: $divider;
+    }
+
+    input[type="checkbox"],
+    input[type="radio"] {
+      + label {
+        margin-bottom: 0 !important;
+      }
+    }
+
+    .usp-submit {
+      //@extend %ps-btn;
+
+      //@include button-variant($scss-btn-primary-color, $scss-btn-primary-bg);
+    }
+  }
+}

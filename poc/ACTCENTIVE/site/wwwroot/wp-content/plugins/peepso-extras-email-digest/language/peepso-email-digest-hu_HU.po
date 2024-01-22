@@ -1,0 +1,332 @@
+# Translation of PeepSo - Email Digest in Hungarian
+# This file is distributed under the same license as the PeepSo - Email Digest package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-02-02 12:16:15+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0\n"
+"Language: hu\n"
+"Project-Id-Version: PeepSo - Email Digest\n"
+
+#: peepsoemaildigest.php:822
+msgid "A summary of community activity is sent if you are inactive for more than %d days."
+msgstr ""
+
+#: peepsoemaildigest.php:821
+msgid "%s email digest"
+msgstr ""
+
+#: peepsoemaildigest.php:315
+msgid "Monthly"
+msgstr ""
+
+#: peepsoemaildigest.php:314
+msgid "Biweekly"
+msgstr ""
+
+#: peepsoemaildigest.php:313
+msgid "Weekly"
+msgstr ""
+
+#: peepsoemaildigest.php:312
+msgid "Daily"
+msgstr ""
+
+#: classes/configsectionemaildigest.php:37
+msgid "Use files"
+msgstr ""
+
+#: peepsoemaildigest.php:150
+msgid "Every 2 weeks"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "PeepSo"
+msgstr "PeepSo"
+
+#. Description of the plugin/theme
+msgid "Bring users back with automated newsletter"
+msgstr "Hozd vissza a felhasználókat automatikus hírlevelekkel"
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://peepso.com"
+msgstr "https://peepso.com"
+
+#. Plugin Name of the plugin/theme
+msgid "PeepSo Core: Email Digest"
+msgstr ""
+
+#: templates/general/email-digest.php:41
+msgid "Comment"
+msgstr "Megjegyzés"
+
+#: templates/general/email-digest.php:41
+msgid "Like"
+msgstr "Like"
+
+#: templates/general/email-digest.php:39
+msgid "Read more"
+msgstr "Bővebben"
+
+#: templates/general/email-digest.php:25
+msgid "shared a post"
+msgstr "megosztott egy posztot"
+
+#: templates/general/email-digest-recipient.php:16
+msgid "Last email sent: "
+msgstr "Utolsó elküldött email: "
+
+#: templates/general/email-digest-recipient.php:13
+msgid "User last login: "
+msgstr "Utolsó belépés: "
+
+#: peepsoemaildigest.php:935
+msgid "Preview email was sent"
+msgstr "Előnézet email elküldve"
+
+#: peepsoemaildigest.php:724
+msgid "Most commented post"
+msgstr "Legtöbb hozzászólással rendelkező bejegyzés"
+
+#: peepsoemaildigest.php:686
+msgid "Most liked post"
+msgstr "Legtöbbet kedvelt bejegyzés"
+
+#: peepsoemaildigest.php:624
+msgid "Email digest is not activated"
+msgstr ""
+
+#: peepsoemaildigest.php:619
+msgid "Email digest sent to %d users"
+msgstr ""
+
+#: peepsoemaildigest.php:479
+msgid "Other popular posts"
+msgstr "Más népszerű bejegyzések"
+
+#: peepsoemaildigest.php:472
+msgid "There are only %d posts, required at least %d"
+msgstr ""
+
+#: peepsoemaildigest.php:400
+msgid "Current time is %s, cron scheduled at %s"
+msgstr ""
+
+#: peepsoemaildigest.php:364
+msgid "There are %d logs in your database. You can clear the logs by clicking the button below."
+msgstr "Az adatbázisodban %d napló található. A naplókat az alábbi gombra kattintva törölheted."
+
+#: peepsoemaildigest.php:363
+msgid "Clear Logs"
+msgstr "Naplók törlése"
+
+#: peepsoemaildigest.php:362
+msgid "Preview email failed"
+msgstr ""
+
+#: peepsoemaildigest.php:361
+msgid "Preview email sent"
+msgstr ""
+
+#: peepsoemaildigest.php:343
+msgid "PeepSo Email Digest"
+msgstr "PeepSo Email Digest"
+
+#: peepsoemaildigest.php:292
+msgid "Get it now!"
+msgstr "Szerezze be most!"
+
+#: peepsoemaildigest.php:290
+msgid "The %s plugin requires the PeepSo plugin to be installed and activated."
+msgstr "A(z) %s bővítményhez szükséges a PeepSo telepítése és aktiválása."
+
+#: classes/emaildigestadminajax.php:46
+msgid "No Log Found."
+msgstr "Nem Található Napló."
+
+#: classes/emaildigestadmin.php:42
+msgid "This will be sent to user based on schedule."
+msgstr "Ez el lesz küldve a felhasználónak az időbeosztás szerint."
+
+#: classes/emaildigestadmin.php:41
+msgid "Digest Email"
+msgstr "Email Digest"
+
+#: classes/configsectionemaildigest.php:356
+msgid "Sent Email Digest Logs"
+msgstr "Elküldött Email Digest Napló"
+
+#: classes/configsectionemaildigest.php:349
+msgid "The logs keep latest 100 sent Email Digest emails. You can see which users got the emails and what was their last login when the email was generated and sent to them. You can also preview the email that was sent."
+msgstr "A naplók az utolsó 100 elküldött Email Digest email-t tárolják el. Láthatod melyik felhasználok kapták meg az email-t és mikor léptek be utoljára amikor az email elkészült és el lett küldve nekik. Megtekintheted az előnézetét is az elküldött email-nek."
+
+#: classes/configsectionemaildigest.php:341
+msgid "General"
+msgstr "Általános"
+
+#: classes/configsectionemaildigest.php:315
+msgid "How many emails should be created in a batch"
+msgstr "Mennyi emailt lehet létrehozni egy kötegben"
+
+#: classes/configsectionemaildigest.php:312
+msgid "Depending on the amount of inactive users in your community, not to overload the site there's a batch creation system. This setting controls how many emails will be generated in one batch. This setting does not send the emails. PeepSo mailqueue takes care of the delivery."
+msgstr "A közösségedben lévő inaktív felhasználók mennyiségétől függően, hogy ne legyen túlterhelve az oldal, van egy köteg készítő rendszer. Ez a beállítás irányítja, hogy mennyi email generálódik egy kötegben. Ez a beállítás nem küld emaileket. A PeepSo mailqueue gondoskodik a küldésről."
+
+#: classes/configsectionemaildigest.php:308
+msgid "Execute Email Digest email creation via cron job"
+msgstr "Email Digest email készítés elvégzése cron job-al"
+
+#: classes/configsectionemaildigest.php:305
+msgid "It's advised to switch this setting on and setup a server-side cron job. You can use this command: wget %s It can easily run every hour."
+msgstr "Ajánlott ezt a beállítást bekapcsolni és telepíteni a szerver-oldali cron job-ot. Használhatod ezt a parancsot: wget %s Könnyedén tud futni minden órában."
+
+#: classes/configsectionemaildigest.php:236
+#: classes/configsectionemaildigest.php:243
+#: classes/configsectionemaildigest.php:260
+#: classes/configsectionemaildigest.php:283
+msgid "At"
+msgstr "-nál/-nél"
+
+#: classes/configsectionemaildigest.php:233
+#: classes/configsectionemaildigest.php:256
+#: classes/configsectionemaildigest.php:279
+msgid "The time when Email Digest emails will start to be sent. Emails are sent in batches by the mailqueue, they're not all sent at once, so your users might get them at different times."
+msgstr "Az az idő, amikor az Email Digest elkezdi küldeni az emaileket. Az emailek küldése kötegekben sorban történik, de nem egy időben, így a felhasználók különböző időpontokban kapják meg őket."
+
+#: classes/configsectionemaildigest.php:206
+msgid "Sat"
+msgstr "Szombat"
+
+#: classes/configsectionemaildigest.php:205
+msgid "Fri"
+msgstr "Péntek"
+
+#: classes/configsectionemaildigest.php:204
+msgid "Thu"
+msgstr "Csütörtök"
+
+#: classes/configsectionemaildigest.php:203
+msgid "Wed"
+msgstr "Szerda"
+
+#: classes/configsectionemaildigest.php:202
+msgid "Tue"
+msgstr "Kedd"
+
+#: classes/configsectionemaildigest.php:201
+msgid "Mon"
+msgstr "Hétfő"
+
+#: classes/configsectionemaildigest.php:200
+msgid "Sun"
+msgstr "Vasárnap"
+
+#: classes/configsectionemaildigest.php:195
+#: classes/configsectionemaildigest.php:212
+msgid "Every"
+msgstr "Minden"
+
+#: classes/configsectionemaildigest.php:191
+msgid "If selected date is bigger than the number of days in month, email digest will be sent at the end of the month."
+msgstr "Ha a kiválasztott dátum nagyobb, mint a napok száma a hónapban, elküldjük az email digest a hónap végén."
+
+#: classes/configsectionemaildigest.php:181
+msgid "How often should the Email Digest emails be sent"
+msgstr "Milyen gyakran kellene az Email Digest emaileket küldeni"
+
+#: classes/configsectionemaildigest.php:172
+msgid "Send Email Digest emails to users inactive for more than"
+msgstr "Email Digest emailek küldése azoknak a felhasználóknak, akik inaktívak már több mint"
+
+#: classes/configsectionemaildigest.php:168
+msgid "Users who didn't visit the site in the number of days selected or more will receive the Email Digest emails."
+msgstr "Azok a felhasználók, akik nem keresték fel a honlapot a megadott számú napig vagy annál tovább, Email Digest emaileket fognak kapni."
+
+#: classes/configsectionemaildigest.php:158
+msgid "Send Email Digest emails"
+msgstr "Email Digest emailek küldése"
+
+#: classes/configsectionemaildigest.php:155
+msgid "Email Digest emails contains only posts which have 'Public' or 'Site Members' privacy settings. All other posts, meaning with privacy settings of 'Only me' and 'Friends Only' will be ignored and not sent as part of the Email Digest."
+msgstr "Email Digest emailek csak azokat a hozzászólásokat tartalmazzák, amelyek adatvédelmi beállítása \"Publikus\" vagy a \"Csoporttagok láthatják\". Minden más olyan hozzászólást, melynek az adatvédelmi beállítása \"Csak én láthatom\" és \"Csak barátok láthatják\" figyelmen kívül hagy, és nem lesz elküldve az Email Digest részeként."
+
+#: classes/configsectionemaildigest.php:150
+msgid "These settings control the Email Digest plugin. The plugin has been designed to interest and bring inactive users back to your community by showing them most interesting and engaging posts from a given period."
+msgstr "Ezek a beállítások határozzák meg az Email Digest plugin működését. A plugin célja az érdeklődés fenntartása, és hogy visszahozza az inaktív felhasználókat a közösségbe, megmutatva nekik a legérdekesebb és legvonzóbb üzeneteket egy adott időszakban."
+
+#: classes/configsectionemaildigest.php:136
+msgid "Users"
+msgstr ""
+
+#: classes/configsectionemaildigest.php:120
+msgid "Which User Roles should receive the emails"
+msgstr "Melyik Felhasználói Jogosultságok kapjanak emaileket"
+
+#: classes/configsectionemaildigest.php:106
+msgid "Subscribe new users by default"
+msgstr ""
+
+#: classes/configsectionemaildigest.php:99
+msgid "Content"
+msgstr ""
+
+#: classes/configsectionemaildigest.php:90
+msgid "Show 'read mode' if the posts can't be shown in full and they hit the limit of characters."
+msgstr "Mutatja az \"olvasási mód\"-ot, ha az üzenetek nem látszanak teljes egészben és elérik a maximális karakterszámot."
+
+#: classes/configsectionemaildigest.php:86
+msgid "Limit the post length in Email Digest email to"
+msgstr "Korlátozza a bejegyzés hosszát az Email Digest emailben"
+
+#: classes/configsectionemaildigest.php:79
+msgid "Allow duplicate posts"
+msgstr "Ismétlődő bejegyzések engedélyezése"
+
+#: classes/configsectionemaildigest.php:76
+msgid "With this setting on, most commented on and most liked posts will be showcased as such. However, they might also, and most likely will be shown in the main content of the Email Digest email."
+msgstr "Ezzel a beállítással a legtöbb hozzászólással remdelkező és legkedveltebb üzenetek kerülnek bemutatásra. Ezek az üzenetek valószínűleg láthatóak lesznek az Email Digest emailekben is."
+
+#: classes/configsectionemaildigest.php:72
+msgid "Include most commented post"
+msgstr "Tartalmazza a legtöbb hozzászólással rendelkező bejegyzést"
+
+#: classes/configsectionemaildigest.php:69
+msgid "With this setting switched on, Email Digest email will also contain the most commented on post from a given period and showcase it as such."
+msgstr "Ennek a bekapcsolásával az Email Digest email tartalmazza majd a legtöbbet kommentált posztot egy adott időszakból és megjeleníti azt."
+
+#: classes/configsectionemaildigest.php:65
+msgid "Include most liked post"
+msgstr "Tartalmazza a legkedveltebb bejegyzést"
+
+#: classes/configsectionemaildigest.php:62
+msgid "With this setting switched on, Email Digest email will also contain the most liked post from a given period and showcase it as such."
+msgstr "Ennek a bekapcsolásával az Email Digest email tartalmazza majd a legkedveltebb posztot egy adott időszakból és megjeleníti azt."
+
+#: classes/configsectionemaildigest.php:58
+msgid "Send Email Digest emails even if there are less posts"
+msgstr "Email Digest emailek küldése még akkor is, ha kevesebb a poszt"
+
+#: classes/configsectionemaildigest.php:55
+msgid "An Email Digest email must have at least 1 new post to be sent out. If there are no new ones it won't be sent."
+msgstr "A Digest emailnek tartalmaznia kell legalább egy új üzenet a küldéshez. Ha nincsenek újak, nem kerülnek elküldésre."
+
+#: classes/configsectionemaildigest.php:51
+msgid "How many posts should be included per one email"
+msgstr "Hány bejegyzés legyen emailenként"
+
+#: classes/configsectionemaildigest.php:29
+msgid "Use images"
+msgstr ""
+
+#: classes/configsectionemaildigest.php:21
+msgid "Email Digest Title"
+msgstr "E-mail Digest cím"
+
+#: classes/configsectionemaildigest.php:18 peepsoemaildigest.php:340
+#: peepsoemaildigest.php:589 peepsoemaildigest.php:829
+msgid "Email Digest"
+msgstr "Email Digest"

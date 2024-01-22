@@ -1,0 +1,1698 @@
+
+[Sun, 11 Jun 2023 14:26:27 +0000] [/global-brands-affiliate-marketplace/wp-cron.php?doing_wp_cron] [1686493587.7333]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      61
+Cached queries:     0
+Total query time:   0.0571
+
+[Sun, 11 Jun 2023 14:26:40 +0000] [/global-brands-affiliate-marketplace/wp-cron.php?doing_wp_cron] [1686493600.5985]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      22
+Cached queries:     0
+Total query time:   0.0261
+
+[Sun, 11 Jun 2023 14:26:53 +0000] [/global-brands-affiliate-marketplace/wp-cron.php?doing_wp_cron] [1686493613.5015]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      25
+Cached queries:     0
+Total query time:   0.0289
+
+[Sun, 11 Jun 2023 14:27:06 +0000] [/global-brands-affiliate-marketplace/wp-cron.php?doing_wp_cron] [1686493626.3214]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      26
+Cached queries:     0
+Total query time:   0.0286
+[Sun, 11 Jun 2023 14:27:19 +0000] flushing based on sqlquery group options with extras {"modification_query":"INSERT INTO `wp_2_options` (`option_name`, `option_value`, `autoload`) VALUES ('_transient_doing_cron', '1686493639.2645390033721923828125', 'yes') ON DUPLICATE KEY UPDATE `option_name` = VALUES(`option_name`), `option_value` = VALUES(`option_value`), `autoload` = VALUES(`autoload`)"}
+[Sun, 11 Jun 2023 14:27:19 +0000] flush group options
+[Sun, 11 Jun 2023 14:27:19 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_2_options"}
+[Sun, 11 Jun 2023 14:27:19 +0000] flush group options
+[Sun, 11 Jun 2023 14:27:19 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_2_options"}
+[Sun, 11 Jun 2023 14:27:19 +0000] flush group options
+[Sun, 11 Jun 2023 14:27:19 +0000] flushing based on sqlquery group singletables with extras {"modification_query":"UPDATE wp_2_actionscheduler_actions SET claim_id=3116, last_attempt_gmt='2023-06-11 14:27:19', last_attempt_local='2023-06-11 15:27:19' WHERE claim_id = 0 AND scheduled_date_gmt .= '2023-06-11 14:27:19' AND status='pending' ORDER BY attempts ASC, scheduled_date_gmt ASC, action_id ASC LIMIT 25"}
+[Sun, 11 Jun 2023 14:27:19 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:27:19 +0000] flush group options
+[Sun, 11 Jun 2023 14:27:19 +0000] flush group comments
+[Sun, 11 Jun 2023 14:27:19 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:27:19 +0000] flushing based on sqlquery group singletables with extras {"wpdb_delete":"wp_2_actionscheduler_claims"}
+[Sun, 11 Jun 2023 14:27:19 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:27:19 +0000] flush group options
+[Sun, 11 Jun 2023 14:27:19 +0000] flush group comments
+[Sun, 11 Jun 2023 14:27:19 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:27:19 +0000] flushing based on sqlquery group options with extras {"wpdb_delete":"wp_2_options"}
+[Sun, 11 Jun 2023 14:27:19 +0000] flush group options
+
+[Sun, 11 Jun 2023 14:27:19 +0000] [/global-brands-affiliate-marketplace/wp-cron.php?doing_wp_cron] [1686493639.3211]
+Database Caching using redis (Request-wide modification query)
+
+Db cache debug info:
+Total queries:      42
+Cached queries:     0
+Total query time:   0.0533
+
+[Sun, 11 Jun 2023 14:27:32 +0000] [/global-brands-affiliate-marketplace/wp-cron.php?doing_wp_cron] [1686493652.1668]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      92
+Cached queries:     0
+Total query time:   0.0866
+
+[Sun, 11 Jun 2023 14:27:45 +0000] [/global-brands-affiliate-marketplace/wp-cron.php?doing_wp_cron] [1686493665.2474]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      74
+Cached queries:     0
+Total query time:   0.0710
+
+[Sun, 11 Jun 2023 14:27:58 +0000] [/global-brands-affiliate-marketplace/wp-cron.php?doing_wp_cron] [1686493678.085]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      28
+Cached queries:     0
+Total query time:   0.0297
+
+[Sun, 11 Jun 2023 14:28:11 +0000] [/global-brands-affiliate-marketplace/wp-cron.php?doing_wp_cron] [1686493691.3609]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      137
+Cached queries:     0
+Total query time:   0.1383
+[Sun, 11 Jun 2023 14:28:24 +0000] flushing based on sqlquery group options with extras {"modification_query":"INSERT INTO `wp_2_options` (`option_name`, `option_value`, `autoload`) VALUES ('_transient_doing_cron', '1686493704.0224659442901611328125', 'yes') ON DUPLICATE KEY UPDATE `option_name` = VALUES(`option_name`), `option_value` = VALUES(`option_value`), `autoload` = VALUES(`autoload`)"}
+[Sun, 11 Jun 2023 14:28:24 +0000] flush group options
+[Sun, 11 Jun 2023 14:28:24 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_2_options"}
+[Sun, 11 Jun 2023 14:28:24 +0000] flush group options
+[Sun, 11 Jun 2023 14:28:24 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_2_options"}
+[Sun, 11 Jun 2023 14:28:24 +0000] flush group options
+[Sun, 11 Jun 2023 14:28:24 +0000] flushing based on sqlquery group singletables with extras {"modification_query":"UPDATE wp_2_actionscheduler_actions SET claim_id=3117, last_attempt_gmt='2023-06-11 14:28:24', last_attempt_local='2023-06-11 15:28:24' WHERE claim_id = 0 AND scheduled_date_gmt .= '2023-06-11 14:28:24' AND status='pending' ORDER BY attempts ASC, scheduled_date_gmt ASC, action_id ASC LIMIT 25"}
+[Sun, 11 Jun 2023 14:28:24 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:28:24 +0000] flush group options
+[Sun, 11 Jun 2023 14:28:24 +0000] flush group comments
+[Sun, 11 Jun 2023 14:28:24 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:28:24 +0000] flushing based on sqlquery group singletables with extras {"wpdb_delete":"wp_2_actionscheduler_claims"}
+[Sun, 11 Jun 2023 14:28:24 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:28:24 +0000] flush group options
+[Sun, 11 Jun 2023 14:28:24 +0000] flush group comments
+[Sun, 11 Jun 2023 14:28:24 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:28:24 +0000] flushing based on sqlquery group options with extras {"wpdb_delete":"wp_2_options"}
+[Sun, 11 Jun 2023 14:28:24 +0000] flush group options
+
+[Sun, 11 Jun 2023 14:28:24 +0000] [/global-brands-affiliate-marketplace/wp-cron.php?doing_wp_cron] [1686493704.0762]
+Database Caching using redis (Request-wide modification query)
+
+Db cache debug info:
+Total queries:      38
+Cached queries:     0
+Total query time:   0.0480
+
+[Sun, 11 Jun 2023 14:28:36 +0000] [/global-brands-affiliate-marketplace/wp-cron.php?doing_wp_cron] [1686493716.9224]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      28
+Cached queries:     0
+Total query time:   0.0330
+
+[Sun, 11 Jun 2023 14:28:49 +0000] [/global-brands-affiliate-marketplace/wp-cron.php?doing_wp_cron] [1686493729.7851]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      25
+Cached queries:     0
+Total query time:   0.0296
+
+[Sun, 11 Jun 2023 14:29:04 +0000] [/global-brands-affiliate-marketplace/wp-cron.php?doing_wp_cron] [1686493744.9374]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      28
+Cached queries:     0
+Total query time:   0.0329
+[Sun, 11 Jun 2023 14:29:17 +0000] flushing based on sqlquery group options with extras {"modification_query":"INSERT INTO `wp_2_options` (`option_name`, `option_value`, `autoload`) VALUES ('_transient_doing_cron', '1686493757.4334208965301513671875', 'yes') ON DUPLICATE KEY UPDATE `option_name` = VALUES(`option_name`), `option_value` = VALUES(`option_value`), `autoload` = VALUES(`autoload`)"}
+[Sun, 11 Jun 2023 14:29:17 +0000] flush group options
+[Sun, 11 Jun 2023 14:29:17 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_2_options"}
+[Sun, 11 Jun 2023 14:29:17 +0000] flush group options
+[Sun, 11 Jun 2023 14:29:17 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_2_options"}
+[Sun, 11 Jun 2023 14:29:17 +0000] flush group options
+[Sun, 11 Jun 2023 14:29:17 +0000] flushing based on sqlquery group singletables with extras {"modification_query":"UPDATE wp_2_actionscheduler_actions SET claim_id=3118, last_attempt_gmt='2023-06-11 14:29:17', last_attempt_local='2023-06-11 15:29:17' WHERE claim_id = 0 AND scheduled_date_gmt .= '2023-06-11 14:29:17' AND status='pending' ORDER BY attempts ASC, scheduled_date_gmt ASC, action_id ASC LIMIT 25"}
+[Sun, 11 Jun 2023 14:29:17 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:29:17 +0000] flush group options
+[Sun, 11 Jun 2023 14:29:17 +0000] flush group comments
+[Sun, 11 Jun 2023 14:29:17 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:29:17 +0000] flushing based on sqlquery group singletables with extras {"wpdb_delete":"wp_2_actionscheduler_claims"}
+[Sun, 11 Jun 2023 14:29:17 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:29:17 +0000] flush group options
+[Sun, 11 Jun 2023 14:29:17 +0000] flush group comments
+[Sun, 11 Jun 2023 14:29:17 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:29:17 +0000] flushing based on sqlquery group options with extras {"wpdb_delete":"wp_2_options"}
+[Sun, 11 Jun 2023 14:29:17 +0000] flush group options
+
+[Sun, 11 Jun 2023 14:29:17 +0000] [/global-brands-affiliate-marketplace/wp-cron.php?doing_wp_cron] [1686493757.4879]
+Database Caching using redis (Request-wide modification query)
+
+Db cache debug info:
+Total queries:      86
+Cached queries:     0
+Total query time:   0.0901
+
+[Sun, 11 Jun 2023 14:29:30 +0000] [/global-brands-affiliate-marketplace/wp-cron.php?doing_wp_cron] [1686493770.2813]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      22
+Cached queries:     0
+Total query time:   0.0262
+[Sun, 11 Jun 2023 14:30:16 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_2_options"}
+[Sun, 11 Jun 2023 14:30:16 +0000] flush group options
+[Sun, 11 Jun 2023 14:30:23 +0000] flushing based on sqlquery group options with extras {"modification_query":"INSERT INTO `wp_2_options` (`option_name`, `option_value`, `autoload`) VALUES ('_transient_doing_cron', '1686493823.1562430858612060546875', 'yes') ON DUPLICATE KEY UPDATE `option_name` = VALUES(`option_name`), `option_value` = VALUES(`option_value`), `autoload` = VALUES(`autoload`)"}
+[Sun, 11 Jun 2023 14:30:23 +0000] flush group options
+[Sun, 11 Jun 2023 14:30:23 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_2_options"}
+[Sun, 11 Jun 2023 14:30:23 +0000] flush group options
+[Sun, 11 Jun 2023 14:30:23 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_2_options"}
+[Sun, 11 Jun 2023 14:30:23 +0000] flush group options
+[Sun, 11 Jun 2023 14:30:23 +0000] flushing based on sqlquery group singletables with extras {"modification_query":"UPDATE wp_2_actionscheduler_actions SET claim_id=3119, last_attempt_gmt='2023-06-11 14:30:23', last_attempt_local='2023-06-11 15:30:23' WHERE claim_id = 0 AND scheduled_date_gmt .= '2023-06-11 14:30:23' AND status='pending' ORDER BY attempts ASC, scheduled_date_gmt ASC, action_id ASC LIMIT 25"}
+[Sun, 11 Jun 2023 14:30:23 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:30:23 +0000] flush group options
+[Sun, 11 Jun 2023 14:30:23 +0000] flush group comments
+[Sun, 11 Jun 2023 14:30:23 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:30:23 +0000] flushing based on sqlquery group singletables with extras {"wpdb_delete":"wp_2_actionscheduler_claims"}
+[Sun, 11 Jun 2023 14:30:23 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:30:23 +0000] flush group options
+[Sun, 11 Jun 2023 14:30:23 +0000] flush group comments
+[Sun, 11 Jun 2023 14:30:23 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:30:23 +0000] flushing based on sqlquery group options with extras {"wpdb_delete":"wp_2_options"}
+[Sun, 11 Jun 2023 14:30:23 +0000] flush group options
+
+[Sun, 11 Jun 2023 14:30:23 +0000] [/global-brands-affiliate-marketplace/wp-cron.php?doing_wp_cron] [1686493823.2858]
+Database Caching using redis (Request-wide modification query)
+
+Db cache debug info:
+Total queries:      105
+Cached queries:     0
+Total query time:   0.1734
+
+[Sun, 11 Jun 2023 14:30:35 +0000] [/global-brands-affiliate-marketplace/wp-cron.php?doing_wp_cron] [1686493835.2531]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      22
+Cached queries:     0
+Total query time:   0.0287
+
+[Sun, 11 Jun 2023 14:30:53 +0000] [/global-brands-affiliate-marketplace/wp-cron.php?doing_wp_cron] [1686493853.9283]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      26
+Cached queries:     0
+Total query time:   0.0308
+[Sun, 11 Jun 2023 14:31:12 +0000] flushing based on sqlquery group options with extras {"modification_query":"INSERT INTO `wp_2_options` (`option_name`, `option_value`, `autoload`) VALUES ('_transient_doing_cron', '1686493872.8937931060791015625000', 'yes') ON DUPLICATE KEY UPDATE `option_name` = VALUES(`option_name`), `option_value` = VALUES(`option_value`), `autoload` = VALUES(`autoload`)"}
+[Sun, 11 Jun 2023 14:31:12 +0000] flush group options
+[Sun, 11 Jun 2023 14:31:12 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_2_options"}
+[Sun, 11 Jun 2023 14:31:12 +0000] flush group options
+[Sun, 11 Jun 2023 14:31:12 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_2_options"}
+[Sun, 11 Jun 2023 14:31:12 +0000] flush group options
+[Sun, 11 Jun 2023 14:31:12 +0000] flushing based on sqlquery group singletables with extras {"modification_query":"UPDATE wp_2_actionscheduler_actions SET claim_id=3120, last_attempt_gmt='2023-06-11 14:31:12', last_attempt_local='2023-06-11 15:31:12' WHERE claim_id = 0 AND scheduled_date_gmt .= '2023-06-11 14:31:12' AND status='pending' ORDER BY attempts ASC, scheduled_date_gmt ASC, action_id ASC LIMIT 25"}
+[Sun, 11 Jun 2023 14:31:12 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:31:12 +0000] flush group options
+[Sun, 11 Jun 2023 14:31:12 +0000] flush group comments
+[Sun, 11 Jun 2023 14:31:12 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:31:12 +0000] flushing based on sqlquery group singletables with extras {"wpdb_delete":"wp_2_actionscheduler_claims"}
+[Sun, 11 Jun 2023 14:31:12 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:31:12 +0000] flush group options
+[Sun, 11 Jun 2023 14:31:12 +0000] flush group comments
+[Sun, 11 Jun 2023 14:31:12 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:31:12 +0000] flushing based on sqlquery group options with extras {"wpdb_delete":"wp_2_options"}
+[Sun, 11 Jun 2023 14:31:13 +0000] flush group options
+
+[Sun, 11 Jun 2023 14:31:13 +0000] [/global-brands-affiliate-marketplace/wp-cron.php?doing_wp_cron] [1686493873.0141]
+Database Caching using redis (Request-wide modification query)
+
+Db cache debug info:
+Total queries:      43
+Cached queries:     0
+Total query time:   0.1109
+
+[Sun, 11 Jun 2023 14:31:29 +0000] [/global-brands-affiliate-marketplace/wp-cron.php?doing_wp_cron] [1686493889.9977]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      30
+Cached queries:     0
+Total query time:   0.0374
+
+[Sun, 11 Jun 2023 14:31:49 +0000] [/global-brands-affiliate-marketplace/wp-cron.php?doing_wp_cron] [1686493909.6447]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      25
+Cached queries:     0
+Total query time:   0.0324
+
+[Sun, 11 Jun 2023 14:32:07 +0000] [/global-brands-affiliate-marketplace/wp-cron.php?doing_wp_cron] [1686493927.2125]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      21
+Cached queries:     0
+Total query time:   0.0285
+[Sun, 11 Jun 2023 14:32:26 +0000] flushing based on sqlquery group options with extras {"modification_query":"INSERT INTO `wp_2_options` (`option_name`, `option_value`, `autoload`) VALUES ('_transient_doing_cron', '1686493946.4126539230346679687500', 'yes') ON DUPLICATE KEY UPDATE `option_name` = VALUES(`option_name`), `option_value` = VALUES(`option_value`), `autoload` = VALUES(`autoload`)"}
+[Sun, 11 Jun 2023 14:32:26 +0000] flush group options
+[Sun, 11 Jun 2023 14:32:26 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_2_options"}
+[Sun, 11 Jun 2023 14:32:26 +0000] flush group options
+[Sun, 11 Jun 2023 14:32:26 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_2_options"}
+[Sun, 11 Jun 2023 14:32:26 +0000] flush group options
+[Sun, 11 Jun 2023 14:32:26 +0000] flushing based on sqlquery group singletables with extras {"modification_query":"UPDATE wp_2_actionscheduler_actions SET claim_id=3121, last_attempt_gmt='2023-06-11 14:32:26', last_attempt_local='2023-06-11 15:32:26' WHERE claim_id = 0 AND scheduled_date_gmt .= '2023-06-11 14:32:26' AND status='pending' ORDER BY attempts ASC, scheduled_date_gmt ASC, action_id ASC LIMIT 25"}
+[Sun, 11 Jun 2023 14:32:26 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:32:26 +0000] flush group options
+[Sun, 11 Jun 2023 14:32:26 +0000] flush group comments
+[Sun, 11 Jun 2023 14:32:26 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:32:26 +0000] flushing based on sqlquery group singletables with extras {"wpdb_delete":"wp_2_actionscheduler_claims"}
+[Sun, 11 Jun 2023 14:32:26 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:32:26 +0000] flush group options
+[Sun, 11 Jun 2023 14:32:26 +0000] flush group comments
+[Sun, 11 Jun 2023 14:32:26 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:32:26 +0000] flushing based on sqlquery group options with extras {"wpdb_delete":"wp_2_options"}
+[Sun, 11 Jun 2023 14:32:26 +0000] flush group options
+
+[Sun, 11 Jun 2023 14:32:26 +0000] [/global-brands-affiliate-marketplace/wp-cron.php?doing_wp_cron] [1686493946.5333]
+Database Caching using redis (Request-wide modification query)
+
+Db cache debug info:
+Total queries:      38
+Cached queries:     0
+Total query time:   0.1113
+
+[Sun, 11 Jun 2023 14:32:43 +0000] [/global-brands-affiliate-marketplace/wp-cron.php?doing_wp_cron] [1686493963.5516]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      22
+Cached queries:     0
+Total query time:   0.0275
+
+[Sun, 11 Jun 2023 14:33:03 +0000] [/global-brands-affiliate-marketplace/wp-cron.php?doing_wp_cron] [1686493983.0163]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      25
+Cached queries:     0
+Total query time:   0.0387
+[Sun, 11 Jun 2023 14:33:19 +0000] flushing based on sqlquery group options with extras {"modification_query":"INSERT INTO `wp_2_options` (`option_name`, `option_value`, `autoload`) VALUES ('_transient_doing_cron', '1686493999.4702799320220947265625', 'yes') ON DUPLICATE KEY UPDATE `option_name` = VALUES(`option_name`), `option_value` = VALUES(`option_value`), `autoload` = VALUES(`autoload`)"}
+[Sun, 11 Jun 2023 14:33:19 +0000] flush group options
+[Sun, 11 Jun 2023 14:33:19 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_2_options"}
+[Sun, 11 Jun 2023 14:33:19 +0000] flush group options
+[Sun, 11 Jun 2023 14:33:19 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_2_options"}
+[Sun, 11 Jun 2023 14:33:19 +0000] flush group options
+[Sun, 11 Jun 2023 14:33:19 +0000] flushing based on sqlquery group singletables with extras {"modification_query":"UPDATE wp_2_actionscheduler_actions SET claim_id=3122, last_attempt_gmt='2023-06-11 14:33:19', last_attempt_local='2023-06-11 15:33:19' WHERE claim_id = 0 AND scheduled_date_gmt .= '2023-06-11 14:33:19' AND status='pending' ORDER BY attempts ASC, scheduled_date_gmt ASC, action_id ASC LIMIT 25"}
+[Sun, 11 Jun 2023 14:33:19 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:33:19 +0000] flush group options
+[Sun, 11 Jun 2023 14:33:19 +0000] flush group comments
+[Sun, 11 Jun 2023 14:33:19 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:33:19 +0000] flushing based on sqlquery group singletables with extras {"wpdb_delete":"wp_2_actionscheduler_claims"}
+[Sun, 11 Jun 2023 14:33:19 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:33:19 +0000] flush group options
+[Sun, 11 Jun 2023 14:33:19 +0000] flush group comments
+[Sun, 11 Jun 2023 14:33:19 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:33:19 +0000] flushing based on sqlquery group options with extras {"wpdb_delete":"wp_2_options"}
+[Sun, 11 Jun 2023 14:33:19 +0000] flush group options
+
+[Sun, 11 Jun 2023 14:33:19 +0000] [/global-brands-affiliate-marketplace/wp-cron.php?doing_wp_cron] [1686493999.5943]
+Database Caching using redis (Request-wide modification query)
+
+Db cache debug info:
+Total queries:      44
+Cached queries:     0
+Total query time:   0.1256
+
+[Sun, 11 Jun 2023 14:33:39 +0000] [/global-brands-affiliate-marketplace/wp-cron.php?doing_wp_cron] [1686494019.5801]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      38
+Cached queries:     0
+Total query time:   0.0442
+
+[Sun, 11 Jun 2023 14:33:57 +0000] [/global-brands-affiliate-marketplace/wp-cron.php?doing_wp_cron] [1686494037.2606]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      19
+Cached queries:     0
+Total query time:   0.0240
+[Sun, 11 Jun 2023 14:34:12 +0000] flushing based on sqlquery group options with extras {"modification_query":"INSERT INTO `wp_2_options` (`option_name`, `option_value`, `autoload`) VALUES ('_transient_doing_cron', '1686494052.7274940013885498046875', 'yes') ON DUPLICATE KEY UPDATE `option_name` = VALUES(`option_name`), `option_value` = VALUES(`option_value`), `autoload` = VALUES(`autoload`)"}
+[Sun, 11 Jun 2023 14:34:12 +0000] flush group options
+[Sun, 11 Jun 2023 14:34:12 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_2_options"}
+[Sun, 11 Jun 2023 14:34:12 +0000] flush group options
+[Sun, 11 Jun 2023 14:34:12 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_2_options"}
+[Sun, 11 Jun 2023 14:34:12 +0000] flush group options
+[Sun, 11 Jun 2023 14:34:12 +0000] flushing based on sqlquery group singletables with extras {"modification_query":"UPDATE wp_2_actionscheduler_actions SET claim_id=3123, last_attempt_gmt='2023-06-11 14:34:12', last_attempt_local='2023-06-11 15:34:12' WHERE claim_id = 0 AND scheduled_date_gmt .= '2023-06-11 14:34:12' AND status='pending' ORDER BY attempts ASC, scheduled_date_gmt ASC, action_id ASC LIMIT 25"}
+[Sun, 11 Jun 2023 14:34:12 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:34:12 +0000] flush group options
+[Sun, 11 Jun 2023 14:34:12 +0000] flush group comments
+[Sun, 11 Jun 2023 14:34:12 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:34:12 +0000] flushing based on sqlquery group singletables with extras {"wpdb_delete":"wp_2_actionscheduler_claims"}
+[Sun, 11 Jun 2023 14:34:12 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:34:12 +0000] flush group options
+[Sun, 11 Jun 2023 14:34:12 +0000] flush group comments
+[Sun, 11 Jun 2023 14:34:12 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:34:12 +0000] flushing based on sqlquery group options with extras {"wpdb_delete":"wp_2_options"}
+[Sun, 11 Jun 2023 14:34:12 +0000] flush group options
+
+[Sun, 11 Jun 2023 14:34:12 +0000] [/global-brands-affiliate-marketplace/wp-cron.php?doing_wp_cron] [1686494052.8442]
+Database Caching using redis (Request-wide modification query)
+
+Db cache debug info:
+Total queries:      42
+Cached queries:     0
+Total query time:   0.1095
+
+[Sun, 11 Jun 2023 14:34:31 +0000] [/global-brands-affiliate-marketplace/wp-cron.php?doing_wp_cron] [1686494071.3768]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      20
+Cached queries:     0
+Total query time:   0.0242
+
+[Sun, 11 Jun 2023 14:34:51 +0000] [/global-brands-affiliate-marketplace/wp-cron.php?doing_wp_cron] [1686494091.6039]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      19
+Cached queries:     0
+Total query time:   0.0271
+
+[Sun, 11 Jun 2023 14:35:10 +0000] [/global-brands-affiliate-marketplace/wp-cron.php?doing_wp_cron] [1686494110.0043]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      23
+Cached queries:     0
+Total query time:   0.0311
+[Sun, 11 Jun 2023 14:35:27 +0000] flushing based on sqlquery group options with extras {"modification_query":"INSERT INTO `wp_2_options` (`option_name`, `option_value`, `autoload`) VALUES ('_transient_doing_cron', '1686494127.9303560256958007812500', 'yes') ON DUPLICATE KEY UPDATE `option_name` = VALUES(`option_name`), `option_value` = VALUES(`option_value`), `autoload` = VALUES(`autoload`)"}
+[Sun, 11 Jun 2023 14:35:27 +0000] flush group options
+[Sun, 11 Jun 2023 14:35:27 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_2_options"}
+[Sun, 11 Jun 2023 14:35:27 +0000] flush group options
+[Sun, 11 Jun 2023 14:35:27 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_2_options"}
+[Sun, 11 Jun 2023 14:35:27 +0000] flush group options
+[Sun, 11 Jun 2023 14:35:27 +0000] flushing based on sqlquery group singletables with extras {"modification_query":"UPDATE wp_2_actionscheduler_actions SET claim_id=3124, last_attempt_gmt='2023-06-11 14:35:27', last_attempt_local='2023-06-11 15:35:27' WHERE claim_id = 0 AND scheduled_date_gmt .= '2023-06-11 14:35:27' AND status='pending' ORDER BY attempts ASC, scheduled_date_gmt ASC, action_id ASC LIMIT 25"}
+[Sun, 11 Jun 2023 14:35:27 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:35:27 +0000] flush group options
+[Sun, 11 Jun 2023 14:35:27 +0000] flush group comments
+[Sun, 11 Jun 2023 14:35:27 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:35:28 +0000] flushing based on sqlquery group singletables with extras {"wpdb_delete":"wp_2_actionscheduler_claims"}
+[Sun, 11 Jun 2023 14:35:28 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:35:28 +0000] flush group options
+[Sun, 11 Jun 2023 14:35:28 +0000] flush group comments
+[Sun, 11 Jun 2023 14:35:28 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:35:28 +0000] flushing based on sqlquery group options with extras {"wpdb_delete":"wp_2_options"}
+[Sun, 11 Jun 2023 14:35:28 +0000] flush group options
+
+[Sun, 11 Jun 2023 14:35:28 +0000] [/global-brands-affiliate-marketplace/wp-cron.php?doing_wp_cron] [1686494128.0436]
+Database Caching using redis (Request-wide modification query)
+
+Db cache debug info:
+Total queries:      40
+Cached queries:     0
+Total query time:   0.1061
+
+[Sun, 11 Jun 2023 14:35:45 +0000] [/global-brands-affiliate-marketplace/wp-cron.php?doing_wp_cron] [1686494145.5775]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      73
+Cached queries:     0
+Total query time:   0.0727
+
+[Sun, 11 Jun 2023 14:36:04 +0000] [/global-brands-affiliate-marketplace/wp-cron.php?doing_wp_cron] [1686494164.8735]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      20
+Cached queries:     0
+Total query time:   0.0263
+[Sun, 11 Jun 2023 14:36:20 +0000] flushing based on sqlquery group options with extras {"modification_query":"INSERT INTO `wp_2_options` (`option_name`, `option_value`, `autoload`) VALUES ('_transient_doing_cron', '1686494180.8761000633239746093750', 'yes') ON DUPLICATE KEY UPDATE `option_name` = VALUES(`option_name`), `option_value` = VALUES(`option_value`), `autoload` = VALUES(`autoload`)"}
+[Sun, 11 Jun 2023 14:36:20 +0000] flush group options
+[Sun, 11 Jun 2023 14:36:20 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_2_options"}
+[Sun, 11 Jun 2023 14:36:20 +0000] flush group options
+[Sun, 11 Jun 2023 14:36:20 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_2_options"}
+[Sun, 11 Jun 2023 14:36:20 +0000] flush group options
+[Sun, 11 Jun 2023 14:36:20 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_2_options"}
+[Sun, 11 Jun 2023 14:36:20 +0000] flush group options
+[Sun, 11 Jun 2023 14:36:20 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_2_options"}
+[Sun, 11 Jun 2023 14:36:20 +0000] flush group options
+[Sun, 11 Jun 2023 14:36:20 +0000] flushing based on sqlquery group singletables with extras {"modification_query":"UPDATE wp_2_actionscheduler_actions SET claim_id=3125, last_attempt_gmt='2023-06-11 14:36:20', last_attempt_local='2023-06-11 15:36:20' WHERE claim_id = 0 AND scheduled_date_gmt .= '2023-06-11 14:36:20' AND status='pending' ORDER BY attempts ASC, scheduled_date_gmt ASC, action_id ASC LIMIT 25"}
+[Sun, 11 Jun 2023 14:36:20 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:36:20 +0000] flush group options
+[Sun, 11 Jun 2023 14:36:20 +0000] flush group comments
+[Sun, 11 Jun 2023 14:36:20 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:36:20 +0000] flushing based on sqlquery group singletables with extras {"wpdb_delete":"wp_2_actionscheduler_claims"}
+[Sun, 11 Jun 2023 14:36:20 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:36:21 +0000] flush group options
+[Sun, 11 Jun 2023 14:36:21 +0000] flush group comments
+[Sun, 11 Jun 2023 14:36:21 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:36:21 +0000] flushing based on sqlquery group options with extras {"wpdb_delete":"wp_2_options"}
+[Sun, 11 Jun 2023 14:36:21 +0000] flush group options
+
+[Sun, 11 Jun 2023 14:36:21 +0000] [/global-brands-affiliate-marketplace/wp-cron.php?doing_wp_cron] [1686494181.0401]
+Database Caching using redis (Request-wide modification query)
+
+Db cache debug info:
+Total queries:      44
+Cached queries:     0
+Total query time:   0.1344
+
+[Sun, 11 Jun 2023 14:36:38 +0000] [/global-brands-affiliate-marketplace/wp-cron.php?doing_wp_cron] [1686494198.9723]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      22
+Cached queries:     0
+Total query time:   0.0347
+[Sun, 11 Jun 2023 14:36:50 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_2_options"}
+[Sun, 11 Jun 2023 14:36:50 +0000] flush group options
+
+[Sun, 11 Jun 2023 14:36:51 +0000] [/global-brands-affiliate-marketplace/wp-cron.php?doing_wp_cron] [1686494211.0055]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      60
+Cached queries:     0
+Total query time:   0.0648
+
+[Sun, 11 Jun 2023 14:37:03 +0000] [/global-brands-affiliate-marketplace/wp-cron.php?doing_wp_cron] [1686494223.7425]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      23
+Cached queries:     0
+Total query time:   0.0270
+[Sun, 11 Jun 2023 14:37:16 +0000] flushing based on sqlquery group options with extras {"modification_query":"INSERT INTO `wp_2_options` (`option_name`, `option_value`, `autoload`) VALUES ('_transient_doing_cron', '1686494236.5999369621276855468750', 'yes') ON DUPLICATE KEY UPDATE `option_name` = VALUES(`option_name`), `option_value` = VALUES(`option_value`), `autoload` = VALUES(`autoload`)"}
+[Sun, 11 Jun 2023 14:37:16 +0000] flush group options
+[Sun, 11 Jun 2023 14:37:16 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_2_options"}
+[Sun, 11 Jun 2023 14:37:16 +0000] flush group options
+[Sun, 11 Jun 2023 14:37:16 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_2_options"}
+[Sun, 11 Jun 2023 14:37:16 +0000] flush group options
+[Sun, 11 Jun 2023 14:37:16 +0000] flushing based on sqlquery group singletables with extras {"modification_query":"UPDATE wp_2_actionscheduler_actions SET claim_id=3126, last_attempt_gmt='2023-06-11 14:37:16', last_attempt_local='2023-06-11 15:37:16' WHERE claim_id = 0 AND scheduled_date_gmt .= '2023-06-11 14:37:16' AND status='pending' ORDER BY attempts ASC, scheduled_date_gmt ASC, action_id ASC LIMIT 25"}
+[Sun, 11 Jun 2023 14:37:16 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:37:16 +0000] flush group options
+[Sun, 11 Jun 2023 14:37:16 +0000] flush group comments
+[Sun, 11 Jun 2023 14:37:16 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:37:16 +0000] flushing based on sqlquery group singletables with extras {"wpdb_delete":"wp_2_actionscheduler_claims"}
+[Sun, 11 Jun 2023 14:37:16 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:37:16 +0000] flush group options
+[Sun, 11 Jun 2023 14:37:16 +0000] flush group comments
+[Sun, 11 Jun 2023 14:37:16 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:37:16 +0000] flushing based on sqlquery group options with extras {"wpdb_delete":"wp_2_options"}
+[Sun, 11 Jun 2023 14:37:16 +0000] flush group options
+
+[Sun, 11 Jun 2023 14:37:16 +0000] [/global-brands-affiliate-marketplace/wp-cron.php?doing_wp_cron] [1686494236.6549]
+Database Caching using redis (Request-wide modification query)
+
+Db cache debug info:
+Total queries:      38
+Cached queries:     0
+Total query time:   0.0470
+
+[Sun, 11 Jun 2023 14:37:29 +0000] [/global-brands-affiliate-marketplace/wp-cron.php?doing_wp_cron] [1686494249.448]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      26
+Cached queries:     0
+Total query time:   0.0274
+[Sun, 11 Jun 2023 14:37:42 +0000] flushing based on sqlquery group options with extras {"modification_query":"INSERT INTO `wp_2_options` (`option_name`, `option_value`, `autoload`) VALUES ('_transient_doing_cron', '1686494262.3293271064758300781250', 'yes') ON DUPLICATE KEY UPDATE `option_name` = VALUES(`option_name`), `option_value` = VALUES(`option_value`), `autoload` = VALUES(`autoload`)"}
+[Sun, 11 Jun 2023 14:37:42 +0000] flush group options
+[Sun, 11 Jun 2023 14:37:42 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_2_options"}
+[Sun, 11 Jun 2023 14:37:42 +0000] flush group options
+[Sun, 11 Jun 2023 14:37:42 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_2_options"}
+[Sun, 11 Jun 2023 14:37:42 +0000] flush group options
+[Sun, 11 Jun 2023 14:37:43 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_2_options"}
+[Sun, 11 Jun 2023 14:37:43 +0000] flush group options
+[Sun, 11 Jun 2023 14:37:46 +0000] flushing based on sqlquery group options with extras {"wpdb_delete":"wp_2_options"}
+[Sun, 11 Jun 2023 14:37:46 +0000] flush group options
+
+[Sun, 11 Jun 2023 14:37:46 +0000] [/global-brands-affiliate-marketplace/wp-cron.php?doing_wp_cron] [1686494266.9319]
+Database Caching using redis (Request-wide modification query)
+
+Db cache debug info:
+Total queries:      27
+Cached queries:     0
+Total query time:   0.0402
+
+[Sun, 11 Jun 2023 14:37:55 +0000] [/global-brands-affiliate-marketplace/wp-cron.php?doing_wp_cron] [1686494275.2691]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      28
+Cached queries:     0
+Total query time:   0.0328
+
+[Sun, 11 Jun 2023 14:38:08 +0000] [/global-brands-affiliate-marketplace/wp-cron.php?doing_wp_cron] [1686494288.1248]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      22
+Cached queries:     0
+Total query time:   0.0266
+[Sun, 11 Jun 2023 14:38:21 +0000] flushing based on sqlquery group options with extras {"modification_query":"INSERT INTO `wp_2_options` (`option_name`, `option_value`, `autoload`) VALUES ('_transient_doing_cron', '1686494301.0677049160003662109375', 'yes') ON DUPLICATE KEY UPDATE `option_name` = VALUES(`option_name`), `option_value` = VALUES(`option_value`), `autoload` = VALUES(`autoload`)"}
+[Sun, 11 Jun 2023 14:38:21 +0000] flush group options
+[Sun, 11 Jun 2023 14:38:21 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_2_options"}
+[Sun, 11 Jun 2023 14:38:21 +0000] flush group options
+[Sun, 11 Jun 2023 14:38:21 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_2_options"}
+[Sun, 11 Jun 2023 14:38:21 +0000] flush group options
+[Sun, 11 Jun 2023 14:38:21 +0000] flushing based on sqlquery group singletables with extras {"modification_query":"UPDATE wp_2_actionscheduler_actions SET claim_id=3127, last_attempt_gmt='2023-06-11 14:38:21', last_attempt_local='2023-06-11 15:38:21' WHERE claim_id = 0 AND scheduled_date_gmt .= '2023-06-11 14:38:21' AND status='pending' ORDER BY attempts ASC, scheduled_date_gmt ASC, action_id ASC LIMIT 25"}
+[Sun, 11 Jun 2023 14:38:21 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:38:21 +0000] flush group options
+[Sun, 11 Jun 2023 14:38:21 +0000] flush group comments
+[Sun, 11 Jun 2023 14:38:21 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:38:21 +0000] flushing based on sqlquery group singletables with extras {"wpdb_delete":"wp_2_actionscheduler_claims"}
+[Sun, 11 Jun 2023 14:38:21 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:38:21 +0000] flush group options
+[Sun, 11 Jun 2023 14:38:21 +0000] flush group comments
+[Sun, 11 Jun 2023 14:38:21 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:38:21 +0000] flushing based on sqlquery group options with extras {"wpdb_delete":"wp_2_options"}
+[Sun, 11 Jun 2023 14:38:21 +0000] flush group options
+
+[Sun, 11 Jun 2023 14:38:21 +0000] [/global-brands-affiliate-marketplace/wp-cron.php?doing_wp_cron] [1686494301.123]
+Database Caching using redis (Request-wide modification query)
+
+Db cache debug info:
+Total queries:      38
+Cached queries:     0
+Total query time:   0.0494
+[Sun, 11 Jun 2023 14:38:28 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_options"}
+[Sun, 11 Jun 2023 14:38:28 +0000] flush group options
+[Sun, 11 Jun 2023 14:38:28 +0000] flushing based on sqlquery group singletables with extras {"wpdb_update":"wp_peepso_users"}
+[Sun, 11 Jun 2023 14:38:28 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:38:28 +0000] flush group options
+[Sun, 11 Jun 2023 14:38:28 +0000] flush group comments
+[Sun, 11 Jun 2023 14:38:28 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:38:28 +0000] flushing based on sqlquery group singletables with extras {"wpdb_update":"wp_peepso_users"}
+[Sun, 11 Jun 2023 14:38:28 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:38:28 +0000] flush group options
+[Sun, 11 Jun 2023 14:38:28 +0000] flush group comments
+[Sun, 11 Jun 2023 14:38:28 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:38:28 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_options"}
+[Sun, 11 Jun 2023 14:38:28 +0000] flush group options
+[Sun, 11 Jun 2023 14:38:28 +0000] flushing based on sqlquery group singletables with extras {"wpdb_update":"wp_peepso_users"}
+[Sun, 11 Jun 2023 14:38:28 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:38:28 +0000] flush group options
+[Sun, 11 Jun 2023 14:38:28 +0000] flush group comments
+[Sun, 11 Jun 2023 14:38:28 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:38:28 +0000] flushing based on sqlquery group singletables with extras {"wpdb_update":"wp_peepso_users"}
+[Sun, 11 Jun 2023 14:38:28 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:38:28 +0000] flush group options
+[Sun, 11 Jun 2023 14:38:28 +0000] flush group comments
+[Sun, 11 Jun 2023 14:38:28 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:38:28 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_options"}
+[Sun, 11 Jun 2023 14:38:28 +0000] flush group options
+[Sun, 11 Jun 2023 14:38:28 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_options"}
+[Sun, 11 Jun 2023 14:38:28 +0000] flush group options
+
+[Sun, 11 Jun 2023 14:38:29 +0000] [/social-media-hub/] [1686494309.2302]
+Database Caching using redis
+
+Db cache debug info:
+Total queries:      108
+Cached queries:     0
+Total query time:   0.1125
+
+[Sun, 11 Jun 2023 14:38:34 +0000] [/global-brands-affiliate-marketplace/wp-cron.php?doing_wp_cron] [1686494314.0577]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      74
+Cached queries:     0
+Total query time:   0.0680
+
+[Sun, 11 Jun 2023 14:38:46 +0000] [/global-brands-affiliate-marketplace/wp-cron.php?doing_wp_cron] [1686494326.9023]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      26
+Cached queries:     0
+Total query time:   0.0297
+
+[Sun, 11 Jun 2023 14:38:59 +0000] [/global-brands-affiliate-marketplace/wp-cron.php?doing_wp_cron] [1686494339.7816]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      26
+Cached queries:     0
+Total query time:   0.0314
+[Sun, 11 Jun 2023 14:39:12 +0000] flushing based on sqlquery group options with extras {"modification_query":"INSERT INTO `wp_2_options` (`option_name`, `option_value`, `autoload`) VALUES ('_transient_doing_cron', '1686494352.6038279533386230468750', 'yes') ON DUPLICATE KEY UPDATE `option_name` = VALUES(`option_name`), `option_value` = VALUES(`option_value`), `autoload` = VALUES(`autoload`)"}
+[Sun, 11 Jun 2023 14:39:12 +0000] flush group options
+[Sun, 11 Jun 2023 14:39:12 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_2_options"}
+[Sun, 11 Jun 2023 14:39:12 +0000] flush group options
+[Sun, 11 Jun 2023 14:39:12 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_2_options"}
+[Sun, 11 Jun 2023 14:39:12 +0000] flush group options
+[Sun, 11 Jun 2023 14:39:12 +0000] flushing based on sqlquery group singletables with extras {"modification_query":"UPDATE wp_2_actionscheduler_actions SET claim_id=3128, last_attempt_gmt='2023-06-11 14:39:12', last_attempt_local='2023-06-11 15:39:12' WHERE claim_id = 0 AND scheduled_date_gmt .= '2023-06-11 14:39:12' AND status='pending' ORDER BY attempts ASC, scheduled_date_gmt ASC, action_id ASC LIMIT 25"}
+[Sun, 11 Jun 2023 14:39:12 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:39:12 +0000] flush group options
+[Sun, 11 Jun 2023 14:39:12 +0000] flush group comments
+[Sun, 11 Jun 2023 14:39:12 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:39:12 +0000] flushing based on sqlquery group singletables with extras {"wpdb_delete":"wp_2_actionscheduler_claims"}
+[Sun, 11 Jun 2023 14:39:12 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:39:12 +0000] flush group options
+[Sun, 11 Jun 2023 14:39:12 +0000] flush group comments
+[Sun, 11 Jun 2023 14:39:12 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:39:12 +0000] flushing based on sqlquery group options with extras {"wpdb_delete":"wp_2_options"}
+[Sun, 11 Jun 2023 14:39:12 +0000] flush group options
+
+[Sun, 11 Jun 2023 14:39:12 +0000] [/global-brands-affiliate-marketplace/wp-cron.php?doing_wp_cron] [1686494352.6637]
+Database Caching using redis (Request-wide modification query)
+
+Db cache debug info:
+Total queries:      38
+Cached queries:     0
+Total query time:   0.0533
+
+[Sun, 11 Jun 2023 14:39:25 +0000] [/global-brands-affiliate-marketplace/wp-cron.php?doing_wp_cron] [1686494365.552]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      81
+Cached queries:     0
+Total query time:   0.0832
+
+[Sun, 11 Jun 2023 14:39:38 +0000] [/global-brands-affiliate-marketplace/wp-cron.php?doing_wp_cron] [1686494378.3307]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      26
+Cached queries:     0
+Total query time:   0.0323
+
+[Sun, 11 Jun 2023 14:39:51 +0000] [/global-brands-affiliate-marketplace/wp-cron.php?doing_wp_cron] [1686494391.2024]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      23
+Cached queries:     0
+Total query time:   0.0275
+
+[Sun, 11 Jun 2023 14:40:04 +0000] [/global-brands-affiliate-marketplace/wp-cron.php?doing_wp_cron] [1686494404.0794]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      38
+Cached queries:     0
+Total query time:   0.0385
+[Sun, 11 Jun 2023 14:40:17 +0000] flushing based on sqlquery group options with extras {"modification_query":"INSERT INTO `wp_2_options` (`option_name`, `option_value`, `autoload`) VALUES ('_transient_doing_cron', '1686494417.0178170204162597656250', 'yes') ON DUPLICATE KEY UPDATE `option_name` = VALUES(`option_name`), `option_value` = VALUES(`option_value`), `autoload` = VALUES(`autoload`)"}
+[Sun, 11 Jun 2023 14:40:17 +0000] flush group options
+[Sun, 11 Jun 2023 14:40:17 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_2_options"}
+[Sun, 11 Jun 2023 14:40:17 +0000] flush group options
+[Sun, 11 Jun 2023 14:40:17 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_2_options"}
+[Sun, 11 Jun 2023 14:40:17 +0000] flush group options
+[Sun, 11 Jun 2023 14:40:17 +0000] flushing based on sqlquery group singletables with extras {"modification_query":"UPDATE wp_2_actionscheduler_actions SET claim_id=3129, last_attempt_gmt='2023-06-11 14:40:17', last_attempt_local='2023-06-11 15:40:17' WHERE claim_id = 0 AND scheduled_date_gmt .= '2023-06-11 14:40:17' AND status='pending' ORDER BY attempts ASC, scheduled_date_gmt ASC, action_id ASC LIMIT 25"}
+[Sun, 11 Jun 2023 14:40:17 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:40:17 +0000] flush group options
+[Sun, 11 Jun 2023 14:40:17 +0000] flush group comments
+[Sun, 11 Jun 2023 14:40:17 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:40:17 +0000] flushing based on sqlquery group singletables with extras {"wpdb_delete":"wp_2_actionscheduler_claims"}
+[Sun, 11 Jun 2023 14:40:17 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:40:17 +0000] flush group options
+[Sun, 11 Jun 2023 14:40:17 +0000] flush group comments
+[Sun, 11 Jun 2023 14:40:17 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:40:17 +0000] flushing based on sqlquery group options with extras {"wpdb_delete":"wp_2_options"}
+[Sun, 11 Jun 2023 14:40:17 +0000] flush group options
+
+[Sun, 11 Jun 2023 14:40:17 +0000] [/global-brands-affiliate-marketplace/wp-cron.php?doing_wp_cron] [1686494417.0716]
+Database Caching using redis (Request-wide modification query)
+
+Db cache debug info:
+Total queries:      40
+Cached queries:     0
+Total query time:   0.0487
+
+[Sun, 11 Jun 2023 14:40:29 +0000] [/global-brands-affiliate-marketplace/wp-cron.php?doing_wp_cron] [1686494429.94]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      28
+Cached queries:     0
+Total query time:   0.0328
+
+[Sun, 11 Jun 2023 14:40:42 +0000] [/global-brands-affiliate-marketplace/wp-cron.php?doing_wp_cron] [1686494442.7822]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      22
+Cached queries:     0
+Total query time:   0.0288
+
+[Sun, 11 Jun 2023 14:40:55 +0000] [/global-brands-affiliate-marketplace/wp-cron.php?doing_wp_cron] [1686494455.6404]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      22
+Cached queries:     0
+Total query time:   0.0280
+
+[Sun, 11 Jun 2023 14:41:08 +0000] [/global-brands-affiliate-marketplace/wp-cron.php?doing_wp_cron] [1686494468.6179]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      26
+Cached queries:     0
+Total query time:   0.0328
+[Sun, 11 Jun 2023 14:41:21 +0000] flushing based on sqlquery group options with extras {"modification_query":"INSERT INTO `wp_2_options` (`option_name`, `option_value`, `autoload`) VALUES ('_transient_doing_cron', '1686494481.6602659225463867187500', 'yes') ON DUPLICATE KEY UPDATE `option_name` = VALUES(`option_name`), `option_value` = VALUES(`option_value`), `autoload` = VALUES(`autoload`)"}
+[Sun, 11 Jun 2023 14:41:21 +0000] flush group options
+[Sun, 11 Jun 2023 14:41:21 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_2_options"}
+[Sun, 11 Jun 2023 14:41:21 +0000] flush group options
+[Sun, 11 Jun 2023 14:41:21 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_2_options"}
+[Sun, 11 Jun 2023 14:41:21 +0000] flush group options
+[Sun, 11 Jun 2023 14:41:21 +0000] flushing based on sqlquery group singletables with extras {"modification_query":"UPDATE wp_2_actionscheduler_actions SET claim_id=3130, last_attempt_gmt='2023-06-11 14:41:21', last_attempt_local='2023-06-11 15:41:21' WHERE claim_id = 0 AND scheduled_date_gmt .= '2023-06-11 14:41:21' AND status='pending' ORDER BY attempts ASC, scheduled_date_gmt ASC, action_id ASC LIMIT 25"}
+[Sun, 11 Jun 2023 14:41:21 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:41:21 +0000] flush group options
+[Sun, 11 Jun 2023 14:41:21 +0000] flush group comments
+[Sun, 11 Jun 2023 14:41:21 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:41:21 +0000] flushing based on sqlquery group singletables with extras {"wpdb_delete":"wp_2_actionscheduler_claims"}
+[Sun, 11 Jun 2023 14:41:21 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:41:21 +0000] flush group options
+[Sun, 11 Jun 2023 14:41:21 +0000] flush group comments
+[Sun, 11 Jun 2023 14:41:21 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:41:21 +0000] flushing based on sqlquery group options with extras {"wpdb_delete":"wp_2_options"}
+[Sun, 11 Jun 2023 14:41:21 +0000] flush group options
+
+[Sun, 11 Jun 2023 14:41:21 +0000] [/global-brands-affiliate-marketplace/wp-cron.php?doing_wp_cron] [1686494481.7205]
+Database Caching using redis (Request-wide modification query)
+
+Db cache debug info:
+Total queries:      38
+Cached queries:     0
+Total query time:   0.0549
+
+[Sun, 11 Jun 2023 14:41:34 +0000] [/global-brands-affiliate-marketplace/wp-cron.php?doing_wp_cron] [1686494494.5814]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      26
+Cached queries:     0
+Total query time:   0.0316
+
+[Sun, 11 Jun 2023 14:41:47 +0000] [/global-brands-affiliate-marketplace/wp-cron.php?doing_wp_cron] [1686494507.4058]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      22
+Cached queries:     0
+Total query time:   0.0291
+
+[Sun, 11 Jun 2023 14:42:00 +0000] [/global-brands-affiliate-marketplace/wp-cron.php?doing_wp_cron] [1686494520.3003]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      22
+Cached queries:     0
+Total query time:   0.0246
+[Sun, 11 Jun 2023 14:42:13 +0000] flushing based on sqlquery group options with extras {"modification_query":"INSERT INTO `wp_2_options` (`option_name`, `option_value`, `autoload`) VALUES ('_transient_doing_cron', '1686494533.1707520484924316406250', 'yes') ON DUPLICATE KEY UPDATE `option_name` = VALUES(`option_name`), `option_value` = VALUES(`option_value`), `autoload` = VALUES(`autoload`)"}
+[Sun, 11 Jun 2023 14:42:13 +0000] flush group options
+[Sun, 11 Jun 2023 14:42:13 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_2_options"}
+[Sun, 11 Jun 2023 14:42:13 +0000] flush group options
+[Sun, 11 Jun 2023 14:42:13 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_2_options"}
+[Sun, 11 Jun 2023 14:42:13 +0000] flush group options
+[Sun, 11 Jun 2023 14:42:13 +0000] flushing based on sqlquery group singletables with extras {"modification_query":"UPDATE wp_2_actionscheduler_actions SET claim_id=3131, last_attempt_gmt='2023-06-11 14:42:13', last_attempt_local='2023-06-11 15:42:13' WHERE claim_id = 0 AND scheduled_date_gmt .= '2023-06-11 14:42:13' AND status='pending' ORDER BY attempts ASC, scheduled_date_gmt ASC, action_id ASC LIMIT 25"}
+[Sun, 11 Jun 2023 14:42:13 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:42:13 +0000] flush group options
+[Sun, 11 Jun 2023 14:42:13 +0000] flush group comments
+[Sun, 11 Jun 2023 14:42:13 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:42:13 +0000] flushing based on sqlquery group singletables with extras {"wpdb_delete":"wp_2_actionscheduler_claims"}
+[Sun, 11 Jun 2023 14:42:13 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:42:13 +0000] flush group options
+[Sun, 11 Jun 2023 14:42:13 +0000] flush group comments
+[Sun, 11 Jun 2023 14:42:13 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:42:13 +0000] flushing based on sqlquery group options with extras {"wpdb_delete":"wp_2_options"}
+[Sun, 11 Jun 2023 14:42:13 +0000] flush group options
+
+[Sun, 11 Jun 2023 14:42:13 +0000] [/global-brands-affiliate-marketplace/wp-cron.php?doing_wp_cron] [1686494533.2257]
+Database Caching using redis (Request-wide modification query)
+
+Db cache debug info:
+Total queries:      38
+Cached queries:     0
+Total query time:   0.0478
+
+[Sun, 11 Jun 2023 14:42:26 +0000] [/global-brands-affiliate-marketplace/wp-cron.php?doing_wp_cron] [1686494546.3085]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      32
+Cached queries:     0
+Total query time:   0.0389
+
+[Sun, 11 Jun 2023 14:42:39 +0000] [/global-brands-affiliate-marketplace/wp-cron.php?doing_wp_cron] [1686494559.1978]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      26
+Cached queries:     0
+Total query time:   0.0316
+
+[Sun, 11 Jun 2023 14:42:52 +0000] [/global-brands-affiliate-marketplace/wp-cron.php?doing_wp_cron] [1686494572.0629]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      23
+Cached queries:     0
+Total query time:   0.0296
+
+[Sun, 11 Jun 2023 14:43:05 +0000] [/global-brands-affiliate-marketplace/wp-cron.php?doing_wp_cron] [1686494585.0587]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      64
+Cached queries:     0
+Total query time:   0.0668
+[Sun, 11 Jun 2023 14:43:17 +0000] flushing based on sqlquery group options with extras {"modification_query":"INSERT INTO `wp_2_options` (`option_name`, `option_value`, `autoload`) VALUES ('_transient_doing_cron', '1686494597.9741399288177490234375', 'yes') ON DUPLICATE KEY UPDATE `option_name` = VALUES(`option_name`), `option_value` = VALUES(`option_value`), `autoload` = VALUES(`autoload`)"}
+[Sun, 11 Jun 2023 14:43:17 +0000] flush group options
+[Sun, 11 Jun 2023 14:43:17 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_2_options"}
+[Sun, 11 Jun 2023 14:43:17 +0000] flush group options
+[Sun, 11 Jun 2023 14:43:17 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_2_options"}
+[Sun, 11 Jun 2023 14:43:17 +0000] flush group options
+[Sun, 11 Jun 2023 14:43:18 +0000] flushing based on sqlquery group singletables with extras {"modification_query":"UPDATE wp_2_actionscheduler_actions SET claim_id=3132, last_attempt_gmt='2023-06-11 14:43:18', last_attempt_local='2023-06-11 15:43:18' WHERE claim_id = 0 AND scheduled_date_gmt .= '2023-06-11 14:43:18' AND status='pending' ORDER BY attempts ASC, scheduled_date_gmt ASC, action_id ASC LIMIT 25"}
+[Sun, 11 Jun 2023 14:43:18 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:43:18 +0000] flush group options
+[Sun, 11 Jun 2023 14:43:18 +0000] flush group comments
+[Sun, 11 Jun 2023 14:43:18 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:43:18 +0000] flushing based on sqlquery group singletables with extras {"wpdb_delete":"wp_2_actionscheduler_claims"}
+[Sun, 11 Jun 2023 14:43:18 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:43:18 +0000] flush group options
+[Sun, 11 Jun 2023 14:43:18 +0000] flush group comments
+[Sun, 11 Jun 2023 14:43:18 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:43:18 +0000] flushing based on sqlquery group options with extras {"wpdb_delete":"wp_2_options"}
+[Sun, 11 Jun 2023 14:43:18 +0000] flush group options
+
+[Sun, 11 Jun 2023 14:43:18 +0000] [/global-brands-affiliate-marketplace/wp-cron.php?doing_wp_cron] [1686494598.0296]
+Database Caching using redis (Request-wide modification query)
+
+Db cache debug info:
+Total queries:      88
+Cached queries:     0
+Total query time:   0.1155
+
+[Sun, 11 Jun 2023 14:43:30 +0000] [/global-brands-affiliate-marketplace/wp-cron.php?doing_wp_cron] [1686494610.8375]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      75
+Cached queries:     0
+Total query time:   0.0748
+
+[Sun, 11 Jun 2023 14:43:43 +0000] [/global-brands-affiliate-marketplace/wp-cron.php?doing_wp_cron] [1686494623.6048]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      26
+Cached queries:     0
+Total query time:   0.0286
+
+[Sun, 11 Jun 2023 14:43:56 +0000] [/global-brands-affiliate-marketplace/wp-cron.php?doing_wp_cron] [1686494636.477]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      22
+Cached queries:     0
+Total query time:   0.0280
+
+[Sun, 11 Jun 2023 14:44:09 +0000] [/global-brands-affiliate-marketplace/wp-cron.php?doing_wp_cron] [1686494649.3841]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      26
+Cached queries:     0
+Total query time:   0.0287
+[Sun, 11 Jun 2023 14:44:22 +0000] flushing based on sqlquery group options with extras {"modification_query":"INSERT INTO `wp_2_options` (`option_name`, `option_value`, `autoload`) VALUES ('_transient_doing_cron', '1686494662.3648729324340820312500', 'yes') ON DUPLICATE KEY UPDATE `option_name` = VALUES(`option_name`), `option_value` = VALUES(`option_value`), `autoload` = VALUES(`autoload`)"}
+[Sun, 11 Jun 2023 14:44:22 +0000] flush group options
+[Sun, 11 Jun 2023 14:44:22 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_2_options"}
+[Sun, 11 Jun 2023 14:44:22 +0000] flush group options
+[Sun, 11 Jun 2023 14:44:22 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_2_options"}
+[Sun, 11 Jun 2023 14:44:22 +0000] flush group options
+[Sun, 11 Jun 2023 14:44:22 +0000] flushing based on sqlquery group singletables with extras {"modification_query":"UPDATE wp_2_actionscheduler_actions SET claim_id=3133, last_attempt_gmt='2023-06-11 14:44:22', last_attempt_local='2023-06-11 15:44:22' WHERE claim_id = 0 AND scheduled_date_gmt .= '2023-06-11 14:44:22' AND status='pending' ORDER BY attempts ASC, scheduled_date_gmt ASC, action_id ASC LIMIT 25"}
+[Sun, 11 Jun 2023 14:44:22 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:44:22 +0000] flush group options
+[Sun, 11 Jun 2023 14:44:22 +0000] flush group comments
+[Sun, 11 Jun 2023 14:44:22 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:44:22 +0000] flushing based on sqlquery group singletables with extras {"wpdb_delete":"wp_2_actionscheduler_claims"}
+[Sun, 11 Jun 2023 14:44:22 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:44:22 +0000] flush group options
+[Sun, 11 Jun 2023 14:44:22 +0000] flush group comments
+[Sun, 11 Jun 2023 14:44:22 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:44:22 +0000] flushing based on sqlquery group options with extras {"wpdb_delete":"wp_2_options"}
+[Sun, 11 Jun 2023 14:44:22 +0000] flush group options
+
+[Sun, 11 Jun 2023 14:44:22 +0000] [/global-brands-affiliate-marketplace/wp-cron.php?doing_wp_cron] [1686494662.4188]
+Database Caching using redis (Request-wide modification query)
+
+Db cache debug info:
+Total queries:      34
+Cached queries:     0
+Total query time:   0.0445
+
+[Sun, 11 Jun 2023 14:44:35 +0000] [/global-brands-affiliate-marketplace/wp-cron.php?doing_wp_cron] [1686494675.2007]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      22
+Cached queries:     0
+Total query time:   0.0255
+
+[Sun, 11 Jun 2023 14:44:48 +0000] [/global-brands-affiliate-marketplace/wp-cron.php?doing_wp_cron] [1686494688.0412]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      25
+Cached queries:     0
+Total query time:   0.0306
+
+[Sun, 11 Jun 2023 14:45:00 +0000] [/global-brands-affiliate-marketplace/wp-cron.php?doing_wp_cron] [1686494700.9194]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      22
+Cached queries:     0
+Total query time:   0.0383
+[Sun, 11 Jun 2023 14:45:13 +0000] flushing based on sqlquery group options with extras {"modification_query":"INSERT INTO `wp_2_options` (`option_name`, `option_value`, `autoload`) VALUES ('_transient_doing_cron', '1686494713.7610430717468261718750', 'yes') ON DUPLICATE KEY UPDATE `option_name` = VALUES(`option_name`), `option_value` = VALUES(`option_value`), `autoload` = VALUES(`autoload`)"}
+[Sun, 11 Jun 2023 14:45:13 +0000] flush group options
+[Sun, 11 Jun 2023 14:45:13 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_2_options"}
+[Sun, 11 Jun 2023 14:45:13 +0000] flush group options
+[Sun, 11 Jun 2023 14:45:13 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_2_options"}
+[Sun, 11 Jun 2023 14:45:13 +0000] flush group options
+[Sun, 11 Jun 2023 14:45:13 +0000] flushing based on sqlquery group singletables with extras {"modification_query":"UPDATE wp_2_actionscheduler_actions SET claim_id=3134, last_attempt_gmt='2023-06-11 14:45:13', last_attempt_local='2023-06-11 15:45:13' WHERE claim_id = 0 AND scheduled_date_gmt .= '2023-06-11 14:45:13' AND status='pending' ORDER BY attempts ASC, scheduled_date_gmt ASC, action_id ASC LIMIT 25"}
+[Sun, 11 Jun 2023 14:45:13 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:45:13 +0000] flush group options
+[Sun, 11 Jun 2023 14:45:13 +0000] flush group comments
+[Sun, 11 Jun 2023 14:45:13 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:45:13 +0000] flushing based on sqlquery group singletables with extras {"wpdb_delete":"wp_2_actionscheduler_claims"}
+[Sun, 11 Jun 2023 14:45:13 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:45:13 +0000] flush group options
+[Sun, 11 Jun 2023 14:45:13 +0000] flush group comments
+[Sun, 11 Jun 2023 14:45:13 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:45:13 +0000] flushing based on sqlquery group options with extras {"wpdb_delete":"wp_2_options"}
+[Sun, 11 Jun 2023 14:45:13 +0000] flush group options
+
+[Sun, 11 Jun 2023 14:45:13 +0000] [/global-brands-affiliate-marketplace/wp-cron.php?doing_wp_cron] [1686494713.816]
+Database Caching using redis (Request-wide modification query)
+
+Db cache debug info:
+Total queries:      38
+Cached queries:     0
+Total query time:   0.0497
+
+[Sun, 11 Jun 2023 14:45:26 +0000] [/global-brands-affiliate-marketplace/wp-cron.php?doing_wp_cron] [1686494726.6545]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      26
+Cached queries:     0
+Total query time:   0.0299
+
+[Sun, 11 Jun 2023 14:45:39 +0000] [/global-brands-affiliate-marketplace/wp-cron.php?doing_wp_cron] [1686494739.5711]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      35
+Cached queries:     0
+Total query time:   0.0408
+
+[Sun, 11 Jun 2023 14:45:52 +0000] [/global-brands-affiliate-marketplace/wp-cron.php?doing_wp_cron] [1686494752.401]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      26
+Cached queries:     0
+Total query time:   0.0301
+
+[Sun, 11 Jun 2023 14:46:05 +0000] [/global-brands-affiliate-marketplace/wp-cron.php?doing_wp_cron] [1686494765.3331]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      75
+Cached queries:     0
+Total query time:   0.0722
+[Sun, 11 Jun 2023 14:46:18 +0000] flushing based on sqlquery group options with extras {"modification_query":"INSERT INTO `wp_2_options` (`option_name`, `option_value`, `autoload`) VALUES ('_transient_doing_cron', '1686494778.1443250179290771484375', 'yes') ON DUPLICATE KEY UPDATE `option_name` = VALUES(`option_name`), `option_value` = VALUES(`option_value`), `autoload` = VALUES(`autoload`)"}
+[Sun, 11 Jun 2023 14:46:18 +0000] flush group options
+[Sun, 11 Jun 2023 14:46:18 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_2_options"}
+[Sun, 11 Jun 2023 14:46:18 +0000] flush group options
+[Sun, 11 Jun 2023 14:46:18 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_2_options"}
+[Sun, 11 Jun 2023 14:46:18 +0000] flush group options
+[Sun, 11 Jun 2023 14:46:18 +0000] flushing based on sqlquery group singletables with extras {"modification_query":"UPDATE wp_2_actionscheduler_actions SET claim_id=3135, last_attempt_gmt='2023-06-11 14:46:18', last_attempt_local='2023-06-11 15:46:18' WHERE claim_id = 0 AND scheduled_date_gmt .= '2023-06-11 14:46:18' AND status='pending' ORDER BY attempts ASC, scheduled_date_gmt ASC, action_id ASC LIMIT 25"}
+[Sun, 11 Jun 2023 14:46:18 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:46:18 +0000] flush group options
+[Sun, 11 Jun 2023 14:46:18 +0000] flush group comments
+[Sun, 11 Jun 2023 14:46:18 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:46:18 +0000] flushing based on sqlquery group singletables with extras {"wpdb_delete":"wp_2_actionscheduler_claims"}
+[Sun, 11 Jun 2023 14:46:18 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:46:18 +0000] flush group options
+[Sun, 11 Jun 2023 14:46:18 +0000] flush group comments
+[Sun, 11 Jun 2023 14:46:18 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:46:18 +0000] flushing based on sqlquery group options with extras {"wpdb_delete":"wp_2_options"}
+[Sun, 11 Jun 2023 14:46:18 +0000] flush group options
+
+[Sun, 11 Jun 2023 14:46:18 +0000] [/global-brands-affiliate-marketplace/wp-cron.php?doing_wp_cron] [1686494778.1997]
+Database Caching using redis (Request-wide modification query)
+
+Db cache debug info:
+Total queries:      46
+Cached queries:     0
+Total query time:   0.0568
+
+[Sun, 11 Jun 2023 14:46:31 +0000] [/global-brands-affiliate-marketplace/wp-cron.php?doing_wp_cron] [1686494791.0055]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      22
+Cached queries:     0
+Total query time:   0.0266
+
+[Sun, 11 Jun 2023 14:46:43 +0000] [/global-brands-affiliate-marketplace/wp-cron.php?doing_wp_cron] [1686494803.9317]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      28
+Cached queries:     0
+Total query time:   0.0309
+
+[Sun, 11 Jun 2023 14:46:56 +0000] [/global-brands-affiliate-marketplace/wp-cron.php?doing_wp_cron] [1686494816.8101]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      26
+Cached queries:     0
+Total query time:   0.0308
+
+[Sun, 11 Jun 2023 14:47:09 +0000] [/global-brands-affiliate-marketplace/wp-cron.php?doing_wp_cron] [1686494829.748]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      28
+Cached queries:     0
+Total query time:   0.0307
+[Sun, 11 Jun 2023 14:47:22 +0000] flushing based on sqlquery group options with extras {"modification_query":"INSERT INTO `wp_2_options` (`option_name`, `option_value`, `autoload`) VALUES ('_transient_doing_cron', '1686494842.5659809112548828125000', 'yes') ON DUPLICATE KEY UPDATE `option_name` = VALUES(`option_name`), `option_value` = VALUES(`option_value`), `autoload` = VALUES(`autoload`)"}
+[Sun, 11 Jun 2023 14:47:22 +0000] flush group options
+[Sun, 11 Jun 2023 14:47:22 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_2_options"}
+[Sun, 11 Jun 2023 14:47:22 +0000] flush group options
+[Sun, 11 Jun 2023 14:47:22 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_2_options"}
+[Sun, 11 Jun 2023 14:47:22 +0000] flush group options
+[Sun, 11 Jun 2023 14:47:22 +0000] flushing based on sqlquery group singletables with extras {"modification_query":"UPDATE wp_2_actionscheduler_actions SET claim_id=3136, last_attempt_gmt='2023-06-11 14:47:22', last_attempt_local='2023-06-11 15:47:22' WHERE claim_id = 0 AND scheduled_date_gmt .= '2023-06-11 14:47:22' AND status='pending' ORDER BY attempts ASC, scheduled_date_gmt ASC, action_id ASC LIMIT 25"}
+[Sun, 11 Jun 2023 14:47:22 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:47:22 +0000] flush group options
+[Sun, 11 Jun 2023 14:47:22 +0000] flush group comments
+[Sun, 11 Jun 2023 14:47:22 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:47:22 +0000] flushing based on sqlquery group singletables with extras {"wpdb_delete":"wp_2_actionscheduler_claims"}
+[Sun, 11 Jun 2023 14:47:22 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:47:22 +0000] flush group options
+[Sun, 11 Jun 2023 14:47:22 +0000] flush group comments
+[Sun, 11 Jun 2023 14:47:22 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:47:22 +0000] flushing based on sqlquery group options with extras {"wpdb_delete":"wp_2_options"}
+[Sun, 11 Jun 2023 14:47:22 +0000] flush group options
+
+[Sun, 11 Jun 2023 14:47:22 +0000] [/global-brands-affiliate-marketplace/wp-cron.php?doing_wp_cron] [1686494842.6215]
+Database Caching using redis (Request-wide modification query)
+
+Db cache debug info:
+Total queries:      34
+Cached queries:     0
+Total query time:   0.0451
+
+[Sun, 11 Jun 2023 14:47:35 +0000] [/global-brands-affiliate-marketplace/wp-cron.php?doing_wp_cron] [1686494855.4124]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      22
+Cached queries:     0
+Total query time:   0.0276
+
+[Sun, 11 Jun 2023 14:47:48 +0000] [/global-brands-affiliate-marketplace/wp-cron.php?doing_wp_cron] [1686494868.3869]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      26
+Cached queries:     0
+Total query time:   0.0370
+
+[Sun, 11 Jun 2023 14:48:01 +0000] [/global-brands-affiliate-marketplace/wp-cron.php?doing_wp_cron] [1686494881.2451]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      22
+Cached queries:     0
+Total query time:   0.0281
+[Sun, 11 Jun 2023 14:48:14 +0000] flushing based on sqlquery group options with extras {"modification_query":"INSERT INTO `wp_2_options` (`option_name`, `option_value`, `autoload`) VALUES ('_transient_doing_cron', '1686494894.1135909557342529296875', 'yes') ON DUPLICATE KEY UPDATE `option_name` = VALUES(`option_name`), `option_value` = VALUES(`option_value`), `autoload` = VALUES(`autoload`)"}
+[Sun, 11 Jun 2023 14:48:14 +0000] flush group options
+[Sun, 11 Jun 2023 14:48:14 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_2_options"}
+[Sun, 11 Jun 2023 14:48:14 +0000] flush group options
+[Sun, 11 Jun 2023 14:48:14 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_2_options"}
+[Sun, 11 Jun 2023 14:48:14 +0000] flush group options
+[Sun, 11 Jun 2023 14:48:14 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_2_options"}
+[Sun, 11 Jun 2023 14:48:14 +0000] flush group options
+[Sun, 11 Jun 2023 14:48:14 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_2_options"}
+[Sun, 11 Jun 2023 14:48:14 +0000] flush group options
+[Sun, 11 Jun 2023 14:48:14 +0000] flushing based on sqlquery group singletables with extras {"modification_query":"UPDATE wp_2_actionscheduler_actions SET claim_id=3137, last_attempt_gmt='2023-06-11 14:48:14', last_attempt_local='2023-06-11 15:48:14' WHERE claim_id = 0 AND scheduled_date_gmt .= '2023-06-11 14:48:14' AND status='pending' ORDER BY attempts ASC, scheduled_date_gmt ASC, action_id ASC LIMIT 25"}
+[Sun, 11 Jun 2023 14:48:14 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:48:14 +0000] flush group options
+[Sun, 11 Jun 2023 14:48:14 +0000] flush group comments
+[Sun, 11 Jun 2023 14:48:14 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:48:14 +0000] flushing based on sqlquery group singletables with extras {"wpdb_delete":"wp_2_actionscheduler_claims"}
+[Sun, 11 Jun 2023 14:48:14 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:48:14 +0000] flush group options
+[Sun, 11 Jun 2023 14:48:14 +0000] flush group comments
+[Sun, 11 Jun 2023 14:48:14 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:48:14 +0000] flushing based on sqlquery group options with extras {"wpdb_delete":"wp_2_options"}
+[Sun, 11 Jun 2023 14:48:14 +0000] flush group options
+
+[Sun, 11 Jun 2023 14:48:14 +0000] [/global-brands-affiliate-marketplace/wp-cron.php?doing_wp_cron] [1686494894.1839]
+Database Caching using redis (Request-wide modification query)
+
+Db cache debug info:
+Total queries:      38
+Cached queries:     0
+Total query time:   0.0483
+
+[Sun, 11 Jun 2023 14:48:27 +0000] [/global-brands-affiliate-marketplace/wp-cron.php?doing_wp_cron] [1686494907.0647]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      28
+Cached queries:     0
+Total query time:   0.0325
+
+[Sun, 11 Jun 2023 14:48:39 +0000] [/global-brands-affiliate-marketplace/wp-cron.php?doing_wp_cron] [1686494919.9756]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      76
+Cached queries:     0
+Total query time:   0.0742
+
+[Sun, 11 Jun 2023 14:48:52 +0000] [/global-brands-affiliate-marketplace/wp-cron.php?doing_wp_cron] [1686494932.8051]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      31
+Cached queries:     0
+Total query time:   0.0392
+
+[Sun, 11 Jun 2023 14:49:05 +0000] [/global-brands-affiliate-marketplace/wp-cron.php?doing_wp_cron] [1686494945.7177]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      26
+Cached queries:     0
+Total query time:   0.0282
+[Sun, 11 Jun 2023 14:49:18 +0000] flushing based on sqlquery group options with extras {"modification_query":"INSERT INTO `wp_2_options` (`option_name`, `option_value`, `autoload`) VALUES ('_transient_doing_cron', '1686494958.5536139011383056640625', 'yes') ON DUPLICATE KEY UPDATE `option_name` = VALUES(`option_name`), `option_value` = VALUES(`option_value`), `autoload` = VALUES(`autoload`)"}
+[Sun, 11 Jun 2023 14:49:18 +0000] flush group options
+[Sun, 11 Jun 2023 14:49:18 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_2_options"}
+[Sun, 11 Jun 2023 14:49:18 +0000] flush group options
+[Sun, 11 Jun 2023 14:49:18 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_2_options"}
+[Sun, 11 Jun 2023 14:49:18 +0000] flush group options
+[Sun, 11 Jun 2023 14:49:18 +0000] flushing based on sqlquery group singletables with extras {"modification_query":"UPDATE wp_2_actionscheduler_actions SET claim_id=3138, last_attempt_gmt='2023-06-11 14:49:18', last_attempt_local='2023-06-11 15:49:18' WHERE claim_id = 0 AND scheduled_date_gmt .= '2023-06-11 14:49:18' AND status='pending' ORDER BY attempts ASC, scheduled_date_gmt ASC, action_id ASC LIMIT 25"}
+[Sun, 11 Jun 2023 14:49:18 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:49:18 +0000] flush group options
+[Sun, 11 Jun 2023 14:49:18 +0000] flush group comments
+[Sun, 11 Jun 2023 14:49:18 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:49:18 +0000] flushing based on sqlquery group singletables with extras {"wpdb_delete":"wp_2_actionscheduler_claims"}
+[Sun, 11 Jun 2023 14:49:18 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:49:18 +0000] flush group options
+[Sun, 11 Jun 2023 14:49:18 +0000] flush group comments
+[Sun, 11 Jun 2023 14:49:18 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:49:18 +0000] flushing based on sqlquery group options with extras {"wpdb_delete":"wp_2_options"}
+[Sun, 11 Jun 2023 14:49:18 +0000] flush group options
+
+[Sun, 11 Jun 2023 14:49:18 +0000] [/global-brands-affiliate-marketplace/wp-cron.php?doing_wp_cron] [1686494958.6093]
+Database Caching using redis (Request-wide modification query)
+
+Db cache debug info:
+Total queries:      39
+Cached queries:     0
+Total query time:   0.0516
+
+[Sun, 11 Jun 2023 14:49:31 +0000] [/global-brands-affiliate-marketplace/wp-cron.php?doing_wp_cron] [1686494971.5024]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      38
+Cached queries:     0
+Total query time:   0.0447
+
+[Sun, 11 Jun 2023 14:49:44 +0000] [/global-brands-affiliate-marketplace/wp-cron.php?doing_wp_cron] [1686494984.4554]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      26
+Cached queries:     0
+Total query time:   0.0284
+
+[Sun, 11 Jun 2023 14:49:57 +0000] [/global-brands-affiliate-marketplace/wp-cron.php?doing_wp_cron] [1686494997.2841]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      22
+Cached queries:     0
+Total query time:   0.0273
+
+[Sun, 11 Jun 2023 14:50:10 +0000] [/global-brands-affiliate-marketplace/wp-cron.php?doing_wp_cron] [1686495010.1016]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      26
+Cached queries:     0
+Total query time:   0.0282
+[Sun, 11 Jun 2023 14:50:22 +0000] flushing based on sqlquery group options with extras {"modification_query":"INSERT INTO `wp_2_options` (`option_name`, `option_value`, `autoload`) VALUES ('_transient_doing_cron', '1686495022.9784610271453857421875', 'yes') ON DUPLICATE KEY UPDATE `option_name` = VALUES(`option_name`), `option_value` = VALUES(`option_value`), `autoload` = VALUES(`autoload`)"}
+[Sun, 11 Jun 2023 14:50:22 +0000] flush group options
+[Sun, 11 Jun 2023 14:50:22 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_2_options"}
+[Sun, 11 Jun 2023 14:50:22 +0000] flush group options
+[Sun, 11 Jun 2023 14:50:22 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_2_options"}
+[Sun, 11 Jun 2023 14:50:22 +0000] flush group options
+[Sun, 11 Jun 2023 14:50:23 +0000] flushing based on sqlquery group singletables with extras {"modification_query":"UPDATE wp_2_actionscheduler_actions SET claim_id=3139, last_attempt_gmt='2023-06-11 14:50:23', last_attempt_local='2023-06-11 15:50:23' WHERE claim_id = 0 AND scheduled_date_gmt .= '2023-06-11 14:50:23' AND status='pending' ORDER BY attempts ASC, scheduled_date_gmt ASC, action_id ASC LIMIT 25"}
+[Sun, 11 Jun 2023 14:50:23 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:50:23 +0000] flush group options
+[Sun, 11 Jun 2023 14:50:23 +0000] flush group comments
+[Sun, 11 Jun 2023 14:50:23 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:50:23 +0000] flushing based on sqlquery group singletables with extras {"wpdb_delete":"wp_2_actionscheduler_claims"}
+[Sun, 11 Jun 2023 14:50:23 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:50:23 +0000] flush group options
+[Sun, 11 Jun 2023 14:50:23 +0000] flush group comments
+[Sun, 11 Jun 2023 14:50:23 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:50:23 +0000] flushing based on sqlquery group options with extras {"wpdb_delete":"wp_2_options"}
+[Sun, 11 Jun 2023 14:50:23 +0000] flush group options
+
+[Sun, 11 Jun 2023 14:50:23 +0000] [/global-brands-affiliate-marketplace/wp-cron.php?doing_wp_cron] [1686495023.0325]
+Database Caching using redis (Request-wide modification query)
+
+Db cache debug info:
+Total queries:      38
+Cached queries:     0
+Total query time:   0.0477
+
+[Sun, 11 Jun 2023 14:50:35 +0000] [/global-brands-affiliate-marketplace/wp-cron.php?doing_wp_cron] [1686495035.8349]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      26
+Cached queries:     0
+Total query time:   0.0300
+
+[Sun, 11 Jun 2023 14:50:48 +0000] [/global-brands-affiliate-marketplace/wp-cron.php?doing_wp_cron] [1686495048.7173]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      26
+Cached queries:     0
+Total query time:   0.0274
+
+[Sun, 11 Jun 2023 14:51:01 +0000] [/global-brands-affiliate-marketplace/wp-cron.php?doing_wp_cron] [1686495061.6042]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      74
+Cached queries:     0
+Total query time:   0.0678
+[Sun, 11 Jun 2023 14:51:14 +0000] flushing based on sqlquery group options with extras {"modification_query":"INSERT INTO `wp_2_options` (`option_name`, `option_value`, `autoload`) VALUES ('_transient_doing_cron', '1686495074.4363300800323486328125', 'yes') ON DUPLICATE KEY UPDATE `option_name` = VALUES(`option_name`), `option_value` = VALUES(`option_value`), `autoload` = VALUES(`autoload`)"}
+[Sun, 11 Jun 2023 14:51:14 +0000] flush group options
+[Sun, 11 Jun 2023 14:51:14 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_2_options"}
+[Sun, 11 Jun 2023 14:51:14 +0000] flush group options
+[Sun, 11 Jun 2023 14:51:14 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_2_options"}
+[Sun, 11 Jun 2023 14:51:14 +0000] flush group options
+[Sun, 11 Jun 2023 14:51:14 +0000] flushing based on sqlquery group singletables with extras {"modification_query":"UPDATE wp_2_actionscheduler_actions SET claim_id=3140, last_attempt_gmt='2023-06-11 14:51:14', last_attempt_local='2023-06-11 15:51:14' WHERE claim_id = 0 AND scheduled_date_gmt .= '2023-06-11 14:51:14' AND status='pending' ORDER BY attempts ASC, scheduled_date_gmt ASC, action_id ASC LIMIT 25"}
+[Sun, 11 Jun 2023 14:51:14 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:51:14 +0000] flush group options
+[Sun, 11 Jun 2023 14:51:14 +0000] flush group comments
+[Sun, 11 Jun 2023 14:51:14 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:51:14 +0000] flushing based on sqlquery group singletables with extras {"wpdb_delete":"wp_2_actionscheduler_claims"}
+[Sun, 11 Jun 2023 14:51:14 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:51:14 +0000] flush group options
+[Sun, 11 Jun 2023 14:51:14 +0000] flush group comments
+[Sun, 11 Jun 2023 14:51:14 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:51:14 +0000] flushing based on sqlquery group options with extras {"wpdb_delete":"wp_2_options"}
+[Sun, 11 Jun 2023 14:51:14 +0000] flush group options
+
+[Sun, 11 Jun 2023 14:51:14 +0000] [/global-brands-affiliate-marketplace/wp-cron.php?doing_wp_cron] [1686495074.4896]
+Database Caching using redis (Request-wide modification query)
+
+Db cache debug info:
+Total queries:      40
+Cached queries:     0
+Total query time:   0.0496
+
+[Sun, 11 Jun 2023 14:51:27 +0000] [/global-brands-affiliate-marketplace/wp-cron.php?doing_wp_cron] [1686495087.3463]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      22
+Cached queries:     0
+Total query time:   0.0271
+
+[Sun, 11 Jun 2023 14:51:40 +0000] [/global-brands-affiliate-marketplace/wp-cron.php?doing_wp_cron] [1686495100.2285]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      26
+Cached queries:     0
+Total query time:   0.0307
+
+[Sun, 11 Jun 2023 14:51:53 +0000] [/global-brands-affiliate-marketplace/wp-cron.php?doing_wp_cron] [1686495113.3108]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      52
+Cached queries:     0
+Total query time:   0.1863
+
+[Sun, 11 Jun 2023 14:52:05 +0000] [/global-brands-affiliate-marketplace/wp-cron.php?doing_wp_cron] [1686495125.9769]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      26
+Cached queries:     0
+Total query time:   0.0369
+[Sun, 11 Jun 2023 14:52:18 +0000] flushing based on sqlquery group options with extras {"modification_query":"INSERT INTO `wp_2_options` (`option_name`, `option_value`, `autoload`) VALUES ('_transient_doing_cron', '1686495138.8658659458160400390625', 'yes') ON DUPLICATE KEY UPDATE `option_name` = VALUES(`option_name`), `option_value` = VALUES(`option_value`), `autoload` = VALUES(`autoload`)"}
+[Sun, 11 Jun 2023 14:52:18 +0000] flush group options
+[Sun, 11 Jun 2023 14:52:18 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_2_options"}
+[Sun, 11 Jun 2023 14:52:18 +0000] flush group options
+[Sun, 11 Jun 2023 14:52:18 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_2_options"}
+[Sun, 11 Jun 2023 14:52:18 +0000] flush group options
+[Sun, 11 Jun 2023 14:52:18 +0000] flushing based on sqlquery group singletables with extras {"modification_query":"UPDATE wp_2_actionscheduler_actions SET claim_id=3141, last_attempt_gmt='2023-06-11 14:52:18', last_attempt_local='2023-06-11 15:52:18' WHERE claim_id = 0 AND scheduled_date_gmt .= '2023-06-11 14:52:18' AND status='pending' ORDER BY attempts ASC, scheduled_date_gmt ASC, action_id ASC LIMIT 25"}
+[Sun, 11 Jun 2023 14:52:18 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:52:18 +0000] flush group options
+[Sun, 11 Jun 2023 14:52:18 +0000] flush group comments
+[Sun, 11 Jun 2023 14:52:18 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:52:18 +0000] flushing based on sqlquery group singletables with extras {"wpdb_delete":"wp_2_actionscheduler_claims"}
+[Sun, 11 Jun 2023 14:52:18 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:52:18 +0000] flush group options
+[Sun, 11 Jun 2023 14:52:18 +0000] flush group comments
+[Sun, 11 Jun 2023 14:52:18 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:52:18 +0000] flushing based on sqlquery group options with extras {"wpdb_delete":"wp_2_options"}
+[Sun, 11 Jun 2023 14:52:18 +0000] flush group options
+
+[Sun, 11 Jun 2023 14:52:18 +0000] [/global-brands-affiliate-marketplace/wp-cron.php?doing_wp_cron] [1686495138.9213]
+Database Caching using redis (Request-wide modification query)
+
+Db cache debug info:
+Total queries:      38
+Cached queries:     0
+Total query time:   0.0537
+
+[Sun, 11 Jun 2023 14:52:31 +0000] [/global-brands-affiliate-marketplace/wp-cron.php?doing_wp_cron] [1686495151.6932]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      23
+Cached queries:     0
+Total query time:   0.0276
+[Sun, 11 Jun 2023 14:52:44 +0000] flushing based on sqlquery group options with extras {"modification_query":"INSERT INTO `wp_2_options` (`option_name`, `option_value`, `autoload`) VALUES ('_transient_doing_cron', '1686495164.5863809585571289062500', 'yes') ON DUPLICATE KEY UPDATE `option_name` = VALUES(`option_name`), `option_value` = VALUES(`option_value`), `autoload` = VALUES(`autoload`)"}
+[Sun, 11 Jun 2023 14:52:44 +0000] flush group options
+[Sun, 11 Jun 2023 14:52:44 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_2_options"}
+[Sun, 11 Jun 2023 14:52:44 +0000] flush group options
+[Sun, 11 Jun 2023 14:52:44 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_2_options"}
+[Sun, 11 Jun 2023 14:52:44 +0000] flush group options
+[Sun, 11 Jun 2023 14:52:45 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_2_options"}
+[Sun, 11 Jun 2023 14:52:45 +0000] flush group options
+[Sun, 11 Jun 2023 14:52:47 +0000] flushing based on sqlquery group options with extras {"wpdb_delete":"wp_2_options"}
+[Sun, 11 Jun 2023 14:52:47 +0000] flush group options
+
+[Sun, 11 Jun 2023 14:52:47 +0000] [/global-brands-affiliate-marketplace/wp-cron.php?doing_wp_cron] [1686495167.2283]
+Database Caching using redis (Request-wide modification query)
+
+Db cache debug info:
+Total queries:      43
+Cached queries:     0
+Total query time:   0.0572
+
+[Sun, 11 Jun 2023 14:52:57 +0000] [/global-brands-affiliate-marketplace/wp-cron.php?doing_wp_cron] [1686495177.4356]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      26
+Cached queries:     0
+Total query time:   0.0304
+
+[Sun, 11 Jun 2023 14:53:10 +0000] [/global-brands-affiliate-marketplace/wp-cron.php?doing_wp_cron] [1686495190.4057]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      26
+Cached queries:     0
+Total query time:   0.0302
+[Sun, 11 Jun 2023 14:53:23 +0000] flushing based on sqlquery group options with extras {"modification_query":"INSERT INTO `wp_2_options` (`option_name`, `option_value`, `autoload`) VALUES ('_transient_doing_cron', '1686495203.3127861022949218750000', 'yes') ON DUPLICATE KEY UPDATE `option_name` = VALUES(`option_name`), `option_value` = VALUES(`option_value`), `autoload` = VALUES(`autoload`)"}
+[Sun, 11 Jun 2023 14:53:23 +0000] flush group options
+[Sun, 11 Jun 2023 14:53:23 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_2_options"}
+[Sun, 11 Jun 2023 14:53:23 +0000] flush group options
+[Sun, 11 Jun 2023 14:53:23 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_2_options"}
+[Sun, 11 Jun 2023 14:53:23 +0000] flush group options
+[Sun, 11 Jun 2023 14:53:23 +0000] flushing based on sqlquery group singletables with extras {"modification_query":"UPDATE wp_2_actionscheduler_actions SET claim_id=3142, last_attempt_gmt='2023-06-11 14:53:23', last_attempt_local='2023-06-11 15:53:23' WHERE claim_id = 0 AND scheduled_date_gmt .= '2023-06-11 14:53:23' AND status='pending' ORDER BY attempts ASC, scheduled_date_gmt ASC, action_id ASC LIMIT 25"}
+[Sun, 11 Jun 2023 14:53:23 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:53:23 +0000] flush group options
+[Sun, 11 Jun 2023 14:53:23 +0000] flush group comments
+[Sun, 11 Jun 2023 14:53:23 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:53:23 +0000] flushing based on sqlquery group singletables with extras {"wpdb_delete":"wp_2_actionscheduler_claims"}
+[Sun, 11 Jun 2023 14:53:23 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:53:23 +0000] flush group options
+[Sun, 11 Jun 2023 14:53:23 +0000] flush group comments
+[Sun, 11 Jun 2023 14:53:23 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:53:23 +0000] flushing based on sqlquery group options with extras {"wpdb_delete":"wp_2_options"}
+[Sun, 11 Jun 2023 14:53:23 +0000] flush group options
+
+[Sun, 11 Jun 2023 14:53:23 +0000] [/global-brands-affiliate-marketplace/wp-cron.php?doing_wp_cron] [1686495203.3681]
+Database Caching using redis (Request-wide modification query)
+
+Db cache debug info:
+Total queries:      38
+Cached queries:     0
+Total query time:   0.0484
+
+[Sun, 11 Jun 2023 14:53:36 +0000] [/global-brands-affiliate-marketplace/wp-cron.php?doing_wp_cron] [1686495216.525]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      91
+Cached queries:     0
+Total query time:   0.2247
+
+[Sun, 11 Jun 2023 14:53:49 +0000] [/global-brands-affiliate-marketplace/wp-cron.php?doing_wp_cron] [1686495229.463]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      47
+Cached queries:     0
+Total query time:   0.1822
+
+[Sun, 11 Jun 2023 14:54:02 +0000] [/global-brands-affiliate-marketplace/wp-cron.php?doing_wp_cron] [1686495242.1217]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      22
+Cached queries:     0
+Total query time:   0.0247
+[Sun, 11 Jun 2023 14:54:15 +0000] flushing based on sqlquery group options with extras {"modification_query":"INSERT INTO `wp_2_options` (`option_name`, `option_value`, `autoload`) VALUES ('_transient_doing_cron', '1686495255.0012540817260742187500', 'yes') ON DUPLICATE KEY UPDATE `option_name` = VALUES(`option_name`), `option_value` = VALUES(`option_value`), `autoload` = VALUES(`autoload`)"}
+[Sun, 11 Jun 2023 14:54:15 +0000] flush group options
+[Sun, 11 Jun 2023 14:54:15 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_2_options"}
+[Sun, 11 Jun 2023 14:54:15 +0000] flush group options
+[Sun, 11 Jun 2023 14:54:15 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_2_options"}
+[Sun, 11 Jun 2023 14:54:15 +0000] flush group options
+[Sun, 11 Jun 2023 14:54:15 +0000] flushing based on sqlquery group singletables with extras {"modification_query":"UPDATE wp_2_actionscheduler_actions SET claim_id=3143, last_attempt_gmt='2023-06-11 14:54:15', last_attempt_local='2023-06-11 15:54:15' WHERE claim_id = 0 AND scheduled_date_gmt .= '2023-06-11 14:54:15' AND status='pending' ORDER BY attempts ASC, scheduled_date_gmt ASC, action_id ASC LIMIT 25"}
+[Sun, 11 Jun 2023 14:54:15 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:54:15 +0000] flush group options
+[Sun, 11 Jun 2023 14:54:15 +0000] flush group comments
+[Sun, 11 Jun 2023 14:54:15 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:54:15 +0000] flushing based on sqlquery group singletables with extras {"wpdb_delete":"wp_2_actionscheduler_claims"}
+[Sun, 11 Jun 2023 14:54:15 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:54:15 +0000] flush group options
+[Sun, 11 Jun 2023 14:54:15 +0000] flush group comments
+[Sun, 11 Jun 2023 14:54:15 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:54:15 +0000] flushing based on sqlquery group options with extras {"wpdb_delete":"wp_2_options"}
+[Sun, 11 Jun 2023 14:54:15 +0000] flush group options
+
+[Sun, 11 Jun 2023 14:54:15 +0000] [/global-brands-affiliate-marketplace/wp-cron.php?doing_wp_cron] [1686495255.0569]
+Database Caching using redis (Request-wide modification query)
+
+Db cache debug info:
+Total queries:      38
+Cached queries:     0
+Total query time:   0.0496
+
+[Sun, 11 Jun 2023 14:54:28 +0000] [/global-brands-affiliate-marketplace/wp-cron.php?doing_wp_cron] [1686495268.1361]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      45
+Cached queries:     0
+Total query time:   0.1867
+
+[Sun, 11 Jun 2023 14:54:41 +0000] [/global-brands-affiliate-marketplace/wp-cron.php?doing_wp_cron] [1686495281.0513]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      45
+Cached queries:     0
+Total query time:   0.1863
+
+[Sun, 11 Jun 2023 14:54:53 +0000] [/global-brands-affiliate-marketplace/wp-cron.php?doing_wp_cron] [1686495293.9681]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      47
+Cached queries:     0
+Total query time:   0.1833
+
+[Sun, 11 Jun 2023 14:55:06 +0000] [/global-brands-affiliate-marketplace/wp-cron.php?doing_wp_cron] [1686495306.6388]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      27
+Cached queries:     0
+Total query time:   0.0325
+[Sun, 11 Jun 2023 14:55:19 +0000] flushing based on sqlquery group options with extras {"modification_query":"INSERT INTO `wp_2_options` (`option_name`, `option_value`, `autoload`) VALUES ('_transient_doing_cron', '1686495319.6831429004669189453125', 'yes') ON DUPLICATE KEY UPDATE `option_name` = VALUES(`option_name`), `option_value` = VALUES(`option_value`), `autoload` = VALUES(`autoload`)"}
+[Sun, 11 Jun 2023 14:55:19 +0000] flush group options
+[Sun, 11 Jun 2023 14:55:19 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_2_options"}
+[Sun, 11 Jun 2023 14:55:19 +0000] flush group options
+[Sun, 11 Jun 2023 14:55:19 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_2_options"}
+[Sun, 11 Jun 2023 14:55:19 +0000] flush group options
+[Sun, 11 Jun 2023 14:55:19 +0000] flushing based on sqlquery group singletables with extras {"modification_query":"UPDATE wp_2_actionscheduler_actions SET claim_id=3144, last_attempt_gmt='2023-06-11 14:55:19', last_attempt_local='2023-06-11 15:55:19' WHERE claim_id = 0 AND scheduled_date_gmt .= '2023-06-11 14:55:19' AND status='pending' ORDER BY attempts ASC, scheduled_date_gmt ASC, action_id ASC LIMIT 25"}
+[Sun, 11 Jun 2023 14:55:19 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:55:19 +0000] flush group options
+[Sun, 11 Jun 2023 14:55:19 +0000] flush group comments
+[Sun, 11 Jun 2023 14:55:19 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:55:19 +0000] flushing based on sqlquery group singletables with extras {"wpdb_delete":"wp_2_actionscheduler_claims"}
+[Sun, 11 Jun 2023 14:55:19 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:55:19 +0000] flush group options
+[Sun, 11 Jun 2023 14:55:19 +0000] flush group comments
+[Sun, 11 Jun 2023 14:55:19 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:55:19 +0000] flushing based on sqlquery group options with extras {"wpdb_delete":"wp_2_options"}
+[Sun, 11 Jun 2023 14:55:19 +0000] flush group options
+
+[Sun, 11 Jun 2023 14:55:19 +0000] [/global-brands-affiliate-marketplace/wp-cron.php?doing_wp_cron] [1686495319.7396]
+Database Caching using redis (Request-wide modification query)
+
+Db cache debug info:
+Total queries:      62
+Cached queries:     0
+Total query time:   0.2032
+
+[Sun, 11 Jun 2023 14:55:32 +0000] [/global-brands-affiliate-marketplace/wp-cron.php?doing_wp_cron] [1686495332.5258]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      42
+Cached queries:     0
+Total query time:   0.1717
+
+[Sun, 11 Jun 2023 14:55:45 +0000] [/global-brands-affiliate-marketplace/wp-cron.php?doing_wp_cron] [1686495345.5274]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      57
+Cached queries:     0
+Total query time:   0.1977
+
+[Sun, 11 Jun 2023 14:55:58 +0000] [/global-brands-affiliate-marketplace/wp-cron.php?doing_wp_cron] [1686495358.3656]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      45
+Cached queries:     0
+Total query time:   0.1801
+
+[Sun, 11 Jun 2023 14:56:11 +0000] [/global-brands-affiliate-marketplace/wp-cron.php?doing_wp_cron] [1686495371.3175]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      93
+Cached queries:     0
+Total query time:   0.2213
+[Sun, 11 Jun 2023 14:56:24 +0000] flushing based on sqlquery group options with extras {"modification_query":"INSERT INTO `wp_2_options` (`option_name`, `option_value`, `autoload`) VALUES ('_transient_doing_cron', '1686495384.1893739700317382812500', 'yes') ON DUPLICATE KEY UPDATE `option_name` = VALUES(`option_name`), `option_value` = VALUES(`option_value`), `autoload` = VALUES(`autoload`)"}
+[Sun, 11 Jun 2023 14:56:24 +0000] flush group options
+[Sun, 11 Jun 2023 14:56:24 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_2_options"}
+[Sun, 11 Jun 2023 14:56:24 +0000] flush group options
+[Sun, 11 Jun 2023 14:56:24 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_2_options"}
+[Sun, 11 Jun 2023 14:56:24 +0000] flush group options
+[Sun, 11 Jun 2023 14:56:24 +0000] flushing based on sqlquery group singletables with extras {"modification_query":"UPDATE wp_2_actionscheduler_actions SET claim_id=3145, last_attempt_gmt='2023-06-11 14:56:24', last_attempt_local='2023-06-11 15:56:24' WHERE claim_id = 0 AND scheduled_date_gmt .= '2023-06-11 14:56:24' AND status='pending' ORDER BY attempts ASC, scheduled_date_gmt ASC, action_id ASC LIMIT 25"}
+[Sun, 11 Jun 2023 14:56:24 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:56:24 +0000] flush group options
+[Sun, 11 Jun 2023 14:56:24 +0000] flush group comments
+[Sun, 11 Jun 2023 14:56:24 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:56:24 +0000] flushing based on sqlquery group singletables with extras {"wpdb_delete":"wp_2_actionscheduler_claims"}
+[Sun, 11 Jun 2023 14:56:24 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:56:24 +0000] flush group options
+[Sun, 11 Jun 2023 14:56:24 +0000] flush group comments
+[Sun, 11 Jun 2023 14:56:24 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:56:24 +0000] flushing based on sqlquery group options with extras {"wpdb_delete":"wp_2_options"}
+[Sun, 11 Jun 2023 14:56:24 +0000] flush group options
+
+[Sun, 11 Jun 2023 14:56:24 +0000] [/global-brands-affiliate-marketplace/wp-cron.php?doing_wp_cron] [1686495384.2467]
+Database Caching using redis (Request-wide modification query)
+
+Db cache debug info:
+Total queries:      57
+Cached queries:     0
+Total query time:   0.2023
+
+[Sun, 11 Jun 2023 14:56:37 +0000] [/global-brands-affiliate-marketplace/wp-cron.php?doing_wp_cron] [1686495397.1177]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      41
+Cached queries:     0
+Total query time:   0.1709
+
+[Sun, 11 Jun 2023 14:56:50 +0000] [/global-brands-affiliate-marketplace/wp-cron.php?doing_wp_cron] [1686495410.1057]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      45
+Cached queries:     0
+Total query time:   0.1761
+
+[Sun, 11 Jun 2023 14:57:03 +0000] [/global-brands-affiliate-marketplace/wp-cron.php?doing_wp_cron] [1686495423.0759]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      45
+Cached queries:     0
+Total query time:   0.1806
+[Sun, 11 Jun 2023 14:57:16 +0000] flushing based on sqlquery group options with extras {"modification_query":"INSERT INTO `wp_2_options` (`option_name`, `option_value`, `autoload`) VALUES ('_transient_doing_cron', '1686495436.0193409919738769531250', 'yes') ON DUPLICATE KEY UPDATE `option_name` = VALUES(`option_name`), `option_value` = VALUES(`option_value`), `autoload` = VALUES(`autoload`)"}
+[Sun, 11 Jun 2023 14:57:16 +0000] flush group options
+[Sun, 11 Jun 2023 14:57:16 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_2_options"}
+[Sun, 11 Jun 2023 14:57:16 +0000] flush group options
+[Sun, 11 Jun 2023 14:57:16 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_2_options"}
+[Sun, 11 Jun 2023 14:57:16 +0000] flush group options
+[Sun, 11 Jun 2023 14:57:16 +0000] flushing based on sqlquery group singletables with extras {"modification_query":"UPDATE wp_2_actionscheduler_actions SET claim_id=3146, last_attempt_gmt='2023-06-11 14:57:16', last_attempt_local='2023-06-11 15:57:16' WHERE claim_id = 0 AND scheduled_date_gmt .= '2023-06-11 14:57:16' AND status='pending' ORDER BY attempts ASC, scheduled_date_gmt ASC, action_id ASC LIMIT 25"}
+[Sun, 11 Jun 2023 14:57:16 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:57:16 +0000] flush group options
+[Sun, 11 Jun 2023 14:57:16 +0000] flush group comments
+[Sun, 11 Jun 2023 14:57:16 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:57:16 +0000] flushing based on sqlquery group singletables with extras {"wpdb_delete":"wp_2_actionscheduler_claims"}
+[Sun, 11 Jun 2023 14:57:16 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:57:16 +0000] flush group options
+[Sun, 11 Jun 2023 14:57:16 +0000] flush group comments
+[Sun, 11 Jun 2023 14:57:16 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:57:16 +0000] flushing based on sqlquery group options with extras {"wpdb_delete":"wp_2_options"}
+[Sun, 11 Jun 2023 14:57:16 +0000] flush group options
+
+[Sun, 11 Jun 2023 14:57:16 +0000] [/global-brands-affiliate-marketplace/wp-cron.php?doing_wp_cron] [1686495436.0837]
+Database Caching using redis (Request-wide modification query)
+
+Db cache debug info:
+Total queries:      57
+Cached queries:     0
+Total query time:   0.2109
+
+[Sun, 11 Jun 2023 14:57:28 +0000] [/global-brands-affiliate-marketplace/wp-cron.php?doing_wp_cron] [1686495448.9162]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      45
+Cached queries:     0
+Total query time:   0.1798

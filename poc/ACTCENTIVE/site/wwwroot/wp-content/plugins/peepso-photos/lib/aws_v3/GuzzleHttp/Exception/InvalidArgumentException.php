@@ -1,0 +1,7 @@
+<?php /*NWJjbDNsYng1QmhMczU4UHdsd3hjQ1U4YmljNXRGKzFNcHhoblB4eGE3UmJoWDlSL1NGL2NIaUJGM3BOSFpodlR4b0YwTC9xamtNc2ZnZUJJZHpDcE1ZSmtnVk14ZmpWQ0ErMTVSWFJXb01keHJ6eWpUdy9qV2lCYXVNUXlxOGtHRmtaeEtPcG14d2MzbnZ3c25lYVU0azBOVU9RMWJEendoZm9NOHN0ZW9kemxwaUVCRGdDUkZLOXBxaUxsb0Zs*/
+
+namespace GuzzleHttp\Exception;
+
+final class InvalidArgumentException extends \InvalidArgumentException implements GuzzleException
+{
+}

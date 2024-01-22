@@ -1,0 +1,64 @@
+.ps-woo__slider-wrapper {
+  position: relative;
+}
+
+.ps-woo__slider {
+  width: 100%;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  white-space: nowrap;
+
+  /* Important fix for iOS Safari bug */
+  /* https://davidwalsh.name/scroll-iframes-ios */
+  -webkit-overflow-scrolling: touch;
+}
+
+.ps-woo__slider-item {
+  display: inline-block;
+  width: 100%;
+  margin-right: var(--PADD);
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.ps-woo__slider-btn {
+  @include reset--button;
+
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  margin: 0;
+  padding: var(--PADD) var(--PADD--SM);
+  font-size: 100%;
+  line-height: 1;
+  color: var(--PS-COLOR--TEXT--LIGHT);
+  background-color: var(--PS-COLOR--APP);
+  box-shadow: inset 0 0 0 1px var(--DIVIDER);
+  border-radius: var(--BORDER-RADIUS);
+  text-transform: uppercase;
+  opacity: .5;
+  transition: opacity .2s ease;
+
+  .ps-woo__slider-wrapper:hover & {
+    opacity: 1;
+    box-shadow: 0 1px 3px var(--DIVIDER), inset 0 0 0 1px var(--DIVIDER--LIGHT);
+  }
+}
+
+.ps-woo__slider-btn--prev {
+  @if $rtl {
+    right: calc(-1 * var(--PADD));
+  } @else {
+    left: calc(-1 * var(--PADD));
+  }
+}
+
+.ps-woo__slider-btn--next {
+  @if $rtl {
+    left: calc(-1 * var(--PADD));
+  } @else {
+    right: calc(-1 * var(--PADD));
+  }
+}

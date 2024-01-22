@@ -1,0 +1,14 @@
+/* TITLEBOX */
+.wpsm-titlebox { margin: 0 0 30px 0; padding: 18px 26px; position: relative; }
+.wpsm-titlebox > strong:first-child { background: none repeat scroll 0 0 white; float: left; font-size: 17px; font-weight: 600; left: 11px; line-height: 18px; margin: 0 0 -9px !important; padding: 0 10px; position: absolute; text-transform: uppercase; top: -10px; }
+.wpsm-titlebox.wpsm_style_1 { border: 3px solid #E7E4DF; }
+.wpsm-titlebox.wpsm_style_1 > strong:first-child { color: #c0c0c0; }
+.wpsm-titlebox.wpsm_style_2 { border: 3px solid #111; }
+.wpsm-titlebox.wpsm_style_2 > strong:first-child { color: #111; }
+.wpsm-titlebox.wpsm_style_3 { border: 3px solid #fb7203; }
+.wpsm-titlebox.wpsm_style_3 > strong:first-child { color: #fb7203; }
+.wpsm-titlebox.wpsm_style_4 {border: 3px double #e7e4df;}
+.wpsm-titlebox.wpsm_style_main, .wpsm-titlebox.wpsm_style_secondary{border-width: 3px; border-style: solid;}
+.wpsm-titlebox p:last-child{margin: 0}
+.post .wpsm-titlebox .autocontent{margin-bottom:0;}
+.rtl .wpsm-titlebox > strong:first-child{left: auto;right: 11px}

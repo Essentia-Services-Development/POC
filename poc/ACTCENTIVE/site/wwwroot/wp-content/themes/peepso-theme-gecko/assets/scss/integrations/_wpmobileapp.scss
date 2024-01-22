@@ -1,0 +1,36 @@
+.is-wpmobileapp {
+  --wpmobileapp-gap: 56px;
+
+  .page {
+    > .navbar {
+      &:after {
+        display: none;
+      }
+    }
+  }
+
+  .page-content {
+    > .posts {
+      padding-top: var(--body-gap);
+    }
+  }
+
+  .gc-header {
+    top: var(--wpmobileapp-gap);
+  }
+
+  .gc-widgets--mobi-sticky-top {
+    top: calc(var(--c-gc-header-height) + var(--wpmobileapp-gap));
+
+    .header-is-hidden & {
+      top: var(--wpmobileapp-gap);
+    }
+  }
+}
+
+// iOS only
+@supports (-webkit-touch-callout: none) {
+  .is-wpmobileapp {
+    --wpmobileapp-gap: 42px;
+  }
+}

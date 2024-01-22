@@ -1,0 +1,316 @@
+.mailster-conditions-thickbox {
+	box-sizing: border-box;
+	padding: 20px;
+	position: relative;
+	height: 100%;
+	min-height: 100%;
+}
+.mailster-conditions {
+	position: relative;
+	height: 100%;
+}
+.mailster-conditions > .mailster-help {
+	position: absolute;
+	top: 0.5em;
+	right: 0.5em;
+	z-index: 1;
+}
+.mailster-conditions-thickbox .inner {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 56px;
+	overflow: hidden;
+	padding: 0;
+}
+.mailster-conditions-thickbox .foot {
+	padding: 16px 20px 20px;
+	border-top: 1px solid #dfdfdf;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+.mailster-conditions-thickbox .button.add-condition {
+	position: absolute;
+	bottom: 2em;
+	right: 1em;
+}
+.rtl .mailster-conditions-thickbox .button.add-condition {
+	right: auto;
+	left: 1em;
+}
+.close-conditions {
+	float: right;
+}
+.rtl .close-conditions {
+	float: left;
+}
+.mailster-conditions-saved {
+	text-align: right;
+}
+.mailster-conditions-saved select {
+	width: 40%;
+}
+.mailster-conditions-wrap .mailster-condition-group {
+	border: 1px solid #dfdfdf;
+	background: #fafafa;
+	border-radius: 3px;
+	margin: 8px 0 25px;
+	padding: 0 10px 36px;
+	display: block;
+	position: relative;
+	border: 1 px solid #d6d6d6;
+	box-shadow: 0 2px 8px 0 rgb(0 0 0 / 5%), 0 2px 1px 0 rgb(0 0 0 / 5%);
+	border-radius: 4px;
+}
+.mailster-conditions-wrap .mailster-condition-group:after,
+.mailster-conditions-wrap .mailster-condition:after {
+	content: attr(data-operator);
+	position: absolute;
+	left: 30px;
+	padding: 3px 1px;
+	text-transform: uppercase;
+	color: #999;
+	font-size: 16px;
+	line-height: 1em;
+	transform: translateX(-50%);
+	z-index: 1;
+	bottom: -25px;
+}
+.mailster-conditions-wrap .mailster-condition:after {
+	background-color: #fafafa;
+	font-size: 14px;
+	bottom: -0.8em;
+	left: 20px;
+}
+.mailster-conditions-wrap .mailster-condition-group:last-child:after,
+.mailster-conditions-wrap .mailster-condition:last-child:after {
+	display: none;
+}
+.mailster-conditions-wrap .mailster-condition-group:last-child,
+.mailster-conditions-wrap .mailster-condition:last-child {
+	margin-bottom: 0;
+}
+.mailster-conditions-wrap .mailster-condition,
+.mailster-conditions-wrap .mailster-condition-empty {
+	border-bottom: 1px dotted #dfdfdf;
+	position: relative;
+	padding: 1em 0 1em;
+}
+.mailster-conditions-wrap {
+	height: 80%;
+	overflow: auto;
+	padding-bottom: 1em;
+}
+.mailster-condition-container {
+	display: none;
+}
+.mailster-conditions-field-fields,
+.mailster-conditions-operator-fields,
+.mailster-conditions-value-fields {
+	float: left;
+	max-width: 37%;
+	padding-right: 4px;
+}
+.rtl .mailster-conditions-field-fields,
+.rtl .mailster-conditions-operator-fields,
+.rtl .mailster-conditions-value-fields {
+	float: right;
+	padding-right: 0px;
+	padding-left: 4px;
+}
+.mailster-conditions-operator-fields {
+	max-width: 140px;
+}
+.mailster-conditions-value-fields {
+}
+.mailster-conditions-operator-field,
+.mailster-conditions-value-field {
+	display: none;
+}
+.mailster-conditions-operator-field.active,
+.mailster-conditions-value-field.active {
+	display: block;
+}
+.mailster-conditions-wrap select,
+.mailster-conditions-wrap input {
+	max-width: 100%;
+	vertical-align: middle;
+}
+.mailster-conditions-wrap .mailster-condition-empty {
+	background-color: none;
+	border: 1px dotted #dfdfdf;
+	text-align: center;
+}
+.mailster-conditions-wrap .remove-condition {
+	float: right;
+	cursor: pointer;
+	visibility: hidden;
+	margin-bottom: 10px;
+	padding: 0 4px;
+}
+.rtl .mailster-conditions-wrap .remove-condition {
+	float: left;
+}
+.mailster-conditions-wrap .mailster-condition:hover .remove-condition {
+	visibility: visible;
+}
+.mailster-conditions-wrap .add-or-condition {
+	position: absolute;
+	bottom: 6px;
+	z-index: 1;
+}
+.mailster-conditions-wrap .add-or-condition span {
+	text-transform: uppercase;
+}
+.mailster-conditions-wrap .datepicker.condition-value {
+	width: 100px;
+}
+.mailster-condition .mailster-conditions-value-field p,
+.mailster-condition .mailster-conditions-value-field ul {
+	margin: 0;
+}
+.mailster-condition .relative-datepicker,
+.mailster-condition.is-relative .datepicker {
+	display: none;
+}
+.mailster-condition.is-relative .relative-datepicker {
+	display: inline;
+}
+.mailster-condition-render span.mailster-condition-type {
+	float: left;
+	padding-right: 4px;
+}
+.rtl .mailster-condition-render span.mailster-condition-type {
+	float: right;
+	padding-right: 0;
+	padding-left: 4px;
+}
+.mailster-condition .mailster-rating span {
+	color: #e6b800;
+	display: inline-block;
+	font-size: 16px;
+	cursor: pointer;
+	padding: 3px 0;
+}
+.mailster-condition .mailster-rating span:before,
+span.mailster-icon-star-empty:before {
+	background-image: url('data:image/svg+xml;utf8,<svg version="1.1" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g fill="none"><path stroke="%23cfcfcf" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M7.458 20.86l2.81526e-08-1.51005e-08c-.584032.313263-1.31143.093761-1.6247-.490271 -.126301-.23547-.170399-.506358-.125305-.769729l.868-5.023 -3.676-3.559 4.32484e-08 4.2531e-08c-.472532-.464694-.478886-1.22447-.0141923-1.697 .183566-.186662.42314-.308172.682192-.346003l5.082-.733 2.27-4.574 3.97642e-08-7.94342e-08c.299141-.597572 1.02607-.839499 1.62364-.540358 .233761.117019.423339.306597.540358.540358l2.27 4.574 5.082.733 1.00541e-07 1.46825e-08c.655786.0957675 1.10977.705022 1.014 1.36081 -.0378307.259052-.159341.498626-.346003.682192l-3.678 3.557 .868 5.023 2.1535e-08 1.2438e-07c.113064.653026-.324662 1.27406-.977688 1.38713 -.264187.045741-.536083.00168883-.772312-.125129l-4.544-2.369Z"></path></g></svg>');
+	width: 1em;
+	height: 1em;
+	background-size: 1em 1em;
+	vertical-align: middle;
+}
+.mailster-condition .mailster-rating span.enabled:before,
+span.mailster-icon-star:before {
+	background-image: url('data:image/svg+xml;utf8,<svg version="1.1" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g fill="none"><path stroke="%23ffb900" fill="%23ffb900" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M7.458 20.86l2.81526e-08-1.51005e-08c-.584032.313263-1.31143.093761-1.6247-.490271 -.126301-.23547-.170399-.506358-.125305-.769729l.868-5.023 -3.676-3.559 4.32484e-08 4.2531e-08c-.472532-.464694-.478886-1.22447-.0141923-1.697 .183566-.186662.42314-.308172.682192-.346003l5.082-.733 2.27-4.574 3.97642e-08-7.94342e-08c.299141-.597572 1.02607-.839499 1.62364-.540358 .233761.117019.423339.306597.540358.540358l2.27 4.574 5.082.733 1.00541e-07 1.46825e-08c.655786.0957675 1.10977.705022 1.014 1.36081 -.0378307.259052-.159341.498626-.346003.682192l-3.678 3.557 .868 5.023 2.1535e-08 1.2438e-07c.113064.653026-.324662 1.27406-.977688 1.38713 -.264187.045741-.536083.00168883-.772312-.125129l-4.544-2.369Z"></path></g></svg>');
+	width: 1em;
+	height: 1em;
+	background-size: 1em 1em;
+	vertical-align: middle;
+}
+.mailster-conditions-wrap
+	.mailster-conditions-value-field-multiselect:first-child {
+	display: inline-block;
+}
+.mailster-conditions-wrap
+	.mailster-conditions-value-field-multiselect
+	.condition-value {
+	width: 180px;
+}
+.mailster-conditions-wrap
+	.mailster-conditions-value-field-multiselect
+	a.mailster-condition-add-multiselect,
+.mailster-conditions-wrap
+	.mailster-conditions-value-field-multiselect:first-child
+	span {
+	visibility: hidden;
+}
+.mailster-conditions-wrap .mailster-conditions-value-field-multiselect a {
+	cursor: pointer;
+}
+.mailster-conditions-wrap
+	.mailster-conditions-value-field-multiselect:hover
+	a.mailster-condition-remove-multiselect {
+	visibility: visible;
+}
+.mailster-conditions-wrap
+	.mailster-conditions-value-field-multiselect
+	a.mailster-condition-remove-multiselect {
+	visibility: hidden;
+}
+
+.mailster-conditions-wrap
+	.mailster-conditions-value-field-multiselect:last-child
+	a.mailster-condition-add-multiselect {
+	visibility: visible;
+}
+.mailster-conditions-wrap
+	.mailster-conditions-value-field-multiselect:first-child
+	a.mailster-condition-remove-multiselect {
+	visibility: hidden !important;
+}
+
+.mailster-conditions-render:empty:before {
+	content: attr(data-emptytext);
+	display: block;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	color: #999;
+	white-space: nowrap;
+}
+.mailster-condition .mailster-rating span {
+	color: #e6b800;
+	display: inline-block;
+	font-size: 16px;
+	cursor: pointer;
+	padding: 3px 0;
+}
+.mailster-conditions-render:empty {
+	border: 1px solid #ccd0d4;
+	border-radius: 2px;
+	padding: 10px 6px;
+	min-height: 18px;
+}
+.dark-mode .mailster-conditions-render:empty {
+	border-color: #191f25;
+}
+_.mailster-conditions-render:empty:before,
+_.mailster-conditions .mailster-conditions-wrap:empty:before {
+	content: attr(data-emptytext);
+	display: block;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	color: #999;
+	white-space: nowrap;
+}
+.mailster-condition-render-group {
+	border: 1px solid #ccd0d4;
+	padding: 0.8em 0.8em;
+	margin: 0 0 0.8em;
+	background: #fafafa;
+	vertical-align: top;
+	position: relative;
+	box-shadow: 0 2px 8px 0 rgb(0 0 0 / 5%), 0 2px 1px 0 rgb(0 0 0 / 5%);
+	border-radius: 4px;
+}
+.mailster-condition-operators {
+	color: #989898;
+	font-size: 12px;
+}
+.mailster-condition-render {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.mailster-condition-render .mailster-condition-operators {
+	font-size: 10px;
+}

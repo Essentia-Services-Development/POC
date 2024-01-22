@@ -1,0 +1,65 @@
+.export-order-wrap {
+	display: flex;
+	align-items: flex-start;
+}
+.export-order-middle {
+	overflow: hidden;
+	transform: translateY(100%);
+	padding: 10px;
+}
+.export-order-middle button {
+	display: block !important;
+	width: 5vw;
+	margin: 4px 0;
+}
+.export-order {
+	overflow: auto;
+	border: 1px solid #dfdfdf;
+	width: 40vw;
+	height: 300px;
+}
+.export-order li {
+	padding: 1em;
+	display: block;
+	cursor: we-resize;
+	cursor: hand;
+	cursor: grab;
+	cursor: grabbing;
+	cursor: -moz-grab;
+	cursor: -webkit-grab;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+	margin: 0;
+}
+.export-order li.ui-sortable-helper {
+	cursor: grabbing;
+	cursor: -moz-grabbing;
+	cursor: -webkit-grabbing;
+	background: #fff;
+	box-shadow: 0 1px 8px 0 rgb(0 0 0 / 5%), 0 2px 1px 0 rgb(0 0 0 / 3%);
+}
+.export-order li:last-child {
+	border-bottom: 0;
+}
+.dark-mode .export-order li {
+	border-color: #191f25;
+	background: #23282d;
+}
+.rtl .export-order li {
+	float: right;
+}
+.export-order li:hover {
+	color: #d54e21;
+	font-size: bold;
+}
+.status {
+	padding-left: 2em;
+}
+.status.progress {
+	float: none;
+	visibility: visible;
+	vertical-align: baseline;
+	opacity: 1;
+	width: auto;
+}

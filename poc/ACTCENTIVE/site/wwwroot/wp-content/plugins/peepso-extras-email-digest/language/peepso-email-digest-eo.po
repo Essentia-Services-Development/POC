@@ -1,0 +1,332 @@
+# Translation of PeepSo - Email Digest in Esperanto
+# This file is distributed under the same license as the PeepSo - Email Digest package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2023-01-26 09:33:56+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0\n"
+"Language: eo\n"
+"Project-Id-Version: PeepSo - Email Digest\n"
+
+#: peepsoemaildigest.php:822
+msgid "A summary of community activity is sent if you are inactive for more than %d days."
+msgstr "Resumo de komunuma aktiveco estas sendita se vi estas neaktiva dum pli ol %d tagoj."
+
+#: peepsoemaildigest.php:821
+msgid "%s email digest"
+msgstr "%s retpoŝtaj kompilaĵoj"
+
+#: peepsoemaildigest.php:315
+msgid "Monthly"
+msgstr "Monataj"
+
+#: peepsoemaildigest.php:314
+msgid "Biweekly"
+msgstr "Dusemajnaj"
+
+#: peepsoemaildigest.php:313
+msgid "Weekly"
+msgstr "Semajnaj"
+
+#: peepsoemaildigest.php:312
+msgid "Daily"
+msgstr "Ĉiutagaj"
+
+#: classes/configsectionemaildigest.php:37
+msgid "Use files"
+msgstr "Uzi dosierojn"
+
+#: peepsoemaildigest.php:150
+msgid "Every 2 weeks"
+msgstr "Po ĉiu 2 semajnoj"
+
+#. Author of the plugin/theme
+msgid "PeepSo"
+msgstr "PeepSo"
+
+#. Description of the plugin/theme
+msgid "Bring users back with automated newsletter"
+msgstr "Revoku uzantojn per aŭtomata novaĵletero"
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://peepso.com"
+msgstr "https://peepso.com"
+
+#. Plugin Name of the plugin/theme
+msgid "PeepSo Core: Email Digest"
+msgstr "PeepSo Kerno: Retpoŝta mesaĝaro"
+
+#: templates/general/email-digest.php:41
+msgid "Comment"
+msgstr "Komenti"
+
+#: templates/general/email-digest.php:41
+msgid "Like"
+msgstr "Ŝato"
+
+#: templates/general/email-digest.php:39
+msgid "Read more"
+msgstr "Legi pli"
+
+#: templates/general/email-digest.php:25
+msgid "shared a post"
+msgstr "diskonigis afiŝon"
+
+#: templates/general/email-digest-recipient.php:16
+msgid "Last email sent: "
+msgstr "Lasta retpoŝto sendita: "
+
+#: templates/general/email-digest-recipient.php:13
+msgid "User last login: "
+msgstr "Lasta ensaluto de uzanto: "
+
+#: peepsoemaildigest.php:935
+msgid "Preview email was sent"
+msgstr "Antaŭvida retpoŝto sendita"
+
+#: peepsoemaildigest.php:724
+msgid "Most commented post"
+msgstr "La plej komentita afiŝo"
+
+#: peepsoemaildigest.php:686
+msgid "Most liked post"
+msgstr "La plej ŝatata afiŝo"
+
+#: peepsoemaildigest.php:624
+msgid "Email digest is not activated"
+msgstr "Retpoŝta kompilaĵo ne estas aktivigita"
+
+#: peepsoemaildigest.php:619
+msgid "Email digest sent to %d users"
+msgstr "Retpoŝta kompilaĵo sendita al %d uzantoj"
+
+#: peepsoemaildigest.php:479
+msgid "Other popular posts"
+msgstr "Aliaj popularaj afiŝoj"
+
+#: peepsoemaildigest.php:472
+msgid "There are only %d posts, required at least %d"
+msgstr "Estas nur %d afiŝoj, almenaŭ %d estas bezonata"
+
+#: peepsoemaildigest.php:400
+msgid "Current time is %s, cron scheduled at %s"
+msgstr "Nuna tempo estas %s, cron-laboro estas planata je %s"
+
+#: peepsoemaildigest.php:364
+msgid "There are %d logs in your database. You can clear the logs by clicking the button below."
+msgstr "Estas %d protokoloj en via datumbazo. Vi povas purigi la protokolojn per alklaki la butonon malsupre."
+
+#: peepsoemaildigest.php:363
+msgid "Clear Logs"
+msgstr "Purigi protokolojn"
+
+#: peepsoemaildigest.php:362
+msgid "Preview email failed"
+msgstr "Antaŭmontra retpoŝto malsukcesis"
+
+#: peepsoemaildigest.php:361
+msgid "Preview email sent"
+msgstr "Antaŭmontra retpoŝto sendita"
+
+#: peepsoemaildigest.php:343
+msgid "PeepSo Email Digest"
+msgstr "PeepSo retpoŝta kompilaĵo"
+
+#: peepsoemaildigest.php:292
+msgid "Get it now!"
+msgstr "Akiru ĝin nun!"
+
+#: peepsoemaildigest.php:290
+msgid "The %s plugin requires the PeepSo plugin to be installed and activated."
+msgstr "La %s kromprogramo bezonas ke la PeepSo kromprogramo estas instalita kaj aktivigita."
+
+#: classes/emaildigestadminajax.php:46
+msgid "No Log Found."
+msgstr "Neniuj protokoloj trovitaj."
+
+#: classes/emaildigestadmin.php:42
+msgid "This will be sent to user based on schedule."
+msgstr "Ĉi tiu estos sendita al uzantoj laŭhorare."
+
+#: classes/emaildigestadmin.php:41
+msgid "Digest Email"
+msgstr "Kompilaĵo de retpoŝto"
+
+#: classes/configsectionemaildigest.php:356
+msgid "Sent Email Digest Logs"
+msgstr "Protokoloj de senditaj retpoŝtaj kompilaĵoj"
+
+#: classes/configsectionemaildigest.php:349
+msgid "The logs keep latest 100 sent Email Digest emails. You can see which users got the emails and what was their last login when the email was generated and sent to them. You can also preview the email that was sent."
+msgstr "Ĉi tiu protokolo ŝparas la lastajn 100 senditajn retpoŝtajn kompilaĵajn retpoŝtojn. Vi povas vidi kiujn uzantojn kiuj ricevis la retpoŝtojn kaj kiam estis iliaj lastaj ensalutoj kiam la retpoŝto estis kreita kaj sendita al ili. Vi ankaŭ povas antaŭvidi la retpoŝton senditan."
+
+#: classes/configsectionemaildigest.php:341
+msgid "General"
+msgstr "Ĝenerala"
+
+#: classes/configsectionemaildigest.php:315
+msgid "How many emails should be created in a batch"
+msgstr "Kiom da retpoŝtoj devus esti kreita po unu staplo"
+
+#: classes/configsectionemaildigest.php:312
+msgid "Depending on the amount of inactive users in your community, not to overload the site there's a batch creation system. This setting controls how many emails will be generated in one batch. This setting does not send the emails. PeepSo mailqueue takes care of the delivery."
+msgstr "Depende de la nombro da neaktivaj uzantoj en via komunumo, por ne trolaborigi la retejon estas sistemo por staplokreado. Ĉi tiu agordo kontrolas kiom da retpoŝtoj estos kreita po unu amaso. Ĉi tiu agordo ne sendos la retpoŝtoj. PeepSo retpoŝtvico traktas la sendadon."
+
+#: classes/configsectionemaildigest.php:308
+msgid "Execute Email Digest email creation via cron job"
+msgstr "Plenumigi retpoŝtajn kompilaĵajn retpoŝtajn kreadojn per cron-laboradon"
+
+#: classes/configsectionemaildigest.php:305
+msgid "It's advised to switch this setting on and setup a server-side cron job. You can use this command: wget %s It can easily run every hour."
+msgstr "Estas konsilata ke oni ŝaltu ĉi tiun agordon kaj agordi servila flanka cron-laboron. Vi povas uzi ĉi tiun komandon: wget %s Ĝi povas facile funkcii ĉiun horon."
+
+#: classes/configsectionemaildigest.php:236
+#: classes/configsectionemaildigest.php:243
+#: classes/configsectionemaildigest.php:260
+#: classes/configsectionemaildigest.php:283
+msgid "At"
+msgstr "Je"
+
+#: classes/configsectionemaildigest.php:233
+#: classes/configsectionemaildigest.php:256
+#: classes/configsectionemaildigest.php:279
+msgid "The time when Email Digest emails will start to be sent. Emails are sent in batches by the mailqueue, they're not all sent at once, so your users might get them at different times."
+msgstr "La tempo kiam retpoŝtaj kompilaĵaj retpoŝtoj eksendiĝas. Retpoŝtoj estas senditaj staple laŭ la retpoŝtovico, ili ne estas sendataj samtempe, do viaj uzantoj eble ricevos ĝin en malsamaj tempoj."
+
+#: classes/configsectionemaildigest.php:206
+msgid "Sat"
+msgstr "Sab"
+
+#: classes/configsectionemaildigest.php:205
+msgid "Fri"
+msgstr "Ven"
+
+#: classes/configsectionemaildigest.php:204
+msgid "Thu"
+msgstr "Ĵaŭ"
+
+#: classes/configsectionemaildigest.php:203
+msgid "Wed"
+msgstr "Mer"
+
+#: classes/configsectionemaildigest.php:202
+msgid "Tue"
+msgstr "Mar"
+
+#: classes/configsectionemaildigest.php:201
+msgid "Mon"
+msgstr "Lun"
+
+#: classes/configsectionemaildigest.php:200
+msgid "Sun"
+msgstr "Dim"
+
+#: classes/configsectionemaildigest.php:195
+#: classes/configsectionemaildigest.php:212
+msgid "Every"
+msgstr "Ĉiu"
+
+#: classes/configsectionemaildigest.php:191
+msgid "If selected date is bigger than the number of days in month, email digest will be sent at the end of the month."
+msgstr "Se elektita dato estas pli granda ol la nombro de tagoj de monato, retpoŝta kompilaĵo estos sendita je la fino de la monato."
+
+#: classes/configsectionemaildigest.php:181
+msgid "How often should the Email Digest emails be sent"
+msgstr "Kiom ofte devas retpoŝtaj kompilaĵaj retpoŝtoj esti sendota"
+
+#: classes/configsectionemaildigest.php:172
+msgid "Send Email Digest emails to users inactive for more than"
+msgstr "Sendi retpoŝtajn kompilaĵajn retpoŝtojn al uzantoj neaktivaj dum pli ol"
+
+#: classes/configsectionemaildigest.php:168
+msgid "Users who didn't visit the site in the number of days selected or more will receive the Email Digest emails."
+msgstr "Uzantoj, kiuj ne vizitis la retejon dum la nombro da tagoj elektitaj aŭ pli, ricevos la retpoŝtajn kompilaĵajn retpoŝtojn."
+
+#: classes/configsectionemaildigest.php:158
+msgid "Send Email Digest emails"
+msgstr "Sendi retpoŝtajn kompilaĵajn retpoŝtojn"
+
+#: classes/configsectionemaildigest.php:155
+msgid "Email Digest emails contains only posts which have 'Public' or 'Site Members' privacy settings. All other posts, meaning with privacy settings of 'Only me' and 'Friends Only' will be ignored and not sent as part of the Email Digest."
+msgstr "Retpoŝta kompilaĵo enhavas nur afiŝojn, kiuj havas privatecajn agordojn 'Publikaj' aŭ 'Retejaj membroj'. Ĉiuj aliaj afiŝoj, kun signifo pri privateca agordo de 'Nur mi' kaj 'Nur amikoj', estos ignorataj kaj ne senditaj kiel parto de la Retpoŝta kompilaĵo."
+
+#: classes/configsectionemaildigest.php:150
+msgid "These settings control the Email Digest plugin. The plugin has been designed to interest and bring inactive users back to your community by showing them most interesting and engaging posts from a given period."
+msgstr "Ĉi tiuj agordoj kontrolas la retpoŝtan kompilaĵan kromprogramon. La kromprogramo estis kreita por interesigi kaj revenigi neaktivajn uzantojn al vian komunumo per montri al ili la plej interesajn afiŝojn de difinita periodo."
+
+#: classes/configsectionemaildigest.php:136
+msgid "Users"
+msgstr "Uzantoj"
+
+#: classes/configsectionemaildigest.php:120
+msgid "Which User Roles should receive the emails"
+msgstr "Kiuj uzantaj roloj ricevu la retpoŝtojn"
+
+#: classes/configsectionemaildigest.php:106
+msgid "Subscribe new users by default"
+msgstr "Aboni novajn uzantojn defaŭlte"
+
+#: classes/configsectionemaildigest.php:99
+msgid "Content"
+msgstr "Enhavo"
+
+#: classes/configsectionemaildigest.php:90
+msgid "Show 'read mode' if the posts can't be shown in full and they hit the limit of characters."
+msgstr "Montri 'lega reĝimon' se la afiŝoj ne povas esti montritaj tute kaj ili atingas la limon de signoj."
+
+#: classes/configsectionemaildigest.php:86
+msgid "Limit the post length in Email Digest email to"
+msgstr "Limigi la afiŝan longecon en la retpoŝta kompilaĵa retpoŝto ĝis"
+
+#: classes/configsectionemaildigest.php:79
+msgid "Allow duplicate posts"
+msgstr "Permesi multobligajn afiŝojn"
+
+#: classes/configsectionemaildigest.php:76
+msgid "With this setting on, most commented on and most liked posts will be showcased as such. However, they might also, and most likely will be shown in the main content of the Email Digest email."
+msgstr "Kun ĉi tiu agordo ŝaltita, la plej komentitaj kaj plej ŝatataj afiŝoj estos montritaj kiel tiaj. Tamen, ili ankaŭ povos aperi, kaj plej probable aperos, en la ĉefa enhavo de la retpoŝto de la Retpoŝta kompilaĵo."
+
+#: classes/configsectionemaildigest.php:72
+msgid "Include most commented post"
+msgstr "Inkluzivi la plej komentitan afiŝon"
+
+#: classes/configsectionemaildigest.php:69
+msgid "With this setting switched on, Email Digest email will also contain the most commented on post from a given period and showcase it as such."
+msgstr "Kun ĉi tiu agordo ŝaltita, retpoŝta kompilaĵa mesaĝo ankaŭ enhavos la plej komentitan afiŝon de antaŭfiksita periodo kaj montros ĝin kiel tia."
+
+#: classes/configsectionemaildigest.php:65
+msgid "Include most liked post"
+msgstr "Inkluzivi la plej ŝatatan afiŝon"
+
+#: classes/configsectionemaildigest.php:62
+msgid "With this setting switched on, Email Digest email will also contain the most liked post from a given period and showcase it as such."
+msgstr "Kun ĉi tiu agordo ŝaltita, retpoŝta kompilaĵa mesaĝo ankaŭ enhavos la plej ŝatatan afiŝon de antaŭfiksita periodo kaj montros ĝin kiel tia."
+
+#: classes/configsectionemaildigest.php:58
+msgid "Send Email Digest emails even if there are less posts"
+msgstr "Sendi retpoŝtan kompilaĵon eĉ se estas malpli da afiŝoj"
+
+#: classes/configsectionemaildigest.php:55
+msgid "An Email Digest email must have at least 1 new post to be sent out. If there are no new ones it won't be sent."
+msgstr "Retpoŝta kompilaĵa retpoŝto devas havi almenaŭ 1 novan afiŝon por esti sendota. Se novaj ne ekzistas, ĝi ne estos sendita."
+
+#: classes/configsectionemaildigest.php:51
+msgid "How many posts should be included per one email"
+msgstr "Kiom da afiŝoj devus esti inkluzivitaj po unu retpoŝta mesaĝo"
+
+#: classes/configsectionemaildigest.php:29
+msgid "Use images"
+msgstr "Uzi bildojn"
+
+#: classes/configsectionemaildigest.php:21
+msgid "Email Digest Title"
+msgstr "Titolo de retpoŝta kompilaĵo"
+
+#: classes/configsectionemaildigest.php:18 peepsoemaildigest.php:340
+#: peepsoemaildigest.php:589 peepsoemaildigest.php:829
+msgid "Email Digest"
+msgstr "Retpoŝta kompilaĵo"

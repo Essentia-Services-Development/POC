@@ -1,0 +1,25 @@
+.ps-page--wpadverts-categories {}
+
+.ps-wpadverts__categories {
+  .ps-wpadverts__category {
+    background-color: var(--COLOR--APP);
+    border-radius: var(--BORDER-RADIUS--MD);
+    box-shadow: var(--BOX-SHADOW--HARD);
+
+    &:hover {
+      background-color: var(--PS-COLOR--APP--LIGHTGRAY);
+    }
+  }
+
+  .ps-wpadverts__category-title {
+    font-size: 90%;
+    font-weight: normal;
+    color: var(--PS-COLOR--TEXT);
+  }
+
+  .ps-wpadverts__category-icon {
+    &:before {
+      color: var(--PS-COLOR--PRIMARY);
+    }
+  }
+}

@@ -1,0 +1,57 @@
+.ps-page--friends {}
+
+.ps-page--friends-pending {}
+
+.ps-friends {}
+
+.ps-friends__tabs {
+  margin-bottom: var(--PADD--MD);
+}
+
+.ps-friends__tabs-inner {
+  @include tabs($center: true);
+}
+
+.ps-friends__tab {
+  @include tab($default: true);
+
+  width: 50%;
+
+  span {
+    color: var(--PS-COLOR--TEXT--LIGHT);
+  }
+}
+
+.ps-friends__tab--active {
+  @include tab($active: true, $arrow: true);
+}
+
+.ps-friends__list-title {
+  margin-bottom: var(--PADD--MD);
+  padding-bottom: var(--PADD);
+  border-bottom: 1px solid var(--DIVIDER--LIGHT);
+}
+
+.ps-friends__list {
+  margin-bottom: var(--PADD--MD);
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.ps-friends__mutual {
+  > i {
+    @if $rtl {
+      margin-left: var(--PADD--SM);
+    } @else {
+      margin-right: var(--PADD--SM);
+    }
+  }
+
+  .ps-member & {
+    display: block;
+    margin-top: var(--PADD--MD);
+    font-size: 80%;
+  }
+}

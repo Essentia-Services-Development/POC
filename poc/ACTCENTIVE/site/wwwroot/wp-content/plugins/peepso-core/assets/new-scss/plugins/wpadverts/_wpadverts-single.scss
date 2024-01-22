@@ -1,0 +1,57 @@
+.ps-page--wpadverts {}
+
+.ps-page--wpadverts-single {
+  .wpadverts-slides {
+    border-radius: var(--BORDER-RADIUS--MD);
+  }
+
+  .adverts-single-actions {
+    margin-top: var(--PADD--MD);
+  }
+
+  .adverts-contact-box {
+    padding: var(--PADD--MD);
+    background-color: var(--PS-COLOR--APP);
+    border-radius: var(--BORDER-RADIUS--MD);
+    box-shadow: var(--BOX-SHADOW--HARD);
+    font-size: 80%;
+
+    .adverts-contact-method {
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  .adverts-content {
+    margin-bottom: 0;
+  }
+}
+
+.ps-wpadverts__single {
+  padding: var(--PADD--MD);
+  background-color: var(--PS-COLOR--APP);
+  border-radius: var(--BORDER-RADIUS--MD);
+  box-shadow: var(--BOX-SHADOW--HARD);
+}
+
+.ps-wpadverts__single-box {
+  margin-top: 0 !important;
+  font-size: 80%;
+}
+
+.ps-wpadverts__single-authorbox {}
+
+.ps-wpadverts__single-price {
+  > span {
+    display: block;
+    padding: var(--PADD);
+    font-size: 120%;
+    background-color: var(--PS-COLOR--PRIMARY--LIGHT);
+    border-radius: var(--BORDER-RADIUS--MD);
+  }
+}
+
+.ps-wpadverts__single-grid {
+  font-size: 80%;
+}

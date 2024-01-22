@@ -1,0 +1,625 @@
+# Translation of PeepSo - Chat in Czech
+# This file is distributed under the same license as the PeepSo - Chat package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-02-02 12:09:55+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n >= 2 && n <= 4) ? 1 : 2);\n"
+"X-Generator: GlotPress/3.0.0\n"
+"Language: cs_CZ\n"
+"Project-Id-Version: PeepSo - Chat\n"
+
+#: templates/chat/window.php:14
+msgid "Minimize"
+msgstr ""
+
+#: classes/configsectionmessages.php:123
+msgid "Chat & Pages"
+msgstr ""
+
+#: templates/messages/messages.php:194 templates/messages/view-message.php:113
+msgid "%s to send"
+msgstr ""
+
+#: templates/messages/messages.php:89 templates/messages/view-message.php:22
+msgid "All messages"
+msgstr ""
+
+#: templates/messages/messages.php:45
+msgid "Search..."
+msgstr ""
+
+#: templates/messages/messages.php:25
+msgid "Unread"
+msgstr ""
+
+#: templates/messages/messages.php:22
+msgid "All"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "PeepSo"
+msgstr "PeepSo"
+
+#. Description of the plugin/theme
+msgid "Private messages and live chat"
+msgstr "Soukromé zprávy a chat"
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://peepso.com"
+msgstr "https://peepso.com"
+
+#. Plugin Name of the plugin/theme
+msgid "PeepSo Core: Chat"
+msgstr "PeepSo Core: Chat"
+
+#: templates/messages/messages.php:205 templates/messages/view-message.php:124
+msgid "Post"
+msgstr "Příspěvek"
+
+#: templates/messages/messages.php:94 templates/messages/view-message.php:78
+msgid "Conversation with"
+msgstr "Konverzace s"
+
+#: templates/messages/messages.php:149 templates/messages/view-message.php:72
+msgid "Done"
+msgstr "Hotovo"
+
+#: templates/messages/conversation-options.php:39
+#: templates/messages/messages.php:138 templates/messages/view-message.php:60
+msgid "Leave this conversation"
+msgstr "Opustit tuto konverzaci"
+
+#: templates/messages/conversation-options.php:37
+#: templates/messages/messages.php:135 templates/messages/view-message.php:57
+msgid "Are you sure you want to leave this conversation?"
+msgstr "Opravdu chcete tuto konverzaci opustit?"
+
+#: templates/messages/conversation-options.php:19
+#: templates/messages/messages.php:114 templates/messages/messages.php:144
+#: templates/messages/view-message.php:40
+#: templates/messages/view-message.php:67
+msgid "Add People to the conversation"
+msgstr "Přidat Lidi do konverzace"
+
+#: templates/messages/notification-popover-item.php:28
+msgid "%s ago"
+msgstr "před %s"
+
+#: templates/messages/mute.php:27
+msgid "Mute"
+msgstr "Ztlumit"
+
+#: templates/messages/mute.php:23
+msgid "until I unmute it"
+msgstr "dokud nevypnu ztlumení"
+
+#: templates/messages/mute.php:19
+msgid "a week"
+msgstr "týden"
+
+#: templates/messages/mute.php:15
+msgid "a day"
+msgstr "den"
+
+#: templates/messages/mute.php:11
+msgid "an hour"
+msgstr "hodina"
+
+#: templates/messages/mute.php:7
+msgid "30 seconds"
+msgstr "30 sekund"
+
+#: templates/messages/mute.php:2
+msgid "How long do you want to mute this conversation?"
+msgstr "Jak dlouho chcete nechat konverzaci ztlumenou ?"
+
+#: templates/messages/message-list.php:13 templates/messages/messages.php:56
+#: templates/messages/messages.php:73 templates/messages/messages.php:76
+msgid "No messages found."
+msgstr "Nebyly nalezeny žádné zprávy."
+
+#: templates/messages/messages.php:46
+msgid "Clear search"
+msgstr "Vymazat vyhledávání"
+
+#: peepsomessages.php:397 templates/messages/list-header.php:2
+#: templates/messages/messages.php:31
+#: templates/messages/notification-popover-header.php:6
+msgid "New message"
+msgstr "Nová zpráva"
+
+#: templates/messages/dialogs.php:60 templates/messages/messages.php:202
+#: templates/messages/view-message.php:121
+msgid "Cancel"
+msgstr "Zrušit"
+
+#: templates/messages/dialogs.php:30
+msgid "Select Recipients"
+msgstr "Vyberte příjemce"
+
+#: templates/messages/dialogs.php:26
+msgid "Recipients"
+msgstr "Příjemci"
+
+#: templates/messages/dialogs.php:13 templates/messages/dialogs.php:37
+msgid "Recipient"
+msgstr "Příjemce"
+
+#: templates/messages/dialogs.php:8
+msgid "Write Message"
+msgstr "Napsat zprávu"
+
+#: templates/messages/conversation-notice.php:7
+msgid "%s left the conversation"
+msgstr ""
+
+#: templates/messages/conversation-notice-chat.php:11
+#: templates/messages/conversation-notice.php:11
+msgid "%s created a new group conversation"
+msgstr "%s vytvořil novou skupinovou konverzaci"
+
+#: templates/messages/conversation-notice-chat.php:7
+msgid "%s has left the conversation"
+msgstr "%s opustil konverzaci"
+
+#: templates/chat/window.php:52
+msgid "You turned off chat for this conversation but you can still send a message."
+msgstr "Vypnuli jste chat pro tuto konverzaci, ale stále můžete poslat zprávu."
+
+#: templates/chat/window.php:51
+msgid "Unmute"
+msgstr "Zrušit ztlumení"
+
+#: templates/chat/window.php:51
+msgid "This conversation is muted. New chat tabs will not pop up and you will not receive notifications."
+msgstr "Tato konverzace je ztlumena. Nové karty konverzace se nebudou zobrazovat a nebudete dostávat upozornění."
+
+#: templates/chat/window.php:39 templates/messages/conversation-options.php:14
+#: templates/messages/messages.php:109 templates/messages/view-message.php:35
+msgid "Block this user"
+msgstr "Blokovat tohoto uživatele"
+
+#: templates/chat/window.php:36
+msgid "View full conversation"
+msgstr "Zobrazit celou konverzaci"
+
+#: templates/chat/window.php:11 templates/messages/messages.php:100
+#: templates/messages/view-message.php:27
+msgid "Options"
+msgstr "Možnosti"
+
+#: templates/chat/window-input.php:2 templates/messages/dialogs.php:48
+#: templates/messages/messages.php:176 templates/messages/view-message.php:96
+msgid "Write a message..."
+msgstr "Napište zprávu..."
+
+#: templates/chat/sidebar.php:7
+msgid "more"
+msgstr "více"
+
+#: templates/chat/sidebar-item.php:8 templates/chat/window.php:17
+msgid "Close"
+msgstr "Zavřít"
+
+#: templates/chat/sidebar-item.php:5 templates/chat/window.php:8
+msgid "Loading"
+msgstr "Načítání"
+
+#: templates/chat/send-files.php:22 templates/chat/send-message.php:7
+#: templates/chat/send-photos.php:11 templates/messages/messages.php:249
+msgid "just now"
+msgstr "právě teď"
+
+#: peepsomessages.php:1062
+msgid "Start a chat"
+msgstr "Začít chatovat"
+
+#: peepsomessages.php:976
+msgid "Messages and Chat"
+msgstr "Zprávy a Chat"
+
+#: peepsomessages.php:963
+msgid "Message and Chat"
+msgstr "Zpráva a Chat"
+
+#: peepsomessages.php:944
+msgid "Open minimized chat window for new message"
+msgstr "Otevřít minimalizované okno chatu pro novou zprávu"
+
+#: peepsomessages.php:937
+msgid "Enable Chat (Messages will still work if you disable Chat)"
+msgstr "Zapnout Chat (Zprávy budou pořád fungovat, když vypnete Chat)"
+
+#: peepsomessages.php:878
+msgid "Someone sent me a new message"
+msgstr ""
+
+#: peepsomessages.php:793 templates/messages/dialogs.php:61
+msgid "Send Message"
+msgstr "Poslat zprávu"
+
+#: peepsomessages.php:657
+msgid "Text"
+msgstr ""
+
+#: peepsomessages.php:646
+msgid "Your message..."
+msgstr "Vaše zpráva..."
+
+#: peepsomessages.php:588
+msgid "Search PeepSo Messages Inline"
+msgstr "Hledat PeepSo zprávu"
+
+#: peepsomessages.php:587
+msgid "Update PeepSo Message Inline"
+msgstr "Aktualizovat PeepSo zprávu"
+
+#: peepsomessages.php:586
+msgid "Edit PeepSo Message Inline"
+msgstr "Upravit PeepSo zprávu"
+
+#: peepsomessages.php:584 peepsomessages.php:585
+msgid "Add New PeepSo Message Inline"
+msgstr "Přidat PeepSo zprávu"
+
+#: peepsomessages.php:583
+msgid "View PeepSo Message Inline"
+msgstr "Zobrazit PeepSo zprávy"
+
+#: peepsomessages.php:582
+msgid "All PeepSo Messages Inline"
+msgstr "Všechny PeepSo zprávy"
+
+#: peepsomessages.php:581
+msgid "PeepSo Messages Inline:"
+msgstr "PeepSo Zprávy:"
+
+#: peepsomessages.php:580 peepsomessages.php:596 peepsomessages.php:597
+msgid "PeepSo Messages Inline"
+msgstr "PeepSo Zprávy"
+
+#: peepsomessages.php:579
+msgctxt "PeepSo Message Inline"
+msgid "PeepSo Message Inline"
+msgstr "PeepSo Zpráva"
+
+#: peepsomessages.php:578
+msgctxt "PeepSo Messages Inline"
+msgid "PeepSo Messages Inline"
+msgstr "PeepSo Zprávy"
+
+#: peepsomessages.php:553 peepsomessages.php:592
+msgid "message"
+msgstr "zpráva"
+
+#: peepsomessages.php:552 peepsomessages.php:591
+msgid "sent"
+msgstr "odesláno"
+
+#: peepsomessages.php:551 peepsomessages.php:590
+msgid "Not found in Trash"
+msgstr "Nenalezeno v koši"
+
+#: peepsomessages.php:550 peepsomessages.php:589
+msgid "Not found"
+msgstr "Nenalezeno"
+
+#: peepsomessages.php:549
+msgid "Search PeepSo Messages"
+msgstr "Vyhledat PeepSo Zprávy"
+
+#: peepsomessages.php:548
+msgid "Update PeepSo Message"
+msgstr "Aktualizovat PeepSo Zprávu"
+
+#: peepsomessages.php:547
+msgid "Edit PeepSo Message"
+msgstr "Upravit PeepSo Zprávu"
+
+#: peepsomessages.php:545 peepsomessages.php:546
+msgid "Add New PeepSo Message"
+msgstr "Přidat novou PeepSo Zprávu"
+
+#: peepsomessages.php:544
+msgid "View PeepSo Message"
+msgstr "Zobrazit PeepSo Zprávu"
+
+#: peepsomessages.php:543
+msgid "All PeepSo Messages"
+msgstr "Všechny PeepSo Zprávy"
+
+#: peepsomessages.php:542
+msgid "PeepSo Messages:"
+msgstr "PeepSo Zprávy:"
+
+#: peepsomessages.php:541 peepsomessages.php:557 peepsomessages.php:558
+msgid "PeepSo Messages"
+msgstr "PeepSo Zprávy"
+
+#: peepsomessages.php:540
+msgctxt "PeepSo Message"
+msgid "PeepSo Message"
+msgstr "PeepSo Zpráva"
+
+#: peepsomessages.php:539
+msgctxt "PeepSo Messages"
+msgid "PeepSo Messages"
+msgstr "PeepSo Zprávy"
+
+#: peepsomessages.php:511
+msgid "Turn off chat"
+msgstr "Vypnout chat"
+
+#: peepsomessages.php:510 templates/chat/window.php:29
+msgid "Turn on chat"
+msgstr "Zapnout chat"
+
+#: peepsomessages.php:507
+msgid "%s and %s"
+msgstr "%s a %s"
+
+#: peepsomessages.php:470
+msgid "Are you sure want to delete these messages?"
+msgstr "Opravdu chcete tyto zprávy smazat?"
+
+#: peepsomessages.php:469
+msgid "Please select your bulk action."
+msgstr "Vyberte hromadnou akci."
+
+#: peepsomessages.php:468
+msgid "Please select at least one message for bulk action."
+msgstr "Vyberte alespoň jednu zprávu pro hromadnou akci."
+
+#: peepsomessages.php:456 templates/messages/conversation-options.php:12
+msgid "Are you sure want to block this user?"
+msgstr "Opravdu chcete tohoto uživatele zablokovat?"
+
+#: peepsomessages.php:455 peepsomessages.php:515 templates/chat/window.php:24
+#: templates/messages/conversation-options.php:25
+#: templates/messages/conversation-options.php:27
+#: templates/messages/messages.php:121 templates/messages/view-message.php:47
+msgid "Don't send read receipt"
+msgstr "Neodesílat potvrzení o přečtení"
+
+#: peepsomessages.php:454 peepsomessages.php:514
+#: templates/messages/conversation-options.php:24
+#: templates/messages/conversation-options.php:27
+#: templates/messages/messages.php:121 templates/messages/view-message.php:47
+msgid "Send read receipt"
+msgstr "Odeslat potvrzení o přečtení"
+
+#: peepsomessages.php:452 peepsomessages.php:513
+#: templates/messages/conversation-options.php:31
+#: templates/messages/conversation-options.php:34
+#: templates/messages/messages.php:131 templates/messages/view-message.php:54
+msgid "Unmute conversation"
+msgstr "Zrušit ztlumení konverzace"
+
+#: peepsomessages.php:451 peepsomessages.php:512 templates/chat/window.php:33
+#: templates/messages/conversation-options.php:32
+#: templates/messages/conversation-options.php:34
+#: templates/messages/messages.php:131 templates/messages/view-message.php:54
+msgid "Mute conversation"
+msgstr "Ztlumit konverzaci"
+
+#: peepsomessages.php:450
+msgid "Send"
+msgstr "Odeslat"
+
+#: peepsomessages.php:354
+msgid "Get it now!"
+msgstr "Získejte to nyní!"
+
+#: peepsomessages.php:352
+msgid "The %s plugin requires the PeepSo plugin to be installed and activated."
+msgstr "%s rozšíření  vyžaduje instalaci a aktivaci PeepSo pluginu."
+
+#: peepsomessages.php:229
+msgid "Messages & Chat"
+msgstr "Zprávy a Chat"
+
+#: peepsomessages.php:142
+msgid "Unread messages"
+msgstr "Nepřečtené zprávy"
+
+#: classes/messagesshortcode.php:36
+msgid "User messages"
+msgstr "Uživatelské zprávy"
+
+#: classes/messagesshortcode.php:36
+msgctxt "Page listing"
+msgid "PeepSo"
+msgstr ""
+
+#: classes/messagesshortcode.php:32
+msgid "Displays the list of all chats (messages) and handles the single conversation views."
+msgstr "Zobrazuje seznam všech chatů (zpráv) a zpracovává zobrazení jednotlivých konverzací."
+
+#: classes/messagesmodel.php:303 classes/messagesmodel.php:352
+#: classes/messagesmodel.php:534 classes/messagesmodel.php:555
+msgid "You received a new message"
+msgstr ""
+
+#: classes/messagesmodel.php:260 classes/messagesmodel.php:394
+msgid "No participants added."
+msgstr "Nebyli přidáni žádní účastníci."
+
+#: classes/messagesmodel.php:257 classes/messagesmodel.php:390
+msgid "No author set."
+msgstr "Nebyl nastaven autor."
+
+#: classes/messagesajax.php:426
+msgid "person"
+msgid_plural "people"
+msgstr[0] "osoba"
+msgstr[1] "osoby"
+msgstr[2] "osoby"
+
+#: classes/messagesajax.php:424
+msgid "%1$s %2$s added to the conversation"
+msgstr "%1$s %2$s přidáno do konverzace"
+
+#: classes/messagesajax.php:398
+msgid "Created a new group conversation"
+msgstr "Vytvořena nová skupinová konverzace"
+
+#: classes/messagesajax.php:340
+msgid "No notifications."
+msgstr "Žádná upozornění."
+
+#: classes/messagesajax.php:75
+msgid "Failed to send message."
+msgstr "Odeslání zprávy se nezdařilo."
+
+#: classes/messagesajax.php:68
+msgid "You are not part of this conversation."
+msgstr "Nejste účastník této konverzace."
+
+#: classes/messagesajax.php:40 classes/messagesajax.php:78
+msgid "Message sent."
+msgstr "Zpráva odeslána."
+
+#: classes/messagesadmin.php:36
+msgid "This will be sent to a user when a new message is received."
+msgstr "Toto bude odesláno uživateli, jakmile bude přijata nová zpráva."
+
+#: classes/messagesadmin.php:35
+msgid "New message email"
+msgstr ""
+
+#: classes/messages.php:478
+msgid "You: "
+msgstr "Vy: "
+
+#: classes/messages.php:443 peepsomessages.php:508 peepsomessages.php:509
+msgid "%s and %d other"
+msgid_plural "%s and %d others"
+msgstr[0] "%s a další %d"
+msgstr[1] "%s a další %d"
+msgstr[2] "%s a %d další"
+
+#: classes/messages.php:296
+msgid "Message from %s"
+msgstr "Zpráva od %s"
+
+#: classes/messages.php:180
+msgid "created a new group conversation"
+msgstr ""
+
+#: classes/messages.php:176
+msgid "left the conversation"
+msgstr ""
+
+#: classes/messages.php:144
+msgid "<span>%1$d</span>-<span>%2$d</span> of <span class=\"ps-tip ps-tip--inline\" aria-label=\""
+msgstr "<span>%1$d</span>-<span>%2$d</span> z <span class=\"ps-tip ps-tip--inline\" aria-label=\""
+
+#: classes/messages.php:144
+msgid "Number of all messages"
+msgstr "Počet všech zpráv"
+
+#: classes/messages.php:119
+msgid "%1$s and %2$s"
+msgstr "%1$s a %2$s"
+
+#: classes/messages.php:89
+msgid "and"
+msgstr "a"
+
+#: classes/messages.php:74
+msgid " other"
+msgid_plural " others"
+msgstr[0] "ostatní"
+msgstr[1] "ostatní"
+msgstr[2] "ostatní"
+
+#: classes/messages.php:42 templates/messages/conversation-message.php:40
+#: templates/messages/conversation-message.php:41
+msgid "Delete"
+msgstr "Smazat"
+
+#: classes/messages.php:41
+msgid "Mark as Unread"
+msgstr "Označit jako nepřečtené"
+
+#: classes/messages.php:40
+msgid "Mark as Read"
+msgstr "Označit jako přečtené"
+
+#: classes/messages.php:39
+msgid "Bulk Actions"
+msgstr "Hromadné operace"
+
+#: classes/configsectionmessages.php:79 peepsomessages.php:226
+msgid "Chat"
+msgstr "Chat"
+
+#: classes/configsectionmessages.php:116
+msgid "Enable on pages"
+msgstr "Povolit na stránkách"
+
+#: classes/configsectionmessages.php:113
+msgid "List of pages in which chat windows <strong>should</strong> appear, one page per line.<br />Examples:<br /><strong>/</strong> (Homepage)<br /><strong>/profile</strong> (Profile page)"
+msgstr ""
+
+#: classes/configsectionmessages.php:109
+msgid "Disable on pages"
+msgstr "Zakázat na stránkách"
+
+#: classes/configsectionmessages.php:106
+msgid "List of pages in which chat windows <strong>should not</strong> appear, one page per line.<br />Examples:<br /><strong>/</strong> (Homepage)<br /><strong>/profile</strong> (Profile page)"
+msgstr ""
+
+#: classes/configsectionmessages.php:102
+msgid "Page-restriction mode"
+msgstr "Režim omezení stránky"
+
+#: classes/configsectionmessages.php:99
+msgid "Select mode in which chat should or should not appear."
+msgstr ""
+
+#: classes/configsectionmessages.php:95
+msgid "Show only on selected pages"
+msgstr "Zobrazit pouze na vybraných stránkách"
+
+#: classes/configsectionmessages.php:94
+msgid "Disable on selected pages"
+msgstr "Zakázat na vybraných stránkách"
+
+#: classes/configsectionmessages.php:73
+msgid "Forced Refresh"
+msgstr ""
+
+#: classes/configsectionmessages.php:70
+msgid "Send an extra ajax call every 30 seconds to make sure that messages and chat is synchronized between multiple open browser windows or devices."
+msgstr "Každých 30 vteřin provede zavolání AJAXU pro synchronizaci mezi více otevřenými okny a více zařízeními."
+
+#: classes/configsectionmessages.php:66
+msgid "Enable Chat"
+msgstr "Zapnout chat"
+
+#: classes/configsectionmessages.php:52 install/activate.php:131
+#: peepsomessages.php:398 peepsomessages.php:875 peepsomessages.php:896
+#: templates/messages/notification-popover-header.php:1
+msgid "Messages"
+msgstr "Zprávy"
+
+#: classes/configsectionmessages.php:46
+msgid "Character limit per message"
+msgstr "Omezení počtu znaků na jednu zprávu"
+
+#: classes/configsectionmessages.php:35 peepsomessages.php:954
+msgid "Allow new messages only from friends"
+msgstr "Povolit nové zprávy pouze od přátel"
+
+#: classes/configsectionmessages.php:27
+msgid "Enable \"read\" notifications"
+msgstr "Zapnout \"přečteno\" upozornění"
+
+#: classes/chatajax.php:160
+msgid "Error creating conversation"
+msgstr "Chyba při vytváření konverzace"

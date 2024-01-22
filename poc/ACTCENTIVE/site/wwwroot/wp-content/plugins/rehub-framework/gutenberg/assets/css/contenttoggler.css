@@ -1,0 +1,7 @@
+.rh-toggler-open{height:auto !important}
+.rh-toggler-open .rh-tgl-show, .rh-toggler-open .rh-tgl-grad{display:none !important}
+.rh-toggler-open .rh-tgl-hide{display:block !important}
+.rh-tgl-show, .rh-tgl-hide{cursor:pointer}
+.rh-contenttoggler *{box-sizing: border-box !important}
+.rh-toggler-wrapper{overflow: hidden;transition: all 0.5s ease; padding-bottom: 35px; margin-bottom:30px;box-sizing: content-box !important;position: relative;}
+.rh-toggler-wrapper p:last-of-type {margin-bottom: 0;}

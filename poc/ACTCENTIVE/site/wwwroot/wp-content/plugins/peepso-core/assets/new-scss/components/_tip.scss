@@ -1,0 +1,138 @@
+.ps-tip {
+  --tip-bg: rgba(0,0,0, .8);
+  --tip-text-color: #fff;
+  --tip-font-size: 12px;
+  --tip-z: 50;
+
+  position: relative;
+  z-index: 1;
+  font-family: var(--PS-FONT-FAMILY);
+
+  &:after {
+    content: attr(aria-label);
+    display: none;
+    position: absolute;
+    z-index: var(--tip-z);
+
+    @if $rtl {
+      left: auto;
+      right: 50%;
+      transform: translateX(50%);
+    } @else {
+      left: 50%;
+      right: auto;
+      transform: translateX(-50%);
+    }
+
+    bottom: 99%;
+    padding: var(--PADD--SM) var(--PADD);
+    font-size: var(--tip-font-size);
+    font-weight: normal;
+    color: var(--tip-text-color);
+    background-color: var(--tip-bg);
+    border-radius: var(--BORDER-RADIUS);
+
+    @if $comp_mode {
+      width: auto;
+    }
+  }
+
+  &:before {
+    font-family: "Font Awesome 6 Free";
+  }
+
+  &:hover {
+    &:after {
+      display: block;
+    }
+
+    &.ps-tip--arrow {
+      &:before {
+        display: block;
+      }
+    }
+  }
+
+  a {
+    color: var(--tip-text-color);
+    text-decoration: underline;
+
+    &:hover {
+      color: var(--tip-text-color);
+      text-decoration: underline;
+    }
+  }
+}
+
+.ps-tip--arrow {
+  --arrow-size: 6px;
+
+  &:before {
+    content: " ";
+    position: absolute;
+    z-index: var(--tip-z);
+    left: 50%;
+    right: auto;
+    transform: translateX(-50%) translateY(var(--arrow-size));
+    bottom: 100%;
+    display: none;
+    width: 0;
+    height: 0;
+    border-top: var(--arrow-size) solid var(--tip-bg);
+    border-left: var(--arrow-size) solid transparent;
+    border-right: var(--arrow-size) solid transparent;
+  }
+}
+
+.ps-tip--left {
+  &:after {
+    @if $rtl {
+      left: auto;
+      right: 0;
+    } @else {
+      left: 0;
+      right: auto;
+    }
+
+    transform: none;
+  }
+}
+
+.ps-tip--right {
+  &:after {
+    @if $rtl {
+      left: 0;
+      right: auto;
+    } @else {
+      left: auto;
+      right: 0;
+    }
+
+    transform: none;
+  }
+}
+
+.ps-tip--bottom {
+  &:after {
+    top: 99%;
+    bottom: auto;
+  }
+
+  &:before {
+    display: none !important; // temp
+  }
+}
+
+.ps-tip--md {
+  &:after {
+    width: 200px;
+  }
+}
+
+.ps-tip--inline {
+  white-space: nowrap;
+}
+
+.ps-tip--absolute {
+  position: absolute;
+}

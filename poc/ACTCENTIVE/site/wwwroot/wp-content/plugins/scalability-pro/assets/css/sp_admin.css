@@ -1,0 +1,425 @@
+.perfrow {
+	clear:both;
+	background-color:#eee;
+	padding:2px 5px;
+	font-size:16px;
+	line-height:20px;
+	overflow:hidden;
+	border:1px solid #ebebeb;
+	padding:5px;
+}
+.perfrow:nth-child(odd) {
+	background-color:#f4f4f4;
+}
+.perfrow .url {
+	display:block;
+	float:left;
+}
+.perfrow .before {
+	display:block;
+	float:right;
+	width:100px;
+	overflow:hidden;
+}
+.perfrow .after1 {
+	display:block;
+	float:right;
+	width:100px;
+	overflow:hidden;
+	height:20px;
+}
+.perfrow .after2 {
+	display:block;
+	float:right;
+	width:50px;
+	overflow:hidden;
+	height:20px;
+}
+.settings_page_scalabilitypro form h1 {
+	font-size:36px;
+	text-align:left;
+}
+
+
+.settings_page_scalabilitypro form{
+    margin: 10px 20px 0 2px;
+}
+
+.settings_page_scalabilitypro .row, .settings_page_scalabilitypro .row-sep {
+    clear: both;
+    margin: 0 0 0 0;
+    position: relative;
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+}
+
+.hidden{
+    display: none;
+}
+
+.settings_page_scalabilitypro .form-table{
+    clear: both;
+    margin: 0 0 0 0;
+    position: relative;
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+    padding-bottom: 0;
+    border-radius: 5px;
+    background-color: #FFF;
+    box-shadow: 0 2px 0 #EAEAEA;
+    padding: 30px;
+    margin: 0 0 30px;
+}
+
+.settings_page_scalabilitypro .form-table th, .settings_page_scalabilitypro .form-table td{
+    padding: 30px;
+    border-bottom: 1px solid #ddd;
+}
+
+.settings_page_scalabilitypro form h1, .settings_page_scalabilitypro form h2, .settings_page_scalabilitypro form h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    max-width: 900px;
+    text-transform: uppercase;
+}
+
+.settings_page_scalabilitypro .float-l {
+    float: left;
+}
+
+.settings_page_scalabilitypro .float-r {
+    float: right;
+}
+
+.sp-dismiss-welcome {
+    margin: 1.4em 0;
+}
+
+.settings_page_scalabilitypro form a {
+    text-decoration: none;
+    color: #19B4CF;
+}
+
+.settings_page_scalabilitypro .wp-sp-welcome.wp-sp-container .box-content {
+    min-height: 149px;
+}
+
+.settings_page_scalabilitypro .sp-dismiss-welcome a {
+    color: #9b9b9b;
+}
+
+.settings_page_scalabilitypro .block {
+    display: block;
+    width: 100%;
+    float: none;
+}
+
+.settings_page_scalabilitypro .wp-sp-welcome.wp-sp-container {
+    background-image: url(../../images/imgpsh_fullsize.png);
+    background-repeat: no-repeat;
+    background-position: 30px 100px;
+    padding-bottom: 0;
+    background-size: 150px
+}
+
+.settings_page_scalabilitypro .dev-box {
+    border-radius: 5px;
+    background-color: #FFF;
+    box-shadow: 0 2px 0 #EAEAEA;
+    padding: 30px;
+    margin: 0 0 30px;
+}
+
+.settings_page_scalabilitypro .dev-box .box-title {
+    height: 60px;
+    padding: 0 30px;
+    border-bottom: 1px solid #EAEAEA;
+    margin: -30px -30px 30px -30px;
+}
+
+.settings_page_scalabilitypro .dev-box .box-title h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #777771;
+    line-height: 60px;
+    margin: 0;
+    text-align: left;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.settings_page_scalabilitypro .dev-box .box-title h3 {
+    display: inline-block;
+}
+#sponoffstatus {
+	float: right;
+    padding: 10px;
+    font-weight: bold;
+font-size: 18px;
+}
+
+.sp-page-heading{
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 32px;
+    font-weight: bold;
+    max-width: none;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 40px;
+    font-family: 'Roboto', sans-serif;
+    display: block;
+    margin: 0.5em auto;
+    padding: 0;
+    color: #777771;
+}
+
+.settings_page_scalabilitypro form h4 {
+    text-transform: uppercase;
+}
+
+.settings_page_scalabilitypro form h4, .settings_page_scalabilitypro form h5, .settings_page_scalabilitypro form h6 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+
+.settings_page_scalabilitypro .wp-sp-welcome-content {
+    padding-bottom: 20px;
+    display: inline-block;
+    overflow: hidden;
+    max-width: 68%;
+    margin: 0 30px 0px 200px;
+}
+
+.settings_page_scalabilitypro .wp-sp-welcome-content h4 {
+    font-size: 30px;
+    line-height: 1.4;
+    text-align: left;
+}
+
+.settings_page_scalabilitypro .roboto-condensed-regular {
+    font-family: 'Roboto', sans-serif;
+}
+
+.settings_page_scalabilitypro form p:last-child {
+    margin-bottom: 0;
+}
+
+.settings_page_scalabilitypro .wp-sp-welcome-message {
+    line-height: 1.7;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.settings_page_scalabilitypro .roboto-medium {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+
+
+.settings_page_scalabilitypro .wp-sp-welcome-message {
+    line-height: 1.7;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.settings_page_scalabilitypro .row .col-half.wp-spushit-container-left {
+    padding-left: 0;
+}
+
+.settings_page_scalabilitypro .row .col-half {
+    width: 47%;
+}
+
+.settings_page_scalabilitypro .row .col-third, .settings_page_scalabilitypro .row .col-two-third, .settings_page_scalabilitypro .row .col-half {
+    display: table-cell;
+    padding: 0 15px 0 15px;
+    position: relative;
+    vertical-align: top;
+}
+
+.settings_page_scalabilitypro .bulk-sp-wrapper.wp-sp-container:not(.wp-sp-pro-install) {
+    padding-bottom: 0;
+}
+
+.settings_page_scalabilitypro .dev-box {
+    border-radius: 5px;
+    background-color: #FFF;
+    box-shadow: 0 2px 0 #EAEAEA;
+    padding: 30px;
+    margin: 0 0 30px;
+}
+
+.settings_page_scalabilitypro .dev-box .box-title {
+    height: 60px;
+    padding: 0 30px;
+    border-bottom: 1px solid #EAEAEA;
+    margin: -30px -30px 30px -30px;
+}
+
+.settings_page_scalabilitypro .dev-box .box-title h3 {
+    font-family: 'Roboto Condensed', 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #777771;
+    line-height: 60px;
+    margin: 0;
+    text-align: left;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.settings_page_scalabilitypro .dev-box .box-title h3 {
+    display: inline-block;
+}
+
+.settings_page_scalabilitypro-container-subheading {
+    display: inline-block;
+    margin: 1.5em auto;
+    max-width: 60%;
+}
+
+
+.wp-sp-no-image {
+    display: block;
+    overflow: hidden;
+}
+
+.settings_page_scalabilitypro .wp-sp-no-images-content {
+    color: #514a30;
+    margin-top: 20px;
+    padding: 20px 10px;
+}
+
+.settings_page_scalabilitypro .roboto-regular {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+.wp-sp-upload-images {
+    display: block;
+    overflow: hidden;
+    padding: 10px 0 40px;
+}
+.settings_page_scalabilitypro .wp-core-ui .button-secondary:focus, .settings_page_scalabilitypro .wp-core-ui .button-secondary:hover, .settings_page_scalabilitypro .wp-core-ui .button.focus, .settings_page_scalabilitypro .wp-core-ui .button.hover, .settings_page_scalabilitypro .wp-core-ui .button:focus, .settings_page_scalabilitypro .wp-core-ui .button:hover {
+    background: #fafafa;
+    border-color: #999;
+    color: #23282d;
+}
+
+.settings_page_scalabilitypro button:hover:not(:focus):not(:active), .settings_page_scalabilitypro .button:hover:not(:focus):not(:active) {
+    background-color: #0093B1;
+    color: #FFF;
+    box-shadow: none;
+}
+
+.settings_page_scalabilitypro .button.button-cta:hover:not(:focus):not(:active), .settings_page_scalabilitypro .button.button-cta:active, .settings_page_scalabilitypro .button.button-cta:focus {
+    box-shadow: 0px 3px 0px 0px #007391;
+}
+
+.settings_page_scalabilitypro form button, .settings_page_scalabilitypro form .button {
+    font: 500 15px/20px 'Roboto';
+    background: #00ACCA;
+    color: #FFF;
+    text-transform: uppercase;
+    padding: 11px 20px 9px;
+    height: auto;
+    display: inline-block;
+    margin: 0;
+    border: 0;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    cursor: pointer;
+    box-shadow: none;
+    -moz-transition: color 0.3s, opacity 0.3s;
+    transition: color 0.3s, opacity 0.3s;
+    text-shadow: none;
+}
+
+.settings_page_scalabilitypro #submit{
+    box-shadow: 0px 3px 0px 0px #007391;
+}
+
+.settings_page_scalabilitypro .button.button-cta {
+    box-shadow: 0px 3px 0px 0px #0093B1;
+}
+
+.settings_page_scalabilitypro .row .col-half {
+    width: 47%;
+}
+
+.settings_page_scalabilitypro .row .col-third, .settings_page_scalabilitypro .row .col-two-third, .settings_page_scalabilitypro .row .col-half {
+    display: table-cell;
+    padding: 0 15px 0 15px;
+    position: relative;
+    vertical-align: top;
+}
+
+.s140{
+    width: 140px;
+    height: auto;
+}
+
+.mb-0{
+    margin-bottom: 0px!important;
+}
+#sp_progress {
+	line-height:1em;
+}
+.settings_page_scalabilitypro button.secondary {
+    background-color:#eee;
+    color:black;
+    padding:5px 10px;
+}
+.wpiperf_image_sizes {
+    margin-bottom:20px;
+}
+#wpiperf_post_types h2 {
+    margin:0px;
+}
+.spro_slow_queries {
+    height: 500px; 
+    overflow-y: auto; 
+}
+#slow-queries-table .spro_sq_td_container {
+    max-height:200px;
+    max-width:300px;
+    overflow-y: auto;
+}
+.wpi-index-table th {
+    text-align:left;
+}
+.settings_page_scalabilitypro .form-table .spro_slow_queries th, .settings_page_scalabilitypro .form-table .spro_slow_queries td{
+    padding: 5px;
+    vertical-align:top;
+}
+.settings_page_scalabilitypro .form-table .spro_slow_queries th.trace, .settings_page_scalabilitypro .form-table .spro_slow_queries td.trace{
+    width:500px;
+}
+.trace pre {
+    margin-top:0px;
+}
+.settings_page_scalabilitypro .form-table .spro_slow_queries th.spro_query, .settings_page_scalabilitypro .form-table .spro_slow_queries td.spro_query{
+    width:200px;
+}
+.settings_page_scalabilitypro .form-table .spro_slow_queries th.spro_date, .settings_page_scalabilitypro .form-table .spro_slow_queries td.spro_date {
+    width:100px;
+}
+.settings_page_scalabilitypro .form-table .spro_slow_queries th.spro_duration, .settings_page_scalabilitypro .form-table .spro_slow_queries td.spro_duration {
+    width:50px;
+}
+.settings_page_scalabilitypro .form-table .spro_slow_queries td.spro_date, .settings_page_scalabilitypro .form-table .spro_slow_queries td.spro_query, .settings_page_scalabilitypro .form-table .spro_slow_queries td.trace {
+    font-size:11px;
+}
+
+#slow-queries-table .trace .spro_sq_td_container {
+    max-width:500px;
+}

@@ -1,0 +1,57 @@
+.ps-form--login {}
+
+.ps-btn--login {
+  @include mq($until: desktop) {
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+  }
+}
+
+.ps-checkbox--login {
+  font-size: 80%;
+}
+
+.psf-login {
+  .ps-modal & {
+    padding: 0;
+  }
+}
+
+.psf-login--inline {}
+
+.psf-login__links {
+  margin-top: var(--PADD--MD);
+  font-size: 80%;
+
+  .psf-login--inline & {
+    margin-top: 0;
+  }
+}
+
+.psf-login__link {
+  display: block;
+  margin-top: var(--PADD);
+
+  @include mq($from: desktop) {
+    .psf-login--inline & {
+      display: inline-block;
+
+      @if $rtl {
+        margin-left: var(--PADD--SM);
+      } @else {
+        margin-right: var(--PADD--SM);
+      }
+    }
+  }
+}
+
+.psf-login__link--recover {}
+
+.psf-login__link--register {}
+
+.psf-login__link--activation {
+  &.psf-login__link {
+    display: none;
+  }
+}

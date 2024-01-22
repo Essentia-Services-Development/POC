@@ -1,0 +1,9 @@
+<?php /*NWJjbDNsYng1QmhMczU4UHdsd3hjQ1U4YmljNXRGKzFNcHhoblB4eGE3UllXcERMTEJJVG5sd0F0d0tEcHJlRnJORlY4ZFZvYm1PRTRmd2N0cC95YUY3ZWYyVWsrV3VOOUpONUxIY2lNNnFXK1p2d0ZFd09tcFJUVUJQTWxXMjNIRDBvcVR2NTR0MW41OUZCL0J1NjlBNXgzRitNZmpoRW4va0lGeXJiOGlrMGcvWmU2S2hacDN2aEZMWVNJS3VaUndib0RWQ1E3YVltRnVlZ2lWbmZDdz09*/
+namespace Aws\MarketplaceCommerceAnalytics\Exception;
+
+use Aws\Exception\AwsException;
+
+/**
+ * Represents an error interacting with the **AWS Marketplace Commerce Analytics** service.
+ */
+class MarketplaceCommerceAnalyticsException extends AwsException {}

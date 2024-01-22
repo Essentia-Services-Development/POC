@@ -1,0 +1,279 @@
+/* jquery.css */
+input[type="button"].pp-plain-link, input[type="submit"].pp-plain-link {
+	text-decoration: underline;
+	background-color: transparent;
+	border: none;
+	color: #3d517e;
+	font-weight: bold;
+	font-size: 12px;
+}
+.pp-account-verify-container h3 {
+	font-size: 20px;
+	text-align: center;
+}
+
+#container p {
+	margin-block-start: 1em;
+	margin-block-end: 1em;
+}
+
+.pp-account-verify-container p {
+	font-size: 18px;
+	text-align: center;
+	margin-bottom: 2em;
+	margin-top: 2em;
+}
+
+.pp-account-verify-container a {
+	background-color: #1976D2;
+	border-color: #1976D2;
+	color: #FFFFFF;
+	text-align: center;
+	width: 50%;
+	box-sizing: border-box;
+	display: block;
+	padding: 1.5ch;
+	font-size: 16px;
+	border-radius: 4px;
+	margin: 1em calc(25% - 8px) 1em calc(25% - 8px);
+	text-decoration: none;
+}
+
+.pp-account-verify-container a:hover, .pp-account-verify-container a:focus {
+	background: #0D87E9;
+	border-color: #0D87E9;
+	color: #FFFFFF;
+}
+
+img {
+	border: 0;
+}
+#accountinfo label, h1, h2, h3, h4, h5, a {
+		color: #3D517E;
+}
+input[type="button"],
+input[type="submit"] {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	font-size: 14px;
+	line-height: 16px;
+	cursor: pointer;
+	border-width: 1px;
+	border-style: solid;
+	border-color:#99ADC2;
+	-moz-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	-moz-box-sizing: content-box;
+	-webkit-box-sizing: content-box;
+	-khtml-box-sizing: content-box;
+	box-sizing: content-box;
+	background-color: #E8F4FF;
+	color: #003366;
+	font-weight: bold;
+	padding-top: 2px;
+	padding-right: 8px;
+	padding-bottom: 2px;
+	padding-left: 8px;
+}
+
+/* Fix what WordPress breaks for Thickbox: */
+html,
+body {
+	height: auto;
+}
+ul.media {
+	
+}
+ul.media li {
+	list-style-type: none;	
+}
+ul.media li a {
+	font-weight: bold;
+}
+#container {
+	margin: 0px 15px;
+}
+#accountinfo {
+
+}
+#accountinfo p {
+	font-size: 90%;
+}
+#accountinfo label {
+	float: left;
+	width: 240px;
+	margin-right: 10px;
+	display: block;
+	font-weight: bold;
+}
+#accountinfo input[type=text], #accountinfo input[type=password] {
+	width: 220px;
+	border-color: #AAAAAA;
+}
+#accountinfo select {
+	width: 222px;
+	border-color: #AAAAAA;
+}
+.powerpress-notice {
+	border: 1px solid #FFCC00;
+	font-size: 12px;
+	color: #000000;
+	background-color: #FFFFCC;
+	font-weight: bold;
+	padding: 5px;
+	margin: 20px;
+}
+
+#media-items-container {
+	margin: 0;
+}
+#media-items {
+	border-bottom-color: #dfdfdf;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	min-height: 26px;
+	width: 100%;
+	padding-top: 0px;
+	margin-top: 0px;
+}
+
+#media-published-title {
+	border-top-color: #dfdfdf;
+	border-top-width: 1px;
+	border-top-style: solid;
+	padding-top: 20px;
+	padding-bottom: 2px;
+}
+.media-item {
+	
+	border-top-color: #dfdfdf;
+	border-top-width: 1px;
+	border-top-style: solid;
+	min-height: 26px;
+	width: 100%;
+	
+	border-left-color: #dfdfdf;
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-right-color: #dfdfdf;
+	border-right-width: 1px;
+	border-right-style: solid;
+	position: relative;
+	
+	padding-top: 5px;
+	
+}
+.media-item:hover {
+	background-color: #FFFFCC;
+}
+.media-item .media-name {
+	margin-left: 10px;
+}
+.media-item-links {
+	position: absolute;
+	top: 5px;
+	right: 10px;
+	text-align: right;
+}
+.media-published-date {
+	margin-left: 20px;
+	font-size: 80%;
+}
+#media-header {
+	position: relative;
+	margin: 0 0 5px 0;
+}
+#media-footer {
+	position: relative;
+	margin: 5px 0 0 0;
+	height: 12px;
+}
+#media-header p, #media-footer p {
+	margin: 8px 0;
+}
+.media-upload-link {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	margin: 0;
+}
+@media screen and (max-width: 782px) {
+	body * {
+		-webkit-tap-highlight-color: transparent !important;
+	}
+}
+/* copied from thickbox.js to hack away a bug */
+body {
+	margin: 0;
+}
+.tb-close-icon:before {
+	 content: "x";
+	 font: bold 20px/20px sans-serif;
+	 speak: never;
+	 -webkit-font-smoothing: antialiased;
+	 -moz-osx-font-smoothing: grayscale;
+ }
+#TB_title {
+	background: #f0f0f1;
+	color: #3c434a;
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+	border-bottom: 1px solid #ddd;
+	height: 29px;
+	font-size: 13px;
+	line-height: 1.4em;
+	min-width: 600px;
+	width: 99.5%;
+}
+#TB_ajaxWindowTitle {
+	float: left;
+	font-weight: 600;
+	line-height: 29px;
+	overflow: hidden;
+	padding: 0 29px 0 10px;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	width: calc( 100% - 39px );
+}
+#TB_closeWindowButton {
+	position: absolute;
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+	left: auto;
+	right: 0;
+	width: 29px;
+	height: 29px;
+	border: 0;
+	padding: 0;
+	background: none;
+	cursor: pointer;
+	outline: none;
+	-webkit-transition: color .1s ease-in-out, background .1s ease-in-out;
+	transition: color .1s ease-in-out, background .1s ease-in-out;
+}
+.tb-close-icon {
+	display: block;
+	color: #666;
+	text-align: center;
+	line-height: 29px;
+	padding-top: 5px;
+	width: 29px;
+	height: 29px;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.screen-reader-text, .screen-reader-text span, .ui-helper-hidden-accessible {
+	border: 0;
+	clip: rect(1px,1px,1px,1px);
+	-webkit-clip-path: inset(50%);
+	clip-path: inset(50%);
+	height: 1px;
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute;
+	width: 1px;
+	word-wrap: normal!important;
+}

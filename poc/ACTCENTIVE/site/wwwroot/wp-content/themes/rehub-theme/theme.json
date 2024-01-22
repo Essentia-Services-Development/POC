@@ -1,0 +1,223 @@
+{
+    "version": 1,
+    "settings": {
+        "color": {
+            "link": true,
+            "palette": [
+                {
+                    "name": "Main Color",
+                    "slug": "main",
+                    "color": "var(--rehub-main-color)"
+                },
+                {
+                    "name": "Secondary Color",
+                    "slug": "secondary",
+                    "color": "var(--rehub-sec-color)"
+                },
+                {
+                    "name": "Button Color",
+                    "slug": "buttonmain",
+                    "color": "var(--rehub-main-btn-bg)"
+                },
+                {
+                    "name": "Black",
+                    "slug": "black",
+                    "color": "#000000"
+                },
+                {
+                    "name": "White",
+                    "slug": "white",
+                    "color": "#ffffff"
+                },
+				{
+					"slug": "cyan-grey",
+					"color": "#abb8c3",
+					"name": "Cyan grey"
+				},
+				{
+					"slug": "orange-light",
+					"color": "#fcb900",
+					"name": "Orange light"
+				},
+				{
+					"slug": "red",
+					"color": "#cf2e2e",
+					"name": "Red"
+				},
+				{
+					"slug": "red-bright",
+					"color": "#f04057",
+					"name": "Bright Red"
+				},
+				{
+					"slug": "vivid-green",
+					"color": "#00d084",
+					"name": "Vivid Green"
+				},
+				{
+					"slug": "orange",
+					"color": "#ff6900",
+					"name": "Orange"
+				},
+				{
+					"slug": "blue",
+					"color": "#0693e3",
+					"name": "Blue"
+				}
+            ]
+        },
+        "typography": {
+            "customLineHeight" : true,
+            "fontFamilies": [
+                {
+                    "fontFamily": "-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,Oxygen-Sans,Ubuntu,Cantarell,\"Helvetica Neue\",sans-serif",
+                    "slug": "system-font",
+                    "name": "Default System Font"
+                },
+                {
+                    "fontFamily": "var(--rehub-nav-font,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,Oxygen-Sans,Ubuntu,Cantarell,\"Helvetica Neue\",sans-serif)",
+                    "slug": "rh-nav-font",
+                    "name": "Navigation Custom Font"
+                },
+                {
+                    "fontFamily": "var(--rehub-head-font,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,Oxygen-Sans,Ubuntu,Cantarell,\"Helvetica Neue\",sans-serif)",
+                    "slug": "rh-head-font",
+                    "name": "Heading Custom Font"
+                },
+                {
+                    "fontFamily": "var(--rehub-btn-font,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,Oxygen-Sans,Ubuntu,Cantarell,\"Helvetica Neue\",sans-serif)",
+                    "slug": "rh-btn-font",
+                    "name": "Button Custom Font"
+                },
+                {
+                    "fontFamily": "var(--rehub-body-font,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,Oxygen-Sans,Ubuntu,Cantarell,\"Helvetica Neue\",sans-serif)",
+                    "slug": "rh-body-font",
+                    "name": "Body Custom Font"
+                }
+            ]
+        },
+        "layout": {
+            "contentSize": "760px",
+            "wideSize": "900px"
+        },
+        "spacing": {
+            "customPadding" : true
+        }
+    },
+    "styles": {
+        "elements": {
+            "h1": {
+                "typography": {
+                    "fontSize": "29px",
+                    "lineHeight": "34px"
+                },
+                "spacing": {
+                    "margin": {
+                        "top": "10px",
+                        "bottom": "31px"
+                    }
+                }
+            },
+            "h2": {
+                "typography": {
+                    "fontSize": "25px",
+                    "lineHeight": "31px"
+                },
+                "spacing": {
+                    "margin": {
+                        "top": "10px",
+                        "bottom": "31px"
+                    }
+                }
+            },
+            "h3": {
+                "typography": {
+                    "fontSize": "20px",
+                    "lineHeight": "28px"
+                },
+                "spacing": {
+                    "margin": {
+                        "top": "10px",
+                        "bottom": "25px"
+                    }
+                }
+            },
+            "h4": {
+                "typography": {
+                    "fontSize": "18px",
+                    "lineHeight": "24px"
+                },
+                "spacing": {
+                    "margin": {
+                        "top": "10px",
+                        "bottom": "18px"
+                    }
+                }
+            },
+            "h5": {
+                "typography": {
+                    "fontSize": "16px",
+                    "lineHeight": "20px"
+                },
+                "spacing": {
+                    "margin": {
+                        "top": "10px",
+                        "bottom": "15px"
+                    }
+                }
+            },
+            "h6": {
+                "typography": {
+                    "fontSize": "14px",
+                    "lineHeight": "20px"
+                },
+                "spacing": {
+                    "margin": {
+                        "top": "0px",
+                        "bottom": "10px"
+                    }
+                }
+            },
+            "link": {
+                "color": {"text": "var(--rehub-link-color, violet)"},
+                "typography": {
+                    "textDecoration": "none"
+                }
+            }
+        },
+        "blocks": {
+            "core/post-title": {
+                "spacing": {
+                    "margin": {
+                        "top": "4px",
+                        "bottom": "15px",
+                        "left": "0",
+                        "right": "0"
+                    }
+                }
+            },
+            "core/image": {
+                "spacing": {
+                    "margin": {
+                        "top": "0px",
+                        "bottom": "31px"
+                    }
+                }
+            },
+            "core/media-text": {
+                "spacing": {
+                    "margin": {
+                        "top": "0px",
+                        "bottom": "31px"
+                    }
+                }
+            },
+            "core/post-content": {
+                "typography": {
+                    "fontSize": "16px",
+                    "lineHeight": "28px"
+                }
+            }
+        }
+    }
+}

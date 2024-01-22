@@ -1,0 +1,101 @@
+%psc_btn {
+  display: inline-block;
+  margin: 0;
+  padding: var(--psc_BTN-PADDING);
+  font-size: var(--psc_BTN-FONT-SIZE);
+  font-style: normal;
+  text-align: center;
+  text-decoration: none;
+  text-transform: none;
+  color: var(--psc_BTN-TEXT-COLOR);
+  text-shadow: none;
+  background-color: var(--psc_BTN-BG);
+  border: none;
+  border-radius: var(--ps_BORDER-RADIUS);
+  outline: none;
+  box-shadow: var(--psc_BTN-SHADOW);
+  cursor: pointer;
+  transition: var(--psc_BTN-TRANSITION);
+
+  &:hover,
+  &:focus,
+  &:active,
+  &:disabled {
+    margin: 0;
+    padding: var(--psc_BTN-PADDING);
+    font-size: var(--psc_BTN-FONT-SIZE);
+    font-style: normal;
+    text-align: center;
+    text-decoration: none;
+    text-transform: none;
+    color: var(--psc_BTN-TEXT-COLOR--HOVER);
+    text-shadow: none;
+    background-color: var(--psc_BTN-BG--HOVER);
+    border: none;
+    border-radius: var(--ps_BORDER-RADIUS);
+    outline: none;
+    box-shadow: var(--psc_BTN-SHADOW--HOVER);
+  }
+
+  &:disabled {
+    opacity: .5;
+  }
+}
+
+.psc_btn {
+  @extend %psc_btn;
+}
+
+.psc_btn--action {
+  --psc_BTN-TEXT-COLOR: var(--ps_COLOR-TEXT--INVERT);
+  --psc_BTN-TEXT-COLOR--HOVER: var(--ps_COLOR-TEXT--INVERT);
+  --psc_BTN-BG: var(--ps_COLOR-PRIMARY);
+  --psc_BTN-BG--HOVER: var(--ps_COLOR-PRIMARY-D);
+  --psc_BTN-SHADOW: none;
+  --psc_BTN-SHADOW--HOVER: none;
+}
+
+.psc_btn--success {
+  --psc_BTN-TEXT-COLOR: var(--ps_COLOR-TEXT--INVERT);
+  --psc_BTN-TEXT-COLOR--HOVER: var(--ps_COLOR-TEXT--INVERT);
+  --psc_BTN-BG: var(--ps_COLOR-SUCCESS);
+  --psc_BTN-BG--HOVER: var(--ps_COLOR-SUCCESS-D);
+  --psc_BTN-SHADOW: none;
+  --psc_BTN-SHADOW--HOVER: none;
+}
+
+.psc_btn--warning {
+  --psc_BTN-TEXT-COLOR: var(--ps_COLOR-TEXT--INVERT);
+  --psc_BTN-TEXT-COLOR--HOVER: var(--ps_COLOR-TEXT--INVERT);
+  --psc_BTN-BG: var(--ps_COLOR-WARNING);
+  --psc_BTN-BG--HOVER: var(--ps_COLOR-WARNING-D);
+  --psc_BTN-SHADOW: none;
+  --psc_BTN-SHADOW--HOVER: none;
+}
+
+.psc_btn--danger {
+  --psc_BTN-TEXT-COLOR: var(--ps_COLOR-TEXT--INVERT);
+  --psc_BTN-TEXT-COLOR--HOVER: var(--ps_COLOR-TEXT--INVERT);
+  --psc_BTN-BG: var(--ps_COLOR-DANGER);
+  --psc_BTN-BG--HOVER: var(--ps_COLOR-DANGER-D);
+  --psc_BTN-SHADOW: none;
+  --psc_BTN-SHADOW--HOVER: none;
+}
+
+.psc_btn--info {
+  --psc_BTN-TEXT-COLOR: var(--ps_COLOR-TEXT--INVERT);
+  --psc_BTN-TEXT-COLOR--HOVER: var(--ps_COLOR-TEXT--INVERT);
+  --psc_BTN-BG: var(--ps_COLOR-INFO);
+  --psc_BTN-BG--HOVER: var(--ps_COLOR-INFO-D);
+  --psc_BTN-SHADOW: none;
+  --psc_BTN-SHADOW--HOVER: none;
+}
+
+.psc_btn--link {
+  --psc_BTN-TEXT-COLOR: var(--ps_COLOR-LINK);
+  --psc_BTN-TEXT-COLOR--HOVER: var(--ps_COLOR-LINK-HOVER);
+  --psc_BTN-BG: transparent;
+  --psc_BTN-BG--HOVER: transparent;
+  --psc_BTN-SHADOW: none;
+  --psc_BTN-SHADOW--HOVER: none;
+}

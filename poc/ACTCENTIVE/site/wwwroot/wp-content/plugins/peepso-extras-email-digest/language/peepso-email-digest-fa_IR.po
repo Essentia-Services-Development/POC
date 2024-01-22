@@ -1,0 +1,332 @@
+# Translation of PeepSo - Email Digest in Persian
+# This file is distributed under the same license as the PeepSo - Email Digest package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-02-02 11:28:24+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/3.0.0\n"
+"Language: fa\n"
+"Project-Id-Version: PeepSo - Email Digest\n"
+
+#: peepsoemaildigest.php:822
+msgid "A summary of community activity is sent if you are inactive for more than %d days."
+msgstr ""
+
+#: peepsoemaildigest.php:821
+msgid "%s email digest"
+msgstr ""
+
+#: peepsoemaildigest.php:315
+msgid "Monthly"
+msgstr ""
+
+#: peepsoemaildigest.php:314
+msgid "Biweekly"
+msgstr ""
+
+#: peepsoemaildigest.php:313
+msgid "Weekly"
+msgstr ""
+
+#: peepsoemaildigest.php:312
+msgid "Daily"
+msgstr ""
+
+#: classes/configsectionemaildigest.php:37
+msgid "Use files"
+msgstr ""
+
+#: peepsoemaildigest.php:150
+msgid "Every 2 weeks"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "PeepSo"
+msgstr "PeepSo"
+
+#. Description of the plugin/theme
+msgid "Bring users back with automated newsletter"
+msgstr "کاربران را توسط خبرنامه‌های خودکار به سایت بازگردانید"
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://peepso.com"
+msgstr "https://peepso.com"
+
+#. Plugin Name of the plugin/theme
+msgid "PeepSo Core: Email Digest"
+msgstr ""
+
+#: templates/general/email-digest.php:41
+msgid "Comment"
+msgstr "نظر دادن"
+
+#: templates/general/email-digest.php:41
+msgid "Like"
+msgstr "پسندیدن"
+
+#: templates/general/email-digest.php:39
+msgid "Read more"
+msgstr "ادامه مطلب"
+
+#: templates/general/email-digest.php:25
+msgid "shared a post"
+msgstr "یک طلب به اشتراک گذاشت"
+
+#: templates/general/email-digest-recipient.php:16
+msgid "Last email sent: "
+msgstr "آخرین ایمیل فرستاده شده: "
+
+#: templates/general/email-digest-recipient.php:13
+msgid "User last login: "
+msgstr "آخرین ورود کاربر: "
+
+#: peepsoemaildigest.php:935
+msgid "Preview email was sent"
+msgstr "پیش‌نمایش ایمیل ارسال شده"
+
+#: peepsoemaildigest.php:724
+msgid "Most commented post"
+msgstr "مطالب بحث انگیزتر"
+
+#: peepsoemaildigest.php:686
+msgid "Most liked post"
+msgstr "مطالب محبوب تر"
+
+#: peepsoemaildigest.php:624
+msgid "Email digest is not activated"
+msgstr ""
+
+#: peepsoemaildigest.php:619
+msgid "Email digest sent to %d users"
+msgstr ""
+
+#: peepsoemaildigest.php:479
+msgid "Other popular posts"
+msgstr "سایر نوشته های عمومی"
+
+#: peepsoemaildigest.php:472
+msgid "There are only %d posts, required at least %d"
+msgstr ""
+
+#: peepsoemaildigest.php:400
+msgid "Current time is %s, cron scheduled at %s"
+msgstr ""
+
+#: peepsoemaildigest.php:364
+msgid "There are %d logs in your database. You can clear the logs by clicking the button below."
+msgstr "%d گزارش سوابق در پایگاه داده‌ی شما وجود دارد. شما می‌توانید سوابق را با کلیک بر روی دکمه‌ی زیر پاک کنید."
+
+#: peepsoemaildigest.php:363
+msgid "Clear Logs"
+msgstr "پاک کردن تاریخچه"
+
+#: peepsoemaildigest.php:362
+msgid "Preview email failed"
+msgstr ""
+
+#: peepsoemaildigest.php:361
+msgid "Preview email sent"
+msgstr ""
+
+#: peepsoemaildigest.php:343
+msgid "PeepSo Email Digest"
+msgstr "گزیده نامه PeepSo"
+
+#: peepsoemaildigest.php:292
+msgid "Get it now!"
+msgstr "اکنون دریافت کنید!"
+
+#: peepsoemaildigest.php:290
+msgid "The %s plugin requires the PeepSo plugin to be installed and activated."
+msgstr "افزونه %s برای نصب و فعالسازی به افزونه PeepSo نیاز دارد."
+
+#: classes/emaildigestadminajax.php:46
+msgid "No Log Found."
+msgstr "لاگی پیدا نشد."
+
+#: classes/emaildigestadmin.php:42
+msgid "This will be sent to user based on schedule."
+msgstr "این به کاربر بر پایه برنامه ارسال خواهد شد."
+
+#: classes/emaildigestadmin.php:41
+msgid "Digest Email"
+msgstr "گزیده نامه"
+
+#: classes/configsectionemaildigest.php:356
+msgid "Sent Email Digest Logs"
+msgstr "لاگ‌های گزیده‌نامه‌های ارسال شده"
+
+#: classes/configsectionemaildigest.php:349
+msgid "The logs keep latest 100 sent Email Digest emails. You can see which users got the emails and what was their last login when the email was generated and sent to them. You can also preview the email that was sent."
+msgstr "لاگ 100 ایمیل آخر ارسال شده توسط گزیده نامه را نگه می دارد. شما می توانید مشاهده کنید کدام کاربران ایمیل را دریافت کرده اند و آخرین ورود آنها چه زمانی بوده است، ایمیل در چه زمانی ساخته شده و به آنها ارسال شده است. شما همچنین می‌توانید پیش‌نمایش ایمیل ارسال شده را ببینید."
+
+#: classes/configsectionemaildigest.php:341
+msgid "General"
+msgstr "عمومی"
+
+#: classes/configsectionemaildigest.php:315
+msgid "How many emails should be created in a batch"
+msgstr "تعداد ایمیل هایی که در یک دسته ایجاد می شوند"
+
+#: classes/configsectionemaildigest.php:312
+msgid "Depending on the amount of inactive users in your community, not to overload the site there's a batch creation system. This setting controls how many emails will be generated in one batch. This setting does not send the emails. PeepSo mailqueue takes care of the delivery."
+msgstr "مطابق با تعداد کاربران غیرفعال در انجمن، و تحمیل نکردن بار اضافی به سایت، یک سیستم ایجاد دسته بندی وجود دارد. این تنظیم تعداد ایمیل هایی را که در یک دسته ایجاد می شوند مدیریت می کند. این تنظیم ایمیل ها را ارسال نمی کند. ارسال ایمیل ها بر عهده سیستم mailqueue افزونه می باشد."
+
+#: classes/configsectionemaildigest.php:308
+msgid "Execute Email Digest email creation via cron job"
+msgstr "اجرای ایمیل گزیده نامه با cron job"
+
+#: classes/configsectionemaildigest.php:305
+msgid "It's advised to switch this setting on and setup a server-side cron job. You can use this command: wget %s It can easily run every hour."
+msgstr "توصیه می شود این تنظیم را روشن کنید و یک cron job سمت سرور راه اندازی کنید. شما می توانید از این فرمان استفاده کنید: wget %s این می تواند به راحتی هر ساعت اجرا شود."
+
+#: classes/configsectionemaildigest.php:236
+#: classes/configsectionemaildigest.php:243
+#: classes/configsectionemaildigest.php:260
+#: classes/configsectionemaildigest.php:283
+msgid "At"
+msgstr "در"
+
+#: classes/configsectionemaildigest.php:233
+#: classes/configsectionemaildigest.php:256
+#: classes/configsectionemaildigest.php:279
+msgid "The time when Email Digest emails will start to be sent. Emails are sent in batches by the mailqueue, they're not all sent at once, so your users might get them at different times."
+msgstr "زمانی که ایمیل های گزیده نامه شروع به ارسال شود. این ایمیل ها بر طبق صف پست در دسته ها ارسال می شوند. آن ها به یکباره ارسال نمی شوند بنابراین ممکن است کاربران آن ها را در زمان های متفاوتی دریافت کنند."
+
+#: classes/configsectionemaildigest.php:206
+msgid "Sat"
+msgstr "شنبه"
+
+#: classes/configsectionemaildigest.php:205
+msgid "Fri"
+msgstr "جمعه"
+
+#: classes/configsectionemaildigest.php:204
+msgid "Thu"
+msgstr "پنج شنبه"
+
+#: classes/configsectionemaildigest.php:203
+msgid "Wed"
+msgstr "چهارشنبه"
+
+#: classes/configsectionemaildigest.php:202
+msgid "Tue"
+msgstr "سه شنبه"
+
+#: classes/configsectionemaildigest.php:201
+msgid "Mon"
+msgstr "دوشنبه"
+
+#: classes/configsectionemaildigest.php:200
+msgid "Sun"
+msgstr "یکشنبه"
+
+#: classes/configsectionemaildigest.php:195
+#: classes/configsectionemaildigest.php:212
+msgid "Every"
+msgstr "هر"
+
+#: classes/configsectionemaildigest.php:191
+msgid "If selected date is bigger than the number of days in month, email digest will be sent at the end of the month."
+msgstr "اگر تاریخ انتخاب شده از تعداد روزهای ماه بزرگتر باشد، گزیده‌نامه در روز پایانای ماه ارسال می‌شود."
+
+#: classes/configsectionemaildigest.php:181
+msgid "How often should the Email Digest emails be sent"
+msgstr "هر چند وقت یکبار ایمیل های گزیده نامه ارسال شوند"
+
+#: classes/configsectionemaildigest.php:172
+msgid "Send Email Digest emails to users inactive for more than"
+msgstr "ارسال ایمیل های گزیده نامه به کاربرانی که بیش از این مدت زمان غیر فعال بوده اند"
+
+#: classes/configsectionemaildigest.php:168
+msgid "Users who didn't visit the site in the number of days selected or more will receive the Email Digest emails."
+msgstr "کاربرانی که در طی تعداد روزهای انتخاب شده یا بیشتر به سایت سر نزده اند ایمیل های گزیده نامه را دریافت خواهند کرد."
+
+#: classes/configsectionemaildigest.php:158
+msgid "Send Email Digest emails"
+msgstr "ارسال ایمیل ها گزیده نامه"
+
+#: classes/configsectionemaildigest.php:155
+msgid "Email Digest emails contains only posts which have 'Public' or 'Site Members' privacy settings. All other posts, meaning with privacy settings of 'Only me' and 'Friends Only' will be ignored and not sent as part of the Email Digest."
+msgstr "ایمیل های افزونه گزیده نامه، تنها محتوی مطالبی است که تنظیمات حریم خصوصی آن ها روی \"اعضای سایت\" و یا \"عمومی\" قرار گرفته باشد. تمام مطالب دیگر، یعنی مطالبی که تنظیمات حریم خصوصی آن ها بر روی \"فقط من\" یا \" فقط دوستان\" قرار گرفته باشد نادیده گرفته شده و به عنوان بخشی از گزیده نامه ارسال نخواهند شد."
+
+#: classes/configsectionemaildigest.php:150
+msgid "These settings control the Email Digest plugin. The plugin has been designed to interest and bring inactive users back to your community by showing them most interesting and engaging posts from a given period."
+msgstr "این تنظیمات افزونه گزیده نامه را کنترل می کند. این افزونه برای این طراحی شده که به واسطه نمایش پست های جالب و جذاب در یک دوره زمانی مشخص، برای کاربران غیرفعال جذابیت ایجاد کرده و آن ها به جامعه شما برگرداند."
+
+#: classes/configsectionemaildigest.php:136
+msgid "Users"
+msgstr ""
+
+#: classes/configsectionemaildigest.php:120
+msgid "Which User Roles should receive the emails"
+msgstr "نقش های کاربری که ایمیل ها را دریافت می کنند"
+
+#: classes/configsectionemaildigest.php:106
+msgid "Subscribe new users by default"
+msgstr ""
+
+#: classes/configsectionemaildigest.php:99
+msgid "Content"
+msgstr ""
+
+#: classes/configsectionemaildigest.php:90
+msgid "Show 'read mode' if the posts can't be shown in full and they hit the limit of characters."
+msgstr "نمایش \"ادامه مطلب\" در زمانی که مطالب نتوانند به شکل کامل نمایش داده شوند و به محدودیت کاراکتر دچار شوند."
+
+#: classes/configsectionemaildigest.php:86
+msgid "Limit the post length in Email Digest email to"
+msgstr "محدودیت طول پست در گزیده نامه"
+
+#: classes/configsectionemaildigest.php:79
+msgid "Allow duplicate posts"
+msgstr "امکان پست تکراری"
+
+#: classes/configsectionemaildigest.php:76
+msgid "With this setting on, most commented on and most liked posts will be showcased as such. However, they might also, and most likely will be shown in the main content of the Email Digest email."
+msgstr "با روشن کردن این تنظیم، پربحث ترین و پرلایک ترین مطالب نیز نمایش داده خواهند شد. به هر حال، آن ها احتمالا در میان مطالب اصلی گزیده نامه نمایش داده خواهند شد."
+
+#: classes/configsectionemaildigest.php:72
+msgid "Include most commented post"
+msgstr "شامل مطالب بحث انگیزتر"
+
+#: classes/configsectionemaildigest.php:69
+msgid "With this setting switched on, Email Digest email will also contain the most commented on post from a given period and showcase it as such."
+msgstr "با روشن کردن این تنظیم، ایمیل گزیده نامه همچنین شامل پست هایی با نظرات بیشتر در یک محدوده زمانی خواهد بود."
+
+#: classes/configsectionemaildigest.php:65
+msgid "Include most liked post"
+msgstr "شامل مطالب بیشتر پسندیده شده"
+
+#: classes/configsectionemaildigest.php:62
+msgid "With this setting switched on, Email Digest email will also contain the most liked post from a given period and showcase it as such."
+msgstr "با روشن کردن این تنظیم، ایمیل گزیده نامه همچنین شامل پست های بیشتر پسندیده شده در یک محدوده زمانی خواهد بود."
+
+#: classes/configsectionemaildigest.php:58
+msgid "Send Email Digest emails even if there are less posts"
+msgstr "ایمیل های گزیده نامه ارسال شوند حتی اگر تعداد مطالب کمتری موجود باشد"
+
+#: classes/configsectionemaildigest.php:55
+msgid "An Email Digest email must have at least 1 new post to be sent out. If there are no new ones it won't be sent."
+msgstr "باید دست کم یک مطلب جدید وجود داشته باشد تا ایمیل های گزیده نامه ارسال شوند. اگر مطلب جدیدی وجود نداشته باشد ایمیلی ارسال نخواهد شد."
+
+#: classes/configsectionemaildigest.php:51
+msgid "How many posts should be included per one email"
+msgstr "تعداد پست هایی که باید در یک ایمیل گنجانده شود"
+
+#: classes/configsectionemaildigest.php:29
+msgid "Use images"
+msgstr ""
+
+#: classes/configsectionemaildigest.php:21
+msgid "Email Digest Title"
+msgstr "عنوان گزیده‌نامه"
+
+#: classes/configsectionemaildigest.php:18 peepsoemaildigest.php:340
+#: peepsoemaildigest.php:589 peepsoemaildigest.php:829
+msgid "Email Digest"
+msgstr "گزیده نامه"

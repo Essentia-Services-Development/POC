@@ -1,0 +1,852 @@
+# Translation of PeepSo - Photos in Danish
+# This file is distributed under the same license as the PeepSo - Photos package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-11-02 07:46:29+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0\n"
+"Language: da_DK\n"
+"Project-Id-Version: PeepSo - Photos\n"
+
+#: classes/photosajax.php:796
+msgid "Temporary file has been moved"
+msgid_plural "Temporary files has been moved"
+msgstr[0] ""
+msgstr[1] ""
+
+#: classes/configsectionphotos.php:336
+msgid "Clear history"
+msgstr ""
+
+#: classes/configsectionphotos.php:229
+msgid "Photo size & quality"
+msgstr "Billedstørrelse og kvalitet"
+
+#: classes/configsectionphotos.php:121
+msgid "User limits"
+msgstr "Brugergrænser"
+
+#: templates/photos/photo-album-custom.php:216
+#: templates/photos/photo-group-album-custom.php:221
+msgid "Comments are closed"
+msgstr "Kommentarer er lukket"
+
+#. Author of the plugin/theme
+msgid "PeepSo"
+msgstr "PeepSo"
+
+#. Description of the plugin/theme
+msgid "Photo uploads and albums"
+msgstr "Foto uploads og albums"
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://peepso.com"
+msgstr "https://peepso.com"
+
+#. Plugin Name of the plugin/theme
+msgid "PeepSo Core: Photos"
+msgstr "PeepSo Core: Fotos"
+
+#: templates/widgets/photos.tpl.php:31
+msgid "View All"
+msgstr "Se alle"
+
+#: templates/widgets/community-photos.tpl.php:29
+#: templates/widgets/photos.tpl.php:40
+msgid "No photos"
+msgstr "Ingen fotos"
+
+#: templates/photos/postbox-photos.php:19
+msgid "Say something about this photo..."
+msgstr "Sig noget om dette foto..."
+
+#: templates/photos/postbox-photos.php:8
+msgid "Max photo dimensions: %1$s x %2$spx | Max file size: %3$sMB"
+msgstr "Max foto dimensioner: %1$s x %2$spx | Max fil størrelse: %3$sMB"
+
+#: templates/photos/postbox-photos.php:6
+msgid "Click here to start uploading photos"
+msgstr "Klik her for at starte upload af fotos"
+
+#: templates/photos/popup.php:11
+msgid "Close"
+msgstr "Luk"
+
+#: templates/photos/photos.php:35
+msgid "Photo Albums"
+msgstr "Fotoalbums"
+
+#: templates/photos/photos.php:33
+msgid "Recently added photos"
+msgstr "For nyligt tilføjede fotos"
+
+#: templates/photos/photos-group.php:34 templates/photos/photos.php:27
+msgid "Albums"
+msgstr "Albums"
+
+#: templates/photos/photo-item-album.php:51
+msgid "Friends Only"
+msgstr "Kun venner"
+
+#: templates/photos/photo-item-album.php:45
+msgid "Private"
+msgstr "Privat"
+
+#: templates/photos/photo-item-album.php:40
+msgid "Members only"
+msgstr "Kun medlemmer"
+
+#: templates/photos/photo-item-album.php:35
+#: templates/photos/photo-item-album.php:53
+msgid "Public"
+msgstr "Offentlig"
+
+#: templates/photos/photo-group-item-album.php:23
+#: templates/photos/photo-item-album.php:26
+msgid "%s photo"
+msgid_plural "%s photos"
+msgstr[0] "%s foto"
+msgstr[1] "%s fotos"
+
+#: templates/photos/photo-comment.php:31 templates/photos/photo-item.php:27
+msgid "Gif"
+msgstr "GIF"
+
+#: templates/photos/photo-comment.php:22
+msgid "Uploaded a photo"
+msgstr "Uploadede et foto"
+
+#: templates/photos/photo-comment.php:21
+msgid "%s uploaded a photo"
+msgstr "%s uploadede et foto"
+
+#: templates/photos/photo-album.php:14
+#: templates/photos/photo-group-album.php:19
+msgid "Back to Photos"
+msgstr "Tilbage til fotos"
+
+#: templates/photos/photo-album.php:10
+#: templates/photos/photo-group-album.php:15
+msgid "%s Album"
+msgstr "%s album"
+
+#: templates/photos/photo-album-upload.php:24
+msgid "Add photos to album"
+msgstr "Tilføj fotos til album"
+
+#: templates/photos/photo-album-upload.php:17
+msgid "Upload Photo"
+msgstr "Upload foto"
+
+#: templates/photos/photo-album-upload.php:1
+msgid "Photo privacy is inherited from the album"
+msgstr "Fotobeskyttelse er arvet fra albummet"
+
+#: templates/photos/photo-album-dialog.php:56
+#: templates/photos/photo-album-dialog.php:63
+#: templates/photos/photos-group.php:27 templates/photos/photos.php:20
+#: templates/photos/photos.php:41
+msgid "Create Album"
+msgstr "Opret album"
+
+#: templates/photos/photo-album-dialog.php:49
+#: templates/photos/photo-album-upload.php:9
+msgid "Please select at least one photo to be uploaded"
+msgstr "Vælg mindst ét billede, der skal uploades"
+
+#: templates/photos/photo-album-dialog.php:46
+#: templates/photos/photo-album-upload.php:6
+msgid "Upload photos to album"
+msgstr "Upload fotos til album"
+
+#: templates/photos/photo-album-dialog.php:21
+msgid "Album privacy"
+msgstr "Album privatliv"
+
+#: templates/photos/photo-album-dialog.php:13
+msgid "Album name can't be empty"
+msgstr "Albumnavn kan ikke være tomt"
+
+#: templates/photos/photo-album-dialog.php:9
+msgid "Album name"
+msgstr "Albumnavn"
+
+#: templates/photos/photo-album-custom.php:205
+#: templates/photos/photo-group-album-custom.php:211
+msgid "Post"
+msgstr "Indlæg"
+
+#: templates/photos/photo-album-custom.php:204
+#: templates/photos/photo-group-album-custom.php:210
+msgid "Clear"
+msgstr "Ryd"
+
+#: templates/photos/photo-album-custom.php:192
+#: templates/photos/photo-group-album-custom.php:198
+msgid "Write a comment..."
+msgstr "Skriv en kommentar..."
+
+#: templates/photos/photo-album-custom.php:148
+#: templates/photos/photo-album.php:28
+#: templates/photos/photo-group-album-custom.php:150
+#: templates/photos/photo-group-album.php:33
+#: templates/photos/photos-group.php:42 templates/photos/photos.php:48
+msgid "Oldest first"
+msgstr "Ældste først"
+
+#: templates/photos/photo-album-custom.php:147
+#: templates/photos/photo-album.php:27
+#: templates/photos/photo-group-album-custom.php:149
+#: templates/photos/photo-group-album.php:32
+#: templates/photos/photos-group.php:41 templates/photos/photos.php:47
+msgid "Newest first"
+msgstr "Nyeste først"
+
+#: templates/photos/photo-album-custom.php:142
+#: templates/photos/photo-album.php:22
+#: templates/photos/photo-group-album-custom.php:144
+#: templates/photos/photo-group-album.php:27
+#: templates/photos/photos-group.php:21 templates/photos/photos.php:14
+msgid "Large thumbnails"
+msgstr "Store thumbnails"
+
+#: templates/photos/photo-album-custom.php:141
+#: templates/photos/photo-album.php:21
+#: templates/photos/photo-group-album-custom.php:143
+#: templates/photos/photo-group-album.php:26
+#: templates/photos/photos-group.php:20 templates/photos/photos.php:13
+msgid "Small thumbnails"
+msgstr "Små thumbnails"
+
+#: templates/photos/photo-album-custom.php:126
+#: templates/photos/photo-group-album-custom.php:128
+msgid "Save description"
+msgstr "Gem beskrivelse"
+
+#: templates/photos/photo-album-custom.php:119
+#: templates/photos/photo-group-album-custom.php:121
+msgid "No description"
+msgstr "Ingen beskrivelse"
+
+#: templates/photos/photo-album-custom.php:100
+#: templates/photos/photo-group-album-custom.php:102
+msgid "Description privacy"
+msgstr "Beskrivelse privatliv"
+
+#: templates/photos/photo-album-custom.php:92
+#: templates/photos/photo-group-album-custom.php:94
+msgid "Edit description"
+msgstr "Rediger beskrivelse"
+
+#: templates/photos/photo-album-custom.php:90
+#: templates/photos/photo-album-dialog.php:36
+#: templates/photos/photo-group-album-custom.php:92
+msgid "Album description"
+msgstr "Albumbeskrivelse"
+
+#: templates/photos/photo-album-custom.php:68
+#: templates/photos/photo-group-album-custom.php:70
+msgid "Edit title"
+msgstr "Rediger titel"
+
+#: templates/photos/photo-album-custom.php:62
+#: templates/photos/photo-group-album-custom.php:64
+msgid "Save"
+msgstr "Gem"
+
+#: templates/photos/photo-album-custom.php:60
+#: templates/photos/photo-album-custom.php:123
+#: templates/photos/photo-album-dialog.php:59
+#: templates/photos/photo-album-upload.php:20
+#: templates/photos/photo-group-album-custom.php:62
+#: templates/photos/photo-group-album-custom.php:125
+msgid "Cancel"
+msgstr "Annuller"
+
+#: templates/photos/photo-album-custom.php:49
+#: templates/photos/photo-group-album-custom.php:51
+msgid "Add Photos"
+msgstr "Tilføj fotos"
+
+#: templates/photos/photo-album-custom.php:37
+#: templates/photos/photo-group-album-custom.php:40
+msgid "Back"
+msgstr "Tilbage"
+
+#: templates/photos/photo-album-custom.php:28
+#: templates/photos/photo-group-album-custom.php:31
+msgid "Are you sure you want to delete this album?"
+msgstr "Er du sikker på, at du vil slette dette album?"
+
+#: templates/photos/photo-album-custom.php:24
+#: templates/photos/photo-group-album-custom.php:27
+msgid "Remove album"
+msgstr "Fjern album"
+
+#: templates/photos/modal-photo-item.php:31
+msgid "Set as my cover"
+msgstr "Indstil som mit cover"
+
+#: templates/photos/modal-photo-item.php:30
+msgid "Set as my avatar"
+msgstr "Indstil som min avatar"
+
+#: templates/photos/modal-photo-item.php:27
+msgid "Options"
+msgstr "Muligheder"
+
+#: peepsosharephotos.php:2217
+msgid "Post updates on Activity Stream when user changes groups cover."
+msgstr "Udgiv opdateringer på aktivitetsstrømmen, når brugeren skifter gruppecover."
+
+#: peepsosharephotos.php:2216
+msgid "Enable post updates upon groups cover change"
+msgstr "Aktiver indlægsopdateringer ved ændring af gruppecover"
+
+#: peepsosharephotos.php:2209
+msgid "Post updates on Activity Stream when user changes groups avatar."
+msgstr "Udgiv opdateringer på aktivitetsstrømmen, når brugeren skifter gruppe-avatar."
+
+#: peepsosharephotos.php:2208
+msgid "Enable post updates upon groups avatar change"
+msgstr "Aktiver indlægsopdateringer ved ændring af gruppe-avatar"
+
+#: peepsosharephotos.php:2192
+msgid "Post updates on Activity Stream when user changes profile cover."
+msgstr "Udgiv opdateringer på aktivitetsstrømmen, når brugeren skifter profilcover."
+
+#: peepsosharephotos.php:2191
+msgid "Enable post updates upon user cover change"
+msgstr "Aktiver indlægsopdateringer ved ændring af brugercover"
+
+#: peepsosharephotos.php:2184
+msgid "Post updates on Activity Stream when user changes profile avatar."
+msgstr "Udgiv opdateringer på aktivitetsstrømmen, når brugeren skifter profil-avatar."
+
+#: peepsosharephotos.php:2183
+msgid "Enable post updates upon user avatar change"
+msgstr "Aktiver indlægsopdateringer ved ændring af bruger-avatar"
+
+#: peepsosharephotos.php:1887
+msgid "Upload photos"
+msgstr "Upload fotos"
+
+#: peepsosharephotos.php:1674
+msgid "Delete Album"
+msgstr "Slet album"
+
+#: peepsosharephotos.php:1288
+msgid "cover photo"
+msgstr "cover foto"
+
+#: peepsosharephotos.php:1283
+msgid "avatar"
+msgstr "avatar"
+
+#: peepsosharephotos.php:1275 peepsosharephotos.php:1298
+msgid "photo"
+msgid_plural "photos"
+msgstr[0] "foto"
+msgstr[1] "fotos"
+
+#: peepsosharephotos.php:1263
+msgid "album"
+msgstr "album"
+
+#: peepsosharephotos.php:800
+msgid " shared photos"
+msgstr "delte fotos"
+
+#: peepsosharephotos.php:792
+msgid " uploaded %1$d photo"
+msgid_plural " uploaded %1$d photos"
+msgstr[0] "uploadede %1$d foto"
+msgstr[1] "uploadede %1$d fotos"
+
+#: peepsosharephotos.php:787
+msgid " added %1$d photo to the album: <a href=\"%3$s\">%2$s</a>"
+msgid_plural " added %1$d photos to the album: <a href=\"%3$s\">%2$s</a>"
+msgstr[0] "tilføjede %1$d foto til albummet: <a href=\"%3$s\">%2$s</a>"
+msgstr[1] "tilføjede %1$d fotos til albummet: <a href=\"%3$s\">%2$s</a>"
+
+#: peepsosharephotos.php:769
+msgid " uploaded a new profile cover"
+msgstr "uploadede et nyt profil cover"
+
+#: peepsosharephotos.php:766
+msgid " uploaded a new avatar"
+msgstr "uploadede en ny avatar"
+
+#: peepsosharephotos.php:660
+msgid "Photo"
+msgstr "Foto"
+
+#: peepsosharephotos.php:519 templates/photos/postbox-photos.php:18
+msgid "Supported formats are: gif, jpg, jpeg, tiff, png, and webp."
+msgstr "Understøttede formater er: gif, jpg, jpeg, tiff, png og webp."
+
+#: peepsosharephotos.php:518
+msgid "Only "
+msgstr "Kun "
+
+#: peepsosharephotos.php:489 peepsosharephotos.php:1471
+msgid "Upload Failed! Please try again."
+msgstr "Upload mislykkedes! Prøv igen."
+
+#: peepsosharephotos.php:433 peepsosharephotos.php:577
+#: peepsosharephotos.php:1394 peepsosharephotos.php:1422
+#: peepsosharephotos.php:1433 templates/photos/photos-group.php:33
+#: templates/photos/photos.php:26
+msgid "Photos"
+msgstr "Fotos"
+
+#: peepsosharephotos.php:412
+msgid "Get it now!"
+msgstr "Få det nu!"
+
+#: peepsosharephotos.php:410
+msgid "The %s plugin requires the PeepSo plugin to be installed and activated."
+msgstr "%s-plugin'et kræver, at PeepSo-plugin'et er installeret og aktiveret."
+
+#: peepsosharephotos.php:325
+msgid "Stream Photos"
+msgstr "Stream fotos"
+
+#: peepsosharephotos.php:321
+msgid "Profile Covers"
+msgstr "Profilcovers"
+
+#: peepsosharephotos.php:317
+msgid "Profile Avatars"
+msgstr "Profil-avatars"
+
+#: classes/widgets/widgetphotos.php:112
+msgid "My Photos"
+msgstr "Mine fotos"
+
+#: classes/widgets/widgetphotos.php:13
+msgid "PeepSo Photos Widget"
+msgstr "PeepSo fotos widget"
+
+#: classes/widgets/widgetphotos.php:12 peepsosharephotos.php:436
+msgid "PeepSo Photos"
+msgstr "PeepSo fotos"
+
+#: classes/widgets/widgetcommunityphotos.php:95
+msgid "Latest Photos"
+msgstr "Seneste fotos"
+
+#: classes/widgets/widgetcommunityphotos.php:12
+#: classes/widgets/widgetcommunityphotos.php:13
+msgid "PeepSo Community Photos"
+msgstr "PeepSo fællesskabsfotos"
+
+#: classes/photosmodel.php:663
+msgid "There was an error removing the file %1$s. Error: %2$s"
+msgstr "Der opstod en fejl under fjernelse af filen %1$s. Fejl: %2$s"
+
+#: classes/photosmodel.php:657
+msgid "There was a problem when deleting the file"
+msgstr "Der opstod et problem under sletning af filen"
+
+#: classes/photosmodel.php:637
+msgid "There was an error setting up Amazon S3 library."
+msgstr "Der opstod en fejl under opsætning af Amazon S3-bibliotek."
+
+#: classes/photosmodel.php:614
+msgid "There was a problem when uploading the file"
+msgstr "Der opstod et problem under upload af filen"
+
+#: classes/photosmodel.php:532
+msgid "Missing Amazon configuration."
+msgstr "Manglende Amazon konfiguration"
+
+#: classes/photosajax.php:1202
+msgid "You do not have permission to do that."
+msgstr "Du har ikke tilladelse til at gøre det."
+
+#: classes/photosajax.php:1147
+msgid "You are not authorized to change this album access."
+msgstr "Du er ikke autoriseret til at ændre dette album-adgang."
+
+#: classes/photosajax.php:1142
+msgid "Photo Album access changed."
+msgstr "Adgang til fotoalbum ændret."
+
+#: classes/photosajax.php:1114
+msgid "Invalid extra field."
+msgstr "Ugyldigt ekstra felt."
+
+#: classes/photosajax.php:1085
+msgid "You are not authorized to change this album description."
+msgstr "Du er ikke autoriseret til at ændre denne albumbeskrivelse."
+
+#: classes/photosajax.php:1080
+msgid "Photo Album description saved."
+msgstr "Fotoalbumbeskrivelse gemt."
+
+#: classes/photosajax.php:1025
+msgid "Photo Album name saved."
+msgstr "Fotoalbum navn gemt."
+
+#: classes/photosajax.php:998 classes/photosajax.php:1030
+msgid "You are not authorized to change this album name."
+msgstr "Du har ikke tilladelse til at ændre dette albumnavn."
+
+#: classes/photosajax.php:993
+msgid "Photo Album has been deleted."
+msgstr "Fotoalbum er slettet."
+
+#: classes/photosajax.php:913
+msgid "You are not authorized to add photos."
+msgstr "Du har ikke tilladelse til at tilføje billeder."
+
+#: classes/photosajax.php:907
+msgid "Activity is not found."
+msgstr "Aktiviteten blev ikke fundet."
+
+#: classes/photosajax.php:904
+msgid "New photos added"
+msgstr "Nye fotos tilføjet"
+
+#: classes/photosajax.php:845 classes/photosajax.php:948
+msgid "Temporary file has been deleted"
+msgid_plural "Temporary files has been deleted"
+msgstr[0] "Midlertidig fil er slettet"
+msgstr[1] "Midlertidige filer er slettet"
+
+#: classes/photosajax.php:728
+msgid "You are not authorized to create album for this user."
+msgstr "Du er ikke autoriseret til at oprette album for denne bruger."
+
+#: classes/photosajax.php:723
+msgid "Album "
+msgstr "Album"
+
+#: classes/photosajax.php:659
+msgid "You are not authorized to use this photo as cover."
+msgstr "Du er ikke autoriseret til at bruge dette billede som forside."
+
+#: classes/photosajax.php:654
+msgid "Your profile cover has been changed."
+msgstr "Dit profilcover er blevet ændret."
+
+#: classes/photosajax.php:603 classes/photosajax.php:665
+#: classes/photosajax.php:734 classes/photosajax.php:919
+msgid "Photo not found"
+msgstr "Foto ikke fundet"
+
+#: classes/photosajax.php:597
+msgid "You are not authorized to use this photo as avatar."
+msgstr "Du er ikke autoriseret til at bruge dette billede som avatar."
+
+#: classes/photosajax.php:592
+msgid "Your avatar has been changed."
+msgstr "Din avatar er ændret."
+
+#: classes/photosajax.php:551 classes/photosajax.php:616
+#: classes/photosajax.php:678 classes/photosajax.php:743
+#: classes/photosajax.php:809 classes/photosajax.php:857
+#: classes/photosajax.php:932 classes/photosajax.php:960
+#: classes/photosajax.php:1011 classes/photosajax.php:1043
+#: classes/photosajax.php:1128
+msgid "Request could not be verified."
+msgstr "Anmodningen kunne ikke bekræftes."
+
+#: classes/photosajax.php:426
+msgid "%s doesn't have any photos yet"
+msgstr "%s har ingen fotos endnu"
+
+#: classes/photosajax.php:426
+msgid "You don't have any photos yet"
+msgstr "Du har endnu ingen fotos"
+
+#: classes/photosajax.php:369
+msgid "Maximum file upload quota reached. Delete posts with photos to free some space."
+msgstr "Maksimal fil-upload kvote nået. Slet indlæg med fotos for at frigøre plads."
+
+#: classes/photosajax.php:367
+msgid "Only files up to %1$dMB are allowed."
+msgstr "Kun filer op til %1$dMB er tilladt."
+
+#: classes/photosajax.php:365
+msgid "Maximum photo upload quota reached. Delete posts with photos to free some space."
+msgstr "Den maksimale kvote for upload af fotos er nået. Slet indlæg med fotos for at frigøre plads."
+
+#: classes/photosajax.php:361
+msgid "Maximum daily photo upload quota reached. Delete posts with photos to free some space."
+msgstr "Den maksimale daglige kvote for upload af fotos er nået. Slet indlæg med fotos for at frigøre plads."
+
+#: classes/photosajax.php:163
+msgid "Image exceeds maximum photo size of %1$d x %2$d."
+msgstr "Billedet overskrider den maksimale fotostørrelse på %1$d x %2$d."
+
+#: classes/photosajax.php:159
+msgid "Only photos with a maximum of %1$d pixel height are allowed, please resize."
+msgstr "Kun fotos med et maksimum på %1$d pixel højde er tilladt, ændr venligst størrelse."
+
+#: classes/photosajax.php:157
+msgid "Only photos with a maximum of %1$d pixel width are allowed, please resize."
+msgstr "Fil-opløsning må max være  %1$d. Skalér venligst dit foto"
+
+#: classes/photosajax.php:117
+msgid "Only files up to %1$dMB are allowed"
+msgstr "Kun filer op til %1$dMB er tilladt"
+
+#: classes/photosajax.php:92
+msgid "Maximum file upload quota reached. Delete posts with photos to free some space"
+msgstr "Maksimum upload-kvote for fotos er opbrugt. Slet opslag med fotos for at få mere plads."
+
+#: classes/photosadmin.php:304
+msgid "Photo %1$d of post %2$s"
+msgstr "Foto %1$d fra opslag %2$s"
+
+#: classes/photosadmin.php:295
+msgid "Photo of post %s"
+msgstr "Foto fra opslag %s"
+
+#: classes/photosadmin.php:266
+msgid "Configure the use of PeepSo Share Photos."
+msgstr "Konfigurér brugen af PeepSo dele-fotos"
+
+#: classes/photosadmin.php:263
+msgid "Photos Settings"
+msgstr "Fotoindstillinger"
+
+#: classes/photosadmin.php:213
+msgid "The AWS Secret Key you received when you signed up for AWS (40 characters)"
+msgstr "Den hemmelige AWS-nøgle, du modtog, da du tilmeldte dig AWS (40 tegn)"
+
+#: classes/photosadmin.php:184
+msgid "Turn on the use of Amazon AWS for image storage"
+msgstr "Slå brugen af Amazon AWS til for lagring af billeder"
+
+#: classes/photosadmin.php:45
+msgid "WordPress maximum upload size allowed is %1$sMB"
+msgstr "Maksimal tilladt WordPress upload-størrelse er %1$sMB"
+
+#: classes/configsectionphotos.php:359
+msgid "AWS"
+msgstr "AWS"
+
+#: classes/configsectionphotos.php:347 classes/photosadmin.php:267
+msgid "To enable the use of AWS, set the \"Enable AWS S3 Storage\" to \"YES\" and fill in the additional settings fields.<br/>To get your AWS Access ID and Keys, you can sign up here: %sGet Your AWS Access Keys%s."
+msgstr "For at aktivere brugen af AWS skal du indstille \"Enable AWS S3 Storage\" til \"YES\" og udfylde de yderligere indstillingsfelter.<br/>For at få dit AWS Access ID og nøgler kan du tilmelde dig her: %sGet Your AWS Access Keys%s."
+
+#: classes/configsectionphotos.php:337 classes/photosadmin.php:252
+msgid "AWS Error History:"
+msgstr "AWS fejlhistorik"
+
+#: classes/configsectionphotos.php:325
+msgid "Don't keep a local copy of uploaded files"
+msgstr "Gem ikke en lokal kopi af uploadede filer"
+
+#: classes/configsectionphotos.php:322
+msgid "Disabling AWS S3 will cause photos to disappear, because photos will not be redownloaded"
+msgstr "Hvis du slår AWS S3 fra, forsvinder dine fotos, da fotos ikke bliver downloadet igen"
+
+#: classes/configsectionphotos.php:318
+msgid "Bucket location"
+msgstr "Bucket-lokation"
+
+#: classes/configsectionphotos.php:312
+msgid "US West (Oregon)"
+msgstr "Amerika Vest (Oregon)"
+
+#: classes/configsectionphotos.php:311
+msgid "US West (N. California)"
+msgstr "Amerika Vest  (N. California)"
+
+#: classes/configsectionphotos.php:310
+msgid "US East (Ohio)"
+msgstr "Amerika Øst  (Ohio)"
+
+#: classes/configsectionphotos.php:309
+msgid "US East (N. Virginia)"
+msgstr "Amerika Øst (N. Virginia)"
+
+#: classes/configsectionphotos.php:308
+msgid "South America (São Paulo)"
+msgstr "Sydamerika (São Paulo)"
+
+#: classes/configsectionphotos.php:307
+msgid "EU (Paris)"
+msgstr "EU (Paris)"
+
+#: classes/configsectionphotos.php:306
+msgid "EU (London)"
+msgstr "EU (London)"
+
+#: classes/configsectionphotos.php:305
+msgid "EU (Ireland)"
+msgstr "EU (Irland)"
+
+#: classes/configsectionphotos.php:304
+msgid "EU (Frankfurt)"
+msgstr "EU (Frankfurt)"
+
+#: classes/configsectionphotos.php:303
+msgid "Canada (Central)"
+msgstr "Canada (Central)"
+
+#: classes/configsectionphotos.php:302
+msgid "Asia Pacific (Tokyo)"
+msgstr "Asien I Stillehavsområdet (Tokyo)"
+
+#: classes/configsectionphotos.php:301
+msgid "Asia Pacific (Sydney)"
+msgstr "Asien I Stillehavsområdet (Sydney)"
+
+#: classes/configsectionphotos.php:300
+msgid "Asia Pacific (Singapore)"
+msgstr "Asien I Stillehavsområdet (Singapore)"
+
+#: classes/configsectionphotos.php:299
+msgid "Asia Pacific (Seoul)"
+msgstr "Asien I Stillehavsområdet (Seoul)"
+
+#: classes/configsectionphotos.php:298
+msgid "Asia Pacific (Mumbai)"
+msgstr "Asien I Stillehavsområdet (Mumbai)"
+
+#: classes/configsectionphotos.php:293 classes/photosadmin.php:230
+msgid "Amazon S3 Bucket"
+msgstr "Amazon S3 Bucket"
+
+#: classes/configsectionphotos.php:286 classes/photosadmin.php:238
+msgid "Amazon S3 Bucket is required"
+msgstr "Amazon S3 Bucket er påkrævet"
+
+#: classes/configsectionphotos.php:280 classes/photosadmin.php:231
+msgid "Name of the Bucket to upload your images to on Amazon S3"
+msgstr "Navn på den Bucket som du vil uploade billeder til på Amazon S3"
+
+#: classes/configsectionphotos.php:276 classes/photosadmin.php:212
+msgid "Amazon Secret Access Key"
+msgstr "Amazon Access Key ID"
+
+#: classes/configsectionphotos.php:269 classes/photosadmin.php:220
+msgid "Amazon Secret Access Key is required"
+msgstr "Amazon Access Key ID er påkrævet"
+
+#: classes/configsectionphotos.php:260 classes/photosadmin.php:194
+msgid "Amazon Access Key ID"
+msgstr "AWS adgang nøgle-ID"
+
+#: classes/configsectionphotos.php:253 classes/photosadmin.php:202
+msgid "Amazon Access Key ID is required"
+msgstr "Amazon Access Key ID er påkrævet"
+
+#: classes/configsectionphotos.php:247 classes/photosadmin.php:195
+msgid "The Access Key ID you received when you signed up for AWS (20 characters)"
+msgstr "Den Access Key ID som du modtog da du tilmeldte dig AWS (20 tegn)"
+
+#: classes/configsectionphotos.php:243 classes/photosadmin.php:183
+msgid "Enable AWS S3 storage"
+msgstr "Aktiver AWS S3 lagerplads"
+
+#: classes/configsectionphotos.php:44
+msgid "General"
+msgstr "Generelt"
+
+#: classes/configsectionphotos.php:38
+msgid "Autoplay GIFs"
+msgstr "Autoplay GIFs"
+
+#: classes/configsectionphotos.php:223 classes/photosadmin.php:162
+msgid "Thumbnail quality"
+msgstr "Miniaturekvalitet"
+
+#: classes/configsectionphotos.php:201 classes/photosadmin.php:142
+msgid "Image quality"
+msgstr "Billede kvalitet"
+
+#: classes/configsectionphotos.php:191 classes/configsectionphotos.php:213
+#: classes/photosadmin.php:138 classes/photosadmin.php:158
+msgid "recommended"
+msgstr "anbefalet"
+
+#: classes/configsectionphotos.php:180 classes/photosadmin.php:172
+msgid "Maximum image height"
+msgstr "Maksimal billedhøjde"
+
+#: classes/configsectionphotos.php:168 classes/photosadmin.php:121
+msgid "Maximum image width"
+msgstr "Maksimal billedbredde"
+
+#: classes/configsectionphotos.php:156 classes/photosadmin.php:110
+msgid "Photo Upload Behavior"
+msgstr "Fotoupload adfærd"
+
+#: classes/configsectionphotos.php:145 classes/photosadmin.php:105
+msgid "Resize"
+msgstr "Tilpas størrelse"
+
+#: classes/configsectionphotos.php:144 classes/photosadmin.php:104
+msgid "Use Original"
+msgstr "Brug oprindelig"
+
+#: classes/configsectionphotos.php:115 classes/photosadmin.php:94
+msgid "Daily photo upload limit per user"
+msgstr "Daglig foto-upload pr. bruger"
+
+#: classes/configsectionphotos.php:104 classes/photosadmin.php:89
+msgid "50"
+msgstr "50"
+
+#: classes/configsectionphotos.php:103 classes/photosadmin.php:88
+msgid "20"
+msgstr "20"
+
+#: classes/configsectionphotos.php:102 classes/photosadmin.php:87
+msgid "10"
+msgstr "10"
+
+#: classes/configsectionphotos.php:101 classes/photosadmin.php:86
+msgid "5"
+msgstr "5"
+
+#: classes/configsectionphotos.php:94 classes/photosadmin.php:75
+msgid "Maximum number of Photos per User"
+msgstr "Maksimalt antal fotos pr. bruger"
+
+#: classes/configsectionphotos.php:83 classes/photosadmin.php:70
+msgid "1000"
+msgstr "1000"
+
+#: classes/configsectionphotos.php:82 classes/photosadmin.php:69
+msgid "500"
+msgstr "500"
+
+#: classes/configsectionphotos.php:81 classes/photosadmin.php:68
+msgid "250"
+msgstr "250"
+
+#: classes/configsectionphotos.php:80 classes/photosadmin.php:67
+msgid "100"
+msgstr "100"
+
+#: classes/configsectionphotos.php:79 classes/configsectionphotos.php:100
+#: classes/photosadmin.php:66 classes/photosadmin.php:85
+msgid "Unlimited"
+msgstr "Ubegrænset"
+
+#: classes/configsectionphotos.php:74 classes/photosadmin.php:56
+msgid "Allowed space per user in megabytes"
+msgstr "Tilladte plads pr. bruger i megabytes"
+
+#: classes/configsectionphotos.php:71
+msgid "Set 0 for Unlimited"
+msgstr "Sæt 0 for ubegrænset"
+
+#: classes/configsectionphotos.php:32 classes/photosadmin.php:44
+msgid "Maximum upload size in megabytes"
+msgstr "Maksimal upload-størrelse i megabytes"
+
+#: classes/configsectionphotos.php:29
+msgid "WordPress maximum upload size allowed is %1$sMB. WordPress setting takes priority over PeepSo. If you want to allow bigger file uploads please look into WrodPress and / or your server configuration."
+msgstr "Maksimal upload-størrelse for WordPress er %1$sMB. Indstillinger i WordPress har prioritet i forhold til PeepSo. Hvis du ønsker at tillade større fil uploads, så kig venligst ind i WordPress og / eller din server konfiguration."

@@ -1,0 +1,449 @@
+//
+//  CLASS MODIFIERS
+//
+
+//  Avatar modifier for member component
+.ps-avatar--member {
+  --width: var(--large);
+
+  position: relative;
+  width: auto;
+  z-index: 2;
+
+  img {
+    box-shadow:
+    0 0 0 4px var(--PS-COLOR--APP),
+    0 0 0 6px var(--DIVIDER);
+  }
+
+  .ps-member & {
+    img {
+      border: none;
+
+      @if $comp_mode {
+        box-shadow:
+        0 0 0 4px var(--PS-COLOR--APP),
+        0 0 0 6px var(--DIVIDER) !important;
+      }
+    }
+  }
+}
+
+
+
+//
+//  MEMBER COMPONENT
+//
+
+//  Member wrapper
+.ps-member {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-width: 0;
+  text-align: center;
+  background-color: var(--PS-COLOR--APP);
+  box-shadow: var(--BOX-SHADOW--HARD);
+  border-radius: var(--BORDER-RADIUS--MD);
+  transition: box-shadow .2s ease;
+
+  &:hover {
+    box-shadow: var(--BOX-SHADOW--MD);
+  }
+
+  @include mq($until: desktop) {
+    margin-bottom: var(--PADD--MD);
+  }
+}
+
+.ps-member--me {
+  //order: -1;
+}
+
+.ps-member--pending {}
+
+.ps-member__inner {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+
+  .ps-member__cover {
+    position: absolute;
+    z-index: 1;
+    display: block;
+    height: 140px;
+    padding: var(--PADD--MD);
+    background-color: var(--PS-COLOR--APP--LIGHTGRAY);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-top-left-radius: var(--BORDER-RADIUS--MD);
+    border-top-right-radius: var(--BORDER-RADIUS--MD);
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+}
+
+.ps-member__header {
+  position: relative;
+  padding: var(--PADD--MD) 50px;
+}
+
+.ps-member__options {}
+
+.ps-member__option {
+  position: absolute;
+  top: 50%;
+  z-index: 30;
+  transform: translateY(-50%);
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  color: var(--PS-COLOR--TEXT--LIGHT);
+  box-shadow: 0 0 0 1px var(--DIVIDER--LIGHT);
+  border-radius: var(--BORDER-RADIUS--AVATAR);
+  transition: all .2s ease;
+  background-color: var(--PS-COLOR--APP--GRAY);
+  box-shadow: 0 0 0 2px rgba(0,0,0, .1);
+
+  .ps-dropdown__toggle {
+    display: block;
+    color: var(--PS-COLOR--TEXT--LIGHT);
+
+    @include mq($from: tablet) {
+      &:hover,
+      &:focus {
+        color: var(--PS-COLOR--TEXT);
+      }
+    }
+  }
+
+  @include mq($from: desktop) {
+    opacity: 0;
+  }
+
+  @if $rtl {
+    right: var(--PADD--MD);
+
+    &:last-child {
+      left: var(--PADD--MD);
+      right: auto;
+    }
+  } @else {
+    left: var(--PADD--MD);
+
+    &:last-child {
+      left: auto;
+      right: var(--PADD--MD);
+    }
+  }
+
+  .ps-member:hover & {
+    opacity: 1;
+  }
+
+  &:hover,
+  &:focus {
+    color: var(--PS-COLOR--TEXT);
+    background-color: var(--PS-COLOR--APP--GRAY);
+    opacity: 1;
+  }
+
+  .ps-dropdown__menu {
+    @if $rtl {
+      text-align: right;
+    } @else {
+      text-align: left;
+    }
+  }
+}
+
+.ps-member__body {
+  padding: var(--PADD--MD);
+  padding-top: 0;
+}
+
+.ps-member__name {
+  margin-bottom: var(--PADD);
+  margin-top: var(--PADD--MD);
+
+  a {
+    color: var(--PS-COLOR--TEXT);
+
+    @if $comp_mode {
+      color: var(--PS-COLOR--TEXT) !important;
+    }
+
+    &:hover,
+    &:focus {
+      color: var(--PS-COLOR--TEXT);
+
+      @if $comp_mode {
+        color: var(--PS-COLOR--TEXT) !important;
+      }
+    }
+  }
+}
+
+.ps-member__details {}
+
+.ps-member__desc {
+  font-size: 80%;
+  color: var(--PS-COLOR--TEXT--LIGHT);
+
+  p {
+    margin: 0;
+  }
+}
+
+.ps-member__role {
+  display: inline-block;
+  padding: var(--PADD--SM) var(--PADD);
+  font-size: 80%;
+  color: var(--PS-COLOR--PRIMARY);
+  background-color: var(--PS-COLOR--PRIMARY--ULTRALIGHT);
+  border-radius: var(--BORDER-RADIUS);
+
+  > i {
+    @if $rtl {
+      margin-left: var(--PADD--SM);
+    } @else {
+      margin-right: var(--PADD--SM);
+    }
+  }
+
+  &:empty {
+    display: none;
+  }
+}
+
+.ps-member__buttons {
+  display: flex;
+  justify-content: center;
+
+  .ps-member__action {
+    margin-top: var(--PADD);
+
+    @if $rtl {
+      margin-left: var(--PADD--SM);
+    } @else {
+      margin-right: var(--PADD--SM);
+    }
+
+    padding: var(--PADD) var(--PADD--MD);
+    font-size: 80%;
+    box-shadow: inset 0 0 0 1px var(--DIVIDER--LIGHT);
+    border-radius: var(--BORDER-RADIUS--MD);
+
+    @if $comp_mode {
+      box-shadow: inset 0 0 0 1px var(--DIVIDER--LIGHT) !important;
+    }
+
+    &:last-child {
+      margin-left: 0;
+      margin-right: 0;
+    }
+  }
+}
+
+.ps-member__actions {
+  position: relative;
+  display: flex;
+  margin-top: auto;
+  font-size: 80%;
+  border-top: 1px solid var(--DIVIDER--LIGHT);
+}
+
+.ps-member__action {
+  .ps-member__actions & {
+    display: block;
+    flex-grow: 1;
+    padding: var(--PADD) var(--PADD--MD);
+    color: var(--PS-COLOR--TEXT--LIGHT);
+    background-color: var(--PS-COLOR--APP);
+    border: none;
+    outline: none;
+
+    @if $rtl {
+      border-left: 1px solid var(--DIVIDER--LIGHT);
+    } @else {
+      border-right: 1px solid var(--DIVIDER--LIGHT);
+    }
+
+    @include mq($from: tablet) {
+      &:hover {
+        color: var(--PS-COLOR--TEXT);
+      }
+    }
+
+    &:first-child {
+      @if $rtl {
+        border-bottom-right-radius: var(--BORDER-RADIUS--MD);
+      } @else {
+        border-bottom-left-radius: var(--BORDER-RADIUS--MD);
+      }
+    }
+
+    &:last-child {
+      border: none;
+
+      @if $rtl {
+        border-bottom-left-radius: var(--BORDER-RADIUS--MD);
+      } @else {
+        border-bottom-right-radius: var(--BORDER-RADIUS--MD);
+      }
+    }
+  }
+
+  &:before {
+    @if $rtl {
+      margin-left: var(--PADD--SM);
+    } @else {
+      margin-right: var(--PADD--SM);
+    }
+  }
+
+  .ps-member--pending & {
+    &:before {
+      display: none;
+    }
+  }
+
+  > i {
+    @if $rtl {
+      margin-left: var(--PADD--SM);
+    } @else {
+      margin-right: var(--PADD--SM);
+    }
+  }
+
+  .ps-group__invite-list & {
+    padding: var(--PADD) var(--PADD--MD);
+    font-size: var(--PS-FONT-SIZE);
+    line-height: var(--PS-LINE-HEIGHT);
+    background: var(--c-ps-btn-action-bg);
+    color: var(--c-ps-btn-action-color);
+
+    &:hover,
+    &:focus {
+      background: var(--c-ps-btn-action-bg-hover);
+      color: var(--c-ps-btn-action-color-hover);
+    }
+  }
+}
+
+.ps-member__action--add {
+  &:before {
+    content: "\f234";
+    font-family: 'Font Awesome 6 Free';
+    font-weight: 900;
+  }
+}
+
+.ps-member__action--unfriend {
+  .ps-member__actions & {
+    color: var(--PS-COLOR--TEXT--LIGHT);
+  }
+
+  &:before {
+    content: "\f500";
+    font-family: 'Font Awesome 6 Free';
+    font-weight: 900;
+  }
+
+  &:hover {
+    &:before {
+      content: "\f235";
+    }
+  }
+}
+
+.ps-member__action--cancel {
+  .ps-member__actions & {
+    color: var(--PS-COLOR--TEXT--LIGHT);
+  }
+
+  &:before {
+    content: "\f500";
+    font-family: 'Font Awesome 6 Free';
+    font-weight: 900;
+  }
+
+  &:hover {
+    &:before {
+      content: "\f235";
+    }
+  }
+}
+
+.ps-member__action--accept {
+  color: var(--PS-COLOR--TEXT--LIGHT);
+
+  &:before {
+    content: "\f500";
+    font-family: 'Font Awesome 6 Free';
+    font-weight: 900;
+  }
+
+  &:hover {
+    &:before {
+      content: "\f235";
+    }
+  }
+}
+
+.ps-member__action--reject {
+  color: var(--PS-COLOR--TEXT--LIGHT);
+
+  &:before {
+    content: "\f500";
+    font-family: 'Font Awesome 6 Free';
+    font-weight: 900;
+  }
+
+  &:hover {
+    &:before {
+      content: "\f235";
+    }
+  }
+}
+
+.ps-member__action--follow {
+  &:before {
+    content: "\f058";
+    font-family: 'Font Awesome 6 Free';
+    font-weight: 400;
+  }
+}
+
+.ps-member__action--following {
+  color: var(--PS-COLOR--TEXT--LIGHT);
+
+  &:before {
+    content: "\f058";
+    font-family: 'Font Awesome 6 Free';
+    font-weight: 900;
+  }
+
+  &:hover {
+    &:before {
+      content: "\f057";
+    }
+  }
+}
+
+.ps-member__action--message {
+  &:before {
+    content: "\f0e0";
+    font-family: 'Font Awesome 6 Free';
+    font-weight: 400;
+  }
+
+  > i {
+    display: none;
+  }
+}

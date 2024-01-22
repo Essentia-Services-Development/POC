@@ -1,0 +1,434 @@
+# Translation of PeepSo - Friends in Dutch
+# This file is distributed under the same license as the PeepSo - Friends package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2023-04-28 08:41:46+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0\n"
+"Language: nl\n"
+"Project-Id-Version: PeepSo - Friends\n"
+
+#: peepsofriends.php:220
+msgid "Posts from your friends"
+msgstr "Posts van je vrienden"
+
+#. Author of the plugin/theme
+msgid "PeepSo"
+msgstr "PeepSo"
+
+#. Description of the plugin/theme
+msgid "Friend connections and \"friends\" privacy level"
+msgstr "Vrienden connecties en \"vrienden\" privacy niveau"
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://peepso.com"
+msgstr "https://peepso.com"
+
+#. Plugin Name of the plugin/theme
+msgid "PeepSo Core: Friends"
+msgstr "PeepSo Core: vrienden"
+
+#: templates/widgets/friendsbirthday.tpl.php:117
+msgid "No upcoming birthdays."
+msgstr "Geen aankomende verjaardagen."
+
+#: templates/widgets/friendsbirthday.tpl.php:100
+msgid "Birthday tomorrow."
+msgid_plural "Birthday in %s days.</span>"
+msgstr[0] "Verjaardag morgen."
+msgstr[1] "Verjaardag in %s dagen.</span>"
+
+#: templates/widgets/friendsbirthday.tpl.php:67
+#: templates/widgets/friendsbirthday.tpl.php:116
+msgid "Upcoming Birthday"
+msgstr "Aankomende verjaardag"
+
+#: templates/widgets/friendsbirthday.tpl.php:55
+msgid "No friends' birthdays today."
+msgstr "Geen verjaardagen van je vrienden vandaag."
+
+#: templates/widgets/friendsbirthday.tpl.php:39
+msgid "Say Happy Birthday!"
+msgstr "Zeg Gefeliciteerd met je verjaardag!"
+
+#: templates/widgets/friendsbirthday.tpl.php:21
+#: templates/widgets/friendsbirthday.tpl.php:54
+msgid "Birthday Today"
+msgstr "Verjaardag vandaag"
+
+#: templates/widgets/friends.tpl.php:49
+#: templates/widgets/mutual-friends.tpl.php:40
+msgid "No friends"
+msgstr "Geen vrienden"
+
+#: templates/widgets/friends.tpl.php:41
+msgid "View All"
+msgstr "Alles bekijken"
+
+#: templates/messages/list-header.php:2
+msgid "New message"
+msgstr "Nieuw bericht"
+
+#: templates/friends/submenu.php:17
+msgid "Friend requests"
+msgstr "Vriendschapsverzoeken"
+
+#: templates/friends/pending.php:39
+msgid "Sent requests"
+msgstr "Verzonden verzoeken"
+
+#: templates/friends/pending.php:20
+msgid "Received requests"
+msgstr "Ontvangen verzoeken"
+
+#: templates/friends/notification-popover-item.php:41
+msgid "Approve"
+msgstr "Goedkeuren"
+
+#: templates/friends/notification-popover-item.php:35
+msgid "Ignore"
+msgstr "Negeren"
+
+#: templates/friends/notification-popover-header.php:3
+msgid "Search friends"
+msgstr "Zoek vrienden"
+
+#: templates/friends/dialog-remove-friend.php:1
+msgid "Are you sure want to remove a friend?"
+msgstr "Weet u zeker dat u een vriend wilt verwijderen?"
+
+#: peepsofriends.php:820
+msgid "Someone sent me a friend request"
+msgstr "Iemand stuurde me een vriendschapsverzoek"
+
+#: peepsofriends.php:702
+msgid "Add as your friend"
+msgstr "Als uw vriend toevoegen"
+
+#: peepsofriends.php:697
+msgid "Add Friend"
+msgstr "Voeg vriend toe"
+
+#: peepsofriends.php:684
+msgid "Friends limit reached"
+msgstr "Vriendenlimiet bereikt"
+
+#: peepsofriends.php:646
+msgid "Reject Request"
+msgstr "Verzoek verwerpen"
+
+#: peepsofriends.php:641
+msgid "Reject"
+msgstr "Verwerpen"
+
+#: peepsofriends.php:635
+msgid "Accept Request"
+msgstr "Aanvraag accepteren"
+
+#: peepsofriends.php:630
+msgid "Accept"
+msgstr "Accepteren"
+
+#: peepsofriends.php:615 peepsofriends.php:620
+msgid "Cancel Friend Request"
+msgstr "Vriendschapsverzoek annuleren"
+
+#: peepsofriends.php:604
+msgid "Unfriend"
+msgstr "Ontvrienden"
+
+#: peepsofriends.php:602
+msgid "Remove friend"
+msgstr "Vriend verwijderen"
+
+#: peepsofriends.php:597
+msgid "Friend"
+msgstr "Vriend"
+
+#: peepsofriends.php:537 templates/friends/dialog-remove-friend.php:10
+msgid "Cancel"
+msgstr "Annuleer"
+
+#: peepsofriends.php:535
+msgid "Are you sure?"
+msgstr "Weet je het zeker?"
+
+#: peepsofriends.php:534 peepsofriends.php:536
+#: templates/friends/dialog-remove-friend.php:7
+#: templates/friends/dialog-remove-friend.php:14
+msgid "Remove Friend"
+msgstr "Vriend Verwijderen"
+
+#: peepsofriends.php:439
+msgid "Friends Only"
+msgstr "Alleen vrienden"
+
+#: peepsofriends.php:308
+msgid "Get it now!"
+msgstr "Haal het nu!"
+
+#: peepsofriends.php:306
+msgid "The %s plugin requires the PeepSo plugin to be installed and activated."
+msgstr "De plugin %s vereist dat de PeepSo plugin wordt geïnstalleerd en geactiveerd."
+
+#: peepsofriends.php:180
+msgid "Pending friend requests"
+msgstr "Wachtende vriendschapsverzoeken"
+
+#: install/activate.php:86 peepsofriends.php:366 peepsofriends.php:367
+#: templates/friends/notification-popover-header.php:1
+msgid "Friend Requests"
+msgstr "Vriendschapsverzoeken"
+
+#: classes/widgets/widgetmutualfriends.php:16
+msgid "PeepSo Mutual Friends Widget"
+msgstr "PeepSo gemeenschappelijke vrienden Widget"
+
+#: classes/widgets/widgetmutualfriends.php:15
+msgid "PeepSo Mutual Friends"
+msgstr "PeepSo gemeenschappelijke vrienden"
+
+#: classes/widgets/widgetfriendsbirthday.php:204
+msgid "Max number of upcoming birthdays to show:"
+msgstr "Max aantal aanstaande verjaardagen te tonen:"
+
+#: classes/widgets/widgetfriendsbirthday.php:189
+msgid "How many days ahead?"
+msgstr "Hoeveel dagen in de toekomst?"
+
+#: classes/widgets/widgetfriendsbirthday.php:184
+msgid "Show upcoming birthdays"
+msgstr "Aanstaande Verjaardagen weergeven"
+
+#: classes/widgets/widgetfriendsbirthday.php:178
+msgid "Upcoming Birthdays"
+msgstr "Aanstaande verjaardagen"
+
+#: classes/widgets/widgetfriendsbirthday.php:175
+msgid "Hide if empty"
+msgstr "Verbergen indien leeg"
+
+#: classes/widgets/widgetfriendsbirthday.php:165
+msgid "Title"
+msgstr "Titel"
+
+#: classes/widgets/widgetfriendsbirthday.php:162
+msgid "General Settings"
+msgstr "Algemene instellingen"
+
+#: classes/widgets/widgetfriendsbirthday.php:149
+msgid "Upcoming Friends Birthdays"
+msgstr "Komende Verjaardagen van Vrienden"
+
+#: classes/widgets/widgetfriendsbirthday.php:15
+msgid "PeepSo Friends Birthday Widget"
+msgstr "PeepSo vrienden verjaardag Widget"
+
+#: classes/widgets/widgetfriendsbirthday.php:14
+msgid "PeepSo Friends Birthday"
+msgstr "PeepSo vrienden verjaardag"
+
+#: classes/widgets/widgetfriends.php:132
+msgid "My Friends"
+msgstr "Mijn Vrienden"
+
+#: classes/widgets/widgetfriends.php:18
+msgid "PeepSo Friends Widget"
+msgstr "PeepSo vrienden Widget"
+
+#: classes/widgets/widgetfriends.php:17
+msgid "PeepSo Friends"
+msgstr "PeepSo vrienden"
+
+#: classes/userautofriends.php:172
+msgid "The user has been successfully added."
+msgstr "De gebruiker werd succesvol toegevoegd"
+
+#: classes/userautofriends.php:121
+msgid "The user has been successfully removed."
+msgstr "De gebruiker werd succesvol verwijderd"
+
+#: classes/userautofriends.php:92
+msgid "The user is now friends with all other users."
+msgstr "De gebruiker is nu bevriend met alle andere gebruikers"
+
+#: classes/userautofriends.php:86 classes/userautofriends.php:115
+#: classes/userautofriends.php:166
+msgid "Could not verify nonce."
+msgstr "Kon geen enkele keer verifiëren."
+
+#: classes/userautofriends.php:53
+msgid "1 item"
+msgid_plural "%s items"
+msgstr[0] "1 item"
+msgstr[1] "% items"
+
+#: classes/userautofriends.php:15 classes/userautofriends.php:80
+#: classes/userautofriends.php:109 classes/userautofriends.php:138
+#: classes/userautofriends.php:160
+msgid "Insufficient permissions."
+msgstr "Onvoldoende toestemming."
+
+#: classes/friendsrequests.php:555 classes/friendsrequests.php:565
+msgid "Friend Request Ignored"
+msgstr "Vriendschapsverzoek genegeerd"
+
+#: classes/friendsrequests.php:545
+msgid "Friend Request Denied"
+msgstr "Vriendschapsverzoek geweigerd"
+
+#: classes/friendsrequests.php:520
+msgid "accepted your friend request"
+msgstr "heeft je vriendschapsverzoek geaccepteerd"
+
+#: classes/friendsrequests.php:502 classes/friendsrequests.php:509
+msgid "%s accepted your friend request"
+msgstr "%s heeft je vriendschapsverzoek geaccepteerd"
+
+#: classes/friendsrequests.php:475 classes/friendsrequests.php:482
+msgid "New Friend Request from %s"
+msgstr "Nieuw vriendschapsverzoek van %s"
+
+#: classes/friendsrequests.php:286 classes/friendsshortcode.php:145
+#: peepsofriends.php:862
+msgid " mutual friend"
+msgid_plural " mutual friends"
+msgstr[0] " gemeenschappelijke vriend"
+msgstr[1] " gemeenschappelijke vrienden"
+
+#: classes/friendsrequests.php:72 classes/friendsrequests.php:104
+#: classes/friendsrequests.php:142
+msgid "You do not have enough permissions."
+msgstr "U hebt niet voldoende machtigingen."
+
+#: classes/friendsrequests.php:58
+msgid "[FRIENDS] request already sent"
+msgstr "[FRIENDS] verzoek is al verzonden"
+
+#: classes/friendspostswidget.php:17
+msgid "This will select up to 5 posts, displaying the most recent post by each of up to five users that are friends."
+msgstr "Dit zal maximaal 5 berichten selecteren en van maximaal 5 vrienden het meest recente bericht van maximaal 5 vrienden weergeven."
+
+#: classes/friendspostswidget.php:16
+msgid "Friends Posts"
+msgstr "Berichten van vrienden"
+
+#: classes/friendsconfig.php:82
+msgid "This will be sent to a user when a friend request is accepted."
+msgstr "Dit zal worden verzonden aan een gebruiker wanneer een vriendschapsverzoek wordt aanvaard."
+
+#: classes/friendsconfig.php:81
+msgid "Friend Request Accepted"
+msgstr "Vriendschapsverzoek aanvaarden"
+
+#: classes/friendsconfig.php:77
+msgid "This will be sent to a user when a friend request is received."
+msgstr "Dit zal worden verzonden naar een gebruiker wanneer een vriendschapsverzoek wordt ontvangen."
+
+#: classes/friendsconfig.php:76
+msgid "Friend Request Received"
+msgstr "Vriendschapsverzoek ontvangen"
+
+#: classes/friendsconfig.php:60
+msgid "Friends Settings"
+msgstr "Vrienden instellingen"
+
+#: classes/friendsconfig.php:40
+msgid "Members can send messages to"
+msgstr "Leden kunnen berichten verzenden naar"
+
+#: classes/friendsajax.php:292 classes/widgets/widgetmutualfriends.php:109
+msgid "Mutual Friends"
+msgstr "Communitypelijke vrienden"
+
+#: classes/friendsajax.php:247
+msgid "%s has no friends yet"
+msgstr "%s heeft nog geen vrienden"
+
+#: classes/friendsajax.php:247
+msgid "You have no friends yet"
+msgstr "U heeft nog geen vrienden"
+
+#: classes/friendsajax.php:187 templates/friends/pending.php:33
+msgid "You currently have no friend requests"
+msgstr "Je hebt momenteel geen vriendschapsverzoeken"
+
+#: classes/friendsajax.php:46 classes/friendsajax.php:117 peepsofriends.php:675
+msgid "%s already has %d friends"
+msgstr "%s heeft al %d vrienden"
+
+#: classes/friendsajax.php:44 classes/friendsajax.php:119 peepsofriends.php:673
+msgid "You already have %d friends"
+msgstr "Je hebt al %d vrienden"
+
+#: classes/admin/userautofriendslisttable.php:224
+msgid "user"
+msgid_plural "users"
+msgstr[0] "Gebruiker"
+msgstr[1] "Gebruikers"
+
+#: classes/admin/userautofriendslisttable.php:218
+msgid "removed"
+msgstr "verwijderd"
+
+#: classes/admin/userautofriendslisttable.php:212
+msgid "befriend"
+msgstr "bevriend raken"
+
+#: classes/admin/userautofriendslisttable.php:167
+msgid "Remove from list autofriends creation."
+msgstr "Verwijder uit de lijst voor het maken van automatische vrienden."
+
+#: classes/admin/userautofriendslisttable.php:166
+#: classes/admin/userautofriendslisttable.php:192
+msgid "Remove"
+msgstr "Verwijderen"
+
+#: classes/admin/userautofriendslisttable.php:163
+msgid "Befriend All users."
+msgstr "Bevriend worden met alle gebruikers."
+
+#: classes/admin/userautofriendslisttable.php:162
+#: classes/admin/userautofriendslisttable.php:191
+msgid "Befriend All Users"
+msgstr "Bevriend alle gebruikers"
+
+#: classes/admin/userautofriendslisttable.php:90
+msgid "Actions"
+msgstr "Acties"
+
+#: classes/admin/userautofriendslisttable.php:89 install/activate.php:81
+#: peepsofriends.php:218 peepsofriends.php:571 peepsofriends.php:574
+#: peepsofriends.php:817 peepsofriends.php:882 peepsofriends.php:910
+#: templates/friends/submenu.php:9
+msgid "Friends"
+msgstr "Vrienden"
+
+#: classes/admin/userautofriendslisttable.php:88
+msgid "Name"
+msgstr "Naam"
+
+#: classes/admin/configsectionfriends.php:92
+msgid "Auto Friends"
+msgstr "Automatische vrienden"
+
+#: classes/admin/configsectionfriends.php:63
+msgid "Adding a user to the list below will automatically create friendship between that user and any newly registered user. It will not create friendships between this user and already existing ones. <br> To create missing friendship connections, please use the button on the right. Once clicked it'll add that user as friends to everyone else in your PeepSo community. <br> Removing user from the list below will <strong>NOT</strong> remove existing friendship connections. "
+msgstr "Door een gebruiker aan de onderstaande lijst toe te voegen, ontstaat er automatisch vriendschap tussen die gebruiker en elke nieuw geregistreerde gebruiker. Het zal geen vriendschappen creëren tussen deze gebruiker en reeds bestaande. <br> Gebruik de knop aan de rechterkant om ontbrekende vriendschapsverbindingen te creëren. Eenmaal aangeklikt, zal die gebruiker als vrienden worden toegevoegd aan alle anderen in uw PeepSo-community. <br> Door een gebruiker uit de onderstaande lijst te verwijderen, worden bestaande vriendschapsbanden <strong>NIET</strong> verwijderd."
+
+#: classes/admin/configsectionfriends.php:57
+msgid "search"
+msgstr "zoeken"
+
+#: classes/admin/configsectionfriends.php:35
+#: classes/admin/configsectionfriends.php:42
+msgid "Maximum amount of friends"
+msgstr "Maximum aantal vrienden"
+
+#: classes/admin/configsectionfriends.php:32
+msgid "Too many friendships can result in degraded performance for the user. Limit of friends applies to all users, including the administrators."
+msgstr "Te veel vriendschappen kunnen leiden tot verminderde prestaties voor de gebruiker. Limiet van vrienden geldt voor alle gebruikers, inclusief de beheerders."

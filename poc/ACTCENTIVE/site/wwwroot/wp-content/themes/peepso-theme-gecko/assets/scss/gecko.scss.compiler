@@ -1,0 +1,1 @@
+sass ../scss/gecko.scss:../css/gecko.css ../scss/gecko-rtl.scss:../css/gecko-rtl.css ../scss/admin.scss:../css/admin.css ../scss/customizer.scss:../css/customizer.css --watch --style=compressed --no-source-map

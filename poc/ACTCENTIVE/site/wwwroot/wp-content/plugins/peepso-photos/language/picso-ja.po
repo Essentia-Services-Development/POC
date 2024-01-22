@@ -1,0 +1,846 @@
+# Translation of PeepSo - Photos in Japanese
+# This file is distributed under the same license as the PeepSo - Photos package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-02-02 11:45:29+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/3.0.0\n"
+"Language: ja_JP\n"
+"Project-Id-Version: PeepSo - Photos\n"
+
+#: classes/photosajax.php:796
+msgid "Temporary file has been moved"
+msgid_plural "Temporary files has been moved"
+msgstr[0] ""
+
+#: classes/configsectionphotos.php:336
+msgid "Clear history"
+msgstr ""
+
+#: classes/configsectionphotos.php:229
+msgid "Photo size & quality"
+msgstr ""
+
+#: classes/configsectionphotos.php:121
+msgid "User limits"
+msgstr ""
+
+#: templates/photos/photo-album-custom.php:216
+#: templates/photos/photo-group-album-custom.php:221
+msgid "Comments are closed"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "PeepSo"
+msgstr "PeepSo"
+
+#. Description of the plugin/theme
+msgid "Photo uploads and albums"
+msgstr "写真のアップロードやアルバム"
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://peepso.com"
+msgstr "https://peepso.com"
+
+#. Plugin Name of the plugin/theme
+msgid "PeepSo Core: Photos"
+msgstr "PeepSo コア: 写真"
+
+#: templates/widgets/photos.tpl.php:31
+msgid "View All"
+msgstr "すべて表示"
+
+#: templates/widgets/community-photos.tpl.php:29
+#: templates/widgets/photos.tpl.php:40
+msgid "No photos"
+msgstr "写真がありません"
+
+#: templates/photos/postbox-photos.php:19
+msgid "Say something about this photo..."
+msgstr "この写真について何かを言う."
+
+#: templates/photos/postbox-photos.php:8
+msgid "Max photo dimensions: %1$s x %2$spx | Max file size: %3$sMB"
+msgstr "最大写真: %1$s × %2$spx |ファイルの最大サイズ: %3$sMB"
+
+#: templates/photos/postbox-photos.php:6
+msgid "Click here to start uploading photos"
+msgstr "画像のアップロードを開始するためにここをクリック"
+
+#: templates/photos/popup.php:11
+msgid "Close"
+msgstr ""
+
+#: templates/photos/photos.php:35
+msgid "Photo Albums"
+msgstr "アルバム"
+
+#: templates/photos/photos.php:33
+msgid "Recently added photos"
+msgstr "最近追加した画像"
+
+#: templates/photos/photos-group.php:34 templates/photos/photos.php:27
+msgid "Albums"
+msgstr "アルバム"
+
+#: templates/photos/photo-item-album.php:51
+msgid "Friends Only"
+msgstr "友だちのみ"
+
+#: templates/photos/photo-item-album.php:45
+msgid "Private"
+msgstr "プライベート"
+
+#: templates/photos/photo-item-album.php:40
+msgid "Members only"
+msgstr "メンバー限定"
+
+#: templates/photos/photo-item-album.php:35
+#: templates/photos/photo-item-album.php:53
+msgid "Public"
+msgstr "公開"
+
+#: templates/photos/photo-group-item-album.php:23
+#: templates/photos/photo-item-album.php:26
+msgid "%s photo"
+msgid_plural "%s photos"
+msgstr[0] "%s 写真"
+
+#: templates/photos/photo-comment.php:31 templates/photos/photo-item.php:27
+msgid "Gif"
+msgstr "Gif"
+
+#: templates/photos/photo-comment.php:22
+msgid "Uploaded a photo"
+msgstr "写真をアップロードしました"
+
+#: templates/photos/photo-comment.php:21
+msgid "%s uploaded a photo"
+msgstr "%s が写真をアップロードしました"
+
+#: templates/photos/photo-album.php:14
+#: templates/photos/photo-group-album.php:19
+msgid "Back to Photos"
+msgstr "写真に戻る"
+
+#: templates/photos/photo-album.php:10
+#: templates/photos/photo-group-album.php:15
+msgid "%s Album"
+msgstr "%sアルバム"
+
+#: templates/photos/photo-album-upload.php:24
+msgid "Add photos to album"
+msgstr "写真をアルバムに追加"
+
+#: templates/photos/photo-album-upload.php:17
+msgid "Upload Photo"
+msgstr "写真をアップロード"
+
+#: templates/photos/photo-album-upload.php:1
+msgid "Photo privacy is inherited from the album"
+msgstr "写真のプライバシーはアルバムと同じものです。"
+
+#: templates/photos/photo-album-dialog.php:56
+#: templates/photos/photo-album-dialog.php:63
+#: templates/photos/photos-group.php:27 templates/photos/photos.php:20
+#: templates/photos/photos.php:41
+msgid "Create Album"
+msgstr "アルバムを作成"
+
+#: templates/photos/photo-album-dialog.php:49
+#: templates/photos/photo-album-upload.php:9
+msgid "Please select at least one photo to be uploaded"
+msgstr "アルバムをアップロードするために少なくとも1つの写真を選択してください。"
+
+#: templates/photos/photo-album-dialog.php:46
+#: templates/photos/photo-album-upload.php:6
+msgid "Upload photos to album"
+msgstr "写真をアルバムにアップロード"
+
+#: templates/photos/photo-album-dialog.php:21
+msgid "Album privacy"
+msgstr "アルバムプライバシー"
+
+#: templates/photos/photo-album-dialog.php:13
+msgid "Album name can't be empty"
+msgstr "アルバム名は空にできません"
+
+#: templates/photos/photo-album-dialog.php:9
+msgid "Album name"
+msgstr "アルバム名"
+
+#: templates/photos/photo-album-custom.php:205
+#: templates/photos/photo-group-album-custom.php:211
+msgid "Post"
+msgstr "投稿"
+
+#: templates/photos/photo-album-custom.php:204
+#: templates/photos/photo-group-album-custom.php:210
+msgid "Clear"
+msgstr "クリア"
+
+#: templates/photos/photo-album-custom.php:192
+#: templates/photos/photo-group-album-custom.php:198
+msgid "Write a comment..."
+msgstr "コメントする"
+
+#: templates/photos/photo-album-custom.php:148
+#: templates/photos/photo-album.php:28
+#: templates/photos/photo-group-album-custom.php:150
+#: templates/photos/photo-group-album.php:33
+#: templates/photos/photos-group.php:42 templates/photos/photos.php:48
+msgid "Oldest first"
+msgstr "古い順"
+
+#: templates/photos/photo-album-custom.php:147
+#: templates/photos/photo-album.php:27
+#: templates/photos/photo-group-album-custom.php:149
+#: templates/photos/photo-group-album.php:32
+#: templates/photos/photos-group.php:41 templates/photos/photos.php:47
+msgid "Newest first"
+msgstr "新しい順"
+
+#: templates/photos/photo-album-custom.php:142
+#: templates/photos/photo-album.php:22
+#: templates/photos/photo-group-album-custom.php:144
+#: templates/photos/photo-group-album.php:27
+#: templates/photos/photos-group.php:21 templates/photos/photos.php:14
+msgid "Large thumbnails"
+msgstr ""
+
+#: templates/photos/photo-album-custom.php:141
+#: templates/photos/photo-album.php:21
+#: templates/photos/photo-group-album-custom.php:143
+#: templates/photos/photo-group-album.php:26
+#: templates/photos/photos-group.php:20 templates/photos/photos.php:13
+msgid "Small thumbnails"
+msgstr ""
+
+#: templates/photos/photo-album-custom.php:126
+#: templates/photos/photo-group-album-custom.php:128
+msgid "Save description"
+msgstr "詳細を保存"
+
+#: templates/photos/photo-album-custom.php:119
+#: templates/photos/photo-group-album-custom.php:121
+msgid "No description"
+msgstr "詳細情報がありません"
+
+#: templates/photos/photo-album-custom.php:100
+#: templates/photos/photo-group-album-custom.php:102
+msgid "Description privacy"
+msgstr ""
+
+#: templates/photos/photo-album-custom.php:92
+#: templates/photos/photo-group-album-custom.php:94
+msgid "Edit description"
+msgstr ""
+
+#: templates/photos/photo-album-custom.php:90
+#: templates/photos/photo-album-dialog.php:36
+#: templates/photos/photo-group-album-custom.php:92
+msgid "Album description"
+msgstr "アルバムの詳細"
+
+#: templates/photos/photo-album-custom.php:68
+#: templates/photos/photo-group-album-custom.php:70
+msgid "Edit title"
+msgstr ""
+
+#: templates/photos/photo-album-custom.php:62
+#: templates/photos/photo-group-album-custom.php:64
+msgid "Save"
+msgstr "保存"
+
+#: templates/photos/photo-album-custom.php:60
+#: templates/photos/photo-album-custom.php:123
+#: templates/photos/photo-album-dialog.php:59
+#: templates/photos/photo-album-upload.php:20
+#: templates/photos/photo-group-album-custom.php:62
+#: templates/photos/photo-group-album-custom.php:125
+msgid "Cancel"
+msgstr ""
+
+#: templates/photos/photo-album-custom.php:49
+#: templates/photos/photo-group-album-custom.php:51
+msgid "Add Photos"
+msgstr "写真を追加"
+
+#: templates/photos/photo-album-custom.php:37
+#: templates/photos/photo-group-album-custom.php:40
+msgid "Back"
+msgstr "戻る"
+
+#: templates/photos/photo-album-custom.php:28
+#: templates/photos/photo-group-album-custom.php:31
+msgid "Are you sure you want to delete this album?"
+msgstr "このアルバムを削除してよろしいですか？"
+
+#: templates/photos/photo-album-custom.php:24
+#: templates/photos/photo-group-album-custom.php:27
+msgid "Remove album"
+msgstr ""
+
+#: templates/photos/modal-photo-item.php:31
+msgid "Set as my cover"
+msgstr ""
+
+#: templates/photos/modal-photo-item.php:30
+msgid "Set as my avatar"
+msgstr ""
+
+#: templates/photos/modal-photo-item.php:27
+msgid "Options"
+msgstr "オプション"
+
+#: peepsosharephotos.php:2217
+msgid "Post updates on Activity Stream when user changes groups cover."
+msgstr "ユーザーがグループの写真を変えたとき、アクティビティ ストリームに更新を投稿します。"
+
+#: peepsosharephotos.php:2216
+msgid "Enable post updates upon groups cover change"
+msgstr "グループのカバーを変更した時に、投稿更新を有効にします。"
+
+#: peepsosharephotos.php:2209
+msgid "Post updates on Activity Stream when user changes groups avatar."
+msgstr "ユーザーがグループ写真を変えたときに、アクティビティ ストリームに更新を投稿します。"
+
+#: peepsosharephotos.php:2208
+msgid "Enable post updates upon groups avatar change"
+msgstr "グループ 写真の変更時に記事更新を有効にします。"
+
+#: peepsosharephotos.php:2192
+msgid "Post updates on Activity Stream when user changes profile cover."
+msgstr "ユーザーがプロフィールカバーを変えたときに、アクティビティ ストリームに更新を投稿します。"
+
+#: peepsosharephotos.php:2191
+msgid "Enable post updates upon user cover change"
+msgstr "ユーザー カバー写真における投稿の更新を有効にします。"
+
+#: peepsosharephotos.php:2184
+msgid "Post updates on Activity Stream when user changes profile avatar."
+msgstr "ユーザーがプロフィール写真を変えたとき、アクティビティ ストリームに更新を投稿します。"
+
+#: peepsosharephotos.php:2183
+msgid "Enable post updates upon user avatar change"
+msgstr "ユーザー 写真変更時の投稿更新を有効にします。"
+
+#: peepsosharephotos.php:1887
+msgid "Upload photos"
+msgstr "写真をアップロード"
+
+#: peepsosharephotos.php:1674
+msgid "Delete Album"
+msgstr "アルバムを削除します。"
+
+#: peepsosharephotos.php:1288
+msgid "cover photo"
+msgstr "表紙の写真"
+
+#: peepsosharephotos.php:1283
+msgid "avatar"
+msgstr "写真"
+
+#: peepsosharephotos.php:1275 peepsosharephotos.php:1298
+msgid "photo"
+msgid_plural "photos"
+msgstr[0] "写真"
+
+#: peepsosharephotos.php:1263
+msgid "album"
+msgstr "アルバム"
+
+#: peepsosharephotos.php:800
+msgid " shared photos"
+msgstr "写真を共有しました"
+
+#: peepsosharephotos.php:792
+msgid " uploaded %1$d photo"
+msgid_plural " uploaded %1$d photos"
+msgstr[0] "写真%1$d をアップロードしました"
+
+#: peepsosharephotos.php:787
+msgid " added %1$d photo to the album: <a href=\"%3$s\">%2$s</a>"
+msgid_plural " added %1$d photos to the album: <a href=\"%3$s\">%2$s</a>"
+msgstr[0] " %1$d の写真がアルバムに追加: <a href=\"%3$s\">%2$s</a>"
+
+#: peepsosharephotos.php:769
+msgid " uploaded a new profile cover"
+msgstr " 新しいプロフィールカバーをアップロード"
+
+#: peepsosharephotos.php:766
+msgid " uploaded a new avatar"
+msgstr " 新しい写真のアップロード"
+
+#: peepsosharephotos.php:660
+msgid "Photo"
+msgstr "写真"
+
+#: peepsosharephotos.php:519 templates/photos/postbox-photos.php:18
+msgid "Supported formats are: gif, jpg, jpeg, tiff, png, and webp."
+msgstr ""
+
+#: peepsosharephotos.php:518
+msgid "Only "
+msgstr "だけ"
+
+#: peepsosharephotos.php:489 peepsosharephotos.php:1471
+msgid "Upload Failed! Please try again."
+msgstr "アップロードに失敗しました。 後ほど再試行してください。"
+
+#: peepsosharephotos.php:433 peepsosharephotos.php:577
+#: peepsosharephotos.php:1394 peepsosharephotos.php:1422
+#: peepsosharephotos.php:1433 templates/photos/photos-group.php:33
+#: templates/photos/photos.php:26
+msgid "Photos"
+msgstr "写真"
+
+#: peepsosharephotos.php:412
+msgid "Get it now!"
+msgstr "今すぐトライ"
+
+#: peepsosharephotos.php:410
+msgid "The %s plugin requires the PeepSo plugin to be installed and activated."
+msgstr "%s プラグインには、PeepSo プラグインをインストールしてアクティブ化が必要です。"
+
+#: peepsosharephotos.php:325
+msgid "Stream Photos"
+msgstr "ストリーム写真"
+
+#: peepsosharephotos.php:321
+msgid "Profile Covers"
+msgstr "プロフィールカバー"
+
+#: peepsosharephotos.php:317
+msgid "Profile Avatars"
+msgstr "プロフィール写真"
+
+#: classes/widgets/widgetphotos.php:112
+msgid "My Photos"
+msgstr "私の写真"
+
+#: classes/widgets/widgetphotos.php:13
+msgid "PeepSo Photos Widget"
+msgstr "PeepSo 写真ウィジェット"
+
+#: classes/widgets/widgetphotos.php:12 peepsosharephotos.php:436
+msgid "PeepSo Photos"
+msgstr "PeepSo 写真"
+
+#: classes/widgets/widgetcommunityphotos.php:95
+msgid "Latest Photos"
+msgstr "最新の写真"
+
+#: classes/widgets/widgetcommunityphotos.php:12
+#: classes/widgets/widgetcommunityphotos.php:13
+msgid "PeepSo Community Photos"
+msgstr "PeepSo コミュニティ写真"
+
+#: classes/photosmodel.php:663
+msgid "There was an error removing the file %1$s. Error: %2$s"
+msgstr "ファイル %1$sを削除するときにエラーが発生しました。エラー: %2$s"
+
+#: classes/photosmodel.php:657
+msgid "There was a problem when deleting the file"
+msgstr "ファイルを削除する際に問題が発生しました"
+
+#: classes/photosmodel.php:637
+msgid "There was an error setting up Amazon S3 library."
+msgstr "アマゾン S3 ライブラリを設定中にエラーがありました。"
+
+#: classes/photosmodel.php:614
+msgid "There was a problem when uploading the file"
+msgstr "ファイルをアップロードする際に問題が発生しました"
+
+#: classes/photosmodel.php:532
+msgid "Missing Amazon configuration."
+msgstr "アマゾンの構築を失いました。"
+
+#: classes/photosajax.php:1202
+msgid "You do not have permission to do that."
+msgstr "これを行う権限を持っていません。"
+
+#: classes/photosajax.php:1147
+msgid "You are not authorized to change this album access."
+msgstr "アルバムのアクセス変更が許可されていません。"
+
+#: classes/photosajax.php:1142
+msgid "Photo Album access changed."
+msgstr "アルバムのアクセスを変更しました。"
+
+#: classes/photosajax.php:1114
+msgid "Invalid extra field."
+msgstr "不正な追加フィールド"
+
+#: classes/photosajax.php:1085
+msgid "You are not authorized to change this album description."
+msgstr "アルバムの詳細を変更することが許可されていません。"
+
+#: classes/photosajax.php:1080
+msgid "Photo Album description saved."
+msgstr "アルバムの詳細を保存しました。"
+
+#: classes/photosajax.php:1025
+msgid "Photo Album name saved."
+msgstr "アルバムの名前を保存しました。"
+
+#: classes/photosajax.php:998 classes/photosajax.php:1030
+msgid "You are not authorized to change this album name."
+msgstr "アルバムの名前の変更が許可されていません。"
+
+#: classes/photosajax.php:993
+msgid "Photo Album has been deleted."
+msgstr "フォト アルバムが削除されています。"
+
+#: classes/photosajax.php:913
+msgid "You are not authorized to add photos."
+msgstr "写真を追加する権限がありません。"
+
+#: classes/photosajax.php:907
+msgid "Activity is not found."
+msgstr "アクティビティが見つかりません。"
+
+#: classes/photosajax.php:904
+msgid "New photos added"
+msgstr "新しい写真を追加しました"
+
+#: classes/photosajax.php:845 classes/photosajax.php:948
+msgid "Temporary file has been deleted"
+msgid_plural "Temporary files has been deleted"
+msgstr[0] "一時ファイルが削除されています。"
+
+#: classes/photosajax.php:728
+msgid "You are not authorized to create album for this user."
+msgstr "このユーザーのためのアルバムを作成する権限がありません。"
+
+#: classes/photosajax.php:723
+msgid "Album "
+msgstr "アルバム"
+
+#: classes/photosajax.php:659
+msgid "You are not authorized to use this photo as cover."
+msgstr "この写真を顔写真として使用することはできません。"
+
+#: classes/photosajax.php:654
+msgid "Your profile cover has been changed."
+msgstr "あなたのプロフィールカバー写真が変更されました。"
+
+#: classes/photosajax.php:603 classes/photosajax.php:665
+#: classes/photosajax.php:734 classes/photosajax.php:919
+msgid "Photo not found"
+msgstr "写真が見つかりませんでした。"
+
+#: classes/photosajax.php:597
+msgid "You are not authorized to use this photo as avatar."
+msgstr "この写真を顔写真として使用することはできません。"
+
+#: classes/photosajax.php:592
+msgid "Your avatar has been changed."
+msgstr "写真が変更されてました。"
+
+#: classes/photosajax.php:551 classes/photosajax.php:616
+#: classes/photosajax.php:678 classes/photosajax.php:743
+#: classes/photosajax.php:809 classes/photosajax.php:857
+#: classes/photosajax.php:932 classes/photosajax.php:960
+#: classes/photosajax.php:1011 classes/photosajax.php:1043
+#: classes/photosajax.php:1128
+msgid "Request could not be verified."
+msgstr "リクエストは認証されませんでした。"
+
+#: classes/photosajax.php:426
+msgid "%s doesn't have any photos yet"
+msgstr "%s は、写真をまだ持っていません"
+
+#: classes/photosajax.php:426
+msgid "You don't have any photos yet"
+msgstr "動画をまだありません。"
+
+#: classes/photosajax.php:369
+msgid "Maximum file upload quota reached. Delete posts with photos to free some space."
+msgstr "最大アップロードに達しました。領域を解放するために写真の投稿を削除してください。"
+
+#: classes/photosajax.php:367
+msgid "Only files up to %1$dMB are allowed."
+msgstr "%1$dMB までのファイルのみを許可します。"
+
+#: classes/photosajax.php:365
+msgid "Maximum photo upload quota reached. Delete posts with photos to free some space."
+msgstr "1日あたりのファイル最大アップロードに達しました。領域を解放するためには、写真の投稿を削除してください。"
+
+#: classes/photosajax.php:361
+msgid "Maximum daily photo upload quota reached. Delete posts with photos to free some space."
+msgstr "1日あたりのファイル最大アップロードに達しました。領域を解放するためには、写真の投稿を削除してください。"
+
+#: classes/photosajax.php:163
+msgid "Image exceeds maximum photo size of %1$d x %2$d."
+msgstr "%1$d x %2$dの最大の写真サイズを超過しています 。"
+
+#: classes/photosajax.php:159
+msgid "Only photos with a maximum of %1$d pixel height are allowed, please resize."
+msgstr "最大 %1$d ピクセルの高さの写真だけが許可されています。サイズ変更してください。"
+
+#: classes/photosajax.php:157
+msgid "Only photos with a maximum of %1$d pixel width are allowed, please resize."
+msgstr "最大%1$d ピクセル幅のの写真が許可されています。リサイズしてください。"
+
+#: classes/photosajax.php:117
+msgid "Only files up to %1$dMB are allowed"
+msgstr "%1$dMB までのファイルのみを許可します。"
+
+#: classes/photosajax.php:92
+msgid "Maximum file upload quota reached. Delete posts with photos to free some space"
+msgstr "ファイルの最大アップロードに達しました。領域を解放するために写真の投稿を削除します。"
+
+#: classes/photosadmin.php:304
+msgid "Photo %1$d of post %2$s"
+msgstr "投稿%2$s の写真 %1$d"
+
+#: classes/photosadmin.php:295
+msgid "Photo of post %s"
+msgstr "投稿%s の写真"
+
+#: classes/photosadmin.php:266
+msgid "Configure the use of PeepSo Share Photos."
+msgstr "PeepSo 写真の共有の使用を構成します。"
+
+#: classes/photosadmin.php:263
+msgid "Photos Settings"
+msgstr "写真設定"
+
+#: classes/photosadmin.php:213
+msgid "The AWS Secret Key you received when you signed up for AWS (40 characters)"
+msgstr "AWSにサインアップしたときに、受信したSecret  Key ID（40字）"
+
+#: classes/photosadmin.php:184
+msgid "Turn on the use of Amazon AWS for image storage"
+msgstr "画像の保存のためのアマゾン AWS の使用をオンにする。"
+
+#: classes/photosadmin.php:45
+msgid "WordPress maximum upload size allowed is %1$sMB"
+msgstr "ワードプレスのアップロード最大サイズは、%1$sMBです。"
+
+#: classes/configsectionphotos.php:359
+msgid "AWS"
+msgstr "AWS"
+
+#: classes/configsectionphotos.php:347 classes/photosadmin.php:267
+msgid "To enable the use of AWS, set the \"Enable AWS S3 Storage\" to \"YES\" and fill in the additional settings fields.<br/>To get your AWS Access ID and Keys, you can sign up here: %sGet Your AWS Access Keys%s."
+msgstr ""
+
+#: classes/configsectionphotos.php:337 classes/photosadmin.php:252
+msgid "AWS Error History:"
+msgstr "AWSエラーヒストリー"
+
+#: classes/configsectionphotos.php:325
+msgid "Don't keep a local copy of uploaded files"
+msgstr "アップロードされたファイルのローカルコピーを保持しない"
+
+#: classes/configsectionphotos.php:322
+msgid "Disabling AWS S3 will cause photos to disappear, because photos will not be redownloaded"
+msgstr "AWS S3 を無効にすると、再ダウンロードされないため、写真が消えてしまいます。"
+
+#: classes/configsectionphotos.php:318
+msgid "Bucket location"
+msgstr "バケツの位置"
+
+#: classes/configsectionphotos.php:312
+msgid "US West (Oregon)"
+msgstr "アメリカ西海岸（オレゴン）"
+
+#: classes/configsectionphotos.php:311
+msgid "US West (N. California)"
+msgstr "アメリカ西海岸（カルフォルニア北部）"
+
+#: classes/configsectionphotos.php:310
+msgid "US East (Ohio)"
+msgstr "アメリカ東海岸（オハイオ）"
+
+#: classes/configsectionphotos.php:309
+msgid "US East (N. Virginia)"
+msgstr "アメリカ東海岸（バージニア北部）"
+
+#: classes/configsectionphotos.php:308
+msgid "South America (São Paulo)"
+msgstr "南アメリカ（サンパウロ）"
+
+#: classes/configsectionphotos.php:307
+msgid "EU (Paris)"
+msgstr "EU（パリ）"
+
+#: classes/configsectionphotos.php:306
+msgid "EU (London)"
+msgstr "EU（ロンドン）"
+
+#: classes/configsectionphotos.php:305
+msgid "EU (Ireland)"
+msgstr "EU（アイルランド）"
+
+#: classes/configsectionphotos.php:304
+msgid "EU (Frankfurt)"
+msgstr "EU (フランクフルト)"
+
+#: classes/configsectionphotos.php:303
+msgid "Canada (Central)"
+msgstr "カナダ（標準）"
+
+#: classes/configsectionphotos.php:302
+msgid "Asia Pacific (Tokyo)"
+msgstr "アジア太平洋地域（東京）"
+
+#: classes/configsectionphotos.php:301
+msgid "Asia Pacific (Sydney)"
+msgstr "アジア太平洋地域（シドニー）"
+
+#: classes/configsectionphotos.php:300
+msgid "Asia Pacific (Singapore)"
+msgstr "アジア太平洋地域（シンガポール）"
+
+#: classes/configsectionphotos.php:299
+msgid "Asia Pacific (Seoul)"
+msgstr "アジア太平洋地域（ソウル）"
+
+#: classes/configsectionphotos.php:298
+msgid "Asia Pacific (Mumbai)"
+msgstr "アジア太平洋地域（ムンバイ）"
+
+#: classes/configsectionphotos.php:293 classes/photosadmin.php:230
+msgid "Amazon S3 Bucket"
+msgstr "アマゾンS3 Bucket "
+
+#: classes/configsectionphotos.php:286 classes/photosadmin.php:238
+msgid "Amazon S3 Bucket is required"
+msgstr "アマゾンS3 Bucket は必要"
+
+#: classes/configsectionphotos.php:280 classes/photosadmin.php:231
+msgid "Name of the Bucket to upload your images to on Amazon S3"
+msgstr ""
+
+#: classes/configsectionphotos.php:276 classes/photosadmin.php:212
+msgid "Amazon Secret Access Key"
+msgstr "アマゾンSecret Access Key "
+
+#: classes/configsectionphotos.php:269 classes/photosadmin.php:220
+msgid "Amazon Secret Access Key is required"
+msgstr "アマゾンSecret  Access Keyが必要"
+
+#: classes/configsectionphotos.php:260 classes/photosadmin.php:194
+msgid "Amazon Access Key ID"
+msgstr "アマゾンAccess Key ID"
+
+#: classes/configsectionphotos.php:253 classes/photosadmin.php:202
+msgid "Amazon Access Key ID is required"
+msgstr "アマゾンAccess Key IDが必要"
+
+#: classes/configsectionphotos.php:247 classes/photosadmin.php:195
+msgid "The Access Key ID you received when you signed up for AWS (20 characters)"
+msgstr "AWSにサインアップしたときに、受信したAccess Key ID（20字）"
+
+#: classes/configsectionphotos.php:243 classes/photosadmin.php:183
+msgid "Enable AWS S3 storage"
+msgstr "AWS S3USBストレージを有効にする"
+
+#: classes/configsectionphotos.php:44
+msgid "General"
+msgstr "一般"
+
+#: classes/configsectionphotos.php:38
+msgid "Autoplay GIFs"
+msgstr ""
+
+#: classes/configsectionphotos.php:223 classes/photosadmin.php:162
+msgid "Thumbnail quality"
+msgstr "サムネイルのクオリティ"
+
+#: classes/configsectionphotos.php:201 classes/photosadmin.php:142
+msgid "Image quality"
+msgstr "写真のクオリティ"
+
+#: classes/configsectionphotos.php:191 classes/configsectionphotos.php:213
+#: classes/photosadmin.php:138 classes/photosadmin.php:158
+msgid "recommended"
+msgstr "おすすめ"
+
+#: classes/configsectionphotos.php:180 classes/photosadmin.php:172
+msgid "Maximum image height"
+msgstr "画像の最大高さ"
+
+#: classes/configsectionphotos.php:168 classes/photosadmin.php:121
+msgid "Maximum image width"
+msgstr "画像の最大幅"
+
+#: classes/configsectionphotos.php:156 classes/photosadmin.php:110
+msgid "Photo Upload Behavior"
+msgstr "写真アップロード"
+
+#: classes/configsectionphotos.php:145 classes/photosadmin.php:105
+msgid "Resize"
+msgstr "リサイズ"
+
+#: classes/configsectionphotos.php:144 classes/photosadmin.php:104
+msgid "Use Original"
+msgstr "デフォルトを使用"
+
+#: classes/configsectionphotos.php:115 classes/photosadmin.php:94
+msgid "Daily photo upload limit per user"
+msgstr "１ユーザーが1日にアップロードできる制限数"
+
+#: classes/configsectionphotos.php:104 classes/photosadmin.php:89
+msgid "50"
+msgstr "50"
+
+#: classes/configsectionphotos.php:103 classes/photosadmin.php:88
+msgid "20"
+msgstr "20"
+
+#: classes/configsectionphotos.php:102 classes/photosadmin.php:87
+msgid "10"
+msgstr "10"
+
+#: classes/configsectionphotos.php:101 classes/photosadmin.php:86
+msgid "5"
+msgstr "5"
+
+#: classes/configsectionphotos.php:94 classes/photosadmin.php:75
+msgid "Maximum number of Photos per User"
+msgstr "ユーザーあたりの最大の写真数"
+
+#: classes/configsectionphotos.php:83 classes/photosadmin.php:70
+msgid "1000"
+msgstr "1000"
+
+#: classes/configsectionphotos.php:82 classes/photosadmin.php:69
+msgid "500"
+msgstr "500"
+
+#: classes/configsectionphotos.php:81 classes/photosadmin.php:68
+msgid "250"
+msgstr "250"
+
+#: classes/configsectionphotos.php:80 classes/photosadmin.php:67
+msgid "100"
+msgstr "100"
+
+#: classes/configsectionphotos.php:79 classes/configsectionphotos.php:100
+#: classes/photosadmin.php:66 classes/photosadmin.php:85
+msgid "Unlimited"
+msgstr "無制限"
+
+#: classes/configsectionphotos.php:74 classes/photosadmin.php:56
+msgid "Allowed space per user in megabytes"
+msgstr "1人ユーザーあたりに許されているスペース（MB)"
+
+#: classes/configsectionphotos.php:71
+msgid "Set 0 for Unlimited"
+msgstr "無制限の場合0に設定する"
+
+#: classes/configsectionphotos.php:32 classes/photosadmin.php:44
+msgid "Maximum upload size in megabytes"
+msgstr "最大のアップロードサイズ（MB)"
+
+#: classes/configsectionphotos.php:29
+msgid "WordPress maximum upload size allowed is %1$sMB. WordPress setting takes priority over PeepSo. If you want to allow bigger file uploads please look into WrodPress and / or your server configuration."
+msgstr "WordPressの最大アップロードサイズは %1$sMBです。WordPressの設定がPeepSOよりも優先されます。 大きなファイルアップロードを許可したい場合は、WrodPress またはサーバーの設定を確認してください。"

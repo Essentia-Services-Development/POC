@@ -1,0 +1,209 @@
+.fsp-modal-option{
+    padding-left: 25px!important;
+    padding-right: 25px!important;
+}
+
+.fsp-request-url-input-group {
+    display: flex;
+}
+
+.fsp-request-url-input-group > div:first-child {
+    width: 70px;
+}
+
+.fsp-request-url-input-group > div:first-child > select {
+    width: 100%;
+    height: 100%;
+    border-radius: 0px;
+    border-left: 1px solid #e3eaf3;
+    border-top: 1px solid #e3eaf3;
+    border-bottom: 1px solid #e3eaf3;
+    border-right: none;
+    border-bottom-left-radius: 2px !important;
+    border-top-left-radius: 2px !important;
+    color: #292d32 !important;
+    appearance: none;
+    background: url(../../../Base/Assets/img/arrow-down-xs.svg) #fff no-repeat 95%!important;
+    font-family: Poppins, sans-serif;
+}
+
+.fsp-request-url-input-group > div:first-child > select:focus,
+.fsp-request-url-input-group > div:first-child > select:hover,
+.fsp-request-url-input-group > div:first-child > select:active {
+    outline: none !important;
+    border-left: 1px solid #e3eaf3 !important;
+    border-top: 1px solid #e3eaf3 !important;
+    border-bottom: 1px solid #e3eaf3 !important;
+    border-right: none !important;
+    color: #292d32 !important;
+    box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+}
+
+.fsp-request-url-input-group > div:last-child {
+    width: calc(100% - 70px);
+}
+
+.fsp-request-url-input-group > div:last-child input {
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 0px;
+    background-color: #ffffff !important;
+    border: 1px solid #e3eaf3 !important;
+    border-bottom-right-radius: 2px !important;
+    border-top-right-radius: 2px !important;
+    color: #292d32 !important;
+    display: block;
+    font-family: Poppins, sans-serif;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 24px !important;
+    padding: 12px 20px !important;
+    width: 100%;
+    -webkit-transition: 0.2s;
+    -o-transition: 0.2s;
+    transition: 0.2s;
+}
+
+.fsp-request-url-input-group > div:last-child input:focus {
+    outline: none !important;
+}
+
+.fsp-request-url-input-group > div:last-child input:focus {
+    outline: none !important;
+}
+
+.fsp-show-tags-label{
+    cursor: pointer;
+}
+
+
+
+
+.with_keywords_wrapper
+{
+    position: relative;
+}
+.with_keywords_wrapper .keywords_list_icon
+{
+    position: absolute;
+    top: 12px;
+    /*bottom: 0;*/
+    right: 12px;
+    height: 24px;
+    /*margin: auto;*/
+    color: #ff595e;
+    background: #FFF;
+    padding: 5px;
+    cursor: pointer;
+}
+.keywords_list
+{
+    position: absolute;
+    width: 100%;
+    background: #FFF;
+    border: 1px solid #e3eaf3;
+    min-height: 200px;
+    top: 45px;
+    right: 0;
+    z-index: 9;
+}
+.keywords_search_wrapper
+{
+    padding: 5px;
+}
+.keywords_list_inner
+{
+    padding: 5px;
+    max-height: 300px;
+    overflow: auto;
+}
+.keywords_list_inner > a
+{
+    padding: 5px;
+    font-size: 12px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none!important;
+    outline: none;
+}
+
+.keywords_list_inner > a:focus
+{
+    background: #e3eaf3;
+    text-decoration: none!important;
+}
+
+.keywords_list_inner > a:hover
+{
+    background: #e3eaf3;
+    text-decoration: none!important;
+}
+
+.keywords_list_inner > a > div:first-child {
+    color: #007bff;
+    margin-right: 8px;
+    max-width: 160px;
+}
+
+.keywords_list_inner > a > div:last-child {
+    color: #9ba6af;
+    flex-shrink: 0;
+}
+
+.fsp-key-val-group{
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.fsp-key-val-group > div:not(:last-child) {
+    margin-right: 10px;
+}
+
+.fsp-key-val-group > button{
+    padding: 0px 18px;
+}
+
+.with_keywords,
+.fsp-form-input{
+    margin: 0px !important;
+}
+
+.with_keywords::placeholder{
+    color: #828f9a !important;
+}
+
+.with_keywords::-webkit-input-placeholder{
+    color: #828f9a !important;
+}
+
+.with_keywords::-ms-input-placeholder{
+    color: #828f9a !important;
+}
+
+.with_keywords::-moz-placeholder{
+    color: #828f9a !important;
+}
+
+.fsp-request-content-json,
+.fsp-request-content-form-data{
+    margin-top: 10px;
+}
+
+.fsp-webhook-s2-template{
+    display: flex;
+    flex-direction: row;
+}
+
+.fsp-webhook-s2-template img{
+    border-radius: 50%;
+    height: 30px;
+    width: auto;
+}
+
+.fsp-webhook-s2-template span{
+    margin-left: 10px;
+    font-size: 16px;
+    line-height: 30px;
+}

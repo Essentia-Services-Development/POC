@@ -1,0 +1,185 @@
+//
+//  HELPER: FORM
+//
+
+
+
+//
+//  Form row
+//
+%form-row {
+  @extend %clearfix;
+
+  margin-bottom: $padding-sm;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+
+%form-row--single {
+  @extend %clearfix;
+
+  margin-bottom: $padding-sm;
+}
+
+
+//
+//  Form label
+//
+%form-label {
+  display: block;
+
+  @include media('medium') {
+    width: 40%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    @if $scss-direction == rtl {
+      float: right;
+    } @else {
+      float: left;
+    }
+  }
+}
+
+
+//
+//  Form controls
+//
+%form-controls {
+  margin-top: $padding-sm;
+
+  @include media('medium') {
+    width: 60%;
+    margin-top: 0;
+
+    @if $scss-direction == rtl {
+      float: right;
+    } @else {
+      float: left;
+    }
+  }
+}
+
+
+//
+//  Form column
+//
+%form-col {
+  @include media('medium') {
+    float: left;
+    width: 50%;
+    padding-right: $padding-base;
+
+    &:nth-child(3n) {
+      padding-right: $padding-base;
+
+      &:before {
+        clear: both;
+      }
+    }
+
+    &:nth-child(2n) {
+      padding-left: $padding-base;
+      padding-right: 0;
+    }
+
+    &:last-child {
+      padding-right: 0;
+    }
+  }
+}
+
+
+//
+//  Checkbox & Radio
+//
+%form-checkbox {
+  [type="checkbox"],
+  [type="radio"] {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+
+    + label {
+      display: inline-block;
+      margin: 0;
+
+      @if $scss-direction == rtl {
+        padding-right: 25px;
+      } @else {
+        padding-left: 25px;
+      }
+
+      &:before,
+      &:after {
+        position: absolute;
+        z-index: 0;
+        top: 50%;
+        display: block;
+        width: 16px;
+        height: 16px;
+        background-color: $scss-checkbox__bg;
+        border: 1px solid transparent;
+        content: ' ';
+        transform: translateY(-50%);
+
+        @if $scss-direction == rtl {
+          right: 0;
+        } @else {
+          left: 0;
+        }
+
+        // ROUNDED CORNERS
+        @if $scss-rounded == true {
+          border-radius: 20%;
+        }
+      }
+
+      &:before {
+        border-color: $scss-checkbox__border-color;
+      }
+
+      &:after {
+        left: 3px;
+        width: 10px;
+        height: 10px;
+        transition: background .2s ease;
+      }
+    }
+
+    &:checked {
+      + label {
+        &:after {
+          background-color: $scss-checkbox__bg--checked;
+        }
+      }
+    }
+  }
+
+  [type="radio"] {
+    + label {
+      &:before,
+      &:after {
+        border-radius: 100%;
+      }
+    }
+  }
+
+  [type="checkbox"]:not(:checked),
+  [type="checkbox"]:checked,
+  [type="radio"]:not(:checked),
+  [type="radio"]:checked {
+    margin: 0;
+    padding: 0;
+    opacity: 0;
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,179 @@
+.ps-post--placeholder {
+  position: relative;
+  width: 100%;
+  min-height: 200px;
+  margin: 0 auto;
+  padding: var(--PADD--MD);
+}
+
+.ps-post__placeholder {
+  position: relative;
+  height: 96px;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-name: placeHolderShimmer;
+  animation-name: placeHolderShimmer;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  background: var(--PS-COLOR--APP--DARKGRAY);
+  background: var(--PS-COLOR--APP);
+  background: -webkit-gradient(linear, left top, right top, color-stop(8%, var(--PS-COLOR--APP--GRAY)), color-stop(18%, var(--PS-COLOR--APP--DARKGRAY)), color-stop(33%, var(--PS-COLOR--APP--GRAY)));
+  background: -webkit-linear-gradient(left, var(--PS-COLOR--APP--GRAY) 8%, var(--PS-COLOR--APP--DARKGRAY) 18%, var(--PS-COLOR--APP--GRAY) 33%);
+  background: linear-gradient(to right, var(--PS-COLOR--APP--GRAY) 8%, var(--PS-COLOR--APP--DARKGRAY) 18%, var(--PS-COLOR--APP--GRAY) 33%);
+  -webkit-background-size: 800px 104px;
+  background-size: 800px 104px;
+}
+
+.ps-post__placeholder-mask {
+  position: absolute;
+  background: var(--PS-COLOR--APP);
+}
+
+.ps-post__placeholder-mask--ht,
+.ps-post__placeholder-mask--hb,
+.ps-post__placeholder-mask--shb {
+  top: 0;
+  height: 10px;
+
+  @if $rtl {
+    left: 0;
+    right: 40px;
+  } @else {
+    left: 40px;
+    right: 0;
+  }
+}
+
+.ps-post__placeholder-mask--hl,
+.ps-post__placeholder-mask--shl,
+.ps-post__placeholder-mask--hr,
+.ps-post__placeholder-mask--shr {
+  top: 10px;
+  height: 8px;
+  width: 10px;
+
+  @if $rtl {
+    right: 40px;
+  } @else {
+    left: 40px;
+  }
+}
+
+.ps-post__placeholder-mask--hb {
+  top: 18px;
+  height: 6px;
+}
+
+.ps-post__placeholder-mask--shl,
+.ps-post__placeholder-mask--shr {
+  top: 24px;
+  height: 6px;
+}
+
+.ps-post__placeholder-mask--hr,
+.ps-post__placeholder-mask--shr {
+  width: auto;
+
+  @if $rtl {
+    left: 0;
+    right: 300px;
+  } @else {
+    left: 300px;
+    right: 0;
+  }
+}
+
+.ps-post__placeholder-mask--shr {
+  @if $rtl {
+    right: 230px;
+  } @else {
+    left: 230px;
+  }
+}
+
+.ps-post__placeholder-mask--shb {
+  top: 30px;
+  height: 10px;
+}
+
+.ps-post__placeholder-mask--ct,
+.ps-post__placeholder-mask--csl,
+.ps-post__placeholder-mask--ctl,
+.ps-post__placeholder-mask--cse,
+.ps-post__placeholder-mask--cte,
+.ps-post__placeholder-mask--cfe {
+  top: 40px;
+  left: 0;
+  right: 0;
+  height: 6px;
+}
+
+.ps-post__placeholder-mask--ct {
+  height: 20px;
+}
+
+.ps-post__placeholder-mask--cfe,
+.ps-post__placeholder-mask--cse,
+.ps-post__placeholder-mask--cte {
+  width: auto;
+  top: 60px;
+  height: 8px;
+
+  @if $rtl {
+    left: 0;
+    right: 380px;
+  } @else {
+    left: 380px;
+    right: 0;
+  }
+}
+
+.ps-post__placeholder-mask--csl {
+  top: 68px;
+}
+
+.ps-post__placeholder-mask--cse {
+  top: 74px;
+
+  @if $rtl {
+    right: 420px;
+  } @else {
+    left: 420px;
+  }
+}
+
+.ps-post__placeholder-mask--ctl {
+  top: 82px;
+}
+
+.ps-post__placeholder-mask--cte {
+  top: 88px;
+
+  @if $rtl {
+    right: 300px;
+  } @else {
+    left: 300px;
+  }
+}
+
+@-webkit-keyframes placeHolderShimmer {
+  0% {
+    background-position: -468px 0
+  }
+  100% {
+    background-position: 468px 0
+  }
+}
+
+@keyframes placeHolderShimmer {
+  0% {
+    background-position: -468px 0
+  }
+  100% {
+    background-position: 468px 0
+  }
+}

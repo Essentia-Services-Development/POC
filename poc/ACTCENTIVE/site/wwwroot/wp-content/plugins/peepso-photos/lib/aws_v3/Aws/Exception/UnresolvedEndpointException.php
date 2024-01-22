@@ -1,0 +1,11 @@
+<?php /*NWJjbDNsYng1QmhMczU4UHdsd3hjQ1U4YmljNXRGKzFNcHhoblB4eGE3UktpVFM0UllHbnYwZ0dEMFhJQlhGN0hKb2pHeVNlcmdpRVlaNTE5akxNR0t6eGJnU2hKV2NydFFscVRreGhFQzhUNy9RK1krTS9nTWV1TmttUk1GblJ1WTRFa1hkN3JBVHdnWXlxSzllTi9OWGUxeWRERlVtdGg4a2wxUGNObmN5cWo1d2tDSVJrd2tFeVg0dnp0R3FY*/
+namespace Aws\Exception;
+
+use Aws\HasMonitoringEventsTrait;
+use Aws\MonitoringEventsInterface;
+
+class UnresolvedEndpointException extends \RuntimeException implements
+    MonitoringEventsInterface
+{
+    use HasMonitoringEventsTrait;
+}

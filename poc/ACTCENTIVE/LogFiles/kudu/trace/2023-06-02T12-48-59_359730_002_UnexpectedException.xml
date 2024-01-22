@@ -1,0 +1,8 @@
+<exception>System.IO.IOException: No such device
+   at System.IO.FileSystem.LinkOrCopyFile(String , String )
+   at System.IO.FileSystem.MoveFile(String , String , Boolean )
+   at System.IO.File.Move(String , String , Boolean )
+   at System.IO.File.Move(String , String )
+   at System.IO.Abstractions.FileWrapper.Move(String sourceFileName, String destFileName)
+   at Kudu.Core.Infrastructure.FileSystemHelpers.MoveFile(String sourceFileName, String destFileName) in /tmp/KuduLite/Kudu.Core/Infrastructure/FileSystemHelpers.cs:line 210
+   at Kudu.Core.Tracing.XmlTracer.WriteEndTrace() in /tmp/KuduLite/Kudu.Core/Tracing/XmlTracer.cs:line 203</exception>

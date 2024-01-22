@@ -1,0 +1,30 @@
+.ps-advads__post {
+  overflow: hidden;
+
+  .ps-avatar--post {
+    > img {
+      width: var(--width);
+      height: var(--width);
+    }
+  }
+
+  .ps-post__title {
+    color: var(--PS-COLOR--TEXT);
+
+    a {
+      color: var(--PS-COLOR--TEXT);
+    }
+  }
+
+  .ps-post__info {
+    color: var(--PS-COLOR--TEXT--LIGHT);
+  }
+}
+
+.ps-advads__image {
+  display: block;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+  overflow: hidden;
+  text-align: center;
+}

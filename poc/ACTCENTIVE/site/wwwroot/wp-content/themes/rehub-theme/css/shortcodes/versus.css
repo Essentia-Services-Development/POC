@@ -1,0 +1,24 @@
+/* Versus
+================================================== */
+.wpsm-versus-item{display: table;width: 100%;border-radius: 5px; padding: 5px}
+.wpsm-versus-item .title-versus {width: 40%;display: table-cell;vertical-align: middle;}
+.wpsm-versus-item .vs-heading{font-size: 17px; font-weight: bold; display: block; padding: 0 10px}
+.wpsm-versus-item .vs-subheading{font-size: 13px; opacity: 0.5; display: block; padding: 0 10px}
+.wpsm-versus-cont {vertical-align: middle;display: table;width: 100%;}
+.wpsm-versus-item .vs-1-col, .wpsm-versus-item .vs-2-col, .wpsm-versus-item .vs-3-col, .wpsm-versus-item .vs-circle-col {text-align: center;display: table-cell;vertical-align: middle;width: 273px;}
+.wpsm-versus-item .vs-circle-col{width: 40px}
+.wpsm-versus-item .vs-circle {font-weight:bold; font-family: Arial; font-size:16px;border-radius: 20px;height: 40px;width: 40px;display: block;text-align: center;line-height: 40px;background: #e9e9e9;margin: 0 10px; color: #111}
+.wpsm-versus-item .vs-greyscale{-webkit-filter: grayscale(100%);filter: grayscale(100%); opacity: 0.6}
+.wpsm-versus-item .vs-image{max-width: 80px; max-height: 80px; margin: 5px 0}
+.wpsm-versus-item .vs-conttext{font-weight: bold;color: #529d16; font-size: 16px}
+.wpsm-versus-item .vs-tick{font-size: 25px;color: #4fb200;}
+.wpsm-versus-item .vs-times{font-size: 22px;color: #cc0000;}
+
+@media (max-width: 500px){
+	.wpsm-versus-item{display: block;margin-bottom: 18px}
+	.wpsm-versus-item .title-versus{margin: 6px 5px 12px 5px; display: block;width: 100%; text-align: center;}
+	.wpsm-versus-item .vs-heading{font-size: 15px}
+	.wpsm-versus-item .vs-subheading{font-size: 12px}
+	.wpsm-versus-cont{width: 100%}
+	.wpsm-versus-item .vs-image{margin: 10px 0; max-width:50px;}
+}

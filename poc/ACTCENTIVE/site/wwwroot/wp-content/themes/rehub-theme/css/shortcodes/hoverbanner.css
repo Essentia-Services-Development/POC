@@ -1,0 +1,24 @@
+/***Hover banner ***/
+.wpsm-banner-wrapper .wpsm-banner-text{position: absolute;top: 0;left: 0;width: 100%;height: 100%;z-index: 20;overflow: hidden}
+.wpsm-banner-wrapper .wpsm-banner-text .tabledisplay{height: 100%}
+.wpsm-banner-wrapper .wpsm-banner-text:before, .wpsm-banner-wrapper .wpsm-banner-text:after {position: absolute;content: '';opacity: 0}
+.wpsm-banner-wrapper .wpsm-banner-text:before {border-top: 2px solid #fff;border-bottom: 2px solid #fff;-webkit-transform: scale(0,1);transform: scale(0,1);-webkit-transform-origin: 0 0;transform-origin: 0 0;z-index: 10}
+.wpsm-banner-wrapper .wpsm-banner-text:after{border-right: 2px solid #fff;border-left: 2px solid #fff;-webkit-transform: scale(1,0);transform: scale(1,0);-webkit-transform-origin: 100% 0;transform-origin: 100% 0;z-index: 11}
+.wpsm-banner-wrapper:hover .wpsm-banner-text:before, .wpsm-banner-wrapper:hover .wpsm-banner-text:after{opacity: 1;-webkit-transform: scale(1);transform: scale(1);-webkit-transition: opacity .35s,-webkit-transform .35s;transition: opacity .35s,transform .35s}
+.wpsm-banner-wrapper:hover .wpsm-banner-text:before, .wpsm-banner-wrapper:hover .wpsm-banner-text:after {-webkit-transition-delay: .25s;transition-delay: .25s}
+.wpsm-banner-wrapper i{font-size: 2.5em;display: block; margin: 0 0 10px 0}
+.wpsm-banner-wrapper h4, .wpsm-banner-wrapper h6{margin: 0 0 10px 0;-webkit-transition:color .40s ease-in-out;transition:color .40s ease-in-out;}
+.wpsm-banner-wrapper h4{font-size: 1.7em;font-weight: bold}
+.wpsm-banner-wrapper h6{font-size: 1.1em;font-weight: 300;font-style: italic}
+.wpsm-banner-overlay .wpsm-banner-mask:after {display: block;position: absolute;top: 0;right: 0;bottom: 0;left: 0;background: #111;content: '';z-index: 2;opacity: 0.25;transition: all .5s ease 0s;}
+.wpsm-banner-overlay:hover .wpsm-banner-mask:after{opacity: .4;top: 0;right: 0;bottom: 0;left: 0}
+.wpsm-banner-overlay:hover h4, .wpsm-banner-overlay:hover h6{color: #fff}
+.categoriesbox-bg { height: 175px; background-size: cover;background-position: center; background-repeat: no-repeat; position: relative; z-index: 1 }
+.categoriesbox-bg a{ width: 100%; height: 100%; display: block; position: absolute; z-index: 3 }
+.categoriesbox:hover .categoriesbox-bg { opacity: 0.8 }
+
+.categoriesbox { max-width: 500px;}
+.catboxmodule{min-height: 145px}
+.catbox h3 {position: absolute;bottom: 15px;background: rgba(255, 255, 255,0.9);}
+.r_catbox_btn{position:relative; padding: 5px 12px;line-height: 12px;font-size: 12px; outline: none; cursor: pointer;text-shadow: 0 1px 0 rgba(0,0,0,0.25);box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2); display: inline-block; color: #fff; transition: 0.5s}
+.catbox mark.catcount {position: absolute;top: -12px;left: 50%;margin-left: -11px;}

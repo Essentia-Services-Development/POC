@@ -1,0 +1,27 @@
+.ps-loading {
+	display: none;
+	border-radius: 0 !important;
+
+	> img {
+		border-radius: 0 !important;
+		vertical-align: middle;
+	}
+}
+
+.ps-loading__image {
+	border-radius: 0 !important;
+}
+
+.ps-loading-pulse {
+	animation: loading-pulse 1.5s infinite;
+}
+
+@keyframes loading-pulse {
+	0%,
+	100% {
+		opacity: 0.4;
+	}
+	50% {
+		opacity: 0.1;
+	}
+}

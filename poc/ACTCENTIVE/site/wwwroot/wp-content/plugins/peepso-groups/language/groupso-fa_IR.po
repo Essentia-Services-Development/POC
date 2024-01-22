@@ -1,0 +1,1842 @@
+# Translation of PeepSo - Groups in Persian
+# This file is distributed under the same license as the PeepSo - Groups package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-02-02 11:26:22+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/3.0.0\n"
+"Language: fa\n"
+"Project-Id-Version: PeepSo - Groups\n"
+
+#: classes/admin/configsectiongroups.php:515
+msgid "Allow groups to override this setting"
+msgstr ""
+
+#: classes/admin/configsectiongroups.php:501
+#: templates/groups/group-settings.php:450
+msgid "Members tab"
+msgstr ""
+
+#: classes/admin/configsectiongroups.php:459
+msgid "Allow group managers to pin posts"
+msgstr ""
+
+#: classes/admin/configsectiongroups.php:456
+msgid "Disabled: only comunity/site administrators will be allowed to pin posts"
+msgstr ""
+
+#: classes/admin/configsectiongroups.php:456
+msgid "Enabled: group management will be allowed to pin posts."
+msgstr ""
+
+#: classes/admin/configsectiongroups.php:452
+msgid "Use \"pinned\" style only in group context"
+msgstr ""
+
+#: classes/admin/configsectiongroups.php:449
+msgid "Disabled: pinned group posts will always have the \"pinned\" style"
+msgstr ""
+
+#: classes/admin/configsectiongroups.php:449
+msgid "Enabled: pinned group posts will only have a \"pinned\" style when viewed in the group context and single post view"
+msgstr ""
+
+#: classes/api/groupajax.php:404
+msgid "Group custom input saved."
+msgstr ""
+
+#: templates/groups/group-category-header.php:68
+#: templates/groups/group-header.php:91
+msgid "Rotate right"
+msgstr ""
+
+#: templates/groups/group-category-header.php:64
+#: templates/groups/group-header.php:87
+msgid "Rotate left"
+msgstr ""
+
+#: classes/admin/configsectiongroups.php:434
+msgid "Editing group files"
+msgstr ""
+
+#: classes/admin/configsectiongroups.php:423
+msgid "Enabled: group moderators can moderate files in their groups"
+msgstr ""
+
+#: classes/admin/configsectiongroups.php:415
+msgid "Enabled: group managers can moderate files in their groups"
+msgstr ""
+
+#: classes/admin/configsectiongroups.php:407
+#: classes/admin/configsectiongroups.php:415
+#: classes/admin/configsectiongroups.php:423
+msgid "Disabled: only admin can moderate files"
+msgstr ""
+
+#: classes/admin/configsectiongroups.php:407
+msgid "Enabled: group owners can moderate files in their groups"
+msgstr ""
+
+#: templates/groups/group-category.php:39
+msgid "You currently can't post in any groups in this category."
+msgstr ""
+
+#: classes/admin/configsectiongroups.php:125
+msgid "Default list style"
+msgstr ""
+
+#: classes/admin/configsectiongroups.php:122
+msgid "Controls the default view. If user changes the view, their preference becomes \"sticky\""
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "PeepSo"
+msgstr "PeepSo"
+
+#. Description of the plugin/theme
+msgid "Public and closed user groups"
+msgstr "گروه های کاربری عمومی و بسته"
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://peepso.com"
+msgstr "https://peepso.com"
+
+#. Plugin Name of the plugin/theme
+msgid "PeepSo Core: Groups"
+msgstr "هسته PeepSo: گروه ها"
+
+#: templates/groups/postbox-interaction.php:23
+msgid "A group"
+msgstr ""
+
+#: templates/groups/postbox-interaction.php:13
+msgid "My profile"
+msgstr ""
+
+#: templates/groups/groups.php:160 templates/groups/groups.php:167
+msgid "Loading"
+msgstr ""
+
+#: templates/groups/groups.php:150
+msgid "Group Categories"
+msgstr "دسته‌بندی گروه"
+
+#: templates/groups/groups.php:112
+msgid "No filter"
+msgstr "بدون فیلتر"
+
+#: templates/groups/groups.php:103
+msgid "Descending"
+msgstr ""
+
+#: templates/groups/groups.php:94
+msgid "Recently added"
+msgstr "به‌تازگی افزوده شده"
+
+#: templates/groups/groups.php:64
+msgid "Any of the words"
+msgstr ""
+
+#: templates/groups/groups.php:63
+msgid "Exact phrase"
+msgstr ""
+
+#: templates/groups/groups.php:57
+msgid "Show filters"
+msgstr ""
+
+#: templates/groups/groups-item.php:31
+msgid "%d pending"
+msgstr ""
+
+#: templates/groups/groups-categories.php:18
+msgid "Show all"
+msgstr ""
+
+#: templates/groups/group.php:45
+msgid "Currently group is unpublished."
+msgstr "در حال حاضر گروه منتشر نشده است."
+
+#: templates/groups/group.php:36
+msgid "You can still react & comment on posts in this group."
+msgstr ""
+
+#: templates/groups/group.php:33
+msgid "You can still comment on posts in this group."
+msgstr ""
+
+#: templates/groups/group.php:30
+msgid "You can still react to the posts in this group."
+msgstr ""
+
+#: templates/groups/group.php:25
+msgid "This is an announcement group, only the Owners and Managers can create new posts."
+msgstr ""
+
+#: templates/groups/group.php:22
+msgid "You must join the group to be able to create new posts."
+msgstr ""
+
+#: templates/groups/group-settings.php:676
+msgid "User immediately becomes a new member after click \"join\" button"
+msgstr ""
+
+#: templates/groups/group-settings.php:673
+msgid "Automatically accept join requests"
+msgstr ""
+
+#: templates/groups/group-settings.php:625
+msgid "Owners & Managers will not receive notifications about new members"
+msgstr ""
+
+#: templates/groups/group-settings.php:622
+msgid "Disable new member notifications"
+msgstr ""
+
+#: templates/groups/group-settings.php:592
+#: templates/groups/group-settings.php:603
+msgid "Nothing (default)"
+msgstr ""
+
+#: templates/groups/group-settings.php:588
+#: templates/groups/group-settings.php:606
+msgid "Reactions and comments"
+msgstr ""
+
+#: templates/groups/group-settings.php:585
+#: templates/groups/group-settings.php:605
+msgid "Comments"
+msgstr ""
+
+#: templates/groups/group-settings.php:582
+#: templates/groups/group-settings.php:604
+msgid "Reactions"
+msgstr ""
+
+#: templates/groups/group-settings.php:555
+msgid "Has no effect if the setting above is set to \"yes\""
+msgstr ""
+
+#: templates/groups/group-settings.php:552
+msgid "Allowed non-member actions"
+msgstr ""
+
+#: templates/groups/group-settings.php:501
+msgid "Disable likes/comments"
+msgstr ""
+
+#: templates/groups/group-settings.php:399
+msgid "Disable new posts"
+msgstr ""
+
+#: classes/admin/configsectiongroups.php:506
+#: templates/groups/group-settings.php:352
+#: templates/groups/group-settings.php:402
+#: templates/groups/group-settings.php:453
+#: templates/groups/group-settings.php:504
+msgid "Has no effect on Owner, Managers and Site Administrators"
+msgstr ""
+
+#: templates/groups/group-settings.php:349
+msgid "Enable \"Invite\" button"
+msgstr "فعالسازی دکمه \"دعوت کردن\""
+
+#: templates/groups/group-settings.php:325
+#: templates/groups/group-settings.php:334
+#: templates/groups/group-settings.php:376
+#: templates/groups/group-settings.php:385
+#: templates/groups/group-settings.php:426
+#: templates/groups/group-settings.php:435
+#: templates/groups/group-settings.php:477
+#: templates/groups/group-settings.php:486
+#: templates/groups/group-settings.php:528
+#: templates/groups/group-settings.php:537
+#: templates/groups/group-settings.php:649
+#: templates/groups/group-settings.php:658
+#: templates/groups/group-settings.php:700
+#: templates/groups/group-settings.php:709
+msgid "No"
+msgstr "خیر"
+
+#: templates/groups/group-settings.php:325
+#: templates/groups/group-settings.php:333
+#: templates/groups/group-settings.php:376
+#: templates/groups/group-settings.php:384
+#: templates/groups/group-settings.php:426
+#: templates/groups/group-settings.php:434
+#: templates/groups/group-settings.php:477
+#: templates/groups/group-settings.php:485
+#: templates/groups/group-settings.php:528
+#: templates/groups/group-settings.php:536
+#: templates/groups/group-settings.php:649
+#: templates/groups/group-settings.php:657
+#: templates/groups/group-settings.php:700
+#: templates/groups/group-settings.php:708
+msgid "Yes"
+msgstr "بله"
+
+#: templates/groups/group-settings.php:301
+msgid "Has no effect on Site Administrators"
+msgstr "تاثیری بر مدیران سایت نخواهد گذاشت"
+
+#: templates/groups/group-settings.php:297
+msgid "Enable \"Request To Join\" button"
+msgstr "فعالسازی دکمه \"درخواست پیوستن به گروه\""
+
+#: templates/groups/group-settings.php:296
+msgid "Enable \"Join\" button"
+msgstr "فعالسازی دکمه \"ملحق شدن\""
+
+#: templates/groups/group-settings.php:199
+msgid "No rules"
+msgstr ""
+
+#: templates/groups/group-settings.php:167
+msgid "Group Rules"
+msgstr ""
+
+#: templates/groups/group-settings.php:145
+msgid "No description"
+msgstr "بدون شرح"
+
+#: templates/groups/group-settings.php:113
+msgid "Group Description"
+msgstr "توضیحات گروه"
+
+#: templates/groups/group-settings.php:100
+msgid "This field might be automatically adjusted  after editing."
+msgstr "این فیلد به صورت خودکار پس از ویرایش تنظیم خواهد شد."
+
+#: templates/groups/group-settings.php:100
+msgid "Letters, numbers and dashes are recommended, eg my-amazing-group-123."
+msgstr "حروف، اعداد و خط تیره مجاز است. مانند my-amazing-group-123."
+
+#: templates/groups/group-settings.php:68
+msgid "Group Slug"
+msgstr "نامک گروه"
+
+#: templates/groups/group-settings.php:27
+#: templates/groups/group-settings.php:74
+#: templates/groups/group-settings.php:120
+#: templates/groups/group-settings.php:174
+#: templates/groups/group-settings.php:233
+#: templates/groups/group-settings.php:308
+#: templates/groups/group-settings.php:359
+#: templates/groups/group-settings.php:409
+#: templates/groups/group-settings.php:460
+#: templates/groups/group-settings.php:511
+#: templates/groups/group-settings.php:562
+#: templates/groups/group-settings.php:632
+#: templates/groups/group-settings.php:683
+msgid "Edit"
+msgstr "ویرایش"
+
+#: templates/groups/group-settings.php:20
+msgid "Group Name"
+msgstr "نام گروه"
+
+#: templates/groups/group-members-tabs.php:36
+msgid "<span>Banned</span><span class=\"ps-tabs__count\">%s</span>"
+msgstr ""
+
+#: templates/groups/group-members-tabs.php:30
+msgid "<span>Pending</span><span class=\"ps-tabs__count ps-js-pending-count\" data-id=\"%d\">%s</span>"
+msgstr ""
+
+#: templates/groups/group-members-tabs.php:24
+msgid "<span>Invited</span><span class=\"ps-tabs__count ps-js-invited-count\" data-id=\"%d\">%s</span>"
+msgstr ""
+
+#: templates/groups/group-members-tabs.php:17
+msgid "Management"
+msgstr "مدیریت"
+
+#: templates/groups/group-members-tabs.php:11
+msgid "All Members"
+msgstr "تمام اعضا"
+
+#: templates/groups/group-members-search-form.php:81
+msgid "Only users with avatars"
+msgstr ""
+
+#: templates/groups/group-members-search-form.php:78
+msgid "Avatars"
+msgstr ""
+
+#: templates/groups/group-members-search-form.php:70
+msgid "Members I don't follow"
+msgstr ""
+
+#: templates/groups/group-members-search-form.php:69
+msgid "Members I follow"
+msgstr ""
+
+#: templates/groups/group-members-search-form.php:68
+msgid "All members"
+msgstr ""
+
+#: templates/groups/group-members-search-form.php:59
+msgid "Most liked"
+msgstr ""
+
+#: templates/groups/group-members-search-form.php:57
+msgid "Latest members"
+msgstr ""
+
+#: templates/groups/group-members-search-form.php:56
+msgid "Recently online"
+msgstr ""
+
+#: templates/groups/group-members-search-form.php:53
+#: templates/groups/groups.php:92
+msgid "Sort"
+msgstr "مرتب سازی"
+
+#: templates/groups/group-members-search-form.php:37
+msgid "Any"
+msgstr ""
+
+#: templates/groups/group-members-item.php:24
+#: templates/groups/group-members-item.php:31
+msgid "Moderator"
+msgstr ""
+
+#: templates/groups/group-members-item.php:23
+#: templates/groups/group-members-item.php:30
+msgid "Manager"
+msgstr ""
+
+#: templates/groups/group-members-item-actions.php:5
+msgid "Manage"
+msgstr ""
+
+#: templates/groups/group-header.php:208
+msgid "Settings"
+msgstr "تنظیمات"
+
+#: templates/groups/group-header.php:183 templates/groups/group-header.php:216
+msgid "<span class=\"ps-js-pending-count\" data-id=\"%d\">%s</span> pending"
+msgstr ""
+
+#: templates/groups/group-header.php:176
+msgid "%s member"
+msgid_plural "%s members"
+msgstr[0] ""
+msgstr[1] ""
+
+#: templates/groups/group-header.php:168
+msgid "%s Group"
+msgstr "گروه %s"
+
+#: templates/groups/group-header.php:79
+msgid "Upload"
+msgstr ""
+
+#: templates/groups/group-category.php:58
+#: templates/groups/group-category.php:59 templates/groups/group.php:76
+#: templates/groups/group.php:77
+msgid "No posts found."
+msgstr "مطلبی یافت نشد."
+
+#: templates/groups/group-category-header.php:124
+#: templates/groups/group-header.php:201
+msgid "Stream"
+msgstr "جریان"
+
+#: templates/groups/group-category-header.php:111
+msgid "with %d groups"
+msgstr ""
+
+#: templates/groups/group-category-header.php:109
+#: templates/groups/group-header.php:137
+msgid "Group category"
+msgstr "دسته‌بندی گروه"
+
+#: templates/groups/group-category-header.php:94
+#: templates/groups/group-header.php:116
+msgid "Show details"
+msgstr ""
+
+#: templates/groups/group-category-header.php:60
+#: templates/groups/group-header.php:83
+msgid "Reposition"
+msgstr "جای گذاری"
+
+#: templates/groups/group-category-header.php:52
+#: templates/groups/group-header.php:75
+msgid "Change cover image"
+msgstr ""
+
+#: templates/groups/group-category-header.php:34
+#: templates/groups/group-header.php:51
+msgid "Change avatar"
+msgstr ""
+
+#: templates/groups/group-category-header.php:22
+#: templates/groups/group-header.php:39
+msgid "%s avatar"
+msgstr ""
+
+#: templates/groups/group-category-header.php:13
+#: templates/groups/group-header.php:30
+msgid "%s cover photo"
+msgstr ""
+
+#: classes/admin/configsectiongroups.php:119
+#: templates/groups/group-category-groups.php:12 templates/groups/groups.php:34
+#: templates/groups/profile-groups.php:15
+msgid "List"
+msgstr ""
+
+#: classes/admin/configsectiongroups.php:118
+#: templates/groups/group-category-groups.php:11 templates/groups/groups.php:33
+#: templates/groups/profile-groups.php:14
+msgid "Grid"
+msgstr ""
+
+#: templates/groups/dialog-invite.php:58
+msgid "Invite users to group"
+msgstr "دعوت کاربران به گروه"
+
+#: templates/groups/dialog-invite.php:58
+msgid "Add users to group"
+msgstr "افزودن کاربران به گروه"
+
+#: templates/groups/dialog-invite.php:46
+msgid "Invite to Group"
+msgstr "دعوت به گروه"
+
+#: templates/groups/dialog-invite.php:46
+msgid "Add to group"
+msgstr "افزودن به گروه"
+
+#: templates/groups/dialog-invite.php:46
+msgid "Invited"
+msgstr "دعوت شده"
+
+#: templates/groups/dialog-invite.php:46
+msgid "Added"
+msgstr "اضافه شد"
+
+#: templates/groups/dialog-invite.php:22
+msgid "Please note: Users who are either banned, already invited, members or blocked receiving invitations to this group will not show in this listing."
+msgstr "لطفا توجه کنید: کاربرانی که مسدود شده و یا در حال حاضر دعوت شده اند، اعضا و ممنوع الدعوت ها به این گروه، در این فهرست نمایش داده نمی شوند."
+
+#: templates/groups/dialog-invite.php:17 templates/groups/group-category.php:60
+#: templates/groups/group.php:78
+msgid "Nothing more to show."
+msgstr "چیز بیشتری برای نمایش نیست."
+
+#: templates/groups/dialog-invite.php:16
+msgid "Load more"
+msgstr ""
+
+#: templates/groups/dialog-invite.php:10
+#: templates/groups/group-members-search-form.php:25
+#: templates/groups/groups.php:56 templates/groups/postbox-interaction.php:29
+msgid "Start typing to search..."
+msgstr "شروع به تایپ کردن برای جستجو..."
+
+#: templates/groups/dialog-create.php:92 templates/groups/dialog-create.php:99
+#: templates/groups/group-category-groups.php:19 templates/groups/groups.php:43
+#: templates/groups/profile-groups.php:21
+msgid "Create Group"
+msgstr "ایجاد گروه"
+
+#: templates/groups/dialog-create.php:43
+#: templates/groups/group-settings.php:226 templates/groups/groups.php:110
+msgid "Category"
+msgid_plural "Categories"
+msgstr[0] ""
+msgstr[1] ""
+
+#: templates/groups/dialog-create.php:21 templates/groups/group-settings.php:52
+#: templates/groups/group-settings.php:153
+#: templates/groups/group-settings.php:207
+msgid "Characters left"
+msgstr "کاراکترهای باقی مانده"
+
+#: templates/groups/dialog-create.php:20
+msgid "Enter your group's description..."
+msgstr "توضیحات گروه خود را وارد کنید..."
+
+#: templates/groups/dialog-create.php:8
+msgid "Enter your group's name..."
+msgstr "نام گروه خود را وارد کنید..."
+
+#: templates/groups/dialog-create.php:4
+msgid "Name"
+msgstr "نام"
+
+#: templates/groups/dialog-category-cover-remove.php:7
+#: templates/groups/dialog-cover-remove.php:7
+msgid "Remove Cover Image"
+msgstr ""
+
+#: templates/groups/dialog-category-cover-remove.php:1
+#: templates/groups/dialog-cover-remove.php:1
+msgid "Are you sure want to remove this cover image?"
+msgstr ""
+
+#: templates/groups/dialog-category-avatar.php:95
+msgid "Change Group Category Avatar"
+msgstr ""
+
+#: templates/groups/dialog-avatar.php:98
+#: templates/groups/dialog-category-avatar.php:98
+msgid "Done"
+msgstr "انجام شد"
+
+#: templates/groups/dialog-avatar.php:95
+msgid "Change Group Avatar"
+msgstr ""
+
+#: templates/groups/dialog-avatar.php:74
+#: templates/groups/dialog-category-avatar.php:74
+msgid "This is how <strong>%s</strong> avatar will appear throughout the entire community."
+msgstr ""
+
+#: templates/groups/dialog-avatar.php:65 templates/groups/dialog-avatar.php:68
+#: templates/groups/dialog-category-avatar.php:65
+#: templates/groups/dialog-category-avatar.php:68
+msgid "Avatar Preview"
+msgstr "پیش نمایش آواتار"
+
+#: templates/groups/dialog-avatar.php:60
+#: templates/groups/dialog-category-avatar.php:60
+msgid "No avatar uploaded. Use the button above to select and upload one."
+msgstr "آواتاری بارگذاری نشده. از دکمه بالا جهت انتخاب و بارگذاری آن استفاده کنید."
+
+#: templates/groups/dialog-avatar.php:52
+#: templates/groups/dialog-category-avatar.php:52
+#: templates/groups/dialog-category-cover-remove.php:14
+#: templates/groups/dialog-cover-remove.php:14
+msgid "Confirm"
+msgstr ""
+
+#: templates/groups/dialog-avatar.php:35
+#: templates/groups/dialog-category-avatar.php:35
+msgid "Crop"
+msgstr ""
+
+#: templates/groups/dialog-avatar.php:24
+#: templates/groups/dialog-category-avatar.php:24
+msgid "Automatically Generated. (Maximum width: 160px)"
+msgstr "به طور خودکار تولید شد. (حداکثر عرض: 160px)"
+
+#: templates/groups/dialog-avatar.php:20
+#: templates/groups/dialog-category-avatar.php:20
+msgid "Uploaded Photo"
+msgstr "عکس بارگذاری شده"
+
+#: templates/groups/dialog-avatar.php:13
+#: templates/groups/dialog-category-avatar.php:13
+#: templates/groups/group-category-header.php:56
+msgid "Upload new"
+msgstr ""
+
+#: templates/admin/groups.php:20
+msgid "Are you sure?"
+msgstr "آیا مطمئن هستید؟"
+
+#: templates/admin/groups.php:11
+msgid "Search Groups"
+msgstr "جستجوی گروه ها"
+
+#: templates/admin/group_categories_button.php:18
+msgid "Add New"
+msgstr "افزودن مورد جدید"
+
+#: templates/admin/group_categories_button.php:12
+#: templates/admin/group_categories_button.php:25
+msgid "Group categories are currently disabled. You can enable them in PeepSo Config -> Groups"
+msgstr "مقوله ها (دسته‌بندی) گروه در حال حاضر غیرفعال شده‌اند. شما می‌توانید آنها را در پیکربندی از طریق پیکربندی-> گروه ها فعال کنید"
+
+#: templates/admin/group_categories_button.php:7
+msgid "Collapse All"
+msgstr "بستن همه"
+
+#: templates/admin/group_categories_button.php:4
+msgid "Expand All"
+msgstr "گستردن همه"
+
+#: templates/admin/group_categories.php:102
+msgid "Generate"
+msgstr ""
+
+#: templates/admin/group_categories.php:101
+msgid "URL slug"
+msgstr ""
+
+#: templates/admin/group_categories.php:55
+#: templates/groups/group-category-header.php:80
+#: templates/groups/group-header.php:103 templates/groups/group-settings.php:36
+#: templates/groups/group-settings.php:83
+#: templates/groups/group-settings.php:128
+#: templates/groups/group-settings.php:182
+#: templates/groups/group-settings.php:241
+#: templates/groups/group-settings.php:317
+#: templates/groups/group-settings.php:368
+#: templates/groups/group-settings.php:418
+#: templates/groups/group-settings.php:469
+#: templates/groups/group-settings.php:520
+#: templates/groups/group-settings.php:571
+#: templates/groups/group-settings.php:641
+#: templates/groups/group-settings.php:692
+msgid "Save"
+msgstr "ذخيره"
+
+#: templates/admin/group_categories.php:54
+#: templates/groups/dialog-avatar.php:48
+#: templates/groups/dialog-category-avatar.php:48
+#: templates/groups/dialog-category-cover-remove.php:10
+#: templates/groups/dialog-cover-remove.php:10
+#: templates/groups/dialog-create.php:95
+#: templates/groups/group-category-header.php:79
+#: templates/groups/group-header.php:102 templates/groups/group-settings.php:32
+#: templates/groups/group-settings.php:79
+#: templates/groups/group-settings.php:125
+#: templates/groups/group-settings.php:179
+#: templates/groups/group-settings.php:238
+#: templates/groups/group-settings.php:313
+#: templates/groups/group-settings.php:364
+#: templates/groups/group-settings.php:414
+#: templates/groups/group-settings.php:465
+#: templates/groups/group-settings.php:516
+#: templates/groups/group-settings.php:567
+#: templates/groups/group-settings.php:637
+#: templates/groups/group-settings.php:688
+msgid "Cancel"
+msgstr "انصراف"
+
+#: templates/admin/group_categories.php:20
+msgid "no name"
+msgstr "بدون نام"
+
+#: groups.php:2858
+msgid "Get it now!"
+msgstr "اکنون دریافت کنید!"
+
+#: groups.php:2856
+msgid "The %s plugin requires the PeepSo plugin to be installed and activated."
+msgstr "افزونه %s برای نصب و فعالسازی به افزونه PeepSo نیاز دارد."
+
+#: groups.php:2809
+msgid "group cover photo"
+msgstr "عکس جلد گروه"
+
+#: groups.php:2804
+msgid "group avatar"
+msgstr "نماد گروه"
+
+#: groups.php:2759
+msgid "No result found."
+msgstr ""
+
+#: groups.php:2661
+msgid "Are you sure you want to change the group privacy?"
+msgstr "آیا مطمئن هستید می خواهید حریم خصوصی این گروه را تغییر دهید؟"
+
+#: groups.php:2660
+msgid "Are you sure you want to change the group URL?"
+msgstr "آیا مطمئن هستید می خواهید یوآرال این گروه را تغییر دهید؟"
+
+#: groups.php:2659 groups.php:2660 groups.php:2661
+msgid "All group members will be notified."
+msgstr "تمام اعضای گروه اطلاع رسانی خواهند شد."
+
+#: groups.php:2659
+msgid "Are you sure you want to change the group name?"
+msgstr "آیا مطمئن هستید می خواهید نام این گروه را تغییر دهید؟"
+
+#: groups.php:2658 templates/groups/groups-item.php:29
+msgid "members"
+msgstr "اعضا"
+
+#: groups.php:2656
+msgid "Less"
+msgstr "کمتر"
+
+#: groups.php:2655 templates/groups/group-category-header.php:154
+#: templates/groups/group-category-header.php:157
+#: templates/groups/group-header.php:263 templates/groups/groups-item.php:66
+msgid "More"
+msgstr "بیشتر"
+
+#: groups.php:2539
+msgid "changed group privacy to %s"
+msgstr ""
+
+#: groups.php:2515
+msgid "renamed a group you're a member of"
+msgstr "نام گروهی را که شما عضو آن بودید عوض کرد"
+
+#: groups.php:2464
+msgid "accepted you as a group member"
+msgstr "شما را به عنوان عضو گروه پذیرفته است"
+
+#: groups.php:2418
+msgid "requested to join your group"
+msgstr "درخواست برای پیوستن به گروه کرده است"
+
+#: groups.php:2411
+msgid "and %s%s more users%s requested to join your group"
+msgstr ""
+
+#: groups.php:2404
+msgid "and %s%s%s requested to join your group"
+msgstr ""
+
+#: groups.php:2350
+msgid "accepted your group invitation"
+msgstr "دعوت به گروه شما را پذیرفت"
+
+#: groups.php:2309
+msgid "joined your group"
+msgstr "عضو شده در گروه خود"
+
+#: groups.php:2207
+msgid " added %1$d photo to the album: <a href=\"%3$s\">%2$s</a>"
+msgid_plural " added %1$d photos to the album: <a href=\"%3$s\">%2$s</a>"
+msgstr[0] " %1$d عکس افزوده شده به آلبوم: <a href=\"%3$s\">%2$s</a>"
+msgstr[1] " %1$d عکس افزوده شده به آلبوم: <a href=\"%3$s\">%2$s</a>"
+
+#: groups.php:2187 groups.php:2217
+msgid " updated group cover"
+msgstr " کاور گروه بروزرسانی شد"
+
+#: groups.php:2177
+msgid " updated group avatar"
+msgstr " آواتار گروه بروزرسانی شد"
+
+#: groups.php:1503 groups.php:1505
+msgid "joined this group"
+msgstr ""
+
+#: groups.php:1475 groups.php:1477
+msgid "joined a group"
+msgstr ""
+
+#: groups.php:1456
+msgid "You are not a member of this group"
+msgstr "شما عضو این گروه نیستید"
+
+#: groups.php:922
+msgid "groups"
+msgstr "گروه ها"
+
+#: groups.php:891
+msgctxt "Profile link"
+msgid "Groups"
+msgstr ""
+
+#: groups.php:866
+msgctxt "Community link"
+msgid "Groups"
+msgstr ""
+
+#: groups.php:815
+msgid "Post to"
+msgstr ""
+
+#: groups.php:708
+msgid "Group Stream Photos"
+msgstr "عکس های جریان گروه"
+
+#: groups.php:704
+msgid "Group Covers"
+msgstr "کاورهای گروه"
+
+#: groups.php:700
+msgid "Group Avatars"
+msgstr "آواتار های گروه"
+
+#: groups.php:677
+msgid "This will be sent to a group owner when another user comments on the cover"
+msgstr ""
+
+#: groups.php:676
+msgid "User Comment Group Cover"
+msgstr ""
+
+#: groups.php:672
+msgid "This will be sent to a group owner when another user comments on the avatar"
+msgstr ""
+
+#: groups.php:671
+msgid "User Comment Group Avatar"
+msgstr ""
+
+#: groups.php:666
+msgid "Notify Administrators when a new new group is created"
+msgstr "در هنگام ایجاد یک گروه جدید به مدیران اطلاع رسانی کن"
+
+#: groups.php:665
+msgid "New Group Created"
+msgstr "گروه جدید ایجاد شد"
+
+#: groups.php:661
+msgid "Notify users about new posts in groups."
+msgstr "درباره پست های جدید گروه به کاربران اطلاع رسانی کن."
+
+#: groups.php:660
+msgid "New Post In Group"
+msgstr "پست جدید در گروه"
+
+#: groups.php:578
+msgid "Group subscriptions"
+msgstr "اشتراک های گروه"
+
+#: groups.php:537
+msgid "{sitename} - New Group Created"
+msgstr "{sitename} - گروه تازه ایجاد شد"
+
+#: groups.php:484
+msgid "%s posted in %s"
+msgstr ""
+
+#: groups.php:445
+msgid "posted in %s"
+msgstr " ارسال شده در %s"
+
+#: groups.php:261 templates/groups/group-header.php:137
+msgid "Group categories"
+msgstr "دسته‌بندی گروه"
+
+#: groups.php:242
+msgid "PeepSo Groups"
+msgstr "گروه PeepSo"
+
+#: classes/widgets/widgetgroup.php:59
+msgid "About %s"
+msgstr ""
+
+#: classes/widgets/widgetgroup.php:8 classes/widgets/widgetgroup.php:9
+msgid "PeepSo Groups: about the group"
+msgstr ""
+
+#: classes/shortcodes/groupsshortcode.php:188 groups.php:2714
+msgid "The file size you uploaded is too big. The maximum file size is %s."
+msgstr "حجم فایل آپلود شما بیش از حد بزرگ است. حداکثر اندازه پرونده %s است."
+
+#: classes/shortcodes/groupsshortcode.php:186 groups.php:2712
+msgid "The file type you uploaded is not allowed. Only JPEG, PNG, and WEBP allowed."
+msgstr ""
+
+#: classes/shortcodes/groupsshortcode.php:130
+msgctxt "Page listing"
+msgid "PeepSo"
+msgstr ""
+
+#: classes/shortcodes/groupsshortcode.php:126
+msgid "Displays the Groups listing and single Group view."
+msgstr ""
+
+#: classes/shortcodes/groupsshortcode.php:114
+#: classes/shortcodes/groupsshortcode.php:130 groups.php:239 groups.php:252
+#: groups.php:906 install/activate.php:40
+#: templates/groups/group-category-header.php:130
+#: templates/groups/groups.php:149
+msgid "Groups"
+msgstr "گروه ها"
+
+#: classes/models/groupuser.php:648
+msgid "Reject"
+msgstr "رد کردن"
+
+#: classes/models/groupuser.php:642
+msgid "Approve"
+msgstr "تایید"
+
+#: classes/models/groupuser.php:633
+msgid "Cancel Invitation"
+msgstr ""
+
+#: classes/models/groupuser.php:623
+msgid "Unban"
+msgstr "لغو مسدودیت"
+
+#: classes/models/groupuser.php:620
+msgid "Are you sure you want to unban %s and restore as a regular Group Member?"
+msgstr "آیا مطمئن هستید که می خواهید %s را رفع مسدودیت و نبدیل به یک کاربر معمولی کنید؟"
+
+#: classes/models/groupuser.php:597
+msgid "Ban"
+msgstr "مسدود کردن"
+
+#: classes/models/groupuser.php:593
+msgid "This user will be unable to join or be invited."
+msgstr "این کاربر مجاز به پیوستن یا دعوت شدن نیست."
+
+#: classes/models/groupuser.php:592
+msgid "Are you sure you want to ban this user?"
+msgstr "آیا مطمئن هستید که می خواهید این کاربر را مسدود کنید؟"
+
+#: classes/models/groupuser.php:567
+msgid "Remove"
+msgstr "حذف کردن"
+
+#: classes/models/groupuser.php:564
+msgid "To join again the user will have to be invited and/or approved."
+msgstr "برای عضویت دوباره کاربر باید دعوت یا/و تایید شود."
+
+#: classes/models/groupuser.php:561
+msgid "Are you sure you want to remove this user?"
+msgstr "برای حذف این کاربر مطمئنید؟"
+
+#: classes/models/groupuser.php:547
+msgid "Turn into regular member"
+msgstr "تبدیل به عضو معمولی گروه"
+
+#: classes/models/groupuser.php:544
+msgid "Are you sure you want to make %s a regular Group Member?"
+msgstr "آیا مطمئن هستید که می خواهید %s یک عضو معمولی گروه شود؟"
+
+#: classes/models/groupuser.php:534
+msgid "Turn into Moderator"
+msgstr "تبدیل کردن به سردبیر"
+
+#: classes/models/groupuser.php:531
+msgid "Are you sure you want to make %s a Group Moderator?"
+msgstr "آیا مطمئن هستید که می خواهید %s سردبیر گروه شود؟"
+
+#: classes/models/groupuser.php:521
+msgid "Turn into Manager"
+msgstr "تبدیل کردن به مدیر"
+
+#: classes/models/groupuser.php:518
+msgid "Are you sure you want to make %s a Group Manager?"
+msgstr "آیا مطمئن هستید که می خواهید %s مدیر گروه شود؟"
+
+#: classes/models/groupuser.php:509
+msgid "Transfer ownership"
+msgstr "انتقال مالکیت"
+
+#: classes/models/groupuser.php:506
+msgid "Are you sure you want to make %s a new Group Owner? There can be only one owner in the group."
+msgstr "آیا مطمئن هستید که می خواهید %s مالک جدید گروه شود؟ تنها یک مالک گروه می تواند وجود داشته باشد."
+
+#: classes/models/groupuser.php:503
+msgid "yourself"
+msgstr "خودتان"
+
+#: classes/models/groupuser.php:465
+msgid "To be able to leave, you need to transfer ownership to another user first."
+msgstr "برای ترک کردن گروه شما ابتدا باید مالکیت را به کاربر دیگری واگذار کنید."
+
+#: classes/models/groupuser.php:465
+msgid "You can't leave this group."
+msgstr "شما نمی توانید این گروه را ترک کنید."
+
+#: classes/models/groupuser.php:463 groups.php:1454
+msgid "You are the group %s"
+msgstr "شما %s گروه هستید"
+
+#: classes/models/groupuser.php:444
+msgid "You are a group %s"
+msgstr "شما یک %s گروه هستید"
+
+#: classes/models/groupuser.php:434 classes/models/groupuser.php:570
+msgid "Leave"
+msgstr "ترک کردن"
+
+#: classes/models/groupuser.php:428
+msgid "To join again a member will have to be invited."
+msgstr "برای عضویت دوباره کاربر باید دعوت شود."
+
+#: classes/models/groupuser.php:424 classes/models/groupuser.php:575
+msgid "To join again you will have to be approved or invited."
+msgstr "برای پیوستن دوباره شما باید دعوت و یا تایید شوید."
+
+#: classes/models/groupuser.php:421 classes/models/groupuser.php:572
+msgid "Are you sure you want to leave this group?"
+msgstr "آیا مطمئن هستید که می خواهید این گروه را ترک کنید؟"
+
+#: classes/models/groupuser.php:411
+msgid "Request To Join"
+msgstr "درخواست برای عضویت"
+
+#: classes/models/groupuser.php:404
+msgid "Join"
+msgstr "پیوستن"
+
+#: classes/models/groupuser.php:397
+msgid "Cancel Request To Join"
+msgstr ""
+
+#: classes/models/groupuser.php:391
+msgid "You need to be approved"
+msgstr "شما باید تایید شود"
+
+#: classes/models/groupuser.php:390
+msgid "Pending approval"
+msgstr "در انتظار تایید"
+
+#: classes/models/groupuser.php:383
+msgid "Reject invite"
+msgstr "رد دعوت"
+
+#: classes/models/groupuser.php:377
+msgid "Accept invite"
+msgstr "قبول دعوت"
+
+#: classes/models/groupuser.php:358
+msgid "Add users"
+msgstr "افزودن کاربر"
+
+#: classes/models/groupuser.php:354
+msgid "Invite"
+msgstr "دعوت کردن"
+
+#: classes/models/groupuser.php:137
+msgid "As community administrator, you have the same control as group owner."
+msgstr "به عنوان مدیر سایت شما همان مجوزهای مالک گروه را دارید."
+
+#: classes/models/groupuser.php:120
+msgid "As an owner you can manage all aspects of the group and its content"
+msgstr "به عنوان مالک شما می تانید تمام محتوای گروه را مدیریت کنید"
+
+#: classes/models/groupuser.php:119
+msgid "owner"
+msgstr "صاحب"
+
+#: classes/models/groupuser.php:115
+msgid "As a manager you can manage the group members and edit or delete all posts and comments in this group"
+msgstr "به عنوان مدیر شما می توانید اعضای گروه را مدیریت کرده و پست ها و نظرات این گروه را ویرایش یا حذف کنید"
+
+#: classes/models/groupuser.php:114
+msgid "manager"
+msgstr "مدیر"
+
+#: classes/models/groupuser.php:110
+msgid "As a moderator you can edit or delete all posts and comments in this group"
+msgstr "به عنوان مدیر شما می توانید تمام پست ها و نظرات این گروه را حذف یا ویرایش کنید"
+
+#: classes/models/groupuser.php:109
+msgid "moderator"
+msgstr "مدیر"
+
+#: classes/models/groupuser.php:103 groups.php:2657
+#: templates/groups/groups-item.php:29
+msgid "member"
+msgstr "عضو"
+
+#: classes/models/groupprivacy.php:35
+msgid "Non-members can't see the group at all."
+msgstr "افراد غیر عضو اصلا نمی توانند گروه را مشاهده کنند."
+
+#: classes/models/groupprivacy.php:35
+msgid "Users need to be invited."
+msgstr "کاربران باید دعوت شوند."
+
+#: classes/models/groupprivacy.php:34
+msgid "secret"
+msgstr "مخفی"
+
+#: classes/models/groupprivacy.php:33
+msgid "Secret"
+msgstr "مخفی"
+
+#: classes/models/groupprivacy.php:28
+msgid "Non-members can only see the group page."
+msgstr ""
+
+#: classes/models/groupprivacy.php:28
+msgid "Users need to be invited or request the group membership."
+msgstr ""
+
+#: classes/models/groupprivacy.php:27
+msgid "private"
+msgstr ""
+
+#: classes/models/groupprivacy.php:26
+msgid "Private"
+msgstr ""
+
+#: classes/models/groupprivacy.php:20
+msgid "Non-members can see the group content, but they can't post."
+msgstr ""
+
+#: classes/models/groupprivacy.php:19
+msgid "open"
+msgstr "باز"
+
+#: classes/models/groupprivacy.php:18
+msgid "Open"
+msgstr "گشودن"
+
+#: classes/models/groupfollower.php:218
+msgid "Receive emails about new posts in this group"
+msgstr ""
+
+#: classes/models/groupfollower.php:215 groups.php:1470
+msgid "Receive emails"
+msgstr ""
+
+#: classes/models/groupfollower.php:211
+msgid "Be notified about new posts in this group"
+msgstr "اطلاع رسانی در هنگام پست های جدید این گروه"
+
+#: classes/models/groupfollower.php:208 groups.php:1466
+msgid "Be notified"
+msgstr "اطلاع رسانی شود"
+
+#: classes/models/groupfollower.php:204
+msgid "Show posts from this group in \"my following\" stream"
+msgstr ""
+
+#: classes/models/groupfollower.php:201 groups.php:1462
+msgid "Follow"
+msgstr "دنبال کن"
+
+#: classes/models/groupfollower.php:190
+msgid "Not receiving notifications"
+msgstr ""
+
+#: classes/models/groupfollower.php:186
+msgid "Receiving notifications"
+msgstr ""
+
+#: classes/models/groupfollower.php:176
+msgid "Not following"
+msgstr "دنبال نمی کند"
+
+#: classes/models/groupfollower.php:173
+#: templates/groups/group-members-search-form.php:66
+msgid "Following"
+msgstr ""
+
+#: classes/models/groupcategory.php:79 groups.php:2662
+#: templates/groups/groups.php:128
+msgid "Uncategorized"
+msgstr "دسته بندی نشده"
+
+#: classes/models/group.php:416
+msgid "This group name cannot be used"
+msgstr ""
+
+#: classes/models/group.php:399
+msgid "Maximum length is %s"
+msgstr "حداکثر طول %s است"
+
+#: classes/models/group.php:395
+msgid "Minimum length is %s characters"
+msgstr "حداقل طول %s کاراکتر است"
+
+#: classes/models/group.php:391
+msgid "This field can't be a number"
+msgstr "این فیلد نمی تواند عدد باشد"
+
+#: classes/models/group.php:382 classes/models/group.php:386
+msgid "This field is required"
+msgstr "این فیلد الزامی است"
+
+#: classes/api/groupusersajax.php:237 classes/api/groupusersajax.php:242
+msgid "No users found."
+msgstr "هیچ کاربری یافت نشد."
+
+#: classes/api/groupuserajax.php:266
+msgid "Invalid role"
+msgstr "نقش نادرست"
+
+#: classes/api/groupuserajax.php:219
+msgid "Unable to add this user"
+msgstr "قادر به افزودن این کاربر نیست"
+
+#: classes/api/groupuserajax.php:215
+msgid "added you to a group"
+msgstr "شما را به یک گروه افزود"
+
+#: classes/api/groupuserajax.php:206
+msgid "Unable to invite this user"
+msgstr "قادر به دعوت این کاربر نیستید"
+
+#: classes/api/groupuserajax.php:204
+msgid "invited you to join a group"
+msgstr "شما را به این گروه دعوت کرد"
+
+#: classes/api/groupuserajax.php:187
+msgid "You are not allowed to manage members"
+msgstr "شما مجاز به مدیریت اعضا نیستید"
+
+#: classes/api/groupuserajax.php:138
+msgid "Are you sure you want to block all future invites to this group?"
+msgstr "آیا مطمئن هستید که می خواهید از تمام دعوت های ویژه به این گروه جلوگیری کنید؟"
+
+#: classes/api/groupuserajax.php:137
+msgid "Block invites"
+msgstr "مسدود کردن دعوت ها"
+
+#: classes/api/groupuserajax.php:128
+msgid "Unable to leave this group"
+msgstr "قادر به ترک این گروه نیستید"
+
+#: classes/api/groupuserajax.php:108
+msgid "Unable to cancel request to join this group"
+msgstr ""
+
+#: classes/api/groupuserajax.php:63 classes/api/groupuserajax.php:87
+msgid "Unable to join this group"
+msgstr "قادر به پیوستن به این گروه نیستید"
+
+#: classes/api/groupsajax.php:123
+msgid "No groups found"
+msgstr "هیچ گروهی پیدا نشد"
+
+#: classes/api/groupsajax.php:120
+msgid "%s doesn't belong to any groups yet"
+msgstr "%s در حال حاضر به هیچ گروهی تعلق ندارد"
+
+#: classes/api/groupsajax.php:120
+msgid "You don't belong to any groups yet"
+msgstr "شما در حال حاضر به هیچ گروهی تعلق ندارید"
+
+#: classes/api/groupcategoryajax.php:13
+msgid "New Category"
+msgstr ""
+
+#: classes/api/groupcategoryajax.php:9 classes/api/groupcategoryajax.php:52
+#: classes/api/groupcategoryajax.php:71 classes/api/groupcategoryajax.php:101
+#: classes/api/groupcategoryajax.php:136 classes/api/groupcategoryajax.php:161
+msgid "Insufficient permissions."
+msgstr "مجوز كافي نيست."
+
+#: classes/api/groupcategoriesajax.php:53
+msgid "No Categories Found."
+msgstr "موضوعی پیدا نشد."
+
+#: classes/api/groupajax.php:751 classes/api/groupcategoryajax.php:506
+msgid "Changes saved."
+msgstr "تغییرات ذخیره شد."
+
+#: classes/api/groupajax.php:610 classes/api/groupajax.php:716
+#: classes/api/groupcategoryajax.php:372 classes/api/groupcategoryajax.php:476
+msgid "No file uploaded."
+msgstr "فایلی بارگذاری نشده است."
+
+#: classes/api/groupajax.php:599 classes/api/groupcategoryajax.php:361
+msgid "Minimum avatar resolution is %d x %d pixels."
+msgstr "حداقل وضوح تصویر آواتار %d در %d پیکسل می باشد."
+
+#: classes/api/groupajax.php:576 classes/api/groupajax.php:699
+#: classes/api/groupcategoryajax.php:338 classes/api/groupcategoryajax.php:458
+msgid "The file type you uploaded is not allowed."
+msgstr "نوع فایل آپلود شده شما مجاز نیست."
+
+#: classes/api/groupajax.php:570 classes/api/groupajax.php:705
+#: classes/api/groupcategoryajax.php:332 classes/api/groupcategoryajax.php:464
+msgid "The file you uploaded is either missing or too large."
+msgstr "فایل های آپلود شده شما مفقود شده و یا بیش از حد بزرگ است."
+
+#: classes/api/groupajax.php:554 classes/api/groupajax.php:641
+#: classes/api/groupajax.php:721 classes/api/groupajax.php:755
+#: classes/api/groupcategoryajax.php:316 classes/api/groupcategoryajax.php:402
+#: classes/api/groupcategoryajax.php:481
+msgid "You do not have enough permissions."
+msgstr "شما مجوزهای کافی ندارید."
+
+#: classes/api/groupajax.php:426 classes/api/groupajax.php:494
+#: classes/api/groupcategoryajax.php:190 classes/api/groupcategoryajax.php:257
+msgid "Invalid access"
+msgstr "دسترسی غیر معتبر"
+
+#: classes/api/groupajax.php:383 classes/api/groupajax.php:407
+msgid "You are not authorized to change this group categories."
+msgstr "شما مجاز به تغییر موضوعات این گروه نیستید."
+
+#: classes/api/groupajax.php:378
+msgid "Group categories saved."
+msgstr "موضوعات گروه ذخیره شد."
+
+#: classes/api/groupajax.php:340
+msgid "You are not authorized to change this group description."
+msgstr "شما مجاز به تغییر توضیحات این گروه نیستید."
+
+#: classes/api/groupajax.php:337
+msgid "Group description saved."
+msgstr "توضیحات گروه ذخیره شد."
+
+#: classes/api/groupajax.php:294
+msgid "You are not authorized to change this group name."
+msgstr "شما مجاز به تغییر نام این گروه نیستید."
+
+#: classes/api/groupajax.php:290
+msgid "Group privacy changed."
+msgstr "حریم خصوصی گروه تغییر یافت."
+
+#: classes/api/groupajax.php:275
+msgid "Invalid Group Privacy"
+msgstr "حریم خصوصی گروه نامعتبر است"
+
+#: classes/api/groupajax.php:245
+msgid "You are not authorized to manage this group's settings"
+msgstr "شما مجاز به مدیریت تنظیمات این گروه نیستید"
+
+#: classes/api/groupajax.php:182 classes/api/groupajax.php:242
+msgid "Group name saved."
+msgstr "گروه ذخیره شد."
+
+#: classes/api/groupajax.php:139 classes/api/groupajax.php:200
+#: classes/api/groupajax.php:260 classes/api/groupajax.php:309
+#: classes/api/groupajax.php:355 classes/api/groupajax.php:398
+#: classes/api/groupajax.php:544 classes/api/groupajax.php:627
+#: classes/api/groupajax.php:678 classes/api/groupajax.php:737
+#: classes/api/groupcategoryajax.php:307 classes/api/groupcategoryajax.php:389
+#: classes/api/groupcategoryajax.php:438 classes/api/groupcategoryajax.php:495
+msgid "Request could not be verified."
+msgstr "درخواست تأیید نمی شود."
+
+#: classes/api/groupajax.php:124 classes/api/groupajax.php:185
+#: classes/api/groupuserajax.php:273
+msgid "Insufficient permissions"
+msgstr "مجوز كافي نيست"
+
+#: classes/api/groupajax.php:121
+msgid "Setting saved"
+msgstr "تنظیمات ذخیره شد"
+
+#: classes/api/groupajax.php:94
+msgid "Request could not be verified"
+msgstr "درخواست تأیید نمی شود"
+
+#: classes/admin/groupslisttable.php:328
+msgid "Show"
+msgstr "نمایش دادن"
+
+#: classes/admin/groupslisttable.php:310
+msgid "Unpublished"
+msgstr "منتشر نشده"
+
+#: classes/admin/groupslisttable.php:308
+#: templates/admin/group_categories.php:80
+msgid "Published"
+msgstr "منتشر شده"
+
+#: classes/admin/groupslisttable.php:305
+msgid "All"
+msgstr "همه"
+
+#: classes/admin/groupslisttable.php:279
+msgid "group"
+msgid_plural "groups"
+msgstr[0] "گروه"
+msgstr[1] "گروه"
+
+#: classes/admin/groupslisttable.php:270
+msgid "deleted"
+msgstr "حذف شد"
+
+#: classes/admin/groupslisttable.php:251
+msgid "updated"
+msgstr "به روز رسانی شد"
+
+#: classes/admin/groupslisttable.php:243
+msgid "unpublished your group"
+msgstr "گروه شما لغو انتشار شد"
+
+#: classes/admin/groupslisttable.php:236
+msgid "published your group"
+msgstr "گروه شما منتشر شد"
+
+#: classes/admin/groupslisttable.php:200 templates/groups/dialog-avatar.php:8
+#: templates/groups/dialog-category-avatar.php:8
+#: templates/groups/group-category-header.php:72
+#: templates/groups/group-header.php:95
+msgid "Delete"
+msgstr "حذف کردن"
+
+#: classes/admin/groupslisttable.php:199
+msgid "Unpublish"
+msgstr "عدم انتشار"
+
+#: classes/admin/groupslisttable.php:198
+msgid "Publish"
+msgstr "انتشار"
+
+#: classes/admin/groupslisttable.php:173
+msgid "unpublished"
+msgstr "منتشر نشده"
+
+#: classes/admin/groupslisttable.php:173
+msgid "published"
+msgstr "منتشر شده"
+
+#: classes/admin/groupslisttable.php:128 templates/groups/dialog-create.php:65
+msgid "Privacy"
+msgstr "حریم خصوصی"
+
+#: classes/admin/groupslisttable.php:116
+msgid "Read more"
+msgstr "ادامه مطلب"
+
+#: classes/admin/groupslisttable.php:62 templates/groups/group-header.php:213
+msgid "Members"
+msgstr "اعضاء"
+
+#: classes/admin/groupslisttable.php:61
+msgid "Status"
+msgstr "وضعيت"
+
+#: classes/admin/groupslisttable.php:60
+#: templates/groups/group-members-item.php:22
+#: templates/groups/group-members-item.php:29
+msgid "Owner"
+msgstr "صاحب"
+
+#: classes/admin/groupslisttable.php:58
+#: templates/admin/group_categories.php:120
+#: templates/groups/dialog-create.php:16
+msgid "Description"
+msgstr "توضیحات"
+
+#: classes/admin/groupslisttable.php:57
+msgid "Group"
+msgstr "گروه"
+
+#: classes/admin/configsectiongroups.php:522
+msgid "Advanced"
+msgstr "پیشرفته"
+
+#: classes/admin/configsectiongroups.php:495
+msgid "Show membership summary for group names on stream"
+msgstr "نمایش چکیده عضویت گروه بر روی نام گروه ها در دیوار/جریان فعالیت"
+
+#: classes/admin/configsectiongroups.php:492
+msgid "When enabled, hovering over group names on stream will display membership and following summary. This feature is likely to slow down stream performance."
+msgstr "در هنگام فعالسازی وقتی ماوس بر روی نام گروه ها قرار گیرد (هاور) یک پنجره پاپ آپ حاوی عضویت و خلاصه دنباله روی نمایش داده خواهد شد. این ویژگی ممکن است باعث کند شدن عملکرد دیوار فعالیت شود."
+
+#: classes/admin/configsectiongroups.php:486
+msgid "Email Admins when a new group is created"
+msgstr ""
+
+#: classes/admin/configsectiongroups.php:483
+msgid "Users with Administrator role will receive an email when a new group is created"
+msgstr ""
+
+#: classes/admin/configsectiongroups.php:477
+msgid "Replace \"invite\" with \"add\" for Admins"
+msgstr "جایگزین کردن عبارت \"دعوت\" با \"افزودن\" برای مدیران"
+
+#: classes/admin/configsectiongroups.php:474
+msgid "Site and Community Administrators will add users to group without the need to confirm."
+msgstr "مدیران سایت و انجمن ها قادرند کاربران را بدون نیاز به تایید آنها به یک گروه اضافه کنند."
+
+#: classes/admin/configsectiongroups.php:467
+msgid "Force unique names"
+msgstr ""
+
+#: classes/admin/configsectiongroups.php:464
+msgid "Enabled: PeepSo will disallow creating groups with the same names. Runs a risk of exposing the existence of secret groups to non-members."
+msgstr ""
+
+#: classes/admin/configsectiongroups.php:445
+msgid "Pin to top only inside groups"
+msgstr ""
+
+#: classes/admin/configsectiongroups.php:442
+msgid "Disabled: pinned group posts will be also pinned to top on author profile and main activity"
+msgstr ""
+
+#: classes/admin/configsectiongroups.php:442
+msgid "Enabled: pinned group posts will be pinned to top only in group views"
+msgstr ""
+
+#: classes/admin/configsectiongroups.php:400
+msgid "Editing group posts and comments"
+msgstr ""
+
+#: classes/admin/configsectiongroups.php:393
+#: classes/admin/configsectiongroups.php:427
+msgid "By group moderators"
+msgstr ""
+
+#: classes/admin/configsectiongroups.php:389
+msgid "Enabled: group moderators can edit posts and comments in respective groups"
+msgstr ""
+
+#: classes/admin/configsectiongroups.php:385
+#: classes/admin/configsectiongroups.php:419
+msgid "By group managers"
+msgstr ""
+
+#: classes/admin/configsectiongroups.php:381
+msgid "Enabled: group managers can edit posts and comments in respective groups"
+msgstr ""
+
+#: classes/admin/configsectiongroups.php:377
+#: classes/admin/configsectiongroups.php:411
+msgid "By group owners"
+msgstr ""
+
+#: classes/admin/configsectiongroups.php:373
+#: classes/admin/configsectiongroups.php:381
+#: classes/admin/configsectiongroups.php:389
+msgid "Disabled: only admin can edit posts and comments"
+msgstr ""
+
+#: classes/admin/configsectiongroups.php:373
+msgid "Enabled: group owners can edit posts and comments in respective groups"
+msgstr ""
+
+#: classes/admin/configsectiongroups.php:366
+#: classes/admin/groupslisttable.php:59
+msgid "Categories"
+msgstr "موضوعات"
+
+#: classes/admin/configsectiongroups.php:359
+msgid "Show group count"
+msgstr "نمایش تعداد گروه"
+
+#: classes/admin/configsectiongroups.php:356
+msgid "The count will not be accurate if a category contains unpublished or secret groups."
+msgstr "تعداد، دقیق نخواهد بود اگر یک دسته شامل گروه های مخفی یا منتشر نشده باشد."
+
+#: classes/admin/configsectiongroups.php:350
+msgid "Hide empty categories"
+msgstr "پنهان کردن دسته‌های خالی"
+
+#: classes/admin/configsectiongroups.php:347
+msgid "Hide categories which don't have any groups assigned to them."
+msgstr "مخفی کردن موضوعاتی که هیچ گروهی به آ‌ها اختصاص داده نشده است."
+
+#: classes/admin/configsectiongroups.php:341
+msgid "Expand all categories"
+msgstr ""
+
+#: classes/admin/configsectiongroups.php:338
+msgid "Disabled: only the first category shows a preview of the group listing."
+msgstr ""
+
+#: classes/admin/configsectiongroups.php:332
+msgid "Each category loads"
+msgstr ""
+
+#: classes/admin/configsectiongroups.php:328
+msgid "Only this many groups will show in each category before offering a link to the full category listing."
+msgstr ""
+
+#: classes/admin/configsectiongroups.php:319
+msgid "%d groups"
+msgstr ""
+
+#: classes/admin/configsectiongroups.php:306
+msgid "Category listing"
+msgstr ""
+
+#: classes/admin/configsectiongroups.php:300
+msgid "Each ajax call loads"
+msgstr ""
+
+#: classes/admin/configsectiongroups.php:296
+msgid "Only this many categories will show in each ajax call in category listing."
+msgstr ""
+
+#: classes/admin/configsectiongroups.php:293
+#: classes/admin/configsectiongroups.php:322
+msgid "default"
+msgstr ""
+
+#: classes/admin/configsectiongroups.php:290
+msgid "%d category"
+msgid_plural "%d categories"
+msgstr[0] ""
+msgstr[1] ""
+
+#: classes/admin/configsectiongroups.php:280
+msgid "Allowed categories per group"
+msgstr ""
+
+#: classes/admin/configsectiongroups.php:267
+msgid "Allow multiple categories per group"
+msgstr "اجازه به دسته‌های متعدد برای هر گروه"
+
+#: classes/admin/configsectiongroups.php:264
+msgid "Users will be able to assign a group to multiple categories"
+msgstr "کاربران می‌توانند یک گروه را به موضوعات متعدد اختصاص دهند"
+
+#: classes/admin/configsectiongroups.php:257
+msgid "Set group categories as default view."
+msgstr ""
+
+#: classes/admin/configsectiongroups.php:249
+msgid "Enable group categories"
+msgstr "فعالسازی دسته‌بندی گروه‌ها"
+
+#: classes/admin/configsectiongroups.php:246
+msgid "Users will be able to assign groups to categories."
+msgstr "کاربران می‌توانند گروه‌ها را به دسته‌ها و موضوعات محول کنند."
+
+#: classes/admin/configsectiongroups.php:238
+msgid "New members"
+msgstr ""
+
+#: classes/admin/configsectiongroups.php:231
+msgid "Automatically subscribe new members to emails"
+msgstr ""
+
+#: classes/admin/configsectiongroups.php:228
+msgid "Enabled: new group members will automatically be subscribed to receive new posts email notifications"
+msgstr ""
+
+#: classes/admin/configsectiongroups.php:222
+msgid "Automatically subscribe new members to notifications"
+msgstr "به صورت خودکار اعضای جدید را برای دریافت اعلان ها ثبت کن"
+
+#: classes/admin/configsectiongroups.php:219
+msgid "Enabled: new group members will automatically be subscribed to receive new posts notifications (on-site)"
+msgstr "فعال: اعضای جدید گروه به صورت خودکار جهت دریافت اعلان های مطالب جدید مشترک خواهد شد (روی سایت)"
+
+#: classes/admin/configsectiongroups.php:213
+msgid "Notifications"
+msgstr ""
+
+#: classes/admin/configsectiongroups.php:207
+msgid "Action text (on other streams)"
+msgstr ""
+
+#: classes/admin/configsectiongroups.php:204
+msgid "For example \"joined a group:\". Leave empty for default. Applies to old posts too."
+msgstr ""
+
+#: classes/admin/configsectiongroups.php:200
+msgid "Action text (on group stream)"
+msgstr ""
+
+#: classes/admin/configsectiongroups.php:197
+msgid "For example \"joined this group\". Leave empty for default. Applies to old posts too."
+msgstr ""
+
+#: classes/admin/configsectiongroups.php:193
+#: classes/admin/configsectiongroups.php:509
+msgid "Enabled"
+msgstr ""
+
+#: classes/admin/configsectiongroups.php:190
+msgid "Enabled: automatically post on user's stream when they join a group. These posts are deleted automatically when the user leaves or is removed/banned from the group."
+msgstr ""
+
+#: classes/admin/configsectiongroups.php:185
+msgid "Post to stream when joining"
+msgstr ""
+
+#: classes/admin/configsectiongroups.php:177
+msgid "General"
+msgstr "عمومی"
+
+#: classes/admin/configsectiongroups.php:142
+msgid "Enable group creation"
+msgstr "فعال کردن امکان ایجاد گروه"
+
+#: classes/admin/configsectiongroups.php:139
+msgid "Disabled: only site admins can create groups"
+msgstr "غیرفعال: تنها مدیران سایت می توانند گروه ایجاد کنند"
+
+#: classes/admin/configsectiongroups.php:139
+msgid "Enabled: all site members can create groups"
+msgstr "فعال: تمام اعضای سایت می توانند گروه ایجاد کنند"
+
+#: classes/admin/configsectiongroups.php:131
+msgid "Group listings"
+msgstr "فهرست های گروه ها"
+
+#: classes/admin/configsectiongroups.php:104
+msgid "Default sort direction"
+msgstr ""
+
+#: classes/admin/configsectiongroups.php:97 templates/groups/groups.php:104
+msgid "Ascending"
+msgstr ""
+
+#: classes/admin/configsectiongroups.php:96
+msgid "Descending (default)"
+msgstr ""
+
+#: classes/admin/configsectiongroups.php:91
+msgid "Default sort"
+msgstr ""
+
+#: classes/admin/configsectiongroups.php:85 templates/groups/groups.php:96
+msgid "Members count"
+msgstr "تعداد اعضا"
+
+#: classes/admin/configsectiongroups.php:84
+#: templates/groups/group-members-search-form.php:55
+#: templates/groups/groups.php:95
+msgid "Alphabetical"
+msgstr "بر اساس حروف الفبا"
+
+#: classes/admin/configsectiongroups.php:83
+msgid "Recently added (default)"
+msgstr ""
+
+#: classes/admin/configsectiongroups.php:78
+msgid "Allow guest access"
+msgstr "اجازه دسترسی مهمان"
+
+#: classes/admin/configsectiongroups.php:75
+msgid "Show or hide the groups listing from visitors who are not logged in"
+msgstr "نمایش یا عدم نمایش فهرست گروه ها از بازدیدکنندگانی که وارد نشده اند"
+
+#: classes/admin/configsectiongroups.php:70
+msgid "Show creation date"
+msgstr "نمایش تاریخ ایجاد گروه"
+
+#: classes/admin/configsectiongroups.php:67
+msgid "Show or hide the groups creation dates in the groups listing"
+msgstr "نمایش یا عدم نمایش زمان ایجاد گروه در فهرست گروه ها"
+
+#: classes/admin/configsectiongroups.php:61
+msgid "Show owner(s)"
+msgstr "نمایش مالکان"
+
+#: classes/admin/configsectiongroups.php:58
+msgid "Show or hide the groups owner(s) in the groups listing"
+msgstr "نمایش یا عدم نمایش مالکان گروه در فهرست گروه ها"
+
+#: classes/admin/configsectiongroups.php:51
+msgid "SEO"
+msgstr "سئو"
+
+#: classes/admin/configsectiongroups.php:45
+msgid "Group slug changes"
+msgstr "تغییرات نامک روه"
+
+#: classes/admin/configsectiongroups.php:42
+msgid "Option 3: the group owner can change the slug manually."
+msgstr "گزینه 3: مدیر گروه می تواند به صورت دستی نامک گروه را تغییر دهد."
+
+#: classes/admin/configsectiongroups.php:42
+msgid "Option 2: new group slug will be generated upon group name change."
+msgstr "گزینه 2: دی هنگام تغییر نام گروه، نامک جدید ایجاد خواهد شد."
+
+#: classes/admin/configsectiongroups.php:42
+msgid "Option 1: group slug will stay the same as the original group name."
+msgstr "گزینه 1: نامک گروه باید مشابه نام اصلی گروه باقی بماند."
+
+#: classes/admin/configsectiongroups.php:38
+msgid "by the group owner"
+msgstr "توسط مدیر گروه"
+
+#: classes/admin/configsectiongroups.php:37
+msgid "when group name is changed"
+msgstr "هنگامی که نام گروه تغییر کرده است"
+
+#: classes/admin/configsectiongroups.php:36
+msgid "never"
+msgstr "هرگز"
+
+#: classes/admin/configsectiongroups.php:31
+msgid "Use slugs in group URLs"
+msgstr "از نامک در یوآرال های گروه ها استفاده کنید"
+
+#: classes/admin/configsectiongroups.php:28
+msgid "Disabled: /groups/1234/"
+msgstr "غیرفعال: /groups/1234/"
+
+#: classes/admin/configsectiongroups.php:28
+msgid "Enabled: /groups/my-amazing-group/"
+msgstr "فعال: /groups/my-amazing-group/"

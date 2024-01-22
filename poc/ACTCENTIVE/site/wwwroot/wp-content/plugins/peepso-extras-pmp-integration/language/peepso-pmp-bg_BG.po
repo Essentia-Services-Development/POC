@@ -1,0 +1,362 @@
+# Translation of PeepSo - Paid Memberships Pro Integration in Bulgarian
+# This file is distributed under the same license as the PeepSo - Paid Memberships Pro Integration package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-02-02 10:36:01+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0\n"
+"Language: bg\n"
+"Project-Id-Version: PeepSo - Paid Memberships Pro Integration\n"
+
+#: peepsopmp.php:783
+msgid "private"
+msgstr ""
+
+#: peepsopmp.php:761
+msgid "Check this to make selected <b>Private PeepSo Groups</b> require this membership level."
+msgstr ""
+
+#: peepsopmp.php:758
+msgid "Require this membeship level"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Memberships and access control for your PeepSo community. Requires the Paid Memberships Pro plugin."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "PeepSo"
+msgstr "PeepSo"
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://peepso.com"
+msgstr "https://peepso.com"
+
+#. Plugin Name of the plugin/theme
+msgid "PeepSo Monetization: Paid Memberships Pro"
+msgstr ""
+
+#: templates/pmp/pmp_levels.php:34
+msgid "Select"
+msgstr "Избери"
+
+#: templates/pmp/pmp_levels.php:21
+msgid "Free"
+msgstr "Безплатно"
+
+#: templates/pmp/pmp_levels.php:5
+msgid "Price"
+msgstr "Цена"
+
+#: templates/pmp/pmp_levels.php:4
+msgid "Level"
+msgstr "Ниво"
+
+#: templates/pmp/pmp_checkout.php:743
+msgid "Processing..."
+msgstr "Обработва се..."
+
+#: templates/pmp/pmp_checkout.php:733
+msgid "Submit and Confirm"
+msgstr "Изпрати и потвърди"
+
+#: templates/pmp/pmp_checkout.php:733
+msgid "Submit and Check Out"
+msgstr "Поръчай и плати"
+
+#: templates/pmp/pmp_checkout.php:721
+msgid "Complete Payment"
+msgstr "Завърши плащането"
+
+#: templates/pmp/pmp_checkout.php:701
+msgid "I agree to the %s"
+msgstr "Съгласен съм да %s"
+
+#: templates/pmp/pmp_checkout.php:613
+msgid "what's this?"
+msgstr "какво е това?"
+
+#: templates/pmp/pmp_checkout.php:612
+msgid "CVV"
+msgstr "CVV"
+
+#: templates/pmp/pmp_checkout.php:579
+msgid "Expiration Date"
+msgstr "Срок на валидност"
+
+#: templates/pmp/pmp_checkout.php:574
+msgid "Card Number"
+msgstr "Номер на карта"
+
+#: templates/pmp/pmp_checkout.php:531
+msgid "Card Type"
+msgstr "Вид карта"
+
+#: templates/pmp/pmp_checkout.php:508
+msgid "We Accept %s"
+msgstr "Ние приемаме %s"
+
+#: templates/pmp/pmp_checkout.php:507
+msgid "Payment Information"
+msgstr "Информация за плащане"
+
+#: templates/pmp/pmp_checkout.php:470
+msgid "Confirm Email"
+msgstr ""
+
+#: templates/pmp/pmp_checkout.php:447
+msgid "Phone"
+msgstr "Телефон"
+
+#: templates/pmp/pmp_checkout.php:422
+msgid "Country"
+msgstr "Дръжава"
+
+#: templates/pmp/pmp_checkout.php:369
+msgid "City, State Zip"
+msgstr "Град, пощенски код"
+
+#: templates/pmp/pmp_checkout.php:360
+msgid "Postal Code"
+msgstr "Пощенски код"
+
+#: templates/pmp/pmp_checkout.php:356
+msgid "State"
+msgstr "Област"
+
+#: templates/pmp/pmp_checkout.php:352
+msgid "City"
+msgstr "Град"
+
+#: templates/pmp/pmp_checkout.php:342
+msgid "Address 2"
+msgstr "Адрес 2"
+
+#: templates/pmp/pmp_checkout.php:338
+msgid "Address 1"
+msgstr "Адрес 1"
+
+#: templates/pmp/pmp_checkout.php:334
+msgid "Last Name"
+msgstr "Фамилия"
+
+#: templates/pmp/pmp_checkout.php:330
+msgid "First Name"
+msgstr "Име"
+
+#: templates/pmp/pmp_checkout.php:323
+msgid "Billing Address"
+msgstr "Адрес за фактуриране"
+
+#: templates/pmp/pmp_checkout.php:306
+msgid "Check Out with PayPal"
+msgstr "Плати с PayPal"
+
+#: templates/pmp/pmp_checkout.php:302
+msgid "Check Out with a Credit Card Here"
+msgstr "Плати с кредитна карта"
+
+#: templates/pmp/pmp_checkout.php:293
+msgid "Choose your Payment Method"
+msgstr "Изберете метод на плащане"
+
+#: templates/pmp/pmp_checkout.php:277
+msgid "You are logged in as <strong>%s</strong>."
+msgstr "Вие сте влезли като <strong>%s</strong>."
+
+#: templates/pmp/pmp_checkout.php:253
+msgid "LEAVE THIS BLANK"
+msgstr "ОСТАВЕТЕ ПОЛЕТО ПРАЗНО"
+
+#: templates/pmp/pmp_checkout.php:252
+msgid "Full Name"
+msgstr "Име и фамилия"
+
+#: templates/pmp/pmp_checkout.php:233
+msgid "Confirm Email Address"
+msgstr ""
+
+#: templates/pmp/pmp_checkout.php:224 templates/pmp/pmp_checkout.php:461
+msgid "Email Address"
+msgstr ""
+
+#: templates/pmp/pmp_checkout.php:206
+msgid "Confirm Password"
+msgstr "Потвръдете паролата"
+
+#: templates/pmp/pmp_checkout.php:197
+msgid "Password"
+msgstr "Парола"
+
+#: templates/pmp/pmp_checkout.php:188
+msgid "Username"
+msgstr "Потребителско име"
+
+#: templates/pmp/pmp_checkout.php:180
+msgid "Log in here"
+msgstr "Влезте от тук"
+
+#: templates/pmp/pmp_checkout.php:180
+msgid "Already have an account?"
+msgstr "Имате регистриран акаунт?"
+
+#: templates/pmp/pmp_checkout.php:179
+msgid "Account Information"
+msgstr "Информация за акаунта"
+
+#: templates/pmp/pmp_checkout.php:91 templates/pmp/pmp_checkout.php:623
+msgid "Apply"
+msgstr "Приложи"
+
+#: templates/pmp/pmp_checkout.php:79 templates/pmp/pmp_checkout.php:89
+#: templates/pmp/pmp_checkout.php:621
+msgid "Discount Code"
+msgstr "Код за отстъпка"
+
+#: templates/pmp/pmp_checkout.php:77
+msgid "Click here to enter your discount code"
+msgstr "Щракнете тук, за да въведете вашия код за отстъпка"
+
+#: templates/pmp/pmp_checkout.php:77
+msgid "Do you have a discount code?"
+msgstr "Имате код за отстъпка?"
+
+#: templates/pmp/pmp_checkout.php:75
+msgid "Click here to change your discount code"
+msgstr "Щракнете тук, за да промените кода за отстъпка"
+
+#: templates/pmp/pmp_checkout.php:64
+msgid "<p class=\"pmpro_level_discount_applied\">The <strong>%s</strong> code has been applied to your order.</p>"
+msgstr "<p class=\"pmpro_level_discount_applied\"> Кодът за отстъпка <strong>%s</strong> е приложен към вашата поръчка.</p>"
+
+#: templates/pmp/pmp_checkout.php:54
+msgid "You have selected the <strong>%s</strong> membership level."
+msgstr "Избрали сте ниво на членство <strong>%s</strong>."
+
+#: templates/pmp/pmp_checkout.php:46
+msgid "change"
+msgstr "промени"
+
+#: templates/pmp/pmp_checkout.php:45
+msgid "Membership Level"
+msgstr "Ниво на членство"
+
+#: templates/pmp/pmp_checkout.php:38
+msgid "Almost done. Review the membership information and pricing below then <strong>click the \"Complete Payment\" button</strong> to finish your order."
+msgstr "Почти е готово. Прегледайте информацията за членство и цените по-долу, след това <strong>щракнете върху бутона \"Плащане\"</strong>, за да завършите поръчката."
+
+#: peepsopmp.php:861
+msgid "unpublished"
+msgstr "непубликувана"
+
+#: peepsopmp.php:854
+msgid "No Icon"
+msgstr "Няма икона"
+
+#: peepsopmp.php:841
+msgid "Automatically assign users a selected VIP icon who pick this membership level"
+msgstr ""
+
+#: peepsopmp.php:840
+msgid "PeepSo VIP"
+msgstr "PeepSo - VIP"
+
+#: peepsopmp.php:784
+msgid "secret"
+msgstr "секретна"
+
+#: peepsopmp.php:782
+msgid "open"
+msgstr "публична"
+
+#: peepsopmp.php:765
+msgid "Automatically add users who pick this membership level to the following groups."
+msgstr "Автоматично се добавят потребители, които са избрали това ниво на членство, в следните групи."
+
+#: peepsopmp.php:755
+msgid "PeepSo Groups"
+msgstr "PeepSo Групи"
+
+#: peepsopmp.php:656
+msgid "Done"
+msgstr ""
+
+#: peepsopmp.php:480
+msgid "PeepSo PMP Integration"
+msgstr "PeepSo PMP интеграция"
+
+#: peepsopmp.php:477
+msgid "PMP"
+msgstr ""
+
+#: peepsopmp.php:433
+msgid "Get it now!"
+msgstr "Вземи го сега!"
+
+#: peepsopmp.php:431
+msgid "The %s plugin requires the PeepSo plugin to be installed and activated."
+msgstr "Плъгинът %s изисква PeepSo да бъде инсталиран и активиран."
+
+#: peepsopmp.php:139
+msgid "Membership"
+msgstr "Членство"
+
+#: classes/configsectionpmpintegration.php:99
+msgid "General"
+msgstr "Основни настройки"
+
+#: classes/configsectionpmpintegration.php:91
+msgid "Strict group memberships (BETA)"
+msgstr ""
+
+#: classes/configsectionpmpintegration.php:87
+msgid "When enabled, users who lose access to a membership level will be removed from all groups assigned to this membership level"
+msgstr ""
+
+#: classes/configsectionpmpintegration.php:81
+msgid "User Login State Handler"
+msgstr ""
+
+#: classes/configsectionpmpintegration.php:76
+msgid "How would you like to handle the user login state while choosing a membership level? This setting is related to an issue introduced in PMP 2.4.1"
+msgstr ""
+
+#: classes/configsectionpmpintegration.php:72
+msgid "Session"
+msgstr ""
+
+#: classes/configsectionpmpintegration.php:71
+msgid "Cookie"
+msgstr ""
+
+#: classes/configsectionpmpintegration.php:65
+msgid "Hide \"Membership\" tab in user profiles"
+msgstr ""
+
+#: classes/configsectionpmpintegration.php:59
+msgid "Enable email notifications for users that have no membership plans"
+msgstr ""
+
+#: classes/configsectionpmpintegration.php:53
+msgid "Force complete membership for users that have no membership plans"
+msgstr ""
+
+#: classes/configsectionpmpintegration.php:46
+msgid "Enable integration upon PeepSo registration"
+msgstr ""
+
+#: classes/configsectionpmpintegration.php:39
+msgid "Enable PMP Integration"
+msgstr "Разреши PMP интеграция"
+
+#: classes/configsectionpmpintegration.php:30
+msgid "Turn on the use of PMP Integration"
+msgstr "Включи PMP интеграция"
+
+#: classes/configsectionpmpintegration.php:25
+msgid "Configure the use of PeepSo PMP Integration."
+msgstr "Конфигуриране на PeepSo PMP интеграция."

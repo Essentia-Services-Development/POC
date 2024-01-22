@@ -1,0 +1,30 @@
+.ps-message__recipients-select {
+  .selectize-input {
+    font-family: var(--PS-FONT-FAMILY);
+    color: var(--PS-COLOR--TEXT);
+    background-color: var(--PS-COLOR--APP--GRAY);
+    border: none;
+    box-shadow: var(--BOX-SHADOW--HARD);
+
+    > input {
+      font-family: var(--PS-FONT-FAMILY);
+      color: var(--PS-COLOR--TEXT);
+    }
+  }
+
+  .selectize-dropdown {
+    background-color: var(--PS-COLOR--APP--GRAY);
+    border: 1px solid var(--DIVIDER);
+  }
+
+  .selectize-dropdown-content {
+    background-color: var(--PS-COLOR--APP--GRAY);
+    border: none;
+
+    > div {
+      color: var(--PS-COLOR--TEXT);
+      background-color: var(--PS-COLOR--APP--GRAY);
+      border: none;
+    }
+  }
+}

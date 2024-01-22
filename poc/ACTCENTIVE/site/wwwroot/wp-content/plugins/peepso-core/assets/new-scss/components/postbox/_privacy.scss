@@ -1,0 +1,57 @@
+.ps-postbox__menu-item--privacy {
+  .ps-postbox__menu-item-label {
+    font-size: max(70%,var(--MIN-FONT-SIZE));
+  }
+
+  @include mq($until: desktop) {
+    .ps-postbox__menu-item-label {
+      display: none;
+    }
+  }
+}
+
+.ps-postbox__privacy {
+  @include ps-dropdown-style-menu;
+
+  .ps-dropdown__menu {
+    @include mq($until: desktop) {
+      width: 100%;
+      left: 0;
+      right: 0;
+    }
+    
+    --bg: var(--c-ps-postbox-dropdown-bg);
+    --bg--light: var(--c-ps-postbox-dropdown-bg-light);
+    --text-color: var(--c-ps-postbox-dropdown-text-color);
+    --icon-color: var(--c-ps-postbox-dropdown-icon-color);
+
+    background-color: var(--bg);
+
+    > a {
+      color: var(--text-color);
+
+      @if $comp_mode {
+        color: var(--text-color) !important;
+      }
+
+      @include mq($from: tablet) {
+        &:hover,
+        &:focus,
+        &.active {
+          color: var(--text-color);
+          background-color: var(--bg--light);
+
+          @if $comp_mode {
+            color: var(--text-color) !important;
+          }
+        }
+      }
+    }
+
+    i {
+      color: var(--icon-color);
+    }
+  }
+}
+
+.ps-postbox__privacy-item {}

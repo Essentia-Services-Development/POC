@@ -1,0 +1,873 @@
+# Translation of PeepSo - Audio & Video in Czech
+# This file is distributed under the same license as the PeepSo - Audio & Video package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-02-02 12:11:20+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n >= 2 && n <= 4) ? 1 : 2);\n"
+"X-Generator: GlotPress/3.0.0\n"
+"Language: cs_CZ\n"
+"Project-Id-Version: PeepSo - Audio & Video\n"
+
+#: classes/configsectionvideos.php:258
+msgid "Clear history"
+msgstr ""
+
+#: classes/configsectionvideos.php:34
+msgid "Autoplay on activity stream"
+msgstr ""
+
+#: classes/configsectionvideos.php:30
+msgid "When enabled, videos will be autoplayed when visible on activity stream."
+msgstr ""
+
+#: classes/configsectionvideos.php:809
+msgid "Media Library"
+msgstr ""
+
+#: classes/configsectionvideos.php:799
+msgid "When enabled all users are able to access all files in media library."
+msgstr ""
+
+#: classes/adminvideosqueuelisttable.php:73
+msgid "Thumbnail"
+msgstr ""
+
+#: classes/adminvideosqueuelisttable.php:206
+msgid "See post"
+msgstr ""
+
+#: classes/adminvideosqueuelisttable.php:72
+msgid "Link"
+msgstr ""
+
+#: templates/videos/content-media-pending.php:15
+msgid "Video is being processed. You'll be notified when it's ready."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "PeepSo"
+msgstr "PeepSo"
+
+#. Description of the plugin/theme
+msgid "Upload audio and video files. Link and embed audio and video from supported providers"
+msgstr "Nahrávání audio a video souborů. Vkládání a odkazování na videa od podporovaných poskytovatelů"
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://peepso.com"
+msgstr "https://peepso.com"
+
+#: templates/widgets/videos.tpl.php:32
+msgid "View All"
+msgstr "Zobrazit vše"
+
+#: templates/widgets/community-videos.tpl.php:36
+#: templates/widgets/videos.tpl.php:48
+msgid "No video"
+msgstr "Žádná vido"
+
+#: templates/widgets/community-videos.tpl.php:34
+#: templates/widgets/videos.tpl.php:46
+msgid "No audio"
+msgstr "Žádné audiosoubory"
+
+#: templates/widgets/community-videos.tpl.php:31
+#: templates/widgets/videos.tpl.php:43
+msgid "No media"
+msgstr "Žádná média"
+
+#: templates/videos/videos-group.php:23 templates/videos/videos.php:18
+msgid "Oldest first"
+msgstr "Nejstarší nejdříve"
+
+#: templates/videos/videos-group.php:22 templates/videos/videos.php:17
+msgid "Newest first"
+msgstr "Nejnovější nejdříve"
+
+#: templates/videos/videos-group.php:17 templates/videos/videos.php:12
+msgid "Large thumbnails"
+msgstr "Velké náhledy"
+
+#: templates/videos/videos-group.php:16 templates/videos/videos.php:11
+msgid "Small thumbnails"
+msgstr "Malé náhledy"
+
+#: templates/videos/postbox-videos.php:105
+msgid ""
+"Your video was uploaded successfully!\n"
+"It's been added to the queue, we will notify you when your video is published."
+msgstr ""
+"Vaše video bylo úspěšně nahráno!\n"
+"Bylo přidáno do fronty na zpracování, po zveřejnění Vašeho videa Vás upozorníme."
+
+#: templates/videos/postbox-videos.php:103
+msgid "Your video was uploaded successfully!"
+msgstr ""
+
+#: templates/videos/postbox-videos.php:16
+msgid "Enter video URL here"
+msgstr "Zde zadejte URL adresu videa"
+
+#: templates/videos/postbox-audio.php:89
+msgid ""
+"Your audio was uploaded successfully!\n"
+"It's been added to the queue, we will notify you when your audio is published."
+msgstr ""
+"Váš zvukový soubor byl úspěšně nahrán!\n"
+"Byl přidán do fronty na zpracování, po zveřejnění Vašeho zvukového souboru Vás upozorníme."
+
+#: templates/videos/postbox-audio.php:78
+msgid "Album (optional)"
+msgstr "Album (volitelné)"
+
+#: templates/videos/postbox-audio.php:74
+msgid "Artist (optional)"
+msgstr "Interpret (volitelné)"
+
+#: templates/videos/postbox-audio.php:70 templates/videos/postbox-videos.php:92
+msgid "Enter the title..."
+msgstr "Zadejte název..."
+
+#: templates/videos/postbox-audio.php:58 templates/videos/postbox-videos.php:80
+msgid "Upload failed: "
+msgstr "Nahrávání selhalo:"
+
+#: templates/videos/postbox-audio.php:55 templates/videos/postbox-videos.php:77
+msgid "File uploaded"
+msgstr "Soubor byl nahrán"
+
+#: templates/videos/postbox-audio.php:43 templates/videos/postbox-videos.php:43
+msgid "Max file size: %1$sMB"
+msgstr "Maximální velikost souboru: %1$sMB"
+
+#: templates/videos/postbox-audio.php:40 templates/videos/postbox-videos.php:40
+msgid "Upload"
+msgstr "Nahrát"
+
+#: templates/videos/postbox-audio.php:29 templates/videos/postbox-videos.php:29
+msgid "or"
+msgstr "nebo"
+
+#: templates/videos/postbox-audio.php:16
+msgid "Audio URL"
+msgstr "URL adresa audio souboru"
+
+#: templates/videos/post-edit.php:1
+msgid "Enter video URL here. Use browser link, not embed code."
+msgstr "Zde zadejte URL adresu videa. Použijte odkaz z prohlížeče, ne kód pro vložení."
+
+#: templates/videos/content-media-pending.php:22
+msgid "Video failed to convert."
+msgstr "Video se nepodařilo převést."
+
+#: templates/videos/content-media-pending.php:20
+msgid "It has now converted."
+msgstr "Nyní došlo k převodu."
+
+#: templates/videos/content-media-pending.php:17
+msgid "Video is being converted. It should be available in a few minutes."
+msgstr "Video se převádí. Mělo by být k dispozici za pár minut."
+
+#: templates/videos/card.php:10
+msgid "Album"
+msgstr ""
+
+#: templates/videos/card.php:6
+msgid "Artist"
+msgstr "Umělec"
+
+#: peepsovideos.php:1818
+msgid "Video conversion failed"
+msgstr "Převod videa se nezdařil"
+
+#: peepsovideos.php:1812
+msgid "Video conversion complete"
+msgstr "Převod videa je dokončen"
+
+#: peepsovideos.php:1756
+msgid "video"
+msgstr "video"
+
+#: peepsovideos.php:1465
+msgid "by"
+msgstr "od"
+
+#: peepsovideos.php:1450
+msgid "posted an audio"
+msgstr "nahrál audio"
+
+#: peepsovideos.php:1432
+msgid "posted a video"
+msgstr "nahrál video"
+
+#: peepsovideos.php:1430 peepsovideos.php:1452
+msgid "posted"
+msgstr "nahrál"
+
+#: peepsovideos.php:618
+msgid "Video Uploads"
+msgstr "Nahrané video soubory"
+
+#. Plugin Name of the plugin/theme
+#: peepsovideos.php:597
+msgid "PeepSo Core: Audio & Video"
+msgstr ""
+
+#: peepsovideos.php:544
+msgid "Get it now!"
+msgstr "Získejte to nyní!"
+
+#: peepsovideos.php:542
+msgid "The %s plugin requires the PeepSo plugin to be installed and activated."
+msgstr "%s rozšíření  vyžaduje instalaci a aktivaci PeepSo pluginu."
+
+#: peepsovideos.php:96 peepsovideos.php:1829
+msgid "Videos"
+msgstr "Videa"
+
+#: peepsovideos.php:93 peepsovideos.php:1829
+msgid "Audio & Video"
+msgstr ""
+
+#: classes/widgets/widgetvideos.php:117
+msgid "My Media"
+msgstr "Má média"
+
+#: classes/widgets/widgetvideos.php:13
+msgid "PeepSo Audio & Video Widget"
+msgstr ""
+
+#: classes/widgets/widgetvideos.php:12
+msgid "PeepSo Audio & Video"
+msgstr ""
+
+#: classes/widgets/widgetcommunityvideos.php:117
+#: classes/widgets/widgetvideos.php:134
+msgid "All"
+msgstr "Vše"
+
+#: classes/widgets/widgetcommunityvideos.php:114
+#: classes/widgets/widgetvideos.php:131
+msgid "Media type"
+msgstr "Typ média"
+
+#: classes/widgets/widgetcommunityvideos.php:111
+#: classes/widgets/widgetvideos.php:128
+msgid "Advanced"
+msgstr "Rozšířené"
+
+#: classes/widgets/widgetcommunityvideos.php:100
+msgid "Latest Media"
+msgstr "Nejnovější média"
+
+#: classes/widgets/widgetcommunityvideos.php:13
+msgid "PeepSo Community Audio & Video Widget"
+msgstr "PeepSo Audio & Video komunity Widget"
+
+#: classes/widgets/widgetcommunityvideos.php:12
+msgid "PeepSo Community Audio & Video"
+msgstr "PeepSo Audio & Video komunity"
+
+#: classes/videosupload.php:977
+msgid "Your video failed to convert"
+msgstr ""
+
+#: classes/videosupload.php:969
+msgid "Your video is ready"
+msgstr "Vaše video je připraveno"
+
+#: classes/videosupload.php:855
+msgid "line:"
+msgstr "řádek:"
+
+#: classes/videosupload.php:854
+msgid "file:"
+msgstr "soubor:"
+
+#: classes/videosupload.php:853 classes/videosupload.php:857
+msgid "message:"
+msgstr "zpráva:"
+
+#: classes/videosupload.php:846
+msgid "Server resources exceeded"
+msgstr "Zdroje serveru překročeny"
+
+#: classes/videosupload.php:831
+msgid "Transcoder Read Job Failed: "
+msgstr "Úloha čtení transkodéru se nezdařila:"
+
+#: classes/videosupload.php:815
+msgid "Transcoder Job Failed: "
+msgstr "Transcoderová úloha se nezdařila:"
+
+#: classes/videosupload.php:701
+msgid "Poster"
+msgstr "Plakát"
+
+#: classes/videosupload.php:647
+msgid "Animated WEBM"
+msgstr "Animované WEBM"
+
+#: classes/videosupload.php:634
+msgid "Animated GIF"
+msgstr "Animovaný GIF"
+
+#: classes/videosupload.php:588
+msgid "Failed to convert videos."
+msgstr "Převod videí se nezdařil."
+
+#: classes/videosupload.php:474
+msgid "Source file not found"
+msgstr "Zdrojový soubor nenalezen"
+
+#: classes/videosupload.php:454
+msgid "Nothing to convert?"
+msgstr "Nic ke konverzi?"
+
+#: classes/videosupload.php:442
+msgid "Missing shell_exec() or exec()"
+msgstr "Chybí shell_exec() nebo exec()"
+
+#: classes/videosupload.php:409
+msgid "There was a problem when creating transcoder job."
+msgstr "Při vytváření úlohy transkodéru došlo k problému."
+
+#: classes/videosupload.php:334
+msgid "There was a problem when deleting file"
+msgstr "Při mazání souboru došlo k problému"
+
+#: classes/videosupload.php:293
+msgid "There was a problem when uploading the file"
+msgstr "Při nahrávání souboru došlo k problému"
+
+#: classes/videosupload.php:202
+msgid "Missing Amazon configuration."
+msgstr "Chybí konfigurace Amazonu."
+
+#: classes/videosupload.php:104
+msgid "Failed to create transcoder job."
+msgstr "Vytvoření úlohy transkodéru se nezdařilo."
+
+#: classes/videosupload.php:86
+msgid "Failed upload video to s3."
+msgstr "Nahrání videa na s3 se nezdařilo."
+
+#: classes/videosajax.php:291
+msgid "Failed to upload media."
+msgstr "Nepodařilo se nahrát médium."
+
+#: classes/videosajax.php:273
+msgid "File extension is not allowed"
+msgstr ""
+
+#: classes/videosajax.php:258
+msgid "Invalid filetype"
+msgstr "Neplatný typ souboru"
+
+#: classes/videosajax.php:241
+msgid "Maximum file upload quota reached. Delete posts with videos to free some space"
+msgstr "Bylo dosaženo maximální kvóty pro nahrávání souborů. Mazáním příspěvků s videi uvolněte místo"
+
+#: classes/videosajax.php:216
+msgid "Maximum file upload quota reached. Delete posts with %s to free some space."
+msgstr ""
+
+#: classes/videosajax.php:215
+msgid "videos"
+msgstr ""
+
+#: classes/videosajax.php:215
+msgid "audio"
+msgstr ""
+
+#: classes/videosajax.php:213
+msgid "Only files up to %1$dMB are allowed."
+msgstr "Povoleny jsou pouze soubory do %1$dMB."
+
+#: classes/videosajax.php:156
+msgid "%s doesn't have any videos yet"
+msgstr "%s zatím nemá žádná videa"
+
+#: classes/videosajax.php:156
+msgid "You don't have any videos yet"
+msgstr "Zatím nemáte žádná videa"
+
+#: classes/videosajax.php:83
+msgid "Sorry, this is not a valid audio.<br><small>Please make sure you're using a valid URL, not an embed code.</small>"
+msgstr "Litujeme, ale toto není platný zvukový soubor.<br><small>Zkontrolujte, zda používáte platnou adresu URL, nikoli kód pro vložení.</small>"
+
+#: classes/videosajax.php:81
+msgid "Sorry, this is not a valid video.<br><small>Please make sure you're using a valid URL, not an embed code.</small>"
+msgstr "Litujeme, ale toto není platný video soubor.<br><small>Zkontrolujte, zda používáte platnou adresu URL, nikoli kód pro vložení.</small>"
+
+#: classes/videosadmin.php:79
+msgid "This will be sent to a video owner when video conversion is failed"
+msgstr "Pokud se konverze videa nepodaří, toto se odešle vlastníkovi videa"
+
+#: classes/videosadmin.php:78
+msgid "Video Conversion Failed"
+msgstr "Převod videa se nezdařil"
+
+#: classes/videosadmin.php:74
+msgid "This will be sent to a video owner when video conversion is complete"
+msgstr "Toto bude po dokončení převodu videa zasláno vlastníkovi videa"
+
+#: classes/videosadmin.php:73
+msgid "Video Conversion Complete"
+msgstr "Převod videa je dokončen"
+
+#: classes/videosadmin.php:36
+msgid "Video of post %s"
+msgstr "Video z příspěvku %s"
+
+#: classes/configsectionvideos.php:474
+#: classes/widgets/widgetcommunityvideos.php:119
+#: classes/widgets/widgetvideos.php:136 peepsovideos.php:100
+#: peepsovideos.php:678 peepsovideos.php:1662
+msgid "Audio"
+msgstr ""
+
+#: classes/configsectionvideos.php:467
+msgid "Last.fm API key"
+msgstr "Last.fm API klíč"
+
+#: classes/configsectionvideos.php:464
+msgid "here"
+msgstr "zde"
+
+#: classes/configsectionvideos.php:464
+msgid "You can get the API key %s"
+msgstr "Klíč API můžete získat %s"
+
+#: classes/configsectionvideos.php:456
+msgid "Cover art download will be attempted via Last.fm API."
+msgstr "Proběhne pokus o stažení obrázku albe pomocí Last.fm API."
+
+#: classes/configsectionvideos.php:455
+msgid "Cover Art"
+msgstr "Obrázek alba"
+
+#: classes/configsectionvideos.php:449
+msgid "Allowed space per user for audio"
+msgstr ""
+
+#: classes/configsectionvideos.php:438
+msgid "Maximum audio upload size"
+msgstr ""
+
+#: classes/configsectionvideos.php:422
+msgid "Users will be able to upload audio files. The files will be published immediately without conversion."
+msgstr "Uživatelé budou moci nahrávat zvukové soubory. Soubory budou okamžitě publikovány bez převodu."
+
+#: classes/configsectionvideos.php:420
+msgid "Audio uploads"
+msgstr "Nahrané audio soubory"
+
+#: classes/configsectionvideos.php:413
+msgid "%s appears to be %s"
+msgstr "%s zdá se být %s"
+
+#: classes/configsectionvideos.php:412
+msgid "disabled"
+msgstr "zakázáno"
+
+#: classes/configsectionvideos.php:412
+msgid "enabled"
+msgstr "povoleno"
+
+#: classes/configsectionvideos.php:403
+msgid "Audio uploads don't require a cron job or conversion, but they require a PHP function finfo_open() to work properly."
+msgstr "Nahrané audio soubory nevyžadují úlohu cron nebo konverzi, ale pro správnou funkci vyžadují funkci PHP finfo_open()."
+
+#: classes/configsectionvideos.php:388
+msgid "When enabled users are able to link and/or upload audio."
+msgstr "Pokud je tato možnost povolena, uživatelé mohou odkazovat na a/nebo nahrávat zvukové soubory."
+
+#: classes/configsectionvideos.php:375
+msgid "Video uploads"
+msgstr "Nahrané video soubory"
+
+#: classes/configsectionvideos.php:369
+msgid "Output format"
+msgstr "Výstupní formát"
+
+#: classes/configsectionvideos.php:365
+msgid "WEBM file format results in smaller files, but conversion might use more server resources."
+msgstr "Výsledkem formátu souboru WEBM jsou menší soubory, ale konverze může využívat více serverových prostředků."
+
+#: classes/configsectionvideos.php:362
+msgid "Both"
+msgstr "Oboje"
+
+#: classes/configsectionvideos.php:361
+msgid "WEBM"
+msgstr ""
+
+#: classes/configsectionvideos.php:360
+msgid "GIF"
+msgstr ""
+
+#: classes/configsectionvideos.php:355
+msgid "Generate animated gif"
+msgstr "Generovat animovaný gif"
+
+#: classes/configsectionvideos.php:351
+msgid "When enabled a quick few second gif will be generated from the video. It’ll be visible when hovering cursor over the video."
+msgstr "Je-li tato možnost povolena, z videa se vygeneruje rychlý několikasekundový gif. Bude viditelný, když umístíte kurzor na video."
+
+#: classes/configsectionvideos.php:346
+msgid "Generate poster videos"
+msgstr "Generovat plakátová videa"
+
+#: classes/configsectionvideos.php:342
+msgid "When enabled video preview thumbnail will be generated. With the option disabled, there will be no preview frame. It’ll just be black background with a play icon on it."
+msgstr "Je-li povoleno, vygeneruje se miniatura náhledu videa. Při deaktivaci této možnosti se nebude žádný rámeček náhledu generovat. Bude to jen černé pozadí s ikonou přehrávání."
+
+#: classes/configsectionvideos.php:340
+msgid "Thumbnails and previews"
+msgstr "Miniatury a náhledy"
+
+#: classes/configsectionvideos.php:333
+msgid "Delete original file after conversion"
+msgstr "Po převodu smazat původní soubor"
+
+#: classes/configsectionvideos.php:330
+msgid "Deleting the original file after conversion is recommended to save space on the server"
+msgstr "Doporučuje se smazat původní soubor po převodu, aby se ušetřilo místo na serveru"
+
+#: classes/configsectionvideos.php:325
+msgid "Path to the FFprobe binary"
+msgstr "Cesta k binárnímu souboru FFprobe"
+
+#: classes/configsectionvideos.php:322
+msgid "The FFprobe library is required for video resolution analysis. Please ask your hosting provider about it."
+msgstr "Pro analýzu rozlišení videa je vyžadována knihovna FFprobe. Zeptejte se na to svého poskytovatele hostingu."
+
+#: classes/configsectionvideos.php:318
+msgid "Never upscale videos"
+msgstr "Nikdy neupscalovat videa"
+
+#: classes/configsectionvideos.php:314
+msgid "When enabled, source videos with resolution lower than the defined output resolution will not be upscaled. The nearest lower resolution will be preferred. This setting is recommended to save space."
+msgstr "Pokud je povoleno, zdrojová videa s nižším než definovaným výstupním rozlišením nebudou upscalována. Bude upřednostňováno nejbližší nižší rozlišení. Toto nastavení se doporučuje pro úsporu místa."
+
+#: classes/configsectionvideos.php:310
+msgid "Output resolution"
+msgstr "Výstupní rozlišení"
+
+#: classes/configsectionvideos.php:306
+msgid "Applies to newly uploaded videos"
+msgstr "Platí pro nově nahraná videa"
+
+#: classes/configsectionvideos.php:294
+msgid "FFmpeg extra param"
+msgstr "FFmpeg extra parametr"
+
+#: classes/configsectionvideos.php:288
+msgid "Path to the FFmpeg binary"
+msgstr "Cesta k binárnímu souboru FFmpeg"
+
+#: classes/configsectionvideos.php:285
+msgid "The FFmpeg library is required for video conversions. Please ask your hosting provider about it."
+msgstr "Knihovna FFmpeg je vyžadována pro video převody. Zeptejte se na to svého poskytovatele hostingu."
+
+#: classes/configsectionvideos.php:283
+msgid "Conversions with ffmpeg"
+msgstr ""
+
+#: classes/configsectionvideos.php:270
+msgid "To enable the use of AWS, set the \"Enable AWS S3 & Elastic Transcoder Integration\" to \"YES\" and fill in the additional settings fields.<br/>To get your AWS Access ID and Keys, you can sign up here: %sGet Your AWS Access Keys%s."
+msgstr "Chcete-li povolit použití AWS, nastavte možnost „Povolit integraci AWS S3 a Elastic Transcoder“ na „ANO“ a vyplňte další pole nastavení.<br/>Chcete-li získat přístupové ID a klíče AWS, můžete se zaregistrovat zde: %sZískejte přístupové klíče AWS %s."
+
+#: classes/configsectionvideos.php:259
+msgid "AWS Error History:"
+msgstr "AWS historie chyb"
+
+#: classes/configsectionvideos.php:247
+msgid "Don't keep a local copy of uploaded files"
+msgstr "Neuchovávejte místní kopii nahraných souborů"
+
+#: classes/configsectionvideos.php:241
+msgid "Elastic Transcoder Preset Id"
+msgstr ""
+
+#: classes/configsectionvideos.php:235
+msgid "Amazon Elastic Transcoder Preset is required"
+msgstr "Je vyžadováno přednastavení Amazon Elastic Transcoder"
+
+#: classes/configsectionvideos.php:226
+msgid "Elastic Transcoder Pipeline Id"
+msgstr ""
+
+#: classes/configsectionvideos.php:220
+msgid "Amazon Elastic Transcoder Pipeline is required"
+msgstr "Je vyžadováno Amazon Elastic Transcoder Pipeline"
+
+#: classes/configsectionvideos.php:211
+msgid "Amazon S3 Bucket"
+msgstr ""
+
+#: classes/configsectionvideos.php:205
+msgid "Amazon S3 Bucket is required"
+msgstr "Je vyžadováno Amazon S3 Bucket"
+
+#: classes/configsectionvideos.php:199
+msgid "Name of the Bucket to upload your videos to on Amazon S3"
+msgstr "Název Bucketu, do kterého chcete nahrávat svá videa na Amazon S3"
+
+#: classes/configsectionvideos.php:195
+msgid "AWS Region"
+msgstr "AWS region"
+
+#: classes/configsectionvideos.php:189
+msgid "US West (Oregon)"
+msgstr "USA západ (Oregon)"
+
+#: classes/configsectionvideos.php:188
+msgid "US West (N. California)"
+msgstr "USA západ (Severní Kalifornie)"
+
+#: classes/configsectionvideos.php:187
+msgid "US East (Ohio)"
+msgstr "USA východ (Ohio)"
+
+#: classes/configsectionvideos.php:186
+msgid "US East (N. Virginia)"
+msgstr "USA východ (N. Virginie)"
+
+#: classes/configsectionvideos.php:185
+msgid "South America (São Paulo)"
+msgstr "Jižní Amerika (São Paulo)"
+
+#: classes/configsectionvideos.php:184
+msgid "EU (Paris)"
+msgstr "EU (Paříž)"
+
+#: classes/configsectionvideos.php:183
+msgid "EU (London)"
+msgstr "EU (Londýn)"
+
+#: classes/configsectionvideos.php:182
+msgid "EU (Ireland)"
+msgstr "EU (Irsko)"
+
+#: classes/configsectionvideos.php:181
+msgid "EU (Frankfurt)"
+msgstr ""
+
+#: classes/configsectionvideos.php:180
+msgid "Canada (Central)"
+msgstr "Kanada (střední)"
+
+#: classes/configsectionvideos.php:179
+msgid "Asia Pacific (Tokyo)"
+msgstr "Asie pacifik (Tokyo)"
+
+#: classes/configsectionvideos.php:178
+msgid "Asia Pacific (Sydney)"
+msgstr "Asie pacifik (Sydney)"
+
+#: classes/configsectionvideos.php:177
+msgid "Asia Pacific (Singapore)"
+msgstr "Asie pacifik (Singapore)"
+
+#: classes/configsectionvideos.php:176
+msgid "Asia Pacific (Seoul)"
+msgstr "Asie pacifik (Seoul)"
+
+#: classes/configsectionvideos.php:175
+msgid "Asia Pacific (Mumbai)"
+msgstr "Asie pacifik (Mumbai)"
+
+#: classes/configsectionvideos.php:170
+msgid "Amazon Secret Access Key"
+msgstr "Tajný přístupový klíč Amazon"
+
+#: classes/configsectionvideos.php:164
+msgid "Amazon Secret Access Key is required"
+msgstr "Vyžaduje se tajný přístupový klíč Amazon"
+
+#: classes/configsectionvideos.php:155
+msgid "Amazon Access Key ID"
+msgstr "ID přístupového klíče Amazon"
+
+#: classes/configsectionvideos.php:148
+msgid "Amazon Access Key ID is required"
+msgstr "Je vyžadováno ID přístupového klíče Amazon"
+
+#: classes/configsectionvideos.php:142
+msgid "The Access Key ID you received when you signed up for AWS (20 characters)"
+msgstr "ID přístupového klíče, které jste obdrželi při registraci do AWS (20 znaků)"
+
+#: classes/configsectionvideos.php:140
+msgid "Conversions with AWS Elastic Transcoder"
+msgstr ""
+
+#: classes/configsectionvideos.php:133
+msgid "Allowed file extensions"
+msgstr ""
+
+#: classes/configsectionvideos.php:130
+msgid "One per line, it will allow MP4 if empty. The only officially supported format at the moment is mp4."
+msgstr ""
+
+#: classes/configsectionvideos.php:124
+msgid "Advanced options"
+msgstr ""
+
+#: classes/configsectionvideos.php:116
+msgid "Please bear in mind, video conversion is an advanced feature which carries a lot of technical requirements. It is recommended to test in on a staging copy of your website before deploying it live. By checking this field you confirm you understand all technical requirements that have to be met in order to use this feature, as outlined in the \"important information\" box."
+msgstr ""
+
+#: classes/configsectionvideos.php:111
+msgid "Allowed space per user for video"
+msgstr ""
+
+#: classes/configsectionvideos.php:108 classes/configsectionvideos.php:446
+msgid "In megabytes. 0 (zero) for no limit"
+msgstr "V megabajtech. 0 (nula) pro neomezené"
+
+#: classes/configsectionvideos.php:100
+msgid "Maximum video upload size"
+msgstr ""
+
+#: classes/configsectionvideos.php:97 classes/configsectionvideos.php:435
+msgid "In megabytes - WordPress maximum upload size allowed is %1$sMB"
+msgstr "V megabajtech - maximální povolená velikost nahrávání ve WordPressu je %1$sMB"
+
+#: classes/configsectionvideos.php:81 classes/configsectionvideos.php:430
+msgid "Limits"
+msgstr "Limity"
+
+#: classes/configsectionvideos.php:49
+#: classes/widgets/widgetcommunityvideos.php:118
+#: classes/widgets/widgetvideos.php:135 peepsovideos.php:649
+#: peepsovideos.php:1631
+msgid "Video"
+msgstr "Video"
+
+#: classes/configsectionvideos.php:42
+msgid "Play inline on mobile"
+msgstr "Na mobilu přehrávat v rámci okna"
+
+#: classes/configsectionvideos.php:38
+msgid "When enabled, PeepSo will attempt fo force an inline player on mobile devices. The results may vary depending on video providers."
+msgstr "Pokud je povoleno, PeepSo se pokusí na mobilních zařízeních přehrávat video v rámci okna. Výsledky se mohou lišit v závislosti na poskytovatelích videa."
+
+#: classes/configsectionvideos.php:26 classes/configsectionvideos.php:76
+#: classes/configsectionvideos.php:392 classes/configsectionvideos.php:426
+#: classes/configsectionvideos.php:460 classes/configsectionvideos.php:803
+msgid "Enabled"
+msgstr "Povoleno"
+
+#: classes/configsectionvideos.php:22
+msgid "When enabled users are able to link and/or upload videos."
+msgstr "Pokud je tato možnost povolena, uživatelé mohou odkazovat na a/nebo nahrávat video soubory."
+
+#: classes/adminvideosqueuelisttable.php:366
+msgid "%1$d video %2$s"
+msgid_plural "%1$d videos %2$s"
+msgstr[0] ""
+msgstr[1] "%1$d videa %2$s"
+msgstr[2] "%1$d videa %2$s"
+
+#: classes/adminvideosqueuelisttable.php:360
+msgid "updated"
+msgstr "aktualizováno"
+
+#: classes/adminvideosqueuelisttable.php:334
+msgid "deleted"
+msgstr "smazáno"
+
+#: classes/adminvideosqueuelisttable.php:308
+msgid "Delete"
+msgstr "Smazat"
+
+#: classes/adminvideosqueuelisttable.php:307
+msgid "Set to \"waiting\""
+msgstr "Nastavit na „čekající“"
+
+#: classes/adminvideosqueuelisttable.php:250
+msgid "0 bytes"
+msgstr "0 bytů"
+
+#: classes/adminvideosqueuelisttable.php:246
+msgid " byte"
+msgstr "bajt"
+
+#: classes/adminvideosqueuelisttable.php:242
+msgid " bytes"
+msgstr "byt"
+
+#: classes/adminvideosqueuelisttable.php:238
+msgid " KB"
+msgstr "kB"
+
+#: classes/adminvideosqueuelisttable.php:234
+msgid " MB"
+msgstr ""
+
+#: classes/adminvideosqueuelisttable.php:230
+msgid " GB"
+msgstr ""
+
+#: classes/adminvideosqueuelisttable.php:193
+msgid "Unknown"
+msgstr "Neznámé"
+
+#: classes/adminvideosqueuelisttable.php:187
+msgid "Rejected"
+msgstr "Odmítnuto"
+
+#: classes/adminvideosqueuelisttable.php:184
+msgid "Ready"
+msgstr "Připraveno"
+
+#: classes/adminvideosqueuelisttable.php:180
+msgid "Retry"
+msgstr "Zkusit znovu"
+
+#: classes/adminvideosqueuelisttable.php:173
+msgid "Delay"
+msgstr "Zpoždění"
+
+#: classes/adminvideosqueuelisttable.php:170
+msgid "Processing"
+msgstr "Zpracovává se"
+
+#: classes/adminvideosqueuelisttable.php:166
+#: classes/adminvideosqueuelisttable.php:176
+msgid "Failed"
+msgstr "Selhání"
+
+#: classes/adminvideosqueuelisttable.php:162
+#: classes/adminvideosqueuelisttable.php:190
+msgid "Success"
+msgstr "Úspěch"
+
+#: classes/adminvideosqueuelisttable.php:158
+msgid "Waiting"
+msgstr "Čekání"
+
+#: classes/adminvideosqueuelisttable.php:77
+msgid "Status"
+msgstr "Stav"
+
+#: classes/adminvideosqueuelisttable.php:76
+msgid "Date"
+msgstr "Datum"
+
+#: classes/adminvideosqueuelisttable.php:75
+msgid "File Size"
+msgstr "Velikost souboru"
+
+#: classes/adminvideosqueuelisttable.php:74
+msgid "Title"
+msgstr "Název"
+
+#: classes/adminvideosqueuelisttable.php:71
+msgid "User"
+msgstr "Uživatel"

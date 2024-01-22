@@ -1,0 +1,336 @@
+.ps-woo {}
+
+
+.ps-woo__slider-wrapper {
+  position: relative;
+}
+
+
+.ps-woo__slider {
+  white-space: nowrap;
+  width: 100%;
+  overflow-y: hidden;
+  overflow-x: hidden;
+
+  /* Important fix for iOS Safari bug */
+  /* https://davidwalsh.name/scroll-iframes-ios */
+  -webkit-overflow-scrolling: touch;
+}
+
+
+.ps-woo__slider-item {
+  display: inline-block;
+  width: 100%;
+  margin-right: 10px;
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+
+.ps-woo__slider-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  margin: 0;
+  padding: 8px 2px !important;
+  font-size: 18px !important;
+  line-height: 1 !important;
+  color: $btn-color !important;
+  background-color: $btn-bg !important;
+  border: $divider !important;
+  border-width: 2px !important;
+  text-transform: uppercase;
+  opacity: .5;
+  transition: opacity .2s ease;
+
+  .ps-woo__slider-wrapper:hover & {
+    opacity: 1;
+  }
+}
+
+
+.ps-woo__slider-btn--prev {
+  @if $scss-direction == rtl {
+    right: - $padding-sm;
+  } @else {
+    left: - $padding-sm;
+  }
+}
+
+
+.ps-woo__slider-btn--next {
+  @if $scss-direction == rtl {
+    left: - $padding-sm;
+  } @else {
+    right: - $padding-sm;
+  }
+}
+
+
+.ps-woo__stream-rating {
+  margin-bottom: $padd;
+  color: $woo-stars;
+
+  > i {
+    font-size: 18px;
+
+    &:before {
+      @if $scss-direction == rtl {
+        margin-right: 0;
+      } @else {
+        margin-left: 0;
+      }
+    }
+  }
+}
+
+
+.ps-woo__stream-rating--1 {
+  > i {
+    &:first-child {
+      color: $woo-stars-active;
+    }
+  }
+}
+
+
+.ps-woo__stream-rating--2 {
+  > i {
+    &:nth-child(-n+2) {
+      color: $woo-stars-active;
+    }
+  }
+}
+
+
+.ps-woo__stream-rating--3 {
+  > i {
+    &:nth-child(-n+3) {
+      color: $woo-stars-active;
+    }
+  }
+}
+
+
+.ps-woo__stream-rating--4 {
+  > i {
+    &:nth-child(-n+4) {
+      color: $woo-stars-active;
+    }
+  }
+}
+
+
+.ps-woo__stream-rating--5 {
+  > i {
+    color: $woo-stars-active;
+  }
+}
+
+
+//
+//  OVERRIDE WOO STYLES IN PROFILE
+//
+.peepso {
+  .button,
+  .woocommerce .button,
+  input[type="submit"].button,
+  .button.woocommerce-button,
+  .button.woocommerce-Button {
+    //@extend %ps-btn;
+
+    font-size: $btn-font-size !important;
+    line-height: $btn-line-height !important;
+
+    &:before,
+    &:after {
+      display: none !important;
+    }
+  }
+
+  .woocommerce-orders-table__cell {
+    &:last-child {
+      border-right: none;
+    }
+  }
+
+  .woocommerce table.shop_table {
+    // ROUNDED CORNERS
+    @if $scss-rounded == false {
+      @extend %radius--reset;
+    } @else {
+      border-radius: 6px;
+    }
+  }
+
+  .woocommerce-orders-table__cell-order-status {
+    font-weight: bold;
+  }
+
+  #coupon_code,
+  .woocommerce form .form-row input.input-text {
+    //@extend %ps-input;
+
+    // ROUNDED CORNERS
+    @if $scss-rounded == false {
+      @extend %radius--reset;
+    } @else {
+      border-radius: 4px;
+    }
+  }
+
+  #coupon_code {
+    min-width: 100px;
+  }
+
+  #coupon_code + .button {
+    height: 35px;
+    line-height: 35px;
+  }
+
+  .woocommerce form .form-row textarea {
+    @extend %ps-textarea;
+
+    // ROUNDED CORNERS
+    @if $scss-rounded == false {
+      @extend %radius--reset;
+    } @else {
+      border-radius: 4px;
+    }
+  }
+
+  .woocommerce-error,
+  .woocommerce-info,
+  .woocommerce-message,
+  .woocommerce .woocommerce-error,
+  .woocommerce .woocommerce-info,
+  .woocommerce .woocommerce-message {
+    padding: $alert-padding !important;
+    font-size: $alert-font-size !important;
+    line-height: $alert-line-height !important;
+    color: $alert-color !important;
+    background-color: $alert;
+    border: none !important;
+
+    &:before {
+      display: none;
+    }
+
+    > .woocommerce-Button.button {
+      padding: $btn-sm-padding !important;
+      font-size: $btn-sm-font-size;
+      line-height: $btn-sm-line-height;
+      //@include button-variant($scss-btn-primary-color, $scss-btn-primary-bg);
+    }
+
+    a {
+      color: darken($alert-color, 10%) !important;
+    }
+  }
+
+  .woocommerce .woocommerce-MyAccount-content {
+    width: 100%;
+    float: none;
+  }
+
+  .woocommerce h2,
+  .woocommerce h3,
+  .woocommerce-MyAccount-content h2 {
+    padding: 0;
+    margin-top: 0 !important;
+    margin-bottom: $padding-base !important;
+    color: $page-title-color;
+    font-size: $page-title-font-size !important;
+    line-height: $page-title-line-height;
+    font-weight: normal;
+  }
+
+  .woocommerce #order_review_heading {
+    margin-top: 15px !important;
+  }
+
+  .woocommerce-customer-details {
+    line-height: 1.4;
+  }
+
+  .woocommerce-NoticeGroup-checkout {
+    margin-bottom: 15px;
+  }
+
+  .wc_payment_method {
+    position: relative;
+
+    label {
+      width: 100%;
+      position: relative;
+      padding-left: 20px;
+
+      &:before {
+        top: 14px;
+      }
+
+      &:after {
+        top: 9px;
+        transform: none;
+      }
+    }
+  }
+
+  img.stripe-icon {
+    max-width: 40px;
+    padding-left: 3px;
+    margin: 0;
+  }
+
+  .form-row.place-order {
+    background-color: #fff;
+    border: 2px solid #eee;
+  }
+
+  .select2-container--default .select2-selection--single {
+    color: $scss-input-color;
+    background-color: $scss-input-bg;
+    border: $scss-input-border;
+
+    @if $scss-rounded == false {
+      @extend %radius--reset;
+    } @else {
+      border-radius: 4px;
+    }
+  }
+
+  .woocommerce .quantity input.qty {
+    height: auto;
+    padding: 8px;
+    font-size: 14px !important;
+  }
+
+  mark {
+    color: $alert-color;
+    background-color: $alert;
+  }
+
+  .woocommerce-MyAccount-content > p:first-child {
+    margin-bottom: 15px;
+  }
+
+  .woocommerce .woocommerce-customer-details address {
+    border: none !important;
+    padding: 0;
+
+    p {
+      padding: 0 8px 0 26px;
+      margin-bottom: 5px;
+      font-size: 14px;
+      line-height: 1.8;
+      color: $scss-btn-color;
+      background-color: $scss-btn-bg;
+
+      &:last-of-type {
+        margin-bottom: 0;
+      }
+    }
+  }
+}

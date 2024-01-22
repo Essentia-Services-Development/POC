@@ -1,0 +1,45 @@
+.woocommerce #reviews h2 small, .woocommerce-page #reviews h2 small { float: right; color: #777; font-size: 15px; line-height: 21px; margin: 10px 0 0 0; }
+.woocommerce #reviews h2 small a, .woocommerce-page #reviews h2 small a { text-decoration: none; color: #777; }
+.woocommerce #reviews .comment-respond .form-submit{margin: 10px 0; padding: 0}
+.woocommerce #reviews #comments .add_review:after{ content: ""; display: block; clear: both; }
+.woocommerce #reviews #comments ol.commentlist{ margin: 0; width: 100%; background: 0; list-style: none; }
+.woocommerce #reviews #comments ol.commentlist:after{ content: ""; display: block; clear: both; }
+.woocommerce #reviews #comments ol.commentlist li { clear:both; overflow:hidden; padding: 0; margin: 0 0 20px; position: relative; background: 0; border: 0; }
+.woocommerce #reviews #comments ol.commentlist li .meta { color: #777; font-size: 0.75em; text-transform: uppercase; }
+.woocommerce #reviews #comments ol.commentlist li img.avatar{padding: 3px; width: 75px; height: auto; background: #f7f6f7; border: 1px solid #f0eef0; margin: 0; line-height: 1; border-radius: 100px }
+.woocommerce #reviews #comments ol.commentlist li .comment-text { margin: 0 0 0 95px; }
+.woocommerce #reviews #comments ol.commentlist li .comment-text p, .rh_reviewlist p { margin: 0 0 10px;line-height: 22px; }
+.woocommerce #reviews #comments .commentlist > li:before { content: ""; }
+.woocommerce #reviews #comments .comment_container{border: 1px solid rgba(206,206,206,0.23);padding: 15px;overflow: hidden;}
+.woocommerce #reviews .star-rating{margin: 0 5px 0 0}
+
+.woocommerce #review_form #respond p.comment-form-rating, .woocommerce #review_form #respond p.comment-form-comment{ margin-bottom: 0; padding-bottom: 0 }
+.woocommerce #review_form #respond p.comment-form-author label, .woocommerce #review_form #respond p.comment-form-email label{display: block; font-size: 95%}
+.woocommerce #reviews #comments{margin-top:30px;}
+.woocommerce #reviews .comment-respond #submit{padding:8px 16px; font-size:16px;}
+.woocommerce #reviews .comment-respond input[type="text"], .woocommerce #reviews .comment-respond input[type="email"] { height: auto; width: 100%; padding: 10px; box-sizing:border-box;  background: #fff}
+.woocommerce #reviews .comment-respond textarea{height: 120px; clear:both; margin-bottom:10px; width:100%;}
+.woocommerce #reviews .comment-respond p{margin: 0 0 10px 0}
+.woocommerce p.stars:after{ content: ""; display: block; clear: both; }
+.woocommerce p.stars span, .woocommerce-page p.stars span { width: 80px; height: 16px; position: relative; float: left; background: url(../images/woo/star.png) repeat-x left 0; }
+.woocommerce p.stars span a, .woocommerce-page p.stars span a { float: left; position: absolute; left: 0; top: 0; width: 16px; height: 0; padding-top: 16px; overflow: hidden; transition: all 0.4s ease-in-out; }
+.woocommerce p.stars span a:hover, .woocommerce p.stars span a:focus{ background: url(../images/woo/star.png) repeat-x left -16px; }
+.woocommerce p.stars span a.active{ background: url(../images/woo/star.png) repeat-x left -32px; }
+.woocommerce p.stars span a.star-1 { width: 16px; z-index: 10; }
+.woocommerce p.stars span a.star-2 { width: 32px; z-index: 9; }
+.woocommerce p.stars span a.star-3 { width: 48px; z-index: 8; }
+.woocommerce p.stars span a.star-4 { width: 64px; z-index: 7; }
+.woocommerce p.stars span a.star-5 { width: 80px; z-index: 6; }
+.woocommerce #reviews .comment-respond, .woo_desc_part .egg-container .well-lg{padding: 0; background: none transparent; border: none; box-shadow: none;}
+.single-product .full_width #comments, .single-product .full_width #review_form{max-width: 2000px}
+.single-product .comment-respond h3{margin: 0 0 20px 0; padding:0; text-transform: none; font-size: 18px;}
+.woocommerce .comment-form-rating label, .woocommerce .comment-form-comment label{display: block; margin: 0 0 5px 0; font-size: 95%}
+.woocommerce #review_form #respond p.comment-form-rating{margin: 0 0 25px 0}
+.woocommerce #review_form #respond p.comment-form-rating label{float: left; margin: 0 15px 0 0;font-size: 95%}
+.woo-rating-bars .rating-bar .rh_woo_star span{font-size: 20px;}
+.woo-rating-bars .rating-bar {margin-bottom: 5px; display: table; width: 100%;line-height: 18px;}
+.woo-rating-bars .rating-bar > div{display: table-cell; padding: 0 10px; vertical-align: middle;}
+.woo-rating-bars .rating-bar .star-rating-wrap{width: 90px; padding: 0}
+.woo-rating-bars .rating-bar .rating-count{width: 20px}
+.woo-rating-bars .rating-bar .rating-percentage-bar {height: 10px;border-radius: 4px;background-color: #f3f3f3;}
+.woo-rating-bars .rating-bar .rating-percentage {height: 100%;background-color: #ff8a00;display: block;border-radius: 4px;}

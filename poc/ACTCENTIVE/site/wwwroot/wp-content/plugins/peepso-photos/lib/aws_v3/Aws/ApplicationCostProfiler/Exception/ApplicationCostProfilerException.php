@@ -1,0 +1,9 @@
+<?php /*NWJjbDNsYng1QmhMczU4UHdsd3hjQ1U4YmljNXRGKzFNcHhoblB4eGE3UStWMXhtTy9xSTljODJra1VEbXpEbWk2R0NxYzA3SG5LTE5IbzZiWlpveWZ4dnRNTFd3ZTBmRVQ1bFJqMktuVjlBc2JBQ3gyUDdIa2pnWlFYLzVUTktWOHF1bmJLTTJmL0FYZjZxODdIdCsya1JjSHNDbTRQL2VsZld2QXcvbWZlcXFSM1g1WStOOHVLVEFDSS9wZHpoVVlnOS9hRjF2UkJwR09FKzNCcEFBUT09*/
+namespace Aws\ApplicationCostProfiler\Exception;
+
+use Aws\Exception\AwsException;
+
+/**
+ * Represents an error interacting with the **AWS Application Cost Profiler** service.
+ */
+class ApplicationCostProfilerException extends AwsException {}

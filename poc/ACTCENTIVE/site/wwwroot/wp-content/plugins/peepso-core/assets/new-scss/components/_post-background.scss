@@ -1,0 +1,101 @@
+//
+//  Component:
+//
+//  P O S T   B A C K G R O U N D S
+//
+//  Extends post component and gives ability to view custom background
+//  on posts.
+//
+
+.ps-post__background {
+  position: relative;
+  background-image: url(attr(data-background));
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+
+  .ps-postbox & {
+    border-top-left-radius: var(--radius);
+    border-top-right-radius: var(--radius);
+  }
+
+  &:before {
+    content: " ";
+    display: block;
+    padding-top: 62.5%; // 16:10 ratio
+  }
+}
+
+.ps-post__background-inner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--PADD--MD);
+  text-align: center;
+  overflow: hidden;
+
+  .ps-postbox & {
+    top: 70px;
+    bottom: 70px;
+
+    @include mq($until: tablet) {
+      top: 20px;
+    }
+  }
+}
+
+.ps-post__background-text {
+  font-size: 120%;
+  word-break: break-word;
+  color: attr(data-text-color);
+  text-align: center;
+
+  @include mq($until: desktop) {
+    font-size: calc(4vw - 1px);
+  }
+
+  .ps-post & {
+    @include mq($from: desktop) {
+      font-size: 140%;
+    }
+
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 3%;
+    right: 3%;
+    font-size: calc(4vw - 1px);
+  }
+
+  &[contentEditable=true] {
+    width: 100%;
+    outline: none;
+
+    &:empty {
+      width: auto;
+
+      &:before {
+        content: attr(data-placeholder);
+        color: #fff;
+        opacity: .5;
+        transition: opacity .2s ease;
+      }
+
+      &:not(:focus) {
+        width: 100%;
+        line-height: 10;
+
+        &:before {
+          opacity: 1;
+        }
+      }
+    }
+  }
+}

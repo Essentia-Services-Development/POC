@@ -1,0 +1,1 @@
+<input class="input ps-inputbox ps-videos-edit-url" placeholder="<?php echo __('Enter video URL here. Use browser link, not embed code.', 'vidso'); ?>" style="width: 100%;" value="<?php echo esc_textarea($url); ?>" /><br/>

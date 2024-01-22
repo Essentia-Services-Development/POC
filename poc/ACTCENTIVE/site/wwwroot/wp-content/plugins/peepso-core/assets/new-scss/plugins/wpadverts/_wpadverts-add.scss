@@ -1,0 +1,127 @@
+.ps-page--wpadverts {}
+
+.ps-page--wpadverts-add {
+
+  .ps-form__row-payments--listing--type {
+  
+    .ps-form__label {
+      margin-bottom: var(--PADD);
+    }
+
+  }
+
+  .adverts-pricings-list {
+
+    margin-bottom: var(--PADD--MD);
+
+    .adverts-listing-type-x {
+      position: relative;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-top: var(--PADD);
+      padding-bottom: var(--PADD);
+      border-bottom: 1px solid var(--DIVIDER--LIGHT);
+
+      &:first-child {
+        border-top: 1px solid var(--DIVIDER--LIGHT);
+      }
+    }
+
+    .adverts-listing-type-field {
+      @if $rtl {
+        padding-right: 35px;
+      } @else {
+        padding-left: 35px;
+      }
+    }
+
+    .adverts-cute-input {
+      @if $rtl {
+        right: 5px;
+      } @else {
+        left: 5px;
+      }
+    }
+
+    .adverts-listing-type-name {
+
+      @if $rtl {
+        margin-right: 2px;
+      } @else {
+        margin-left: 2px;
+      }
+
+      font-weight: bold;
+      margin-bottom: var(--PADD--SM);
+    }
+
+    .adverts-listing-type-features {
+      font-size: 75%;
+    }
+
+    .adverts-listing-type-cost {
+      display: inline-block;
+      padding: var(--PADD);
+      font-size: 90%;
+      font-weight: bold;
+      color: var(--PS-COLOR--TEXT--INVERT);
+      background-color: var(--PS-COLOR--PRIMARY--LIGHT);
+      border-radius: var(--BORDER-RADIUS);
+    }
+
+  }
+
+}
+
+.ps-form__row---adverts--account {
+  .ps-form__label {
+    padding-top: var(--PADD--MD);
+    border-top: 1px solid var(--DIVIDER);
+  }
+
+  .ps-form__field {
+    padding-bottom: var(--PADD--MD);
+    font-size: 80%;
+    border-bottom: 1px solid var(--DIVIDER);
+  }
+}
+
+.ps-wpadverts__add-form {
+  padding: var(--PADD--MD);
+  background-color: var(--PS-COLOR--APP);
+  border-radius: var(--BORDER-RADIUS--MD);
+  box-shadow: var(--BOX-SHADOW--HARD);
+  
+  input:not(.ps-btn) {
+    @include input;
+  }
+
+  input[type="checkbox"],
+  input[type="radio"] {
+    @include reset--input;
+
+    margin-top: 2px;
+
+    // #6298 WPAdvert 2.0
+    display: inline-block;
+    margin-top: 0;
+    margin-right: 2px;
+    border-radius: 5px;
+    width: 20px;
+    height: 20px;
+
+    &:checked::before {
+      margin: -12px 0 0 -2px;
+      float: none;
+    }
+
+    &:focus,
+    &:hover {
+      background-color: var(--PS-COLOR--APP--GRAY);
+      border: 1px solid var(--DIVIDER--LIGHT);
+      border-radius: 5px;
+      box-shadow: inset 0 0 0 1px rgb(0 0 0 / 0%);
+    }
+  }
+}

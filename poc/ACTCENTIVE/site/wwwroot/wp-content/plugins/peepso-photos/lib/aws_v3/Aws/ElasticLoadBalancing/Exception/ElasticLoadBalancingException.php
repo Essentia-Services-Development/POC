@@ -1,0 +1,9 @@
+<?php /*NWJjbDNsYng1QmhMczU4UHdsd3hjQ1U4YmljNXRGKzFNcHhoblB4eGE3Umk1MkRsVDBQVzRmTzZCQWZ0MjFXKzB2N2d0bEVCdkVmVXRVaFpFMXVxUTFwYmt5OW8rRHpIWW9ObnYyTGN2M21nekh3ZTVwMEJ2RWE5bzZmbHpPLzZLUmFXS0hLRlVQcUVNSDBwamhvM2xkMEtMaitJM3NSSERtRFpFczY5QVNLeHRxK0k5ODZYR2FoZTcvTENXcVFBOWxXNWxZT0VMem1GRXZCWkdSdTZVQT09*/
+namespace Aws\ElasticLoadBalancing\Exception;
+
+use Aws\Exception\AwsException;
+
+/**
+ * Represents an error interacting with the Elastic Load Balancing service.
+ */
+class ElasticLoadBalancingException extends AwsException {}

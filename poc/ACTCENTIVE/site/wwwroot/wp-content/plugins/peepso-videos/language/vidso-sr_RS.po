@@ -1,0 +1,873 @@
+# Translation of PeepSo - Audio & Video in Serbian
+# This file is distributed under the same license as the PeepSo - Audio & Video package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2023-07-18 08:17:00+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
+"X-Generator: GlotPress/3.0.0\n"
+"Language: sr_RS\n"
+"Project-Id-Version: PeepSo - Audio & Video\n"
+
+#: classes/configsectionvideos.php:258
+msgid "Clear history"
+msgstr "Очисти историју"
+
+#: classes/configsectionvideos.php:34
+msgid "Autoplay on activity stream"
+msgstr "Аутоматско пуштање на протоку активности"
+
+#: classes/configsectionvideos.php:30
+msgid "When enabled, videos will be autoplayed when visible on activity stream."
+msgstr "Када је омогућено, видео снимци ће бити аутоматски пуштани када су видљиви на протоку активности."
+
+#: classes/configsectionvideos.php:809
+msgid "Media Library"
+msgstr "Медијска библиотека"
+
+#: classes/configsectionvideos.php:799
+msgid "When enabled all users are able to access all files in media library."
+msgstr "Када је омогућено, сви корисници могу да приступе свим датотекама у медијској библиотеци."
+
+#: classes/adminvideosqueuelisttable.php:73
+msgid "Thumbnail"
+msgstr "Умањена слика"
+
+#: classes/adminvideosqueuelisttable.php:206
+msgid "See post"
+msgstr "Види пост"
+
+#: classes/adminvideosqueuelisttable.php:72
+msgid "Link"
+msgstr "Линк"
+
+#: templates/videos/content-media-pending.php:15
+msgid "Video is being processed. You'll be notified when it's ready."
+msgstr "Видео снимак се обрађује. Бићете обавештени када буде готово."
+
+#. Author of the plugin/theme
+msgid "PeepSo"
+msgstr "PeepSo"
+
+#. Description of the plugin/theme
+msgid "Upload audio and video files. Link and embed audio and video from supported providers"
+msgstr "Отпремите аудио и видео фајлове. Линкујте и утисните аудио и видео снимке од подржаних провајдера"
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://peepso.com"
+msgstr "https://peepso.com"
+
+#: templates/widgets/videos.tpl.php:32
+msgid "View All"
+msgstr "Види све"
+
+#: templates/widgets/community-videos.tpl.php:36
+#: templates/widgets/videos.tpl.php:48
+msgid "No video"
+msgstr "Нема видео снимака"
+
+#: templates/widgets/community-videos.tpl.php:34
+#: templates/widgets/videos.tpl.php:46
+msgid "No audio"
+msgstr "Нема аудио снимака"
+
+#: templates/widgets/community-videos.tpl.php:31
+#: templates/widgets/videos.tpl.php:43
+msgid "No media"
+msgstr "Нема медија фајлова"
+
+#: templates/videos/videos-group.php:23 templates/videos/videos.php:18
+msgid "Oldest first"
+msgstr "Прво најстарије"
+
+#: templates/videos/videos-group.php:22 templates/videos/videos.php:17
+msgid "Newest first"
+msgstr "Прво најновије"
+
+#: templates/videos/videos-group.php:17 templates/videos/videos.php:12
+msgid "Large thumbnails"
+msgstr "Велике умањене слике"
+
+#: templates/videos/videos-group.php:16 templates/videos/videos.php:11
+msgid "Small thumbnails"
+msgstr "Мале умањене слике"
+
+#: templates/videos/postbox-videos.php:105
+msgid ""
+"Your video was uploaded successfully!\n"
+"It's been added to the queue, we will notify you when your video is published."
+msgstr ""
+"Ваш видео је успешно отпремљен!\n"
+"Додат је у поредак и обавестићемо Вас када Ваш видео буде објављен."
+
+#: templates/videos/postbox-videos.php:103
+msgid "Your video was uploaded successfully!"
+msgstr "Ваш видео снимак је успешно отпремљен!"
+
+#: templates/videos/postbox-videos.php:16
+msgid "Enter video URL here"
+msgstr "Унеси URL видео снимка овде"
+
+#: templates/videos/postbox-audio.php:89
+msgid ""
+"Your audio was uploaded successfully!\n"
+"It's been added to the queue, we will notify you when your audio is published."
+msgstr ""
+"Ваш аудио снимак је успешно отпремљен!\n"
+"Додат је у поредак и обавестићемо Вас када Ваш аудио снимак буде објављен."
+
+#: templates/videos/postbox-audio.php:78
+msgid "Album (optional)"
+msgstr "Албум (опционо)"
+
+#: templates/videos/postbox-audio.php:74
+msgid "Artist (optional)"
+msgstr "Извођач (опционо)"
+
+#: templates/videos/postbox-audio.php:70 templates/videos/postbox-videos.php:92
+msgid "Enter the title..."
+msgstr "Унеси наслов..."
+
+#: templates/videos/postbox-audio.php:58 templates/videos/postbox-videos.php:80
+msgid "Upload failed: "
+msgstr "Отпремање није успело: "
+
+#: templates/videos/postbox-audio.php:55 templates/videos/postbox-videos.php:77
+msgid "File uploaded"
+msgstr "Фајл је отпремљен"
+
+#: templates/videos/postbox-audio.php:43 templates/videos/postbox-videos.php:43
+msgid "Max file size: %1$sMB"
+msgstr "Максимална величина фајла: %1$sMB"
+
+#: templates/videos/postbox-audio.php:40 templates/videos/postbox-videos.php:40
+msgid "Upload"
+msgstr "Отпреми"
+
+#: templates/videos/postbox-audio.php:29 templates/videos/postbox-videos.php:29
+msgid "or"
+msgstr "или"
+
+#: templates/videos/postbox-audio.php:16
+msgid "Audio URL"
+msgstr "URL аудио снимка"
+
+#: templates/videos/post-edit.php:1
+msgid "Enter video URL here. Use browser link, not embed code."
+msgstr "Унесите URL видео снимка овде. Употребите линк на претраживачу, а не код за утискивање."
+
+#: templates/videos/content-media-pending.php:22
+msgid "Video failed to convert."
+msgstr "Конверзија видеа није успела."
+
+#: templates/videos/content-media-pending.php:20
+msgid "It has now converted."
+msgstr "Видео се обрађује. Биће спреман ускоро."
+
+#: templates/videos/content-media-pending.php:17
+msgid "Video is being converted. It should be available in a few minutes."
+msgstr "Конверзија видео снимка је у току. Требало би да буде доступан за пар минута."
+
+#: templates/videos/card.php:10
+msgid "Album"
+msgstr "Албум"
+
+#: templates/videos/card.php:6
+msgid "Artist"
+msgstr "Извођач"
+
+#: peepsovideos.php:1818
+msgid "Video conversion failed"
+msgstr "Конверзија видео снимка није успела"
+
+#: peepsovideos.php:1812
+msgid "Video conversion complete"
+msgstr "Конверзија видео снимка је завршена"
+
+#: peepsovideos.php:1756
+msgid "video"
+msgstr "видео снимак"
+
+#: peepsovideos.php:1465
+msgid "by"
+msgstr "од"
+
+#: peepsovideos.php:1450
+msgid "posted an audio"
+msgstr "је постовао/ла аудио снимак"
+
+#: peepsovideos.php:1432
+msgid "posted a video"
+msgstr "је постовао/ла видео снимак"
+
+#: peepsovideos.php:1430 peepsovideos.php:1452
+msgid "posted"
+msgstr "поставља видео"
+
+#: peepsovideos.php:618
+msgid "Video Uploads"
+msgstr "Отпремљени видео снимци"
+
+#. Plugin Name of the plugin/theme
+#: peepsovideos.php:597
+msgid "PeepSo Core: Audio & Video"
+msgstr "PeepSo Core: Аудио & Видео снимци"
+
+#: peepsovideos.php:544
+msgid "Get it now!"
+msgstr "Преузми одмах!"
+
+#: peepsovideos.php:542
+msgid "The %s plugin requires the PeepSo plugin to be installed and activated."
+msgstr "Додатак %s захтева да PeepSo додатак буде инсталиран и активиран."
+
+#: peepsovideos.php:96 peepsovideos.php:1829
+msgid "Videos"
+msgstr "Видео снимци"
+
+#: peepsovideos.php:93 peepsovideos.php:1829
+msgid "Audio & Video"
+msgstr "Аудио и видео"
+
+#: classes/widgets/widgetvideos.php:117
+msgid "My Media"
+msgstr "Моји медија фајлови"
+
+#: classes/widgets/widgetvideos.php:13
+msgid "PeepSo Audio & Video Widget"
+msgstr "PeepSo Аудио & Видео снимци виџет"
+
+#: classes/widgets/widgetvideos.php:12
+msgid "PeepSo Audio & Video"
+msgstr "PeepSo Аудио & Видео снимци"
+
+#: classes/widgets/widgetcommunityvideos.php:117
+#: classes/widgets/widgetvideos.php:134
+msgid "All"
+msgstr "Све"
+
+#: classes/widgets/widgetcommunityvideos.php:114
+#: classes/widgets/widgetvideos.php:131
+msgid "Media type"
+msgstr "Тип медија фајла"
+
+#: classes/widgets/widgetcommunityvideos.php:111
+#: classes/widgets/widgetvideos.php:128
+msgid "Advanced"
+msgstr "Напредно"
+
+#: classes/widgets/widgetcommunityvideos.php:100
+msgid "Latest Media"
+msgstr "Најскорији медија фајлови"
+
+#: classes/widgets/widgetcommunityvideos.php:13
+msgid "PeepSo Community Audio & Video Widget"
+msgstr "PeepSo Аудио & Видео снимци Заједнице виџет"
+
+#: classes/widgets/widgetcommunityvideos.php:12
+msgid "PeepSo Community Audio & Video"
+msgstr "PeepSo Аудио & Видео снимци Заједнице"
+
+#: classes/videosupload.php:977
+msgid "Your video failed to convert"
+msgstr "Конверзија Вашег видео снимка није успела"
+
+#: classes/videosupload.php:969
+msgid "Your video is ready"
+msgstr "Ваш видео снимак је спреман"
+
+#: classes/videosupload.php:855
+msgid "line:"
+msgstr "ред:"
+
+#: classes/videosupload.php:854
+msgid "file:"
+msgstr "датотека:"
+
+#: classes/videosupload.php:853 classes/videosupload.php:857
+msgid "message:"
+msgstr "порука:"
+
+#: classes/videosupload.php:846
+msgid "Server resources exceeded"
+msgstr "Ресурси сервера су прекорачени"
+
+#: classes/videosupload.php:831
+msgid "Transcoder Read Job Failed: "
+msgstr "Transcoder задатак за читање није успео: "
+
+#: classes/videosupload.php:815
+msgid "Transcoder Job Failed: "
+msgstr "Transcoder задатак није успео: "
+
+#: classes/videosupload.php:701
+msgid "Poster"
+msgstr "Постер"
+
+#: classes/videosupload.php:647
+msgid "Animated WEBM"
+msgstr "Анимирани WEBM"
+
+#: classes/videosupload.php:634
+msgid "Animated GIF"
+msgstr "Анимирани GIF"
+
+#: classes/videosupload.php:588
+msgid "Failed to convert videos."
+msgstr "Конверзија видео снимака није успела."
+
+#: classes/videosupload.php:474
+msgid "Source file not found"
+msgstr "Изворни фајл није пронађен"
+
+#: classes/videosupload.php:454
+msgid "Nothing to convert?"
+msgstr "Нема ничега за конверзију?"
+
+#: classes/videosupload.php:442
+msgid "Missing shell_exec() or exec()"
+msgstr "Недостаје shell_exec() или exec()"
+
+#: classes/videosupload.php:409
+msgid "There was a problem when creating transcoder job."
+msgstr "Настао је проблем приликом креирања transcoder задатка."
+
+#: classes/videosupload.php:334
+msgid "There was a problem when deleting file"
+msgstr "Настао је проблем приликом брисања фајла"
+
+#: classes/videosupload.php:293
+msgid "There was a problem when uploading the file"
+msgstr "Настао је проблем приликом отпремања фајла"
+
+#: classes/videosupload.php:202
+msgid "Missing Amazon configuration."
+msgstr "Недостаје конфигурација за Amazon."
+
+#: classes/videosupload.php:104
+msgid "Failed to create transcoder job."
+msgstr "Није успело креирање transcoder задатка."
+
+#: classes/videosupload.php:86
+msgid "Failed upload video to s3."
+msgstr "Није успело отпремање видеа на s3."
+
+#: classes/videosajax.php:291
+msgid "Failed to upload media."
+msgstr "Отпремање медија фајла није успело."
+
+#: classes/videosajax.php:273
+msgid "File extension is not allowed"
+msgstr "Екстензије датотека нису дозвољене"
+
+#: classes/videosajax.php:258
+msgid "Invalid filetype"
+msgstr "Неважећи тип фајла"
+
+#: classes/videosajax.php:241
+msgid "Maximum file upload quota reached. Delete posts with videos to free some space"
+msgstr "Достигнута је максимална квота за отпремање фајлова. Обришите постове са видео снимцима како бисте ослободили простор"
+
+#: classes/videosajax.php:216
+msgid "Maximum file upload quota reached. Delete posts with %s to free some space."
+msgstr "Достигнут је лимит за отпремање фајла. Обришите постове са %s како бисте ослободили простор."
+
+#: classes/videosajax.php:215
+msgid "videos"
+msgstr "видео снимци"
+
+#: classes/videosajax.php:215
+msgid "audio"
+msgstr "аудио снимци"
+
+#: classes/videosajax.php:213
+msgid "Only files up to %1$dMB are allowed."
+msgstr "Дозвољени су само фајлови величине до %1$dMB."
+
+#: classes/videosajax.php:156
+msgid "%s doesn't have any videos yet"
+msgstr "%s још увек нема видео снимке"
+
+#: classes/videosajax.php:156
+msgid "You don't have any videos yet"
+msgstr "Још увек немате видео снимке"
+
+#: classes/videosajax.php:83
+msgid "Sorry, this is not a valid audio.<br><small>Please make sure you're using a valid URL, not an embed code.</small>"
+msgstr "Жао нам је ово није валидан аудио снимак.<br><small>Молимо побрините се да користите валидан URL, а не код за утискивање.</small>"
+
+#: classes/videosajax.php:81
+msgid "Sorry, this is not a valid video.<br><small>Please make sure you're using a valid URL, not an embed code.</small>"
+msgstr "Жао нам је, ово није валидан видео снимак.<br><small>Молимо побрините се да користите валидан URL, а не код за утискивање.</small>"
+
+#: classes/videosadmin.php:79
+msgid "This will be sent to a video owner when video conversion is failed"
+msgstr "Ово ће бити послато власнику видео снимка након неуспеле конверзије видео снимка"
+
+#: classes/videosadmin.php:78
+msgid "Video Conversion Failed"
+msgstr "Конверзија видео снимка није успела"
+
+#: classes/videosadmin.php:74
+msgid "This will be sent to a video owner when video conversion is complete"
+msgstr "Ово ће бити послато власнику видео снимка када је конверзија видео снимка завршена"
+
+#: classes/videosadmin.php:73
+msgid "Video Conversion Complete"
+msgstr "Конверзија видео снимка је завршена"
+
+#: classes/videosadmin.php:36
+msgid "Video of post %s"
+msgstr "Видео снимак са поста %s"
+
+#: classes/configsectionvideos.php:474
+#: classes/widgets/widgetcommunityvideos.php:119
+#: classes/widgets/widgetvideos.php:136 peepsovideos.php:100
+#: peepsovideos.php:678 peepsovideos.php:1662
+msgid "Audio"
+msgstr "Аудио снимак"
+
+#: classes/configsectionvideos.php:467
+msgid "Last.fm API key"
+msgstr "Last.fm API кључ"
+
+#: classes/configsectionvideos.php:464
+msgid "here"
+msgstr "овде"
+
+#: classes/configsectionvideos.php:464
+msgid "You can get the API key %s"
+msgstr "Можете преузети API кључ %s"
+
+#: classes/configsectionvideos.php:456
+msgid "Cover art download will be attempted via Last.fm API."
+msgstr "Преузимање насловнице ће бити покушано путем Last.fm API."
+
+#: classes/configsectionvideos.php:455
+msgid "Cover Art"
+msgstr "Насловница"
+
+#: classes/configsectionvideos.php:449
+msgid "Allowed space per user for audio"
+msgstr "Дозвољени простор по кориснику за аудио снимке"
+
+#: classes/configsectionvideos.php:438
+msgid "Maximum audio upload size"
+msgstr "Максимална величина за отпремање аудио снимка"
+
+#: classes/configsectionvideos.php:422
+msgid "Users will be able to upload audio files. The files will be published immediately without conversion."
+msgstr "Корисници ће моћи да отпремају аудио снимке. Фајлови ће бити објављени одмах, без конверзије."
+
+#: classes/configsectionvideos.php:420
+msgid "Audio uploads"
+msgstr "Отпремљени аудио снимци"
+
+#: classes/configsectionvideos.php:413
+msgid "%s appears to be %s"
+msgstr "%s се приказује као %s"
+
+#: classes/configsectionvideos.php:412
+msgid "disabled"
+msgstr "онемогућено"
+
+#: classes/configsectionvideos.php:412
+msgid "enabled"
+msgstr "омогућено"
+
+#: classes/configsectionvideos.php:403
+msgid "Audio uploads don't require a cron job or conversion, but they require a PHP function finfo_open() to work properly."
+msgstr "Отпремљени аудио снимци не захтевају cron job нити конверзију, али им је неопходна РНР функција finfo_open() да би правилно функционисали."
+
+#: classes/configsectionvideos.php:388
+msgid "When enabled users are able to link and/or upload audio."
+msgstr "Када је омогућено, корисници могу да линкују и/или отпреме аудио снимке."
+
+#: classes/configsectionvideos.php:375
+msgid "Video uploads"
+msgstr "Отпремљени видео снимци"
+
+#: classes/configsectionvideos.php:369
+msgid "Output format"
+msgstr "Излазни формат"
+
+#: classes/configsectionvideos.php:365
+msgid "WEBM file format results in smaller files, but conversion might use more server resources."
+msgstr "WEBM формат производи мање фајлове, али конверзија може употребити више ресурса на серверу."
+
+#: classes/configsectionvideos.php:362
+msgid "Both"
+msgstr "Оба"
+
+#: classes/configsectionvideos.php:361
+msgid "WEBM"
+msgstr "WEBM"
+
+#: classes/configsectionvideos.php:360
+msgid "GIF"
+msgstr "GIF"
+
+#: classes/configsectionvideos.php:355
+msgid "Generate animated gif"
+msgstr "Генериши анимирани gif"
+
+#: classes/configsectionvideos.php:351
+msgid "When enabled a quick few second gif will be generated from the video. It’ll be visible when hovering cursor over the video."
+msgstr "Када је омогућено, брзи gif од пар секунди ће бити генерисан из видео снимка. Биће видљив приликом преласка курсора преко видео снимка."
+
+#: classes/configsectionvideos.php:346
+msgid "Generate poster videos"
+msgstr "Генериши видео снимке постера"
+
+#: classes/configsectionvideos.php:342
+msgid "When enabled video preview thumbnail will be generated. With the option disabled, there will be no preview frame. It’ll just be black background with a play icon on it."
+msgstr "Када је омогућено, умањена слика за преглед ће бити генерисана. Када је ова опција онемогућена, неће постојати оквир за преглед. Биће приказана само црна позадина са иконицом за покретање."
+
+#: classes/configsectionvideos.php:340
+msgid "Thumbnails and previews"
+msgstr "Умањене слике и прегледи"
+
+#: classes/configsectionvideos.php:333
+msgid "Delete original file after conversion"
+msgstr "Обриши оригинални фајл након конверзије"
+
+#: classes/configsectionvideos.php:330
+msgid "Deleting the original file after conversion is recommended to save space on the server"
+msgstr "Брисање оригиналног фајла након конверзије је препоручено ради чувања простора на серверу"
+
+#: classes/configsectionvideos.php:325
+msgid "Path to the FFprobe binary"
+msgstr "Путања до FFprobe binary"
+
+#: classes/configsectionvideos.php:322
+msgid "The FFprobe library is required for video resolution analysis. Please ask your hosting provider about it."
+msgstr "FFprobe библиотека је неопходна за анализу резолуције видео снимака. Молимо консултујте се са својим хостинг провајдером."
+
+#: classes/configsectionvideos.php:318
+msgid "Never upscale videos"
+msgstr "Никада не унапређуј видео снимке"
+
+#: classes/configsectionvideos.php:314
+msgid "When enabled, source videos with resolution lower than the defined output resolution will not be upscaled. The nearest lower resolution will be preferred. This setting is recommended to save space."
+msgstr "Када је омогућено, изворни видео снимци са резолуцијом нижом од дефинисане излазне резолуције неће бити унапређени. Најближа ниска резолуција ће бити преферирана. Ово подешавање је препоручено ради чувања простора."
+
+#: classes/configsectionvideos.php:310
+msgid "Output resolution"
+msgstr "Излазна резолуција"
+
+#: classes/configsectionvideos.php:306
+msgid "Applies to newly uploaded videos"
+msgstr "Примењује се на нове отпремљене видео снимке"
+
+#: classes/configsectionvideos.php:294
+msgid "FFmpeg extra param"
+msgstr "FFmpeg додатни параметар"
+
+#: classes/configsectionvideos.php:288
+msgid "Path to the FFmpeg binary"
+msgstr "Путања до FFmpeg binary"
+
+#: classes/configsectionvideos.php:285
+msgid "The FFmpeg library is required for video conversions. Please ask your hosting provider about it."
+msgstr "FFmpeg библиотека је неопходна за видео конверзије. Молимо консултујте се са Вашим хостинг провајдером."
+
+#: classes/configsectionvideos.php:283
+msgid "Conversions with ffmpeg"
+msgstr "Конверзије са ffmpeg"
+
+#: classes/configsectionvideos.php:270
+msgid "To enable the use of AWS, set the \"Enable AWS S3 & Elastic Transcoder Integration\" to \"YES\" and fill in the additional settings fields.<br/>To get your AWS Access ID and Keys, you can sign up here: %sGet Your AWS Access Keys%s."
+msgstr "Како бисте омогућили употребу AWS, подесите \"Омогући AWS S3 и Elastic Transcoder интеграцију\" на \"ДА\" и попуните поља за додатна подешавања.<br/>Да бисте добили Ваш AWS приступни идентификациони број и кључеве, можете да се пријавите овде: %sПреузмите Ваше AWS приступне кључеве%s."
+
+#: classes/configsectionvideos.php:259
+msgid "AWS Error History:"
+msgstr "Историја AWS грешака:"
+
+#: classes/configsectionvideos.php:247
+msgid "Don't keep a local copy of uploaded files"
+msgstr "Немојте чувати локалну копију отпремљених фајлова"
+
+#: classes/configsectionvideos.php:241
+msgid "Elastic Transcoder Preset Id"
+msgstr "Идентификациони број унапред постављеног подешавања за Elastic Transcoder"
+
+#: classes/configsectionvideos.php:235
+msgid "Amazon Elastic Transcoder Preset is required"
+msgstr "Неопходно је унапред постављено подешавање за Amazon Elastic Transcoder"
+
+#: classes/configsectionvideos.php:226
+msgid "Elastic Transcoder Pipeline Id"
+msgstr "Идентификациони број пајплајна за Elastic Transcoder"
+
+#: classes/configsectionvideos.php:220
+msgid "Amazon Elastic Transcoder Pipeline is required"
+msgstr "Неопходан је пајплајн за Amazon Elastic Transcoder"
+
+#: classes/configsectionvideos.php:211
+msgid "Amazon S3 Bucket"
+msgstr "Корпа за Amazon S3"
+
+#: classes/configsectionvideos.php:205
+msgid "Amazon S3 Bucket is required"
+msgstr "Корпа за Amazon S3 је неопходна"
+
+#: classes/configsectionvideos.php:199
+msgid "Name of the Bucket to upload your videos to on Amazon S3"
+msgstr "Име Корпе за отпремање Ваших слика на Amazon S3"
+
+#: classes/configsectionvideos.php:195
+msgid "AWS Region"
+msgstr "AWS пореска регија"
+
+#: classes/configsectionvideos.php:189
+msgid "US West (Oregon)"
+msgstr "САД Западне Државе (Орегон)"
+
+#: classes/configsectionvideos.php:188
+msgid "US West (N. California)"
+msgstr "САД Западне Државе (Северна Калифорнија)"
+
+#: classes/configsectionvideos.php:187
+msgid "US East (Ohio)"
+msgstr "САД Источне Државе (Охајо)"
+
+#: classes/configsectionvideos.php:186
+msgid "US East (N. Virginia)"
+msgstr "САД Источне Државе (Северна Вирџинија)"
+
+#: classes/configsectionvideos.php:185
+msgid "South America (São Paulo)"
+msgstr "Јужна Америка (Сао Паоло)"
+
+#: classes/configsectionvideos.php:184
+msgid "EU (Paris)"
+msgstr "ЕУ (Париз)"
+
+#: classes/configsectionvideos.php:183
+msgid "EU (London)"
+msgstr "ЕУ (Лондон)"
+
+#: classes/configsectionvideos.php:182
+msgid "EU (Ireland)"
+msgstr "ЕУ (Ирска)"
+
+#: classes/configsectionvideos.php:181
+msgid "EU (Frankfurt)"
+msgstr "ЕУ (Франкфурт)"
+
+#: classes/configsectionvideos.php:180
+msgid "Canada (Central)"
+msgstr "Канада (Централна)"
+
+#: classes/configsectionvideos.php:179
+msgid "Asia Pacific (Tokyo)"
+msgstr "Азија и Тихи Океан (Токио)"
+
+#: classes/configsectionvideos.php:178
+msgid "Asia Pacific (Sydney)"
+msgstr "Азија и Тихи Океан (Сиднеј)"
+
+#: classes/configsectionvideos.php:177
+msgid "Asia Pacific (Singapore)"
+msgstr "Азија и Тихи Океан (Сингапур)"
+
+#: classes/configsectionvideos.php:176
+msgid "Asia Pacific (Seoul)"
+msgstr "Азија и Тихи Океан (Сеул)"
+
+#: classes/configsectionvideos.php:175
+msgid "Asia Pacific (Mumbai)"
+msgstr "Азија и Тихи Океан (Мумбаи)"
+
+#: classes/configsectionvideos.php:170
+msgid "Amazon Secret Access Key"
+msgstr "Тајни приступни кључ за Amazon"
+
+#: classes/configsectionvideos.php:164
+msgid "Amazon Secret Access Key is required"
+msgstr "Неопходан је тајни приступни кључ за Amazon"
+
+#: classes/configsectionvideos.php:155
+msgid "Amazon Access Key ID"
+msgstr "Идентификациони број приступног кључа за Amazon"
+
+#: classes/configsectionvideos.php:148
+msgid "Amazon Access Key ID is required"
+msgstr "Неопходан је идентификациони број приступног кључа за Amazon"
+
+#: classes/configsectionvideos.php:142
+msgid "The Access Key ID you received when you signed up for AWS (20 characters)"
+msgstr "Идентификациони број приступног кључа који сте добили приликом пријаве за AWS (20 карактера)"
+
+#: classes/configsectionvideos.php:140
+msgid "Conversions with AWS Elastic Transcoder"
+msgstr "Конверзије са AWS Elastic Transcoder"
+
+#: classes/configsectionvideos.php:133
+msgid "Allowed file extensions"
+msgstr "Дозвољене екстензије датотека"
+
+#: classes/configsectionvideos.php:130
+msgid "One per line, it will allow MP4 if empty. The only officially supported format at the moment is mp4."
+msgstr "Један по реду, дозволиће MP4 формат ако је празно. Тренутно је једини званично подржан формат mp4."
+
+#: classes/configsectionvideos.php:124
+msgid "Advanced options"
+msgstr "Напредне опције"
+
+#: classes/configsectionvideos.php:116
+msgid "Please bear in mind, video conversion is an advanced feature which carries a lot of technical requirements. It is recommended to test in on a staging copy of your website before deploying it live. By checking this field you confirm you understand all technical requirements that have to be met in order to use this feature, as outlined in the \"important information\" box."
+msgstr "Молимо имајте у виду да је видео конверзија напредна одлика која подразумева доста техничких захтева. Препоручено је да је тестирате на развојној копији вашег веб-сајта пре пуштања у рад уживо. Обележавањем овог поља потврђујете да разумете све техничке захтеве који морају бити испуњени ради коришћења ове одлике, као што је напоменуто у уоквиреном одељку \"важне информације\"."
+
+#: classes/configsectionvideos.php:111
+msgid "Allowed space per user for video"
+msgstr "Дозвољени простор по кориснику за видео снимке"
+
+#: classes/configsectionvideos.php:108 classes/configsectionvideos.php:446
+msgid "In megabytes. 0 (zero) for no limit"
+msgstr "У мегабајтима. 0 (нула) за неограничено"
+
+#: classes/configsectionvideos.php:100
+msgid "Maximum video upload size"
+msgstr "Максимална величина за отпремање видео снимка"
+
+#: classes/configsectionvideos.php:97 classes/configsectionvideos.php:435
+msgid "In megabytes - WordPress maximum upload size allowed is %1$sMB"
+msgstr "У мегабајтима - Максимална дозвољена величина за отпремање у оквиру WordPress је %1$sMB"
+
+#: classes/configsectionvideos.php:81 classes/configsectionvideos.php:430
+msgid "Limits"
+msgstr "Ограничења"
+
+#: classes/configsectionvideos.php:49
+#: classes/widgets/widgetcommunityvideos.php:118
+#: classes/widgets/widgetvideos.php:135 peepsovideos.php:649
+#: peepsovideos.php:1631
+msgid "Video"
+msgstr "Видео снимак"
+
+#: classes/configsectionvideos.php:42
+msgid "Play inline on mobile"
+msgstr "Покрени уграђено на мобилном уређају"
+
+#: classes/configsectionvideos.php:38
+msgid "When enabled, PeepSo will attempt fo force an inline player on mobile devices. The results may vary depending on video providers."
+msgstr "Када је омогућено, PeepSo ће покушати да примора уграђени плејер на мобилним уређајима. Резултати могу да варирају у зависности од видео провајдера."
+
+#: classes/configsectionvideos.php:26 classes/configsectionvideos.php:76
+#: classes/configsectionvideos.php:392 classes/configsectionvideos.php:426
+#: classes/configsectionvideos.php:460 classes/configsectionvideos.php:803
+msgid "Enabled"
+msgstr "Омогућено"
+
+#: classes/configsectionvideos.php:22
+msgid "When enabled users are able to link and/or upload videos."
+msgstr "Када је омогућено, корисници могу да линкују и/или отпреме видео снимке."
+
+#: classes/adminvideosqueuelisttable.php:366
+msgid "%1$d video %2$s"
+msgid_plural "%1$d videos %2$s"
+msgstr[0] "%1$d видео снимак %2$s"
+msgstr[1] "%1$d видео снимка %2$s"
+msgstr[2] "%1$d видео снимака %2$s"
+
+#: classes/adminvideosqueuelisttable.php:360
+msgid "updated"
+msgstr "ажурирано"
+
+#: classes/adminvideosqueuelisttable.php:334
+msgid "deleted"
+msgstr "обрисано"
+
+#: classes/adminvideosqueuelisttable.php:308
+msgid "Delete"
+msgstr "Обриши"
+
+#: classes/adminvideosqueuelisttable.php:307
+msgid "Set to \"waiting\""
+msgstr "Подеси на \"чекање\""
+
+#: classes/adminvideosqueuelisttable.php:250
+msgid "0 bytes"
+msgstr "0 бајтова"
+
+#: classes/adminvideosqueuelisttable.php:246
+msgid " byte"
+msgstr " бајт"
+
+#: classes/adminvideosqueuelisttable.php:242
+msgid " bytes"
+msgstr " бајта"
+
+#: classes/adminvideosqueuelisttable.php:238
+msgid " KB"
+msgstr " KB"
+
+#: classes/adminvideosqueuelisttable.php:234
+msgid " MB"
+msgstr " MB"
+
+#: classes/adminvideosqueuelisttable.php:230
+msgid " GB"
+msgstr " GB"
+
+#: classes/adminvideosqueuelisttable.php:193
+msgid "Unknown"
+msgstr "Непознато"
+
+#: classes/adminvideosqueuelisttable.php:187
+msgid "Rejected"
+msgstr "Одбијено"
+
+#: classes/adminvideosqueuelisttable.php:184
+msgid "Ready"
+msgstr "Спремно"
+
+#: classes/adminvideosqueuelisttable.php:180
+msgid "Retry"
+msgstr "Покушајте поново"
+
+#: classes/adminvideosqueuelisttable.php:173
+msgid "Delay"
+msgstr "Задршка"
+
+#: classes/adminvideosqueuelisttable.php:170
+msgid "Processing"
+msgstr "Обрада у току"
+
+#: classes/adminvideosqueuelisttable.php:166
+#: classes/adminvideosqueuelisttable.php:176
+msgid "Failed"
+msgstr "Неуспешно"
+
+#: classes/adminvideosqueuelisttable.php:162
+#: classes/adminvideosqueuelisttable.php:190
+msgid "Success"
+msgstr "Успешно"
+
+#: classes/adminvideosqueuelisttable.php:158
+msgid "Waiting"
+msgstr "Чекање"
+
+#: classes/adminvideosqueuelisttable.php:77
+msgid "Status"
+msgstr "Статус"
+
+#: classes/adminvideosqueuelisttable.php:76
+msgid "Date"
+msgstr "Датум"
+
+#: classes/adminvideosqueuelisttable.php:75
+msgid "File Size"
+msgstr "Величина фајла"
+
+#: classes/adminvideosqueuelisttable.php:74
+msgid "Title"
+msgstr "Наслов"
+
+#: classes/adminvideosqueuelisttable.php:71
+msgid "User"
+msgstr "Корисник"

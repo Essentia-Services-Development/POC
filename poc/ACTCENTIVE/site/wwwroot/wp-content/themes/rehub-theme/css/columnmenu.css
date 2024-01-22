@@ -1,0 +1,11 @@
+nav.top_menu ul li.rh-subitem-menus > ul.sub-menu{width: auto; min-width: 250px; padding: 0 15px 25px 12px; }
+nav.top_menu ul li.rh-subitem-menus.rh-left-slide-menu.hovered > ul.sub-menu{right: 0; left: auto;}
+nav.top_menu > ul > li.rh-left-slide-menu > ul.sub-menu > li:first-child > a:after{display: none;}
+nav.top_menu ul li.rh-subitem-menus > ul > li{width: 250px; display: none;min-width: 250px; z-index: 1}
+nav.top_menu ul li.rh-subitem-menus.hovered > ul > li{display: table-cell;}
+nav.top_menu ul li.rh-subitem-menus > ul > li > ul.sub-menu{position: static;display: block; width: auto; box-shadow: none; border: none;transform: translateY(0);opacity: 1;visibility: visible;}
+nav.top_menu ul li.rh-subitem-menus ul.sub-menu > li > a{border: none !important; padding: 8px 10px !important; line-height: 16px;}
+nav.top_menu ul li.rh-subitem-menus > ul > li > a{ font-size: 110%; font-weight: bold; margin: 15px 0 5px 0 }
+nav.top_menu ul li.rh-subitem-menus > ul > li > a:before{display: none !important;}
+nav.top_menu .vmegamenu-bg, nav.top_menu .vmegamenu-bg-ext  {position: absolute;right: 0;bottom: 0;z-index: 0 !important;}
+nav.top_menu .vmegamenu-bg-ext  {right: -55px;bottom: -55px}

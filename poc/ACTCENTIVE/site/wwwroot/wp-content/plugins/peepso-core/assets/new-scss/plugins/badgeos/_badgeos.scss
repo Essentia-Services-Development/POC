@@ -1,0 +1,194 @@
+.ps-badgeos {}
+
+.ps-badgeos__page {
+  background-color: var(--PS-COLOR--APP);
+  box-shadow: var(--BOX-SHADOW--HARD);
+  border-radius: var(--BORDER-RADIUS--MD);
+
+  .badgeos_achievement_main_container {
+    margin: 0;
+  }
+
+  ul {
+    padding: 0;
+
+    > li {
+      list-style-type: none;
+
+      .show-hide-open,
+      .show-hide-close {
+        font-size: 80%;
+
+        &:after {
+          margin: 5px;
+        }
+      }
+
+      .ps-badgeos__item-excerpt {
+        font-size: 80%;
+      }
+
+      .badgeos-item-points {
+        margin-top: var(--PADD--SM);
+      }
+
+      .ps-badgeos__item-attached {
+        h4 {
+          font-weight: normal;
+          font-size: 100%;
+        }
+
+        ul {
+          @if $rtl {
+            padding-right: var(--PADD--MD);
+          } @else {
+            padding-left: var(--PADD--MD);
+          }
+
+          &.grid {
+            display: block !important;
+          }
+
+          &.list {
+            > li {
+              padding: 0 !important;
+              margin-bottom: var(--PADD) !important;
+              border: none !important;
+
+              &:last-child {
+                margin-bottom: 0 !important;
+              }
+            }
+          }
+
+          li {
+            margin-bottom: var(--PADD);
+            font-size: 80%;
+            list-style-type: decimal;
+
+            &.user-has-earned {
+              color: var(--COLOR--TEXT--LIGHT);
+            }
+
+            &:last-child {
+              margin-bottom: 0;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  #badgeos-achievements-container {
+    border-top: none;
+
+    .badgeos-arrange-buttons {
+      margin: 0;
+      margin-bottom: var(--PADD--MD);
+      border-bottom: 1px solid var(--DIVIDER--LIGHT);
+
+      button {
+        display: flex;
+        align-items: center;
+        color: var(--PS-COLOR--TEXT--LIGHT);
+        background-color: transparent;
+
+        &.selected {
+          color: var(--PS-COLOR--TEXT);
+        }
+      }
+    }
+
+    .list {
+      > li {
+        margin-bottom: 0;
+        padding: var(--PADD--MD);
+        border-bottom: 1px solid var(--DIVIDER--LIGHT);
+
+        &:last-child {
+          border-bottom: none;
+        }
+      }
+    }
+
+    .grid {
+      @include mq($from: desktop) {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: var(--PADD);
+        grid-row-gap: var(--PADD);
+      }
+
+      > li {
+        width: 100%;
+        min-width: 0;
+        float: none;
+        border: none;
+      }
+    }
+  }
+}
+
+.ps-badgeos__list-wrapper {
+  padding: var(--PADD--MD);
+  padding-top: 0;
+
+  @if $rtl {
+    padding-right: var(--cover-span);
+  } @else {
+    padding-left: var(--cover-span);
+  }
+
+  background-color: var(--PS-COLOR--APP);
+
+  @include mq($until: desktop) {
+    padding: 0 var(--PADD) var(--PADD--MD) var(--PADD);
+    text-align: center;
+  }
+}
+
+.ps-badgeos__list {
+  display: flex;
+  flex-wrap: wrap;
+
+  @include mq($until: desktop) {
+    justify-content: center;
+  }
+}
+
+.ps-badgeos__list-title {
+  margin-bottom: var(--PADD);
+  font-size: 90%;
+}
+
+.ps-badgeos__item {
+  --width: 60px;
+
+  width: var(--width);
+
+  > a {
+    display: block;
+  }
+
+  .ps-badgeos__page & {
+    --width: 100%;
+  }
+}
+
+.ps-badgeos__item--focus {}
+
+.ps-badgeos__item-image {
+  .ps-badgeos__page & {
+    margin-bottom: var(--PADD);
+  }
+}
+
+.ps-badgeos__item-excerpt {
+  .ps-badgeos__page & {
+    p {
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+}

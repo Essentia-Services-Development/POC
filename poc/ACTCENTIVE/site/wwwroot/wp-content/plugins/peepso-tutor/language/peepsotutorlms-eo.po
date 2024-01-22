@@ -1,0 +1,326 @@
+# Translation of PeepSo - TutorLMS Integration in Esperanto
+# This file is distributed under the same license as the PeepSo - TutorLMS Integration package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: +0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0\n"
+"Language: eo\n"
+"Project-Id-Version: PeepSo - TutorLMS Integration\n"
+
+#: classes/configsectiontutorlms.php:60
+msgid "Label"
+msgstr ""
+
+#: classes/configsectiontutorlms.php:49
+msgid "When enabled, show link to TutorLMS dashboard page."
+msgstr ""
+
+#: classes/configsectiontutorlms.php:44 peepso-tutorlms-plugin.php:240
+msgid "Dashboard"
+msgstr ""
+
+#: templates/tutorlms/course-embed.php:92
+msgid "View Details"
+msgstr ""
+
+#: templates/tutorlms/course-embed.php:75
+msgid "In"
+msgstr ""
+
+#: templates/tutorlms/course-embed.php:71
+msgid "By"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "PeepSo"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Integrates Tutor LMS into PeepSo user profiles and streams. Requires the Tutor LMS plugin."
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://peepso.com"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "PeepSo Monetization: Tutor LMS"
+msgstr ""
+
+#: peepso-tutorlms-plugin.php:767
+msgid "Get it now!"
+msgstr ""
+
+#: peepso-tutorlms-plugin.php:765
+msgid "The %s requires the PeepSo plugin to be installed and activated."
+msgstr ""
+
+#: peepso-tutorlms-plugin.php:724
+msgid "unpublished"
+msgstr ""
+
+#: peepso-tutorlms-plugin.php:703
+msgid "Assign users these VIP Badges when they complete this course"
+msgstr ""
+
+#: peepso-tutorlms-plugin.php:658
+msgid "Show these Groups as \"related\" to this Course"
+msgstr ""
+
+#: peepso-tutorlms-plugin.php:640 peepso-tutorlms-plugin.php:685
+msgid "Secret"
+msgstr ""
+
+#: peepso-tutorlms-plugin.php:639 peepso-tutorlms-plugin.php:684
+msgid "Closed"
+msgstr ""
+
+#: peepso-tutorlms-plugin.php:638 peepso-tutorlms-plugin.php:683
+msgid "Open"
+msgstr ""
+
+#: peepso-tutorlms-plugin.php:613
+msgid "Automatically add users to PeepSo Groups when they enroll in this course"
+msgstr ""
+
+#: peepso-tutorlms-plugin.php:600
+msgid "%s has not enrolled in any courses yet"
+msgstr ""
+
+#: peepso-tutorlms-plugin.php:600
+msgid "You have not enrolled in any courses yet"
+msgstr ""
+
+#: peepso-tutorlms-plugin.php:443
+msgid "PeepSo VIP automation - course completed"
+msgstr ""
+
+#: peepso-tutorlms-plugin.php:416
+msgid "PeepSo Groups automation - course enrolled"
+msgstr ""
+
+#: peepso-tutorlms-plugin.php:415
+msgid "PeepSo Groups - related groups"
+msgstr ""
+
+#: peepso-tutorlms-plugin.php:379
+msgid "completed a course"
+msgstr ""
+
+#: peepso-tutorlms-plugin.php:375
+msgid "enrolled in a course"
+msgstr ""
+
+#: peepso-tutorlms-plugin.php:229
+msgid "Courses"
+msgstr ""
+
+#: peepso-tutorlms-plugin.php:206
+msgid "Start a chat with %s"
+msgstr ""
+
+#: peepso-tutorlms-plugin.php:165
+msgid "TutorLMS"
+msgstr ""
+
+#: classes/widgets/widgettutorgroups.php:85
+msgid "Title when on PeepSo Group"
+msgstr ""
+
+#: classes/widgets/widgettutorgroups.php:79
+msgid "Title (Group Page)"
+msgstr ""
+
+#: classes/widgets/widgettutorgroups.php:67
+msgid "Courses related to this Group"
+msgstr ""
+
+#: classes/widgets/widgettutorgroups.php:63
+msgid "Groups related to this Course"
+msgstr ""
+
+#: classes/widgets/widgettutorgroups.php:10
+msgid "Displays information about PeepSo Groups assigned to a TutorLMS Course (on a Course page) or TutorLMS Courses assigned to a PeepSo Group (on a Group page)."
+msgstr ""
+
+#: classes/widgets/widgettutorgroups.php:9
+msgid "PeepSo TutorLMS: Courses &amp; Groups integration"
+msgstr ""
+
+#: classes/configsectiontutorlms.php:366
+msgid "This section is for <b>advanced users only</b>.<br/>When modifying the profile slug, please do NOT use any keyword already in use (eg %s)."
+msgstr ""
+
+#: classes/configsectiontutorlms.php:365
+msgid "Advanced"
+msgstr ""
+
+#: classes/configsectiontutorlms.php:358
+msgid "Custom icon CSS class"
+msgstr ""
+
+#: classes/configsectiontutorlms.php:355
+msgid "FontAwesome (or similar). Leave empty for default value"
+msgstr ""
+
+#: classes/configsectiontutorlms.php:350
+msgid "Profile slug"
+msgstr ""
+
+#: classes/configsectiontutorlms.php:342
+msgid "Profile label"
+msgstr ""
+
+#: classes/configsectiontutorlms.php:339 classes/configsectiontutorlms.php:347
+msgid "Leave empty for default value"
+msgstr ""
+
+#: classes/configsectiontutorlms.php:332
+msgid "Chat Integration"
+msgstr ""
+
+#: classes/configsectiontutorlms.php:325
+msgid "Enable \"Chat\" Button"
+msgstr ""
+
+#: classes/configsectiontutorlms.php:322
+msgid "Enable \"Chat\" Button in instructor widgets"
+msgstr ""
+
+#: classes/configsectiontutorlms.php:317
+msgid "This feature requires the %s plugin."
+msgstr ""
+
+#: classes/configsectiontutorlms.php:307
+msgid "Action - user completed a course"
+msgstr ""
+
+#: classes/configsectiontutorlms.php:269
+msgid "Creates an activity entry when user completes a course."
+msgstr ""
+
+#: classes/configsectiontutorlms.php:262
+msgid "Action - user reviewed a course"
+msgstr ""
+
+#: classes/configsectiontutorlms.php:224
+msgid "Creates an activity entry when user reviews a course."
+msgstr ""
+
+#: classes/configsectiontutorlms.php:218
+msgid "Action - user enrolled in a course"
+msgstr ""
+
+#: classes/configsectiontutorlms.php:211 classes/configsectiontutorlms.php:255
+#: classes/configsectiontutorlms.php:300
+msgid "Default privacy"
+msgstr ""
+
+#: classes/configsectiontutorlms.php:192 classes/configsectiontutorlms.php:236
+#: classes/configsectiontutorlms.php:281
+msgid "Action text"
+msgstr ""
+
+#: classes/configsectiontutorlms.php:189 classes/configsectiontutorlms.php:233
+#: classes/configsectiontutorlms.php:278
+msgid "Leave empty for default"
+msgstr ""
+
+#: classes/configsectiontutorlms.php:180
+msgid "Creates an activity entry when user enrolls in a course."
+msgstr ""
+
+#: classes/configsectiontutorlms.php:172
+msgid "Featured Images"
+msgstr ""
+
+#: classes/configsectiontutorlms.php:165
+msgid "Height (px)"
+msgstr ""
+
+#: classes/configsectiontutorlms.php:155
+msgid "Position"
+msgstr ""
+
+#: classes/configsectiontutorlms.php:148
+msgid "Right (square)"
+msgstr ""
+
+#: classes/configsectiontutorlms.php:147
+msgid "Left (square)"
+msgstr ""
+
+#: classes/configsectiontutorlms.php:146
+msgid "Top (rectangle)"
+msgstr ""
+
+#: classes/configsectiontutorlms.php:141
+msgid "Placeholder"
+msgstr ""
+
+#: classes/configsectiontutorlms.php:138
+msgid "Display an empty box if an image is not found (to maintain the layout)"
+msgstr ""
+
+#: classes/configsectiontutorlms.php:134
+msgid "Show featured images"
+msgstr ""
+
+#: classes/configsectiontutorlms.php:126
+msgid "Text"
+msgstr ""
+
+#: classes/configsectiontutorlms.php:120
+msgid "Aggressive shortcode removal"
+msgstr ""
+
+#: classes/configsectiontutorlms.php:117
+msgid "Forced removal of some shortcodes immune to native WP methods (eg Divi Builder and similar). This is an experimental feature, we recommend using plain-text excerpts instead."
+msgstr ""
+
+#: classes/configsectiontutorlms.php:113
+msgid "Description length (words)"
+msgstr ""
+
+#: classes/configsectiontutorlms.php:110
+msgid "0 for no content"
+msgstr ""
+
+#: classes/configsectiontutorlms.php:104
+msgid "Course titles"
+msgstr ""
+
+#: classes/configsectiontutorlms.php:91
+msgid "Two column layout"
+msgstr ""
+
+#: classes/configsectiontutorlms.php:84
+msgid "Box height (px)"
+msgstr ""
+
+#: classes/configsectiontutorlms.php:67
+msgid "Profiles"
+msgstr ""
+
+#: classes/configsectiontutorlms.php:37
+msgid "Hide courses"
+msgstr ""
+
+#: classes/configsectiontutorlms.php:34
+msgid "Optional. Comma separated list of course IDs you want to hide from the profiles."
+msgstr ""
+
+#: classes/configsectiontutorlms.php:29 classes/configsectiontutorlms.php:52
+#: classes/configsectiontutorlms.php:75 classes/configsectiontutorlms.php:183
+#: classes/configsectiontutorlms.php:227 classes/configsectiontutorlms.php:272
+msgid "Enabled"
+msgstr ""
+
+#: classes/configsectiontutorlms.php:26
+msgid "Show \"TutorLMS\" tab in user profiles."
+msgstr ""

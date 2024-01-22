@@ -1,0 +1,92 @@
+@mixin ps-alert {
+  --bg: var(--PS-COLOR--INFO--ULTRALIGHT);
+  --border: var(--PS-COLOR--INFO--LIGHT);
+  --color: var(--PS-COLOR--INFO--DARK);
+  --padd: var(--PADD) var(--PADD--MD);
+
+  display: block;
+  width: 100%;
+  margin-top: var(--PADD--MD);
+  margin-bottom: var(--PADD--MD);
+  padding: var(--padd);
+  font-size: 80%;
+  color: var(--color);
+  background-color: var(--bg);
+  box-shadow: inset 0 0 0 1px var(--border);
+  border-radius: var(--BORDER-RADIUS--MD);
+
+  i {
+    margin-right: var(--PADD--SM);
+  }
+
+  p {
+    &:first-child {
+      margin-top: 0;
+    }
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  &:first-child {
+    margin-top: 0;
+  }
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  &:empty {
+    display: none;
+  }
+}
+
+.ps-alert {
+  @include ps-alert;
+}
+
+.ps-alert--sm {
+  --padd: var(--PADD--SM) var(--PADD);
+
+  font-size: 80%;
+}
+
+.ps-alert--cp {
+  --padd: var(--PADD);
+}
+
+.ps-alert--success {
+  --bg: var(--PS-COLOR--SUCCESS--ULTRALIGHT);
+  --border: var(--PS-COLOR--SUCCESS--LIGHT);
+  --color: var(--PS-COLOR--SUCCESS--DARK);
+}
+
+.ps-alert--warning {
+  --bg: var(--PS-COLOR--WARNING--ULTRALIGHT);
+  --border: var(--PS-COLOR--WARNING--LIGHT);
+  --color: var(--PS-COLOR--WARNING--DARK);
+}
+
+.ps-alert--abort {
+  --bg: var(--PS-COLOR--ABORT--ULTRALIGHT);
+  --border: var(--PS-COLOR--ABORT--LIGHT);
+  --color: var(--PS-COLOR--ABORT--DARK);
+
+  &:before {
+    content: " ";
+    display: inline;
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+  }
+}
+
+.ps-alert--neutral {
+  --bg: var(--PS-COLOR--APP--GRAY);
+  --color: var(--PS-COLOR--TEXT--LIGHT);
+  --border: var(--PS-COLOR--APP--DARKGRAY);
+}
+
+.ps-alert--hide {
+  display: none;
+}

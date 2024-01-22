@@ -1,0 +1,9 @@
+{
+	"apiVersion": 1,
+	"name": "rehub/scorebox",
+    "title": "Scorebox",
+    "description": "For making scorebox with buttons",
+	"category":"helpler-modules",
+    "icon": "table-col-before",
+	"textdomain": "rehub-framework"
+}

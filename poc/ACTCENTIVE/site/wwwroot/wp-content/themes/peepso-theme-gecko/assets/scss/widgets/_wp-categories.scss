@@ -1,0 +1,52 @@
+%wp-categories-ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 80%;
+
+  > li {
+    margin: 0;
+    margin-bottom: var(--PADD);
+    padding: 0;
+    list-style-type: none;
+    color: var(--GC-COLOR--TEXT--LIGHT);
+
+    ul {
+      margin: 0;
+      padding: 0;
+
+      @if $rtl {
+        padding-right: var(--PADD--MD);
+      } @else {
+        padding-left: var(--PADD--MD);
+      }
+    }
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+.widget.widget_categories,
+.gc-widget.widget_categories,
+.store-cat-stack-dokan {
+  > ul {
+    @extend %wp-categories-ul;
+  }
+
+  select {
+    --font-size: 90%;
+    --line-height: 1.2;
+    --input-padd: var(--PADD);
+  }
+}
+
+.gc-widget {
+  ul,
+  ol {
+    &.wp-block-categories {
+      @extend %wp-categories-ul;
+    }
+  }
+}

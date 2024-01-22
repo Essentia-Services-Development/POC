@@ -1,0 +1,81 @@
+
+---Downloaded files---
+The import files for: ReLearn were successfully downloaded!
+Initial max execution time = 120
+Files info:
+Site URL = https://actcentive.com/academy
+Data file = /var/www/wordpress/wp-content/uploads/sites/11/2023/06/demo-content-import-file_2023-06-09__09-28-29.xml
+Widget file = /var/www/wordpress/wp-content/uploads/sites/11/2023/06/demo-widgets-import-file_2023-06-09__09-28-29.json
+Customizer file = not defined!
+Redux files:
+not defined!
+
+---ocdi/before_content_import---
+
+
+------
+New AJAX call!
+[WARNING] Failed to import elementor_library_type page
+[WARNING] Failed to import elementor_library_type section
+[ERROR] Failed to import "logo" (Media)
+
+
+------
+New AJAX call!
+[WARNING] Failed to import elementor_library_type page
+[WARNING] Failed to import elementor_library_type section
+[ERROR] Failed to import "logo" (Media)
+[WARNING] Failed to import "Default Kit": Invalid post type elementor_library
+
+
+------
+New AJAX call!
+[WARNING] Failed to import elementor_library_type page
+[WARNING] Failed to import elementor_library_type section
+[ERROR] Failed to import "logo" (Media)
+[WARNING] Failed to import "Default Kit": Invalid post type elementor_library
+[WARNING] Failed to import "Additional product part": Invalid post type elementor_library
+[WARNING] Failed to import "users": Invalid post type elementor_library
+[WARNING] Failed to import "Relearn": Invalid post type elementor_library
+
+
+---Importing widgets---
+Post Sidebar Area : 
+
+ReHub: Deal of day - Deal of the day - Imported
+
+Footer 1 : 
+
+Text - About Rehub - Imported
+
+Footer 2 : 
+
+Text - No Title - Imported
+
+Footer 3 : 
+
+Text - Sign Up for Weekly Newsletter - Imported
+
+Custom sidebar area : 
+
+Archives - No Title - Imported
+Categories - No Title - Imported
+Meta - No Title - Imported
+
+Woocommerce shop sidebar : 
+
+Filter Products by Price - No Title - Imported
+ReHub: Better categories - No Title - Imported
+Filter Products by Attribute - Access - Imported
+Filter Products by Attribute - Language - Imported
+Filter Products by Attribute - Level - Imported
+Filter Products by Attribute - Required time - Imported
+
+Woocommerce product sidebar : 
+
+ReHub: Top Offers/Products - Top offers - Imported
+
+
+
+---ocdi/after_import---
+Theme Options was updated-------Customizer was updated-------Menu was assigned-------HomePage was assigned-------

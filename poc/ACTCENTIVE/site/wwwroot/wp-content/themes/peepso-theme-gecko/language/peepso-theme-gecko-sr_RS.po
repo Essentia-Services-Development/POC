@@ -1,0 +1,2665 @@
+# Translation of PeepSo - Gecko Theme in Serbian
+# This file is distributed under the same license as the PeepSo - Gecko Theme package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2023-07-18 08:08:13+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
+"X-Generator: GlotPress/3.0.0\n"
+"Language: sr_RS\n"
+"Project-Id-Version: PeepSo - Gecko Theme\n"
+
+#: core/admin/settings.php:274
+msgid "Inject Open Graph tags"
+msgstr ""
+
+#: core/admin/settings.php:270
+msgid "Open Graph"
+msgstr ""
+
+#: core/admin/customizer-options.php:3013
+msgid "Force single column Products view on Mobile."
+msgstr "Строго примени преглед производа у једној колони на мобилном."
+
+#: core/admin/customizer-options.php:3003
+msgid "Set default number of product columns."
+msgstr "Постави основни број колона за производе."
+
+#: core/admin/customizer-options.php:3002
+msgid "Product columns."
+msgstr "Колоне за производе"
+
+#: core/admin/customizer-options.php:2994
+msgid "Show sidebars on Shop & Product pages."
+msgstr "Прикажи бочне траке на страницама за куповину и производе."
+
+#: core/admin/customizer-options.php:2986
+msgid "Makes every single product view builder friendly (full width layout with no paddings arround)."
+msgstr "Подешава приказ сваког производа у складу са изградним оквиром (преглед у пуној ширини без граничника)."
+
+#: core/admin/customizer-preset.php:542
+msgid "Lime Green"
+msgstr "Лимета зелено"
+
+#: core/admin/customizer-options.php:2782
+msgid "Hashtags in postbox"
+msgstr "Hashtag-ови у оквиру за постовање"
+
+#: core/admin/customizer-options.php:1325
+msgid "Icon background color on hover"
+msgstr "Боја позадине за иконице приликом лебдења"
+
+#: core/admin/customizer-options.php:1319
+msgid "Icon color on hover"
+msgstr "Боја иконице приликом лебдења"
+
+#: core/admin/customizer-options.php:1313
+msgid "Icon color"
+msgstr "Боја иконице"
+
+#: core/admin/customizer-options.php:1307
+msgid "This will only affect the menu icon not the notifications icon."
+msgstr "Ово ће утицати само на иконицу менија, не и на иконицу за обавештења."
+
+#: core/admin/customizer-options.php:1306
+msgid "Menu Icons"
+msgstr "Иконице менија"
+
+#: core/admin/customizer-options.php:3097
+msgid "Display breadcrumbs"
+msgstr "Прикажи узастопне странице"
+
+#: core/admin/customizer-options.php:3088
+msgid "General Settings."
+msgstr "Општа подешавања"
+
+#: core/admin/customizer-options.php:3087
+msgid "Settings related to Yoast SEO plugin."
+msgstr "Подешавања везана за Yoast SEO додатак"
+
+#: core/admin/customizer-options.php:3086
+msgid "Yoast SEO"
+msgstr "Yoast SEO"
+
+#: core/admin/customizer-options.php:1093
+msgid "Full width mode"
+msgstr "Модус пуне ширине"
+
+#: core/admin/customizer-options.php:1039
+msgid "Fixed background position"
+msgstr "Фиксирана позиција позадине"
+
+#: core/admin/customizer-options.php:990
+msgid "Show right sidebar on desktop."
+msgstr "Прикажи десну бочну траку на десктопу"
+
+#: core/admin/customizer-options.php:982
+msgid "Show left sidebar on desktop."
+msgstr "Прикажи леву бочну траку на десктопу"
+
+#: core/admin/customizer-options.php:976
+msgid "Desktop visibility"
+msgstr "Видљивост десктопа"
+
+#: core/admin/customizer-options.php:1781
+msgid "Show caption under Featured Image on Single post."
+msgstr "Прикажи опис испод представљене фотографије на појединачном посту."
+
+#: core/admin/customizer-options.php:1718
+msgid "Show caption under Featured Image on Blog & Search page."
+msgstr "Прикажи опис испод представљене фотографије на страницама Блог и Претрага."
+
+#: core/widgets.php:59
+msgid "Designed for content slider, will be displayed under header."
+msgstr "Дизајнирано за слајдер садржаја, биће приказано испод заглавља."
+
+#: core/admin/customizer-options.php:854
+msgid "Show edit link at the bottom of the page/post."
+msgstr "Прикажи линк за уређивање на дну странице/поста."
+
+#: single.php:95 template-parts/content-page.php:73
+msgid "Edit Page"
+msgstr "Уреди страницу"
+
+#: page-tpl-landing.php:77
+msgid "You are logged in as"
+msgstr "Пријављени сте као"
+
+#: page-tpl-landing.php:62
+msgid "Register or login to see the Community activities."
+msgstr "Региструјте се или се пријавите да бисте видели активности у заједници."
+
+#: page-tpl-landing.php:61
+msgid "Welcome back!"
+msgstr "Добродошли назад!"
+
+#: core/admin/settings.php:194
+msgid "All available post types"
+msgstr "Сви доступни типови постова"
+
+#: core/admin/settings.php:182
+msgid "Comma-separated list of post types"
+msgstr "Листа типова постова раздвојених зарезом"
+
+#: core/admin/settings.php:163
+msgid "post types"
+msgstr "типови постова"
+
+#: core/admin/settings.php:134
+msgid "single items"
+msgstr "појединачни предмети"
+
+#: core/admin/settings.php:130
+msgid "Redirecting guests to a landing page is a great way to keep your website closed to non-members. You can define some exceptions from that rule, but keep in mind this might affect performance for guests. We recommend not defining too many exceptions."
+msgstr "Преусмеравање гостију на почетну страницу је одличан начин да ограничите приступ свог сајта онима који нису чланови. Можете да дефинишете неке изузетке од овог правила, али имајте у виду да тај поступак може утицати на радни учинак за госте. Препоручујемо да не одређујете превише изузетака."
+
+#: core/admin/settings.php:107
+msgid "Redirect guests"
+msgstr "Преусмери госте"
+
+#: core/admin/customizer-options.php:2666
+msgid "Post Type hover background color"
+msgstr "Боја позадине за прелаз курсором преко типа поста"
+
+#: core/admin/customizer-options.php:2660
+msgid "Post Type background color"
+msgstr "Боја позадине за тип поста"
+
+#: core/admin/customizer-options.php:2654
+msgid "Post Type active icons"
+msgstr "Активне иконице за тип поста"
+
+#: core/admin/customizer-options.php:2648
+msgid "Post Type icons"
+msgstr "Иконице за тип поста"
+
+#: core/admin/customizer-options.php:2642
+msgid "Postbox icons active (all)"
+msgstr "Активне иконице за поштанско сандуче (све)"
+
+#: core/page.php:226 core/page.php:249 core/page.php:262
+msgid "MegaMenu is activated. This setting is overridden by MegaMenu plugin."
+msgstr "MegaMenu је активиран. MegaMenu додатак преузима контролу над овим подешавањем."
+
+#: core/admin/customizer.php:321
+msgid "MegaMenu is activated. Some settings may be overridden by MegaMenu plugin."
+msgstr "MegaMenu је активиран. Овај додатак може да преузме контролу над неким подешавањима."
+
+#: template-parts/peepso/focus.php:89
+msgid "Rotate right"
+msgstr "Ротирај десно"
+
+#: template-parts/peepso/focus.php:85
+msgid "Rotate left"
+msgstr "Ротирај лево"
+
+#: core/admin/customizer-options.php:1530
+msgid "Display Footer"
+msgstr "Прикажи подножје"
+
+#: core/admin/customizer-options.php:1085
+msgid "Display Header"
+msgstr "Прикажи заглавље"
+
+#: core/admin/customizer-options.php:199
+msgid "Tagline font-size"
+msgstr "Величина фонта за таговану фразу"
+
+#: core/admin/customizer.php:391
+msgid "Tablet"
+msgstr "Таблет"
+
+#: core/admin/customizer-options.php:1733
+msgid "Number of Columns."
+msgstr "Број колона"
+
+#: functions.php:25
+msgid "Please make sure the first three version numbers of PeepSo plugins %s and Gecko theme %s match. It’d be best to update the plugins and theme to latest versions. If you are using a child theme, please check our <a href=\"%s\">documentation</a> to fix the issue."
+msgstr "Молимо проверите да ли се прва три броја верзије PeepSo додатка %s и Gecko теме %s подударају. Било би најбоље да ажурирате додатке и тему на најскорије верзије. Ако користите подређену тему, молимо погледајте нашу <a href=\"%s\">документацију</a> како бисте решили проблем."
+
+#: core/admin/customizer-options.php:2572
+msgid "Post attachment background color"
+msgstr "Боја позадине за додатак у посту"
+
+#: core/admin/customizer-options.php:2499
+msgid "Gap between Posts"
+msgstr "Размак између постова"
+
+#: core/admin/customizer.php:218
+msgid "Publish - Set preset as default"
+msgstr "Објави - постави шаблон као основни"
+
+#: core/admin/customizer.php:213
+msgid "Save changes"
+msgstr "Сачувај измене"
+
+#: core/admin/customizer.php:170
+msgid "Select Preset"
+msgstr "Одабери шаблон"
+
+#: core/admin/customizer.php:152
+msgid "Discard changes"
+msgstr "Одбаци измене"
+
+#: core/admin/customizer.php:143
+msgid "Preset Settings"
+msgstr "Подешавања шаблона"
+
+#: core/admin/customizer.php:136
+msgid "Theme Preset"
+msgstr "Шаблон теме"
+
+#: core/admin/customizer-options.php:2776
+#: core/admin/customizer-options.php:2794
+msgid "Text background"
+msgstr "Позадина текста"
+
+#: core/admin/customizer-options.php:2764
+msgid "These settings will not affect hashtags in gradient widget style."
+msgstr "Ова подешавања неће утицати на hashtag-ове у стилизованом тоналитету за виџете."
+
+#: core/admin/customizer-options.php:2763
+msgid "Hashtags in widget"
+msgstr "Hashtag-ови у виџету"
+
+#: core/admin/customizer-options.php:2758
+msgid "Hashtags"
+msgstr "Hashtag-ови"
+
+#: core/admin/customizer-preset.php:500
+msgid "Dating"
+msgstr "Датирање"
+
+#: core/admin/customizer-preset.php:461
+msgid "Sunset"
+msgstr "Залазак сунца"
+
+#: core/admin/customizer-preset.php:415 core/admin/customizer-preset.php:423
+#: core/admin/customizer-preset.php:461 core/admin/customizer-preset.php:500
+#: core/admin/customizer-preset.php:542
+msgid "Gecko:"
+msgstr "Gecko:"
+
+#: core/admin/customizer-options.php:2832
+msgid "Chat & Messages"
+msgstr "Ћаскање и поруке"
+
+#: core/admin/customizer-options.php:2803
+msgid "Groups"
+msgstr "Групе"
+
+#: core/admin/customizer-options.php:2731
+msgid "Polls"
+msgstr "Анкете"
+
+#: core/admin/customizer-options.php:2722
+msgid "Notifications counter text color"
+msgstr "Боја текста за бројач обавештења"
+
+#: core/admin/customizer-options.php:2716
+msgid "Notifications counter background"
+msgstr "Позадина за бројач обавештења"
+
+#: core/admin/customizer-options.php:2710
+msgid "Unread notification background"
+msgstr "Позадина за непрочитана обавештења"
+
+#: core/admin/customizer-options.php:2705
+msgid "Notifications"
+msgstr "Обавештења"
+
+#: core/admin/customizer-options.php:2402
+msgid "Action buttons style"
+msgstr "Стил акционих дугмића"
+
+#: core/admin/customizer-options.php:2396
+#: core/admin/customizer-options.php:2426
+msgid "Button text color on Hover"
+msgstr "Боја текста у дугмету приликом преласка курсором"
+
+#: core/admin/customizer-options.php:2390
+#: core/admin/customizer-options.php:2420
+msgid "Button background on Hover"
+msgstr "Позадина дугмета приликом преласка курсором"
+
+#: core/admin/customizer-options.php:2384
+#: core/admin/customizer-options.php:2414
+msgid "Button text color"
+msgstr "Боја текста у дугмету"
+
+#: core/admin/customizer-options.php:2378
+#: core/admin/customizer-options.php:2408
+msgid "Button background"
+msgstr "Позадина дугмета"
+
+#: core/admin/customizer-options.php:2372
+msgid "Default style"
+msgstr "Основни стил"
+
+#: core/admin/customizer-options.php:2367
+msgid "Buttons"
+msgstr "Дугмићи"
+
+#: core/admin/customizer-options.php:2749
+msgid "Poll option infill color"
+msgstr "Боја испуне опција у анкетама"
+
+#: core/admin/customizer-options.php:2743
+msgid "Poll option background color"
+msgstr "Боја позадине у опцији у анкетама"
+
+#: core/admin/customizer-options.php:2737
+msgid "Make sure text is readable on default and infill background colors."
+msgstr "Проверите да ли је текст читљив на основним и испуњеним бојама позадине."
+
+#: core/admin/customizer-options.php:2736
+msgid "Poll option text color"
+msgstr "Боја текста у опцији анкета"
+
+#: core/admin/customizer-options.php:901
+msgid "With this setting you can limit middle column maximum width. Use any unit, like px or %."
+msgstr "Ово подешавање Вам омогућава да ограничите максималну ширину средње колумне. Користите било коју јединицу, као што је px или %."
+
+#: core/admin/customizer-options.php:900
+msgid "It will affect not only Community pages but also Blog and other pages."
+msgstr "Утицаће не само на основне странице у заједници, већ и на блог и друге странице."
+
+#: core/admin/customizer-options.php:899
+msgid "Middle column max-width"
+msgstr "Максимална ширина средње колумне"
+
+#: core/admin/customizer-options.php:575
+msgid "Here you can edit global text colors."
+msgstr "Овде можете подесити глобалне боје текста."
+
+#: core/admin/customizer-options.php:572
+msgid "Typography colors"
+msgstr "Боје типографије"
+
+#: core/admin/customizer-options.php:449
+msgid "Info dark color"
+msgstr "Тамна боја за информације"
+
+#: core/admin/customizer-options.php:442
+msgid "Info ultralight color"
+msgstr "Ултра-светла боја за информације"
+
+#: core/admin/customizer-options.php:435
+msgid "Info light color"
+msgstr "Светла боја за информације"
+
+#: core/admin/customizer-options.php:428
+msgid "Info color"
+msgstr "Боја за информације"
+
+#: core/admin/customizer-options.php:423
+msgid "Info colors used for default alerts."
+msgstr "Боје за информације које се користе за основна упозорења."
+
+#: core/admin/customizer-options.php:420
+msgid "Info colors"
+msgstr "Боје за информације"
+
+#: core/admin/customizer-options.php:411
+msgid "Links hover color on gradient"
+msgstr "Тоналитет боје линкова приликом преласка курсора"
+
+#: core/admin/customizer-options.php:405
+msgid "Links on gradient color"
+msgstr "Линкови у боји тоналитета"
+
+#: core/admin/customizer-options.php:399
+msgid "Text on gradient color"
+msgstr "Текст у боји тоналитета"
+
+#: core/admin/customizer-options.php:393
+msgid "Gradient color 2"
+msgstr "Боја тоналитета 2"
+
+#: core/admin/customizer-options.php:387
+msgid "Gradient color 1"
+msgstr "Боја тоналитета 1"
+
+#: core/admin/customizer-options.php:377
+msgid "Gradient angle"
+msgstr "Угао тоналитета"
+
+#: core/admin/customizer-options.php:372
+msgid "Used as default gradient widget colors. (maybe on more elements in the future)"
+msgstr "Користи се за основну боју тоналитета за виџете. (могућа примена на више елемената у будућим издањима)"
+
+#: core/admin/customizer-options.php:369
+msgid "Gradient colors"
+msgstr "Боје тоналитета"
+
+#: core/admin/customizer-options.php:360
+msgid "Alt dark color"
+msgstr "Алтернативна тамна боја"
+
+#: core/admin/customizer-options.php:353
+msgid "Alt light color"
+msgstr "Алтернативна светла боја"
+
+#: core/admin/customizer-options.php:346
+msgid "Alt color"
+msgstr "Алтернативна боја"
+
+#: core/admin/customizer-options.php:341
+msgid "Alternative to primary color. Default color for community Join button, one of the Gradient colors and some small UI elements."
+msgstr "Алтернатива за примарну боју. Основна боја за дугме учлањења у заједницу, једна од боја тоналитета и неколицина ситних UI елемената."
+
+#: core/admin/customizer-options.php:338
+msgid "Alt colors"
+msgstr "Алтернативне боје"
+
+#: core/admin/customizer-options.php:288
+msgid "Base colors palette (primary colors, text, backgrounds)."
+msgstr "Палета основних боја (примарне боје, текст, позадине)."
+
+#: core/admin/customizer-options.php:254
+msgid "Here you can edit font-size or line-height."
+msgstr "Овде можете подесити величину фонта и висину реда."
+
+#: peepso/activity/post.php:96
+msgid "Click to reveal NSFW content."
+msgstr "Кликни за откривање NSFW садржаја."
+
+#: core/widgets.php:153
+msgid "Widgets added to this area will be displayed under content and sidebars."
+msgstr "Виџети додати у овом подручју ће бити приказани испод садржаја и бочних менија."
+
+#: core/widgets.php:143
+msgid "Widgets added to this area will be displayed under content but between sidebars."
+msgstr "Виџети додати у овом подручју ће бити приказани испод садржаја, али између бочних менија."
+
+#: core/widgets.php:95
+msgid "Widgets added to this area will be displayed above content but between sidebars."
+msgstr "Виџети додати у овом подручју ће бити приказани изнад садржаја, али између бочних менија."
+
+#: core/widgets.php:67
+msgid "Widgets added to this area will be displayed above content and sidebars."
+msgstr "Виџети додати у овом подручју ће бити приказани изнад садржаја и бочних менија."
+
+#: core/widgets.php:31
+msgid "Dedicated area for shopping cart widgets, will be displayed on header bar."
+msgstr "Резервисано подручје за виџете корпи за куповину, биће приказано у менију заглавља."
+
+#: core/widgets.php:21
+msgid "Dedicated area for search widgets, will be displayed on header bar."
+msgstr "Резервисано подручје за виџете за претрагу, биће приказано у менију заглавља."
+
+#: core/widgets.php:11
+msgid "Widgets & Blocks will be displayed on header bar, next to header menu."
+msgstr "Виџети и блокови ће бити приказани у менију заглавља, одмах поред менија."
+
+#: core/admin/customizer-options.php:3069
+msgid "Overrides Tutor LMS primary colors."
+msgstr "Преправља Tutor LMS примарне боје."
+
+#: core/admin/customizer-options.php:3060
+msgid "General Tutor LMS settings."
+msgstr "Општа Tutor LMS подешавања."
+
+#: core/admin/customizer-options.php:3059
+msgid "Settings related to Tutor LMS plugin."
+msgstr "Подешавања повезана са Tutor LMS додатком."
+
+#: core/admin/customizer-options.php:3058
+msgid "Tutor LMS"
+msgstr "Tutor LMS"
+
+#: core/admin/customizer-options.php:1797
+#: core/admin/customizer-options.php:1806
+#: core/admin/customizer-options.php:1815
+#: core/admin/customizer-options.php:1824
+#: core/admin/customizer-options.php:1833
+msgid "It will also affect Archives page."
+msgstr "Утицаће и на страницу Архива."
+
+#: core/admin/customizer-options.php:1132
+msgid "Enable long menu"
+msgstr "Омогући продужени мени"
+
+#: core/admin/customizer-options.php:1124
+msgid "If there is not enough space on header to show all the menu links inline, it will hide the rest of them under dropdown menu."
+msgstr "Ако нема довољно места у заглављу за приказ свих линкова менија у једној линији, преостали линкови ће бити премештени у падајући мени."
+
+#: core/admin/customizer-options.php:1122
+msgid "Long menu support"
+msgstr "Подршка за продужени мени"
+
+#: peepso/general/login.php:48
+msgid "TFA code"
+msgstr "TFA код"
+
+#: core/admin/customizer-options.php:1372
+msgid "Arrow icon color"
+msgstr "Боја стрелице на иконици"
+
+#: core/admin/customizer-options.php:1346
+msgid "Position on to the right"
+msgstr "Премести у десно"
+
+#: core/admin/customizer-options.php:580
+msgid "Global headings color"
+msgstr "Боја глобалног заглавља"
+
+#: core/admin/customizer-options.php:149
+msgid "Site Icon (Favicon)"
+msgstr "Иконица сајта (Favicon)"
+
+#: core/admin/customizer-options.php:1654
+msgid "Display footer (social) widgets"
+msgstr "Прикажи (друштвене) виџете у подножју"
+
+#: core/admin/customizer-options.php:1646
+msgid "Display footer widgets"
+msgstr "Прикажи виџете у подножју"
+
+#: core/admin/customizer-options.php:1640
+msgid "Landing Page footer widgets"
+msgstr "Виџети у подножју почетне странице"
+
+#: core/admin/customizer-options.php:1632
+msgid "Full width footer"
+msgstr "Подножје са пуном ширином"
+
+#: core/admin/customizer-options.php:1626
+msgid "Landing Page footer"
+msgstr "Подножје почетне странице"
+
+#: core/admin/customizer-options.php:1623
+msgid "Landing page settings."
+msgstr "Подешавања почетне странице"
+
+#: core/admin/customizer-options.php:1621
+msgid "Landing Page (Template)"
+msgstr "Почетна страница (шаблон)"
+
+#: core/admin/customizer-options.php:1688
+msgid "Each blog post on front-end will show only limited number of words (Blog page)."
+msgstr "Сваки блог пост на фронтенду ће приказати само ограничени број речи (Блог страница)."
+
+#. Template Name of the plugin/theme
+msgid "Landing"
+msgstr "Основна страница"
+
+#. Template Name of the plugin/theme
+msgid "Builder friendly"
+msgstr "Прикладно за builder-е"
+
+#. Author URI of the plugin/theme
+msgid "https://PeepSo.com"
+msgstr "https://PeepSo.com"
+
+#. Author of the plugin/theme
+msgid "PeepSo, Inc."
+msgstr "PeepSo, Inc."
+
+#. Description of the plugin/theme
+msgid "Thank you for choosing Gecko as your theme. We're very passionate about creating the best possible experience for you and your community. Community that can be built with PeepSo - The Next Generation User Profile And Social Networking Plugins for WordPress. For more information about PeepSo go to: <a href=\"https://PeepSo.com\">PeepSo.com</a>.<!--Gecko Parent-->"
+msgstr "Хвала што сте одабрали Gecko као своју тему. Изузетно смо предани креирању најбољег могућег искуства за Вас и Вашу заједницу. Заједница се гради уз PeepSo - додаци нове генерације за корисничке профиле и друштвене мреже у WordPress-у. За више информација о PeepSo, посетите: <a href=\"https://PeepSo.com\">PeepSo.com</a>.<!--Gecko Parent-->"
+
+#. Theme URI of the plugin/theme
+msgid "https://GeckoTheme.com"
+msgstr "https://GeckoTheme.com"
+
+#. Theme Name of the plugin/theme
+msgid "PeepSo Theme: Gecko"
+msgstr "PeepSo тема: Gecko"
+
+#: template-parts/peepso/focus.php:81
+msgid "Reposition"
+msgstr "Подеси положај"
+
+#: template-parts/peepso/focus.php:77
+msgid "Upload new"
+msgstr "Отпреми ново"
+
+#: template-parts/peepso/focus.php:73
+msgid "Change cover"
+msgstr "Промени насловну фотографију"
+
+#: template-parts/peepso/focus.php:65 template-parts/peepso/focus.php:129
+msgid "%s is currently online"
+msgstr "%s је тренутно на мрежи"
+
+#: template-parts/peepso/focus.php:58 template-parts/peepso/focus.php:122
+msgid "Change avatar"
+msgstr "Промени аватар"
+
+#: template-parts/peepso/focus.php:46 template-parts/peepso/focus.php:110
+msgid "%s avatar"
+msgstr "%s аватар"
+
+#: template-parts/peepso/focus.php:26
+msgid "%s cover photo"
+msgstr "%s насловна фотографија"
+
+#: template-parts/content.php:100
+msgid "Tags: "
+msgstr "Ознаке: "
+
+#: template-parts/content.php:97
+msgid "Category: "
+msgstr "Категорија: "
+
+#: template-parts/content.php:71
+msgid "Read more %s"
+msgstr "Прочитај више %s"
+
+#: template-parts/content.php:68
+msgid "Read more"
+msgstr "Прочитај више"
+
+#: template-parts/content-search.php:63 template-parts/content.php:107
+msgid "Comments"
+msgstr "Коментари"
+
+#: template-parts/content-search.php:51 template-parts/content-search.php:61
+#: template-parts/content.php:57 template-parts/content.php:105
+msgid "Published by"
+msgstr "Објављено од стране"
+
+#: template-parts/content-search.php:6 template-parts/content.php:8
+msgid ", "
+msgstr ", "
+
+#: template-parts/content-page.php:63 template-parts/content.php:78
+msgid "Pages:"
+msgstr "Странице:"
+
+#: template-parts/content-none.php:31
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Изгледа да не можемо да пронађемо оно што тражите. Можда ће претрага помоћи."
+
+#: template-parts/content-none.php:26
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Жао нам је, али ништа се не подудара са вашом претрагом. Молимо покушајте поново са другачијим кључним речима."
+
+#: template-parts/content-none.php:22
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Спремни да објавите свој први пост? <a href=\"%1$s\">Почните овде</a>."
+
+#: template-parts/content-none.php:15
+msgid "Nothing Found"
+msgstr "Ништа није пронађено"
+
+#: search.php:50
+msgid "Search Results for: %s"
+msgstr "Резултати претраге за: %s"
+
+#: peepso/general/register-panel.php:51
+msgid "Join us now, it's free!"
+msgstr "Придружите нам се одмах, бесплатно је!"
+
+#: peepso/general/register-panel.php:42
+msgid "Come and join our community. Expand your network and get to know new people!"
+msgstr "Придружите се нашој заједници. Проширите своју мрежу и упознајте нове људе!"
+
+#: peepso/general/register-panel.php:40
+msgid "Your e-mail address was confirmed. You can now log in."
+msgstr "Ваша еmail адреса је потврђена. Сада можете да се улогујете."
+
+#: peepso/general/register-panel.php:35
+msgid "Get Connected!"
+msgstr "Повежите се!"
+
+#: peepso/general/register-panel.php:33
+msgid "Thank you"
+msgstr "Хвала Вам"
+
+#: peepso/general/login.php:87
+msgid "Resend activation code"
+msgstr "Поново пошаљи активациони код"
+
+#: peepso/general/login.php:84
+msgid "Forgot Password"
+msgstr "Заборављена лозинка"
+
+#: peepso/general/login.php:81
+msgid "Register"
+msgstr "Регистрација"
+
+#: peepso/general/login.php:68 peepso/general/login.php:69
+msgid "Remember Me"
+msgstr "Запамти ме"
+
+#: peepso/general/login.php:60
+msgid "Login"
+msgstr "Пријава"
+
+#: peepso/general/login.php:39
+msgid "Password"
+msgstr "Лозинка"
+
+#: peepso/general/login.php:32
+msgid "Please use a valid email address."
+msgstr "Молимо да употребите валидну email адресу."
+
+#: peepso/general/login.php:10
+msgid "Log in or register"
+msgstr "Пријава или регистрација"
+
+#: peepso/activity/post.php:184
+msgid "%sLogin%s to react or comment on this post."
+msgstr "%sУлогујте се%s како бисте реаговали или коментарисали на овај пост."
+
+#: peepso/activity/post.php:168 peepso/activity/post.php:179
+msgid "%sRegister%s or %sLogin%s to react or comment on this post."
+msgstr "%sРегиструјте се%s или се %sулогујте%s како бисте реаговали или коментарисали на овај пост."
+
+#: peepso/activity/post.php:157
+msgid "Clear"
+msgstr "Очисти"
+
+#: peepso/activity/post.php:145
+msgid "Write a comment..."
+msgstr "Напиши коментар..."
+
+#: peepso/activity/post.php:127
+msgid "Comments are closed"
+msgstr "Коментари су затворени"
+
+#: peepso/activity/post.php:52
+msgid "Post privacy"
+msgstr "Приватност поста"
+
+#: peepso/activity/post.php:27
+msgid "This pinned post will not display to all users because of its privacy settings."
+msgstr "Овај истакнути пост неће бити видљив свим корисницима због подешавања приватности на посту."
+
+#: peepso/activity/post.php:21
+msgid "Pinned"
+msgstr "Важно"
+
+#: page.php:27 page.php:41 template-parts/content-page.php:47
+#: template-parts/content-search.php:34 template-parts/content.php:39
+msgid "Edit"
+msgstr "Уреди"
+
+#: page-tpl-landing.php:24
+msgid "Go to Homepage"
+msgstr "Иди на Почетну"
+
+#: header.php:352 header.php:394
+msgid "Type to search"
+msgstr "Куцај за претрагу"
+
+#: header.php:228
+msgid "Log Out"
+msgstr "Одјава"
+
+#: header.php:186
+msgid "Members"
+msgstr "Чланови"
+
+#: header.php:179
+msgid "My Profile"
+msgstr "Мој профил"
+
+#: functions.php:634
+msgid "Preferred color theme"
+msgstr "Преферирана боја теме"
+
+#: functions.php:360
+msgid "WP Customizer"
+msgstr "WP подешивач"
+
+#: functions.php:351
+msgid "Customize"
+msgstr "Прилагоди"
+
+#: core/widgets.php:267
+msgid "Background Color 2"
+msgstr "Боја позадине 2"
+
+#: core/widgets.php:262
+msgid "Background Color 1"
+msgstr "Боја позадине 1"
+
+#: core/utility.php:260
+msgid "updated"
+msgstr "ажурирано"
+
+#: core/utility.php:14
+msgid "All rights reserved © %s"
+msgstr "Сва права задржана © %s"
+
+#: core/page.php:271
+msgid "Makes page full-width without paddings around so you can use whole available space in page builder of your choice."
+msgstr "Даје пуну ширину страници без околних задебљања, тако да можете користити сав слободан простор у builder-у странице по Вашем избору."
+
+#: core/page.php:258
+msgid "Makes header transparent (removes top padding on <body> with Builder friendly option enabled) to help header blend with page background. It will still use solid background color on scroll."
+msgstr "Чини заглавље провидним (уклања горње задебљање на <body> са омогућеном опцијом прикладном за builder-е) како би се заглавље уклопило са позадином странице. И даље ће користити пуну боју позадине приликом скроловања."
+
+#: core/page.php:235
+msgid "Display content inside box with background and shadow around (just like on single post view)."
+msgstr "Прикажи садржај у оквиру са позадином и околном сенком (као на приказу једног поста)."
+
+#: core/landing.php:41
+msgid "Button label"
+msgstr "Ознака дугмета"
+
+#: core/landing.php:34
+msgid "Button url"
+msgstr "Дугме url"
+
+#: core/landing.php:29
+msgid "Redirect Button"
+msgstr "Дугме за преусмеравање"
+
+#: core/helpers.php:43
+msgid "%s year"
+msgid_plural "%s years"
+msgstr[0] "%s година"
+msgstr[1] "%s године"
+msgstr[2] "%s година"
+
+#: core/helpers.php:38
+msgid "%s month"
+msgid_plural "%s months"
+msgstr[0] "%s месец"
+msgstr[1] "%s месеца"
+msgstr[2] "%s месеци"
+
+#: core/helpers.php:33
+msgid "%s week"
+msgid_plural "%s weeks"
+msgstr[0] "%s седмица"
+msgstr[1] "%s седмице"
+msgstr[2] "%s седмице"
+
+#: core/helpers.php:28
+msgid "%s day"
+msgid_plural "%s days"
+msgstr[0] "%s дан"
+msgstr[1] "%s дана"
+msgstr[2] "%s дана"
+
+#: core/helpers.php:23
+msgid "%s hour"
+msgid_plural "%s hours"
+msgstr[0] "%s сат"
+msgstr[1] "%s сата"
+msgstr[2] "%s сати"
+
+#. translators: min=minute
+#: core/helpers.php:18
+msgid "%s min"
+msgid_plural "%s mins"
+msgstr[0] "%s минут"
+msgstr[1] "%s минута"
+msgstr[2] "%s минута"
+
+#: core/enqueue-scripts.php:119
+msgid "Click to expand"
+msgstr "Кликни за проширење"
+
+#: core/admin/settings.php:310
+msgid "Requires a compatible third party wrapper. Enables widget positions for app context."
+msgstr "Захтева компатибилни пакер са треће стране. Омогућава позиционирање виџета у контексту са апликацијама."
+
+#: core/admin/settings.php:281 core/admin/settings.php:307
+msgid "Enabled"
+msgstr "Омогућено"
+
+#: core/admin/settings.php:300
+msgid "Dedicated app widget positions:"
+msgstr "Предодређене позиције апликационих виџета:"
+
+#: core/admin/settings.php:241
+msgid "Use these presets:"
+msgstr "Користи ове поставке:"
+
+#: core/admin/settings.php:230
+msgid "Selected custom presets"
+msgstr "Изабране прилагођене поставке"
+
+#: core/admin/settings.php:229
+msgid "All custom presets"
+msgstr "Све прилагођене поставке"
+
+#: core/admin/settings.php:228 core/admin/settings.php:280
+#: core/admin/settings.php:306
+msgid "Disabled"
+msgstr "Онемогућено"
+
+#: core/admin/settings.php:222
+msgid "Let users select preferred theme"
+msgstr "Дозволи корисницима да одаберу преферирану тему"
+
+#: core/admin/settings.php:157 core/admin/settings.php:184
+msgid "For example"
+msgstr "На пример"
+
+#: core/admin/settings.php:155
+msgid "Use \"blog\" and \"frontpage\" to exclude your Blog Page and Frontpage"
+msgstr "Користи \"блог\" и \"насловна страница\" да би одстранили блог и насловну страницу из подешавања"
+
+#: core/admin/settings.php:153
+msgid "Comma-separated list of page IDs that should be visible to visitors"
+msgstr "ID листа страница одвојених зарезом која би требало да буде видљива посетиоцима"
+
+#: core/admin/settings.php:134 core/admin/settings.php:163
+msgid "Redirect exceptions"
+msgstr "Преусмери изузетке"
+
+#: core/admin/settings.php:124
+msgid "Redirect all guests to a specified page except from Registration and Privacy Policy pages"
+msgstr "Преусмери све госте на одређену страницу, осим Регистрације и Правила о приватности"
+
+#: core/admin/settings.php:296
+msgid "App"
+msgstr "Апликација"
+
+#: core/admin/settings.php:218
+msgid "User preferences"
+msgstr "Корисничке преференце"
+
+#: core/admin/settings.php:103
+msgid "Redirects"
+msgstr "Преусмерава"
+
+#: core/admin/license.php:623
+msgid "<strong>%1$s %2$s</strong> is available. <a href=\"%3$s\" class=\"thickbox\" title=\"%4s\">Check out what's new</a> or <a href=\"%5$s\"%6$s>update now</a>."
+msgstr "<strong>%1$s %2$s</strong> је доступно. <a href=\"%3$s\" class=\"thickbox\" title=\"%4s\">Прегледајте шта је ново</a> или <a href=\"%5$s\"%6$s>одмах ажурирајте</a>."
+
+#: core/admin/license.php:622
+msgid "Updating this theme will lose any customizations you have made. 'Cancel' to stop, 'OK' to update."
+msgstr "Ажурирање ове теме ће поништити сва Ваша произвољна подешавања на њој. 'Откажи' за заустављање радње, 'ОК' за наставак ажурирања."
+
+#: core/admin/license.php:620
+msgid "Site is inactive."
+msgstr "Сајт није активан."
+
+#: core/admin/license.php:619
+msgid "License key is disabled."
+msgstr "Кључ лиценце је онемогућен."
+
+#: core/admin/license.php:618
+msgid "License is inactive."
+msgstr "Лиценца није активна."
+
+#: core/admin/license.php:617
+msgid "License keys do not match."
+msgstr "Кључеви за лиценце се не подударају."
+
+#: core/admin/license.php:616
+msgid "License key has expired."
+msgstr "Важност кључа лиценце је истекла."
+
+#: core/admin/license.php:615
+msgid "License key expired %s."
+msgstr "Важност кључа лиценце је истекла %s."
+
+#: core/admin/license.php:614
+msgid "You have %1$s / %2$s sites activated."
+msgstr "Имате %1$s / %2$s активираних сајтова."
+
+#: core/admin/license.php:613
+msgid "Lifetime License."
+msgstr "Доживотна лиценца."
+
+#: core/admin/license.php:612
+msgid "Expires %s."
+msgstr "Важност истиче %s."
+
+#: core/admin/license.php:611
+msgid "License key is active."
+msgstr "Кључ лиценце је активан."
+
+#: core/admin/license.php:610
+msgid "unlimited"
+msgstr "неограничено"
+
+#: core/admin/license.php:609
+msgid "Renew?"
+msgstr "Обнови?"
+
+#: core/admin/license.php:608 core/admin/license.php:621
+msgid "License status is unknown."
+msgstr "Статус лиценце је непознат."
+
+#: core/admin/license.php:607
+msgid "Activate License"
+msgstr "Активирај лиценцу"
+
+#: core/admin/license.php:606
+msgid "Deactivate License"
+msgstr "Деактивирај лиценцу"
+
+#: core/admin/license.php:605
+msgid "License Action"
+msgstr "Радња лиценце"
+
+#: core/admin/license.php:604
+msgid "License Key"
+msgstr "Кључ за лиценцу"
+
+#: core/admin/license.php:603
+msgid "Enter your theme license key."
+msgstr "Унесите кључ лиценце за своју тему."
+
+#: core/admin/license.php:602
+msgid "Theme License"
+msgstr "Лиценца теме"
+
+#: core/admin/license.php:222
+msgid "<a href=\"%s\">Review your Gecko license</a>."
+msgstr "<a href=\"%s\">Прегледајте своју Gecko лиценцу</a>."
+
+#: core/admin/license.php:220
+msgid "Gecko license is missing or invalid (%s). Please enter a valid license and click \"SAVE\" to activate it."
+msgstr "Gecko лиценца недостаје или је неважећа (%s). Молимо унесите валидну лиценцу и кликните на \"САЧУВАЈ\" да бисте је активирали."
+
+#: core/admin/license.php:162
+msgid "License key"
+msgstr "Кључ за лиценцу"
+
+#: core/admin/license.php:178 core/admin/page_builders.php:95
+#: core/admin/settings.php:320
+msgid "Version"
+msgstr "Верзија"
+
+#: core/admin/license.php:145 core/admin/page_builders.php:54
+#: core/admin/page_builders.php:62 core/admin/settings.php:92
+msgid "Page Builders"
+msgstr "Builder-и страница"
+
+#: core/admin/license.php:132 core/admin/license.php:147
+#: core/admin/license.php:156 core/admin/page_builders.php:64
+#: core/admin/settings.php:94
+msgid "License"
+msgstr "Лиценца"
+
+#: core/admin/license.php:143 core/admin/page_builders.php:60
+#: core/admin/settings.php:64 core/admin/settings.php:79
+#: core/admin/settings.php:90 header.php:193
+msgid "Settings"
+msgstr "Подешавања"
+
+#: core/admin/license.php:120
+msgid "Your license can't be checked because of an API request limit.<br/> If the problem persists, please contact <a href=\"https://www.peepso.com/contact\" target=\"_blank\">PeepSo Support</a>."
+msgstr "Ваша лиценца не може бити проверена због лимита API захтева.<br/> Ако проблем истраје, молимо контактирајте <a href=\"https://www.peepso.com/contact\" target=\"_blank\">PeepSo подршку</a>."
+
+#: core/admin/license.php:116
+msgid "The license is invalid (%s)."
+msgstr "Лиценца је неважећа (%s)."
+
+#: core/admin/license.php:112
+msgid "Expired on %s"
+msgstr "Важност је истекла %s"
+
+#: core/admin/license.php:110
+msgid "%s remaining"
+msgstr "преостало је %s"
+
+#: core/admin/customizer.php:1090
+msgid "Are you sure want to delete the current preset?"
+msgstr "Да ли сте сигурни да желите да обришете тренутну поставку?"
+
+#: core/admin/customizer.php:1089
+msgid "Are you sure want to discard any changes to the current preset?"
+msgstr "Да ли сте сигурни да желите да одбаците измене на тренутној поставци?"
+
+#: core/admin/customizer.php:1088
+msgid "Leaving the page will discard unsaved changes to the current preset. Are you sure?"
+msgstr "Одлазак са странице ће одбацити несачуване измене на тренутној поставци. Да ли сте сигурни?"
+
+#: core/admin/customizer.php:1087
+msgid "Switching preset will discard unsaved changes to the current preset. Are you sure?"
+msgstr "Прелазак на другу поставку ће одбацити несачуване измене на тренутној поставци. Да ли сте сигурни?"
+
+#: core/admin/customizer.php:1086
+msgid "Are you sure want to save and set the current preset as default?"
+msgstr "Да ли сте сигурни да желите да сачувате тренутну поставку и поставите је као основну?"
+
+#: core/admin/customizer.php:1085
+msgid "Set as default preset"
+msgstr "Постави као основну поставку"
+
+#: core/admin/customizer.php:1084
+msgid "Default preset"
+msgstr "Основна поставка"
+
+#: core/admin/customizer.php:199 core/admin/customizer.php:1083
+msgid "Published"
+msgstr "Објављено"
+
+#: core/admin/customizer.php:1081
+msgid "Saved"
+msgstr "Сачувано"
+
+#: core/admin/customizer.php:744
+msgid "<b>Global setting</b> - applies to all presets"
+msgstr "<b>Глобално подешавање</b> - примењује се на све поставке"
+
+#: core/admin/customizer.php:656
+msgid "Change"
+msgstr "Измени"
+
+#: core/admin/customizer.php:653
+msgid "Remove"
+msgstr "Уклони"
+
+#: core/admin/customizer.php:399
+msgid "Loading"
+msgstr "Учитавање"
+
+#: core/admin/customizer.php:384
+msgid "Only custom presets can be modified - select a custom preset to edit. To create a custom preset, <u>duplicate a Gecko preset</u>."
+msgstr "Само произвољне поставке могу бити модификоване - изабери произвољну поставку за измену. Ради креирања произвољне поставке, <u>дуплирајте Gecko поставку</u>."
+
+#: core/admin/customizer.php:303 core/admin/settings.php:163
+#: core/admin/settings.php:222 core/admin/settings.php:274
+msgid "Beta"
+msgstr "Бета"
+
+#: core/admin/customizer.php:276 core/admin/customizer.php:299
+msgid "New"
+msgstr "Ново"
+
+#: core/admin/customizer.php:265
+msgid "Back to Categories"
+msgstr "Назад на категорије"
+
+#: core/admin/customizer.php:259
+msgid "Update"
+msgstr "Ажурирај"
+
+#: core/admin/customizer.php:249
+msgid "New preset name"
+msgstr "Ново име поставке"
+
+#: core/admin/customizer.php:246
+msgid "Rename preset"
+msgstr "Преименуј поставку"
+
+#: core/admin/customizer.php:234 core/admin/customizer.php:253
+#: template-parts/peepso/focus.php:100
+msgid "Cancel"
+msgstr "Откажи"
+
+#: core/admin/customizer.php:228
+msgid "Custom preset"
+msgstr "Произвољна поставка"
+
+#: template-parts/peepso/focus.php:93
+msgid "Delete"
+msgstr "Обриши"
+
+#: core/admin/customizer.php:162
+msgid "Remove selected preset"
+msgstr "Уклони одабрани шаблон"
+
+#: core/admin/customizer.php:157
+msgid "Rename selected preset"
+msgstr "Преименуј одабрани шаблон"
+
+#: core/admin/customizer.php:190
+msgid "Duplicate"
+msgstr "Дуплирај"
+
+#: core/admin/customizer.php:188
+msgid "New custom preset based on the current."
+msgstr "Нова произвољна поставка базирана на тренутној."
+
+#: core/admin/customizer.php:1082
+msgid "Publish"
+msgstr "Објави"
+
+#: core/admin/customizer.php:240 core/admin/customizer.php:1080
+#: template-parts/peepso/focus.php:101
+msgid "Save"
+msgstr "Сачувај"
+
+#: core/admin/customizer.php:196
+msgid "Save changes to the current preset."
+msgstr "Сачувај измене у тренутној поставци."
+
+#: core/admin/customizer.php:54 core/admin/customizer.php:58
+msgid "Back to WordPress"
+msgstr "Назад на WordPress"
+
+#: core/admin/customizer.php:109 core/admin/customizer.php:110
+#: core/admin/license.php:144 core/admin/page_builders.php:61
+#: core/admin/settings.php:91 functions.php:359
+msgid "Gecko Customizer"
+msgstr "Gecko произвољна подешавања"
+
+#: core/admin/customizer-preset.php:423
+msgid "Dark"
+msgstr "Тамно"
+
+#: core/admin/customizer-preset.php:415
+msgid "Light"
+msgstr "Светло"
+
+#: core/admin/settings.php:57 core/admin/settings.php:58
+msgid "Gecko"
+msgstr "Gecko"
+
+#: core/admin/customizer-options.php:3041
+msgid "Show sidebars on all Courses."
+msgstr "Прикажи бочне траке на свим курсевима."
+
+#: core/admin/customizer-options.php:3032
+msgid "General LearnDash settings."
+msgstr "Општа LearnDash подешавања."
+
+#: core/admin/customizer-options.php:3031
+msgid "Settings related to LearnDash plugin."
+msgstr "Подешавања која се односе на LearnDash додатак."
+
+#: core/admin/customizer-options.php:3030
+msgid "LearnDash"
+msgstr "LearnDash"
+
+#: core/admin/customizer-options.php:2985
+msgid "Builder friendly products."
+msgstr "Производи прикладни за builder-е."
+
+#: core/admin/customizer-options.php:2976
+msgid "General WooCommerce settings."
+msgstr "Општа WooCommerce подешавања."
+
+#: core/admin/customizer-options.php:2975
+msgid "Settings related to WooCommerce plugin."
+msgstr "Подешавања која се односе на WooCommerce додатак."
+
+#: core/admin/customizer-options.php:2974
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#: core/admin/customizer-options.php:2923
+msgid "Mobile view"
+msgstr "Мобилни приказ"
+
+#: core/admin/customizer-options.php:2915
+#: core/admin/customizer-options.php:2959
+msgid "To fill the white space."
+msgstr "За попуњавање белог простора."
+
+#: core/admin/customizer-options.php:2914
+#: core/admin/customizer-options.php:2958
+msgid "Repeat the landing image"
+msgstr "Понављај слику на Пријемној"
+
+#: core/admin/customizer-options.php:2903
+#: core/admin/customizer-options.php:2947
+msgid "Landing image size"
+msgstr "Величина слике на Пријемној"
+
+#: core/admin/customizer-options.php:2892
+#: core/admin/customizer-options.php:2936
+msgid "Landing image position"
+msgstr "Положај слике на Пријемној"
+
+#: core/admin/customizer-options.php:2886
+#: core/admin/customizer-options.php:2930
+msgid "You can use any unit, like %, vh, or px."
+msgstr "Можете користити било коју јединицу, као што је %, vh или px."
+
+#: core/admin/customizer-options.php:2885
+#: core/admin/customizer-options.php:2929
+msgid "Landing image height"
+msgstr "Висина слике на Пријемној"
+
+#: core/admin/customizer-options.php:2879
+msgid "Desktop view"
+msgstr "Десктоп приказ"
+
+#: core/admin/customizer-options.php:2873
+msgid "Background color under image."
+msgstr "Боја позадине испод слике."
+
+#: core/admin/customizer-options.php:2869
+msgid "Landing / Register box"
+msgstr "Оквир за Пријемну страницу / Регистрацију"
+
+#: core/admin/customizer-options.php:2860
+msgid "Chat message text color (you)."
+msgstr "Боја текста поруке у ћаскању (Ви)."
+
+#: core/admin/customizer-options.php:2854
+msgid "Chat message background (you)."
+msgstr "Позадина поруке у ћаскању (Ви)."
+
+#: core/admin/customizer-options.php:2848
+msgid "Chat message text color (participants)."
+msgstr "Боја текста поруке у ћаскању (учесници)."
+
+#: core/admin/customizer-options.php:2842
+msgid "Chat message background (participants)."
+msgstr "Позадина поруке у ћаскању (учесници)."
+
+#: core/admin/customizer-options.php:2836
+msgid "Chat window Notification background color."
+msgstr "Боја позадине за прозор обавештења ћаскања"
+
+#: core/admin/customizer-options.php:2818
+msgid "Group cover avatar size."
+msgstr "Величина аватара на насловној фотографији групе."
+
+#: core/admin/customizer-options.php:2807
+msgid "Group cover height."
+msgstr "Висина насловне фотографије групе."
+
+#: core/admin/customizer-options.php:2696
+msgid "Postbox dropdown icon color"
+msgstr "Боја иконице падајућег менија за оквир за постовање"
+
+#: core/admin/customizer-options.php:2690
+msgid "Postbox dropdown text color"
+msgstr "Боја текста падајућег менија за оквир за постовање"
+
+#: core/admin/customizer-options.php:2684
+msgid "Postbox dropdown background light"
+msgstr "Позадинско светло падајућег менија за оквир за постовање"
+
+#: core/admin/customizer-options.php:2678
+msgid "Postbox dropdown background"
+msgstr "Позадина падајућег менија за оквир за постовање"
+
+#: core/admin/customizer-options.php:2672
+msgid "Postbox separator"
+msgstr "Граничник оквира за постовање"
+
+#: core/admin/customizer-options.php:2636
+msgid "Postbox icons (all)"
+msgstr "Иконице оквира за текст (све)"
+
+#: core/admin/customizer-options.php:2630
+msgid "Postbox text"
+msgstr "Текст у оквиру за постовање"
+
+#: core/admin/customizer-options.php:2624
+msgid "Postbox background"
+msgstr "Позадина оквира за постовање"
+
+#: core/admin/customizer-options.php:2618
+msgid "Postbox"
+msgstr "Оквир за постовање"
+
+#: core/admin/customizer-options.php:2610
+msgid "Post gallery width"
+msgstr "Ширина галерије постова"
+
+#: core/admin/customizer-options.php:2604
+msgid "You can use any unit, like px, % or auto."
+msgstr "Можете користити било коју јединицу, као што је px, % или аутоматски."
+
+#: core/admin/customizer-options.php:2603
+msgid "Single photo height"
+msgstr "Висина једне фотографије"
+
+#: core/admin/customizer-options.php:2595
+msgid "If the photo has a \"100%\" width (setting above), you can add a \"Click to expand\" button for a photo with excessive height."
+msgstr "Ако фотографија има ширину од \"100%\" (подешавање изнад), можете додати \"Кликни за проширење\" дугме фотографији која је превисока."
+
+#: core/admin/customizer-options.php:2594
+msgid "Trim long single photo (BETA)."
+msgstr "Опсеци појединачну дугачку фотографију (БЕТА)."
+
+#: core/admin/customizer-options.php:2588
+msgid "If the photo has \"auto\" width (setting above), you can limit the photo with the maximum width."
+msgstr "Ако фотографија има \"аутоматску\" ширину (подешавање изнад), можете ограничити фотографију са максималном ширином."
+
+#: core/admin/customizer-options.php:2587
+msgid "Single photo limit width"
+msgstr "Ограничење ширине за једну фотографију"
+
+#: core/admin/customizer-options.php:2579
+msgid "Change \"Single photo height\" to \"auto\" for best results."
+msgstr "Измени \"Висину једне фотографије\" на \"аутоматски\" за најбоље резултате."
+
+#: core/admin/customizer-options.php:2578
+msgid "Force single photo to fill 100% width."
+msgstr "Принуди једну фотографију да попуни 100% ширине."
+
+#: core/admin/customizer-options.php:2566
+msgid "Photos in post"
+msgstr "Фотографије у посту"
+
+#: core/admin/customizer-options.php:2555
+msgid "Pinned post - border size"
+msgstr "Истакнути пост - величина ивице"
+
+#: core/admin/customizer-options.php:2549
+msgid "Pinned post - marker text color"
+msgstr "Истакнути пост - боја маркираног текста"
+
+#: core/admin/customizer-options.php:2543
+msgid "Pinned post - border color"
+msgstr "Истакнути пост - боја ивице"
+
+#: core/admin/customizer-options.php:2537
+msgid "Pinned post"
+msgstr "Истакнути пост"
+
+#: core/admin/customizer-options.php:2527
+msgid "Post font-size"
+msgstr "Величина фонта у посту"
+
+#: core/admin/customizer-options.php:2521
+msgid "Post text light color"
+msgstr "Светла боја текста у посту"
+
+#: core/admin/customizer-options.php:2515
+msgid "Post text color"
+msgstr "Боја текста у посту"
+
+#: core/admin/customizer-options.php:2509
+msgid "Post background"
+msgstr "Позадина поста"
+
+#: core/admin/customizer-options.php:2493 peepso/activity/post.php:158
+msgid "Post"
+msgstr "Пост"
+
+#: core/admin/customizer-options.php:2488 header.php:172
+msgid "Activity stream"
+msgstr "Проток активности"
+
+#: core/admin/customizer-options.php:2475
+msgid "Toolbar icons size"
+msgstr "Величина иконица у траци са алаткама"
+
+#: core/admin/customizer-options.php:2465
+msgid "Toolbar font-size"
+msgstr "Величина фонта у траци са алаткама"
+
+#: core/admin/customizer-options.php:2459
+msgid "Toolbar links color on hover"
+msgstr "Боја линкова у траци са алаткама приликом лебдења"
+
+#: core/admin/customizer-options.php:2453
+msgid "Toolbar links color"
+msgstr "Боја линкова у траци са алаткама"
+
+#: core/admin/customizer-options.php:2447
+msgid "Toolbar background"
+msgstr "Позадина траке са алаткама"
+
+#: core/admin/customizer-options.php:2439
+msgid "Toolbar sticky (BETA)"
+msgstr "Истакнута трака са алаткама (БETA)"
+
+#: core/admin/customizer-options.php:2435
+msgid "Toolbar"
+msgstr "Трака са алаткама"
+
+#: core/admin/customizer-options.php:2356
+msgid "Remove side paddings from PeepSo pages on mobile"
+msgstr "Уклони задебљане ивице са PeepSo страница на мобилном"
+
+#: core/admin/customizer-options.php:2355
+msgid "Full width PeepSo pages on mobile"
+msgstr "Пуна ширина PeepSo страница на мобилном"
+
+#: core/admin/customizer-options.php:2341
+msgid "Avatar corners"
+msgstr "Углови аватара"
+
+#: core/admin/customizer-options.php:2335
+msgid "Avatars"
+msgstr "Аватари"
+
+#: core/admin/customizer-options.php:2327
+msgid "Show page title on PeepSo pages."
+msgstr "Прикажи наслов странице на PeepSo страницама."
+
+#: core/admin/customizer-options.php:2310
+#: core/admin/customizer-options.php:2819
+msgid "Avatar size may affect cover height."
+msgstr "Величина аватара може утицати на висину насловне фотографије."
+
+#: core/admin/customizer-options.php:2309
+msgid "Profile avatar size."
+msgstr "Величина профилног аватара."
+
+#: core/admin/customizer-options.php:2301
+msgid "Center focus Avatar and details/actions."
+msgstr "Централно фокусирање аватара и детаљи/радње."
+
+#: core/admin/customizer-options.php:2291
+#: core/admin/customizer-options.php:2808
+msgid "Set the lowest point if you want to force cover to use its lowest possible height on all resolutions."
+msgstr "Поставите најнижу тачку ако желите да принудите насловну фотографију да користи најнижу могућу висину на свим резолуцијама."
+
+#: core/admin/customizer-options.php:2290
+msgid "Profile cover height."
+msgstr "Висина насловне фотографије профила."
+
+#: core/admin/customizer-options.php:2286
+msgid "Full width cover"
+msgstr "Насловна фотографија у пуној ширини"
+
+#: core/admin/customizer-options.php:2285
+msgid "Wide cover"
+msgstr "Широка насловна фотографија"
+
+#: core/admin/customizer-options.php:2284
+msgid "Default"
+msgstr "Подразумевано"
+
+#: core/admin/customizer-options.php:2279
+msgid "Profile cover size."
+msgstr "Величина насловне фотографије профила."
+
+#: core/admin/customizer-options.php:2275
+msgid "Profile page settings"
+msgstr "Подешавања профилне странице"
+
+#: core/admin/customizer-options.php:2269
+msgid "General PeepSo settings."
+msgstr "Општа PeepSo подешавања."
+
+#: core/admin/customizer-options.php:2268
+msgid "Here you can change style of the PeepSo components."
+msgstr "Овде можете стилизовати PeepSo компоненте."
+
+#: core/admin/customizer-options.php:2267
+msgid "PeepSo"
+msgstr "PeepSo"
+
+#: core/admin/customizer-options.php:2243
+msgid "Under content area widgets."
+msgstr "Виџети за простор испод садржаја."
+
+#: core/admin/customizer-options.php:2241
+msgid "Under content widgets"
+msgstr "Виџети испод садржаја"
+
+#: core/admin/customizer-options.php:2220
+msgid "Above content area widgets."
+msgstr "Виџети за простор изнад садржаја."
+
+#: core/admin/customizer-options.php:2218
+msgid "Above content widgets"
+msgstr "Виџети изнад садржаја"
+
+#: core/admin/customizer-options.php:2187
+msgid "Bottom area widgets (under the middle theme part)."
+msgstr "Виџети у доњем делу (испод средишњег дела теме)."
+
+#: core/admin/customizer-options.php:2185
+msgid "Bottom widgets"
+msgstr "Виџети на дну"
+
+#: core/admin/customizer-options.php:2157
+#: core/admin/customizer-options.php:2190
+msgid "Columns number"
+msgstr "Број рубрика"
+
+#: core/admin/customizer-options.php:2154
+msgid "Top area widgets (above the middle theme part)."
+msgstr "Виџети у горњем делу (изнад средишњег дела теме)."
+
+#: core/admin/customizer-options.php:2152
+msgid "Top widgets"
+msgstr "Горњи виџети"
+
+#: core/admin/customizer-options.php:2094
+msgid "Sticky top bar with widgets for Mobile App only."
+msgstr "Трака за истакнути врх са виџетима само за мобилну апликацију."
+
+#: core/admin/customizer-options.php:2092
+msgid "Sticky Top (Mobile App)"
+msgstr "Истакнути врх (мобилна апликација)"
+
+#: core/admin/customizer-options.php:2016
+msgid "Sticky Top (under header)"
+msgstr "Истакнути врх (испод заглавља)"
+
+#: core/admin/customizer-options.php:1990
+#: core/admin/customizer-options.php:2066
+#: core/admin/customizer-options.php:2142
+msgid "Will remove container maximum width and default side padding."
+msgstr "Уклониће максималну ширину садржаја и основно задебљање са стране."
+
+#: core/admin/customizer-options.php:1989
+#: core/admin/customizer-options.php:2065
+#: core/admin/customizer-options.php:2141
+msgid "Full width"
+msgstr "Пуна ширина"
+
+#: core/admin/customizer-options.php:1979
+#: core/admin/customizer-options.php:2055
+#: core/admin/customizer-options.php:2131
+msgid "Additional padding inside bar"
+msgstr "Додатно задебљање унутар траке"
+
+#: core/admin/customizer-options.php:1969
+#: core/admin/customizer-options.php:2045
+#: core/admin/customizer-options.php:2121
+msgid "Font-size"
+msgstr "Величина фонта"
+
+#: core/admin/customizer-options.php:1963
+#: core/admin/customizer-options.php:2039
+#: core/admin/customizer-options.php:2115
+msgid "Links hover color"
+msgstr "Боја линка приликом лебдења"
+
+#: core/admin/customizer-options.php:1942
+#: core/admin/customizer-options.php:2018
+msgid "Sticky top bar with widgets."
+msgstr "Трака за истакнути врх са виџетима."
+
+#: core/admin/customizer-options.php:1940
+msgid "Sticky Top (above header)"
+msgstr "Истакнути врх (изнад заглавља)"
+
+#: core/admin/customizer-options.php:1932
+msgid "Gradient widgets Links hover color"
+msgstr "Лебдећа боја линкова градијент виџета"
+
+#: core/admin/customizer-options.php:1926
+msgid "Gradient widgets Links color"
+msgstr "Боја линкова градијент виџета"
+
+#: core/admin/customizer-options.php:1920
+msgid "Gradient widgets Text color"
+msgstr "Боја текста градијент виџета"
+
+#: core/admin/customizer-options.php:1914
+msgid "Gradient widgets Background color 2"
+msgstr "Боја позадине градијент виџета 2"
+
+#: core/admin/customizer-options.php:1908
+msgid "Gradient widgets Background color"
+msgstr "Боја позадине градијент виџета"
+
+#: core/admin/customizer-options.php:1905
+msgid "Edit default colors of gradient widgets."
+msgstr "Подеси основне боје градијент виџета."
+
+#: core/admin/customizer-options.php:1903
+msgid "Gradient widgets"
+msgstr "Градијент виџети"
+
+#: core/admin/customizer-options.php:1883
+msgid "Default widgets Text color"
+msgstr "Боја текста основних виџета"
+
+#: core/admin/customizer-options.php:1877
+msgid "Default widgets Background color"
+msgstr "Боја позадине основних виџета"
+
+#: core/admin/customizer-options.php:1874
+msgid "Edit colors of default Widgets."
+msgstr "Подеси боје основних виџета."
+
+#: core/admin/customizer-options.php:1872
+msgid "Default widgets"
+msgstr "Основни виџети"
+
+#: core/admin/customizer-options.php:1866
+#: core/admin/customizer-options.php:1867
+msgid "General widget settings."
+msgstr "Општа подешавања виџета."
+
+#: core/admin/customizer-options.php:1865
+msgid "Widgets"
+msgstr "Виџети"
+
+#: core/admin/customizer-options.php:1849
+msgid "Enable full width header."
+msgstr "Омогући заглавље у пуној ширини."
+
+#: core/admin/customizer-options.php:1841
+msgid "Enable full width layout."
+msgstr "Омогући садржај у пуној ширини."
+
+#: core/admin/customizer-options.php:1832
+msgid "Show header menu."
+msgstr "Прикажи мени у заглављу."
+
+#: core/admin/customizer-options.php:1823
+msgid "Show right sidebar."
+msgstr "Прикажи десну бочну траку."
+
+#: core/admin/customizer-options.php:1814
+msgid "Show left sidebar."
+msgstr "Прикажи леву бочну траку."
+
+#: core/admin/customizer-options.php:1805
+msgid "Show footer."
+msgstr "Прикажи подножје."
+
+#: core/admin/customizer-options.php:1796
+msgid "Show header."
+msgstr "Прикажи заглавље."
+
+#: core/admin/customizer-options.php:1793
+msgid "Settings for search results page."
+msgstr "Подешавања странице за резултате претраге."
+
+#: core/admin/customizer-options.php:1791
+msgid "Search results"
+msgstr "Резултати претраге"
+
+#: core/admin/customizer-options.php:1774
+msgid "Max height of the post featured image."
+msgstr "Максимална висина истакнуте слике поста."
+
+#: core/admin/customizer-options.php:1771
+msgid "Settings for single post view."
+msgstr "Подешавања за преглед једног поста."
+
+#: core/admin/customizer-options.php:1769
+msgid "Single post"
+msgstr "Један пост"
+
+#: core/admin/customizer-options.php:1759
+msgid "Grid layout on Search page."
+msgstr "Мрежни приказ садржаја на страници претраге."
+
+#: core/admin/customizer-options.php:1751
+msgid "Grid layout on Archives page."
+msgstr "Мрежни приказ садржаја на страници Aрхивa."
+
+#: core/admin/customizer-options.php:1743
+msgid "Grid layout on Blog page."
+msgstr "Мрежни приказ садржаја на блог страници."
+
+#: core/admin/customizer-options.php:1730
+msgid "Grid settings for blog related pages."
+msgstr "Мрежна подешавања за странице повезане са блогом."
+
+#: core/admin/customizer-options.php:1728
+msgid "Grid layout"
+msgstr "Мрежни приказ садржаја"
+
+#: core/admin/customizer-options.php:1712
+#: core/admin/customizer-options.php:1775
+msgid "Use pixels as unit or set 100% - for auto height. (Default is 100%)"
+msgstr "Користи пикселе као јединицу или подеси 100% - за аутоматску висину. (Основно је 100%)"
+
+#: core/admin/customizer-options.php:1711
+msgid "Max height of the posts featured image (Blog view)."
+msgstr "Максимална висина истакнуте слике постова (Блог преглед)."
+
+#: core/admin/customizer-options.php:1703
+msgid "Show `update` date on posts meta."
+msgstr "Прикажи `ажурирање` на мета прегледу постова."
+
+#: core/admin/customizer-options.php:1696
+msgid "Number of words if limit is enabled. (Default is 55)"
+msgstr "Број речи ако је лимит омогућен. (Основно је 55)"
+
+#: core/admin/customizer-options.php:1687
+msgid "Limit words on Blog page."
+msgstr "Ограничи речи на блог страници."
+
+#: core/admin/customizer-options.php:1679
+msgid "Show sidebars on Blog Posts."
+msgstr "Прикажи бочне траке на блог постовима."
+
+#: core/admin/customizer-options.php:1675
+msgid "All settings related to blog page."
+msgstr "Сва подешавања везана за блог страницу."
+
+#: core/admin/customizer-options.php:1674
+#: core/admin/customizer-options.php:2981
+#: core/admin/customizer-options.php:3037
+#: core/admin/customizer-options.php:3065
+#: core/admin/customizer-options.php:3093
+msgid "General settings"
+msgstr "Општа подешавања"
+
+#: core/admin/customizer-options.php:1669
+msgid "Blog, search page, archives etc."
+msgstr "Блог, страница претраге, архиве и тд."
+
+#: core/admin/customizer-options.php:1668
+msgid "Wordpress blog settings."
+msgstr "Wordpress подешавања блога."
+
+#: core/admin/customizer-options.php:1667
+msgid "Blog"
+msgstr "Блог"
+
+#: core/admin/customizer-options.php:1259
+#: core/admin/customizer-options.php:1610
+#: core/admin/customizer-options.php:2006
+#: core/admin/customizer-options.php:2082
+#: core/admin/customizer-options.php:2175
+#: core/admin/customizer-options.php:2208
+#: core/admin/customizer-options.php:2231
+#: core/admin/customizer-options.php:2254
+msgid "Display on mobile"
+msgstr "Прикажи на мобилном"
+
+#: core/admin/customizer-options.php:1251
+#: core/admin/customizer-options.php:1602
+#: core/admin/customizer-options.php:1998
+#: core/admin/customizer-options.php:2074
+#: core/admin/customizer-options.php:2167
+#: core/admin/customizer-options.php:2200
+#: core/admin/customizer-options.php:2223
+#: core/admin/customizer-options.php:2246
+msgid "Display on desktop"
+msgstr "Прикажи на десктопу"
+
+#: core/admin/customizer-options.php:1592
+msgid "Columns number."
+msgstr "Број рубрика."
+
+#: core/admin/customizer-options.php:1586
+msgid "Footer widgets"
+msgstr "Виџети у подножју"
+
+#: core/admin/customizer-options.php:1574
+#: core/admin/customizer-options.php:1580
+msgid "Line %d"
+msgstr "Ред %d"
+
+#: core/admin/customizer-options.php:1574
+#: core/admin/customizer-options.php:1580
+msgid "Footer text"
+msgstr "Текст подножја"
+
+#: core/admin/customizer-options.php:1568
+msgid "Footer copyrights"
+msgstr "Ауторска права у подножју"
+
+#: core/admin/customizer-options.php:1562
+msgid "Links color on hover."
+msgstr "Боја линкова приликом лебдења."
+
+#: core/admin/customizer-options.php:1556
+msgid "Links color."
+msgstr "Боја линкова."
+
+#: core/admin/customizer-options.php:1550
+msgid "Text light color."
+msgstr "Светла боја текста."
+
+#: core/admin/customizer-options.php:1544
+msgid "Text color."
+msgstr "Боја текста."
+
+#: core/admin/customizer-options.php:1538
+msgid "Footer background."
+msgstr "Позадина подножја."
+
+#: core/admin/customizer-options.php:1524
+msgid "Footer appearance"
+msgstr "Изглед подножја"
+
+#: core/admin/customizer-options.php:1521
+msgid "Theme footer settings."
+msgstr "Подешавања тематског подножја."
+
+#: core/admin/customizer-options.php:1519
+msgid "Footer"
+msgstr "Подножје"
+
+#: core/admin/customizer-options.php:1492
+msgid "Under menu widget settings"
+msgstr "Подешавања виџета испод менија"
+
+#: core/admin/customizer-options.php:1479
+#: core/admin/customizer-options.php:1504
+#: core/admin/customizer-options.php:1957
+#: core/admin/customizer-options.php:2033
+#: core/admin/customizer-options.php:2109 core/widgets.php:277
+msgid "Links color"
+msgstr "Боја линкова"
+
+#: core/admin/customizer-options.php:1473
+#: core/admin/customizer-options.php:1498
+#: core/admin/customizer-options.php:1951
+#: core/admin/customizer-options.php:2027
+#: core/admin/customizer-options.php:2103
+#: core/admin/customizer-options.php:2770
+#: core/admin/customizer-options.php:2788 core/widgets.php:272
+msgid "Text color"
+msgstr "Боја текста"
+
+#: core/admin/customizer-options.php:1467
+msgid "Above menu widget settings"
+msgstr "Подешавања виџета изнад менија"
+
+#: core/admin/customizer-options.php:1456
+msgid "Menu font-size"
+msgstr "Величина фонта у менију"
+
+#: core/admin/customizer-options.php:1450
+msgid "Menu background color"
+msgstr "Боја позадине у менију"
+
+#: core/admin/customizer-options.php:1444
+msgid "Menu active indicator color"
+msgstr "Боја активног показатеља у менију"
+
+#: core/admin/customizer-options.php:1438
+msgid "Menu active link color"
+msgstr "Боја активног линка у менију"
+
+#: core/admin/customizer-options.php:1432
+msgid "Menu links color"
+msgstr "Боја линкова у менију"
+
+#: core/admin/customizer-options.php:1426
+msgid "Menu settings"
+msgstr "Подешавања менија"
+
+#: core/admin/customizer-options.php:1415
+msgid "Logo font-size"
+msgstr "Величина фонта логоа"
+
+#: core/admin/customizer-options.php:1409
+msgid "Logo text color"
+msgstr "Боја текста логоа"
+
+#: core/admin/customizer-options.php:1403
+msgid "Logo background color"
+msgstr "Боја позадине логоа"
+
+#: core/admin/customizer-options.php:1393
+msgid "Logo height (image)"
+msgstr "Висина логоа (слика)"
+
+#: core/admin/customizer-options.php:1385
+msgid "Show logo"
+msgstr "Прикажи лого"
+
+#: core/admin/customizer-options.php:1379
+msgid "Logo settings"
+msgstr "Подешавања логоа"
+
+#: core/admin/customizer-options.php:1366
+msgid "Close icon color"
+msgstr "Боја иконице за затварање"
+
+#: core/admin/customizer-options.php:1360
+msgid "Overlay background color"
+msgstr "Позадинска боја лебдећег оквира"
+
+#: core/admin/customizer-options.php:1354
+#: core/admin/customizer-options.php:1485
+#: core/admin/customizer-options.php:1510
+#: core/admin/customizer-options.php:1945
+#: core/admin/customizer-options.php:2021
+#: core/admin/customizer-options.php:2097
+msgid "Background color"
+msgstr "Боја позадине"
+
+#: core/admin/customizer-options.php:1336
+msgid "Mobile menu settings."
+msgstr "Подешавања менија на мобилном."
+
+#: core/admin/customizer-options.php:1334
+msgid "Mobile menu"
+msgstr "Мобилни мени"
+
+#: core/admin/customizer-options.php:1299
+msgid "Sidenav logo"
+msgstr "Sidenav лого"
+
+#: core/admin/customizer-options.php:1284
+msgid "Show sidenav"
+msgstr "Прикажи sidenav"
+
+#: core/admin/customizer-options.php:1278
+#: core/admin/customizer-options.php:1340
+msgid "Basic settings"
+msgstr "Основна подешавања"
+
+#: core/admin/customizer-options.php:1273
+msgid "In the next stage you will be able to modify menu options, sidebar size, position of elements and colors of sidenav."
+msgstr "У следећој фази моћићете да модификујете опције у менију, величину бочних трака, положај елемената и боје sidenav-а."
+
+#: core/admin/customizer-options.php:1272
+msgid "Additional side navigation. (Requires PeepSo)"
+msgstr "Додатна навигација са стране. (Захтева PeepSo)"
+
+#: core/admin/customizer-options.php:1270
+msgid "Sidenav"
+msgstr "Sidenav"
+
+#: core/admin/customizer-options.php:1245
+msgid "Header search"
+msgstr "Претрага у заглављу"
+
+#: core/admin/customizer-options.php:1234
+msgid "Header menu font-size"
+msgstr "Величина фонта менија у заглављу"
+
+#: core/admin/customizer-options.php:1223
+msgid "Header menu alignment"
+msgstr "Положај менија у заглављу"
+
+#: core/admin/customizer-options.php:1217
+msgid "Header menu"
+msgstr "Мени у заглављу"
+
+#: core/admin/customizer-options.php:1210
+msgid "Header active link indicator"
+msgstr "Индикатор активног линка у заглављу"
+
+#: core/admin/customizer-options.php:1204
+msgid "Header links hover color"
+msgstr "Боја линкова на заглављу приликом лебдења"
+
+#: core/admin/customizer-options.php:1198
+msgid "Header links color"
+msgstr "Боје линкова заглавља"
+
+#: core/admin/customizer-options.php:1192
+msgid "Header text color"
+msgstr "Боја текста заглавља"
+
+#: core/admin/customizer-options.php:1186
+msgid "Header tagline color"
+msgstr "Боја вербалне ознаке у заглављу"
+
+#: core/admin/customizer-options.php:1180
+msgid "Header logo (text) color"
+msgstr "Боја логоа (текста) у заглављу"
+
+#: core/admin/customizer-options.php:1174
+msgid "Header background"
+msgstr "Позадина заглавља"
+
+#: core/admin/customizer-options.php:1168
+msgid "Header colors"
+msgstr "Боје заглавља"
+
+#: core/admin/customizer-options.php:1159
+msgid "On mobile"
+msgstr "На мобилном"
+
+#: core/admin/customizer-options.php:1151
+msgid "On desktop"
+msgstr "На десктопу"
+
+#: core/admin/customizer-options.php:1143
+msgid "Header will follow on scroll when this setting is enabled."
+msgstr "Заглавље ће пратити скроловање када је ово подешавање омогућено."
+
+#: core/admin/customizer-options.php:1141
+msgid "Sticky header"
+msgstr "Истакнуто заглавље"
+
+#: core/admin/customizer-options.php:1111
+msgid "Header font-size"
+msgstr "Величина фонта заглавља"
+
+#: core/admin/customizer-options.php:1101
+msgid "Header height"
+msgstr "Висина заглавља"
+
+#: core/admin/customizer-options.php:1079
+msgid "Basic header options"
+msgstr "Основне опције заглавља"
+
+#: core/admin/customizer-options.php:1074
+msgid "Header settings."
+msgstr "Подешавања заглавља."
+
+#: core/admin/customizer-options.php:1072
+msgid "Header"
+msgstr "Заглавље"
+
+#: core/admin/customizer-options.php:1058
+msgid "Body background image repeat"
+msgstr "Понављање позадинске слике садржаја"
+
+#: core/admin/customizer-options.php:1047
+msgid "Body background image size"
+msgstr "Величина позадинске слике садржаја"
+
+#: core/admin/customizer-options.php:1033
+msgid "Body background image"
+msgstr "Позадинска слика садржаја"
+
+#: core/admin/customizer-options.php:1027
+msgid "Body class"
+msgstr "Класа садржаја"
+
+#: core/admin/customizer-options.php:1024
+msgid "Theme body settings."
+msgstr "Подешавања садржаја теме."
+
+#: core/admin/customizer-options.php:1022
+msgid "Body"
+msgstr "Садржај"
+
+#: core/admin/customizer-options.php:1012
+msgid "Show right sidebar on mobile."
+msgstr "Прикажи десну бочну траку на мобилном."
+
+#: core/admin/customizer-options.php:1004
+msgid "Show left sidebar on mobile."
+msgstr "Прикажи леву бочну траку на мобилном."
+
+#: core/admin/customizer-options.php:998
+msgid "Mobile visibility"
+msgstr "Мобилна видљивост"
+
+#: core/admin/customizer-options.php:966
+msgid "Gap between widgets in sidebars."
+msgstr "Раскорак између виџета у бочним тракама."
+
+#: core/admin/customizer-options.php:965
+msgid "Widgets gap"
+msgstr "Раскорак виџета"
+
+#: core/admin/customizer-options.php:958
+msgid "Right sidebar fixed width."
+msgstr "Фиксирана ширина десне бочне траке."
+
+#: core/admin/customizer-options.php:952 core/admin/customizer-options.php:959
+msgid "You can use any unit, like px or %. (Default is 1fr)"
+msgstr "Можете да употребите било коју мерну јединицу, као што је px или %. (Основно је 1fr)"
+
+#: core/admin/customizer-options.php:951
+msgid "Left sidebar fixed width."
+msgstr "Фиксирана ширина леве бочне траке."
+
+#: core/admin/customizer-options.php:945
+msgid "Sidebar gaps & dimensions"
+msgstr "Раскораци бочних трака и димензије"
+
+#: core/admin/customizer-options.php:937
+msgid "Scrollable right sidebar."
+msgstr "Скролујућа десна бочна трака."
+
+#: core/admin/customizer-options.php:929
+msgid "Scrollable left sidebar."
+msgstr "Скролујућа лева бочна трака."
+
+#: core/admin/customizer-options.php:923
+msgid "Works similarly to Sticky Sidebars, but it also allows to scroll sidebars independently from middle column. (when enabled it overrides Sticky sidebars feature)"
+msgstr "Функционише слично као истакнуте бочне траке, али такође дозвољава скроловање бочних трака независно од средишње рубрике. (када је омогућено, замењује одлику истакнутих бочних трака)"
+
+#: core/admin/customizer-options.php:922
+msgid "Scrollable sidebars (BETA)"
+msgstr "Скролујуће бочне траке (БЕТА)"
+
+#: core/admin/customizer-options.php:914
+msgid "Sticky sidebars."
+msgstr "Истакнуте бочне траке"
+
+#: core/admin/customizer-options.php:911
+msgid "Theme sidebars settings."
+msgstr "Подешавања бочних трака теме."
+
+#: core/admin/customizer-options.php:909
+msgid "Sidebars"
+msgstr "Бочне траке"
+
+#: core/admin/customizer-options.php:889
+msgid "Have in mind this setting may not work if you set fixed width in \"px\" on sidebars. Middle column will fill all the available space then."
+msgstr "Имајте на уму да ово подешавање можда неће функционисати ако поставите фиксирану ширину у \"px\" на бочним тракама. Средишња рубрика ће тада попунити сав слободан простор."
+
+#: core/admin/customizer-options.php:888
+msgid "Middle column size"
+msgstr "Величина средишње рубрике"
+
+#: core/admin/customizer-options.php:878
+msgid "This will affect the gaps between main columns (middle and sidebars)."
+msgstr "Ово ће утицати на раскораке између главних рубрика (средишње и бочне траке)."
+
+#: core/admin/customizer-options.php:877
+msgid "Columns gap"
+msgstr "Раскорак између рубрика"
+
+#: core/admin/customizer-options.php:870
+msgid "Layout width"
+msgstr "Ширина распореда"
+
+#: core/admin/customizer-options.php:866
+msgid "Theme layout settings."
+msgstr "Подешавања распореда теме."
+
+#: core/admin/customizer-options.php:864
+msgid "Layout"
+msgstr "Распоред"
+
+#: core/admin/customizer-options.php:846
+msgid "Show scroll to top button."
+msgstr "Прикажи дугме за скроловање на врх."
+
+#: core/admin/customizer-options.php:838
+msgid "Limits the ability to edit Gecko Page options to admins only. (Moderators & Editors have access to these options as default)"
+msgstr "Ограничава могућност уређивања опција Gecko странице само на администраторе. (модератори и уредници имају приступ овим опцијама по основној поставци)"
+
+#: core/admin/customizer-options.php:837
+msgid "Limit access to Gecko Page options."
+msgstr "Ограничи приступ опцијама са Gecko странице."
+
+#: core/admin/customizer-options.php:829
+msgid "Please note that zooming is always enabled on iOS devices regardless of the value of this option."
+msgstr "Молимо имајте у виду да је зумирање увек омогућено на iOS уређајима без обзира на вредност ове опције."
+
+#: core/admin/customizer-options.php:828
+msgid "Allow zoom on Mobile."
+msgstr "Дозволи зумирање на мобилном"
+
+#: core/admin/customizer-options.php:814
+msgid "Theme settings."
+msgstr "Подешавања теме."
+
+#: core/admin/customizer-options.php:812 core/admin/customizer-options.php:2323
+msgid "General"
+msgstr "Опште"
+
+#: core/admin/customizer-options.php:806
+msgid "Header, footer, sidebars, layout."
+msgstr "Заглавље, подножје, бочне траке, распоред."
+
+#: core/admin/customizer-options.php:805
+msgid "Gecko theme settings."
+msgstr "Подешавања Gecko теме."
+
+#: core/admin/customizer-options.php:804 functions.php:643
+msgid "Theme"
+msgstr "Тема"
+
+#: core/admin/customizer-options.php:793
+msgid "Global shadow color"
+msgstr "Глобална боја сенки"
+
+#: core/admin/customizer-options.php:783
+msgid "Global shadow thickness"
+msgstr "Глобална дебљина сенки"
+
+#: core/admin/customizer-options.php:773
+msgid "Global shadow blur"
+msgstr "Глобална замућеност сенки"
+
+#: core/admin/customizer-options.php:763
+msgid "Global shadow distance"
+msgstr "Глобална удаљеност сенки"
+
+#: core/admin/customizer-options.php:759
+msgid "Global shadow settings applied to most of the theme elements."
+msgstr "Глобална подешавања сенки које се примењују на већину елемената теме."
+
+#: core/admin/customizer-options.php:758
+msgid "Shadows"
+msgstr "Сенке"
+
+#: core/admin/customizer-options.php:746
+msgid "Global border radius"
+msgstr "Глобални распон ивица"
+
+#: core/admin/customizer-options.php:742
+msgid "Borders"
+msgstr "Ивице"
+
+#: core/admin/customizer-options.php:736 core/admin/customizer-options.php:737
+msgid "Borders, shadows etc."
+msgstr "Ивице, сенке итд."
+
+#: core/admin/customizer-options.php:735
+msgid "Appearance"
+msgstr "Изглед"
+
+#: core/admin/customizer-options.php:724
+msgid "Invert light border"
+msgstr "Обрни светлу ивицу"
+
+#: core/admin/customizer-options.php:718
+msgid "Invert border"
+msgstr "Обрни боју ивице"
+
+#: core/admin/customizer-options.php:712
+msgid "Dark border"
+msgstr "Тамна ивица"
+
+#: core/admin/customizer-options.php:706
+msgid "Lighten border"
+msgstr "Осветли ивицу"
+
+#: core/admin/customizer-options.php:700
+msgid "Light border"
+msgstr "Светла ивица"
+
+#: core/admin/customizer-options.php:694
+msgid "Basic border"
+msgstr "Основна ивица"
+
+#: core/admin/customizer-options.php:689
+msgid "These colors are used for borders & separators of components, widgets etc."
+msgstr "Ове боје се користе за ивице и граничнике између компоненти, виџета и сл."
+
+#: core/admin/customizer-options.php:686
+msgid "Borders & Separators"
+msgstr "Ивице и граничници"
+
+#: core/admin/customizer-options.php:677
+msgid "Base dark gray color"
+msgstr "Основна тамносива боја"
+
+#: core/admin/customizer-options.php:671
+msgid "Base light gray color"
+msgstr "Основна светлосива боја"
+
+#: core/admin/customizer-options.php:665
+msgid "Base gray color"
+msgstr "Основна сива боја"
+
+#: core/admin/customizer-options.php:659
+msgid "Base darker color"
+msgstr "Основна тамнија боја"
+
+#: core/admin/customizer-options.php:653
+msgid "Base dark color"
+msgstr "Основна тамна боја"
+
+#: core/admin/customizer-options.php:647
+msgid "Base color"
+msgstr "Основна боја"
+
+#: core/admin/customizer-options.php:641
+msgid "Body background"
+msgstr "Основна позадина"
+
+#: core/admin/customizer-options.php:636
+msgid "These colors are used for backgrounds of components, widgets etc."
+msgstr "Ове боје се користе за позадине компоненти, виџета и сл."
+
+#: core/admin/customizer-options.php:633
+msgid "Backgrounds"
+msgstr "Позадине"
+
+#: core/admin/customizer-options.php:624
+msgid "Link focus color"
+msgstr "Боја линка у фокусу"
+
+#: core/admin/customizer-options.php:618
+msgid "Link hover color"
+msgstr "Боја линка приликом лебдења"
+
+#: core/admin/customizer-options.php:612
+msgid "Link color"
+msgstr "Боја линка"
+
+#: core/admin/customizer-options.php:609
+msgid "These colors are used for links."
+msgstr "Ове боје се користе за линкове."
+
+#: core/admin/customizer-options.php:607
+msgid "Links"
+msgstr "Линкови"
+
+#: core/admin/customizer-options.php:563
+msgid "Abort dark color"
+msgstr "Тамна боја обустављања"
+
+#: core/admin/customizer-options.php:556
+msgid "Abort ultralight color"
+msgstr "Светлећа боја обустављања"
+
+#: core/admin/customizer-options.php:549
+msgid "Abort light color"
+msgstr "Светла боја обустављања"
+
+#: core/admin/customizer-options.php:542
+msgid "Abort color"
+msgstr "Боја обустављања"
+
+#: core/admin/customizer-options.php:537
+msgid "Abort action/error colors used for alerts buttons etc."
+msgstr "Боје обустављања акције/ грешке које се користе за дугмиће за упозорење и сл."
+
+#: core/admin/customizer-options.php:534
+msgid "Abort colors"
+msgstr "Боја обустављања"
+
+#: core/admin/customizer-options.php:525
+msgid "Warning dark color"
+msgstr "Тамна боја упозорења"
+
+#: core/admin/customizer-options.php:518
+msgid "Warning ultralight color"
+msgstr "Светлећа боја упозорења"
+
+#: core/admin/customizer-options.php:511
+msgid "Warning light color"
+msgstr "Светла боја упозорења"
+
+#: core/admin/customizer-options.php:504
+msgid "Warning color"
+msgstr "Боја упозорења"
+
+#: core/admin/customizer-options.php:499
+msgid "Warning action colors used for alerts buttons etc."
+msgstr "Боје упозоравајућих акција које се користе за дугмиће за упозорење и сл."
+
+#: core/admin/customizer-options.php:496
+msgid "Warning colors"
+msgstr "Боје упозорења"
+
+#: core/admin/customizer-options.php:487
+msgid "Success dark color"
+msgstr "Тамна боја успеха"
+
+#: core/admin/customizer-options.php:480
+msgid "Success ultralight color"
+msgstr "Светлећа боја успеха"
+
+#: core/admin/customizer-options.php:473
+msgid "Success light color"
+msgstr "Светла боја успеха"
+
+#: core/admin/customizer-options.php:466
+msgid "Success color"
+msgstr "Боја успеха"
+
+#: core/admin/customizer-options.php:461
+msgid "Success action colors used for alerts buttons etc."
+msgstr "Боје за успешну акцију које се користе за дугмиће упозорења и сл."
+
+#: core/admin/customizer-options.php:458
+msgid "Success colors"
+msgstr "Боје успеха"
+
+#: core/admin/customizer-options.php:329
+msgid "Primary dark color"
+msgstr "Примарна тамна боја"
+
+#: core/admin/customizer-options.php:322
+msgid "Primary ultralight color"
+msgstr "Примарна светлећа боја"
+
+#: core/admin/customizer-options.php:315
+msgid "Primary light color"
+msgstr "Примарна боја осветљења"
+
+#: core/admin/customizer-options.php:308
+msgid "Primary shade color"
+msgstr "Примарна боја сенке"
+
+#: core/admin/customizer-options.php:301
+msgid "Primary color"
+msgstr "Примарна боја"
+
+#: core/admin/customizer-options.php:296
+msgid "Base colors used for important elements like action buttons, alerts, progress bars or active element indicators."
+msgstr "Основне боје које се користе за важне елементе као што су дугмићи за акцију, прогрес бар или индикатори активних елемената."
+
+#: core/admin/customizer-options.php:293
+msgid "Primary colors"
+msgstr "Примарне боје"
+
+#: core/admin/customizer-options.php:285
+msgid "Here you can change global colors which may affect many elements. You can find more specific settings in different categories."
+msgstr "Овде можете подесити глобалне боје које могу да утичу на многе елементе. Можете наћи одређенија подешавања у различитим категоријама."
+
+#: core/admin/customizer-options.php:283
+msgid "Global colors"
+msgstr "Глобалне боје"
+
+#: core/admin/customizer-options.php:598
+msgid "Global text lighten color"
+msgstr "Осветљавање глобалне боје текста"
+
+#: core/admin/customizer-options.php:592
+msgid "Global text light color"
+msgstr "Светлина глобалне боје текста"
+
+#: core/admin/customizer-options.php:586
+msgid "Global text color"
+msgstr "Глобална боја текста"
+
+#: core/admin/customizer-options.php:269
+msgid "Global line-height"
+msgstr "Глобална висина реда"
+
+#: core/admin/customizer-options.php:259
+msgid "Global font-size"
+msgstr "Глобална величина фонта"
+
+#: core/admin/customizer-options.php:251
+msgid "Typography"
+msgstr "Типографија"
+
+#: core/admin/customizer-options.php:242
+msgid "Google fonts"
+msgstr "Google фонтови"
+
+#: core/admin/customizer-options.php:239
+msgid "Choose one of the available fonts."
+msgstr "Одаберите један од понуђених фонтова."
+
+#: core/admin/customizer-options.php:237
+msgid "Fonts"
+msgstr "Фонтови"
+
+#: core/admin/customizer-options.php:228
+msgid "Mobile logo height"
+msgstr "Лого висина за мобилни"
+
+#: core/admin/customizer-options.php:222 core/admin/customizer-options.php:229
+#: core/admin/customizer-options.php:871 core/admin/customizer-options.php:2611
+msgid "You can use any unit, like px or %."
+msgstr "Можете користити било коју мерну јединицу, као што је px или %."
+
+#: core/admin/customizer-options.php:221
+msgid "Logo height"
+msgstr "Лого висина"
+
+#: core/admin/customizer-options.php:215
+msgid "Logo link redirect"
+msgstr "Преусмеравање лого линка"
+
+#: core/admin/customizer-options.php:209 core/admin/customizer-options.php:2349
+msgid "Other"
+msgstr "Друго"
+
+#: core/admin/customizer-options.php:191
+msgid "Show tagline on mobile"
+msgstr "Прикажи вербалну ознаку мобилно"
+
+#: core/admin/customizer-options.php:183
+msgid "Show tagline next to the logo"
+msgstr "Прикажи вербалну ознаку уз лого"
+
+#: core/admin/customizer-options.php:177
+msgid "Tagline"
+msgstr "Вербална ознака"
+
+#: core/admin/customizer-options.php:169 core/admin/customizer.php:390
+msgid "Mobile"
+msgstr "Мобилни"
+
+#: core/admin/customizer-options.php:161 core/admin/customizer.php:392
+msgid "Desktop"
+msgstr "Десктоп"
+
+#: core/admin/customizer-options.php:155
+msgid "Logo visibility"
+msgstr "Видљивост логоа"
+
+#: core/admin/customizer-options.php:143
+msgid "Site Mobile Logo"
+msgstr "Мобилни лого сајта"
+
+#: core/admin/customizer-options.php:137
+msgid "Site Logo"
+msgstr "Лого сајта"
+
+#: core/admin/customizer-options.php:131
+msgid "Logo image"
+msgstr "Лого слика"
+
+#: core/admin/customizer-options.php:128
+msgid "Select Logo."
+msgstr "Изабери лого."
+
+#: core/admin/customizer-options.php:126 core/admin/customizer-options.php:1293
+msgid "Logo"
+msgstr "Лого"
+
+#: core/admin/customizer-options.php:121
+msgid "Logo, fonts, typography."
+msgstr "Лого, фонтови, типографија."
+
+#: core/admin/customizer-options.php:120
+msgid "Site settings."
+msgstr "Подешавања сајта."
+
+#: core/admin/customizer-options.php:119
+msgid "Site"
+msgstr "Сајт"
+
+#: comments.php:63 single.php:90
+msgid "Next"
+msgstr "Следеће"
+
+#: comments.php:62 single.php:91
+msgid "Previous"
+msgstr "Претходно"
+
+#: comments.php:33
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "%1$s мишљење о &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s мишљења о &ldquo;%2$s&rdquo;"
+msgstr[2] "%1$s мишљења о &ldquo;%2$s&rdquo;"
+
+#. translators: %s: post title
+#: comments.php:28
+msgctxt "comments title"
+msgid "One thought on &ldquo;%s&rdquo;"
+msgstr "Мишљење о &ldquo;%s&rdquo;"
+
+#: archive.php:61 index.php:58 page-tpl-profile.php:47 page.php:82
+#: search.php:76 template-parts/content-page.php:67
+#: template-parts/content.php:82
+msgid "Page"
+msgstr "Страница"
+
+#: archive.php:60 index.php:57 page-tpl-profile.php:46 page.php:81
+#: search.php:75
+msgid "Next page"
+msgstr "Следећа страница"
+
+#: archive.php:59 index.php:56 page-tpl-profile.php:45 page.php:80
+#: search.php:74
+msgid "Previous page"
+msgstr "Претходна страница"
+
+#: 404.php:16
+msgid "Back to home"
+msgstr "Назад на почетну"
+
+#: 404.php:13
+msgid "It looks like nothing was found at this location."
+msgstr "Изгледа да ништа није нађено на овој локацији."
+
+#: 404.php:10
+msgid "404"
+msgstr "404"

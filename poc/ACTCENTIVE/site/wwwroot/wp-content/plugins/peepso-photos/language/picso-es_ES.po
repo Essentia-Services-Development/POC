@@ -1,0 +1,852 @@
+# Translation of PeepSo - Photos in Spanish (Spain)
+# This file is distributed under the same license as the PeepSo - Photos package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2023-10-26 15:18:40+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0\n"
+"Language: es\n"
+"Project-Id-Version: PeepSo - Photos\n"
+
+#: classes/photosajax.php:796
+msgid "Temporary file has been moved"
+msgid_plural "Temporary files has been moved"
+msgstr[0] "El fichero temporal ha sido movido"
+msgstr[1] "Los ficheros temporales han sido movidos"
+
+#: classes/configsectionphotos.php:336
+msgid "Clear history"
+msgstr "Borrar historial"
+
+#: classes/configsectionphotos.php:229
+msgid "Photo size & quality"
+msgstr "Tamaño y calidad de la foto"
+
+#: classes/configsectionphotos.php:121
+msgid "User limits"
+msgstr "Límites de usuarios"
+
+#: templates/photos/photo-album-custom.php:216
+#: templates/photos/photo-group-album-custom.php:221
+msgid "Comments are closed"
+msgstr "Los comentarios están cerrados"
+
+#. Author of the plugin/theme
+msgid "PeepSo"
+msgstr "PeepSo"
+
+#. Description of the plugin/theme
+msgid "Photo uploads and albums"
+msgstr "Subir fotos y álbumes"
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://peepso.com"
+msgstr "https://peepso.com"
+
+#. Plugin Name of the plugin/theme
+msgid "PeepSo Core: Photos"
+msgstr "PeepSo Core: fotos"
+
+#: templates/widgets/photos.tpl.php:31
+msgid "View All"
+msgstr "Ver todos"
+
+#: templates/widgets/community-photos.tpl.php:29
+#: templates/widgets/photos.tpl.php:40
+msgid "No photos"
+msgstr "No hay fotos"
+
+#: templates/photos/postbox-photos.php:19
+msgid "Say something about this photo..."
+msgstr "Decir algo sobre esta foto..."
+
+#: templates/photos/postbox-photos.php:8
+msgid "Max photo dimensions: %1$s x %2$spx | Max file size: %3$sMB"
+msgstr "Dimensiones de la foto de Max: %1$s x %2$spx | Tamaño máximo del archivo: %3$sMB"
+
+#: templates/photos/postbox-photos.php:6
+msgid "Click here to start uploading photos"
+msgstr "Haga clic aquí para empezar a subir fotos"
+
+#: templates/photos/popup.php:11
+msgid "Close"
+msgstr "Cerrar"
+
+#: templates/photos/photos.php:35
+msgid "Photo Albums"
+msgstr "Álbumes de fotos"
+
+#: templates/photos/photos.php:33
+msgid "Recently added photos"
+msgstr "Fotos añadidas recientemente"
+
+#: templates/photos/photos-group.php:34 templates/photos/photos.php:27
+msgid "Albums"
+msgstr "Álbumes"
+
+#: templates/photos/photo-item-album.php:51
+msgid "Friends Only"
+msgstr "Sólo amigos"
+
+#: templates/photos/photo-item-album.php:45
+msgid "Private"
+msgstr "Privado"
+
+#: templates/photos/photo-item-album.php:40
+msgid "Members only"
+msgstr "Sólo miembros"
+
+#: templates/photos/photo-item-album.php:35
+#: templates/photos/photo-item-album.php:53
+msgid "Public"
+msgstr "Público"
+
+#: templates/photos/photo-group-item-album.php:23
+#: templates/photos/photo-item-album.php:26
+msgid "%s photo"
+msgid_plural "%s photos"
+msgstr[0] "%s foto"
+msgstr[1] "%s fotos"
+
+#: templates/photos/photo-comment.php:31 templates/photos/photo-item.php:27
+msgid "Gif"
+msgstr "Gif"
+
+#: templates/photos/photo-comment.php:22
+msgid "Uploaded a photo"
+msgstr "Subió una foto"
+
+#: templates/photos/photo-comment.php:21
+msgid "%s uploaded a photo"
+msgstr "%s subió una foto"
+
+#: templates/photos/photo-album.php:14
+#: templates/photos/photo-group-album.php:19
+msgid "Back to Photos"
+msgstr "Volver a Fotos"
+
+#: templates/photos/photo-album.php:10
+#: templates/photos/photo-group-album.php:15
+msgid "%s Album"
+msgstr "Álbum %s"
+
+#: templates/photos/photo-album-upload.php:24
+msgid "Add photos to album"
+msgstr "Agregar fotos al álbum"
+
+#: templates/photos/photo-album-upload.php:17
+msgid "Upload Photo"
+msgstr "Subir foto"
+
+#: templates/photos/photo-album-upload.php:1
+msgid "Photo privacy is inherited from the album"
+msgstr "La privacidad de las fotos se hereda del álbum"
+
+#: templates/photos/photo-album-dialog.php:56
+#: templates/photos/photo-album-dialog.php:63
+#: templates/photos/photos-group.php:27 templates/photos/photos.php:20
+#: templates/photos/photos.php:41
+msgid "Create Album"
+msgstr "Crear Álbum"
+
+#: templates/photos/photo-album-dialog.php:49
+#: templates/photos/photo-album-upload.php:9
+msgid "Please select at least one photo to be uploaded"
+msgstr "Selecciona al menos una foto para subirla"
+
+#: templates/photos/photo-album-dialog.php:46
+#: templates/photos/photo-album-upload.php:6
+msgid "Upload photos to album"
+msgstr "Subir fotos al álbum"
+
+#: templates/photos/photo-album-dialog.php:21
+msgid "Album privacy"
+msgstr "Privacidad del Álbum"
+
+#: templates/photos/photo-album-dialog.php:13
+msgid "Album name can't be empty"
+msgstr "El nombre del álbum no puede estar vacío"
+
+#: templates/photos/photo-album-dialog.php:9
+msgid "Album name"
+msgstr "Nombre del álbum"
+
+#: templates/photos/photo-album-custom.php:205
+#: templates/photos/photo-group-album-custom.php:211
+msgid "Post"
+msgstr "Publicar"
+
+#: templates/photos/photo-album-custom.php:204
+#: templates/photos/photo-group-album-custom.php:210
+msgid "Clear"
+msgstr "Limpiar"
+
+#: templates/photos/photo-album-custom.php:192
+#: templates/photos/photo-group-album-custom.php:198
+msgid "Write a comment..."
+msgstr "Escribir un comentario..."
+
+#: templates/photos/photo-album-custom.php:148
+#: templates/photos/photo-album.php:28
+#: templates/photos/photo-group-album-custom.php:150
+#: templates/photos/photo-group-album.php:33
+#: templates/photos/photos-group.php:42 templates/photos/photos.php:48
+msgid "Oldest first"
+msgstr "Más antiguo primero"
+
+#: templates/photos/photo-album-custom.php:147
+#: templates/photos/photo-album.php:27
+#: templates/photos/photo-group-album-custom.php:149
+#: templates/photos/photo-group-album.php:32
+#: templates/photos/photos-group.php:41 templates/photos/photos.php:47
+msgid "Newest first"
+msgstr "Más nuevo primero"
+
+#: templates/photos/photo-album-custom.php:142
+#: templates/photos/photo-album.php:22
+#: templates/photos/photo-group-album-custom.php:144
+#: templates/photos/photo-group-album.php:27
+#: templates/photos/photos-group.php:21 templates/photos/photos.php:14
+msgid "Large thumbnails"
+msgstr "Miniaturas grandes"
+
+#: templates/photos/photo-album-custom.php:141
+#: templates/photos/photo-album.php:21
+#: templates/photos/photo-group-album-custom.php:143
+#: templates/photos/photo-group-album.php:26
+#: templates/photos/photos-group.php:20 templates/photos/photos.php:13
+msgid "Small thumbnails"
+msgstr "Miniaturas pequeñas"
+
+#: templates/photos/photo-album-custom.php:126
+#: templates/photos/photo-group-album-custom.php:128
+msgid "Save description"
+msgstr "Guardar descripción"
+
+#: templates/photos/photo-album-custom.php:119
+#: templates/photos/photo-group-album-custom.php:121
+msgid "No description"
+msgstr "Sin descripción"
+
+#: templates/photos/photo-album-custom.php:100
+#: templates/photos/photo-group-album-custom.php:102
+msgid "Description privacy"
+msgstr "Descripción de la privacidad"
+
+#: templates/photos/photo-album-custom.php:92
+#: templates/photos/photo-group-album-custom.php:94
+msgid "Edit description"
+msgstr "Editar descripción"
+
+#: templates/photos/photo-album-custom.php:90
+#: templates/photos/photo-album-dialog.php:36
+#: templates/photos/photo-group-album-custom.php:92
+msgid "Album description"
+msgstr "Descripción del álbum"
+
+#: templates/photos/photo-album-custom.php:68
+#: templates/photos/photo-group-album-custom.php:70
+msgid "Edit title"
+msgstr "Editar título"
+
+#: templates/photos/photo-album-custom.php:62
+#: templates/photos/photo-group-album-custom.php:64
+msgid "Save"
+msgstr "Guardar"
+
+#: templates/photos/photo-album-custom.php:60
+#: templates/photos/photo-album-custom.php:123
+#: templates/photos/photo-album-dialog.php:59
+#: templates/photos/photo-album-upload.php:20
+#: templates/photos/photo-group-album-custom.php:62
+#: templates/photos/photo-group-album-custom.php:125
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: templates/photos/photo-album-custom.php:49
+#: templates/photos/photo-group-album-custom.php:51
+msgid "Add Photos"
+msgstr "Agregar fotos"
+
+#: templates/photos/photo-album-custom.php:37
+#: templates/photos/photo-group-album-custom.php:40
+msgid "Back"
+msgstr "atrás"
+
+#: templates/photos/photo-album-custom.php:28
+#: templates/photos/photo-group-album-custom.php:31
+msgid "Are you sure you want to delete this album?"
+msgstr "¿Está seguro que desea borrar este album?"
+
+#: templates/photos/photo-album-custom.php:24
+#: templates/photos/photo-group-album-custom.php:27
+msgid "Remove album"
+msgstr "Eliminar álbum"
+
+#: templates/photos/modal-photo-item.php:31
+msgid "Set as my cover"
+msgstr "Establecer como mi portada"
+
+#: templates/photos/modal-photo-item.php:30
+msgid "Set as my avatar"
+msgstr "Establecer como mi avatar"
+
+#: templates/photos/modal-photo-item.php:27
+msgid "Options"
+msgstr "Opciones"
+
+#: peepsosharephotos.php:2217
+msgid "Post updates on Activity Stream when user changes groups cover."
+msgstr "Publicar actualizaciones en Actividad Reciente cuando un usuario cambie la portada de un grupo."
+
+#: peepsosharephotos.php:2216
+msgid "Enable post updates upon groups cover change"
+msgstr "Habilitar las publicaciones de actualización sobre cambios en la portada de un grupo"
+
+#: peepsosharephotos.php:2209
+msgid "Post updates on Activity Stream when user changes groups avatar."
+msgstr "Publicar actualizaciones en Actividad Reciente cuando un usuario cambie el avatar de un grupo."
+
+#: peepsosharephotos.php:2208
+msgid "Enable post updates upon groups avatar change"
+msgstr "Habilitar las publicaciones de actualización sobre cambios en el avatar de grupos"
+
+#: peepsosharephotos.php:2192
+msgid "Post updates on Activity Stream when user changes profile cover."
+msgstr "Publicar mensajes en el Flujo de Actividades cuando un usuario cambia la portada de su perfil."
+
+#: peepsosharephotos.php:2191
+msgid "Enable post updates upon user cover change"
+msgstr "Habilitar los mensajes de actualización sobre cambio de portada de los usuarios"
+
+#: peepsosharephotos.php:2184
+msgid "Post updates on Activity Stream when user changes profile avatar."
+msgstr "Publicar mensajes en el Flujo de Actividades cuando un usuario cambia su avatar de perfil."
+
+#: peepsosharephotos.php:2183
+msgid "Enable post updates upon user avatar change"
+msgstr "Habilitar los mensajes de actualización sobre cambio de avatar de los usuarios"
+
+#: peepsosharephotos.php:1887
+msgid "Upload photos"
+msgstr "Subir fotos"
+
+#: peepsosharephotos.php:1674
+msgid "Delete Album"
+msgstr "Eliminar álbum"
+
+#: peepsosharephotos.php:1288
+msgid "cover photo"
+msgstr "foto de portada"
+
+#: peepsosharephotos.php:1283
+msgid "avatar"
+msgstr "avatar"
+
+#: peepsosharephotos.php:1275 peepsosharephotos.php:1298
+msgid "photo"
+msgid_plural "photos"
+msgstr[0] "foto"
+msgstr[1] "fotos"
+
+#: peepsosharephotos.php:1263
+msgid "album"
+msgstr "álbum"
+
+#: peepsosharephotos.php:800
+msgid " shared photos"
+msgstr " fotos compartidas"
+
+#: peepsosharephotos.php:792
+msgid " uploaded %1$d photo"
+msgid_plural " uploaded %1$d photos"
+msgstr[0] "subió %1$d foto"
+msgstr[1] "subió %1$d fotos"
+
+#: peepsosharephotos.php:787
+msgid " added %1$d photo to the album: <a href=\"%3$s\">%2$s</a>"
+msgid_plural " added %1$d photos to the album: <a href=\"%3$s\">%2$s</a>"
+msgstr[0] " agregó %1$d foto al álbum: <a href=\"%3$s\">%2$s</a>"
+msgstr[1] " agregó %1$d fotos al álbum: <a href=\"%3$s\">%2$s</a>"
+
+#: peepsosharephotos.php:769
+msgid " uploaded a new profile cover"
+msgstr " actualizó su foto de portada"
+
+#: peepsosharephotos.php:766
+msgid " uploaded a new avatar"
+msgstr " actualizó su foto del perfil"
+
+#: peepsosharephotos.php:660
+msgid "Photo"
+msgstr "Foto"
+
+#: peepsosharephotos.php:519 templates/photos/postbox-photos.php:18
+msgid "Supported formats are: gif, jpg, jpeg, tiff, png, and webp."
+msgstr "Los formatos admitidos son: gif, jpg, jpeg, tiff, png y webp."
+
+#: peepsosharephotos.php:518
+msgid "Only "
+msgstr "Sólo "
+
+#: peepsosharephotos.php:489 peepsosharephotos.php:1471
+msgid "Upload Failed! Please try again."
+msgstr "¡Carga Fallida! Vuelve a intentarlo."
+
+#: peepsosharephotos.php:433 peepsosharephotos.php:577
+#: peepsosharephotos.php:1394 peepsosharephotos.php:1422
+#: peepsosharephotos.php:1433 templates/photos/photos-group.php:33
+#: templates/photos/photos.php:26
+msgid "Photos"
+msgstr "Fotos"
+
+#: peepsosharephotos.php:412
+msgid "Get it now!"
+msgstr "¡ Consíguelo ahora!"
+
+#: peepsosharephotos.php:410
+msgid "The %s plugin requires the PeepSo plugin to be installed and activated."
+msgstr "El plugin %s requiere que el plugin PeepSo esté instalado y activado."
+
+#: peepsosharephotos.php:325
+msgid "Stream Photos"
+msgstr "Secuencia de Fotos"
+
+#: peepsosharephotos.php:321
+msgid "Profile Covers"
+msgstr "Portadas de Perfil"
+
+#: peepsosharephotos.php:317
+msgid "Profile Avatars"
+msgstr "Avatares de Perfil"
+
+#: classes/widgets/widgetphotos.php:112
+msgid "My Photos"
+msgstr "Mis Fotos"
+
+#: classes/widgets/widgetphotos.php:13
+msgid "PeepSo Photos Widget"
+msgstr "Widget de fotos PeepSo"
+
+#: classes/widgets/widgetphotos.php:12 peepsosharephotos.php:436
+msgid "PeepSo Photos"
+msgstr "Fotos de PeepSo"
+
+#: classes/widgets/widgetcommunityphotos.php:95
+msgid "Latest Photos"
+msgstr "Últimas Fotos"
+
+#: classes/widgets/widgetcommunityphotos.php:12
+#: classes/widgets/widgetcommunityphotos.php:13
+msgid "PeepSo Community Photos"
+msgstr "Fotos de la Comunidad PeepSo"
+
+#: classes/photosmodel.php:663
+msgid "There was an error removing the file %1$s. Error: %2$s"
+msgstr "Hubo un error eliminar el archivo %1$s. Error: %2$s"
+
+#: classes/photosmodel.php:657
+msgid "There was a problem when deleting the file"
+msgstr "Se produjo un error al borrar el archivo"
+
+#: classes/photosmodel.php:637
+msgid "There was an error setting up Amazon S3 library."
+msgstr "Hubo un error al configurar biblioteca de Amazon S3."
+
+#: classes/photosmodel.php:614
+msgid "There was a problem when uploading the file"
+msgstr "Se produjo un error al subir el archivo"
+
+#: classes/photosmodel.php:532
+msgid "Missing Amazon configuration."
+msgstr "Falta configuración de Amazon."
+
+#: classes/photosajax.php:1202
+msgid "You do not have permission to do that."
+msgstr "No tienes permiso para hacer eso."
+
+#: classes/photosajax.php:1147
+msgid "You are not authorized to change this album access."
+msgstr "No está autorizado a cambiar el acceso a este álbum de fotos"
+
+#: classes/photosajax.php:1142
+msgid "Photo Album access changed."
+msgstr "Se ha cambiado el acceso al álbum de fotos."
+
+#: classes/photosajax.php:1114
+msgid "Invalid extra field."
+msgstr "Campo extra inválido"
+
+#: classes/photosajax.php:1085
+msgid "You are not authorized to change this album description."
+msgstr "No está autorizado para cambiar la descripción de este álbum"
+
+#: classes/photosajax.php:1080
+msgid "Photo Album description saved."
+msgstr "Descripción del álbum de fotos guardado"
+
+#: classes/photosajax.php:1025
+msgid "Photo Album name saved."
+msgstr "Nombre del álbum de fotos guardado"
+
+#: classes/photosajax.php:998 classes/photosajax.php:1030
+msgid "You are not authorized to change this album name."
+msgstr "No está autorizado para cambiar el nombre de este álbum."
+
+#: classes/photosajax.php:993
+msgid "Photo Album has been deleted."
+msgstr "El álbum de fotos ha sido borrado"
+
+#: classes/photosajax.php:913
+msgid "You are not authorized to add photos."
+msgstr "No está autorizado para agregar fotos"
+
+#: classes/photosajax.php:907
+msgid "Activity is not found."
+msgstr "No se ha encontrado actividad reciente"
+
+#: classes/photosajax.php:904
+msgid "New photos added"
+msgstr "Nuevas fotos añadidas"
+
+#: classes/photosajax.php:845 classes/photosajax.php:948
+msgid "Temporary file has been deleted"
+msgid_plural "Temporary files has been deleted"
+msgstr[0] "Se ha eliminado el archivo temporal"
+msgstr[1] "Se han eliminado los archivos temporales"
+
+#: classes/photosajax.php:728
+msgid "You are not authorized to create album for this user."
+msgstr "No está autorizado para crear álbumes para este usuario"
+
+#: classes/photosajax.php:723
+msgid "Album "
+msgstr "Álbum "
+
+#: classes/photosajax.php:659
+msgid "You are not authorized to use this photo as cover."
+msgstr "No estás autorizado para utilizar esta imagen como portada."
+
+#: classes/photosajax.php:654
+msgid "Your profile cover has been changed."
+msgstr "La portada de tu perfil ha sido cambiada."
+
+#: classes/photosajax.php:603 classes/photosajax.php:665
+#: classes/photosajax.php:734 classes/photosajax.php:919
+msgid "Photo not found"
+msgstr "Foto no encontrada"
+
+#: classes/photosajax.php:597
+msgid "You are not authorized to use this photo as avatar."
+msgstr "No estás autorizado para utilizar esta foto como avatar."
+
+#: classes/photosajax.php:592
+msgid "Your avatar has been changed."
+msgstr "Tu avatar ha sido cambiado."
+
+#: classes/photosajax.php:551 classes/photosajax.php:616
+#: classes/photosajax.php:678 classes/photosajax.php:743
+#: classes/photosajax.php:809 classes/photosajax.php:857
+#: classes/photosajax.php:932 classes/photosajax.php:960
+#: classes/photosajax.php:1011 classes/photosajax.php:1043
+#: classes/photosajax.php:1128
+msgid "Request could not be verified."
+msgstr "No se pudo verificar la petición."
+
+#: classes/photosajax.php:426
+msgid "%s doesn't have any photos yet"
+msgstr "%s aún no tiene fotos"
+
+#: classes/photosajax.php:426
+msgid "You don't have any photos yet"
+msgstr "Aún no tienes fotos"
+
+#: classes/photosajax.php:369
+msgid "Maximum file upload quota reached. Delete posts with photos to free some space."
+msgstr "Cuota de carga de archivo máximo alcanzado. Borrar mensajes con fotos para liberar algo de espacio."
+
+#: classes/photosajax.php:367
+msgid "Only files up to %1$dMB are allowed."
+msgstr "Se permiten solo archivos hasta %1$dMB."
+
+#: classes/photosajax.php:365
+msgid "Maximum photo upload quota reached. Delete posts with photos to free some space."
+msgstr "Cuota de subida de foto máximo alcanzado. Borrar mensajes con fotos para liberar algo de espacio."
+
+#: classes/photosajax.php:361
+msgid "Maximum daily photo upload quota reached. Delete posts with photos to free some space."
+msgstr "Diario foto subir cupo máximo alcanzado. Borrar mensajes con fotos para liberar algo de espacio."
+
+#: classes/photosajax.php:163
+msgid "Image exceeds maximum photo size of %1$d x %2$d."
+msgstr "Imagen excede el tamaño máximo de foto de %1$d x %2$d."
+
+#: classes/photosajax.php:159
+msgid "Only photos with a maximum of %1$d pixel height are allowed, please resize."
+msgstr "Sólo fotos con un máximo de altura de pixel de %1$d se admiten, por favor cambiar el tamaño."
+
+#: classes/photosajax.php:157
+msgid "Only photos with a maximum of %1$d pixel width are allowed, please resize."
+msgstr "Sólo fotos con un máximo de anchura de píxel %1$d se admiten, por favor cambiar el tamaño."
+
+#: classes/photosajax.php:117
+msgid "Only files up to %1$dMB are allowed"
+msgstr "Se permiten solo archivos hasta %1$dMB"
+
+#: classes/photosajax.php:92
+msgid "Maximum file upload quota reached. Delete posts with photos to free some space"
+msgstr "Cuota de carga de archivo máximo alcanzado. Borrar mensajes con fotos para liberar algo de espacio"
+
+#: classes/photosadmin.php:304
+msgid "Photo %1$d of post %2$s"
+msgstr "Foto %1$d de correos %2$s"
+
+#: classes/photosadmin.php:295
+msgid "Photo of post %s"
+msgstr "Foto del post %s"
+
+#: classes/photosadmin.php:266
+msgid "Configure the use of PeepSo Share Photos."
+msgstr "Configurar el uso de PeepSo compartir fotos."
+
+#: classes/photosadmin.php:263
+msgid "Photos Settings"
+msgstr "Ajustes de fotos"
+
+#: classes/photosadmin.php:213
+msgid "The AWS Secret Key you received when you signed up for AWS (40 characters)"
+msgstr "La clave del secreto de AWS recibiste cuando te registraste para AWS (40 caracteres)"
+
+#: classes/photosadmin.php:184
+msgid "Turn on the use of Amazon AWS for image storage"
+msgstr "Activar el uso de Amazon AWS para almacenamiento de imágenes"
+
+#: classes/photosadmin.php:45
+msgid "WordPress maximum upload size allowed is %1$sMB"
+msgstr "El tamaño máximo permitido en Wordpress es %1$sMB"
+
+#: classes/configsectionphotos.php:359
+msgid "AWS"
+msgstr "AWS"
+
+#: classes/configsectionphotos.php:347 classes/photosadmin.php:267
+msgid "To enable the use of AWS, set the \"Enable AWS S3 Storage\" to \"YES\" and fill in the additional settings fields.<br/>To get your AWS Access ID and Keys, you can sign up here: %sGet Your AWS Access Keys%s."
+msgstr "Para habilitar el uso de AWS, establece el \"habilitar AWS almacenamiento S3\" en \"Sí\" y rellene los campos de configuración adicional. <br/> Para obtener su ID de acceso de AWS y las llaves, puedes inscribirte aquí: %sGet su Keys%s de acceso de AWS."
+
+#: classes/configsectionphotos.php:337 classes/photosadmin.php:252
+msgid "AWS Error History:"
+msgstr "Historia de Error AWS:"
+
+#: classes/configsectionphotos.php:325
+msgid "Don't keep a local copy of uploaded files"
+msgstr "No mantener una copia local de los archivos subidos"
+
+#: classes/configsectionphotos.php:322
+msgid "Disabling AWS S3 will cause photos to disappear, because photos will not be redownloaded"
+msgstr "Desactivar AWS S3 hará que las fotos desaparezcan, ya que las fotos no se volverán a descargar"
+
+#: classes/configsectionphotos.php:318
+msgid "Bucket location"
+msgstr "Ubicación de cubo"
+
+#: classes/configsectionphotos.php:312
+msgid "US West (Oregon)"
+msgstr "EE. UU. Oeste (Oregon)"
+
+#: classes/configsectionphotos.php:311
+msgid "US West (N. California)"
+msgstr "EE. UU. Oeste (Norte de California)"
+
+#: classes/configsectionphotos.php:310
+msgid "US East (Ohio)"
+msgstr "EE. UU. Este (Ohio)"
+
+#: classes/configsectionphotos.php:309
+msgid "US East (N. Virginia)"
+msgstr "EE. UU. Este (Norte de Virginia)"
+
+#: classes/configsectionphotos.php:308
+msgid "South America (São Paulo)"
+msgstr "América del Sur (San Pablo)"
+
+#: classes/configsectionphotos.php:307
+msgid "EU (Paris)"
+msgstr "UE (París)"
+
+#: classes/configsectionphotos.php:306
+msgid "EU (London)"
+msgstr "UE (Londres)"
+
+#: classes/configsectionphotos.php:305
+msgid "EU (Ireland)"
+msgstr "UE (Irlanda)"
+
+#: classes/configsectionphotos.php:304
+msgid "EU (Frankfurt)"
+msgstr "UE (Frankfurt)"
+
+#: classes/configsectionphotos.php:303
+msgid "Canada (Central)"
+msgstr "Canadá (Central)"
+
+#: classes/configsectionphotos.php:302
+msgid "Asia Pacific (Tokyo)"
+msgstr "Asia Pacífico (Tokio)"
+
+#: classes/configsectionphotos.php:301
+msgid "Asia Pacific (Sydney)"
+msgstr "Asia Pacífico (Sídney)"
+
+#: classes/configsectionphotos.php:300
+msgid "Asia Pacific (Singapore)"
+msgstr "Asia Pacífico (Singapur)"
+
+#: classes/configsectionphotos.php:299
+msgid "Asia Pacific (Seoul)"
+msgstr "Asia Pacífico (Seúl)"
+
+#: classes/configsectionphotos.php:298
+msgid "Asia Pacific (Mumbai)"
+msgstr "Asia Pacífico (Mumbai)"
+
+#: classes/configsectionphotos.php:293 classes/photosadmin.php:230
+msgid "Amazon S3 Bucket"
+msgstr "Amazon S3 cubo"
+
+#: classes/configsectionphotos.php:286 classes/photosadmin.php:238
+msgid "Amazon S3 Bucket is required"
+msgstr "Cubo de Amazon S3 se requiere"
+
+#: classes/configsectionphotos.php:280 classes/photosadmin.php:231
+msgid "Name of the Bucket to upload your images to on Amazon S3"
+msgstr "Nombre del cubo para subir tus imágenes a en Amazon S3"
+
+#: classes/configsectionphotos.php:276 classes/photosadmin.php:212
+msgid "Amazon Secret Access Key"
+msgstr "Clave de acceso secreta de Amazon"
+
+#: classes/configsectionphotos.php:269 classes/photosadmin.php:220
+msgid "Amazon Secret Access Key is required"
+msgstr "Se requiere clave de acceso secreta Amazon"
+
+#: classes/configsectionphotos.php:260 classes/photosadmin.php:194
+msgid "Amazon Access Key ID"
+msgstr "Identificación de clave de acceso de Amazon"
+
+#: classes/configsectionphotos.php:253 classes/photosadmin.php:202
+msgid "Amazon Access Key ID is required"
+msgstr "Se requiere ID con Accesskey de Amazon"
+
+#: classes/configsectionphotos.php:247 classes/photosadmin.php:195
+msgid "The Access Key ID you received when you signed up for AWS (20 characters)"
+msgstr "El ID de clave de acceso que recibiste cuando te registraste para AWS (20 caracteres)"
+
+#: classes/configsectionphotos.php:243 classes/photosadmin.php:183
+msgid "Enable AWS S3 storage"
+msgstr "Permitir el almacenamiento de AWS S3"
+
+#: classes/configsectionphotos.php:44
+msgid "General"
+msgstr "General"
+
+#: classes/configsectionphotos.php:38
+msgid "Autoplay GIFs"
+msgstr "Reproducción automática de GIFs"
+
+#: classes/configsectionphotos.php:223 classes/photosadmin.php:162
+msgid "Thumbnail quality"
+msgstr "Calidad de miniatura"
+
+#: classes/configsectionphotos.php:201 classes/photosadmin.php:142
+msgid "Image quality"
+msgstr "Calidad de imagen"
+
+#: classes/configsectionphotos.php:191 classes/configsectionphotos.php:213
+#: classes/photosadmin.php:138 classes/photosadmin.php:158
+msgid "recommended"
+msgstr "recomienda"
+
+#: classes/configsectionphotos.php:180 classes/photosadmin.php:172
+msgid "Maximum image height"
+msgstr "Altura de imagen máxima"
+
+#: classes/configsectionphotos.php:168 classes/photosadmin.php:121
+msgid "Maximum image width"
+msgstr "Anchura de imagen máxima"
+
+#: classes/configsectionphotos.php:156 classes/photosadmin.php:110
+msgid "Photo Upload Behavior"
+msgstr "Comportamiento de subir foto"
+
+#: classes/configsectionphotos.php:145 classes/photosadmin.php:105
+msgid "Resize"
+msgstr "Cambiar el tamaño de"
+
+#: classes/configsectionphotos.php:144 classes/photosadmin.php:104
+msgid "Use Original"
+msgstr "Uso Original"
+
+#: classes/configsectionphotos.php:115 classes/photosadmin.php:94
+msgid "Daily photo upload limit per user"
+msgstr "Foto diario carga límite por usuario"
+
+#: classes/configsectionphotos.php:104 classes/photosadmin.php:89
+msgid "50"
+msgstr "50"
+
+#: classes/configsectionphotos.php:103 classes/photosadmin.php:88
+msgid "20"
+msgstr "20"
+
+#: classes/configsectionphotos.php:102 classes/photosadmin.php:87
+msgid "10"
+msgstr "10"
+
+#: classes/configsectionphotos.php:101 classes/photosadmin.php:86
+msgid "5"
+msgstr "5"
+
+#: classes/configsectionphotos.php:94 classes/photosadmin.php:75
+msgid "Maximum number of Photos per User"
+msgstr "Número máximo de fotos por usuario"
+
+#: classes/configsectionphotos.php:83 classes/photosadmin.php:70
+msgid "1000"
+msgstr "1000"
+
+#: classes/configsectionphotos.php:82 classes/photosadmin.php:69
+msgid "500"
+msgstr "500"
+
+#: classes/configsectionphotos.php:81 classes/photosadmin.php:68
+msgid "250"
+msgstr "250"
+
+#: classes/configsectionphotos.php:80 classes/photosadmin.php:67
+msgid "100"
+msgstr "100"
+
+#: classes/configsectionphotos.php:79 classes/configsectionphotos.php:100
+#: classes/photosadmin.php:66 classes/photosadmin.php:85
+msgid "Unlimited"
+msgstr "Unlimited"
+
+#: classes/configsectionphotos.php:74 classes/photosadmin.php:56
+msgid "Allowed space per user in megabytes"
+msgstr "Permitido de espacio por usuario en megabytes"
+
+#: classes/configsectionphotos.php:71
+msgid "Set 0 for Unlimited"
+msgstr "Establecer 0 para ilimitado"
+
+#: classes/configsectionphotos.php:32 classes/photosadmin.php:44
+msgid "Maximum upload size in megabytes"
+msgstr "Tamaño de carga máximo en megabytes"
+
+#: classes/configsectionphotos.php:29
+msgid "WordPress maximum upload size allowed is %1$sMB. WordPress setting takes priority over PeepSo. If you want to allow bigger file uploads please look into WrodPress and / or your server configuration."
+msgstr "El tamaño máximo permitido de carga en WordPress es %1$sMB. Los ajustes de WordPress tienen prioridad sobre los de PeepSo. Si quieres permitir la carga de archivos más grandes, por favor busca en la configuración de WordPress y/o de tu servidor."

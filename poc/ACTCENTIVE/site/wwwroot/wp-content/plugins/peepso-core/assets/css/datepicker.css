@@ -1,0 +1,120 @@
+.peepso-datepicker {
+	font-size: 90%;
+	/* TEMPORARY FIX FOR DATEPICEKR IN DIALOG */
+	z-index: 200005 !important; /* TO-DO: FIX IN JAVASCRIPT CODE */
+}
+
+.peepso-datepicker thead {
+	background-color: rgba(0,0,0, .1);
+}
+
+.peepso-datepicker .ui-widget {
+	font-family: "Helvetica Neue","Trebuchet MS",Tahoma,Verdana,Arial,sans-serif;
+	background: #505053;
+	border: none;
+	border-radius: 0;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	box-shadow: 0 1px 3px #252525;
+}
+
+.peepso-datepicker .ui-datepicker {
+	padding: 0;
+}
+
+.peepso-datepicker .ui-datepicker-header {
+	border: none;
+	background: transparent;
+	font-weight: normal;
+	font-size: 11px;
+	text-transform: uppercase;
+}
+
+.peepso-datepicker .ui-datepicker-header .ui-state-hover {
+	background: transparent;
+	border-color: transparent;
+	cursor: pointer;
+	border-radius: 0;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+}
+
+.peepso-datepicker .ui-datepicker .ui-datepicker-title {
+	margin-top: 1.5em;
+	margin-bottom: 1em;
+}
+
+.peepso-datepicker .ui-datepicker .ui-datepicker-prev-hover,
+.peepso-datepicker .ui-datepicker .ui-datepicker-next-hover,
+.peepso-datepicker .ui-datepicker .ui-datepicker-next,
+.peepso-datepicker .ui-datepicker .ui-datepicker-prev {
+	top: 1.7em;
+	border:none;
+}
+
+.peepso-datepicker .ui-datepicker .ui-datepicker-prev-hover {
+	left: 2px;
+}
+
+.peepso-datepicker .ui-datepicker .ui-datepicker-next-hover {
+	right: 2px;
+}
+
+.peepso-datepicker .ui-datepicker .ui-datepicker-next span,
+.peepso-datepicker .ui-datepicker .ui-datepicker-prev span {
+	background-image: url(images/ui-icons_ffffff_256x240.png);
+	background-position: -32px -32px;
+	margin-top: 0;
+	top: 0;
+	font-weight: normal;
+}
+
+.peepso-datepicker .ui-datepicker .ui-datepicker-prev span {
+	background-position: -96px -32px;
+}
+
+.peepso-datepicker .ui-datepicker .ui-datepicker-prev-hover span {
+	background-position: -96px -48px;
+}
+
+.peepso-datepicker .ui-datepicker .ui-datepicker-next-hover span {
+	background-position: -32px -48px;
+}
+
+.peepso-datepicker .ui-datepicker table {
+	margin: 0;
+}
+
+.peepso-datepicker .ui-datepicker th {
+	padding: 2em 0;
+	color: #8d9396;
+	font-size: 10px;
+	font-weight: normal;
+	text-transform: uppercase;
+	border: none;
+	border-top: 2px solid rgba(255,255,255, .1);
+}
+
+.peepso-datepicker .ui-datepicker td {
+	border: none;
+	padding: 0;
+}
+
+.peepso-datepicker td .ui-state-default {
+	background: transparent;
+	border: none;
+	text-align: center;
+	padding: .5em 0;
+	margin: 0;
+	font-weight: normal;
+	color: #efefef;
+	font-size: 12px;
+}
+
+.peepso-datepicker td .ui-state-active,
+.peepso-datepicker td .ui-state-hover {
+	background: #00B0FF;
+	border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+}

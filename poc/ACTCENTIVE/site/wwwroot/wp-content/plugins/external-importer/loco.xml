@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bundle name="External Importer Pro">
+  <domain name="cashback-tracker">
+    <project name="External Importer Pro" slug="external-importer">
+      <source>
+        <directory>.</directory>
+      </source>
+      <target>
+        <directory>languages</directory>
+      </target>
+      <template>
+        <file>languages/external-importer.pot</file>
+      </template>
+    </project>
+  </domain>
+</bundle>

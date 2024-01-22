@@ -1,0 +1,48 @@
+.ps-page--blogposts {}
+
+.ps-blogposts {}
+
+.ps-blogposts__tabs {}
+
+.ps-blogposts__tabs-inner {
+  @include tabs($center: true);
+}
+
+.ps-blogposts__tab {
+  @include tab($default: true);
+
+  width: 50%;
+}
+
+.ps-blogposts__tab--active {
+  @include tab($active: true, $arrow: true);
+}
+
+.ps-blogposts__filters {
+  margin-bottom: var(--PADD--MD);
+}
+
+.ps-blogposts__list {}
+
+.ps-blogposts__list--grid {
+  @include mq($from: desktop) {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: var(--PADD--MD);
+    grid-row-gap: var(--PADD--MD);
+  }
+}
+
+.ps-blogposts__loading {
+  text-align: center;
+}
+
+.ps-blogposts__authorbox {
+  margin-top: var(--PADD--MD);
+}
+
+.ps-blogposts__authorbox-desc {
+  margin-top: var(--PADD);
+  line-height: 1.4;
+  font-size: 80%;
+}

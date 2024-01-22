@@ -1,0 +1,35 @@
+.widgets {
+	padding-top: $padd--lg;
+	padding-bottom: $padd--lg;
+}
+
+.widgets__wrapper {
+	@extend %container;
+}
+
+.widgets__grid {
+	@include mq($from: desktop) {
+		display: grid;
+		grid-gap: $padd--lg;
+	}
+}
+
+.widgets--top {
+	padding-bottom: 0;
+
+	.widgets__grid {
+		@include mq($from: desktop) {
+			grid-template-columns: repeat(var(--top-widgets-grid), 1fr);
+		}
+	}
+}
+
+.widgets--bottom {
+	padding-top: 0;
+
+	.widgets__grid {
+		@include mq($from: desktop) {
+			grid-template-columns: repeat(var(--bottom-widgets-grid), 1fr);
+		}
+	}
+}

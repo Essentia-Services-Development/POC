@@ -1,0 +1,9 @@
+<?php /*NWJjbDNsYng1QmhMczU4UHdsd3hjQ1U4YmljNXRGKzFNcHhoblB4eGE3Umhydlo0Y0M2eVNPVUl1S2dDUkxqem5vYVphOHJtVkZhTHJ6aG92RkhQOWNieFNRcDZMY0pqelFMdzlMV2M1eExoNms4VlhVU0Q0a2hIRCs0YkFvZ29ZYXI5ZkNoTHZYTXRKUHF5UUl3OVJJcEE3UjIvVmNMbjFEYjFoVlMyMjdGOE53OTc4eU5QbWNDNjBXRHFNTy9v*/
+namespace Aws\MachineLearning\Exception;
+
+use Aws\Exception\AwsException;
+
+/**
+ * Amazon Machine Learning exception.
+ */
+class MachineLearningException extends AwsException {}

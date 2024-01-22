@@ -1,0 +1,182 @@
+.notice,
+.error,
+.update-nag {
+	display: none !important;
+}
+.mailster-test-result {
+	background: #fff;
+	border-left: 4px solid #fff;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+	margin: 5px 0px;
+	padding: 12px 12px;
+}
+.dark-mode .mailster-test-result {
+	border-color: #191f25;
+	background: #32373c;
+}
+.mailster-test-result h4 {
+	margin: 0;
+}
+.tests-toggles label {
+	padding-left: 20px;
+}
+.wp-admin p.tests-toggles label input[type='checkbox'] {
+	margin-top: 0;
+}
+.wp-admin label {
+	padding-top: 0;
+}
+.mailster-test-result h4:before,
+.tests-toggles label i:before {
+	width: 20px;
+	height: 20px;
+	padding-right: 10px;
+	display: inline-block;
+	background-repeat: no-repeat;
+	background-size: 20px 20px;
+	display: inline-block !important;
+	vertical-align: bottom;
+}
+.tests-toggles label i:before {
+	font-size: 18px;
+	padding: 0 3px 0 3px;
+	vertical-align: middle;
+}
+.mailster-test-result.mailster-test-is-success h4:before,
+.tests-toggles label.label-success i:before {
+	content: '';
+	background-image: url('data:image/svg+xml;utf8,<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g stroke-linecap="round" stroke-width="2.0" stroke="%2346b450" fill="none" stroke-linejoin="round"><path d="M12 3a9 9 0 1 0 0 18 9 9 0 1 0 0-18Z"/><path d="M8.44 12.339l2.167 2.167 -.02-.02 4.88-4.89"/></g><path fill="none" d="M0 0h24v24H0Z"/></svg>');
+}
+.mailster-test-result.mailster-test-is-error h4:before,
+.tests-toggles label.label-error i:before {
+	content: '';
+	background-image: url('data:image/svg+xml;utf8,<svg version="1.1" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g fill="none"><path d="M0 0h24v24h-24Z"></path><path stroke="%23dc3232" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.0" d="M7.414 20.414l-3.828-3.828c-.375-.375-.586-.884-.586-1.414v-6.344c0-.53.211-1.039.586-1.414l3.828-3.828c.375-.375.884-.586 1.414-.586h6.343c.53 0 1.039.211 1.414.586l3.828 3.828c.376.375.587.884.587 1.414v6.343c0 .53-.211 1.039-.586 1.414l-4.414 4.415h-7.172c-.53 0-1.039-.211-1.414-.586Z"></path><path stroke="%23dc3232" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.0" d="M9 15l6-6"></path><path stroke="%23dc3232" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.0" d="M15 15l-6-6"></path></g></svg>');
+}
+.mailster-test-result.mailster-test-is-warning h4:before,
+.tests-toggles label.label-warning i:before {
+	content: '';
+	background-image: url('data:image/svg+xml;utf8,<svg version="1.1" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g fill="none"><path d="M0 0h24v24h-24Z"></path><path stroke="%23ffb900" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.0" d="M12 13.12v-3.74"></path><path stroke="%23ffb900" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.0" d="M11.999 16.125c-.138 0-.25.112-.249.25 0 .138.112.25.25.25 .138 0 .25-.112.25-.25 0-.138-.112-.25-.251-.25"></path><path stroke="%23ffb900" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.0" d="M14.029 4.139l7.659 13.404c.89 1.558-.235 3.497-2.029 3.497h-15.318c-1.795 0-2.92-1.939-2.029-3.497l7.659-13.404c.897-1.571 3.161-1.571 4.058 8.88178e-16Z"></path></g></svg>');
+}
+.mailster-test-result.mailster-test-is-notice h4:before,
+.tests-toggles label.label-notice i:before {
+	content: '';
+	background-image: url('data:image/svg+xml;utf8,<svg version="1.1" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g fill="none"><path d="M0 0h24v24h-24Z"></path><path stroke="%2300a0d2" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.0" d="M12 3v0c4.971 0 9 4.029 9 9v0c0 4.971-4.029 9-9 9v0c-4.971 0-9-4.029-9-9v0c0-4.971 4.029-9 9-9Z"></path><path stroke="%2300a0d2" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.0" d="M12 12.5v-5"></path><path stroke="%2300a0d2" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.0" d="M11.999 16c-.138 0-.25.112-.249.25 0 .138.112.25.25.25 .138 0 .25-.112.25-.25 0-.138-.112-.25-.251-.25"></path></g></svg>');
+}
+
+.mailster-test-result .mailster-test-result-more {
+	padding: 10px 0 8px 30px;
+	font-style: italic;
+}
+.mailster-test-result .mailster-test-result-more:empty {
+	display: none;
+}
+.nav-tab-wrapper {
+	border-bottom: 1px solid #ccc;
+}
+.subtab {
+	padding: 10px 5px;
+}
+#subtab-textoutput,
+#subtab-systeminfo {
+	display: none;
+}
+.tests-output,
+.tests-textoutput-wrap {
+	height: 420px;
+	overflow: auto;
+	padding: 5px;
+	box-shadow: inset 0px 0px 3px rgba(0, 0, 0, 0.5);
+	box-sizing: border-box;
+}
+.tests-output .button,
+.tests-output .button:active {
+	transform: translate(-50%, -50%) !important;
+	top: 50%;
+	left: 50%;
+	position: relative;
+}
+.tests-textoutput-wrap {
+	white-space: pre;
+	font-family: monospace;
+}
+.tests-textoutput-wrap textarea {
+	width: 100%;
+	height: 100%;
+}
+.tests-wrap.no-success .mailster-test-is-success,
+.tests-wrap.no-error .mailster-test-is-error,
+.tests-wrap.no-warning .mailster-test-is-warning,
+.tests-wrap.no-notice .mailster-test-is-notice {
+	display: none;
+}
+.progress {
+	width: 100%;
+	height: 40px;
+	background: #fefefe;
+	overflow: hidden;
+	font-size: 10px;
+	position: relative;
+	text-align: right;
+	line-height: 20px;
+	display: none;
+	margin-top: 19px;
+	border-radius: 4px;
+}
+.dark-mode .progress {
+	background: #50626f;
+}
+.progress span.bar {
+	display: block;
+	position: absolute;
+	line-height: 2.6em;
+	padding: 2px 0;
+	white-space: nowrap;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	overflow: visible;
+	transition: width 0.6s ease-in-out;
+	border-radius: 4px;
+	overflow: hidden;
+}
+.progress span.bar {
+	background: #2bb3e7;
+	_background: -webkit-linear-gradient(to right, #084067, #2bb3e7);
+	_background: linear-gradient(to right, #084067, #2bb3e7);
+}
+.progress.finished span.bar {
+	background: #c7e9c4;
+	_background: -moz-linear-gradient(top, #c7e9c4 0%, #aacca7 100%);
+	_background: -webkit-gradient(
+		linear,
+		left top,
+		left bottom,
+		color-stop(0%, #c7e9c4),
+		color-stop(100%, #aacca7)
+	);
+	_background: -webkit-linear-gradient(top, #c7e9c4 0%, #aacca7 100%);
+	_background: -o-linear-gradient(top, #c7e9c4 0%, #aacca7 100%);
+	_background: -ms-linear-gradient(top, #c7e9c4 0%, #aacca7 100%);
+	_background: linear-gradient(top, #c7e9c4 0%, #aacca7 100%);
+}
+a.clipboard {
+	cursor: pointer;
+	font-size: smaller;
+}
+a.retest:before {
+	color: #aaa;
+	background-repeat: no-repeat;
+	background-size: 20px 20px;
+	width: 24px;
+	height: 24px;
+	display: inline-block;
+	text-decoration: none;
+	vertical-align: middle;
+}
+a.retest:before {
+	content: '';
+	background-image: url('data:image/svg+xml;utf8,<svg version="1.1" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g stroke-linecap="round" stroke-width="2.0" stroke="%23545454" fill="none" stroke-linejoin="round"><path d="M19.992,12.032c-0.008,2.037 -0.781,4.071 -2.335,5.625c-3.124,3.124 -8.19,3.124 -11.314,0c-0.556,-0.556 -1.008,-1.175 -1.366,-1.831"></path><path d="M4.004,11.87c0.032,-2.004 0.81,-3.998 2.339,-5.527c3.124,-3.124 8.19,-3.124 11.314,0c0.556,0.556 1.008,1.175 1.366,1.831"></path><path d="M15.953,8.175h3.535v-3.536"></path><path d="M8.047,15.825h-3.535v3.536"></path></g><path fill="none" d="M0,0h24v24h-24Z"></path></svg>');
+}
+.mailster-test-is-success a.retest {
+	display: none;
+}

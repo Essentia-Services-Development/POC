@@ -1,0 +1,185 @@
+/**
+ * 05. Widget
+ */
+.control-section{
+
+  .pvfwof-field{
+    padding: 0;
+
+    .pvfwof-title{
+      float: none;
+      width: 100%;
+      margin-bottom: 6px;
+
+      h4{
+        display: block;
+        font-size: 13px;
+        line-height: 1;
+        font-weight: 600;
+        color: inherit;
+      }
+    }
+
+    .pvfwof-fieldset{
+      float: none;
+      width: 100%;
+    }
+  }
+
+  .pvfwof-help{
+    top: -5px;
+    right: -5px;
+  }
+
+  .pvfwof-field-select select{
+    width: 100%;
+  }
+
+  .pvfwof-field-heading{
+    color: inherit;
+    font-size: 14px;
+    line-height: 1em;
+    margin-right: -15px;
+    margin-left: -15px;
+    padding: 15px;
+  }
+
+  .pvfwof-field-subheading{
+    color: inherit;
+    font-size: 11px;
+    margin-right: -15px;
+    margin-left: -15px;
+    padding: 10px 15px;
+  }
+
+  .pvfwof-subtitle-text{
+    margin-top: 4px;
+    font-size: 12px;
+  }
+
+  .pvfwof-field-submessage .pvfwof-submessage{
+    margin-right: -15px;
+    margin-left: -15px;
+    padding: 15px;
+  }
+
+  .pvfwof-fieldset{
+
+    .pvfwof-field-submessage .pvfwof-submessage,
+    .pvfwof-field-heading,
+    .pvfwof-field-subheading{
+      margin-left: 0;
+      margin-right: 0;
+    }
+  }
+
+  .pvfwof-field-date,
+  .pvfwof-field-datetime{
+
+    label{
+      display: block;
+    }
+
+    .pvfwof--to{
+      margin-top: 4px;
+      margin-left: 0;
+    }
+  }
+
+  .pvfwof-field-sorter{
+
+    ul li{
+      padding: 5px;
+    }
+
+    .pvfwof-modules{
+      float: none;
+      width: 100%;
+    }
+
+    .pvfwof-modules:first-child{
+      padding-right: 0;
+      padding-bottom: 15px;
+    }
+  }
+
+  .pvfwof-field-background{
+
+    .pvfwof--background-attributes{
+      flex-direction: column;
+    }
+  }
+
+  .pvfwof-field-spacing{
+    input{
+      width: 90px;
+    }
+  }
+
+  .pvfwof-field-border{
+
+    .pvfwof--input{
+      flex: 1 50%;
+    }
+
+    input,
+    select{
+      width: 100%;
+    }
+  }
+
+  .pvfwof-field-spinner{
+    input{
+      width: 50px;
+    }
+  }
+
+  .pvfwof-field-number{
+
+    .pvfwof--wrap{
+      width: 100%;
+    }
+  }
+
+  .pvfwof-field-backup{
+
+    .pvfwof-export-data{
+      display: none;
+    }
+  }
+
+  .pvfwof-field-fieldset{
+
+    .pvfwof-fieldset-content{
+      border-color: #e5e5e5;
+    }
+  }
+
+  .pvfwof-tabbed-content,
+  .pvfwof-sortable-content,
+  .pvfwof-repeater-content,
+  .pvfwof-fieldset-content,
+  .pvfwof-cloneable-content,
+  .pvfwof-accordion-content{
+
+    > .pvfwof-field{
+      padding: 10px;
+
+      .pvfwof-title{
+        margin-bottom: 5px;
+      }
+
+      h4{
+        font-size: 12px;
+      }
+    }
+  }
+
+  .pvfwof-depend-hidden.pvfwof-depend-on{
+    display: none !important;
+  }
+
+  .pvfwof-depend-visible.pvfwof-depend-on{
+    border-top: 0 !important;
+  }
+}

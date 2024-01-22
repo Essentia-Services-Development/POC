@@ -1,0 +1,213 @@
+.ps-blogposts__post {
+  --bg: var(--PS-COLOR--APP);
+  --radius: var(--BORDER-RADIUS--MD);
+
+  position: relative;
+  margin-bottom: var(--PADD--MD);
+  line-height: var(--PS-LINE-HEIGHT);
+  background-color: var(--bg);
+  border-radius: var(--radius);
+  box-shadow: var(--BOX-SHADOW--HARD);
+  overflow: hidden;
+
+  &:before {
+    content: " ";
+    display: block;
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: var(--PADD--MD);
+    background: var(--bg);
+    background: -webkit-linear-gradient(rgba(255,255,255,0) 0%, var(--bg) 50%);
+    background: -o-linear-gradient(rgba(255,255,255,0) 0%, var(--bg) 50%);
+    background: linear-gradient(rgba(255,255,255,0) 0%, var(--bg) 50%);
+  }
+
+  @include mq($from: desktop) {
+    .ps-blogposts__list--grid & {
+      margin-bottom: 0;
+    }
+  }
+}
+
+.ps-blogposts__post-inside {}
+
+.ps-blogposts__post-body {}
+
+.ps-blogposts__post-image {
+  background-color: var(--PS-COLOR--APP--LIGHTGRAY);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+
+  > a {
+    display: block;
+    height: 100%;
+  }
+}
+
+.ps-blogposts__post-image--top {
+  border-top-left-radius: var(--radius);
+  border-top-right-radius: var(--radius);
+}
+
+.ps-blogposts__post-image--left {
+  float: left;
+  margin: var(--PADD--MD);
+  margin-bottom: var(--PADD);
+  border-radius: var(--radius);
+}
+
+.ps-blogposts__post-image--right {
+  float: right;
+  margin: var(--PADD--MD);
+  margin-bottom: var(--PADD);
+  border-radius: var(--radius);
+}
+
+.ps-blogposts__post-title {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: var(--PADD--MD);
+  padding-bottom: var(--PADD);
+  font-size: 100%;
+  font-weight: normal;
+  border: none;
+
+  @if $comp_mode {
+    font-size: 100% !important;
+    line-height: 1em !important;
+    margin-bottom: 0 !important;
+    margin-top: 0 !important;
+    font-weight: normal !important;
+  }
+
+  > a {
+    @if $comp_mode {
+      text-decoration: none;
+      word-break: break-word;
+      font-size: 18px;
+      line-height: 1.4;
+    }
+  }
+}
+
+.ps-blogposts__post-meta {
+  padding-left: var(--PADD--MD);
+  padding-right: var(--PADD--MD);
+  font-size: 80%;
+  color: var(--PS-COLOR--TEXT--LIGHT);
+}
+
+.ps-blogposts__post-content {
+  padding: var(--PADD--MD);
+  padding-top: var(--PADD);
+  font-size: 90%;
+}
+
+//
+// User Submitted Posts
+//
+.ps-blogposts {
+  #user-submitted-posts {
+    max-width: 100%;
+  }
+
+  #user-submitted-posts select {
+    width: 100%;
+  }
+  
+  #user-submitted-posts fieldset input.usp-input {
+    width: 100%;
+  }
+
+  div#user-submitted-posts fieldset label {
+    font-size: 100%;
+  }
+
+  .usp-rich-textarea {
+    background-color: #fff;
+    border-radius: 0;
+    color: #595959;
+  }
+  
+  #usp_form .chosen-container,
+  .usp-input {
+    @include input;
+  
+    min-width: 100%;
+    font-size: 14px;
+    z-index: auto;
+  
+    &:read-only {
+      background-color: var(--PS-COLOR--APP);
+      box-shadow: inset 0 0 0 1px var(--DIVIDER--LIGHT);
+  
+      &:hover {
+        background-color: var(--PS-COLOR--APP);
+        box-shadow: inset 0 0 0 1px var(--DIVIDER);
+      }
+  
+      &:focus {
+        background-color: var(--PS-COLOR--APP);
+        box-shadow: inset 0 0 0 1px var(--INPUT-SHADOW--IN), 0 0 0 3px var(--INPUT-SHADOW);
+      }
+    }
+
+    .chosen-choices {
+      border: 0;
+      box-shadow: none;
+      background: 0 0;
+      padding: 0;
+    }
+
+    .chosen-results {
+      padding: 0;
+    }
+  }
+
+  .usp_text-editor {
+    .wp-media-buttons {
+      float: none;
+      margin-bottom: -30px;
+    }
+    
+    .wp-switch-editor {
+      height: auto;
+    }
+  }
+
+  div#user-submitted-posts div#usp-upload-message {
+      font-size: 80%;
+      padding: 5px 0 0;
+  }
+
+  .usp-submit {
+    --bg: var(--c-ps-btn-action-bg);
+    --color: var(--c-ps-btn-action-color);
+    --bg--hover: var(--c-ps-btn-action-bg-hover);
+    --color--hover: var(--c-ps-btn-action-color-hover);
+
+    display: inline-block;
+    padding: var(--PADD) var(--PADD--MD);;
+    font-size: 90%;
+    line-height: var(--PS-LINE-HEIGHT);
+    color: var(--color);
+    background-color: var(--bg);
+    border-radius: var(--BORDER-RADIUS--MD);
+    box-shadow: inset 0 0 0 1px var(--DIVIDER--LIGHTEN);
+    font-weight: normal;
+    border: 0;
+  
+    &:hover {
+      color: var(--color--hover);
+      background-color: var(--bg--hover);
+    }
+  }
+
+  #qt_uspcontent_toolbar > input {
+    display: inline-block;
+  }
+}

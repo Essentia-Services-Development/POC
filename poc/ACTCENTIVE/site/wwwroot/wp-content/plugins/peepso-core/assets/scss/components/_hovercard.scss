@@ -1,0 +1,268 @@
+//   _                                          _
+//  | |                                        | |
+//  | |__   _____   _____ _ __ ___ __ _ _ __ __| |
+//  | '_ \ / _ \ \ / / _ \ '__/ __/ _` | '__/ _` |
+//  | | | | (_) \ V /  __/ | | (_| (_| | | | (_| |
+//  |_| |_|\___/ \_/ \___|_|  \___\__,_|_|  \__,_|
+//
+
+//
+//  INCLUDED MODIFIERS
+//
+//  all the modifiers for other components which
+//  were used in HoverCard.
+//
+
+/*
+//  HoverCard avatar modifier,
+//
+//  force avatar to stay in static size.
+*/
+.ps-avatar--hovercard {
+  --width: var(--normal) !important;
+
+  margin-top: 30px;
+  margin-bottom: 0;
+
+  > img {
+    vertical-align: middle;
+    border: 3px solid #fff !important;
+  }
+}
+
+//
+//  HOVERCARD ELEMENTS
+//
+
+/*
+//  Hovercard wrapper,
+//
+//  wraps all the HoverCard elements inside.
+*/
+.ps-hovercard {
+  @extend %reset;
+
+  position: relative;
+  width: 100%;
+  background-color: #fff;
+  box-sizing: border-box;
+  overflow: hidden;
+
+  * {
+    box-sizing: border-box;
+  }
+
+  // ROUNDED CORNERS
+  @if $scss-rounded == true {
+    border-radius: 6px;
+  }
+
+  @extend %box-shadow-dark;
+
+  @include media('medium') {
+    width: 300px;
+  }
+}
+
+/*
+//  HoverCard header,
+//
+//  show cover photo in the background,
+//  user avatar & name inside.
+*/
+.ps-hovercard__header {
+  position: relative;
+  z-index: 10;
+  background-size: cover;
+  background-position: center center;
+}
+
+/*
+//  HoverCard overlay,
+//
+//  adds shadow gradient background to contrast
+//  user name on cover photo & align user data.
+*/
+.ps-hovercard__overlay {
+  display: flex;
+  align-items: flex-end;
+  padding: $padd;
+
+  /*  Gradient shadow behind name on cover photo  */
+  background: -moz-linear-gradient(top,  rgba(0,0,0,0) 40%, rgba(0,0,0,0.65) 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(40%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,0.65))); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 40%,rgba(0,0,0,0.65) 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top,  rgba(0,0,0,0) 40%,rgba(0,0,0,0.65) 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top,  rgba(0,0,0,0) 40%,rgba(0,0,0,0.65) 100%); /* IE10+ */
+  background: linear-gradient(to bottom,  rgba(0,0,0,0) 40%,rgba(0,0,0,0.65) 100%); /* W3C */
+}
+
+.ps-hovercard__name {
+  font-size: 16px;
+  line-height: 1.4;
+  color: #fff;
+  text-shadow: 0 0 4px black;
+
+  @if $scss-direction == rtl {
+    padding-right: ($padd / 2);
+  } @else {
+    padding-left: ($padd / 2);
+  }
+}
+
+.ps-hovercard__vip {
+  position: relative;
+  padding: ($padd / 2) $padd;
+  padding-left: 78px;
+  background-color: rgba(0,0,0, .025);
+  border-bottom: $divider;
+  border-bottom-width: 2px;
+
+  &:empty {
+    display: none;
+  }
+}
+
+.ps-hovercard__vip-item {
+  position: static;
+  display: inline-block;
+  line-height: 1;
+
+  > img {
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    vertical-align: middle;
+  }
+
+  &:after {
+    left: 0;
+    right: 0;
+    line-height: 1.2;
+    white-space: normal !important;
+  }
+}
+
+.ps-hovercard__footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.ps-hovercard__meta {
+  display: flex;
+  align-items: center;
+  padding: ($padd / 2);
+  font-size: 12px;
+  border-bottom: $divider;
+
+  &:last-child {
+    border: none;
+  }
+}
+
+.ps-hovercard__meta-label {
+  display: inline-block;
+  min-width: 50px;
+
+  @if $scss-direction == rtl {
+    margin-left: ($padd / 2);
+  } @else {
+    margin-right: ($padd / 2);
+  }
+
+  padding: 4px;
+  text-align: center;
+  color: $color-text-light;
+  background: rgba(0,0,0, .05);
+
+  // ROUNDED CORNERS
+  @if $scss-rounded == true {
+    border-radius: 2px;
+  }
+}
+
+.ps-hovercard__meta-data {
+  min-width: 50%;
+  word-wrap: break-word;
+}
+
+.ps-hovercard__details {
+  display: flex;
+
+  @include media('medium') {
+    width: 100%;
+  }
+}
+
+.ps-hovercard__count {
+  padding: $padd;
+  line-height: 1;
+  font-size: $font-size-base;
+  color: $color-text-light;
+
+  > i {
+    color: $color-muted;
+  }
+
+  @if $scss-direction == rtl {
+    border-left: $divider;
+
+    > i {
+      &:before {
+        margin-right: 0;
+      }
+    }
+  } @else {
+    border-right: $divider;
+
+    > i {
+      &:before {
+        margin-left: 0;
+      }
+    }
+  }
+
+  border-width: 2px;
+
+  &:last-child {
+    border: none;
+  }
+
+  @include media('medium') {
+    flex-grow: 1;
+    text-align: center;
+  }
+}
+
+.ps-hovercard__actions {
+  padding: 4px;
+
+  @include media('medium') {
+    display: none;
+  }
+}
+
+.ps-hovercard__loading {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: none;
+  vertical-align: middle;
+  text-align: center;
+  background-color: white;
+  z-index: 11;
+}
+
+.ps-hovercard--full {
+  .ps-avatar--hovercard {
+    margin-top: 53px;
+    margin-bottom: -18px;
+  }
+
+  .ps-hovercard__overlay {
+    padding-bottom: 0;
+  }
+}

@@ -1,0 +1,52 @@
+.peepso-markdown ul {
+	padding-left: 2em !important;
+	padding-bottom: 1em !important;
+}
+
+.peepso-markdown ol {
+	padding-left: 1em !important;
+	padding-bottom: 1em !important;
+}
+
+.peepso-markdown ol > li {
+	list-style-type: decimal !important;
+	list-style-position: inside;
+}
+
+.peepso-markdown ul > li {
+	list-style-type: disc !important;
+}
+
+.peepso-markdown em {
+	font-style: italic !important;
+}
+
+.peepso-markdown strong {
+	font-weight: bold !important;
+}
+
+.peepso-markdown code {
+	background-color: #eee;
+	color: #888;
+	display: inline !important;
+	padding: 5px 5px 3px;
+	white-space: break-spaces;
+}
+
+.peepso-markdown code,
+.peepso-markdown code * {
+	font-family: 'Lucida Console', 'Courier New', Courier, monospace !important;
+}
+
+.peepso-markdown pre > code {
+	display: block !important;
+}
+
+.peepso-markdown blockquote br,
+.peepso-markdown blockquote > p > br {
+	display: block !important;
+}
+
+.ps-comment .peepso-markdown {
+	display: inline;
+}

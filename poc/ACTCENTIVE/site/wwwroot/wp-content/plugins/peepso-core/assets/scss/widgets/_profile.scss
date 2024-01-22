@@ -1,0 +1,281 @@
+//
+//  WIDGET: PROFILE
+//
+
+
+
+//
+//  Widget modifier, used for profile widget which
+//  has user details and menu links
+//
+.ps-widget--profile {
+  font-size: $font-size-sm;
+
+  .ps-form--login {
+    font-size: $font-size;
+  }
+
+  @extend %form-checkbox;
+}
+
+
+//
+//  A profile widget wrapper
+//
+.ps-widget--profile__wrapper {}
+
+
+//
+//  A header inside profile widget, wrapping
+//  user avatar, full name and preferences link
+//
+.ps-widget--profile__header {
+  display: table;
+  width: 100%;
+  margin-bottom: $padding-sm;
+
+  .ps-user-name {
+    margin-top: -2px;
+    margin-bottom: 4px;
+    font-size: 16px;
+    line-height: 1.2;
+  }
+}
+
+
+.ps-widget--profile__avatar {
+  display: table-cell;
+  width: 64px;
+}
+
+
+.ps-widget--profile__details {
+  display: table-cell;
+  vertical-align: middle;
+
+  @if $scss-direction == rtl {
+    padding-right: $padding-sm;
+  } @else {
+    padding-left: $padding-sm;
+  }
+
+  > a {
+    display: block;
+
+    > small {
+      font-size: $font-size-sm;
+      line-height: $line-height-base;
+    }
+  }
+}
+
+
+//
+//  Small bar with notifications
+//
+.ps-widget--profile__notifications {
+  display: flex;
+  margin-top: 8px;
+
+  > span {
+    display: block;
+
+    @if $scss-direction == rtl {
+      border-left: $divider;
+    } @else {
+      border-right: $divider;
+    }
+
+    &:first-child {
+      > a {
+        @if $scss-direction == rtl {
+          padding-right: 0;
+        } @else {
+          padding-left: 0;
+        }
+      }
+    }
+
+    &:last-child {
+      @if $scss-direction == rtl {
+        border-left: none;
+      } @else {
+        border-right: none;
+      }
+
+      > a {
+        @if $scss-direction == rtl {
+          padding-left: 0;
+        } @else {
+          padding-right: 0;
+        }
+      }
+    }
+  }
+
+  > span > a {
+    display: block;
+    padding: 2px 8px;
+    font-size: $font-size-base;
+    background-color: transparent;
+    outline: none;
+
+    &:hover,
+    &:focus {
+      //background-color: rgba(0,0,0, .025);
+    }
+  }
+
+  .ps-notification-counter {
+    top: 0;
+
+    @if $scss-direction == rtl {
+      left: 1px;
+      right: auto;
+    } @else {
+      right: 1px;
+    }
+  }
+}
+
+
+.ps-widget--profile__title {
+  display: block;
+  margin-top: $padding-base;
+  margin-bottom: ($padding-sm / 2);
+  font-size: $font-size-base;
+}
+
+
+.ps-widget--profile__menu {
+  font-size: $font-size-alt;
+
+  > a {
+    display: block;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    line-height: 1.2;
+  }
+
+  .ps-link--logout {
+    margin-top: $padding-sm;
+  }
+}
+
+
+.ps-widget--profile__cover {
+  position: relative;
+  border: $divider;
+
+  // ROUNDED CORNERS
+  @if $scss-rounded == true {
+    border-radius: 6px;
+  }
+}
+
+
+.ps-widget--profile__cover-wrapper {
+  position: relative;
+  display: block;
+  padding: $padd;
+  background: -moz-linear-gradient(top,  rgba(0,0,0,0) 40%, rgba(0,0,0,0.65) 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(40%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,0.65))); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 40%,rgba(0,0,0,0.65) 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top,  rgba(0,0,0,0) 40%,rgba(0,0,0,0.65) 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top,  rgba(0,0,0,0) 40%,rgba(0,0,0,0.65) 100%); /* IE10+ */
+  background: linear-gradient(to bottom,  rgba(0,0,0,0) 40%,rgba(0,0,0,0.65) 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6000000',GradientType=0 ); /* IE6-9 */
+
+  // ROUNDED CORNERS
+  @if $scss-rounded == true {
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+  }
+}
+
+
+.ps-widget--profile__cover-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-size: cover !important;
+
+  // ROUNDED CORNERS
+  @if $scss-rounded == true {
+    border-radius: 6px;
+  }
+}
+
+
+.ps-widget--profile__cover-header {
+  display: flex;
+  align-items: flex-end;
+  min-height: 90px;
+}
+
+
+.ps-widget--profile__cover-avatar {
+  position: relative;
+  width: 48px;
+  min-width: 48px;
+}
+
+
+.ps-widget--profile__cover-details {
+  position: relative;
+  font-size: 16px;
+  line-height: 1.2;
+  text-shadow: 0 0 3px black;
+  color: #fff;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+  @if $scss-direction == rtl {
+    padding-right: ($padd / 2);
+  } @else {
+    padding-left: ($padd / 2);
+  }
+}
+
+
+.ps-widget--profile__cover-notif {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-top: ($padd / 2);
+  padding-bottom: ($padd / 2);
+
+  background: -moz-linear-gradient(top,  rgba(0,0,0,0.55) 0%, rgba(0,0,0,0) 100%);
+  background: -webkit-linear-gradient(top,  rgba(0,0,0,0.55) 0%,rgba(0,0,0,0) 100%);
+  background: linear-gradient(to bottom,  rgba(0,0,0,0.55) 0%,rgba(0,0,0,0) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 );
+
+  // ROUNDED CORNERS
+  @if $scss-rounded == true {
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+  }
+
+  @if $scss-direction == rtl {
+    padding-left: ($padd / 2);
+    padding-right: $padd;
+  } @else {
+    padding-left: $padd;
+    padding-right: ($padd / 2);
+  }
+
+  .ps-widget--profile__notifications {
+    margin-top: 0;
+
+    > span > a {
+      color: #fff !important;
+    }
+  }
+}

@@ -1,0 +1,129 @@
+.ps-page--group-settings {}
+
+.ps-group__edit-fields {
+  padding: var(--PADD--MD);
+  background-color: var(--PS-COLOR--APP);
+  border-radius: var(--BORDER-RADIUS--MD);
+  box-shadow: var(--BOX-SHADOW--HARD);
+}
+
+.ps-group__edit-field {
+  margin-bottom: var(--PADD);
+  padding-bottom: var(--PADD);
+  line-height: var(--PS-LINE-HEIGHT);
+  border-bottom: 1px solid var(--DIVIDER--LIGHT);
+
+  .ps-alert {
+    margin-top: var(--PADD);
+    margin-bottom: 0;
+  }
+
+  &:last-of-type {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border-bottom: none;
+  }
+}
+
+.ps-group__edit-field-required {
+  color: var(--PS-COLOR--ABORT);
+}
+
+.ps-group__edit-field-row {}
+
+.ps-group__edit-field-header {
+  display: flex;
+  align-items: flex-start;
+}
+
+.ps-group__edit-field-title {
+  font-size: 80%;
+  text-transform: uppercase;
+  color: var(--PS-COLOR--TEXT--LIGHT);
+}
+
+.ps-group__edit-field-note {
+  margin-top: var(--PADD--SM);
+  margin-bottom: var(--PADD--SM);
+  text-transform: none;
+
+  &:before {
+    content: "*";
+    color: var(--PS-COLOR--TEXT--LIGHTEN);
+  }
+}
+
+.ps-group__edit-field-data {
+  .ps-group__edit-field--cats & {
+    > a {
+      &:after {
+        content: " / ";
+        color: var(--PS-COLOR--TEXT--LIGHT);
+      }
+
+      &:last-child {
+        &:after {
+          content: none;
+        }
+      }
+    }
+  }
+}
+
+.ps-group__edit-field-edit {
+  display: flex;
+
+  @if $rtl {
+    margin-right: auto;
+  } @else {
+    margin-left: auto;
+  }
+}
+
+.ps-group__edit-field-edit-item {
+  @if $rtl {
+    margin-left: var(--PADD--SM);
+  } @else {
+    margin-right: var(--PADD--SM);
+  }
+
+  &:last-child {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+.ps-group__edit-field-actions {
+  display: flex;
+  gap: var(--PADD--SM);
+
+  .ps-btn {
+    display: none;
+  }
+}
+
+.ps-group__edit-field-static {
+  font-size: 90%;
+}
+
+.ps-group__edit-field-desc {
+  margin-top: var(--PADD);
+  font-size: 80%;
+  color: var(--PS-COLOR--TEXT--LIGHT);
+}
+
+.ps-group__edit-field-placeholder {
+  color: var(--PS-COLOR--TEXT--LIGHT);
+}
+
+.ps-group__edit-field-form {
+  display: none;
+
+  .ps-input__wrapper {
+    margin-top: var(--PADD);
+  }
+
+  .ps-checkbox__label {
+    font-size: 90%;
+  }
+}

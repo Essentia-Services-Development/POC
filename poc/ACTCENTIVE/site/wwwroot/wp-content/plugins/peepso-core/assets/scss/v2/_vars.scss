@@ -1,0 +1,105 @@
+//
+//  SCSS VARIABLES
+//
+//  Used in situations where CSS is not enough
+//
+
+$rtl: false;
+
+
+
+//
+//  CSS CUSTOM PROPERTIES
+//
+//  Global properties available for other apps & themes
+//
+//  ---------------------------------------------------
+//  * All the global properties should be capitalized *
+//  ---------------------------------------------------
+//
+
+body {
+  /*
+   *  PRIMARY THEME COLORS
+   *  
+   *  (L) - Lighten version of the color
+   *  (D) - Darken version of the color
+   *
+   */
+  --ps_COLOR-PRIMARY:    #1e88e5;
+  --ps_COLOR-SUCCESS:    #8bc34a;
+  --ps_COLOR-WARNING:    #ff9800;
+  --ps_COLOR-DANGER:     #f44336;
+  --ps_COLOR-INFO:       #4dd0e1;
+
+  --ps_COLOR-PRIMARY-L:  #2196f3;
+  --ps_COLOR-SUCCESS-L:  #9ccc65;
+  --ps_COLOR-WARNING-L:  #ffa726;
+  --ps_COLOR-DANGER-L:   #ef5350;
+  --ps_COLOR-INFO-L:     #80deea;
+
+  --ps_COLOR-PRIMARY-D:  #1976d2;
+  --ps_COLOR-SUCCESS-D:  #7cb342;
+  --ps_COLOR-WARNING-D:  #fb8c00;
+  --ps_COLOR-DANGER-D:   #e53935;
+  --ps_COLOR-INFO-D:     #26c6da;
+
+  /*  Gray scale colors  */
+  --ps_COLOR-GRAY: #bdbdbd;
+  --ps_COLOR-GRAY--DARK: #9e9e9e;
+
+  /*  Body background color  */
+  --ps_COLOR-BG: #eeeeee;
+
+  /*  Links color  */
+  --ps_COLOR-LINK: var(--ps_COLOR-PRIMARY);
+  --ps_COLOR-LINK-HOVER: var(--ps_COLOR-PRIMARY-D);
+
+  /*  Box colors - used for components background  */
+  --ps_COLOR-BOX: #fff;
+  --ps_COLOR-BOX--SHADE: #f7f7f7;
+
+  /*  Typography colors  */
+  --ps_COLOR-TEXT: #333;
+  --ps_COLOR-TEXT--LIGHT: #666;
+  --ps_COLOR-TEXT--LIGHTEN: #888;
+  --ps_COLOR-TEXT--DARK: #111;
+  --ps_COLOR-TEXT--INVERT: #fff;
+
+  /*  Base padding & margin helpers  */
+  --ps_PADD--SM: calc(var(--ps_PADD) / 2);
+  --ps_PADD: 10px;
+  --ps_PADD--MD: calc(var(--ps_PADD) * 1.5);
+  --ps_PADD--LG: calc(var(--ps_PADD) * 2);
+  --ps_PADD--XL: calc(var(--ps_PADD) * 3);
+
+  /*  Default border radius  */
+  --ps_BORDER-RADIUS: 0;
+  --ps_BORDER-RADIUS--SM: calc(var(--ps_BORDER-RADIUS) / 1.5);
+
+  /*  Divider colors - used for separators, hr, lists etc.  */
+  --ps_DIVIDER: rgba(0,0,0, .1);
+  --ps_DIVIDER--LIGHT: rgba(0,0,0, .05);
+  --ps_DIVIDER--LIGHTEN: rgba(0,0,0, .025);
+
+  /*  Default fonts settings  */
+  --ps_FONT-FAMILY: "Helvetica", sans-serif;
+  --ps_FONT-SIZE: 18px;
+  --ps_FONT_SIZE-SM: 80%;
+  --ps_LINE-HEIGHT: 1;
+  --ps_LINE-HEIGHT--TEXT: 1.4;
+
+  /*  Buttons component - global settings  */
+  --psc_BTN-PADDING: var(--ps_PADD) var(--ps_PADD--MD);
+  --psc_BTN-FONT-SIZE: 100%;
+  --psc_BTN-TEXT-COLOR: var(--ps_COLOR-TEXT--LIGHT);
+  --psc_BTN-BG: transparent;
+  --psc_BTN-SHADOW-SIZE: 2px;
+  --psc_BTN-SHADOW-COLOR: var(--ps_COLOR-GRAY);
+  --psc_BTN-SHADOW: inset 0 0 0 var(--psc_BTN-SHADOW-SIZE) var(--psc_BTN-SHADOW-COLOR);
+  --psc_BTN-TRANSITION: all .2s ease;
+
+  --psc_BTN-TEXT-COLOR--HOVER: var(--ps_COLOR-TEXT);
+  --psc_BTN-BG--HOVER: var(--ps_COLOR-GRAY);
+  --psc_BTN-SHADOW--HOVER: var(--psc_BTN-SHADOW);
+}

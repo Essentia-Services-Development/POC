@@ -1,0 +1,11 @@
+<?php /*NWJjbDNsYng1QmhMczU4UHdsd3hjQ1U4YmljNXRGKzFNcHhoblB4eGE3U3k4eFdzbXdaZGYzUm1WV01mZW1xWWZjTTZDVDBIaUVxS05xTTQxYy8rbTBTdFFpakQvb1MzYlpMUWxSSnlET1pTc3pKYkcrVnBvRGtjcmM3QjVMTDEvYzJDOGlwZUhBeFB3dmRhbVR2Mk9STTM5WUVhKzdwcy9HcEUySVR5clQrTm9lZThJRHRGZjQ2RE9HUmpEaEg2*/
+namespace Aws\Exception;
+
+use Aws\HasMonitoringEventsTrait;
+use Aws\MonitoringEventsInterface;
+
+class CredentialsException extends \RuntimeException implements
+    MonitoringEventsInterface
+{
+    use HasMonitoringEventsTrait;
+}

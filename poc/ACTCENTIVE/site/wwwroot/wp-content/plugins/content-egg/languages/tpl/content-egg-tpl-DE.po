@@ -1,0 +1,972 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Content Egg 3.4.1\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/support/plugin/content-egg-tpl\n"
+"POT-Creation-Date: 2019-03-04 20:36+0200\n"
+"PO-Revision-Date: 2022-10-26 13:09+0000\n"
+"Last-Translator: Topollino <topollinchen@gmail.com>\n"
+"Language-Team: German\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"Plural-Forms: nplurals=2; plural=n != 1;"
+
+#: application/PriceAlert.php:288
+msgid "  Ok  "
+msgstr " Ok "
+
+#: application/admin/GeneralConfig.php:78
+#: application/helpers/TemplateHelper.php:780
+msgid "%d day ago"
+msgstr ""
+
+#: application/admin/GeneralConfig.php:79
+#: application/helpers/TemplateHelper.php:778
+msgid "%d days ago"
+msgstr ""
+
+#: application/admin/GeneralConfig.php:48
+#: application/templates/blocks/item_after_price_row.php:12
+#: application/templates/blocks/list_row.php:43
+#: templates/block_offers_logo.php:64 templates/block_price_comparison.php:51
+msgid "%d new from %s"
+msgstr ""
+
+#: application/admin/GeneralConfig.php:49
+#: application/templates/blocks/item_after_price_row.php:15
+#: application/templates/blocks/list_row.php:48
+#: templates/block_offers_logo.php:69 templates/block_price_comparison.php:56
+msgid "%d used from %s"
+msgstr ""
+
+#: templates/block_buttons_row.php:16
+msgid "%s at %s"
+msgstr ""
+
+#: application/PriceAlert.php:405
+msgid "<a href=\"%s\">More info...</a>"
+msgstr "<a href=\"%s\">Mehr Informationen...</a>"
+
+#: application/PriceAlert.php:398
+msgid "<a href=\"%s\">Save %s (%s%%) on %s</a>"
+msgstr "<a href=\"%s\">Speicher %s (%s%%) bei %s</a>"
+
+#: application/modules/Amazon/templates/data_add_to_cart.php:11
+#: application/modules/AmazonNoApi/templates/data_add_to_cart.php:11
+msgid "ADD ALL TO CART"
+msgstr ""
+
+#: application/PriceAlert.php:92
+msgid "All fields are required."
+msgstr "Alle Felder sind erforderlich."
+
+#. Description of the plugin/theme
+msgid "All in one solution for creating affiliate websites."
+msgstr ""
+
+#: templates/block_price_statistics.php:37
+msgid "All prices mentioned above are in %s."
+msgstr "Alle oben genannten Preise sind in %s."
+
+#: application/modules/Market/templates/data_item.php:136
+msgid "All reviews on Yandex.Market"
+msgstr "Alle Bewertungen auf Yandex.Market"
+
+#: application/helpers/TemplateHelper.php:788
+msgid "As an Amazon associate I earn from qualifying purchases."
+msgstr ""
+
+#: application/PriceAlert.php:402
+msgid "as of"
+msgstr "Am"
+
+#: application/admin/GeneralConfig.php:47
+#: application/modules/Amazon/templates/data_compare.php:98
+#: application/modules/Ozon/templates/data_compare.php:78
+#: application/templates/blocks/item_row.php:59
+#: application/templates/blocks/list_row.php:56
+#: application/templates/data_price_tracker_alert.php:48
+#: templates/block_offers_logo.php:76 templates/wdgt_price_movers_grid.php:72
+#: templates/wdgt_price_movers_list.php:48
+msgid "as of %s"
+msgstr ""
+
+#: templates/block_price_statistics.php:42
+msgid "At %s you can purchase %s for only %s"
+msgstr "Bei %s kannst du %s für nur %s erhalten"
+
+#: application/modules/Market/templates/data_item.php:44
+msgid "Average price"
+msgstr "Durchschnittspreis"
+
+#: templates/block_top_listing.php:45
+msgid "Best choice"
+msgstr ""
+
+#: application/templates/blocks/item_after_price_row.php:32
+msgid "Bids:"
+msgstr "Gebote:"
+
+#: application/helpers/TemplateHelper.php:751
+#, fuzzy
+#| msgid "Buy It Now"
+msgid "BUY NOW"
+msgstr "Jetzt kaufen"
+
+#: application/admin/GeneralConfig.php:433
+msgid "Buy Now"
+msgstr ""
+
+#: application/modules/Market/templates/data_item.php:130
+msgid "Comment:"
+msgstr "Kommentar:"
+
+#: application/modules/Amazon/templates/data_compare.php:7
+#: application/modules/Amazon/templates/data_compare.php:41
+#: application/modules/Ozon/templates/data_compare.php:7
+#: application/modules/Ozon/templates/data_compare.php:29
+msgid "Compare"
+msgstr "Vergleichen"
+
+#: application/components/ContentManager.php:505
+#: application/modules/Market/templates/data_item.php:129
+msgid "Cons:"
+msgstr "Nachteile:"
+
+#. Plugin Name of the plugin/theme
+msgid "Content Egg<stripfree> Pro</stripfree>"
+msgstr ""
+
+#: application/modules/AdmitadCoupons/templates/data_coupons.php:7
+#: application/modules/AffilinetCoupons/templates/data_coupons.php:7
+#: application/modules/Coupon/templates/data_coupons.php:8
+#: application/modules/LomadeeCoupons/templates/data_coupons.php:8
+#: application/modules/SkimlinksCoupons/templates/data_coupons.php:8
+#: application/modules/TradedoublerCoupons/templates/data_coupons.php:8
+#: application/modules/TradetrackerCoupons/templates/data_coupons.php:8
+msgid "Coupons"
+msgstr "Gutscheine"
+
+#: application/admin/GeneralConfig.php:66 templates/block_price_alert.php:25
+msgid "Create Your Free Price Drop Alert!"
+msgstr ""
+
+#: application/modules/Udemy/templates/_item_details_bottom.php:9
+msgid "Created by"
+msgstr ""
+
+#: application/admin/GeneralConfig.php:57
+#: application/templates/blocks/price_history.php:22
+msgid "Current Price"
+msgstr "Aktueller Preis"
+
+#: application/PriceAlert.php:401
+msgid "Current Price: <strong>%s</strong>"
+msgstr "Aktueller Preis: <strong>%s</strong>"
+
+#: application/modules/Market/templates/data_item.php:110
+#: application/templates/blocks/item_reviews.php:8
+#: application/templates/blocks/item_reviews.php:49
+msgid "Customer reviews"
+msgstr "Kundenbewertungen"
+
+#: application/modules/Market/templates/data_item.php:34
+msgid "Customer reviews:"
+msgstr "Kundenbewertungen:"
+
+#: templates/block_customizable.php:10
+msgid "Customizable (use with \"show\" parameter)"
+msgstr ""
+
+#: application/helpers/TemplateHelper.php:123
+msgid "d"
+msgstr "d"
+
+#: application/modules/Market/templates/data_item.php:51
+msgid "Data from Yandex.Market"
+msgstr "Daten von Yandex.Market"
+
+#: application/modules/Ozon/templates/data_compare.php:99
+msgid "Description"
+msgstr "Beschreibung"
+
+#: application/admin/GeneralConfig.php:69
+#: application/templates/blocks/price_alert_inline.php:37
+#: application/templates/blocks/price_alert_inline.php:43
+msgid "Desired Price"
+msgstr "Gewünschter Preis"
+
+#: application/PriceAlert.php:400
+msgid "Desired Price: %s"
+msgstr "Gewünschter Preis: %s"
+
+# Keine Ahnung was EEK ist
+#: application/templates/blocks/item_after_price_row.php:59
+msgid "EEK:"
+msgstr "EEK:"
+
+#: application/admin/GeneralConfig.php:63
+#: application/templates/data_coupon.php:41
+msgid "End date: %s"
+msgstr ""
+
+#: application/templates/blocks/item_after_price_row.php:49
+msgid "Ended:"
+msgstr "Beendet:"
+
+#: application/modules/CjLinks/templates/data_universal.php:39
+msgid "Ends:"
+msgstr "Endet:"
+
+#: application/modules/Amazon/templates/data_compare.php:194
+msgid "Expert Reviews"
+msgstr "Expertenbewertungen"
+
+#: application/admin/GeneralConfig.php:54
+#: application/modules/Amazon/templates/data_compare.php:119
+#: application/templates/blocks/item_features.php:30
+#: application/templates/blocks/item_features.php:40
+#: application/templates/blocks/item_features.php:52
+#: application/templates/blocks/item_features.php:64
+#: application/templates/blocks/item_features.php:76
+#: application/templates/blocks/item_features.php:89
+#: application/templates/blocks/item_features.php:98
+msgid "Features"
+msgstr "Eigenschaften"
+
+#: application/modules/Market/templates/data_item.php:84
+msgid "free"
+msgstr "kostenlos"
+
+#: application/admin/GeneralConfig.php:50
+#: application/modules/Amazon/templates/data_compare.php:80
+#: application/templates/blocks/item_after_price_row.php:18
+#: application/templates/blocks/item_after_price_row.php:55
+msgid "Free shipping"
+msgstr "Kostenloser Versand"
+
+#: application/modules/Amazon/templates/data_compare.php:88
+#: application/modules/Amazon/templates/data_compare.php:93
+msgid "from"
+msgstr "ab"
+
+#: application/admin/PrefillController.php:37
+#: application/admin/views/prefill.php:116
+msgid "Future"
+msgstr ""
+
+#: application/modules/BingImages/templates/data_justified_gallery.php:8
+#: application/modules/Flickr/templates/data_justified_gallery.php:8
+#: application/modules/GoogleImages/templates/data_justified_gallery.php:8
+#: application/modules/Ozon/templates/data_compare.php:180
+#: application/modules/Pixabay/templates/data_justified_gallery.php:8
+#: application/modules/QwantImages/templates/data_justified_gallery.php:8
+msgid "Gallery"
+msgstr "Galerie"
+
+#: application/PriceAlert.php:396
+msgid "Good news!"
+msgstr "Gute Nachrichten!"
+
+#: application/modules/AE/templates/data_grid.php:8
+#: application/modules/AdmitadProducts/templates/data_grid.php:8
+#: application/modules/Affiliatewindow/templates/data_grid.php:8
+#: application/modules/AffilinetProducts/templates/data_grid.php:8
+#: application/modules/Aliexpress/templates/data_grid.php:9
+#: application/modules/Aliexpress2/templates/data_grid.php:9
+#: application/modules/Amazon/templates/data_grid.php:9
+#: application/modules/AmazonNoApi/templates/data_grid.php:9
+#: application/modules/AvantlinkProducts/templates/data_grid.php:9
+#: application/modules/Awin/templates/data_grid.php:9
+#: application/modules/Bolcom/templates/data_grid.php:9
+#: application/modules/CityadsProducts/templates/data_grid.php:9
+#: application/modules/CjProducts/templates/data_grid.php:9
+#: application/modules/Daisycon/templates/data_grid.php:9
+#: application/modules/Ebay/templates/data_grid.php:9
+#: application/modules/Ebay2/templates/data_grid.php:9
+#: application/modules/Envato/templates/data_grid.php:9
+#: application/modules/Feed/templates/data_grid.php:8
+#: application/modules/Flipkart/templates/data_grid.php:9
+#: application/modules/GdeSlon/templates/data_grid.php:9
+#: application/modules/Impactradius/templates/data_grid.php:9
+#: application/modules/Kelkoo/templates/data_grid.php:9
+#: application/modules/Linkshare/templates/data_grid.php:9
+#: application/modules/Linkwise/templates/data_grid.php:9
+#: application/modules/LomadeeProducts/templates/data_grid.php:9
+#: application/modules/Offer/templates/data_grid.php:9
+#: application/modules/Optimisemedia/templates/data_grid.php:9
+#: application/modules/PayTM/templates/data_grid.php:9
+#: application/modules/Pepperjam/templates/data_grid.php:9
+#: application/modules/Shareasale/templates/data_grid.php:9
+#: application/modules/TradedoublerProducts/templates/data_grid.php:9
+#: application/modules/TradetrackerProducts/templates/data_grid.php:9
+#: application/modules/Udemy/templates/data_grid.php:9
+#: application/modules/Viglink/templates/data_grid.php:9
+#: application/modules/Walmart/templates/data_grid.php:9
+#: application/modules/Webgains/templates/data_grid.php:9
+#: application/modules/Zanox/templates/data_grid.php:9
+#: templates/wdgt_price_movers_grid.php:7
+msgid "Grid"
+msgstr "Gitter"
+
+#: templates/block_offers_grid.php:9
+msgid "Grid with prices (3 column)"
+msgstr ""
+
+#: templates/block_offers_tile.php:9
+msgid "Grid without price (4 column)"
+msgstr ""
+
+#: application/helpers/TemplateHelper.php:125
+msgid "h"
+msgstr "h"
+
+#: application/PriceAlert.php:164
+msgid "Hello,"
+msgstr "Hallo,"
+
+#: templates/block_top_listing.php:49
+msgid "High quality"
+msgstr ""
+
+#: application/admin/GeneralConfig.php:58
+#: application/templates/blocks/price_history.php:34
+msgid "Highest Price"
+msgstr "Höchster Preis"
+
+#: application/modules/Flipkart/templates/_item_details_top.php:4
+msgid "Highlights"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://www.keywordrush.com"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://www.keywordrush.com/contentegg"
+msgstr ""
+
+#: application/admin/GeneralConfig.php:72
+#: application/templates/blocks/price_alert_inline.php:59
+msgid "I agree to the %s."
+msgstr ""
+
+#: application/PriceAlert.php:168 application/PriceAlert.php:409
+msgid ""
+"If you don't want to receive any price alerts from us in the future, <a "
+"href=\"%s\">please click here</a>."
+msgstr ""
+"Wenn du in Zukunft keine Preisalarme mehr von uns haben möchtest, <a "
+"href=\"%s\">dann klick bitte hier</a>."
+
+#: application/modules/BingImages/templates/data_image.php:6
+#: application/modules/GoogleImages/templates/data_image.php:6
+#: application/modules/Pixabay/templates/data_image.php:6
+#: application/modules/QwantImages/templates/data_image.php:6
+msgid "Image"
+msgstr "Bild"
+
+#: application/modules/Amazon/templates/data_compare.php:221
+msgid "Images"
+msgstr "Bilder"
+
+#: application/modules/Market/templates/data_item.php:95
+msgid "In stock"
+msgstr "Auf Lager"
+
+#: application/admin/GeneralConfig.php:43
+#: application/helpers/TemplateHelper.php:887
+msgid "in stock"
+msgstr "Auf Lager"
+
+#: application/PriceAlert.php:129
+msgid "Internal Error. Please notify the administrator."
+msgstr "Interner Fehler. Bitte benachrichtige den Administrator."
+
+#: application/templates/blocks/item_after_price_row.php:37
+msgid "Item condition:"
+msgstr "Artikelzustand:"
+
+#. Author of the plugin/theme
+msgid "keywordrush.com"
+msgstr "keywordrush.com"
+
+#: application/admin/GeneralConfig.php:46
+#: templates/block_price_comparison.php:77
+#: templates/block_price_comparison_card.php:55
+#: templates/block_text_links.php:39
+msgid "Last Amazon price update was: %s"
+msgstr ""
+
+#: application/admin/GeneralConfig.php:61
+#: application/templates/blocks/price_history.php:49
+msgid "Last price changes"
+msgstr "Letzte Preisänderungen"
+
+#: application/modules/Coupon/views/metabox_module.php:113
+msgid "Last update: "
+msgstr "Letztes Update: "
+
+#: application/WooIntegrator.php:544 application/admin/GeneralConfig.php:45
+#: application/templates/blocks/grid_row.php:43
+#: application/templates/blocks/item_row.php:37
+#: application/templates/blocks/list_row.php:34
+#: application/templates/data_list.php:28
+#: application/templates/data_price_tracker_alert.php:43
+#: templates/block_offers_logo.php:55 templates/block_price_comparison.php:44
+msgid "Last updated on %s"
+msgstr "Aktualisiert am %s"
+
+#: application/modules/AE/templates/data_list.php:7
+#: application/modules/AdmitadProducts/templates/data_list.php:7
+#: application/modules/Affiliatewindow/templates/data_list.php:7
+#: application/modules/AffilinetProducts/templates/data_list.php:6
+#: application/modules/Aliexpress/templates/data_list.php:8
+#: application/modules/Aliexpress2/templates/data_list.php:8
+#: application/modules/Amazon/templates/data_list.php:8
+#: application/modules/AmazonNoApi/templates/data_list.php:8
+#: application/modules/AvantlinkProducts/templates/data_list.php:8
+#: application/modules/Awin/templates/data_list.php:8
+#: application/modules/Bolcom/templates/data_list.php:8
+#: application/modules/CityadsProducts/templates/data_list.php:8
+#: application/modules/CjProducts/templates/data_list.php:8
+#: application/modules/Daisycon/templates/data_list.php:8
+#: application/modules/Ebay/templates/data_list.php:8
+#: application/modules/Ebay2/templates/data_list.php:8
+#: application/modules/Envato/templates/data_list.php:8
+#: application/modules/Feed/templates/data_list.php:7
+#: application/modules/Flipkart/templates/data_list.php:8
+#: application/modules/GdeSlon/templates/data_list.php:8
+#: application/modules/Impactradius/templates/data_list.php:8
+#: application/modules/Kelkoo/templates/data_list.php:8
+#: application/modules/Linkshare/templates/data_list.php:8
+#: application/modules/Linkwise/templates/data_list.php:8
+#: application/modules/LomadeeProducts/templates/data_list.php:8
+#: application/modules/Offer/templates/data_list.php:8
+#: application/modules/Optimisemedia/templates/data_list.php:8
+#: application/modules/Ozon/templates/data_grid.php:9
+#: application/modules/Ozon/templates/data_list.php:8
+#: application/modules/PayTM/templates/data_list.php:8
+#: application/modules/Pepperjam/templates/data_list.php:8
+#: application/modules/Shareasale/templates/data_list.php:8
+#: application/modules/TradedoublerProducts/templates/data_list.php:8
+#: application/modules/TradetrackerProducts/templates/data_list.php:8
+#: application/modules/Udemy/templates/data_list.php:8
+#: application/modules/Viglink/templates/data_list.php:8
+#: application/modules/Walmart/templates/data_list.php:8
+#: application/modules/Webgains/templates/data_list.php:8
+#: application/modules/Zanox/templates/data_list.php:8
+msgid "List"
+msgstr "Liste"
+
+#: application/admin/GeneralConfig.php:59
+#: application/templates/blocks/price_history.php:40
+msgid "Lowest Price"
+msgstr "Niedrigster Preis"
+
+#: application/helpers/TemplateHelper.php:127
+#: application/helpers/TemplateHelper.php:129
+#: application/templates/blocks/item_after_price_row.php:45
+msgid "m"
+msgstr "m"
+
+#: application/modules/Amazon/templates/data_compare.php:86
+msgid "new"
+msgstr "neu"
+
+#: application/modules/Market/templates/data_item.php:97
+msgid "Not available"
+msgstr "Nicht verfügbar"
+
+#: application/helpers/TemplateHelper.php:39
+#: application/helpers/TemplateHelper.php:60
+msgid "number_format_decimal_point"
+msgstr "number_format_decimal_point"
+
+#: application/helpers/TemplateHelper.php:40
+#: application/helpers/TemplateHelper.php:61
+msgid "number_format_thousands_sep"
+msgstr "number_format_thousands_sep"
+
+#: application/admin/GeneralConfig.php:51
+#: application/templates/data_coupon.php:26
+#: application/templates/data_coupon.php:33
+#: templates/wdgt_price_movers_grid.php:60
+#: templates/wdgt_price_movers_list.php:62
+msgid "OFF"
+msgstr "AUS"
+
+#: application/admin/GeneralConfig.php:44
+#: application/helpers/TemplateHelper.php:889
+msgid "out of stock"
+msgstr "Ausverkauft"
+
+#: application/modules/Flickr/templates/data_simple.php:21
+msgid "Photo %s on Flickr"
+msgstr "Foto %s auf Flickr"
+
+#: application/modules/Flickr/templates/data_justified_gallery.php:63
+msgid "Photo: %s on Flickr"
+msgstr "Foto: %s auf Flickr"
+
+#: application/modules/Market/templates/data_item.php:91
+msgid "Pickup"
+msgstr "Abholen"
+
+#: application/PriceAlert.php:95
+msgid "Please indicate that you have read and agree to the Privacy Policy."
+msgstr ""
+
+#: application/PriceAlert.php:167
+msgid ""
+"Please open this link to validate your email address:<br> <a href=\"%s\">"
+"%s</a>"
+msgstr ""
+"Bitte öffne diesen Link, um deine E-Mail-Adresse zu bestätigen:<br> <a "
+"href=\"%s\">%s</a>"
+
+#: application/admin/GeneralConfig.php:52
+#: application/templates/blocks/item_row.php:42
+msgid "Plus %s Cash Back"
+msgstr ""
+
+#: application/admin/GeneralConfig.php:53
+#: application/helpers/TemplateHelper.php:370
+#: application/modules/Amazon/templates/data_compare.php:65
+#: application/modules/Ozon/templates/data_compare.php:68
+#: application/templates/data_price_tracker_alert.php:39
+msgid "Price"
+msgstr "Preis"
+
+#: templates/block_price_alert.php:9
+msgid "Price alert for lowest price product"
+msgstr ""
+
+#: application/PriceAlert.php:362
+msgid "Price alert: \"%s\""
+msgstr "Preisalarm: \"%s\""
+
+#: templates/block_price_comparison.php:9
+msgid "Price comparison widget"
+msgstr ""
+
+#: application/PriceAlert.php:403
+msgid "Price dropped from %s to %s"
+msgstr "Preis fiel von %s auf %s"
+
+#: application/PriceMoversWidget.php:62
+msgid "Price Drops"
+msgstr ""
+
+#: application/templates/blocks/price_history.php:10
+msgid "Price History"
+msgstr "Preishistorie"
+
+#: application/admin/GeneralConfig.php:65 templates/block_price_history.php:20
+msgid "Price History for"
+msgstr "Preishistorie für"
+
+#: templates/block_price_history.php:9
+msgid "Price history for lowest price product"
+msgstr ""
+
+#: application/WooIntegrator.php:563 application/admin/GeneralConfig.php:76
+msgid "Price per unit: %s"
+msgstr ""
+
+#: templates/block_price_statistics.php:10
+msgid "Price statistics"
+msgstr "Preisstatistik"
+
+#: application/modules/AE/templates/data_price_tracker_alert.php:8
+#: application/modules/AdmitadProducts/templates/data_price_tracker_alert.php:8
+#: application/modules/Affiliatewindow/templates/data_price_tracker_alert.php:8
+#: application/modules/AffilinetProducts/templates/data_price_tracker_alert.php:9
+#: application/modules/Aliexpress/templates/data_price_tracker_alert.php:9
+#: application/modules/Aliexpress2/templates/data_price_tracker_alert.php:9
+#: application/modules/Amazon/templates/data_price_tracker_alert.php:9
+#: application/modules/AmazonNoApi/templates/data_price_tracker_alert.php:9
+#: application/modules/AvantlinkProducts/templates/data_price_tracker_alert.php:9
+#: application/modules/Awin/templates/data_price_tracker_alert.php:9
+#: application/modules/Bolcom/templates/data_price_tracker_alert.php:9
+#: application/modules/CjProducts/templates/data_price_tracker_alert.php:9
+#: application/modules/Daisycon/templates/data_price_tracker_alert.php:9
+#: application/modules/Ebay/templates/data_price_tracker_alert.php:9
+#: application/modules/Ebay2/templates/data_price_tracker_alert.php:9
+#: application/modules/Feed/templates/data_price_tracker_alert.php:8
+#: application/modules/Flipkart/templates/data_price_tracker_alert.php:9
+#: application/modules/GdeSlon/templates/data_price_tracker_alert.php:9
+#: application/modules/Impactradius/templates/data_price_tracker_alert.php:9
+#: application/modules/Kelkoo/templates/data_price_tracker_alert.php:9
+#: application/modules/Linkshare/templates/data_price_tracker_alert.php:9
+#: application/modules/Linkwise/templates/data_price_tracker_alert.php:9
+#: application/modules/LomadeeProducts/templates/data_price_tracker_alert.php:9
+#: application/modules/Offer/templates/data_price_tracker_alert.php:9
+#: application/modules/Optimisemedia/templates/data_price_tracker_alert.php:9
+#: application/modules/Ozon/templates/data_price_tracker_alert.php:9
+#: application/modules/PayTM/templates/data_price_tracker_alert.php:9
+#: application/modules/Pepperjam/templates/data_price_tracker_alert.php:9
+#: application/modules/Shareasale/templates/data_price_tracker_alert.php:9
+#: application/modules/TradedoublerProducts/templates/data_price_tracker_alert.php:9
+#: application/modules/TradetrackerProducts/templates/data_price_tracker_alert.php:9
+#: application/modules/Viglink/templates/data_price_tracker_alert.php:9
+#: application/modules/Walmart/templates/data_price_tracker_alert.php:9
+#: application/modules/Webgains/templates/data_price_tracker_alert.php:9
+#: application/modules/Zanox/templates/data_price_tracker_alert.php:9
+#: application/templates/data_price_tracker_alert.php:5
+msgid "Price tracker & alert"
+msgstr "Preistracker & Alarm"
+
+#: application/admin/GeneralConfig.php:73
+#: application/templates/blocks/price_alert_inline.php:58
+msgid "Privacy Policy"
+msgstr ""
+
+#: application/modules/AE/templates/data_item.php:8
+#: application/modules/AdmitadProducts/templates/data_item.php:8
+#: application/modules/Affiliatewindow/templates/data_item.php:8
+#: application/modules/AffilinetProducts/templates/data_item.php:9
+#: application/modules/Aliexpress/templates/data_item.php:9
+#: application/modules/Aliexpress2/templates/data_item.php:9
+#: application/modules/Amazon/templates/data_item.php:9
+#: application/modules/AmazonNoApi/templates/data_item.php:9
+#: application/modules/AvantlinkProducts/templates/data_item.php:9
+#: application/modules/Awin/templates/data_item.php:9
+#: application/modules/Bolcom/templates/data_item.php:9
+#: application/modules/CityadsProducts/templates/data_item.php:9
+#: application/modules/CjProducts/templates/data_item.php:9
+#: application/modules/Daisycon/templates/data_item.php:9
+#: application/modules/Ebay/templates/data_item.php:9
+#: application/modules/Ebay2/templates/data_item.php:9
+#: application/modules/Envato/templates/data_item.php:9
+#: application/modules/Feed/templates/data_item.php:8
+#: application/modules/Flipkart/templates/data_item.php:9
+#: application/modules/GdeSlon/templates/data_item.php:9
+#: application/modules/Impactradius/templates/data_item.php:9
+#: application/modules/Kelkoo/templates/data_item.php:9
+#: application/modules/Linkshare/templates/data_item.php:9
+#: application/modules/Linkwise/templates/data_item.php:9
+#: application/modules/LomadeeProducts/templates/data_item.php:9
+#: application/modules/Market/templates/data_item.php:6
+#: application/modules/Offer/templates/data_item.php:9
+#: application/modules/Optimisemedia/templates/data_item.php:9
+#: application/modules/Ozon/templates/data_item.php:9
+#: application/modules/PayTM/templates/data_item.php:9
+#: application/modules/Pepperjam/templates/data_item.php:9
+#: application/modules/Shareasale/templates/data_item.php:9
+#: application/modules/TradedoublerProducts/templates/data_item.php:9
+#: application/modules/TradetrackerProducts/templates/data_item.php:9
+#: application/modules/Udemy/templates/data_item.php:9
+#: application/modules/Viglink/templates/data_item.php:9
+#: application/modules/Walmart/templates/data_item.php:9
+#: application/modules/Webgains/templates/data_item.php:9
+#: application/modules/Zanox/templates/data_item.php:9
+msgid "Product card"
+msgstr "Product card"
+
+#: application/helpers/TemplateHelper.php:788
+msgid ""
+"Product prices and availability are accurate as of the date/time indicated "
+"and are subject to change. Any price and availability information displayed "
+"on Amazon at the time of purchase will apply to the purchase of this product."
+msgstr ""
+"Produktpreise und -verfügbarkeit gelten zum angegebenen Datum / Zeitpunkt "
+"und können sich ändern. Es gelten alle Preis- und "
+"Verfügbarkeitsinformationen, die bei Amazon zum Zeitpunkt des Kaufs "
+"angezeigt werden, für Kauf dieses Produkts."
+
+#: application/ProductSearchWidget.php:81
+msgid "Product Search..."
+msgstr ""
+
+#: application/components/ContentManager.php:503
+#: application/modules/Market/templates/data_item.php:128
+msgid "Pros:"
+msgstr "Vorteile:"
+
+#: application/components/ContentManager.php:593
+msgid "Rating"
+msgstr "Bewertung"
+
+#: application/modules/Udemy/templates/_item_details_bottom.php:20
+msgid "Rating:"
+msgstr ""
+
+#: templates/block_top_listing.php:47
+msgid "Recommended"
+msgstr ""
+
+#: application/modules/Envato/templates/_item_details_bottom.php:11
+#: application/modules/Udemy/templates/_item_details_bottom.php:38
+msgid "Requirements"
+msgstr "Anforderungen"
+
+#: application/modules/Udemy/templates/_item_details_bottom.php:20
+msgid "reviews"
+msgstr ""
+
+#: application/modules/Ozon/templates/data_compare.php:57
+msgid "Reviews:"
+msgstr "Bewertungen:"
+
+#: application/admin/GeneralConfig.php:75
+msgid "Search Results for \"%s\""
+msgstr ""
+
+#: application/modules/Ozon/templates/data_compare.php:60
+msgid "See all reviews"
+msgstr "Alle Bewertungen anschauen"
+
+#: application/admin/GeneralConfig.php:70
+#: application/templates/blocks/price_alert_inline.php:48
+msgid "SET ALERT"
+msgstr "ALARM SETZEN"
+
+#: application/admin/GeneralConfig.php:64 templates/block_price_alert.php:20
+msgid "Set Alert for"
+msgstr ""
+
+#: application/modules/Market/templates/data_item.php:84
+#: application/modules/Market/templates/data_item.php:86
+msgid "Shipping:"
+msgstr ""
+
+#: application/modules/Amazon/templates/data_compare.php:106
+#: application/modules/Amazon/templates/data_compare.php:210
+#: application/modules/Ozon/templates/data_compare.php:86
+#: application/modules/Ozon/templates/data_compare.php:167
+msgid "Shop Now"
+msgstr "Jetzt kaufen"
+
+# Zusammenhang?
+#: application/admin/GeneralConfig.php:443
+#: application/helpers/TemplateHelper.php:756
+msgid "Shop Sale"
+msgstr "Angebot holen"
+
+#: application/modules/Clickbank/templates/data_simple.php:7
+#: application/modules/Flickr/templates/data_simple.php:6
+#: application/modules/Freebase/templates/data_simple.php:6
+#: application/modules/GoogleBooks/templates/data_simple.php:6
+#: application/modules/Twitter/templates/data_simple.php:6
+#: application/modules/VkNews/templates/data_simple.php:6
+#: application/modules/Youtube/templates/data_simple.php:6
+msgid "Simple"
+msgstr "Einfach"
+
+#: application/admin/GeneralConfig.php:60
+#: application/templates/blocks/price_history.php:46
+msgid "Since %s"
+msgstr ""
+
+#: application/admin/GeneralConfig.php:74
+msgid "Sorry. No products found."
+msgstr ""
+
+#: templates/block_offers_list.php:9
+msgid "Sorted offers list with product images"
+msgstr ""
+
+#: templates/block_offers_logo_groups.php:9
+msgid "Sorted offers list with product images + group pills"
+msgstr ""
+
+#: templates/block_offers_list_groups.php:9
+msgid "Sorted offers list with product images + group tabs"
+msgstr ""
+
+#: templates/block_offers_logo.php:9
+msgid "Sorted offers list with store logos"
+msgstr ""
+
+#: application/modules/Freebase/templates/data_simple.php:28
+msgid "Source:"
+msgstr "Quelle:"
+
+#: application/admin/GeneralConfig.php:55
+#: application/templates/blocks/item_features.php:11
+msgid "Specifications"
+msgstr "Spezifikationen"
+
+#: application/admin/GeneralConfig.php:62
+#: application/templates/data_coupon.php:38
+msgid "Start date: %s"
+msgstr ""
+
+#: application/admin/GeneralConfig.php:56
+#: application/templates/blocks/price_history.php:19
+msgid "Statistics"
+msgstr "Statistiken"
+
+#: application/modules/Udemy/templates/_item_details_bottom.php:24
+msgid "students enrolled"
+msgstr ""
+
+#: application/PriceAlert.php:237 application/PriceAlert.php:272
+msgid "Success!"
+msgstr "Erfolg!"
+
+#: application/modules/Envato/templates/_item_details_bottom.php:19
+#: application/modules/Udemy/templates/_item_details_bottom.php:46
+msgid "Target audience"
+msgstr "Zielgruppe"
+
+#: application/PriceAlert.php:181
+msgid "Thank You,"
+msgstr ""
+
+#: application/PriceAlert.php:181
+msgid "The %s Team"
+msgstr ""
+
+#: templates/block_price_statistics.php:43
+msgid "The lowest price of %s was obtained on %s."
+msgstr "Der niedrigste Preis von %s wurde am %s gefunden."
+
+#: application/PriceAlert.php:101
+msgid "The price has already been reached."
+msgstr "Dieser Preis ist bereits erreicht."
+
+#: application/PriceAlert.php:397
+msgid "The price target you set for the item has been reached."
+msgstr ""
+"Der gewünscht Preis, den du für den Artikel festgelegt hast, wurde erreicht."
+
+#: application/PriceAlert.php:408
+msgid ""
+"This present alert has now expired. You may <a href=\"%s\">create a new "
+"alert</a> for this item."
+msgstr ""
+"Dieser Alarm ist abgelaufen. Du kannst aber <a href=\"%s\">einen neuen "
+"Alarm</a> für dieses Produkt erstellen."
+
+#: templates/block_price_statistics.php:40
+msgid "This product is available at %s."
+msgstr ""
+
+# Zusammenhang?
+#: application/modules/Youtube/templates/data_tile.php:6
+msgid "Tile"
+msgstr "Kacheln"
+
+#: application/templates/blocks/item_after_price_row.php:44
+msgid "Time left:"
+msgstr "Verbleibende Zeit:"
+
+#: application/admin/GeneralConfig.php:77
+#: application/helpers/TemplateHelper.php:774
+msgid "today"
+msgstr ""
+
+#: application/modules/Amazon/templates/data_compare.php:77
+msgid "Too low to display"
+msgstr "Zu niedrig zum Anzeigen"
+
+#: application/modules/CjLinks/templates/data_universal.php:7
+msgid "Universal"
+msgstr "Universal"
+
+#: application/PriceAlert.php:254
+msgid "Unsubscribed!"
+msgstr "Abgemeldet!"
+
+#: application/modules/Amazon/templates/data_compare.php:93
+msgid "used"
+msgstr "gebraucht"
+
+#: application/modules/Ozon/templates/data_compare.php:46
+msgid "User Rating"
+msgstr "Nutzerwertung"
+
+#: application/modules/Amazon/templates/data_compare.php:169
+#: application/modules/Ozon/templates/data_compare.php:140
+msgid "User Reviews"
+msgstr "Nutzerwertungen"
+
+#: application/templates/blocks/item_reviews.php:29
+msgid "User reviews"
+msgstr "Nuterwertungen"
+
+#: application/templates/blocks/item_reviews.php:43
+msgid "View all reviews"
+msgstr "Alle Bewertungen"
+
+#: application/modules/Market/templates/data_item.php:102
+msgid "Visit store"
+msgstr "Shop besuchen"
+
+#: application/admin/GeneralConfig.php:67
+#: application/templates/blocks/price_alert_inline.php:25
+msgid "Wait For A Price Drop"
+msgstr "Auf einen Preisrückgang warten"
+
+#: application/PriceAlert.php:127
+msgid ""
+"We are now tracking this product for you. Please verify your email address "
+"to be notified of price drops."
+msgstr ""
+"Wir verfolgen dieses Produkt jetzt für dich. Bitte überprüfe deine E-Mail-"
+"Adresse, um über Preissenkungen benachrichtigt zu werden."
+
+#: application/PriceAlert.php:166
+msgid ""
+"We will not send you any price alerts until you verified your email address."
+msgstr ""
+"Wir dürfen dir keine Preisbenachrichtigungen senden, bis du deine E-Mail-"
+"Adresse bestätigt hast."
+
+#: application/PriceAlert.php:135
+msgid "Welcome to %s"
+msgstr "Willkommen bei %s"
+
+#: application/modules/Envato/templates/_item_details_bottom.php:3
+#: application/modules/Udemy/templates/_item_details_bottom.php:30
+msgid "What Will I Learn?"
+msgstr "Was werde ich lernen?"
+
+#: templates/block_price_statistics.php:42
+msgid "which is %s%% less than the cost in %s (%s)."
+msgstr "was %s%% weniger als  %s (%s) ist."
+
+#: application/PriceAlert.php:109
+msgid "You already tracking this product."
+msgstr "Du folgst diesem Produkt bereits."
+
+#: application/PriceAlert.php:254
+msgid "You are now unsubscribed from our Price Alerts via email."
+msgstr ""
+"Du bist jetzt von unseren Preisbenachrichtigungen per E-Mail abgemeldet."
+
+#: application/PriceAlert.php:165
+msgid "You have successfully set a price drop alert for %s."
+msgstr "Du hast erfolgreich deinen Preisalarm für %s gesetzt."
+
+#: application/admin/GeneralConfig.php:71
+#: application/templates/blocks/price_alert_inline.php:63
+msgid "You will receive a notification when the price drops."
+msgstr ""
+"Du erhälst eine Benachrichtigung, wenn dein gewünschter Preis erreicht wird."
+
+#: application/admin/GeneralConfig.php:68
+#: application/templates/blocks/price_alert_inline.php:33
+#: application/templates/blocks/price_alert_inline.php:34
+msgid "Your Email"
+msgstr "Deine Email-Adresse"
+
+#: application/PriceAlert.php:98
+msgid "Your email address is invalid."
+msgstr "Deine Email-Adresse ist ungültig."
+
+#: application/PriceAlert.php:237
+msgid ""
+"Your email has been verified. We will let you know by email when the Price "
+"Drops."
+msgstr ""
+"Deine Email-Adresse ist nun bestätigt. Wir melden uns wieder, wenn dein "
+"Wunschpreis erreicht wurde."
+
+#: application/PriceAlert.php:272
+msgid "Your subscription has been deleted from our database."
+msgstr ""

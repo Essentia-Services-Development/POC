@@ -1,0 +1,68 @@
+
+// 
+// Notice panel
+// 
+.peepso {
+  &.pa-activation-error {
+    padding-top: var(--PADD);
+  
+    h4 {
+      margin-top: 0 !important;
+    }
+  
+    ul {
+      margin-left: 0;
+      margin-top: var(--PADD);
+    }
+
+    i {
+      color: #ff8c00;
+    }  
+  }
+
+  &.notice-warning {
+    position: relative;
+    
+    h3 {
+      margin-top: var(--PADD);
+    }
+  }
+
+  &.ps-notice {
+    position: relative;
+
+    p:last-child {
+      margin-bottom: 0;
+    }
+
+    p:empty {
+      margin: 0;
+    }
+  }
+
+  .ps-notice__dismiss {
+    position: absolute;
+    top: var(--PADD);
+    color: #91919d;
+
+    @if $rtl {
+      left: var(--PADD);
+    } @else {
+      right: var(--PADD);
+    }
+    
+    &:hover {
+      color: #231e23;
+    }
+  
+    i {
+      font-size: 23px;
+    }
+  }
+
+  &.peepso-old-version {
+    h1 {
+      margin-top: 0 !important;
+    }
+  }
+}

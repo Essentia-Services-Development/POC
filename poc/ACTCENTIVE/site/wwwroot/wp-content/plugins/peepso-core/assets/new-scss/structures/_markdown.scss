@@ -1,0 +1,14 @@
+.peepso-markdown {
+  > p {
+    > img:not(.ps-vip__icon) {
+      margin-top: var(--PADD--SM);
+      margin-bottom: var(--PADD--SM);
+      display: block;
+      max-height: 250px;
+    }
+
+    .ps-vip__icon {
+      display: inline-block;
+    }
+  }
+}

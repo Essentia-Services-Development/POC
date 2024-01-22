@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bundle name="Content Egg">
+  <domain name="content-egg-tpl">
+    <project name="Content Egg Frontend" slug="content-egg-tpl">
+      <source>
+        <directory>.</directory>
+      </source>
+      <target>
+        <directory>languages/tpl</directory>
+      </target>
+      <template locked="true">
+        <file>languages/tpl/content-egg-tpl.pot</file>
+      </template>
+    </project>
+  </domain>
+  <domain name="content-egg">
+    <project name="Content Egg Admin" slug="content-egg">
+      <source>
+        <directory>.</directory>
+      </source>
+      <target>
+        <directory>languages</directory>
+      </target>
+      <template>
+        <file>languages/content-egg.pot</file>
+      </template>
+    </project>
+  </domain>
+</bundle>

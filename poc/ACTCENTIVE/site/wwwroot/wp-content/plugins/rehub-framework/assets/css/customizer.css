@@ -1,0 +1,147 @@
+/* 
+ * Customizer styles
+ * @package rehub
+ */
+.customize-control .customize-inside-control-row {
+    display: inline-block;
+    margin-left: 30px;
+}
+#customize-control-custom_logo{display:none}
+.customize-control-divider {
+  background-color: #fff;
+  margin: 20px -8px 22px;
+  padding: 10px;
+  box-shadow: 0 1px 0 rgb(0 0 0 / 10%);
+  border-bottom: 1px solid #dcdcde;
+}
+.customize-control-divider .customize-control-caption {
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+@supports (-webkit-appearance: none) or (-moz-appearance: none) {
+    .customize-control-radio .customize-inside-control-row, .customize-control-checkbox .customize-inside-control-row{margin-left: 0;}
+    .customize-control input[type=checkbox], .customize-control input[type=radio] {
+      --active: #275EFE;
+      --active-inner: #fff;
+      --border: #BBC1E1;
+      --border-hover: #275EFE;
+      --background: #fff;
+      --disabled: #F6F8FF;
+      --disabled-inner: #E1E6F9;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      height: 21px;
+      outline: none;
+      display: inline-block;
+      vertical-align: top;
+      position: relative;
+      margin: 0;
+      cursor: pointer;
+      border: 1px solid var(--bc, var(--border)) !important;
+      background: var(--b, var(--background)) !important;
+      transition: background 0.3s, border-color 0.3s, box-shadow 0.2s;
+      box-shadow:none;
+    }
+    .customize-control input[type=checkbox]:before, .customize-control input[type=radio]:before{display:none;}
+    .customize-control input[type=checkbox]:after, .customize-control input[type=radio]:after {
+      content: "";
+      display: block;
+      left: 0;
+      top: 0;
+      position: absolute;
+      transition: transform var(--d-t, 0.3s) var(--d-t-e, ease), opacity var(--d-o, 0.2s);
+    }
+    .customize-control input[type=checkbox]:checked, .customize-control input[type=radio]:checked {
+      --b: var(--active);
+      --bc: var(--active);
+      --d-o: .3s;
+      --d-t: .6s;
+      --d-t-e: cubic-bezier(.2, .85, .32, 1.2);
+    }
+    .customize-control input[type=checkbox]:disabled, .customize-control input[type=radio]:disabled {
+      --b: var(--disabled);
+      cursor: not-allowed;
+      opacity: 0.9;
+    }
+    .customize-control input[type=checkbox]:disabled:checked, .customize-control input[type=radio]:disabled:checked {
+      --b: var(--disabled-inner);
+      --bc: var(--border);
+    }
+    .customize-control input[type=checkbox]:disabled + label, .customize-control input[type=radio]:disabled + label {
+      cursor: not-allowed;
+    }
+    .customize-control input[type=checkbox]:hover:not(:checked):not(:disabled), .customize-control input[type=radio]:hover:not(:checked):not(:disabled) {
+      --bc: var(--border-hover);
+    }
+    .customize-control input[type=checkbox]:not(.switch), .customize-control input[type=radio]:not(.switch) {
+      width: 21px;
+    }
+    .customize-control input[type=checkbox]:not(.switch):after, .customize-control input[type=radio]:not(.switch):after {
+      opacity: var(--o, 0);
+    }
+    .customize-control input[type=checkbox]:not(.switch):checked, .customize-control input[type=radio]:not(.switch):checked {
+      --o: 1;
+    }
+    .customize-control input[type=checkbox] + label, .customize-control input[type=radio] + label {
+      font-size: 14px;
+      line-height: 21px;
+      display: inline-block;
+      vertical-align: top;
+      cursor: pointer;
+      margin-left: 6px; margin-right:6px
+    }
+  
+    .customize-control input[type=checkbox]:not(.switch) {
+      border-radius: 7px;
+    }
+    .customize-control input[type=checkbox]:not(.switch):after {
+      width: 5px;
+      height: 9px;
+      border: 2px solid var(--active-inner);
+      border-top: 0;
+      border-left: 0;
+      left: 7px;
+      top: 4px;
+      transform: rotate(var(--r, 20deg));
+    }
+    .customize-control input[type=checkbox]:not(.switch):checked {
+      --r: 43deg;
+    }
+    .customize-control input[type=checkbox].switch {
+      width: 38px;
+      border-radius: 11px;
+    }
+    .customize-control input[type=checkbox].switch:after {
+      left: 2px;
+      top: 2px;
+      border-radius: 50%;
+      width: 15px;
+      height: 15px;
+      background: var(--ab, var(--border));
+      transform: translateX(var(--x, 0));
+    }
+    .customize-control input[type=checkbox].switch:checked {
+      --ab: var(--active-inner);
+      --x: 17px;
+    }
+    .customize-control input[type=checkbox].switch:disabled:not(:checked):after {
+      opacity: 0.6;
+    }
+  
+    .customize-control input[type=radio] {
+      border-radius: 50%;
+    }
+    .customize-control input[type=radio]:after {
+      width: 19px;
+      height: 19px;
+      border-radius: 50%;
+      background: var(--active-inner);
+      opacity: 0;
+      transform: scale(var(--s, 0.7));
+    }
+    .customize-control input[type=radio]:checked {
+      --s: .5;
+    }
+    .customize-control .description{display:block !important; margin-top:5px; font-size:13px;max-width:515px; margin-top:5px; color:grey;}
+  }

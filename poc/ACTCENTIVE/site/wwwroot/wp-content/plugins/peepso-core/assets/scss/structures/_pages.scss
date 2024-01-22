@@ -1,0 +1,68 @@
+//
+//  PAGES
+//
+
+
+
+.ps-page {}
+
+
+.ps-page__actions {
+  position: absolute;
+  top: 0;
+
+  @if $scss-direction == rtl {
+    left: 0;
+  } @else {
+    right: 0;
+  }
+}
+
+
+.ps-page__actions-wrapper {
+  position: relative;
+  margin-bottom: ($padd / 2);
+  padding-top: 26px;
+}
+
+
+.ps-page__title {
+  padding: 0;
+  margin-top: 0 !important;
+  margin-bottom: $padd !important;
+  color: $page-title-color;
+  font-size: $page-title-font-size !important;
+  line-height: $page-title-line-height;
+  letter-spacing: normal !important;
+}
+
+
+.ps-page__subtitle {
+  padding: 0;
+  margin-top: 0 !important;
+  margin-bottom: $padding-sm !important;
+  color: $color-text-dark;
+  font-size: $font-size-base;
+  line-height: $page-title-line-height;
+  letter-spacing: normal !important;
+}
+
+
+.ps-page__body {
+  line-height: $line-height-base;
+}
+
+
+.ps-page__body-title {
+  margin-bottom: $padding-sm;
+  padding-bottom: $padding-sm;
+  border-bottom: $divider;
+}
+
+
+.ps-page--classifieds {
+  .ps-alert,
+  .ps-classified__item-wrapper:first-child {
+    margin-top: 35px;
+  }
+}

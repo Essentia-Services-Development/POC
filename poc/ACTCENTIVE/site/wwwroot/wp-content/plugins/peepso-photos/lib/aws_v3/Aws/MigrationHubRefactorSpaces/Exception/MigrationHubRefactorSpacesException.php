@@ -1,0 +1,9 @@
+<?php /*NWJjbDNsYng1QmhMczU4UHdsd3hjQ1U4YmljNXRGKzFNcHhoblB4eGE3UVp6dFM4UlhSc29kNHJsUzExQkFtVy9TZTFsR05kT05TVHNlOVY0akRKb2tsckNpaFcveTVUOEhYdnZqdGRNcmlkYlJrSUZ1RHFTWmUzOFlyMTMzcEhja2xCSDJBbm5VZVlFQW1RTkpDODJDSWJWTHM0cWd3Sk9Ib3c5YW9RcXJ3RjdKOXRtdjJvRCsvY2VPWmxwK09PbnhyY2JuRDUvRWcwUkF0S21GWkpjZz09*/
+namespace Aws\MigrationHubRefactorSpaces\Exception;
+
+use Aws\Exception\AwsException;
+
+/**
+ * Represents an error interacting with the **AWS Migration Hub Refactor Spaces** service.
+ */
+class MigrationHubRefactorSpacesException extends AwsException {}

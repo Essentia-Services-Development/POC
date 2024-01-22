@@ -1,0 +1,55 @@
+@mixin table() {
+  --th-text-color: var(--GC-COLOR--TEXT);
+  --th-bg: var(--GC-COLOR--APP--LIGHTGRAY);
+  --th-border: var(--DIVIDER--LIGHT);
+  --td-text-color: var(--GC-COLOR--TEXT--LIGHT);
+  --td-text-color--hover: var(--GC-COLOR--TEXT--LIGHT);
+  --td-bg: transparent;
+  --td-bg--hover: var(--GC-COLOR--APP--LIGHTGRAY);
+  --td-border: var(--DIVIDER--LIGHT);
+
+  width: 100%;
+  margin-bottom: var(--PADD--MD);
+  font-size: 100%;
+
+  tr {}
+
+  th {
+    padding: var(--PADD);
+    font-weight: bold;
+    color: var(--th-text-color);
+    background-color: var(--th-bg);
+    border-top: 1px solid var(--th-border);
+    border-bottom: 1px solid var(--th-border);
+  }
+
+  td {
+    padding: var(--PADD);
+    color: var(--td-text-color);
+    background-color: var(--td-bg);
+    border-bottom: 1px solid var(--td-border);
+
+    &:hover {
+      color: var(--td-text-color--hover);
+      background-color: var(--td-bg--hover);
+    }
+  }
+
+  thead {}
+
+  tbody {}
+
+  tfoot {}
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+table {
+  @include table;
+}
+
+.table {
+  @include table;
+}

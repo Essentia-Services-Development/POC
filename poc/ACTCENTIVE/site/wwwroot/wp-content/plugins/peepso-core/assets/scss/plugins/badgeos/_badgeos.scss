@@ -1,0 +1,243 @@
+/**
+ * Plugin Name: PeepSo - BadgeOS Integration Plugin
+ */
+
+
+
+/* PeepSo profile page modifier for BadgeOS plugin */
+.ps-page--badgeos {}
+
+/* Wrapping all badges on Profile page */
+#badgeos-achievements-container {
+  border-top: none !important;
+}
+
+#badgeos-achievements-container:after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+
+/* Badge item on Profile page */
+.ps-badgeos__item-wrapper {
+  margin-bottom: 14px;
+}
+
+.ps-badgeos__item-wrapper:last-child {
+  margin-bottom: 0;
+}
+
+.ps-badgeos__item {
+  background-color: $scss-badgeos-item-bg;
+  border: 1px solid $scss-badgeos-item-border;
+}
+
+/* Modifier for badges rendered on Profile focus area */
+.ps-badgeos__item--cover {
+  display: inline-block;
+  max-width: 30px;
+  max-height: 30px;
+  margin-right: 4.25px;
+  vertical-align: middle;
+}
+
+.ps-badgeos__item--cover:last-child {
+  margin-right: 0;
+}
+
+.ps-badgeos__item--cover > a {
+  display: block;
+}
+
+@media only screen and (min-width: 481px) {
+  .ps-page--badgeos #badgeos-achievements-container {
+    margin-top: -8.5px;
+    margin-left: -8.5px;
+    margin-right: -8.5px;
+  }
+
+  .ps-badgeos__item-wrapper {
+    float: left;
+    width: 50%;
+    padding: 8.5px;
+    margin-bottom: 0;
+  }
+
+  .ps-badgeos__item-wrapper:nth-child(2n+1) {
+    clear: both;
+  }
+
+  .ps-badgeos__item {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+  }
+}
+
+.ps-badgeos__item-image {
+  padding: 8.5px;
+  background-color: $scss-badgeos-item-image-bg;
+  text-align: center;
+  flex-grow: 1;
+}
+
+.ps-badgeos__item-image > a {
+  display: block;
+}
+
+.ps-badgeos__item-image > a > img {
+  display: inline-block;
+}
+
+.ps-badgeos__item-desc {
+  width: 100%;
+  padding: 8.5px;
+  flex-grow: 1;
+}
+
+.ps-badgeos__item-title {
+  display: inline-block;
+  margin-bottom: 4.25px;
+  font-size: 18px;
+  line-height: 1.2;
+}
+
+.ps-badgeos__item-excerpt {
+  font-size: 12px;
+  color: $color-text-light;
+}
+
+.ps-badgeos__item-excerpt > span {
+  display: block;
+  margin-bottom: 4.25px;
+  padding-bottom: 4.25px;
+  border-bottom: 1px solid $scss-badgeos-item-border;
+  color: $color-primary;
+}
+
+.ps-badgeos__item-excerpt p {
+  margin-top: 0;
+  margin-bottom: 4.25px;
+}
+
+.ps-badgeos__item-attached {
+  color: $color-text-light;
+  font-size: 12px;
+  line-height: 1.2;
+}
+
+.ps-badgeos__item-attached h4 {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  color: $color-text;
+  font-size: 14px !important;
+  font-weight: normal;
+}
+
+.ps-badgeos__item-attached ul > li {
+  margin-left: 12px;
+  list-style-type: circle !important;
+}
+
+.ps-badgeos__item-attached .show-hide-open,
+.ps-badgeos__item-attached .show-hide-close {
+  font-size: 12px;
+}
+
+.ps-badgeos__item-attached .show-hide-open:after,
+.ps-badgeos__item-attached .show-hide-close:after {
+  margin-top: 4px;
+}
+
+.ps-badgeos__item-overlay {
+  margin-top: ($padd / 2);
+  margin-left: -8.5px;
+  margin-right: -8.5px;
+  margin-bottom: -8.5px;
+  padding: 8.5px;
+  background-color: darken($scss-badgeos-item-bg, 2%);
+
+  .badgeos-required-achievements {
+    padding: 0 !important;
+  }
+}
+
+/* Wrapping Badge on stream post */
+.ps-stream-attachments .badgeos-achievements-list-item {
+  padding: 8.5px;
+  border: 1px solid $scss-badgeos-item-border;
+}
+
+.ps-stream-attachments .badgeos-achievements-list-item .badgeos-item-image {
+  float: none;
+  width: auto;
+  margin-bottom: 8.5px;
+  padding-right: 0;
+}
+
+.badgeos-item-image > a {
+  display: block;
+  text-align: center;
+}
+
+.badgeos-item-image > a > img {
+  display: inline-block;
+  max-width: 100px;
+}
+
+.ps-stream-attachments .badgeos-achievements-list-item .badgeos-item-title {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 18px;
+  line-height: 1.2;
+  font-weight: normal !important;
+}
+
+.ps-stream-attachments .badgeos-achievements-list-item .badgeos-item-description {
+  float: none;
+  width: auto;
+}
+
+.ps-stream-attachments .badgeos-achievements-list-item .badgeos-item-description p {
+  margin-bottom: 0 !important;
+  color: $color-text-light;
+  font-size: 12px;
+}
+
+@media only screen and (min-width: 481px) {
+  .ps-stream-attachments .badgeos-achievements-list-item {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    padding: 0;
+    background-color: $scss-badgeos-item-bg;
+    align-items: center;
+  }
+
+  .ps-stream-attachments .badgeos-achievements-list-item .badgeos-item-image {
+    margin-right: 14px;
+    margin-bottom: 0;
+    background-color: $scss-badgeos-item-image-bg;
+    align-self: stretch;
+  }
+
+  .ps-stream-attachments .badgeos-achievements-list-item .badgeos-item-image a {
+    padding: 8.5px;
+  }
+
+  .ps-stream-attachments .badgeos-achievements-list-item .badgeos-item-description {
+    width: 100%;
+    padding: 8.5px;
+  }
+}
+
+.ps-badgeos__widget {}
+
+.ps-badgeos__widget-title {
+  margin-top: 14px;
+  margin-bottom: 5px;
+}

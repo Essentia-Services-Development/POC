@@ -1,0 +1,123 @@
+.ps-poll {
+  --item-bg: var(--c-ps-poll-item-bg);
+  --item-bg--fill: var(--c-ps-poll-item-bg-fill);
+  --item-text-color: var(--c-ps-poll-item-color);
+  --item-votes-text-color: var(--PS-COLOR--TEXT--LIGHT);
+  --item-border-radius: var(--BORDER-RADIUS--MD);
+
+  padding-left: var(--PADD--MD);
+  padding-right: var(--PADD--MD);
+}
+
+.ps-poll__actions {
+  margin-top: var(--PADD);
+}
+
+.ps-poll__message {
+  margin-top: var(--PADD);
+  font-size: 90%;
+  color: var(--PS-COLOR--TEXT--LIGHT);
+
+  > i {
+    @if $rtl {
+      margin-left: var(--PADD);
+    } @else {
+      margin-right: var(--PADD);
+    }
+  }
+}
+
+.ps-poll__item {
+  margin-bottom: var(--PADD--SM);
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.ps-poll__item-inner {
+  display: flex;
+  align-items: center;
+}
+
+.ps-poll__item-bar {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  line-height: 1.2;
+  color: var(--item-text-color);
+  background-color: var(--item-bg);
+  border-radius: var(--item-border-radius);
+  cursor: pointer;
+  overflow: hidden;
+
+  @if $comp_mode {
+    font-weight: normal;
+  }
+}
+
+.ps-poll__item-input {
+  position: relative;
+
+  @if $rtl {
+    margin-left: var(--PADD);
+  } @else {
+    margin-right: var(--PADD);
+  }
+}
+
+.ps-poll__item-fill {
+  position: absolute;
+  z-index: 0;
+  top: 0;
+
+  @if $rtl {
+    right: 0;
+  } @else {
+    left: 0;
+  }
+
+  bottom: 0;
+  width: 0;
+  background-color: var(--item-bg--fill);
+  transition: width .3s ease;
+}
+
+.ps-poll__item-name {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  padding: var(--PADD--SM);
+}
+
+.ps-poll__item-value {
+  position: relative;
+  z-index: 1;
+  padding: var(--PADD--SM);
+
+  @if $rtl {
+    padding-right: var(--PADD);
+  } @else {
+    padding-left: var(--PADD);
+  }
+
+  font-size: 90%;
+  white-space: nowrap;
+}
+
+.ps-poll__item-votes {
+  width: 20%;
+  padding: var(--PADD--SM);
+
+  @if $rtl {
+    padding-right: var(--PADD);
+  } @else {
+    padding-left: var(--PADD);
+  }
+
+  font-size: 80%;
+  color: var(--item-votes-text-color);
+}

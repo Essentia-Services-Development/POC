@@ -1,0 +1,69 @@
+@mixin avatar() {
+  --radius: var(--c-ps-avatar-style);
+  --small: 32px;
+  --medium: 48px;
+  --normal: 64px;
+  --large: 100px;
+  --xlarge: 160px;
+  --width: var(--small);
+  --box-shadow: 0 0 0 1px var(--DIVIDER);
+  --border: 2px solid transparent;
+}
+
+.ps-avatar {
+  @include avatar;
+
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  min-width: var(--small);
+  max-width: var(--width);
+
+  img {
+    border: var(--border);
+    box-shadow: var(--box-shadow);
+    border-radius: var(--radius);
+
+    @if $comp_mode {
+      box-shadow: var(--box-shadow) !important;
+    }
+
+    .elementor & {
+      border: var(--border);
+      box-shadow: var(--box-shadow);
+      border-radius: var(--radius);
+    }
+  }
+}
+
+.ps-avatar--md {
+  --width: var(--medium);
+}
+
+.ps-avatar--basic {
+  --width: var(--normal);
+}
+
+.ps-avatar--large {
+  --width: var(--large);
+}
+
+.ps-avatar--xlarge {
+  --width: var(--xlarge);
+}
+
+.ps-avatar__loading {
+  padding-top: 100%;
+}
+
+.ps-avatar__loading-inner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  > i {
+    font-size: 35px;
+    color: var(--PS-COLOR--TEXT--LIGHT);
+  }
+}

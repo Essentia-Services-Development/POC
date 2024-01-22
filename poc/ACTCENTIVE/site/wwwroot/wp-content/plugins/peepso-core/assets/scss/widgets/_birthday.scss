@@ -1,0 +1,96 @@
+//
+//  WIDGET: BIRTHDAY
+//
+
+
+
+//
+//  Birthday widget modifier, wrapping user list
+//  which have birthday today
+//
+.ps-widget--bday {
+  margin-bottom: $padding-base;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  > span {
+    font-size: $font-size-sm;
+    line-height: $line-height-base;
+  }
+}
+
+
+.ps-widget__bdays {}
+
+
+.ps-widget__bdays-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: $padding-sm;
+  padding-bottom: $padding-sm;
+  border-bottom: $divider;
+
+  &:last-child {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border: none;
+  }
+}
+
+
+//
+//  Class modifier, wrapping today birthdays
+//
+.ps-widget--bday--today {}
+
+
+//
+//  Class modifier, wrapping upcoming birthdays
+//
+.ps-widget--bday--upcoming {}
+
+
+//
+//  Wrapping a birthday widget
+//
+.ps-widget--bday__wrapper {}
+
+
+//
+//  Wrapping a sub-titles inside module
+//
+.ps-widget--bday__title {
+  margin-bottom: $padding-base;
+}
+
+
+//
+//  Wrapping avatar of user from the birthday
+//  list
+//
+.ps-widget--bday__avatar {
+  width: 48px;
+
+  .ps-avatar > img {
+    max-width: 48px;
+    max-height: 48px;
+  }
+}
+
+
+//
+//  Wrapping a user name and details about
+//  birthday
+//
+.ps-widget--bday__details {
+  padding-left: $padding-sm;
+
+  span {
+    display: block;
+    font-size: $font-size-sm;
+    line-height: $line-height-base;
+    color: $color-neutral;
+  }
+}

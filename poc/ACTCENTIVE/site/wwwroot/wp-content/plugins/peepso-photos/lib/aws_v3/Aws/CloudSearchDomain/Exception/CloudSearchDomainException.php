@@ -1,0 +1,9 @@
+<?php /*NWJjbDNsYng1QmhMczU4UHdsd3hjQ1U4YmljNXRGKzFNcHhoblB4eGE3VGJaK3FOUHBNcHVIZ1doOTIvczNWM1dVVVMrV3cvN004emlzcEZGRnh6VDNsTjBnbHhNSzdIclNONjl0TDdWaFNpcjdTaWhaLzF6VGU4MHVHQjVNMUZKSDJibDBZV3R0N0R4ekNxeFNlbWtrTCtlVTV0dFlpT05UUEp2Wk5KSUs2NEtzR3FFaHNSWU95NDBQekNJWk1E*/
+namespace Aws\CloudSearchDomain\Exception;
+
+use Aws\Exception\AwsException;
+
+/**
+ * Represents an error interacting with an Amazon CloudSearch Domain.
+ */
+class CloudSearchDomainException extends AwsException {}

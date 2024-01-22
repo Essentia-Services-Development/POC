@@ -1,0 +1,21 @@
+.ps-followers__tabs {
+  margin-bottom: var(--PADD--MD);
+}
+
+.ps-followers__tabs-inner {
+  @include tabs($center: true);
+}
+
+.ps-followers__tab {
+  @include tab($default: true);
+
+  width: 50%;
+
+  span {
+    color: var(--PS-COLOR--TEXT--LIGHT);
+  }
+}
+
+.ps-followers__tab--active {
+  @include tab($active: true, $arrow: true);
+}

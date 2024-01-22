@@ -1,0 +1,10 @@
+{
+	"apiVersion": 2,
+	"name": "rehub/countdown",
+	"title": "Countdown Timer",
+	"category": "helpler-modules",
+	"description": "For making countdown blocks",
+    "icon": "backup",
+	"textdomain": "rehub-framework",
+	"editorStyle": "rhcountdownblock"
+}

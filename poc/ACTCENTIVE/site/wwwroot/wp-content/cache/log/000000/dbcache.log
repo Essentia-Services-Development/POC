@@ -1,0 +1,794 @@
+[Sun, 11 Jun 2023 14:26:27 +0000] flushing based on sqlquery group options with extras {"wpdb_delete":"wp_options"}
+[Sun, 11 Jun 2023 14:26:27 +0000] flush group options
+[Sun, 11 Jun 2023 14:26:27 +0000] flushing based on sqlquery group options with extras {"wpdb_delete":"wp_options"}
+[Sun, 11 Jun 2023 14:26:27 +0000] flush group options
+[Sun, 11 Jun 2023 14:26:27 +0000] flushing based on sqlquery group singletables with extras {"modification_query":"CREATE TABLE IF NOT EXISTS `wp_peepso_gdpr_request_data` (\n\t\t\t\t\t`request_id`\t\t\tINT(11) UNSIGNED NOT NULL AUTO_INCREMENT,\n\t\t\t\t\t`request_user_id`\t\tBIGINT(20) UNSIGNED NULL DEFAULT '0',\n\t\t\t\t\t`request_created_at`\tTIMESTAMP DEFAULT CURRENT_TIMESTAMP,\n\t\t\t\t\t`request_updated_at`\tTIMESTAMP DEFAULT 0,\n\t\t\t\t\t`request_file_path`\t\tVARCHAR(255) NULL DEFAULT NULL,\n\t\t\t\t\t`request_file_url`\t\tVARCHAR(255) NULL DEFAULT NULL,\n\t\t\t\t\t`request_status`\t\tTINYINT(1) NOT NULL DEFAULT '0',\n\t\t\t\t\t`request_attempts` \t\tTINYINT(1) NOT NULL DEFAULT '0',\n\t\t\t\t\t`request_error_log`\t\tTEXT,\n\n\t\t\t\t\tPRIMARY KEY (`request_id`),\n\t\t\t\t\tINDEX `user` (`request_user_id`),\n\t\t\t\t\tINDEX `status` (`request_status`)\n\t\t\t\t) ENGINE=InnoDB"}
+[Sun, 11 Jun 2023 14:26:27 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:26:27 +0000] flush group options
+[Sun, 11 Jun 2023 14:26:27 +0000] flush group comments
+[Sun, 11 Jun 2023 14:26:27 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:26:27 +0000] flushing based on sqlquery group singletables with extras {"modification_query":"CREATE TABLE IF NOT EXISTS `wp_peepso_brute_force_attempts_logs` (\n\t\t\t\t\t`attempts_id`\t\t\tINT(11) UNSIGNED NOT NULL AUTO_INCREMENT,\n\t\t\t\t\t`attempts_username`\t\tVARCHAR(255) NOT NULL DEFAULT '',\n\t\t\t\t\t`attempts_time`\t\t\tINT(10) NOT NULL DEFAULT '0',\n\t\t\t\t\t`attempts_count` \t\tINT(10) NOT NULL DEFAULT '0',\n\t\t\t\t\t`attempts_lockout` \t\tINT(10) NOT NULL DEFAULT '0',\n\t\t\t\t\t`attempts_ip` \t\t\tVARCHAR(100) NOT NULL DEFAULT '',\n\t\t\t\t\t`attempts_url` \t\t\tVARCHAR(255) NOT NULL DEFAULT '',\n\t\t\t\t\t`attempts_created_at`\tTIMESTAMP DEFAULT CURRENT_TIMESTAMP,\n\t\t\t\t\t`attempts_type`\t\t\tTINYINT(1) UNSIGNED NOT NULL DEFAULT '0',\n\n\t\t\t\t\tPRIMARY KEY (`attempts_id`),\n\t\t\t\t\tUNIQUE KEY `ip` (`attempts_ip`, `attempts_type`)\n\t\t\t\t) ENGINE=InnoDB"}
+[Sun, 11 Jun 2023 14:26:27 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:26:27 +0000] flush group options
+[Sun, 11 Jun 2023 14:26:27 +0000] flush group comments
+[Sun, 11 Jun 2023 14:26:27 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:26:27 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_options"}
+[Sun, 11 Jun 2023 14:26:27 +0000] flush group options
+[Sun, 11 Jun 2023 14:26:27 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_options"}
+[Sun, 11 Jun 2023 14:26:27 +0000] flush group options
+[Sun, 11 Jun 2023 14:26:27 +0000] flushing based on sqlquery group options with extras {"modification_query":"DELETE a, b FROM wp_options a, wp_options b\n\t\t\tWHERE a.option_name LIKE '\\\\_transient\\\\_{709f43214b0b1782474a127937b292efad844bb90b031c4bc4332a8f948a9025}'\n\t\t\tAND a.option_name NOT LIKE '\\\\_transient\\\\_timeout\\\\_{709f43214b0b1782474a127937b292efad844bb90b031c4bc4332a8f948a9025}'\n\t\t\tAND b.option_name = CONCAT( '_transient_timeout_', SUBSTRING( a.option_name, 12 ) )\n\t\t\tAND b.option_value . 1686493587"}
+[Sun, 11 Jun 2023 14:26:27 +0000] flush group options
+[Sun, 11 Jun 2023 14:26:27 +0000] flushing based on sqlquery group singletables with extras {"modification_query":"DELETE a, b FROM wp_sitemeta a, wp_sitemeta b\n\t\t\t\tWHERE a.meta_key LIKE '\\\\_site\\\\_transient\\\\_{709f43214b0b1782474a127937b292efad844bb90b031c4bc4332a8f948a9025}'\n\t\t\t\tAND a.meta_key NOT LIKE '\\\\_site\\\\_transient\\\\_timeout\\\\_{709f43214b0b1782474a127937b292efad844bb90b031c4bc4332a8f948a9025}'\n\t\t\t\tAND b.meta_key = CONCAT( '_site_transient_timeout_', SUBSTRING( a.meta_key, 17 ) )\n\t\t\t\tAND b.meta_value . 1686493587"}
+[Sun, 11 Jun 2023 14:26:27 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:26:27 +0000] flush group options
+[Sun, 11 Jun 2023 14:26:27 +0000] flush group comments
+[Sun, 11 Jun 2023 14:26:27 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:26:27 +0000] flushing based on sqlquery group singletables with extras {"modification_query":"DELETE FROM wp_peepso_mayfly  WHERE 1=1   AND `expires` IS NULL OR `expires` .= NOW() "}
+[Sun, 11 Jun 2023 14:26:27 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:26:27 +0000] flush group options
+[Sun, 11 Jun 2023 14:26:27 +0000] flush group comments
+[Sun, 11 Jun 2023 14:26:27 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:26:27 +0000] flushing based on sqlquery group singletables with extras {"wpdb_delete":"wp_peepso_mayfly"}
+[Sun, 11 Jun 2023 14:26:27 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:26:27 +0000] flush group options
+[Sun, 11 Jun 2023 14:26:27 +0000] flush group comments
+[Sun, 11 Jun 2023 14:26:27 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:26:27 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_options"}
+[Sun, 11 Jun 2023 14:26:27 +0000] flush group options
+[Sun, 11 Jun 2023 14:26:27 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_options"}
+[Sun, 11 Jun 2023 14:26:27 +0000] flush group options
+[Sun, 11 Jun 2023 14:26:27 +0000] flushing based on sqlquery group singletables with extras {"wpdb_update":"wp_peepso_users"}
+[Sun, 11 Jun 2023 14:26:27 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:26:27 +0000] flush group options
+[Sun, 11 Jun 2023 14:26:27 +0000] flush group comments
+[Sun, 11 Jun 2023 14:26:27 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:26:27 +0000] flushing based on sqlquery group singletables with extras {"wpdb_update":"wp_peepso_users"}
+[Sun, 11 Jun 2023 14:26:27 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:26:27 +0000] flush group options
+[Sun, 11 Jun 2023 14:26:27 +0000] flush group comments
+[Sun, 11 Jun 2023 14:26:27 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:26:27 +0000] flushing based on sqlquery group singletables with extras {"wpdb_update":"wp_peepso_users"}
+[Sun, 11 Jun 2023 14:26:27 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:26:27 +0000] flush group options
+[Sun, 11 Jun 2023 14:26:27 +0000] flush group comments
+[Sun, 11 Jun 2023 14:26:27 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:26:27 +0000] flushing based on sqlquery group singletables with extras {"wpdb_update":"wp_peepso_users"}
+[Sun, 11 Jun 2023 14:26:27 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:26:27 +0000] flush group options
+[Sun, 11 Jun 2023 14:26:27 +0000] flush group comments
+[Sun, 11 Jun 2023 14:26:27 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:26:27 +0000] flushing based on sqlquery group singletables with extras {"wpdb_update":"wp_peepso_users"}
+[Sun, 11 Jun 2023 14:26:27 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:26:27 +0000] flush group options
+[Sun, 11 Jun 2023 14:26:27 +0000] flush group comments
+[Sun, 11 Jun 2023 14:26:27 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:26:27 +0000] flushing based on sqlquery group singletables with extras {"wpdb_update":"wp_peepso_users"}
+[Sun, 11 Jun 2023 14:26:27 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:26:27 +0000] flush group options
+[Sun, 11 Jun 2023 14:26:27 +0000] flush group comments
+[Sun, 11 Jun 2023 14:26:27 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:26:27 +0000] flushing based on sqlquery group singletables with extras {"wpdb_update":"wp_peepso_users"}
+[Sun, 11 Jun 2023 14:26:27 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:26:27 +0000] flush group options
+[Sun, 11 Jun 2023 14:26:27 +0000] flush group comments
+[Sun, 11 Jun 2023 14:26:27 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:26:27 +0000] flushing based on sqlquery group singletables with extras {"wpdb_update":"wp_peepso_users"}
+[Sun, 11 Jun 2023 14:26:27 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:26:27 +0000] flush group options
+[Sun, 11 Jun 2023 14:26:27 +0000] flush group comments
+[Sun, 11 Jun 2023 14:26:27 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:26:27 +0000] flushing based on sqlquery group singletables with extras {"wpdb_update":"wp_sitemeta"}
+[Sun, 11 Jun 2023 14:26:27 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:26:27 +0000] flush group options
+[Sun, 11 Jun 2023 14:26:27 +0000] flush group comments
+[Sun, 11 Jun 2023 14:26:27 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:26:28 +0000] flushing based on sqlquery group singletables with extras {"wpdb_update":"wp_sitemeta"}
+[Sun, 11 Jun 2023 14:26:28 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:26:28 +0000] flush group options
+[Sun, 11 Jun 2023 14:26:28 +0000] flush group comments
+[Sun, 11 Jun 2023 14:26:28 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:26:28 +0000] flushing based on sqlquery group options with extras {"modification_query":"INSERT INTO `wp_options` (`option_name`, `option_value`, `autoload`) VALUES ('_transient_timeout_w3tc.verify_plugins', '1687098388', 'no') ON DUPLICATE KEY UPDATE `option_name` = VALUES(`option_name`), `option_value` = VALUES(`option_value`), `autoload` = VALUES(`autoload`)"}
+[Sun, 11 Jun 2023 14:26:28 +0000] flush group options
+[Sun, 11 Jun 2023 14:26:28 +0000] flushing based on sqlquery group options with extras {"modification_query":"INSERT INTO `wp_options` (`option_name`, `option_value`, `autoload`) VALUES ('_transient_w3tc.verify_plugins', '1', 'no') ON DUPLICATE KEY UPDATE `option_name` = VALUES(`option_name`), `option_value` = VALUES(`option_value`), `autoload` = VALUES(`autoload`)"}
+[Sun, 11 Jun 2023 14:26:28 +0000] flush group options
+
+[Sun, 11 Jun 2023 14:26:28 +0000] [/wp-admin/network/admin.php?page=w3tc_general&w3tc_message=6485d992e3453] [1686493588.1053]
+Database Caching using redis (Request-wide modification query)
+
+Db cache debug info:
+Total queries:      336
+Cached queries:     0
+Total query time:   0.3975
+[Sun, 11 Jun 2023 14:26:40 +0000] flushing based on sqlquery group singletables with extras {"modification_query":"CREATE TABLE IF NOT EXISTS `wp_peepso_gdpr_request_data` (\n\t\t\t\t\t`request_id`\t\t\tINT(11) UNSIGNED NOT NULL AUTO_INCREMENT,\n\t\t\t\t\t`request_user_id`\t\tBIGINT(20) UNSIGNED NULL DEFAULT '0',\n\t\t\t\t\t`request_created_at`\tTIMESTAMP DEFAULT CURRENT_TIMESTAMP,\n\t\t\t\t\t`request_updated_at`\tTIMESTAMP DEFAULT 0,\n\t\t\t\t\t`request_file_path`\t\tVARCHAR(255) NULL DEFAULT NULL,\n\t\t\t\t\t`request_file_url`\t\tVARCHAR(255) NULL DEFAULT NULL,\n\t\t\t\t\t`request_status`\t\tTINYINT(1) NOT NULL DEFAULT '0',\n\t\t\t\t\t`request_attempts` \t\tTINYINT(1) NOT NULL DEFAULT '0',\n\t\t\t\t\t`request_error_log`\t\tTEXT,\n\n\t\t\t\t\tPRIMARY KEY (`request_id`),\n\t\t\t\t\tINDEX `user` (`request_user_id`),\n\t\t\t\t\tINDEX `status` (`request_status`)\n\t\t\t\t) ENGINE=InnoDB"}
+[Sun, 11 Jun 2023 14:26:40 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:26:40 +0000] flush group options
+[Sun, 11 Jun 2023 14:26:40 +0000] flush group comments
+[Sun, 11 Jun 2023 14:26:40 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:26:40 +0000] flushing based on sqlquery group singletables with extras {"modification_query":"CREATE TABLE IF NOT EXISTS `wp_peepso_brute_force_attempts_logs` (\n\t\t\t\t\t`attempts_id`\t\t\tINT(11) UNSIGNED NOT NULL AUTO_INCREMENT,\n\t\t\t\t\t`attempts_username`\t\tVARCHAR(255) NOT NULL DEFAULT '',\n\t\t\t\t\t`attempts_time`\t\t\tINT(10) NOT NULL DEFAULT '0',\n\t\t\t\t\t`attempts_count` \t\tINT(10) NOT NULL DEFAULT '0',\n\t\t\t\t\t`attempts_lockout` \t\tINT(10) NOT NULL DEFAULT '0',\n\t\t\t\t\t`attempts_ip` \t\t\tVARCHAR(100) NOT NULL DEFAULT '',\n\t\t\t\t\t`attempts_url` \t\t\tVARCHAR(255) NOT NULL DEFAULT '',\n\t\t\t\t\t`attempts_created_at`\tTIMESTAMP DEFAULT CURRENT_TIMESTAMP,\n\t\t\t\t\t`attempts_type`\t\t\tTINYINT(1) UNSIGNED NOT NULL DEFAULT '0',\n\n\t\t\t\t\tPRIMARY KEY (`attempts_id`),\n\t\t\t\t\tUNIQUE KEY `ip` (`attempts_ip`, `attempts_type`)\n\t\t\t\t) ENGINE=InnoDB"}
+[Sun, 11 Jun 2023 14:26:40 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:26:40 +0000] flush group options
+[Sun, 11 Jun 2023 14:26:40 +0000] flush group comments
+[Sun, 11 Jun 2023 14:26:40 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:26:40 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_options"}
+[Sun, 11 Jun 2023 14:26:40 +0000] flush group options
+[Sun, 11 Jun 2023 14:26:40 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_options"}
+[Sun, 11 Jun 2023 14:26:40 +0000] flush group options
+[Sun, 11 Jun 2023 14:26:40 +0000] flushing based on sqlquery group options with extras {"modification_query":"DELETE a, b FROM wp_options a, wp_options b\n\t\t\tWHERE a.option_name LIKE '\\\\_transient\\\\_{c86b83b3787c621f71c95294ba800bdd910333272b018d24afc681aba333f802}'\n\t\t\tAND a.option_name NOT LIKE '\\\\_transient\\\\_timeout\\\\_{c86b83b3787c621f71c95294ba800bdd910333272b018d24afc681aba333f802}'\n\t\t\tAND b.option_name = CONCAT( '_transient_timeout_', SUBSTRING( a.option_name, 12 ) )\n\t\t\tAND b.option_value . 1686493600"}
+[Sun, 11 Jun 2023 14:26:40 +0000] flush group options
+[Sun, 11 Jun 2023 14:26:40 +0000] flushing based on sqlquery group singletables with extras {"modification_query":"DELETE a, b FROM wp_sitemeta a, wp_sitemeta b\n\t\t\t\tWHERE a.meta_key LIKE '\\\\_site\\\\_transient\\\\_{c86b83b3787c621f71c95294ba800bdd910333272b018d24afc681aba333f802}'\n\t\t\t\tAND a.meta_key NOT LIKE '\\\\_site\\\\_transient\\\\_timeout\\\\_{c86b83b3787c621f71c95294ba800bdd910333272b018d24afc681aba333f802}'\n\t\t\t\tAND b.meta_key = CONCAT( '_site_transient_timeout_', SUBSTRING( a.meta_key, 17 ) )\n\t\t\t\tAND b.meta_value . 1686493600"}
+[Sun, 11 Jun 2023 14:26:40 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:26:40 +0000] flush group options
+[Sun, 11 Jun 2023 14:26:40 +0000] flush group comments
+[Sun, 11 Jun 2023 14:26:40 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:26:40 +0000] flushing based on sqlquery group singletables with extras {"modification_query":"DELETE FROM wp_peepso_mayfly  WHERE 1=1   AND `expires` IS NULL OR `expires` .= NOW() "}
+[Sun, 11 Jun 2023 14:26:40 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:26:40 +0000] flush group options
+[Sun, 11 Jun 2023 14:26:40 +0000] flush group comments
+[Sun, 11 Jun 2023 14:26:40 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:26:40 +0000] flushing based on sqlquery group options with extras {"wpdb_delete":"wp_options"}
+[Sun, 11 Jun 2023 14:26:40 +0000] flush group options
+[Sun, 11 Jun 2023 14:26:40 +0000] flushing based on sqlquery group options with extras {"wpdb_delete":"wp_options"}
+[Sun, 11 Jun 2023 14:26:40 +0000] flush group options
+[Sun, 11 Jun 2023 14:26:40 +0000] flushing based on sqlquery group options with extras {"wpdb_delete":"wp_options"}
+[Sun, 11 Jun 2023 14:26:40 +0000] flush group options
+[Sun, 11 Jun 2023 14:26:40 +0000] flushing based on sqlquery group singletables with extras {"wpdb_delete":"wp_peepso_mayfly"}
+[Sun, 11 Jun 2023 14:26:40 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:26:40 +0000] flush group options
+[Sun, 11 Jun 2023 14:26:40 +0000] flush group comments
+[Sun, 11 Jun 2023 14:26:40 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:26:40 +0000] flushing based on sqlquery group singletables with extras {"modification_query":"UPDATE wp_peepso_mayfly set `expires` =  DATE_ADD(`expires`, INTERVAL 5 second)  WHERE `id`=23146"}
+[Sun, 11 Jun 2023 14:26:40 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:26:40 +0000] flush group options
+[Sun, 11 Jun 2023 14:26:40 +0000] flush group comments
+[Sun, 11 Jun 2023 14:26:40 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:26:40 +0000] flushing based on sqlquery group singletables with extras {"wpdb_delete":"wp_peepso_mayfly"}
+[Sun, 11 Jun 2023 14:26:40 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:26:40 +0000] flush group options
+[Sun, 11 Jun 2023 14:26:40 +0000] flush group comments
+[Sun, 11 Jun 2023 14:26:40 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:26:41 +0000] flushing based on sqlquery group options with extras {"modification_query":"INSERT INTO `wp_options` (`option_name`, `option_value`, `autoload`) VALUES ('w3tc_extensions_hooks', '{\\\"actions\\\":[],\\\"filters\\\":[],\\\"next_check_date\\\":1686580001}', 'yes') ON DUPLICATE KEY UPDATE `option_name` = VALUES(`option_name`), `option_value` = VALUES(`option_value`), `autoload` = VALUES(`autoload`)"}
+[Sun, 11 Jun 2023 14:26:41 +0000] flush group options
+[Sun, 11 Jun 2023 14:26:41 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_options"}
+[Sun, 11 Jun 2023 14:26:41 +0000] flush group options
+[Sun, 11 Jun 2023 14:26:41 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_options"}
+[Sun, 11 Jun 2023 14:26:41 +0000] flush group options
+[Sun, 11 Jun 2023 14:26:41 +0000] flushing based on sqlquery group singletables with extras {"wpdb_update":"wp_peepso_users"}
+[Sun, 11 Jun 2023 14:26:41 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:26:41 +0000] flush group options
+[Sun, 11 Jun 2023 14:26:41 +0000] flush group comments
+[Sun, 11 Jun 2023 14:26:41 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:26:41 +0000] flushing based on sqlquery group singletables with extras {"wpdb_update":"wp_peepso_users"}
+[Sun, 11 Jun 2023 14:26:41 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:26:41 +0000] flush group options
+[Sun, 11 Jun 2023 14:26:41 +0000] flush group comments
+[Sun, 11 Jun 2023 14:26:41 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:26:41 +0000] flushing based on sqlquery group singletables with extras {"wpdb_update":"wp_peepso_users"}
+[Sun, 11 Jun 2023 14:26:41 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:26:41 +0000] flush group options
+[Sun, 11 Jun 2023 14:26:41 +0000] flush group comments
+[Sun, 11 Jun 2023 14:26:41 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:26:41 +0000] flushing based on sqlquery group singletables with extras {"wpdb_update":"wp_peepso_users"}
+[Sun, 11 Jun 2023 14:26:41 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:26:41 +0000] flush group options
+[Sun, 11 Jun 2023 14:26:41 +0000] flush group comments
+[Sun, 11 Jun 2023 14:26:41 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:26:41 +0000] flushing based on sqlquery group singletables with extras {"wpdb_update":"wp_peepso_users"}
+[Sun, 11 Jun 2023 14:26:41 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:26:41 +0000] flush group options
+[Sun, 11 Jun 2023 14:26:41 +0000] flush group comments
+[Sun, 11 Jun 2023 14:26:41 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:26:41 +0000] flushing based on sqlquery group singletables with extras {"wpdb_update":"wp_peepso_users"}
+[Sun, 11 Jun 2023 14:26:41 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:26:41 +0000] flush group options
+[Sun, 11 Jun 2023 14:26:41 +0000] flush group comments
+[Sun, 11 Jun 2023 14:26:41 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:26:41 +0000] flushing based on sqlquery group singletables with extras {"wpdb_update":"wp_peepso_users"}
+[Sun, 11 Jun 2023 14:26:41 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:26:41 +0000] flush group options
+[Sun, 11 Jun 2023 14:26:41 +0000] flush group comments
+[Sun, 11 Jun 2023 14:26:41 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:26:41 +0000] flushing based on sqlquery group singletables with extras {"wpdb_update":"wp_peepso_users"}
+[Sun, 11 Jun 2023 14:26:41 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:26:41 +0000] flush group options
+[Sun, 11 Jun 2023 14:26:41 +0000] flush group comments
+[Sun, 11 Jun 2023 14:26:41 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:26:41 +0000] flushing based on sqlquery group singletables with extras {"wpdb_update":"wp_sitemeta"}
+[Sun, 11 Jun 2023 14:26:41 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:26:41 +0000] flush group options
+[Sun, 11 Jun 2023 14:26:41 +0000] flush group comments
+[Sun, 11 Jun 2023 14:26:41 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:26:41 +0000] flushing based on sqlquery group singletables with extras {"wpdb_update":"wp_sitemeta"}
+[Sun, 11 Jun 2023 14:26:41 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:26:41 +0000] flush group options
+[Sun, 11 Jun 2023 14:26:41 +0000] flush group comments
+[Sun, 11 Jun 2023 14:26:41 +0000] flush group singletables
+
+[Sun, 11 Jun 2023 14:26:41 +0000] [/wp-admin/network/admin.php?page=w3tc_setup_guide] [1686493601.4973]
+Database Caching using redis (Request-wide modification query)
+
+Db cache debug info:
+Total queries:      301
+Cached queries:     0
+Total query time:   0.3705
+[Sun, 11 Jun 2023 14:28:43 +0000] flushing based on sqlquery group singletables with extras {"modification_query":"CREATE TABLE IF NOT EXISTS `wp_peepso_gdpr_request_data` (\n\t\t\t\t\t`request_id`\t\t\tINT(11) UNSIGNED NOT NULL AUTO_INCREMENT,\n\t\t\t\t\t`request_user_id`\t\tBIGINT(20) UNSIGNED NULL DEFAULT '0',\n\t\t\t\t\t`request_created_at`\tTIMESTAMP DEFAULT CURRENT_TIMESTAMP,\n\t\t\t\t\t`request_updated_at`\tTIMESTAMP DEFAULT 0,\n\t\t\t\t\t`request_file_path`\t\tVARCHAR(255) NULL DEFAULT NULL,\n\t\t\t\t\t`request_file_url`\t\tVARCHAR(255) NULL DEFAULT NULL,\n\t\t\t\t\t`request_status`\t\tTINYINT(1) NOT NULL DEFAULT '0',\n\t\t\t\t\t`request_attempts` \t\tTINYINT(1) NOT NULL DEFAULT '0',\n\t\t\t\t\t`request_error_log`\t\tTEXT,\n\n\t\t\t\t\tPRIMARY KEY (`request_id`),\n\t\t\t\t\tINDEX `user` (`request_user_id`),\n\t\t\t\t\tINDEX `status` (`request_status`)\n\t\t\t\t) ENGINE=InnoDB"}
+[Sun, 11 Jun 2023 14:28:43 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:28:43 +0000] flush group options
+[Sun, 11 Jun 2023 14:28:43 +0000] flush group comments
+[Sun, 11 Jun 2023 14:28:43 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:28:43 +0000] flushing based on sqlquery group singletables with extras {"modification_query":"CREATE TABLE IF NOT EXISTS `wp_peepso_brute_force_attempts_logs` (\n\t\t\t\t\t`attempts_id`\t\t\tINT(11) UNSIGNED NOT NULL AUTO_INCREMENT,\n\t\t\t\t\t`attempts_username`\t\tVARCHAR(255) NOT NULL DEFAULT '',\n\t\t\t\t\t`attempts_time`\t\t\tINT(10) NOT NULL DEFAULT '0',\n\t\t\t\t\t`attempts_count` \t\tINT(10) NOT NULL DEFAULT '0',\n\t\t\t\t\t`attempts_lockout` \t\tINT(10) NOT NULL DEFAULT '0',\n\t\t\t\t\t`attempts_ip` \t\t\tVARCHAR(100) NOT NULL DEFAULT '',\n\t\t\t\t\t`attempts_url` \t\t\tVARCHAR(255) NOT NULL DEFAULT '',\n\t\t\t\t\t`attempts_created_at`\tTIMESTAMP DEFAULT CURRENT_TIMESTAMP,\n\t\t\t\t\t`attempts_type`\t\t\tTINYINT(1) UNSIGNED NOT NULL DEFAULT '0',\n\n\t\t\t\t\tPRIMARY KEY (`attempts_id`),\n\t\t\t\t\tUNIQUE KEY `ip` (`attempts_ip`, `attempts_type`)\n\t\t\t\t) ENGINE=InnoDB"}
+[Sun, 11 Jun 2023 14:28:43 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:28:43 +0000] flush group options
+[Sun, 11 Jun 2023 14:28:43 +0000] flush group comments
+[Sun, 11 Jun 2023 14:28:43 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:28:43 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_options"}
+[Sun, 11 Jun 2023 14:28:43 +0000] flush group options
+[Sun, 11 Jun 2023 14:28:43 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_options"}
+[Sun, 11 Jun 2023 14:28:43 +0000] flush group options
+[Sun, 11 Jun 2023 14:28:43 +0000] flushing based on sqlquery group options with extras {"modification_query":"DELETE a, b FROM wp_options a, wp_options b\n\t\t\tWHERE a.option_name LIKE '\\\\_transient\\\\_{5966c9f3de56064b8144c7890d9a03ea179b49d9a1513f7f92e4d373f1632522}'\n\t\t\tAND a.option_name NOT LIKE '\\\\_transient\\\\_timeout\\\\_{5966c9f3de56064b8144c7890d9a03ea179b49d9a1513f7f92e4d373f1632522}'\n\t\t\tAND b.option_name = CONCAT( '_transient_timeout_', SUBSTRING( a.option_name, 12 ) )\n\t\t\tAND b.option_value . 1686493723"}
+[Sun, 11 Jun 2023 14:28:43 +0000] flush group options
+[Sun, 11 Jun 2023 14:28:43 +0000] flushing based on sqlquery group singletables with extras {"modification_query":"DELETE a, b FROM wp_sitemeta a, wp_sitemeta b\n\t\t\t\tWHERE a.meta_key LIKE '\\\\_site\\\\_transient\\\\_{5966c9f3de56064b8144c7890d9a03ea179b49d9a1513f7f92e4d373f1632522}'\n\t\t\t\tAND a.meta_key NOT LIKE '\\\\_site\\\\_transient\\\\_timeout\\\\_{5966c9f3de56064b8144c7890d9a03ea179b49d9a1513f7f92e4d373f1632522}'\n\t\t\t\tAND b.meta_key = CONCAT( '_site_transient_timeout_', SUBSTRING( a.meta_key, 17 ) )\n\t\t\t\tAND b.meta_value . 1686493723"}
+[Sun, 11 Jun 2023 14:28:43 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:28:43 +0000] flush group options
+[Sun, 11 Jun 2023 14:28:43 +0000] flush group comments
+[Sun, 11 Jun 2023 14:28:43 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:28:43 +0000] flushing based on sqlquery group singletables with extras {"modification_query":"DELETE FROM wp_peepso_mayfly  WHERE 1=1   AND `expires` IS NULL OR `expires` .= NOW() "}
+[Sun, 11 Jun 2023 14:28:43 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:28:43 +0000] flush group options
+[Sun, 11 Jun 2023 14:28:43 +0000] flush group comments
+[Sun, 11 Jun 2023 14:28:43 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:28:43 +0000] flushing based on sqlquery group options with extras {"wpdb_delete":"wp_options"}
+[Sun, 11 Jun 2023 14:28:43 +0000] flush group options
+[Sun, 11 Jun 2023 14:28:43 +0000] flushing based on sqlquery group singletables with extras {"wpdb_delete":"wp_peepso_mayfly"}
+[Sun, 11 Jun 2023 14:28:43 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:28:43 +0000] flush group options
+[Sun, 11 Jun 2023 14:28:43 +0000] flush group comments
+[Sun, 11 Jun 2023 14:28:43 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:28:43 +0000] flushing based on sqlquery group singletables with extras {"modification_query":"UPDATE wp_peepso_mayfly set `expires` =  DATE_ADD(`expires`, INTERVAL 5 second)  WHERE `id`=23152"}
+[Sun, 11 Jun 2023 14:28:43 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:28:43 +0000] flush group options
+[Sun, 11 Jun 2023 14:28:43 +0000] flush group comments
+[Sun, 11 Jun 2023 14:28:43 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:28:43 +0000] flushing based on sqlquery group singletables with extras {"wpdb_delete":"wp_peepso_mayfly"}
+[Sun, 11 Jun 2023 14:28:43 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:28:43 +0000] flush group options
+[Sun, 11 Jun 2023 14:28:43 +0000] flush group comments
+[Sun, 11 Jun 2023 14:28:43 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:28:43 +0000] flushing based on sqlquery group options with extras {"modification_query":"INSERT INTO `wp_options` (`option_name`, `option_value`, `autoload`) VALUES ('w3tc_extensions_hooks', '{\\\"actions\\\":[],\\\"filters\\\":[],\\\"next_check_date\\\":1686580123}', 'yes') ON DUPLICATE KEY UPDATE `option_name` = VALUES(`option_name`), `option_value` = VALUES(`option_value`), `autoload` = VALUES(`autoload`)"}
+[Sun, 11 Jun 2023 14:28:43 +0000] flush group options
+[Sun, 11 Jun 2023 14:28:43 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_options"}
+[Sun, 11 Jun 2023 14:28:43 +0000] flush group options
+[Sun, 11 Jun 2023 14:28:43 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_options"}
+[Sun, 11 Jun 2023 14:28:43 +0000] flush group options
+[Sun, 11 Jun 2023 14:28:43 +0000] flushing based on sqlquery group singletables with extras {"wpdb_update":"wp_peepso_users"}
+[Sun, 11 Jun 2023 14:28:43 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:28:43 +0000] flush group options
+[Sun, 11 Jun 2023 14:28:43 +0000] flush group comments
+[Sun, 11 Jun 2023 14:28:43 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:28:43 +0000] flushing based on sqlquery group singletables with extras {"wpdb_update":"wp_peepso_users"}
+[Sun, 11 Jun 2023 14:28:43 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:28:43 +0000] flush group options
+[Sun, 11 Jun 2023 14:28:43 +0000] flush group comments
+[Sun, 11 Jun 2023 14:28:43 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:28:43 +0000] flushing based on sqlquery group singletables with extras {"wpdb_update":"wp_peepso_users"}
+[Sun, 11 Jun 2023 14:28:43 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:28:43 +0000] flush group options
+[Sun, 11 Jun 2023 14:28:43 +0000] flush group comments
+[Sun, 11 Jun 2023 14:28:43 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:28:43 +0000] flushing based on sqlquery group singletables with extras {"wpdb_update":"wp_peepso_users"}
+[Sun, 11 Jun 2023 14:28:43 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:28:43 +0000] flush group options
+[Sun, 11 Jun 2023 14:28:43 +0000] flush group comments
+[Sun, 11 Jun 2023 14:28:43 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:28:43 +0000] flushing based on sqlquery group singletables with extras {"wpdb_update":"wp_peepso_users"}
+[Sun, 11 Jun 2023 14:28:43 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:28:43 +0000] flush group options
+[Sun, 11 Jun 2023 14:28:43 +0000] flush group comments
+[Sun, 11 Jun 2023 14:28:43 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:28:43 +0000] flushing based on sqlquery group singletables with extras {"wpdb_update":"wp_peepso_users"}
+[Sun, 11 Jun 2023 14:28:43 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:28:43 +0000] flush group options
+[Sun, 11 Jun 2023 14:28:43 +0000] flush group comments
+[Sun, 11 Jun 2023 14:28:43 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:28:43 +0000] flushing based on sqlquery group singletables with extras {"wpdb_update":"wp_peepso_users"}
+[Sun, 11 Jun 2023 14:28:43 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:28:43 +0000] flush group options
+[Sun, 11 Jun 2023 14:28:43 +0000] flush group comments
+[Sun, 11 Jun 2023 14:28:43 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:28:43 +0000] flushing based on sqlquery group singletables with extras {"wpdb_update":"wp_peepso_users"}
+[Sun, 11 Jun 2023 14:28:43 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:28:43 +0000] flush group options
+[Sun, 11 Jun 2023 14:28:43 +0000] flush group comments
+[Sun, 11 Jun 2023 14:28:43 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:28:43 +0000] flushing based on sqlquery group singletables with extras {"wpdb_update":"wp_sitemeta"}
+[Sun, 11 Jun 2023 14:28:43 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:28:43 +0000] flush group options
+[Sun, 11 Jun 2023 14:28:43 +0000] flush group comments
+[Sun, 11 Jun 2023 14:28:43 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:28:44 +0000] flushing based on sqlquery group singletables with extras {"wpdb_update":"wp_sitemeta"}
+[Sun, 11 Jun 2023 14:28:44 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:28:44 +0000] flush group options
+[Sun, 11 Jun 2023 14:28:44 +0000] flush group comments
+[Sun, 11 Jun 2023 14:28:44 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:28:44 +0000] flushing based on sqlquery group options with extras {"modification_query":"INSERT INTO `wp_options` (`option_name`, `option_value`, `autoload`) VALUES ('_transient_timeout_w3tc.verify_plugins', '1687098524', 'no') ON DUPLICATE KEY UPDATE `option_name` = VALUES(`option_name`), `option_value` = VALUES(`option_value`), `autoload` = VALUES(`autoload`)"}
+[Sun, 11 Jun 2023 14:28:44 +0000] flush group options
+[Sun, 11 Jun 2023 14:28:44 +0000] flushing based on sqlquery group options with extras {"modification_query":"INSERT INTO `wp_options` (`option_name`, `option_value`, `autoload`) VALUES ('_transient_w3tc.verify_plugins', '1', 'no') ON DUPLICATE KEY UPDATE `option_name` = VALUES(`option_name`), `option_value` = VALUES(`option_value`), `autoload` = VALUES(`autoload`)"}
+[Sun, 11 Jun 2023 14:28:44 +0000] flush group options
+[Sun, 11 Jun 2023 14:28:44 +0000] flushing based on sqlquery group singletables with extras {"wpdb_update":"wp_sitemeta"}
+[Sun, 11 Jun 2023 14:28:44 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:28:44 +0000] flush group options
+[Sun, 11 Jun 2023 14:28:44 +0000] flush group comments
+[Sun, 11 Jun 2023 14:28:44 +0000] flush group singletables
+
+[Sun, 11 Jun 2023 14:28:44 +0000] [/wp-admin/network/admin.php?page=w3tc_dashboard] [1686493724.5492]
+Database Caching using redis (Request-wide modification query)
+
+Db cache debug info:
+Total queries:      348
+Cached queries:     0
+Total query time:   0.4050
+[Sun, 11 Jun 2023 14:28:54 +0000] flushing based on sqlquery group singletables with extras {"modification_query":"CREATE TABLE IF NOT EXISTS `wp_peepso_gdpr_request_data` (\n\t\t\t\t\t`request_id`\t\t\tINT(11) UNSIGNED NOT NULL AUTO_INCREMENT,\n\t\t\t\t\t`request_user_id`\t\tBIGINT(20) UNSIGNED NULL DEFAULT '0',\n\t\t\t\t\t`request_created_at`\tTIMESTAMP DEFAULT CURRENT_TIMESTAMP,\n\t\t\t\t\t`request_updated_at`\tTIMESTAMP DEFAULT 0,\n\t\t\t\t\t`request_file_path`\t\tVARCHAR(255) NULL DEFAULT NULL,\n\t\t\t\t\t`request_file_url`\t\tVARCHAR(255) NULL DEFAULT NULL,\n\t\t\t\t\t`request_status`\t\tTINYINT(1) NOT NULL DEFAULT '0',\n\t\t\t\t\t`request_attempts` \t\tTINYINT(1) NOT NULL DEFAULT '0',\n\t\t\t\t\t`request_error_log`\t\tTEXT,\n\n\t\t\t\t\tPRIMARY KEY (`request_id`),\n\t\t\t\t\tINDEX `user` (`request_user_id`),\n\t\t\t\t\tINDEX `status` (`request_status`)\n\t\t\t\t) ENGINE=InnoDB"}
+[Sun, 11 Jun 2023 14:28:54 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:28:54 +0000] flush group options
+[Sun, 11 Jun 2023 14:28:54 +0000] flush group comments
+[Sun, 11 Jun 2023 14:28:54 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:28:54 +0000] flushing based on sqlquery group singletables with extras {"modification_query":"CREATE TABLE IF NOT EXISTS `wp_peepso_brute_force_attempts_logs` (\n\t\t\t\t\t`attempts_id`\t\t\tINT(11) UNSIGNED NOT NULL AUTO_INCREMENT,\n\t\t\t\t\t`attempts_username`\t\tVARCHAR(255) NOT NULL DEFAULT '',\n\t\t\t\t\t`attempts_time`\t\t\tINT(10) NOT NULL DEFAULT '0',\n\t\t\t\t\t`attempts_count` \t\tINT(10) NOT NULL DEFAULT '0',\n\t\t\t\t\t`attempts_lockout` \t\tINT(10) NOT NULL DEFAULT '0',\n\t\t\t\t\t`attempts_ip` \t\t\tVARCHAR(100) NOT NULL DEFAULT '',\n\t\t\t\t\t`attempts_url` \t\t\tVARCHAR(255) NOT NULL DEFAULT '',\n\t\t\t\t\t`attempts_created_at`\tTIMESTAMP DEFAULT CURRENT_TIMESTAMP,\n\t\t\t\t\t`attempts_type`\t\t\tTINYINT(1) UNSIGNED NOT NULL DEFAULT '0',\n\n\t\t\t\t\tPRIMARY KEY (`attempts_id`),\n\t\t\t\t\tUNIQUE KEY `ip` (`attempts_ip`, `attempts_type`)\n\t\t\t\t) ENGINE=InnoDB"}
+[Sun, 11 Jun 2023 14:28:54 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:28:54 +0000] flush group options
+[Sun, 11 Jun 2023 14:28:54 +0000] flush group comments
+[Sun, 11 Jun 2023 14:28:54 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:28:54 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_options"}
+[Sun, 11 Jun 2023 14:28:54 +0000] flush group options
+[Sun, 11 Jun 2023 14:28:54 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_options"}
+[Sun, 11 Jun 2023 14:28:54 +0000] flush group options
+[Sun, 11 Jun 2023 14:28:54 +0000] flushing based on sqlquery group options with extras {"modification_query":"DELETE a, b FROM wp_options a, wp_options b\n\t\t\tWHERE a.option_name LIKE '\\\\_transient\\\\_{41125796d0548b27ae82600b76d22b0d4b6f1825ec6884ef7e773e79800ec9a7}'\n\t\t\tAND a.option_name NOT LIKE '\\\\_transient\\\\_timeout\\\\_{41125796d0548b27ae82600b76d22b0d4b6f1825ec6884ef7e773e79800ec9a7}'\n\t\t\tAND b.option_name = CONCAT( '_transient_timeout_', SUBSTRING( a.option_name, 12 ) )\n\t\t\tAND b.option_value . 1686493734"}
+[Sun, 11 Jun 2023 14:28:54 +0000] flush group options
+[Sun, 11 Jun 2023 14:28:54 +0000] flushing based on sqlquery group singletables with extras {"modification_query":"DELETE a, b FROM wp_sitemeta a, wp_sitemeta b\n\t\t\t\tWHERE a.meta_key LIKE '\\\\_site\\\\_transient\\\\_{41125796d0548b27ae82600b76d22b0d4b6f1825ec6884ef7e773e79800ec9a7}'\n\t\t\t\tAND a.meta_key NOT LIKE '\\\\_site\\\\_transient\\\\_timeout\\\\_{41125796d0548b27ae82600b76d22b0d4b6f1825ec6884ef7e773e79800ec9a7}'\n\t\t\t\tAND b.meta_key = CONCAT( '_site_transient_timeout_', SUBSTRING( a.meta_key, 17 ) )\n\t\t\t\tAND b.meta_value . 1686493734"}
+[Sun, 11 Jun 2023 14:28:54 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:28:54 +0000] flush group options
+[Sun, 11 Jun 2023 14:28:54 +0000] flush group comments
+[Sun, 11 Jun 2023 14:28:54 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:28:54 +0000] flushing based on sqlquery group singletables with extras {"modification_query":"DELETE FROM wp_peepso_mayfly  WHERE 1=1   AND `expires` IS NULL OR `expires` .= NOW() "}
+[Sun, 11 Jun 2023 14:28:54 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:28:54 +0000] flush group options
+[Sun, 11 Jun 2023 14:28:54 +0000] flush group comments
+[Sun, 11 Jun 2023 14:28:54 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:28:54 +0000] flushing based on sqlquery group options with extras {"wpdb_delete":"wp_options"}
+[Sun, 11 Jun 2023 14:28:54 +0000] flush group options
+[Sun, 11 Jun 2023 14:28:54 +0000] flushing based on sqlquery group options with extras {"wpdb_delete":"wp_options"}
+[Sun, 11 Jun 2023 14:28:54 +0000] flush group options
+[Sun, 11 Jun 2023 14:28:54 +0000] flushing based on sqlquery group options with extras {"wpdb_delete":"wp_options"}
+[Sun, 11 Jun 2023 14:28:54 +0000] flush group options
+[Sun, 11 Jun 2023 14:28:54 +0000] flushing based on sqlquery group singletables with extras {"wpdb_delete":"wp_peepso_mayfly"}
+[Sun, 11 Jun 2023 14:28:54 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:28:54 +0000] flush group options
+[Sun, 11 Jun 2023 14:28:54 +0000] flush group comments
+[Sun, 11 Jun 2023 14:28:54 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:28:54 +0000] flushing based on sqlquery group singletables with extras {"modification_query":"UPDATE wp_peepso_mayfly set `expires` =  DATE_ADD(`expires`, INTERVAL 5 second)  WHERE `id`=23153"}
+[Sun, 11 Jun 2023 14:28:54 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:28:54 +0000] flush group options
+[Sun, 11 Jun 2023 14:28:54 +0000] flush group comments
+[Sun, 11 Jun 2023 14:28:54 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:28:54 +0000] flushing based on sqlquery group singletables with extras {"wpdb_delete":"wp_peepso_mayfly"}
+[Sun, 11 Jun 2023 14:28:54 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:28:54 +0000] flush group options
+[Sun, 11 Jun 2023 14:28:54 +0000] flush group comments
+[Sun, 11 Jun 2023 14:28:54 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:28:54 +0000] flushing based on sqlquery group options with extras {"modification_query":"INSERT INTO `wp_options` (`option_name`, `option_value`, `autoload`) VALUES ('w3tc_extensions_hooks', '{\\\"actions\\\":[],\\\"filters\\\":[],\\\"next_check_date\\\":1686580134}', 'yes') ON DUPLICATE KEY UPDATE `option_name` = VALUES(`option_name`), `option_value` = VALUES(`option_value`), `autoload` = VALUES(`autoload`)"}
+[Sun, 11 Jun 2023 14:28:54 +0000] flush group options
+[Sun, 11 Jun 2023 14:28:54 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_options"}
+[Sun, 11 Jun 2023 14:28:54 +0000] flush group options
+[Sun, 11 Jun 2023 14:28:54 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_options"}
+[Sun, 11 Jun 2023 14:28:54 +0000] flush group options
+[Sun, 11 Jun 2023 14:28:54 +0000] flushing based on sqlquery group remaining with extras {"ui_action":"flush_button"}
+[Sun, 11 Jun 2023 14:28:54 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:28:54 +0000] flush group options
+[Sun, 11 Jun 2023 14:28:54 +0000] flush group comments
+[Sun, 11 Jun 2023 14:28:54 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:28:54 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_options"}
+[Sun, 11 Jun 2023 14:28:54 +0000] flush group options
+
+[Sun, 11 Jun 2023 14:28:54 +0000] [/wp-admin/network/admin.php?page=w3tc_dashboard] [1686493734.8607]
+Database Caching using redis (Request-wide modification query)
+
+Db cache debug info:
+Total queries:      292
+Cached queries:     0
+Total query time:   0.3410
+[Sun, 11 Jun 2023 14:28:55 +0000] flushing based on sqlquery group singletables with extras {"modification_query":"CREATE TABLE IF NOT EXISTS `wp_peepso_gdpr_request_data` (\n\t\t\t\t\t`request_id`\t\t\tINT(11) UNSIGNED NOT NULL AUTO_INCREMENT,\n\t\t\t\t\t`request_user_id`\t\tBIGINT(20) UNSIGNED NULL DEFAULT '0',\n\t\t\t\t\t`request_created_at`\tTIMESTAMP DEFAULT CURRENT_TIMESTAMP,\n\t\t\t\t\t`request_updated_at`\tTIMESTAMP DEFAULT 0,\n\t\t\t\t\t`request_file_path`\t\tVARCHAR(255) NULL DEFAULT NULL,\n\t\t\t\t\t`request_file_url`\t\tVARCHAR(255) NULL DEFAULT NULL,\n\t\t\t\t\t`request_status`\t\tTINYINT(1) NOT NULL DEFAULT '0',\n\t\t\t\t\t`request_attempts` \t\tTINYINT(1) NOT NULL DEFAULT '0',\n\t\t\t\t\t`request_error_log`\t\tTEXT,\n\n\t\t\t\t\tPRIMARY KEY (`request_id`),\n\t\t\t\t\tINDEX `user` (`request_user_id`),\n\t\t\t\t\tINDEX `status` (`request_status`)\n\t\t\t\t) ENGINE=InnoDB"}
+[Sun, 11 Jun 2023 14:28:55 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:28:55 +0000] flush group options
+[Sun, 11 Jun 2023 14:28:55 +0000] flush group comments
+[Sun, 11 Jun 2023 14:28:55 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:28:55 +0000] flushing based on sqlquery group singletables with extras {"modification_query":"CREATE TABLE IF NOT EXISTS `wp_peepso_brute_force_attempts_logs` (\n\t\t\t\t\t`attempts_id`\t\t\tINT(11) UNSIGNED NOT NULL AUTO_INCREMENT,\n\t\t\t\t\t`attempts_username`\t\tVARCHAR(255) NOT NULL DEFAULT '',\n\t\t\t\t\t`attempts_time`\t\t\tINT(10) NOT NULL DEFAULT '0',\n\t\t\t\t\t`attempts_count` \t\tINT(10) NOT NULL DEFAULT '0',\n\t\t\t\t\t`attempts_lockout` \t\tINT(10) NOT NULL DEFAULT '0',\n\t\t\t\t\t`attempts_ip` \t\t\tVARCHAR(100) NOT NULL DEFAULT '',\n\t\t\t\t\t`attempts_url` \t\t\tVARCHAR(255) NOT NULL DEFAULT '',\n\t\t\t\t\t`attempts_created_at`\tTIMESTAMP DEFAULT CURRENT_TIMESTAMP,\n\t\t\t\t\t`attempts_type`\t\t\tTINYINT(1) UNSIGNED NOT NULL DEFAULT '0',\n\n\t\t\t\t\tPRIMARY KEY (`attempts_id`),\n\t\t\t\t\tUNIQUE KEY `ip` (`attempts_ip`, `attempts_type`)\n\t\t\t\t) ENGINE=InnoDB"}
+[Sun, 11 Jun 2023 14:28:55 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:28:55 +0000] flush group options
+[Sun, 11 Jun 2023 14:28:55 +0000] flush group comments
+[Sun, 11 Jun 2023 14:28:55 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:28:56 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_options"}
+[Sun, 11 Jun 2023 14:28:56 +0000] flush group options
+[Sun, 11 Jun 2023 14:28:56 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_options"}
+[Sun, 11 Jun 2023 14:28:56 +0000] flush group options
+[Sun, 11 Jun 2023 14:28:56 +0000] flushing based on sqlquery group options with extras {"modification_query":"DELETE a, b FROM wp_options a, wp_options b\n\t\t\tWHERE a.option_name LIKE '\\\\_transient\\\\_{6b740c73a2073bd382aa3fb0b83a4c55a196a577a7f52fed265eaaef7a6176f3}'\n\t\t\tAND a.option_name NOT LIKE '\\\\_transient\\\\_timeout\\\\_{6b740c73a2073bd382aa3fb0b83a4c55a196a577a7f52fed265eaaef7a6176f3}'\n\t\t\tAND b.option_name = CONCAT( '_transient_timeout_', SUBSTRING( a.option_name, 12 ) )\n\t\t\tAND b.option_value . 1686493736"}
+[Sun, 11 Jun 2023 14:28:56 +0000] flush group options
+[Sun, 11 Jun 2023 14:28:56 +0000] flushing based on sqlquery group singletables with extras {"modification_query":"DELETE a, b FROM wp_sitemeta a, wp_sitemeta b\n\t\t\t\tWHERE a.meta_key LIKE '\\\\_site\\\\_transient\\\\_{6b740c73a2073bd382aa3fb0b83a4c55a196a577a7f52fed265eaaef7a6176f3}'\n\t\t\t\tAND a.meta_key NOT LIKE '\\\\_site\\\\_transient\\\\_timeout\\\\_{6b740c73a2073bd382aa3fb0b83a4c55a196a577a7f52fed265eaaef7a6176f3}'\n\t\t\t\tAND b.meta_key = CONCAT( '_site_transient_timeout_', SUBSTRING( a.meta_key, 17 ) )\n\t\t\t\tAND b.meta_value . 1686493736"}
+[Sun, 11 Jun 2023 14:28:56 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:28:56 +0000] flush group options
+[Sun, 11 Jun 2023 14:28:56 +0000] flush group comments
+[Sun, 11 Jun 2023 14:28:56 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:28:56 +0000] flushing based on sqlquery group singletables with extras {"modification_query":"DELETE FROM wp_peepso_mayfly  WHERE 1=1   AND `expires` IS NULL OR `expires` .= NOW() "}
+[Sun, 11 Jun 2023 14:28:56 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:28:56 +0000] flush group options
+[Sun, 11 Jun 2023 14:28:56 +0000] flush group comments
+[Sun, 11 Jun 2023 14:28:56 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:28:56 +0000] flushing based on sqlquery group singletables with extras {"wpdb_delete":"wp_peepso_mayfly"}
+[Sun, 11 Jun 2023 14:28:56 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:28:56 +0000] flush group options
+[Sun, 11 Jun 2023 14:28:56 +0000] flush group comments
+[Sun, 11 Jun 2023 14:28:56 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:28:56 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_options"}
+[Sun, 11 Jun 2023 14:28:56 +0000] flush group options
+[Sun, 11 Jun 2023 14:28:56 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_options"}
+[Sun, 11 Jun 2023 14:28:56 +0000] flush group options
+[Sun, 11 Jun 2023 14:28:57 +0000] flushing based on sqlquery group singletables with extras {"wpdb_update":"wp_peepso_users"}
+[Sun, 11 Jun 2023 14:28:57 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:28:57 +0000] flush group options
+[Sun, 11 Jun 2023 14:28:57 +0000] flush group comments
+[Sun, 11 Jun 2023 14:28:57 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:28:57 +0000] flushing based on sqlquery group singletables with extras {"wpdb_update":"wp_peepso_users"}
+[Sun, 11 Jun 2023 14:28:57 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:28:57 +0000] flush group options
+[Sun, 11 Jun 2023 14:28:57 +0000] flush group comments
+[Sun, 11 Jun 2023 14:28:57 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:28:57 +0000] flushing based on sqlquery group singletables with extras {"wpdb_update":"wp_peepso_users"}
+[Sun, 11 Jun 2023 14:28:57 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:28:57 +0000] flush group options
+[Sun, 11 Jun 2023 14:28:57 +0000] flush group comments
+[Sun, 11 Jun 2023 14:28:57 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:28:57 +0000] flushing based on sqlquery group singletables with extras {"wpdb_update":"wp_peepso_users"}
+[Sun, 11 Jun 2023 14:28:57 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:28:57 +0000] flush group options
+[Sun, 11 Jun 2023 14:28:57 +0000] flush group comments
+[Sun, 11 Jun 2023 14:28:57 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:28:57 +0000] flushing based on sqlquery group singletables with extras {"wpdb_update":"wp_peepso_users"}
+[Sun, 11 Jun 2023 14:28:57 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:28:57 +0000] flush group options
+[Sun, 11 Jun 2023 14:28:57 +0000] flush group comments
+[Sun, 11 Jun 2023 14:28:57 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:28:57 +0000] flushing based on sqlquery group singletables with extras {"wpdb_update":"wp_peepso_users"}
+[Sun, 11 Jun 2023 14:28:57 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:28:57 +0000] flush group options
+[Sun, 11 Jun 2023 14:28:57 +0000] flush group comments
+[Sun, 11 Jun 2023 14:28:57 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:28:57 +0000] flushing based on sqlquery group singletables with extras {"wpdb_update":"wp_peepso_users"}
+[Sun, 11 Jun 2023 14:28:57 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:28:57 +0000] flush group options
+[Sun, 11 Jun 2023 14:28:57 +0000] flush group comments
+[Sun, 11 Jun 2023 14:28:57 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:28:57 +0000] flushing based on sqlquery group singletables with extras {"wpdb_update":"wp_peepso_users"}
+[Sun, 11 Jun 2023 14:28:57 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:28:57 +0000] flush group options
+[Sun, 11 Jun 2023 14:28:57 +0000] flush group comments
+[Sun, 11 Jun 2023 14:28:57 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:28:57 +0000] flushing based on sqlquery group singletables with extras {"wpdb_update":"wp_sitemeta"}
+[Sun, 11 Jun 2023 14:28:57 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:28:57 +0000] flush group options
+[Sun, 11 Jun 2023 14:28:57 +0000] flush group comments
+[Sun, 11 Jun 2023 14:28:57 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:28:57 +0000] flushing based on sqlquery group singletables with extras {"wpdb_update":"wp_sitemeta"}
+[Sun, 11 Jun 2023 14:28:57 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:28:57 +0000] flush group options
+[Sun, 11 Jun 2023 14:28:57 +0000] flush group comments
+[Sun, 11 Jun 2023 14:28:57 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:28:57 +0000] flushing based on sqlquery group options with extras {"modification_query":"INSERT INTO `wp_options` (`option_name`, `option_value`, `autoload`) VALUES ('_transient_timeout_w3tc.verify_plugins', '1687098537', 'no') ON DUPLICATE KEY UPDATE `option_name` = VALUES(`option_name`), `option_value` = VALUES(`option_value`), `autoload` = VALUES(`autoload`)"}
+[Sun, 11 Jun 2023 14:28:57 +0000] flush group options
+[Sun, 11 Jun 2023 14:28:57 +0000] flushing based on sqlquery group options with extras {"modification_query":"INSERT INTO `wp_options` (`option_name`, `option_value`, `autoload`) VALUES ('_transient_w3tc.verify_plugins', '1', 'no') ON DUPLICATE KEY UPDATE `option_name` = VALUES(`option_name`), `option_value` = VALUES(`option_value`), `autoload` = VALUES(`autoload`)"}
+[Sun, 11 Jun 2023 14:28:57 +0000] flush group options
+[Sun, 11 Jun 2023 14:28:57 +0000] flushing based on sqlquery group singletables with extras {"wpdb_update":"wp_sitemeta"}
+[Sun, 11 Jun 2023 14:28:57 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:28:57 +0000] flush group options
+[Sun, 11 Jun 2023 14:28:57 +0000] flush group comments
+[Sun, 11 Jun 2023 14:28:57 +0000] flush group singletables
+
+[Sun, 11 Jun 2023 14:28:57 +0000] [/wp-admin/network/admin.php?page=w3tc_dashboard&w3tc_note=flush_all] [1686493737.5813]
+Database Caching using redis (Request-wide modification query)
+
+Db cache debug info:
+Total queries:      335
+Cached queries:     0
+Total query time:   0.3741
+[Sun, 11 Jun 2023 14:40:22 +0000] flushing based on sqlquery group singletables with extras {"modification_query":"CREATE TABLE IF NOT EXISTS `wp_peepso_gdpr_request_data` (\n\t\t\t\t\t`request_id`\t\t\tINT(11) UNSIGNED NOT NULL AUTO_INCREMENT,\n\t\t\t\t\t`request_user_id`\t\tBIGINT(20) UNSIGNED NULL DEFAULT '0',\n\t\t\t\t\t`request_created_at`\tTIMESTAMP DEFAULT CURRENT_TIMESTAMP,\n\t\t\t\t\t`request_updated_at`\tTIMESTAMP DEFAULT 0,\n\t\t\t\t\t`request_file_path`\t\tVARCHAR(255) NULL DEFAULT NULL,\n\t\t\t\t\t`request_file_url`\t\tVARCHAR(255) NULL DEFAULT NULL,\n\t\t\t\t\t`request_status`\t\tTINYINT(1) NOT NULL DEFAULT '0',\n\t\t\t\t\t`request_attempts` \t\tTINYINT(1) NOT NULL DEFAULT '0',\n\t\t\t\t\t`request_error_log`\t\tTEXT,\n\n\t\t\t\t\tPRIMARY KEY (`request_id`),\n\t\t\t\t\tINDEX `user` (`request_user_id`),\n\t\t\t\t\tINDEX `status` (`request_status`)\n\t\t\t\t) ENGINE=InnoDB"}
+[Sun, 11 Jun 2023 14:40:22 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:40:22 +0000] flush group options
+[Sun, 11 Jun 2023 14:40:22 +0000] flush group comments
+[Sun, 11 Jun 2023 14:40:22 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:40:22 +0000] flushing based on sqlquery group singletables with extras {"modification_query":"CREATE TABLE IF NOT EXISTS `wp_peepso_brute_force_attempts_logs` (\n\t\t\t\t\t`attempts_id`\t\t\tINT(11) UNSIGNED NOT NULL AUTO_INCREMENT,\n\t\t\t\t\t`attempts_username`\t\tVARCHAR(255) NOT NULL DEFAULT '',\n\t\t\t\t\t`attempts_time`\t\t\tINT(10) NOT NULL DEFAULT '0',\n\t\t\t\t\t`attempts_count` \t\tINT(10) NOT NULL DEFAULT '0',\n\t\t\t\t\t`attempts_lockout` \t\tINT(10) NOT NULL DEFAULT '0',\n\t\t\t\t\t`attempts_ip` \t\t\tVARCHAR(100) NOT NULL DEFAULT '',\n\t\t\t\t\t`attempts_url` \t\t\tVARCHAR(255) NOT NULL DEFAULT '',\n\t\t\t\t\t`attempts_created_at`\tTIMESTAMP DEFAULT CURRENT_TIMESTAMP,\n\t\t\t\t\t`attempts_type`\t\t\tTINYINT(1) UNSIGNED NOT NULL DEFAULT '0',\n\n\t\t\t\t\tPRIMARY KEY (`attempts_id`),\n\t\t\t\t\tUNIQUE KEY `ip` (`attempts_ip`, `attempts_type`)\n\t\t\t\t) ENGINE=InnoDB"}
+[Sun, 11 Jun 2023 14:40:22 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:40:22 +0000] flush group options
+[Sun, 11 Jun 2023 14:40:22 +0000] flush group comments
+[Sun, 11 Jun 2023 14:40:22 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:40:22 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_options"}
+[Sun, 11 Jun 2023 14:40:22 +0000] flush group options
+[Sun, 11 Jun 2023 14:40:22 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_options"}
+[Sun, 11 Jun 2023 14:40:22 +0000] flush group options
+[Sun, 11 Jun 2023 14:40:22 +0000] flushing based on sqlquery group options with extras {"modification_query":"DELETE a, b FROM wp_options a, wp_options b\n\t\t\tWHERE a.option_name LIKE '\\\\_transient\\\\_{802571e1409a8efc94ee649d397613a7163a1a21a0bda86de450f98955b57553}'\n\t\t\tAND a.option_name NOT LIKE '\\\\_transient\\\\_timeout\\\\_{802571e1409a8efc94ee649d397613a7163a1a21a0bda86de450f98955b57553}'\n\t\t\tAND b.option_name = CONCAT( '_transient_timeout_', SUBSTRING( a.option_name, 12 ) )\n\t\t\tAND b.option_value . 1686494422"}
+[Sun, 11 Jun 2023 14:40:22 +0000] flush group options
+[Sun, 11 Jun 2023 14:40:22 +0000] flushing based on sqlquery group singletables with extras {"modification_query":"DELETE a, b FROM wp_sitemeta a, wp_sitemeta b\n\t\t\t\tWHERE a.meta_key LIKE '\\\\_site\\\\_transient\\\\_{802571e1409a8efc94ee649d397613a7163a1a21a0bda86de450f98955b57553}'\n\t\t\t\tAND a.meta_key NOT LIKE '\\\\_site\\\\_transient\\\\_timeout\\\\_{802571e1409a8efc94ee649d397613a7163a1a21a0bda86de450f98955b57553}'\n\t\t\t\tAND b.meta_key = CONCAT( '_site_transient_timeout_', SUBSTRING( a.meta_key, 17 ) )\n\t\t\t\tAND b.meta_value . 1686494422"}
+[Sun, 11 Jun 2023 14:40:22 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:40:22 +0000] flush group options
+[Sun, 11 Jun 2023 14:40:22 +0000] flush group comments
+[Sun, 11 Jun 2023 14:40:22 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:40:22 +0000] flushing based on sqlquery group singletables with extras {"modification_query":"DELETE FROM wp_peepso_mayfly  WHERE 1=1   AND `expires` IS NULL OR `expires` .= NOW() "}
+[Sun, 11 Jun 2023 14:40:22 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:40:22 +0000] flush group options
+[Sun, 11 Jun 2023 14:40:22 +0000] flush group comments
+[Sun, 11 Jun 2023 14:40:22 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:40:22 +0000] flushing based on sqlquery group options with extras {"wpdb_delete":"wp_options"}
+[Sun, 11 Jun 2023 14:40:22 +0000] flush group options
+[Sun, 11 Jun 2023 14:40:22 +0000] flushing based on sqlquery group singletables with extras {"wpdb_delete":"wp_peepso_mayfly"}
+[Sun, 11 Jun 2023 14:40:22 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:40:22 +0000] flush group options
+[Sun, 11 Jun 2023 14:40:22 +0000] flush group comments
+[Sun, 11 Jun 2023 14:40:22 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:40:22 +0000] flushing based on sqlquery group singletables with extras {"modification_query":"UPDATE wp_peepso_mayfly set `expires` =  DATE_ADD(`expires`, INTERVAL 5 second)  WHERE `id`=23196"}
+[Sun, 11 Jun 2023 14:40:22 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:40:22 +0000] flush group options
+[Sun, 11 Jun 2023 14:40:22 +0000] flush group comments
+[Sun, 11 Jun 2023 14:40:22 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:40:22 +0000] flushing based on sqlquery group singletables with extras {"wpdb_delete":"wp_peepso_mayfly"}
+[Sun, 11 Jun 2023 14:40:22 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:40:22 +0000] flush group options
+[Sun, 11 Jun 2023 14:40:22 +0000] flush group comments
+[Sun, 11 Jun 2023 14:40:22 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:40:22 +0000] flushing based on sqlquery group options with extras {"modification_query":"INSERT INTO `wp_options` (`option_name`, `option_value`, `autoload`) VALUES ('w3tc_extensions_hooks', '{\\\"actions\\\":[],\\\"filters\\\":[],\\\"next_check_date\\\":1686580822}', 'yes') ON DUPLICATE KEY UPDATE `option_name` = VALUES(`option_name`), `option_value` = VALUES(`option_value`), `autoload` = VALUES(`autoload`)"}
+[Sun, 11 Jun 2023 14:40:22 +0000] flush group options
+[Sun, 11 Jun 2023 14:40:23 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_options"}
+[Sun, 11 Jun 2023 14:40:23 +0000] flush group options
+[Sun, 11 Jun 2023 14:40:23 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_options"}
+[Sun, 11 Jun 2023 14:40:23 +0000] flush group options
+[Sun, 11 Jun 2023 14:40:23 +0000] flushing based on sqlquery group singletables with extras {"wpdb_update":"wp_peepso_users"}
+[Sun, 11 Jun 2023 14:40:23 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:40:23 +0000] flush group options
+[Sun, 11 Jun 2023 14:40:23 +0000] flush group comments
+[Sun, 11 Jun 2023 14:40:23 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:40:23 +0000] flushing based on sqlquery group singletables with extras {"wpdb_update":"wp_peepso_users"}
+[Sun, 11 Jun 2023 14:40:23 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:40:23 +0000] flush group options
+[Sun, 11 Jun 2023 14:40:23 +0000] flush group comments
+[Sun, 11 Jun 2023 14:40:23 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:40:23 +0000] flushing based on sqlquery group singletables with extras {"wpdb_update":"wp_peepso_users"}
+[Sun, 11 Jun 2023 14:40:23 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:40:23 +0000] flush group options
+[Sun, 11 Jun 2023 14:40:23 +0000] flush group comments
+[Sun, 11 Jun 2023 14:40:23 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:40:23 +0000] flushing based on sqlquery group singletables with extras {"wpdb_update":"wp_peepso_users"}
+[Sun, 11 Jun 2023 14:40:23 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:40:23 +0000] flush group options
+[Sun, 11 Jun 2023 14:40:23 +0000] flush group comments
+[Sun, 11 Jun 2023 14:40:23 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:40:23 +0000] flushing based on sqlquery group singletables with extras {"wpdb_update":"wp_peepso_users"}
+[Sun, 11 Jun 2023 14:40:23 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:40:23 +0000] flush group options
+[Sun, 11 Jun 2023 14:40:23 +0000] flush group comments
+[Sun, 11 Jun 2023 14:40:23 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:40:23 +0000] flushing based on sqlquery group singletables with extras {"wpdb_update":"wp_peepso_users"}
+[Sun, 11 Jun 2023 14:40:23 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:40:23 +0000] flush group options
+[Sun, 11 Jun 2023 14:40:23 +0000] flush group comments
+[Sun, 11 Jun 2023 14:40:23 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:40:23 +0000] flushing based on sqlquery group singletables with extras {"wpdb_update":"wp_peepso_users"}
+[Sun, 11 Jun 2023 14:40:23 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:40:23 +0000] flush group options
+[Sun, 11 Jun 2023 14:40:23 +0000] flush group comments
+[Sun, 11 Jun 2023 14:40:23 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:40:23 +0000] flushing based on sqlquery group singletables with extras {"wpdb_update":"wp_peepso_users"}
+[Sun, 11 Jun 2023 14:40:23 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:40:23 +0000] flush group options
+[Sun, 11 Jun 2023 14:40:23 +0000] flush group comments
+[Sun, 11 Jun 2023 14:40:23 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:40:23 +0000] flushing based on sqlquery group singletables with extras {"wpdb_update":"wp_sitemeta"}
+[Sun, 11 Jun 2023 14:40:23 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:40:23 +0000] flush group options
+[Sun, 11 Jun 2023 14:40:23 +0000] flush group comments
+[Sun, 11 Jun 2023 14:40:23 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:40:23 +0000] flushing based on sqlquery group singletables with extras {"wpdb_update":"wp_sitemeta"}
+[Sun, 11 Jun 2023 14:40:23 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:40:23 +0000] flush group options
+[Sun, 11 Jun 2023 14:40:23 +0000] flush group comments
+[Sun, 11 Jun 2023 14:40:23 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:40:23 +0000] flushing based on sqlquery group options with extras {"modification_query":"INSERT INTO `wp_options` (`option_name`, `option_value`, `autoload`) VALUES ('_transient_timeout_w3tc.verify_plugins', '1687099223', 'no') ON DUPLICATE KEY UPDATE `option_name` = VALUES(`option_name`), `option_value` = VALUES(`option_value`), `autoload` = VALUES(`autoload`)"}
+[Sun, 11 Jun 2023 14:40:23 +0000] flush group options
+[Sun, 11 Jun 2023 14:40:23 +0000] flushing based on sqlquery group options with extras {"modification_query":"INSERT INTO `wp_options` (`option_name`, `option_value`, `autoload`) VALUES ('_transient_w3tc.verify_plugins', '1', 'no') ON DUPLICATE KEY UPDATE `option_name` = VALUES(`option_name`), `option_value` = VALUES(`option_value`), `autoload` = VALUES(`autoload`)"}
+[Sun, 11 Jun 2023 14:40:23 +0000] flush group options
+
+[Sun, 11 Jun 2023 14:40:23 +0000] [/wp-admin/network/admin.php?page=w3tc_dbcache] [1686494423.5317]
+Database Caching using redis (Request-wide modification query)
+
+Db cache debug info:
+Total queries:      370
+Cached queries:     0
+Total query time:   0.4258
+[Sun, 11 Jun 2023 14:42:15 +0000] flushing based on sqlquery group singletables with extras {"modification_query":"CREATE TABLE IF NOT EXISTS `wp_peepso_gdpr_request_data` (\n\t\t\t\t\t`request_id`\t\t\tINT(11) UNSIGNED NOT NULL AUTO_INCREMENT,\n\t\t\t\t\t`request_user_id`\t\tBIGINT(20) UNSIGNED NULL DEFAULT '0',\n\t\t\t\t\t`request_created_at`\tTIMESTAMP DEFAULT CURRENT_TIMESTAMP,\n\t\t\t\t\t`request_updated_at`\tTIMESTAMP DEFAULT 0,\n\t\t\t\t\t`request_file_path`\t\tVARCHAR(255) NULL DEFAULT NULL,\n\t\t\t\t\t`request_file_url`\t\tVARCHAR(255) NULL DEFAULT NULL,\n\t\t\t\t\t`request_status`\t\tTINYINT(1) NOT NULL DEFAULT '0',\n\t\t\t\t\t`request_attempts` \t\tTINYINT(1) NOT NULL DEFAULT '0',\n\t\t\t\t\t`request_error_log`\t\tTEXT,\n\n\t\t\t\t\tPRIMARY KEY (`request_id`),\n\t\t\t\t\tINDEX `user` (`request_user_id`),\n\t\t\t\t\tINDEX `status` (`request_status`)\n\t\t\t\t) ENGINE=InnoDB"}
+[Sun, 11 Jun 2023 14:42:15 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:42:15 +0000] flush group options
+[Sun, 11 Jun 2023 14:42:15 +0000] flush group comments
+[Sun, 11 Jun 2023 14:42:15 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:42:15 +0000] flushing based on sqlquery group singletables with extras {"modification_query":"CREATE TABLE IF NOT EXISTS `wp_peepso_brute_force_attempts_logs` (\n\t\t\t\t\t`attempts_id`\t\t\tINT(11) UNSIGNED NOT NULL AUTO_INCREMENT,\n\t\t\t\t\t`attempts_username`\t\tVARCHAR(255) NOT NULL DEFAULT '',\n\t\t\t\t\t`attempts_time`\t\t\tINT(10) NOT NULL DEFAULT '0',\n\t\t\t\t\t`attempts_count` \t\tINT(10) NOT NULL DEFAULT '0',\n\t\t\t\t\t`attempts_lockout` \t\tINT(10) NOT NULL DEFAULT '0',\n\t\t\t\t\t`attempts_ip` \t\t\tVARCHAR(100) NOT NULL DEFAULT '',\n\t\t\t\t\t`attempts_url` \t\t\tVARCHAR(255) NOT NULL DEFAULT '',\n\t\t\t\t\t`attempts_created_at`\tTIMESTAMP DEFAULT CURRENT_TIMESTAMP,\n\t\t\t\t\t`attempts_type`\t\t\tTINYINT(1) UNSIGNED NOT NULL DEFAULT '0',\n\n\t\t\t\t\tPRIMARY KEY (`attempts_id`),\n\t\t\t\t\tUNIQUE KEY `ip` (`attempts_ip`, `attempts_type`)\n\t\t\t\t) ENGINE=InnoDB"}
+[Sun, 11 Jun 2023 14:42:15 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:42:15 +0000] flush group options
+[Sun, 11 Jun 2023 14:42:15 +0000] flush group comments
+[Sun, 11 Jun 2023 14:42:15 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:42:15 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_options"}
+[Sun, 11 Jun 2023 14:42:15 +0000] flush group options
+[Sun, 11 Jun 2023 14:42:15 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_options"}
+[Sun, 11 Jun 2023 14:42:15 +0000] flush group options
+[Sun, 11 Jun 2023 14:42:15 +0000] flushing based on sqlquery group options with extras {"modification_query":"DELETE a, b FROM wp_options a, wp_options b\n\t\t\tWHERE a.option_name LIKE '\\\\_transient\\\\_{d896fe51751865285cd01508b8eb6fd9c51973602d5d6c259b6eb6384e0dc7fa}'\n\t\t\tAND a.option_name NOT LIKE '\\\\_transient\\\\_timeout\\\\_{d896fe51751865285cd01508b8eb6fd9c51973602d5d6c259b6eb6384e0dc7fa}'\n\t\t\tAND b.option_name = CONCAT( '_transient_timeout_', SUBSTRING( a.option_name, 12 ) )\n\t\t\tAND b.option_value . 1686494535"}
+[Sun, 11 Jun 2023 14:42:15 +0000] flush group options
+[Sun, 11 Jun 2023 14:42:15 +0000] flushing based on sqlquery group singletables with extras {"modification_query":"DELETE a, b FROM wp_sitemeta a, wp_sitemeta b\n\t\t\t\tWHERE a.meta_key LIKE '\\\\_site\\\\_transient\\\\_{d896fe51751865285cd01508b8eb6fd9c51973602d5d6c259b6eb6384e0dc7fa}'\n\t\t\t\tAND a.meta_key NOT LIKE '\\\\_site\\\\_transient\\\\_timeout\\\\_{d896fe51751865285cd01508b8eb6fd9c51973602d5d6c259b6eb6384e0dc7fa}'\n\t\t\t\tAND b.meta_key = CONCAT( '_site_transient_timeout_', SUBSTRING( a.meta_key, 17 ) )\n\t\t\t\tAND b.meta_value . 1686494535"}
+[Sun, 11 Jun 2023 14:42:15 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:42:15 +0000] flush group options
+[Sun, 11 Jun 2023 14:42:15 +0000] flush group comments
+[Sun, 11 Jun 2023 14:42:15 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:42:15 +0000] flushing based on sqlquery group singletables with extras {"modification_query":"DELETE FROM wp_peepso_mayfly  WHERE 1=1   AND `expires` IS NULL OR `expires` .= NOW() "}
+[Sun, 11 Jun 2023 14:42:15 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:42:15 +0000] flush group options
+[Sun, 11 Jun 2023 14:42:15 +0000] flush group comments
+[Sun, 11 Jun 2023 14:42:15 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:42:16 +0000] flushing based on sqlquery group options with extras {"wpdb_delete":"wp_options"}
+[Sun, 11 Jun 2023 14:42:16 +0000] flush group options
+[Sun, 11 Jun 2023 14:42:16 +0000] flushing based on sqlquery group options with extras {"wpdb_delete":"wp_options"}
+[Sun, 11 Jun 2023 14:42:16 +0000] flush group options
+[Sun, 11 Jun 2023 14:42:16 +0000] flushing based on sqlquery group options with extras {"wpdb_delete":"wp_options"}
+[Sun, 11 Jun 2023 14:42:16 +0000] flush group options
+[Sun, 11 Jun 2023 14:42:16 +0000] flushing based on sqlquery group singletables with extras {"wpdb_delete":"wp_peepso_mayfly"}
+[Sun, 11 Jun 2023 14:42:16 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:42:16 +0000] flush group options
+[Sun, 11 Jun 2023 14:42:16 +0000] flush group comments
+[Sun, 11 Jun 2023 14:42:16 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:42:16 +0000] flushing based on sqlquery group singletables with extras {"modification_query":"UPDATE wp_peepso_mayfly set `expires` =  DATE_ADD(`expires`, INTERVAL 5 second)  WHERE `id`=23200"}
+[Sun, 11 Jun 2023 14:42:16 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:42:16 +0000] flush group options
+[Sun, 11 Jun 2023 14:42:16 +0000] flush group comments
+[Sun, 11 Jun 2023 14:42:16 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:42:16 +0000] flushing based on sqlquery group singletables with extras {"wpdb_delete":"wp_peepso_mayfly"}
+[Sun, 11 Jun 2023 14:42:16 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:42:16 +0000] flush group options
+[Sun, 11 Jun 2023 14:42:16 +0000] flush group comments
+[Sun, 11 Jun 2023 14:42:16 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:42:16 +0000] flushing based on sqlquery group options with extras {"modification_query":"INSERT INTO `wp_options` (`option_name`, `option_value`, `autoload`) VALUES ('w3tc_extensions_hooks', '{\\\"actions\\\":[],\\\"filters\\\":[],\\\"next_check_date\\\":1686580936}', 'yes') ON DUPLICATE KEY UPDATE `option_name` = VALUES(`option_name`), `option_value` = VALUES(`option_value`), `autoload` = VALUES(`autoload`)"}
+[Sun, 11 Jun 2023 14:42:16 +0000] flush group options
+[Sun, 11 Jun 2023 14:42:16 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_options"}
+[Sun, 11 Jun 2023 14:42:16 +0000] flush group options
+[Sun, 11 Jun 2023 14:42:16 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_options"}
+[Sun, 11 Jun 2023 14:42:16 +0000] flush group options
+[Sun, 11 Jun 2023 14:42:16 +0000] flushing based on sqlquery group singletables with extras {"wpdb_update":"wp_peepso_users"}
+[Sun, 11 Jun 2023 14:42:16 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:42:16 +0000] flush group options
+[Sun, 11 Jun 2023 14:42:16 +0000] flush group comments
+[Sun, 11 Jun 2023 14:42:16 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:42:16 +0000] flushing based on sqlquery group singletables with extras {"wpdb_update":"wp_peepso_users"}
+[Sun, 11 Jun 2023 14:42:16 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:42:16 +0000] flush group options
+[Sun, 11 Jun 2023 14:42:16 +0000] flush group comments
+[Sun, 11 Jun 2023 14:42:16 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:42:16 +0000] flushing based on sqlquery group singletables with extras {"wpdb_update":"wp_peepso_users"}
+[Sun, 11 Jun 2023 14:42:16 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:42:16 +0000] flush group options
+[Sun, 11 Jun 2023 14:42:16 +0000] flush group comments
+[Sun, 11 Jun 2023 14:42:16 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:42:16 +0000] flushing based on sqlquery group singletables with extras {"wpdb_update":"wp_peepso_users"}
+[Sun, 11 Jun 2023 14:42:16 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:42:16 +0000] flush group options
+[Sun, 11 Jun 2023 14:42:16 +0000] flush group comments
+[Sun, 11 Jun 2023 14:42:16 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:42:16 +0000] flushing based on sqlquery group singletables with extras {"wpdb_update":"wp_peepso_users"}
+[Sun, 11 Jun 2023 14:42:16 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:42:16 +0000] flush group options
+[Sun, 11 Jun 2023 14:42:16 +0000] flush group comments
+[Sun, 11 Jun 2023 14:42:16 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:42:16 +0000] flushing based on sqlquery group singletables with extras {"wpdb_update":"wp_peepso_users"}
+[Sun, 11 Jun 2023 14:42:16 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:42:16 +0000] flush group options
+[Sun, 11 Jun 2023 14:42:16 +0000] flush group comments
+[Sun, 11 Jun 2023 14:42:16 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:42:16 +0000] flushing based on sqlquery group singletables with extras {"wpdb_update":"wp_peepso_users"}
+[Sun, 11 Jun 2023 14:42:16 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:42:16 +0000] flush group options
+[Sun, 11 Jun 2023 14:42:16 +0000] flush group comments
+[Sun, 11 Jun 2023 14:42:16 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:42:16 +0000] flushing based on sqlquery group singletables with extras {"wpdb_update":"wp_peepso_users"}
+[Sun, 11 Jun 2023 14:42:16 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:42:16 +0000] flush group options
+[Sun, 11 Jun 2023 14:42:16 +0000] flush group comments
+[Sun, 11 Jun 2023 14:42:16 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:42:16 +0000] flushing based on sqlquery group singletables with extras {"wpdb_update":"wp_sitemeta"}
+[Sun, 11 Jun 2023 14:42:16 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:42:16 +0000] flush group options
+[Sun, 11 Jun 2023 14:42:16 +0000] flush group comments
+[Sun, 11 Jun 2023 14:42:16 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:42:16 +0000] flushing based on sqlquery group singletables with extras {"wpdb_update":"wp_sitemeta"}
+[Sun, 11 Jun 2023 14:42:16 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:42:16 +0000] flush group options
+[Sun, 11 Jun 2023 14:42:16 +0000] flush group comments
+[Sun, 11 Jun 2023 14:42:16 +0000] flush group singletables
+
+[Sun, 11 Jun 2023 14:42:16 +0000] [/wp-admin/network/admin.php?page=w3tc_general] [1686494536.8239]
+Database Caching using redis (Request-wide modification query)
+
+Db cache debug info:
+Total queries:      355
+Cached queries:     0
+Total query time:   0.4059
+[Sun, 11 Jun 2023 14:57:33 +0000] flushing based on sqlquery group singletables with extras {"modification_query":"CREATE TABLE IF NOT EXISTS `wp_peepso_gdpr_request_data` (\n\t\t\t\t\t`request_id`\t\t\tINT(11) UNSIGNED NOT NULL AUTO_INCREMENT,\n\t\t\t\t\t`request_user_id`\t\tBIGINT(20) UNSIGNED NULL DEFAULT '0',\n\t\t\t\t\t`request_created_at`\tTIMESTAMP DEFAULT CURRENT_TIMESTAMP,\n\t\t\t\t\t`request_updated_at`\tTIMESTAMP DEFAULT 0,\n\t\t\t\t\t`request_file_path`\t\tVARCHAR(255) NULL DEFAULT NULL,\n\t\t\t\t\t`request_file_url`\t\tVARCHAR(255) NULL DEFAULT NULL,\n\t\t\t\t\t`request_status`\t\tTINYINT(1) NOT NULL DEFAULT '0',\n\t\t\t\t\t`request_attempts` \t\tTINYINT(1) NOT NULL DEFAULT '0',\n\t\t\t\t\t`request_error_log`\t\tTEXT,\n\n\t\t\t\t\tPRIMARY KEY (`request_id`),\n\t\t\t\t\tINDEX `user` (`request_user_id`),\n\t\t\t\t\tINDEX `status` (`request_status`)\n\t\t\t\t) ENGINE=InnoDB"}
+[Sun, 11 Jun 2023 14:57:33 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:57:33 +0000] flush group options
+[Sun, 11 Jun 2023 14:57:33 +0000] flush group comments
+[Sun, 11 Jun 2023 14:57:33 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:57:33 +0000] flushing based on sqlquery group singletables with extras {"modification_query":"CREATE TABLE IF NOT EXISTS `wp_peepso_brute_force_attempts_logs` (\n\t\t\t\t\t`attempts_id`\t\t\tINT(11) UNSIGNED NOT NULL AUTO_INCREMENT,\n\t\t\t\t\t`attempts_username`\t\tVARCHAR(255) NOT NULL DEFAULT '',\n\t\t\t\t\t`attempts_time`\t\t\tINT(10) NOT NULL DEFAULT '0',\n\t\t\t\t\t`attempts_count` \t\tINT(10) NOT NULL DEFAULT '0',\n\t\t\t\t\t`attempts_lockout` \t\tINT(10) NOT NULL DEFAULT '0',\n\t\t\t\t\t`attempts_ip` \t\t\tVARCHAR(100) NOT NULL DEFAULT '',\n\t\t\t\t\t`attempts_url` \t\t\tVARCHAR(255) NOT NULL DEFAULT '',\n\t\t\t\t\t`attempts_created_at`\tTIMESTAMP DEFAULT CURRENT_TIMESTAMP,\n\t\t\t\t\t`attempts_type`\t\t\tTINYINT(1) UNSIGNED NOT NULL DEFAULT '0',\n\n\t\t\t\t\tPRIMARY KEY (`attempts_id`),\n\t\t\t\t\tUNIQUE KEY `ip` (`attempts_ip`, `attempts_type`)\n\t\t\t\t) ENGINE=InnoDB"}
+[Sun, 11 Jun 2023 14:57:33 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:57:33 +0000] flush group options
+[Sun, 11 Jun 2023 14:57:33 +0000] flush group comments
+[Sun, 11 Jun 2023 14:57:33 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:57:33 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_options"}
+[Sun, 11 Jun 2023 14:57:33 +0000] flush group options
+[Sun, 11 Jun 2023 14:57:33 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_options"}
+[Sun, 11 Jun 2023 14:57:33 +0000] flush group options
+[Sun, 11 Jun 2023 14:57:33 +0000] flushing based on sqlquery group options with extras {"modification_query":"DELETE a, b FROM wp_options a, wp_options b\n\t\t\tWHERE a.option_name LIKE '\\\\_transient\\\\_{efa449aaa09d39c4da76ee5aa032b2e3b59cd8cb855a9f329aa1800aa95506e5}'\n\t\t\tAND a.option_name NOT LIKE '\\\\_transient\\\\_timeout\\\\_{efa449aaa09d39c4da76ee5aa032b2e3b59cd8cb855a9f329aa1800aa95506e5}'\n\t\t\tAND b.option_name = CONCAT( '_transient_timeout_', SUBSTRING( a.option_name, 12 ) )\n\t\t\tAND b.option_value . 1686495453"}
+[Sun, 11 Jun 2023 14:57:33 +0000] flush group options
+[Sun, 11 Jun 2023 14:57:33 +0000] flushing based on sqlquery group singletables with extras {"modification_query":"DELETE a, b FROM wp_sitemeta a, wp_sitemeta b\n\t\t\t\tWHERE a.meta_key LIKE '\\\\_site\\\\_transient\\\\_{efa449aaa09d39c4da76ee5aa032b2e3b59cd8cb855a9f329aa1800aa95506e5}'\n\t\t\t\tAND a.meta_key NOT LIKE '\\\\_site\\\\_transient\\\\_timeout\\\\_{efa449aaa09d39c4da76ee5aa032b2e3b59cd8cb855a9f329aa1800aa95506e5}'\n\t\t\t\tAND b.meta_key = CONCAT( '_site_transient_timeout_', SUBSTRING( a.meta_key, 17 ) )\n\t\t\t\tAND b.meta_value . 1686495453"}
+[Sun, 11 Jun 2023 14:57:33 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:57:33 +0000] flush group options
+[Sun, 11 Jun 2023 14:57:33 +0000] flush group comments
+[Sun, 11 Jun 2023 14:57:33 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:57:33 +0000] flushing based on sqlquery group singletables with extras {"modification_query":"DELETE FROM wp_peepso_mayfly  WHERE 1=1   AND `expires` IS NULL OR `expires` .= NOW() "}
+[Sun, 11 Jun 2023 14:57:33 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:57:33 +0000] flush group options
+[Sun, 11 Jun 2023 14:57:33 +0000] flush group comments
+[Sun, 11 Jun 2023 14:57:33 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:57:34 +0000] flushing based on sqlquery group singletables with extras {"wpdb_delete":"wp_peepso_mayfly"}
+[Sun, 11 Jun 2023 14:57:34 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:57:34 +0000] flush group options
+[Sun, 11 Jun 2023 14:57:34 +0000] flush group comments
+[Sun, 11 Jun 2023 14:57:34 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:57:34 +0000] flushing based on sqlquery group singletables with extras {"modification_query":"UPDATE wp_peepso_mayfly set `expires` =  DATE_ADD(`expires`, INTERVAL 900 second)  WHERE `id`=23232"}
+[Sun, 11 Jun 2023 14:57:34 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:57:34 +0000] flush group options
+[Sun, 11 Jun 2023 14:57:34 +0000] flush group comments
+[Sun, 11 Jun 2023 14:57:34 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:57:34 +0000] flushing based on sqlquery group options with extras {"wpdb_delete":"wp_options"}
+[Sun, 11 Jun 2023 14:57:34 +0000] flush group options
+[Sun, 11 Jun 2023 14:57:34 +0000] flushing based on sqlquery group singletables with extras {"wpdb_delete":"wp_peepso_mayfly"}
+[Sun, 11 Jun 2023 14:57:34 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:57:34 +0000] flush group options
+[Sun, 11 Jun 2023 14:57:34 +0000] flush group comments
+[Sun, 11 Jun 2023 14:57:34 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:57:34 +0000] flushing based on sqlquery group singletables with extras {"modification_query":"UPDATE wp_peepso_mayfly set `expires` =  DATE_ADD(`expires`, INTERVAL 5 second)  WHERE `id`=23233"}
+[Sun, 11 Jun 2023 14:57:34 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:57:34 +0000] flush group options
+[Sun, 11 Jun 2023 14:57:34 +0000] flush group comments
+[Sun, 11 Jun 2023 14:57:34 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:57:34 +0000] flushing based on sqlquery group singletables with extras {"wpdb_delete":"wp_peepso_mayfly"}
+[Sun, 11 Jun 2023 14:57:34 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:57:34 +0000] flush group options
+[Sun, 11 Jun 2023 14:57:34 +0000] flush group comments
+[Sun, 11 Jun 2023 14:57:34 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:57:34 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_options"}
+[Sun, 11 Jun 2023 14:57:34 +0000] flush group options
+[Sun, 11 Jun 2023 14:57:34 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_options"}
+[Sun, 11 Jun 2023 14:57:34 +0000] flush group options
+[Sun, 11 Jun 2023 14:57:34 +0000] flushing based on sqlquery group singletables with extras {"wpdb_update":"wp_sitemeta"}
+[Sun, 11 Jun 2023 14:57:34 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:57:34 +0000] flush group options
+[Sun, 11 Jun 2023 14:57:34 +0000] flush group comments
+[Sun, 11 Jun 2023 14:57:34 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:57:34 +0000] flushing based on sqlquery group options with extras {"modification_query":"INSERT INTO `wp_options` (`option_name`, `option_value`, `autoload`) VALUES ('_transient_timeout_w3tc_message', '1686496054', 'no') ON DUPLICATE KEY UPDATE `option_name` = VALUES(`option_name`), `option_value` = VALUES(`option_value`), `autoload` = VALUES(`autoload`)"}
+[Sun, 11 Jun 2023 14:57:34 +0000] flush group options
+[Sun, 11 Jun 2023 14:57:34 +0000] flushing based on sqlquery group options with extras {"modification_query":"INSERT INTO `wp_options` (`option_name`, `option_value`, `autoload`) VALUES ('_transient_w3tc_message', 'a:1:{s:13:\\\"6485e0dee67ee\\\";a:4:{s:12:\\\"query_string\\\";a:1:{s:4:\\\"page\\\";s:12:\\\"w3tc_general\\\";}s:7:\\\"actions\\\";a:0:{}s:6:\\\"errors\\\";a:0:{}s:5:\\\"notes\\\";a:1:{i:0;s:11:\\\"config_save\\\";}}}', 'no') ON DUPLICATE KEY UPDATE `option_name` = VALUES(`option_name`), `option_value` = VALUES(`option_value`), `autoload` = VALUES(`autoload`)"}
+[Sun, 11 Jun 2023 14:57:34 +0000] flush group options
+
+[Sun, 11 Jun 2023 14:57:34 +0000] [/wp-admin/network/admin.php?page=w3tc_general] [1686495454.9609]
+Database Caching using redis (Request-wide modification query)
+
+Db cache debug info:
+Total queries:      299
+Cached queries:     0
+Total query time:   0.5326

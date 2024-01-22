@@ -1,0 +1,260 @@
+//
+//  HELPERS
+//
+//  Mixins & functions
+//
+@import 'helpers/mq';
+@import 'helpers/buttons';
+@import 'helpers/forms';
+
+
+//
+//  COMPONENTS
+//
+//  Reusable styles in al the plugins
+//
+@import 'components/page';
+@import 'components/progress';
+@import 'components/media';
+@import 'components/checkbox';
+@import 'components/loading';
+@import 'components/avatar';
+@import 'components/dropdown';
+@import 'components/alert';
+@import 'components/accordion';
+@import 'components/tabs';
+@import 'components/post';
+@import 'components/post-placeholder';
+@import 'components/post-background';
+@import 'components/comment';
+@import 'components/reaction';
+@import 'components/notif';
+@import 'components/online';
+@import 'components/focus';
+@import 'components/member';
+@import 'components/tip';
+@import 'components/lightbox';
+@import 'components/modal';
+@import 'components/modal/modal-avatar';
+@import 'components/widget';
+@import 'components/hovercard';
+@import 'components/landing';
+@import 'components/mood';
+@import 'components/sharebox';
+@import 'components/location';
+@import 'components/cropper';
+@import 'components/search';
+@import 'components/followers';
+@import 'components/tooltip';
+@import 'components/tagging';
+@import 'components/custom-scrollbar';
+
+// Postbox & sub components
+@import 'components/postbox';
+@import 'components/postbox/privacy';
+@import 'components/postbox/schedule';
+@import 'components/postbox/moods';
+@import 'components/postbox/location';
+@import 'components/postbox/backgrounds';
+@import 'components/postbox/pin';
+
+@import 'components/navbar';
+@import 'components/blogpost';
+
+
+//
+//  STRUCTURES
+//
+//  Main PeepSo theme structure
+//
+@import 'structures/activity';
+@import 'structures/posts';
+@import 'structures/comments';
+@import 'structures/list';
+@import 'structures/notifications';
+@import 'structures/notifications-page';
+@import 'structures/register';
+@import 'structures/profile';
+@import 'structures/profile/about';
+@import 'structures/profile/preferences';
+@import 'structures/profile/notifications';
+@import 'structures/profile/account';
+@import 'structures/members';
+@import 'structures/blogposts';
+@import 'structures/markdown';
+@import 'structures/redirect-box';
+
+
+//
+//  FORMS
+//
+//  Custom forms
+//
+@import 'forms/login';
+@import 'forms/register';
+@import 'forms/report';
+@import 'forms/repost';
+
+
+//
+//  WIDGETS
+//
+//  Official PeepSo widgets
+//
+@import 'widgets/profile';
+@import 'widgets/login';
+@import 'widgets/userbar';
+@import 'widgets/photos';
+@import 'widgets/media';
+@import 'widgets/members';
+@import 'widgets/friends';
+@import 'widgets/birthday';
+@import 'widgets/hashtags';
+
+
+//
+//  PLUGINS
+//
+//  Official PeepSo plugins
+//
+@import 'plugins/photos/photos';
+@import 'plugins/photos/photos-postbox';
+@import 'plugins/photos/album';
+@import 'plugins/polls/polls';
+@import 'plugins/polls/polls-postbox';
+@import 'plugins/photos/photos-postbox';
+@import 'plugins/chat/chat';
+@import 'plugins/chat/chat-messages';
+@import 'plugins/chat/messages';
+@import 'plugins/chat/messages-page';
+@import 'plugins/chat/conversation';
+@import 'plugins/chat/select';
+@import 'plugins/giphy/giphy';
+@import 'plugins/media/media-page';
+@import 'plugins/media/media-postbox';
+@import 'plugins/friends/friends';
+@import 'plugins/groups/group';
+@import 'plugins/groups/groups';
+@import 'plugins/groups/groups-postbox';
+@import 'plugins/groups/groups-category';
+@import 'plugins/groups/group-settings';
+@import 'plugins/groups/windows/group-create';
+@import 'plugins/groups/windows/group-invite';
+@import 'plugins/vip/vip';
+@import 'plugins/userlimits/debug';
+@import 'plugins/userlimits/widget';
+@import 'plugins/mycred/mycred';
+@import 'plugins/advads/advads';
+@import 'plugins/wpadverts/wpadverts';
+@import 'plugins/wpadverts/classifieds';
+@import 'plugins/wpadverts/classified';
+@import 'plugins/wpadverts/wpadverts-categories';
+@import 'plugins/wpadverts/wpadverts-add';
+@import 'plugins/wpadverts/wpadverts-edit';
+@import 'plugins/wpadverts/wpadverts-preview';
+@import 'plugins/wpadverts/wpadverts-single';
+@import 'plugins/badgeos/badgeos';
+@import 'plugins/badgeos/badgeos-widget';
+@import 'plugins/badgeos/badgeos-post';
+@import 'plugins/woocommerce/woo-activity';
+@import 'plugins/woocommerce/woo-shop';
+@import 'plugins/woocommerce/woo-cart';
+@import 'plugins/woocommerce/woo-single';
+@import 'plugins/woocommerce/woo-checkout';
+@import 'plugins/woocommerce/woo-orders';
+@import 'plugins/edd/edd';
+@import 'plugins/learndash/learndash';
+@import 'plugins/pmp/pmp';
+@import 'plugins/wpem/wpem';
+@import 'plugins/tutorlms/tutorlms';
+@import 'plugins/fileuploads/fileuploads';
+@import 'plugins/wpjm/wpjm';
+@import 'plugins/ideapush/ideapush';
+@import 'plugins/givewp/givewp';
+
+@font-face {
+  font-family: 'peepso-custom';
+  src: url('../fonts/custom.eot?73835905');
+  src: url('../fonts/custom.eot?73835905#iefix') format('embedded-opentype'),
+       url('../fonts/custom.woff2?73835905') format('woff2'),
+       url('../fonts/custom.woff?73835905') format('woff'),
+       url('../fonts/custom.ttf?73835905') format('truetype'),
+       url('../fonts/custom.svg?73835905#peepso') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.gci-alswp {
+  font-family: "peepso-custom";
+}
+
+.gci-alswp:before { content: '\e800'; } /* '' */
+
+
+//
+//  THIRD-PARTY
+//
+//  Supported third-party plugins
+//
+//@import 'third-party';
+
+
+
+// temp: move to icons
+.gci-thumbtack-slash {
+  position: relative;
+
+  &:before {
+    content: "\f08d";
+    margin-left: 4px;
+  }
+
+  &:after {
+    content: "\f715";
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    left: 0;
+    right: 0;
+    transform: translateY(-50%);
+    margin-left: auto;
+    margin-right: auto;
+    text-shadow: 0 2px 0 var(--bg);
+  }
+}
+
+.gci-thumbstack-clock {
+  position: relative;
+
+  &:before {
+    content: "\f08d";
+  }
+
+  &:after {
+    content: "\f017";
+    position: absolute;
+    z-index: 1;
+    right: 6px;
+    bottom: 0;
+    font-size: 65%;
+    text-shadow: -1px -1px 0 var(--bg);
+  }
+}
+
+.gci-thumbstack-infinity {
+  position: relative;
+
+  &:before {
+    content: "\f08d";
+  }
+
+  &:after {
+    content: "\f534";
+    position: absolute;
+    z-index: 1;
+    right: 6px;
+    bottom: 0;
+    font-size: 70%;
+    text-shadow: -1px -1px 0 var(--bg), 1px 2px 0 var(--bg), 2px 2px 0 var(--bg);
+  }
+}

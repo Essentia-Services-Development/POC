@@ -1,0 +1,11 @@
+.tsc-icons {
+  justify-content: center;
+
+  .landing__content & {
+    margin-top: 25px;
+  }
+
+  @include media('medium') {
+    justify-content: flex-start;
+  }
+}

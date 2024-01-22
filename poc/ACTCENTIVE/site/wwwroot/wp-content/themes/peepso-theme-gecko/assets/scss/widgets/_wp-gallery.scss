@@ -1,0 +1,19 @@
+.widget.widget_media_gallery,
+.gc-widget.widget_media_gallery {
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: var(--PADD);
+    grid-row-gap: var(--PADD);
+
+    .gallery-item {
+      float: none !important;
+      margin: 0 !important;
+      width: 100% !important;
+
+      img {
+        border-radius: var(--BORDER-RADIUS--MD);
+      }
+    }
+  }
+}

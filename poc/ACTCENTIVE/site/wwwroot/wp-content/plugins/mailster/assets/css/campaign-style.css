@@ -1,0 +1,1601 @@
+.mailster-btn {
+	cursor: pointer !important;
+}
+.nowrap {
+	white-space: nowrap !important;
+}
+.count {
+	color: #999;
+	font-size: 90%;
+}
+.help {
+	cursor: help;
+}
+.postbox {
+	display: none;
+}
+[id^='mailster_'].postbox,
+[id^='acf-'].postbox,
+#postimagediv.postbox,
+#authordiv.postbox {
+	display: inherit;
+}
+[id^='wpseo'],
+.yoast-seo-score {
+	display: none;
+}
+#mailster_submitdiv.postbox .inside {
+	padding: 0;
+}
+#mailster_submitdiv.postbox .inside #misc-publishing-actions {
+	padding: 0 12px 12px;
+}
+.focus-on #normal-sortables,
+.focus-on #normal-sortables div#mailster_template,
+.focus-on #normal-sortables div#mailster_template > *,
+.focus-on div.updated,
+.focus-on .postbox-container > * {
+	opacity: 1;
+}
+.focus-on div.postbox,
+.focus-on div.updated {
+	opacity: 0;
+	transition: opacity 0.6s ease-in-out;
+}
+div.postbox {
+	transition: height 0.25s ease;
+}
+a {
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	user-select: none;
+	outline: none;
+}
+#publishing-action {
+	text-align: left;
+	float: none;
+}
+#publishing-action .spinner {
+	vertical-align: middle;
+	display: block;
+	float: left;
+	margin-top: 4px;
+	margin-right: 3px;
+}
+#publishing-action .button-primary {
+	float: right;
+	margin-left: 4px;
+}
+.rtl #publishing-action .button-primary {
+	float: left;
+	margin-left: 0;
+	margin-right: 4px;
+}
+#publishing-action .button {
+	float: right;
+}
+.rtl #publishing-action .button {
+	float: left;
+}
+#publishing-action .button.statistics {
+	float: left;
+}
+.rtl #publishing-action .button.statistics {
+	float: right;
+}
+#publishing-action #draft {
+	float: left;
+}
+.rtl #publishing-action #draft {
+	float: right;
+}
+#publishing-action #password-wrap {
+	display: block;
+}
+.postbox .spinner {
+	visibility: visible;
+	display: none;
+}
+#postimagediv.postbox .spinner {
+	display: inline-block;
+}
+textarea#content,
+textarea#excerpt,
+textarea#modules,
+textarea#head {
+	width: 100%;
+	height: 570px;
+	font-family: 'Courier New', Courier, monospace;
+	background-image: url(../img/pre_bg.png);
+	background-size: 100% 36px;
+	background-attachment: scroll;
+	overflow: auto;
+	line-height: 19px;
+	padding: 0;
+	resize: none;
+}
+textarea#content,
+textarea#excerpt,
+textarea#modules,
+textarea#head {
+	display: none;
+}
+#plain-text-wrap {
+	display: none;
+	width: 100%;
+}
+.default-value:before {
+	background-size: 20px 20px;
+	width: 20px;
+	height: 20px;
+	background-image: url('data:image/svg+xml;utf8,<svg version="1.1" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g stroke-linecap="round" stroke-width="1.5" stroke="%23545454" fill="none" stroke-linejoin="round"><path d="M4 13l9.14824e-14 1.20797e-06c6.67141e-07 4.41828 3.58172 8 8 8 4.41828-6.67141e-07 8-3.58172 8-8 -6.67141e-07-4.41828-3.58172-8-8-8h-7"></path><polyline points="8,8 5,5 8,2"></polyline><path d="M12 12.927h-3.19093e-09c-.0403168 1.7623e-09-.073.0326832-.073.073 1.7623e-09.0403168.0326832.073.073.073 .0403168-1.7623e-09.073-.0326832.073-.073v3.19093e-09c0-.0403168-.0326832-.073-.073-.073"></path></g></svg>');
+}
+.default-value {
+	display: inline-block;
+	line-height: 16px;
+	width: 16px;
+	height: 16px;
+	vertical-align: middle;
+	vertical-align: text-bottom;
+	text-decoration: none;
+	outline: none;
+}
+#delivery-ajax-loading {
+	margin-top: -7px;
+	margin-right: 5px;
+	position: absolute;
+	top: 0px;
+	right: 0;
+}
+.rtl #delivery-ajax-loading {
+	margin-left: 5px;
+	right: auto;
+	left: 0;
+}
+.post-type-newsletter #TB_ajaxContent {
+	padding: 0 !important;
+	min-width: 100%;
+	max-width: 100%;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+.rtl #TB_ajaxContent {
+	text-align: right;
+}
+/*----------------------------------------------------------------------*/
+/* Table
+/*----------------------------------------------------------------------*/
+#mailster_details .red {
+	color: #d8605f;
+}
+#mailster_details table {
+	border-collapse: collapse;
+	width: 100%;
+}
+#mailster_details table .spinner {
+	margin: 0 5px 0 0;
+}
+#mailster_details table td,
+#mailster_details table th {
+	vertical-align: text-top;
+	padding: 7px;
+	border-bottom: 1px solid #ccd0d4;
+}
+.dark-mode #mailster_details table td,
+.dark-mode #mailster_details table th {
+	border-color: #191f25;
+}
+#mailster_details table .geolocation td,
+#mailster_details table .geolocation th {
+	padding-bottom: 0px;
+	border-bottom: 0;
+}
+#mailster_details table th {
+	text-align: left;
+	width: 130px;
+}
+#mailster_details table td.nopadding {
+	padding-bottom: 0;
+}
+#mailster_details table ul {
+	margin: 0;
+}
+#mailster_details .emoji-selector {
+	position: relative;
+	display: inline-block;
+	width: 100%;
+	white-space: nowrap;
+	vertical-align: middle;
+}
+#mailster_details .emoji-selector input {
+	width: 90%;
+	width: calc(100% - 45px);
+}
+#mailster_details .emoji-selector button {
+	transition: filter 0.15s ease;
+	width: 10%;
+	width: calc(40px);
+	font-size: 19px;
+	padding: 0px;
+	line-height: 0;
+	filter: grayscale(70%);
+	text-align: center;
+}
+#mailster_details .emoji-selector button:hover {
+	filter: none;
+}
+#mailster_details table .default-value {
+	float: right;
+	text-decoration: none;
+	cursor: pointer;
+}
+.rtl #mailster_details table .default-value {
+	float: left;
+}
+#mailster_details .showdetails {
+	text-decoration: none;
+	font-size: 90%;
+	outline: none;
+}
+#mailster_details .showdetails:active {
+	outline: none;
+}
+#mailster_details .showdetails:before {
+	background-image: url('data:image/svg+xml;utf8,<svg version="1.1" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M8,10l4,4l4,-4" stroke-linecap="round" stroke-width="1.5" stroke="%23545454" fill="none" stroke-linejoin="round"></path><path fill="none" d="M0,0h24v24h-24Z"></path></svg>');
+}
+#mailster_details .showdetails.open:before {
+	background-image: url('data:image/svg+xml;utf8,<svg version="1.1" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M16,14l-4,-4l-4,4" stroke-linecap="round" stroke-width="1.5" stroke="%23545454" fill="none" stroke-linejoin="round"></path><path fill="none" d="M0,0h24v24h-24Z"></path></svg>');
+}
+#mailster_details .ajax-list {
+	border: 1px solid #ccd0d4;
+	border-bottom: 0;
+	margin-top: 5px;
+	display: none;
+	overflow: auto;
+	max-height: 428px;
+	padding: 0;
+}
+.dark-mode #mailster_details .ajax-list {
+	border: 0;
+}
+#mailster_details .ajax-list table {
+	border: 0;
+}
+#mailster_details .ajax-list table td {
+	border: 0;
+	display: table-cell;
+}
+#recipients-list {
+}
+#recipients-list .receiver-detail {
+	display: none;
+}
+.ajax-list-header {
+	position: absolute;
+	border-top: 0;
+	height: 21px;
+	background-color: rgba(255, 255, 255, 0.9);
+	padding: 6px 12px 12px;
+	white-space: nowrap;
+	z-index: 1;
+}
+.dark-mode .ajax-list-header {
+	background-color: rgba(35, 40, 45, 0.9);
+}
+.ajax-list-header label {
+	padding-right: 10px;
+}
+.ajax-list-header select {
+	line-height: 1em;
+	max-width: 100px;
+}
+.ajax-list-header a.recipients-order {
+	cursor: pointer;
+	outline: 0;
+	vertical-align: middle;
+	width: 24px;
+	height: 24px;
+	display: inline-block;
+}
+.ajax-list-header a.recipients-order.asc:before {
+	background-image: url('data:image/svg+xml;utf8,<svg version="1.1" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g stroke-linecap="round" stroke-width="1.5" stroke="%23545454" fill="none" stroke-linejoin="round"><line x1="18" x2="18" y1="3" y2="20"></line><line x1="3" x2="12" y1="20" y2="20"></line><line x1="5" x2="12" y1="16" y2="16"></line><line x1="7" x2="12" y1="12" y2="12"></line><line x1="8.4" x2="12" y1="8" y2="8"></line><polyline points="15.5,5.5 18,3 20.5,5.5"></polyline></g><rect width="24" height="24" fill="none"></rect></svg>');
+	font-size: 16px;
+	vertical-align: middle;
+}
+.ajax-list-header a.recipients-order.desc:before {
+	background-image: url('data:image/svg+xml;utf8,<svg version="1.1" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g stroke-linecap="round" stroke-width="1.5" stroke="%23545454" fill="none" stroke-linejoin="round"><line x1="18" x2="18" y1="21" y2="4"></line><line x1="3" x2="12" y1="4" y2="4"></line><line x1="5" x2="12" y1="8" y2="8"></line><line x1="7" x2="12" y1="12" y2="12"></line><line x1="8.4" x2="12" y1="16" y2="16"></line><line x1="18" x2="20.5" y1="21" y2="18.5"></line><line x1="15.5" x2="18" y1="18.5" y2="21"></line></g><rect width="24" height="24" fill="none"></rect></svg>');
+	vertical-align: inherit;
+}
+#recipients-list table {
+	margin-top: 40px;
+}
+#recipients-list table td {
+	white-space: nowrap;
+}
+#recipients-list .show-receiver-detail {
+	cursor: pointer;
+	text-overflow: ellipsis;
+	display: block;
+	overflow: hidden;
+	width: 95%;
+	white-space: nowrap;
+}
+#recipients-list td.loading {
+	background-position: 99% center;
+	background-repeat: no-repeat;
+	background-image: url(../img/loading.gif) !important;
+}
+#recipients-list .receiver-detail td {
+	border-top: 0;
+}
+#recipients-list .receiver-detail div.receiver-detail-body {
+	padding: 0 0 10px;
+	display: none;
+	overflow: hidden;
+}
+#recipients-list .receiver-detail div.receiver-detail-body label {
+	display: inline-block;
+	width: 120px;
+	font-weight: 700;
+}
+#recipients-list .receiver-detail div.receiver-detail-body ul {
+	width: auto;
+}
+#recipients-list .mailster-icon:before {
+}
+#recipients-list .mailster-icon.mailster-icon-open:before,
+#recipients-list .mailster-icon.mailster-icon-unopen:before {
+	background-image: url('data:image/svg+xml;utf8,<svg version="1.1" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g fill="none"><path d="M0,0.028h24v24h-24v-24Z"></path><path stroke="%23545454" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M3,9.703v9.297c0,1.105 0.895,2 2,2h13.999c1.105,0 2,-0.895 2,-2v-9.297"></path><path stroke="%23545454" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9.12,14.88l-5.53,5.53"></path><path stroke="%23545454" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M20.41,20.41l-5.53,-5.53"></path><path stroke="%23545454" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M6,6.622l-2.114,1.422c-1.178,0.792 -1.178,2.526 0,3.319l5.874,3.952c1.354,0.911 3.124,0.911 4.478,0l5.874,-3.952c1.178,-0.793 1.178,-2.526 0,-3.319l-2.112,-1.422"></path><path stroke="%23545454" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M18,12.785v-8.883c0,-0.552 -0.448,-1 -1,-1h-10c-0.552,0 -1,0.448 -1,1v8.883"></path><path stroke="%23545454" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9,6.5h6"></path><path stroke="%23545454" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9,10h6"></path></g></svg>');
+}
+#recipients-list .mailster-icon.mailster-icon-unopen:before {
+	opacity: 0.2;
+}
+#recipients-list .mailster-icon.mailster-icon-click:before,
+#recipients-list .mailster-icon.mailster-icon-noclick:before {
+	background-image: url('data:image/svg+xml;utf8,<svg version="1.1" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g fill="none"><path d="M0,0h24v24h-24Z"></path><path stroke="%23545454" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M18.197,15.932v0l1.976,1.976c0.436,0.436 0.436,1.144 0,1.58l-1.186,1.186c-0.436,0.436 -1.144,0.436 -1.58,0l-1.976,-1.976l-1.489,1.489c-0.294,0.294 -0.794,0.176 -0.925,-0.218l-2.872,-8.617c-0.146,-0.437 0.27,-0.852 0.707,-0.707l8.617,2.872c0.394,0.131 0.512,0.631 0.218,0.925l-1.49,1.49"></path><path stroke="%23545454" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4.78,10.93h-2.28"></path><path stroke="%23545454" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M6.44,6.94l-1.62,-1.62"></path><path stroke="%23545454" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M6.4,14.96l-1.62,1.62"></path><path stroke="%23545454" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M10.43,5.28v-2.28"></path><path stroke="%23545454" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M14.46,6.9l1.62,-1.62"></path></g></svg>');
+}
+#recipients-list .mailster-icon.mailster-icon-noclick:before {
+	opacity: 0.2;
+}
+#recipients-list .mailster-icon.mailster-icon-unsubscribe:before {
+	background-image: url('data:image/svg+xml;utf8,<svg version="1.1" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g fill="none"><path d="M0 0h24v24h-24Z"></path><path stroke="%23545454" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M14.163 21l4.444-.988c.814-.18 1.393-.902 1.393-1.735v-12.511c0-.833-.579-1.555-1.392-1.735l-4.444-.988c-1.111-.247-2.164.598-2.164 1.736v14.486c0 1.137 1.053 1.982 2.163 1.735Z"></path><path stroke="%23545454" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M15 10.98v2"></path><path stroke="%23545454" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4 16v2.042c0 1.105.895 2 2 2h3"></path><path stroke="%23545454" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4 8v-2c0-1.105.895-2 2-2h3"></path><path stroke="%23545454" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4 12h5"></path><path stroke="%23545454" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M7 14l2-2 -2-2"></path></g></svg>');
+}
+#recipients-list .mailster-icon.mailster-icon-bounce:before {
+	background-image: url('data:image/svg+xml;utf8,<svg version="1.1" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g fill="none"><path d="M-0.01,0h24v24h-24v-24Z"></path><path stroke="%23545454" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19.99,11.028v-4.989"></path><path stroke="%23545454" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M15.99,17l-2,2l2,2"></path><path stroke="%23545454" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M17.989,4.028h-12.978c-1.111,0 -2.011,0.9 -2.011,2.011v0c0,0.667 0.331,1.29 0.883,1.664l5.357,3.631c1.365,0.925 3.157,0.925 4.522,0l5.356,-3.63c0.551,-0.374 0.882,-0.998 0.882,-1.664v-0.001c0,-1.111 -0.9,-2.011 -2.011,-2.011Z"></path><path stroke="%23545454" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M11,17.028h-6c-1.105,0 -2,-0.895 -2,-2v-8.989"></path><path stroke="%23545454" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M18,15.028h1c1.105,0 2,0.895 2,2v0c0,1.105 -0.895,2 -2,2h-0.49h0.49h-5.01"></path></g></svg>');
+}
+#recipients-list .mailster-icon.mailster-icon-bounce.hard:before {
+	background-image: url('data:image/svg+xml;utf8,<svg version="1.1" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g fill="none"><path d="M-0.01,0h24v24h-24v-24Z"></path><path stroke="%23D8605F" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19.99,11.028v-4.989"></path><path stroke="%23D8605F" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M15.99,17l-2,2l2,2"></path><path stroke="%23D8605F" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M17.989,4.028h-12.978c-1.111,0 -2.011,0.9 -2.011,2.011v0c0,0.667 0.331,1.29 0.883,1.664l5.357,3.631c1.365,0.925 3.157,0.925 4.522,0l5.356,-3.63c0.551,-0.374 0.882,-0.998 0.882,-1.664v-0.001c0,-1.111 -0.9,-2.011 -2.011,-2.011Z"></path><path stroke="%23D8605F" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M11,17.028h-6c-1.105,0 -2,-0.895 -2,-2v-8.989"></path><path stroke="%23D8605F" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M18,15.028h1c1.105,0 2,0.895 2,2v0c0,1.105 -0.895,2 -2,2h-0.49h0.49h-5.01"></path></g></svg>');
+}
+#recipients-list tr.expanded td {
+	border-bottom: 0 !important;
+}
+#recipients-list .bounce-indicator {
+	cursor: pointer;
+}
+#recipients-list .user_image {
+	width: 120px;
+	height: 120px;
+	padding: 5px;
+	float: left;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 120px 120px;
+}
+#recipients-list .receiver-detail-data.has-avatar {
+	margin-left: 150px;
+}
+#recipients-list .receiver-detail-data h4 {
+	font-size: 16px;
+	margin: 0.3em 0 0.3em;
+}
+#recipients-list .receiver-detail-data h4 a {
+	visibility: hidden;
+	font-size: 10px;
+}
+#recipients-list .receiver-detail-body:hover h4 a {
+	visibility: visible;
+}
+#recipients-list .receiver-detail-data ul li {
+	white-space: pre-line;
+}
+#click-list,
+#error-list {
+	margin-top: 5px;
+	display: none;
+}
+#mailster_details #stats {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+#mailster_details #stats li {
+	width: 22%;
+	display: block;
+	float: left;
+	text-align: center;
+	line-height: 70px;
+	box-sizing: border-box;
+}
+#mailster_details #stats li:first-child {
+	width: 12%;
+}
+#mailster_details #stats li label {
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	display: inline-block;
+	max-width: 60%;
+	min-width: 100px;
+}
+#mailster_details .big {
+	font-size: 18px;
+	font-weight: 100;
+	display: inline-block;
+	margin-right: 5px;
+	cursor: default;
+}
+#mailster_details .geolocation .big {
+	width: 100px;
+}
+#mailster_details .verybold {
+	font-size: 20px;
+	font-weight: 700;
+}
+#mailster_details .environment label {
+	margin-right: 5%;
+}
+#mailster_details .client-type {
+	width: 20px;
+}
+
+#mailster_details .mailster-icon:before {
+	width: 20px;
+	height: 20px;
+	background-size: 20px 20px;
+	background-repeat: no-repeat;
+	background-position: center;
+	vertical-align: middle;
+}
+#mailster_details .showdetails.mailster-icon:before {
+}
+
+#mailster_details .mailster-icon.client-desktop:before {
+	background-image: url('data:image/svg+xml;utf8,<svg version="1.1" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g fill="none"><path d="M0,0h24v24h-24Z"></path><path stroke="%23545454" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19,17h-14c-1.105,0 -2,-0.895 -2,-2v-10c0,-1.105 0.895,-2 2,-2h14c1.105,0 2,0.895 2,2v10c0,1.105 -0.895,2 -2,2Z"></path><path stroke="%23335454" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M14,17l0.5,4"></path><path stroke="%23545454" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M10,17l-0.5,4"></path><path stroke="%23545454" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M7.2,21h9.6"></path><path stroke="%23545454" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M21,13.5h-18"></path></g></svg>');
+}
+#mailster_details .mailster-icon.client-mobile:before {
+	background-image: url('data:image/svg+xml;utf8,<svg version="1.1" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g fill="none"><path d="M0 0h24v24h-24Z"></path><path stroke="%23545454" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9.5 3v1.8l-3.03311e-08 3.6816e-07c-.0249563.302922.197544.569922.5.6h4l-3.08771e-09 3.07058e-10c.302457-.030078.524956-.297078.5-.6v-1.8"></path><path stroke="%23545454" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M10 18h4"></path><path stroke="%23545454" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M16 21h-8l-8.74228e-08-3.55271e-15c-1.10457-4.82823e-08-2-.895431-2-2 0 0 0 0 0 0v-14l2.30926e-14 3.01992e-07c-1.66785e-07-1.10457.89543-2 2-2h8l-8.74228e-08 1.77636e-15c1.10457-4.82823e-08 2 .89543 2 2v14l-3.55271e-15 2.13163e-14c0 1.10457-.89543 2-2 2Z"></path></g></svg>');
+}
+#mailster_details .mailster-icon.client-webmail:before {
+	background-image: url('data:image/svg+xml;utf8,<svg version="1.1" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g stroke-linecap="round" stroke-width="1.5" stroke="%23545454" fill="none" stroke-linejoin="round"><path d="M19.5 21h-15c-1.105 0-2-.895-2-2v-14c0-1.105.895-2 2-2h15c1.105 0 2 .895 2 2v14c0 1.105-.895 2-2 2Z"></path><path d="M2.5 8h19"></path><path d="M5.505 5.49c-.003 0-.005.002-.005.005 0 .003.002.005.005.005 .003 0 .005-.002.005-.005 0-.003-.002-.005-.005-.005"></path><path d="M8.048 5.49c-.003 0-.005.002-.005.005 0 .003.002.005.005.005 .003 0 .005-.002.005-.005 0-.003-.002-.005-.005-.005"></path><path d="M10.588 5.49c-.003 0-.005.002-.005.005 0 .003.002.005.005.005 .003 0 .005-.002.005-.005 0-.003-.003-.005-.005-.005"></path></g><path fill="none" d="M0 0h24v24h-24Z"></path></svg>');
+}
+.clicked-link {
+	max-width: 400px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	display: block;
+	margin-right: 5px;
+}
+.clicked-link:hover {
+	overflow: visible;
+}
+.receiver-detail-data .clicked-link {
+	float: left;
+}
+#mailster_details .piechart {
+	width: 75px;
+	height: 75px;
+	display: inline-block;
+}
+#mailster_details table .countries {
+	overflow: hidden;
+	border: 0;
+	border-top: 1px solid #ccd0d4;
+	margin-top: 0;
+}
+#mailster_details table .countries .big {
+	width: 70px;
+}
+#mailster_details table .countries tr {
+	border-left: 1px solid #ccd0d4;
+	border-right: 1px solid #ccd0d4;
+}
+#mailster_details table .countries td {
+	padding-top: 0;
+	padding-bottom: 0;
+	border-bottom: 1px solid #ccd0d4;
+}
+#mailster_details table .countries td .mailster-flag-24 {
+	margin-top: 5px;
+}
+#mailster_details #countries_wrap {
+	position: relative;
+}
+#mailster_details #countries_map {
+	position: relative;
+	float: left;
+	width: 69%;
+	height: 428px;
+}
+#mailster_details #countries_map td {
+	border-bottom: 0;
+}
+#mailster_details a.zoomout {
+	display: inline-block;
+	visibility: hidden;
+	position: absolute;
+	left: 10px;
+	top: 10px;
+	z-index: 1;
+}
+#mailster_details a.zoomout:before {
+	background-image: url('data:image/svg+xml;utf8,<svg version="1.1" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g fill="none"><path d="M0 0h24v24h-24Z"></path><path stroke="%23545454" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.0" d="M14.1931 5.58187c2.33182 2.33182 2.33182 6.11245 0 8.44427 -2.33182 2.33182-6.11245 2.33182-8.44427 0 -2.33182-2.33182-2.33182-6.11245-1.77636e-15-8.44427 2.33182-2.33182 6.11245-2.33182 8.44427-1.77636e-15"></path><path stroke="%23545454" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.0" d="M14.15 14.06l5.85 5.93"></path><path stroke="%23545454" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.0" d="M8 10h4"></path></g></svg>');
+}
+#mailster_details #mapinfo {
+	position: absolute;
+	background-color: #777;
+	color: white;
+	margin: 400px 0 0 0;
+	padding: 3px 6px;
+	display: none;
+	right: 31%;
+}
+#google-visualization-errors-all-1,
+#google-visualization-errors-all-2,
+#google-visualization-errors-all-3 {
+	position: absolute;
+	right: 0;
+	z-index: 1;
+}
+#google-visualization-errors-all-1 div > span,
+#google-visualization-errors-all-2 div > span,
+#google-visualization-errors-all-3 div > span {
+	padding: 7px 10px !important;
+	background-color: #777;
+	display: block;
+}
+#google-visualization-errors-all-1 div span,
+#google-visualization-errors-all-2 div span,
+#google-visualization-errors-all-3 div span {
+	color: white !important;
+}
+#mailster_details #countries_table {
+	float: right;
+	width: 29%;
+	max-width: 29%;
+	height: 430px;
+	max-height: 430px;
+	overflow: auto;
+}
+#mailster_details #countries_table table {
+	border-top: 0;
+}
+#mailster_details #countries_table table th {
+	border: 0;
+}
+#mailster_details #countries_table tbody tr {
+	cursor: pointer;
+}
+#mailster_details #countries_table tbody tr td {
+	padding: 5px 8px;
+	vertical-align: middle;
+}
+#mailster_details #countries_table tbody tr:hover td {
+	background: #fcfcfc;
+}
+#mailster_details #countries_table tbody tr.wp-ui-highlight:hover td {
+	background: inherit;
+}
+#mailster_details #countries_table tbody tr.wp-ui-highlight td {
+	color: white;
+	border-top-color: gray;
+}
+#mailster_details #countries_table tbody tr.wp-ui-highlight td .count {
+	color: white;
+}
+#mailster_details #countries_table .mailster-flag-32 {
+	margin-top: 4px;
+}
+/*----------------------------------------------------------------------*/
+/* Delivery
+/*----------------------------------------------------------------------*/
+.active_wrap,
+.autoresponder_active_wrap {
+	position: relative;
+	padding: 4px;
+	margin-top: 4px;
+}
+.active_wrap .active_overlay,
+.autoresponder_active_wrap .autoresponder_active_overlay {
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	background-image: url(../img/inactive.png);
+	z-index: 1;
+}
+.timezone-enabled .utcoffset {
+	text-decoration: line-through;
+	color: #ccc;
+}
+.active_wrap.disabled .active_overlay,
+.autoresponder_active_wrap.disabled .autoresponder_active_overlay {
+	display: none;
+}
+.tabs-panel {
+	border: 1px solid #ccd0d4;
+	padding: 0.5em 5px;
+	overflow: hidden;
+}
+.dark-mode .tabs-panel {
+	border-color: #191f25;
+}
+.mailster_autoresponder_more,
+.autoresponder_before_after {
+	display: none;
+}
+.mailster_autoresponder_more > .mailster-help {
+	position: absolute;
+	right: 0;
+	top: -1.5em;
+}
+.rtl .mailster_autoresponder_more > .mailster-help {
+	left: 0;
+	right: unset;
+}
+.autoresponder-mailster_subscriber_insert
+	.autoresponderfield-mailster_subscriber_insert,
+.autoresponder-mailster_subscriber_unsubscribed
+	.autoresponderfield-mailster_subscriber_unsubscribed,
+.autoresponder-mailster_post_published
+	.autoresponderfield-mailster_post_published,
+.autoresponder-mailster_autoresponder_timebased
+	.autoresponderfield-mailster_autoresponder_timebased,
+.autoresponder-mailster_autoresponder_usertime
+	.autoresponderfield-mailster_autoresponder_usertime,
+.autoresponder-mailster_autoresponder_hook
+	.autoresponderfield-mailster_autoresponder_hook,
+.autoresponder-mailster_autoresponder_followup
+	.autoresponderfield-mailster_autoresponder_followup {
+	display: block;
+}
+.autoresponder-mailster_autoresponder_usertime .autoresponder_before_after {
+	display: inline;
+}
+.autoresponder-mailster_autoresponder_usertime .autoresponder_after {
+	display: none;
+}
+.autoresponder_before {
+	display: none;
+}
+.autoresponder-mailster_autoresponder_timebased .autoresponder_time {
+	display: none;
+}
+.autoresponder_time select {
+	width: 85px;
+}
+.mailster_autoresponder_condition {
+	border: 1px solid #ccd0d4;
+	border-radius: 3px;
+	margin: 3px 0;
+	padding: 5px;
+	overflow: hidden;
+}
+#mailster_autoresponder_condition_0 .remove-condition {
+	display: none;
+}
+.mailster_autoresponder_condition select {
+	margin: 3px 0;
+	width: 49%;
+}
+.mailster_autoresponder_condition input {
+	margin: 3px 0;
+	width: 95%;
+	border-color: #ccd0d4;
+}
+.mailster-conditions-wrap {
+	padding: 1em;
+}
+.mailster-conditions-wrap:empty:before {
+	content: attr(data-emptytext);
+	display: block;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	color: #999;
+}
+.mailster_sendtest {
+	float: right;
+}
+.rtl .mailster_sendtest {
+	float: left;
+}
+input.deliverydate,
+input.deliverytime {
+	width: 94px;
+	font-size: 16px;
+	padding: 3px 1px;
+	color: #333;
+	cursor: pointer;
+	text-align: center;
+}
+input.deliverydate.inactive,
+input.deliverytime.inactive {
+	color: #585858;
+	background: #fff;
+	padding: 4px 2px 3px;
+	border: 0;
+	border-bottom: 1px dotted #999;
+}
+.utcoffset {
+	white-space: nowrap;
+	font-size: 10px;
+	letter-spacing: -0.05em;
+}
+input.deliverytime {
+	width: 50px;
+}
+.deliverydate.inactive:hover,
+.deliverytime.inactive:hover {
+	color: #333;
+	border-bottom: 1px dotted #585858;
+}
+#ui-datepicker-div {
+	display: none;
+}
+label.weekday input {
+	margin-right: 1px;
+}
+#userexactdate span.disabled,
+#userexactdate span.disabled input,
+#userexactdate span.disabled select {
+	color: #ccc;
+	opacity: 0.6;
+}
+#mailster_testmail {
+	margin: 0.3em 0;
+}
+.mailster-total {
+	text-indent: -99999px;
+	font-size: 16px;
+	font-weight: 700;
+	visibility: visible;
+	cursor: pointer;
+}
+.mailster-total.loading {
+	height: auto;
+	opacity: 0.5;
+}
+.rtl .mailster-total {
+	text-indent: 99999px;
+}
+.progress {
+	width: 100%;
+	height: 20px;
+	background: #efefef;
+	overflow: hidden;
+	font-size: 10px;
+	position: relative;
+	text-align: right;
+	line-height: 20px;
+	border-radius: 2px;
+}
+.dark-mode .progress {
+	background: #50626f;
+}
+.progress var {
+	padding-right: 2px;
+	font-style: normal;
+	visibility: hidden;
+	position: relative;
+	z-index: 2;
+}
+.progress:hover var {
+	visibility: visible;
+}
+.progress span {
+	display: block;
+	position: absolute;
+	line-height: 1.6em;
+	padding: 2px 0;
+	top: 0;
+	bottom: 0;
+	white-space: nowrap;
+}
+.progress span.bar {
+	transition: width 1.25s ease;
+	overflow: visible;
+	border-radius: 2px;
+}
+.progress span.bar {
+	text-shadow: none;
+	background: #2bb3e7;
+	_background: -webkit-linear-gradient(to right, #084067, #2bb3e7);
+	_background: linear-gradient(to right, #084067, #2bb3e7);
+	z-index: 1;
+	overflow: hidden;
+}
+.progress span.bar span {
+	color: #fff !important;
+}
+.progress.paused span.bar {
+	background: #8a8a8a;
+	_background: -webkit-linear-gradient(to right, #383838, #8a8a8a);
+	_background: linear-gradient(to right, #383838, #8a8a8a);
+}
+
+.select2.select2-container {
+	margin-top: 0.3em;
+	margin-bottom: 0.3em;
+}
+.wp-core-ui .button.add_embed_options_taxonomy {
+	margin-left: 0.3em;
+	margin-right: 0.3em;
+}
+/*----------------------------------------------------------------------*/
+/* Lists
+/*----------------------------------------------------------------------*/
+
+#mailster_receivers {
+}
+#mailster_receivers ul.children {
+	margin: 5px 0 5px 10px;
+}
+#mailster_receivers ul label {
+	text-overflow: ellipsis;
+	overflow: hidden;
+	display: inline-block;
+	width: 100%;
+	white-space: nowrap;
+	padding: 2px;
+}
+.mailster_list_condition {
+	border: 1px solid #ccd0d4;
+	border-radius: 3px;
+	margin: 3px 0;
+	padding: 5px;
+	position: relative;
+}
+
+.mailster-condition-render-group {
+	margin: 0.1em 0 0.5em;
+}
+
+.create-new-list-wrap {
+	display: none;
+	border-top: 1px solid #ccd0d4;
+}
+div.mailster-list-operator {
+	position: absolute;
+	top: -12px;
+	left: 50%;
+}
+div.mailster-list-operator span {
+	transform: translateX(-50%);
+	position: absolute;
+	background-color: #fff;
+	padding: 0 3px;
+	text-transform: uppercase;
+	color: #ccc;
+	font-size: 15px;
+	display: none;
+	line-height: 100%;
+}
+#mailster_receivers p.lists strong:after {
+	content: ',';
+	display: inline-block;
+}
+#mailster_receivers p.lists strong:last-child:after {
+	content: '';
+}
+#mailster_conditions_render {
+	position: relative;
+}
+.mailster-receivers-thickbox {
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	bottom: 10px;
+}
+.mailster-receivers-thickbox .inner {
+	position: relative;
+	padding: 0 20px;
+	height: 70%;
+	height: calc(100% - 50px);
+	overflow: auto;
+}
+.mailster-receivers-thickbox #new_template_name {
+	font-size: 1.8em;
+}
+.mailster-receivers-thickbox #new_template_saveas_dropdown {
+	width: 280px;
+}
+.mailster-receivers-thickbox #new_template-ajax-loading {
+	visibility: visible;
+	display: none;
+	float: right;
+}
+.mailster-receivers-thickbox .foot {
+	padding: 10px 20px;
+	border-top: 1px solid #dfdfdf;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+.mailster-receivers-thickbox .foot button {
+	float: right;
+	margin-left: 6px;
+}
+.rtl .mailster-receivers-thickbox .foot button {
+	margin-left: 0px;
+	margin-right: 6px;
+	float: left;
+}
+/*----------------------------------------------------------------------*/
+/* Options
+/*----------------------------------------------------------------------*/
+#mailster_options hr {
+	visibility: hidden;
+	clear: both;
+	float: none;
+}
+.fixed-optionbar.focus-on div#mailster_options {
+	opacity: 0.5;
+}
+.focus-on div#mailster_options {
+	opacity: 0;
+	position: fixed;
+	top: 50px;
+	-webkit-transition-duration: 0.25s;
+	transition-duration: 0.25s;
+}
+.focus-on div#mailster_options:hover {
+	opacity: 1;
+}
+.wp-picker-holder {
+	position: absolute;
+	z-index: 1000;
+}
+ul.colors {
+	margin: 5px 0;
+}
+ul.colors li label {
+	font-size: 10px;
+	display: none;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+	cursor: default;
+}
+ul.colors.has-labels li label {
+	display: block;
+}
+ul.colors li {
+	box-sizing: border-box;
+	display: inline-block;
+}
+ul.colors .default-value {
+	display: none;
+}
+ul.colors.has-labels li {
+	margin-bottom: 0;
+}
+ul.colors li a.reset {
+	font-size: 20px;
+	text-decoration: none;
+}
+input.color {
+	width: 60px;
+	font-size: 10px;
+	text-transform: uppercase;
+}
+a.savecolorschema,
+a.colorschema-delete-all {
+	cursor: pointer;
+	font-size: 10px;
+}
+ul.colorschema {
+	margin: 5px 0;
+	border: 1px solid #ccd0d4;
+	overflow: hidden;
+	display: inline-block !important;
+	max-width: 234px;
+}
+ul.colorschema {
+	margin-right: 14px;
+}
+ul.colorschema.custom:hover {
+	margin-right: 1px;
+}
+ul.colorschema:hover {
+	border: 1px solid #606064;
+}
+ul.colorschema .colorschema-delete-field {
+	display: none;
+}
+ul.colorschema:hover .colorschema-delete-field {
+	display: block;
+}
+ul.colorschema.finished:hover {
+	border: 1px solid #ccd0d4;
+}
+ul.colorschema li {
+	cursor: pointer;
+	position: relative;
+	height: 13px;
+	width: 13px;
+	float: left;
+	margin: 0;
+	text-align: center;
+}
+ul.colorschema.finished li {
+	cursor: default;
+}
+ul.colorschema li:first-child {
+	border-left: 0;
+	-webkit-border-top-left-radius: 2px;
+	-webkit-border-bottom-left-radius: 2px;
+	-moz-border-radius-topleft: 2px;
+	-moz-border-radius-bottomleft: 2px;
+	border-top-left-radius: 2px;
+	border-bottom-left-radius: 2px;
+}
+ul.colorschema li:last-child {
+	border-right: 0;
+	-webkit-border-top-right-radius: 2px;
+	-webkit-border-bottom-right-radius: 2px;
+	-moz-border-radius-topright: 2px;
+	-moz-border-radius-bottomright: 2px;
+	border-top-right-radius: 2px;
+	border-bottom-right-radius: 2px;
+}
+ul.colorschema li a.colorschema-delete {
+	font-size: 13px;
+	line-height: 1em;
+	display: block;
+}
+
+/*----------------------------------------------------------------------*/
+/* Attachments
+/*----------------------------------------------------------------------*/
+
+.mailster-attachments {
+	overflow: hidden;
+	margin: 0;
+}
+.mailster-attachments.is-editable .mailster-attachment:first-child {
+	display: none;
+}
+.mailster-attachments .mailster-attachment {
+	width: 47%;
+	margin-right: 2%;
+	height: 110px;
+	position: relative;
+	box-shadow: inset 0 0 15px rgba(0, 0, 0, 0.1),
+		inset 0 0 0 1px rgba(0, 0, 0, 0.05);
+	background: #eee;
+	float: left;
+	overflow: hidden;
+}
+.rtl .mailster-attachments .mailster-attachment {
+	margin-right: 0;
+	margin-left: 2%;
+	float: right;
+}
+.mailster-attachments .mailster-attachment .delete-attachment {
+	position: absolute;
+	top: 1px;
+	right: 1px;
+	text-decoration: none;
+	display: none;
+	width: 18px;
+	height: 18px;
+	text-align: center;
+	z-index: 1;
+}
+.mailster-attachments.is-editable
+	.mailster-attachment:hover
+	.delete-attachment {
+	display: block;
+}
+.mailster-attachments .mailster-attachment img {
+	margin: auto;
+	display: block;
+	top: 40%;
+	position: relative;
+	transform: translateY(-50%);
+	user-drag: none;
+	user-select: none;
+	-moz-user-select: none;
+	-webkit-user-drag: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	max-width: 100%;
+	height: auto;
+}
+.mailster-attachments .mailster-attachment div.mailster-attachment-label {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	word-wrap: break-word;
+	text-align: center;
+	font-weight: 600;
+	font-size: 12px;
+	padding: 5px 10px;
+	background: rgba(255, 255, 255, 0.8);
+	box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.15);
+}
+/*----------------------------------------------------------------------*/
+/* Stuff
+/*----------------------------------------------------------------------*/
+a.mailster-btn.editbutton {
+	text-overflow: ellipsis;
+	overflow: hidden;
+	max-width: 50px;
+}
+.blink {
+	text-decoration: blink;
+	-webkit-animation: blink 1s steps(5, start) infinite;
+	-moz-animation: blink 1s steps(5, start) infinite;
+	-o-animation: blink 1s steps(5, start) infinite;
+	animation: blink 1s steps(5, start) infinite;
+}
+@-webkit-keyframes blink {
+	to {
+		visibility: hidden;
+	}
+}
+@-moz-keyframes blink {
+	to {
+		visibility: hidden;
+	}
+}
+@-o-keyframes blink {
+	to {
+		visibility: hidden;
+	}
+}
+@keyframes blink {
+	to {
+		visibility: hidden;
+	}
+}
+/*----------------------------------------------------------------------*/
+/* Clickbadge
+/*----------------------------------------------------------------------*/
+#clickmap-stats {
+	background: #fff;
+	padding: 6px 10px;
+	box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.5);
+	position: absolute;
+	display: none;
+	z-index: 10000;
+}
+#clickmap-stats .piechart {
+	float: left;
+}
+#clickmap-stats .piechart.easyPieChart span {
+	font-weight: normal;
+}
+#clickmap-stats p {
+	margin: 0;
+	padding: 7px 2px 2px 10px;
+	font-size: 12px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.clickbadge {
+	display: block;
+	position: absolute;
+	background: #f33;
+	width: 70px;
+	background: #383838;
+	box-sizing: border-box;
+	font-size: 10px;
+	color: #f9f9f9;
+	text-align: left;
+	height: 20px;
+	overflow: hidden;
+	cursor: pointer;
+	z-index: 1;
+	opacity: 0.8;
+}
+.clickbadge:hover {
+	color: #f9f9f9;
+	z-index: 10;
+	opacity: 1;
+}
+.clickbadge span {
+	position: relative;
+	display: inline-block;
+	max-width: 68px;
+	margin: 1px;
+	padding: 0 2px;
+	text-align: right;
+	color: #383838;
+	background: #f9f9f9;
+	box-sizing: border-box;
+	line-height: 18px;
+}
+.clickbadge.clickbadge-outside span {
+	text-indent: -9999px;
+}
+#ui-datepicker-div {
+	width: 230px;
+}
+.fixed-optionbar #iframe-wrap {
+	margin-top: 42px;
+}
+#mailster_template #iframe-wrap {
+	transition: margin-right 0.15s ease-in-out;
+	margin-right: 0px;
+	margin-top: 12px;
+	border: 1px solid #ccd0d4;
+}
+#mailster_template .is-editable #iframe-wrap {
+	margin-top: 0;
+}
+.rtl #mailster_template #iframe-wrap {
+	transition: margin-left 0.15s ease-in-out;
+	margin-left: 0px;
+}
+.dark-mode #mailster_template #iframe-wrap {
+	border-color: #32373c;
+}
+#mailster_template .show-modules #iframe-wrap {
+	margin-right: 170px;
+}
+.rtl #mailster_template .show-modules #iframe-wrap {
+	margin-right: 0px;
+	margin-left: 170px;
+}
+#mailster_template a.toggle-modules {
+	transition: margin-left 0.15s ease-in-out;
+	border: 1px solid;
+	border-color: #fff #fff #ccd0d4 #ccd0d4;
+	background: #fff;
+	padding: 5px;
+	z-index: 98;
+	margin-left: -42px;
+	margin-top: -2px;
+	color: #a8a8a8;
+	position: absolute;
+	display: block;
+}
+.CodeMirror {
+	font-family: monospace;
+	color: black;
+	height: auto;
+	width: 100%;
+	direction: ltr;
+	border: 1px solid #ccd0d4;
+}
+.CodeMirror-code {
+	background-image: url(../img/pre_bg.png);
+	background-size: 100% 36px;
+	background-attachment: scroll;
+}
+
+.dark-mode #mailster_template a.toggle-modules {
+	background: #32373c;
+	border-color: #32373c #32373c #191f25 #191f25;
+}
+#mailster_template .show-modules a.toggle-modules {
+	display: none !important;
+}
+#module-selector:hover a.toggle-modules {
+	display: block !important;
+}
+.rtl #mailster_template a.toggle-modules {
+	transition: margin-right 0.15s ease-in-out;
+	border-color: #fff #ccd0d4 #ccd0d4 #fff;
+	margin-left: 0;
+	margin-right: -40px;
+}
+#mailster_template a.toggle-modules:hover {
+	color: #686868;
+}
+#mailster_template .show-modules a.toggle-modules {
+	margin-left: -31px;
+}
+.rtl #mailster_template .show-modules a.toggle-modules {
+	margin-left: 0;
+	margin-right: -30px;
+}
+#mailster_template a.toggle-modules:before {
+	background-image: url('data:image/svg+xml;utf8,<svg version="1.1" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M14,8l-4,4l4,4" stroke-linecap="round" stroke-width="1.5" stroke="%23545454" fill="none" stroke-linejoin="round"></path><path fill="none" d="M0,0h24v24h-24Z"></path></svg>');
+	background-size: 20px 20px;
+	background-position: center;
+}
+#mailster_template .show-modules a.toggle-modules:before {
+	background-image: url('data:image/svg+xml;utf8,<svg version="1.1" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g fill="none"><path d="M0 0h24v24h-24Z"></path><path stroke="%23545454" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M10 16l4-4 -4-4"></path></g></svg>');
+}
+.rtl #mailster_template a.toggle-modules:before {
+	background-image: url('data:image/svg+xml;utf8,<svg version="1.1" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g fill="none"><path d="M0 0h24v24h-24Z"></path><path stroke="%23545454" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M10 16l4-4 -4-4"></path></g></svg>');
+}
+.rtl #mailster_template .show-modules a.toggle-modules:before {
+	background-image: url('data:image/svg+xml;utf8,<svg version="1.1" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M14,8l-4,4l4,4" stroke-linecap="round" stroke-width="1.5" stroke="%23545454" fill="none" stroke-linejoin="round"></path><path fill="none" d="M0,0h24v24h-24Z"></path></svg>');
+}
+#mailster_template .inside iframe#mailster_iframe {
+	transition: height 0.25s ease-in-out;
+	margin-top: 0px;
+	margin-bottom: -4px;
+}
+#mailster_template .inside .is-editable iframe#mailster_iframe {
+	margin-top: -3px;
+}
+#mailster_template .inside iframe#mailster_iframe.loading {
+	-webkit-filter: blur(3px);
+	filter: blur(3px);
+}
+#mailster_template .inside #template-wrap.load {
+	cursor: progress !important;
+}
+#mailster_template a.mailster-btn {
+	display: none;
+}
+#mailster_template:hover a.mailster-btn,
+.ie #mailster_template a.mailster-btn,
+.touch #mailster_template a.mailster-btn,
+.ie #mailster_template .show-modules #module-selector {
+	display: block;
+}
+#module-selector {
+	transition: width 0.15s ease-in-out;
+	right: 0;
+	position: absolute;
+	z-index: 99;
+	bottom: 0;
+	top: 40px;
+	background: #fff;
+}
+.dark-mode #module-selector {
+	background: #32373c;
+}
+.rtl #module-selector {
+	left: 0;
+	right: initial;
+}
+#mailster_template .show-modules #module-selector {
+	width: 180px;
+}
+#mailster_template #module-selector {
+	width: 0;
+}
+#module-selector .inner {
+	position: relative;
+	overflow: hidden;
+	height: 94%;
+	height: calc(100% - 45px);
+}
+#module-selector .inner:hover {
+	overflow: scroll;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+#mailster_template .inner #template-wrap.load,
+#mailster_template .inner #template-wrap.load * {
+	cursor: progress !important;
+}
+.fixed-optionbar #module-selector {
+	right: 321px;
+	top: 92px;
+	position: fixed;
+}
+.rtl.fixed-optionbar #module-selector {
+	left: 321px;
+	right: initial;
+}
+.fixed-optionbar #post-body.columns-1 #module-selector {
+	right: 21px;
+}
+.rtl.fixed-optionbar #post-body.columns-1 #module-selector {
+	left: 21px;
+	right: initial;
+}
+.show-modules #module-selector #module-search-wrap {
+	width: 170px;
+}
+#module-selector #module-search-wrap {
+	transition: width 0.15s ease-in-out;
+	width: 0;
+	overflow: hidden;
+}
+#module-selector #module-search-wrap #module-search {
+	margin: 1px 11px;
+	width: 158px;
+}
+#module-selector #module-search-wrap #module-search-remove {
+	text-decoration: none;
+	position: absolute;
+	right: 14px;
+	top: 2px;
+	padding: 2px;
+	display: none;
+}
+.rtl #module-selector #module-search-wrap #module-search-remove {
+	right: inherit;
+	left: 14px;
+}
+#module-selector #module-search-wrap:hover #module-search-remove {
+	display: block;
+}
+
+#module-selector ul {
+	margin: 0;
+	padding: 0;
+}
+#mailster_template #template-wrap.load #module-selector {
+	opacity: 0.2;
+}
+#module-selector ul li {
+	display: block;
+	margin: 0;
+	float: none;
+}
+#module-selector ul li a.mailster-btn {
+	border: 1px solid #ccd0d4;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+	display: block;
+	position: static;
+	padding: 0 3px;
+	margin: 2px 10px 2px 10px;
+	box-sizing: border-box;
+	min-height: 24px;
+	line-height: 24px;
+	font-size: 12px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	width: 160px;
+	text-align: center;
+	border-radius: 4px;
+}
+.dark-mode #module-selector ul li a.mailster-btn {
+	border-color: #32373c;
+}
+
+#module-selector ul li a.mailster-btn.has-screenshot {
+	background-size: 100%;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	position: relative;
+}
+#module-selector ul li a.mailster-btn.has-screenshot span {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(43, 43, 43, 0.6);
+	color: #fff;
+	border-radius: 0 0 2px 2px;
+	line-height: 22px;
+	opacity: 0;
+	transition: all 0.25s ease;
+}
+#module-selector ul li:hover a.mailster-btn.has-screenshot span {
+	opacity: 1;
+}
+#module-selector ul li:hover a.mailster-btn,
+#module-selector ul li a.mailster-btn:focus {
+	background-color: #fafafa !important;
+	border: 1px solid #999;
+	color: #23282d;
+	box-shadow: 0 2px 8px 0 rgb(0 0 0 / 5%), 0 2px 1px 0 rgb(0 0 0 / 5%);
+}
+#module-selector ul li.ui-draggable-dragging {
+	background-color: red;
+}
+#module-selector ul li.ui-draggable-dragging a.mailster-btn {
+	height: 100px;
+	width: 200px;
+	padding-top: 40px;
+}
+@media only screen and (max-width: 850px) {
+	#mailster_template a.toggle-modules {
+		margin-left: -32px;
+		margin-top: 0;
+	}
+	#module-selector {
+		border-left: 1px solid #ccd0d4;
+		border-right: 0;
+		right: 10px;
+		top: 42px;
+	}
+	.fixed-optionbar #module-selector {
+		right: 28px;
+	}
+	#module-selector ul li a.mailster-btn {
+		margin: 2px 0px 2px 10px;
+	}
+}
+@media screen and (max-width: 782px) {
+	.fixed-optionbar #mailster_template a.toggle-modules {
+		margin-left: -27px;
+	}
+	#mailster_details #stats li.receivers {
+		line-height: 220px;
+		height: 140px;
+	}
+	#mailster_details #stats li label {
+		max-width: 20%;
+		min-width: 80px;
+	}
+	#mailster_details table th {
+		display: block;
+		width: auto;
+		border-bottom: 0;
+	}
+	#mailster_details table td.nopadding {
+		display: block;
+		width: auto;
+	}
+	#recipients-list .show-receiver-detail {
+		width: 120px;
+	}
+	#recipients-list table {
+		margin-top: 0;
+	}
+	#recipients-list .receiver-detail-data {
+		margin-left: 80px;
+	}
+	#recipients-list .user_image {
+		width: 50px;
+		height: 50px;
+		background-size: 50px 50px;
+	}
+	#recipients-list .receiver-detail-data h4 a {
+		visibility: visible;
+		font-size: 16px;
+	}
+	.filter-list {
+		position: relative;
+		height: auto;
+		background-color: #fff;
+	}
+	.filter-list label {
+		padding: 3px 0;
+		display: block;
+	}
+	.ajax-list-header a.recipients-order {
+		position: absolute;
+		top: 10px;
+		right: 10px;
+	}
+	#mailster_details .environment label {
+		margin-right: 0;
+		padding: 3px 0;
+		display: block;
+	}
+	#mailster_details .showdetails {
+		margin-top: -20px;
+		font-size: 130%;
+	}
+	#countries_table span.country {
+		display: none;
+	}
+	#mailster_details .geolocation label:last-child {
+		display: none;
+	}
+	#mailster_details #countries_table tbody tr td {
+		padding: 6px;
+	}
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+	only screen and (-o-min-device-pixel-ratio: 32),
+	only screen and (min--moz-device-pixel-ratio: 1.5),
+	only screen and (min-device-pixel-ratio: 1.5) {
+	#recipients-list td.loading {
+		-webkit-background-size: 20px 20px;
+		-moz-background-size: 20px 20px;
+		background-size: 20px 20px;
+		background-image: url(../img/loading_2x.gif) !important;
+	}
+}

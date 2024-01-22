@@ -1,0 +1,31 @@
+.ps-redirect__box {
+  border: 1px solid $scss-redirectbox-border;
+}
+
+
+.ps-redirect__link {
+  display: block;
+  font-weight: bold;
+}
+
+
+.ps-redirect__box-body {
+  padding: $padd--med;
+
+  > p {
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+
+  > hr {
+    @extend %hr;
+  }
+}
+
+
+.ps-redirect__box-actions {
+  display: flex;
+  justify-content: space-between;
+  padding: $padd--med;
+  background-color: $scss-redirectbox-bg;
+}

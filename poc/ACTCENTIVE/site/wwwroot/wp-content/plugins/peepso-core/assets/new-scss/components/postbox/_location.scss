@@ -1,0 +1,151 @@
+.ps-postbox__menu-item--location {
+  position: static;
+}
+
+.ps-location__map {
+  width: 700px;
+  height: 400px;
+  max-width: 100%;
+}
+
+.ps-postbox__location {
+  --width: auto;
+  --map-height: 250px;
+
+  left: var(--PADD);
+  right: var(--PADD);
+  overflow: hidden;
+
+  @include mq($until: desktop) {
+    width: 100%;
+    left: 0;
+    right: 0;
+  }
+}
+
+.ps-postbox__location--loaded {}
+
+.ps-postbox__location-inner {}
+
+.ps-postbox__location-box {}
+
+.ps-postbox__location-map {
+  flex-grow: 1;
+  position: relative;
+  min-width: 50%;
+  height: var(--map-height);
+  background-color: var(--bg--light);
+
+  &:before {
+    content: "\f21d";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    transform: translateY(-50%);
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    font-size: 50px;
+    text-align: center;
+    color: var(--text-color--light);
+  }
+}
+
+.ps-postbox__location-search {
+  --bg: var(--c-ps-postbox-dropdown-bg);
+  --bg--light: var(--c-ps-postbox-dropdown-bg-light);
+  --text-color: var(--c-ps-postbox-dropdown-text-color);
+  --text-color--light: var(--c-ps-postbox-dropdown-icon-color);
+
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.ps-postbox__location-field {
+  width: 100%;
+  border-bottom: 1px solid var(--DIVIDER--LIGHT);
+}
+
+.ps-postbox__location-input {
+  &.ps-input {
+    border: none;
+    box-shadow: none;
+
+    &:hover,
+    &:focus {
+      border: none;
+      box-shadow: none;
+    }
+  }
+}
+
+.ps-postbox__location-list {
+  position: relative;
+  width: 40%;
+  max-height: var(--map-height);
+  overflow: auto;
+  background-color: var(--bg);
+
+  &:empty {
+    &:before {
+      content: attr(data-no-items);
+      position: absolute;
+      top: 50%;
+      left: 0;
+      right: 0;
+      transform: translateY(-50%);
+      text-align: center;
+      color: var(--text-color--light);
+    }
+  }
+}
+
+.ps-postbox__location-item {
+  padding: var(--PADD) var(--PADD--MD);
+  line-height: var(--PS-LINE-HEIGHT);
+  border-bottom: 1px solid var(--DIVIDER--LIGHT);
+  cursor: pointer;
+
+  @include mq($from: tablet) {
+    &:hover {
+      background-color: var(--bg--light);
+    }
+  }
+
+  p {
+    margin-bottom: 0;
+    font-weight: bold;
+    color: var(--text-color);
+  }
+
+  span {
+    font-size: 90%;
+    color: var(--text-color--light);
+  }
+
+  &:last-child {
+    border-bottom: none;
+  }
+}
+
+.ps-postbox__location-item--loading {
+  cursor: normal;
+
+  &:hover {
+    background-color: transparent;
+  }
+}
+
+.ps-postbox__location-actions {
+  position: absolute;
+  z-index: 1;
+  top: var(--PADD);
+  right: var(--PADD);
+  display: none;
+}
+
+.ps-postbox__location-action {}

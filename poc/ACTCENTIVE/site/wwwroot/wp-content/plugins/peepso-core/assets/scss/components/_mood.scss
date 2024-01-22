@@ -1,0 +1,84 @@
+.ps-moods__dropdown {
+  left: 0;
+  right: 0;
+  width: 100%;
+  overflow-y: auto;
+
+  @include media('medium') {
+    width: 96%;
+    max-height: 170px;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+
+  a {
+    flex-grow: 1;
+    width: 100%;
+    border: none;
+
+    @include media('medium') {
+      width: 50%;
+    }
+
+    > span {
+      @if $scss-direction == rtl {
+        margin-right: ($padding-sm / 2);
+      } @else {
+        margin-left: ($padding-sm / 2);
+      }
+    }
+  }
+}
+
+.ps-moods__dropdown-inner {
+    position: relative;
+    overflow: hidden;
+}
+
+.ps-moods__dropdown-list {
+    display: flex;
+    flex-wrap: wrap;
+    width: 104%;
+    //max-height: 170px;
+    //overflow-y: auto;
+
+    //&::-webkit-scrollbar {
+    //  width: 0px;
+    //  background: transparent; /* make scrollbar transparent */
+    //}
+
+    > a {
+        padding: $padd;
+
+        &:hover {
+            background-color: rgba(0,0,0, .025);
+        }
+    }
+}
+
+.ps-moods__remove {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 30px;
+    height: 30px;
+    font-size: 14px !important;
+    line-height: 1 !important;
+    text-align: center;
+    color: #fff !important;
+    background-color: rgba(0,0,0, .3) !important;
+    border: none !important;
+    border-radius: 100%;
+    outline: none;
+    transition: background-color .2s ease;
+
+    > i {
+        &:before {
+            margin: 0 !important;
+        }
+    }
+
+    &:hover {
+        background-color: rgba(0,0,0, .65) !important;
+    }
+}

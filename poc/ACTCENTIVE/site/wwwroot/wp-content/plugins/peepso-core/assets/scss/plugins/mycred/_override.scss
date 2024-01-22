@@ -1,0 +1,51 @@
+.mycred-history-wrapper {
+  .pagination {
+    display: flex;
+    margin-bottom: 15px;
+    border: none;
+
+    ul,
+    li {
+      padding: 0;
+      margin: 0;
+
+      &:first-child {
+        span,
+        a {
+          margin-left: 0;
+        }
+      }
+
+      &:last-child {
+        span,
+        a {
+          margin-right: 0;
+        }
+      }
+    }
+
+    span {
+      opacity: .6;
+
+      &.current {
+        opacity: 1;
+        font-weight: bold;
+      }
+    }
+
+    span,
+    a {
+      margin-left: 2px;
+      margin-right: 2px;
+      padding: 5px 10px;
+      display: inline-block;
+      background-color: $focus-interactions-bg;
+      border: $focus-border !important;
+
+      // ROUNDED CORNERS
+      @if $scss-rounded == true {
+        border-radius: 6px;
+      }
+    }
+  }
+}

@@ -1,0 +1,20 @@
+nav.top_menu > ul > li.vertical-menu > .sub-menu{width: 250px; }
+nav.top_menu > ul > li.vertical-menu.width-200 > .sub-menu{width: 200px}
+nav.top_menu > ul > li.vertical-menu.width-300 > .sub-menu{width: 300px}
+.vertical-menu.width-200 > a, .vertical-menu.width-250 > a, .vertical-menu.width-300 > a{width: 100%}
+.home:not(.groups) nav.top_menu > ul > li.vertical-menu.vmenu-opened > .sub-menu {opacity: 1;visibility: visible;transform: translateY(0px);left: 0;}
+.vmenu-opened > a:before{display: none !important}
+nav.top_menu > ul > li.vertical-menu .sub-menu {box-shadow: none;}
+nav.top_menu > ul > li.vertical-menu > .sub-menu{padding: 10px 0}
+nav.top_menu > ul > li.vertical-menu > .sub-menu{border: 2px solid transparent; border-top: none }
+.vertical-menu .border-grey-bottom{margin-bottom: 10px}
+nav.top_menu > ul > li.vertical-menu ul li.menu-item > a{padding: 9px 16px; font-size: 14px; border:none;}
+nav.top_menu > ul > li.vertical-menu > ul > li > ul > li > ul > li > a{padding: 7px 16px; font-size: 13px}
+nav.top_menu > ul > li.vertical-menu > ul > li > .sub-menu {position: fixed;min-width: 250px;padding: 18px 11px 15px 11px;min-height: calc(100% + 2px);display: flex;border-right: 2px solid transparent;width: auto;}
+nav.top_menu > ul > li.vertical-menu > ul > li > .sub-menu li.menu-item-has-children > a:before{display: none;}
+nav.top_menu > ul > li.vertical-menu > ul > li > .sub-menu li.menu-item-has-children > a{font-weight: bold; margin-bottom: 5px}
+nav.top_menu > ul > li.vertical-menu > ul > li > ul > li{display: block;min-width: 250px; width:250px; z-index: 1}
+nav.top_menu > ul > li.vertical-menu > ul > li.inner-700 > .sub-menu{min-width: 700px; padding: 0;min-height: 1px;}
+nav.top_menu > ul > li.vertical-menu > ul > li.inner-500 > .sub-menu{min-width: 500px; padding: 0;min-height: 1px;}
+nav.top_menu > ul > li.vertical-menu > ul > li.inner-700 > ul > li, nav.top_menu > ul > li.vertical-menu > ul > li.inner-500 > ul > li{width: 100%;}
+nav.top_menu > ul > li.vertical-menu > ul > li > .sub-menu .sub-menu{position: static;display: block;width: auto;box-shadow: none;border: 0;transform: translateY(0);opacity: 1;visibility: visible; background: transparent;}

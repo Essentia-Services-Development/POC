@@ -1,0 +1,253 @@
+.ps-reactions__dropdown {
+  position: absolute;
+  left: 0px;
+  z-index: 30;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0,0,0, .1);
+
+  @if $scss-rounded == true {
+    border-radius: 6px;
+  }
+}
+
+.ps-reactions__list {
+  position: relative;
+  max-width: 354px;
+  padding: 10px;
+}
+
+.ps-reactions__list-item {
+  display: inline-block;
+
+  > a {
+    display: inline-block;
+    min-height: 24px;
+    vertical-align: middle;
+    transition: all .2s ease;
+
+    @if $scss-direction == rtl {
+      padding-right: 24px;
+    } @else {
+      padding-left: 24px;
+    }
+  }
+
+  &:hover {
+    > a {
+      z-index: 1;
+      transform: scale(1.5, 1.5) translate(0, -4px);
+    }
+  }
+
+  &:nth-child(n+13) {
+    margin-top: 10px;
+  }
+}
+
+.ps-reactions__list--selected {
+  max-width: 370px;
+  padding-right: 50px;
+}
+
+.ps-reactions__list-item--delete {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 40px;
+  text-align: center;
+
+  @if $scss-direction == rtl {
+    border-right: $divider;
+  } @else {
+    border-left: $divider;
+  }
+
+  > a {
+    color: #888;
+
+    > i {
+      position: absolute;
+      top: 50%;
+      left: 0;
+      right: 0;
+      transform: translateY(-50%);
+      padding-top: 5px;
+      padding-bottom: 5px;
+      font-size: 24px;
+    }
+
+    &:hover {
+      color: #666;
+    }
+  }
+
+  &:hover {
+    > a {
+      transform: none;
+    }
+  }
+
+  &.ps-reactions__list-item {
+    margin-top: 0;
+  }
+}
+
+// IMPROVE CSS BELOW
+
+.cstream-reactions-options {
+  display:none;
+  margin:0px !important;
+}
+
+.ps-reaction-likes + .ps-stream-status {
+  display: none !important;
+}
+
+.ps-stream-actions .ps-icon-reaction {
+  font-size: 17px;
+}
+
+.ps-stream-actions .ps-icon-reaction > span {
+  font-size: 12px;
+}
+
+.ps-icon-reaction.ps-reaction-emoticon-0 {
+  background-image: url('../../assets/images/reactions/like_gray.svg');
+}
+
+.ps-icon-reaction.ps-reaction-emoticon-0.liked,
+.ps-icon-reaction.ps-reaction-emoticon-0:hover {
+  background-image: url('../../assets/images/reactions/like_blue.svg');
+}
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .ps-icon-reaction.ps-reaction-emoticon-0 {
+    background-image: url('../../assets/images/reactions/like_gray.svg#svgView(preserveAspectRatio(xMinYMid))');
+  }
+
+  .ps-icon-reaction.ps-reaction-emoticon-0.liked,
+  .ps-icon-reaction.ps-reaction-emoticon-0:hover {
+    background-image: url('../../assets/images/reactions/like_blue.svg#svgView(preserveAspectRatio(xMinYMid))');
+  }
+}
+
+.ps-icon-reaction, .ps-reaction-option {
+  font-size:14px;
+  padding-left:25px;
+  background-repeat:no-repeat;
+}
+
+.ps-stream-reactions-hidden {
+  display: none;
+}
+
+
+/*  Emoticon  */
+.ps-reactions-count-icon {
+  background-repeat: no-repeat;
+
+  height:18px;
+  width:18px;
+
+  display:inline-block;
+  margin-left:-8px;
+
+  filter: url(#drop-shadow);
+  -webkit-filter: drop-shadow(-2px 0 $scss-reactions-emote-shadow);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=-2, OffY=0, Color="$scss-reactions-emote-shadow")";
+  filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=-2, OffY=0, Color="$scss-reactions-emote-shadow")";
+  filter: drop-shadow(-2px 0px $scss-reactions-emote-shadow);
+}
+
+.ps-reactions-count-icon-first {
+  margin-left: 0 !important;
+}
+
+
+/*  Reactions wrapper  */
+.ps-reactions {
+  position: absolute;
+  left: 0px;
+  z-index: 30;
+}
+
+.ps-reaction-options > li {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.ps-reaction-options > li > a {
+  display: block;
+  min-height: 22px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  padding-left: 24px;
+  font-size: 20px;
+  background-position: center;
+  transition: all 0.2s ease;
+}
+
+.ps-reaction-options > li > a:hover,
+.ps-reaction-options > li > a:focus {
+  transform: scale(1.5, 1.5) translate(0, -4px);
+}
+
+.ps-reaction-options > li:last-child > a:hover,
+.ps-reaction-options > li:last-child > a:focus {
+  transform: none;
+}
+
+.ps-reaction-option-delete {
+  padding: 0 !important;
+}
+
+.ps-reaction-option-delete > i {
+  vertical-align: middle;
+}
+
+
+/*  Wrapping all the users reaction  */
+.ps-reaction-likes > span,
+.ps-reaction-likes > a {
+  vertical-align: middle;
+}
+
+
+/*  Wrapping the details of reactions  */
+.ps-reactions-details {
+  position: relative;
+}
+
+.ps-reactions-details .ps-reactions-count-icon {
+  width: auto;
+  padding-left: 20px;
+}
+
+.ps-reactions-details-item {
+  margin-bottom: 5px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid $scss-reactions-separator;
+}
+
+.ps-reactions-details-item:last-child {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  border: none;
+}
+
+.ps-reactions-details-item span,
+.ps-reactions-details-item a {
+  vertical-align: middle;
+}
+
+.ps-reaction-details-close {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.ps-reaction-details-close > i {
+  font-size: 14px;
+  line-height: 1;
+}

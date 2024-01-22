@@ -1,0 +1,365 @@
+.wrap h2 {
+	margin-bottom: 30px;
+}
+.detail .click-to-edit {
+	margin: 0;
+	display: inline-block;
+	min-width: 150px;
+}
+.detail.active .click-to-edit {
+	min-width: 350px;
+}
+.user-info .detail code {
+	visibility: hidden;
+	font-size: 12px;
+}
+.user-info .detail:hover code {
+	visibility: visible;
+}
+.user-info .detail {
+	cursor: pointer;
+	box-sizing: border-box;
+}
+.user-info .detail.active {
+	cursor: default;
+}
+.new .user-info .detail.active {
+	background-color: inherit;
+}
+.user-info .detail.active code {
+	display: none;
+}
+.user-info .detail.v-top label {
+	vertical-align: top;
+	padding-right: 5px;
+}
+.user-info .detail:hover,
+.user-info .detail.active {
+	background-color: #f9f9f9;
+}
+.dark-mode .user-info .detail:hover,
+.dark-mode .user-info .detail.active {
+	background-color: #32373c;
+}
+.new .user-info .detail:hover {
+	background-color: inherit;
+}
+.user-info label.label-type-textarea {
+	vertical-align: top;
+}
+.user-info textarea {
+	width: 100%;
+	height: 100px;
+	min-height: 50px;
+	max-height: 500px;
+	resize: vertical;
+}
+.user-info ul.type-textarea {
+	width: 100%;
+}
+.user-info .click-to-edit.type-textarea li:first-child {
+	max-height: 286px;
+	overflow: auto;
+}
+h3.detail .click-to-edit {
+	width: 70%;
+}
+.new .click-to-edit,
+.new h3.detail .click-to-edit,
+h3.detail.active .click-to-edit {
+	width: 100%;
+}
+.click-to-edit li {
+	display: none;
+}
+.click-to-edit > li:first-child {
+	display: block;
+	min-width: 102%;
+}
+.new .click-to-edit li {
+	display: block;
+}
+.new .click-to-edit li:first-child {
+	display: none;
+}
+.new .click-to-edit li li:first-child {
+	display: inherit;
+	margin-top: 4px;
+}
+.click-to-edit li li {
+	display: inherit;
+}
+label {
+	font-weight: 700;
+}
+.click-to-edit label {
+	font-weight: normal;
+}
+.form-table td.avatar-wrap {
+	width: 230px;
+	vertical-align: top;
+}
+.form-table td.avatar-wrap .mailster-icon:before {
+	margin: 0;
+	color: #e6b800;
+	font-size: 20px;
+}
+#subscriber_form .info {
+	margin: 5px 8px;
+	font-size: 12px;
+}
+#subscriber_form .avatar-wrap .info {
+	margin: 2px 8px;
+	font-size: 12px;
+}
+#subscriber_form .info .more-info {
+	margin: 5px 0px;
+	display: none;
+}
+#subscriber_form .info .show-more-info {
+	cursor: pointer;
+	margin-right: 20px;
+}
+.custom-field-wrap {
+	margin-top: 36px;
+}
+.wp-admin .form-table td {
+	vertical-align: top;
+	padding: 0;
+}
+.avatar {
+	display: block;
+	width: 200px;
+	height: 200px;
+	padding: 4px;
+	_border: 1px solid #d3d6db;
+	_background-color: #fff;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 200px 200px;
+	-moz-user-select: -moz-none;
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+.avatar.wp-user:before {
+	font-family: 'dashicons';
+	content: '\f120';
+	margin-left: 156px;
+	line-height: 357px;
+	font-size: 300%;
+	background-color: rgba(255, 255, 255, 0.8);
+	border-radius: 50%;
+}
+.user-info {
+}
+.avatar-wrap .mailster-icon.mailster-icon-star:before {
+	background-image: url('data:image/svg+xml;utf8,<svg version="1.1" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g fill="none"><path stroke="%23ffb900" fill="%23ffb900" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M7.458 20.86l2.81526e-08-1.51005e-08c-.584032.313263-1.31143.093761-1.6247-.490271 -.126301-.23547-.170399-.506358-.125305-.769729l.868-5.023 -3.676-3.559 4.32484e-08 4.2531e-08c-.472532-.464694-.478886-1.22447-.0141923-1.697 .183566-.186662.42314-.308172.682192-.346003l5.082-.733 2.27-4.574 3.97642e-08-7.94342e-08c.299141-.597572 1.02607-.839499 1.62364-.540358 .233761.117019.423339.306597.540358.540358l2.27 4.574 5.082.733 1.00541e-07 1.46825e-08c.655786.0957675 1.10977.705022 1.014 1.36081 -.0378307.259052-.159341.498626-.346003.682192l-3.678 3.557 .868 5.023 2.1535e-08 1.2438e-07c.113064.653026-.324662 1.27406-.977688 1.38713 -.264187.045741-.536083.00168883-.772312-.125129l-4.544-2.369Z"></path></g></svg>');
+}
+.avatar-wrap .mailster-icon.mailster-icon-star-half:before {
+	background-image: url('data:image/svg+xml;utf8,<svg version="1.1" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g fill="none"><path stroke="%23ffb900" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M7.458 20.86l2.81526e-08-1.51005e-08c-.584032.313263-1.31143.093761-1.6247-.490271 -.126301-.23547-.170399-.506358-.125305-.769729l.868-5.023 -3.676-3.559 4.32484e-08 4.2531e-08c-.472532-.464694-.478886-1.22447-.0141923-1.697 .183566-.186662.42314-.308172.682192-.346003l5.082-.733 2.27-4.574 3.97642e-08-7.94342e-08c.299141-.597572 1.02607-.839499 1.62364-.540358 .233761.117019.423339.306597.540358.540358l2.27 4.574 5.082.733 1.00541e-07 1.46825e-08c.655786.0957675 1.10977.705022 1.014 1.36081 -.0378307.259052-.159341.498626-.346003.682192l-3.678 3.557 .868 5.023 2.1535e-08 1.2438e-07c.113064.653026-.324662 1.27406-.977688 1.38713 -.264187.045741-.536083.00168883-.772312-.125129l-4.544-2.369Z"></path></g></svg>');
+}
+.avatar-wrap .mailster-icon.mailster-icon-star-empty:before {
+	background-image: url('data:image/svg+xml;utf8,<svg version="1.1" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g fill="none"><path stroke="%23cfcfcf" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M7.458 20.86l2.81526e-08-1.51005e-08c-.584032.313263-1.31143.093761-1.6247-.490271 -.126301-.23547-.170399-.506358-.125305-.769729l.868-5.023 -3.676-3.559 4.32484e-08 4.2531e-08c-.472532-.464694-.478886-1.22447-.0141923-1.697 .183566-.186662.42314-.308172.682192-.346003l5.082-.733 2.27-4.574 3.97642e-08-7.94342e-08c.299141-.597572 1.02607-.839499 1.62364-.540358 .233761.117019.423339.306597.540358.540358l2.27 4.574 5.082.733 1.00541e-07 1.46825e-08c.655786.0957675 1.10977.705022 1.014 1.36081 -.0378307.259052-.159341.498626-.346003.682192l-3.678 3.557 .868 5.023 2.1535e-08 1.2438e-07c.113064.653026-.324662 1.27406-.977688 1.38713 -.264187.045741-.536083.00168883-.772312-.125129l-4.544-2.369Z"></path></g></svg>');
+}
+
+.user-info h3,
+.user-info ul {
+	margin: 0;
+}
+.user-info .detail {
+	padding: 11px 8px 2px;
+	margin-right: 20px;
+	border-bottom: 1px solid #ccc;
+}
+.dark-mode .user-info .detail {
+	border-bottom: 1px solid #32373c;
+}
+.user-info .detail code {
+	float: right;
+	padding: 2px;
+	font-weight: normal;
+}
+.new .user-info .detail code {
+	display: none;
+}
+.user-info ul.type-list span:after {
+	content: ', ';
+}
+.user-info ul.type-list span:last-child:after {
+	content: '';
+}
+.not-confirmed {
+	font-style: italic;
+	color: #999;
+}
+.confirmation-status {
+	font-style: italic;
+	color: #999;
+	font-size: 12px;
+}
+.pending-info {
+	display: none;
+}
+.user-meta {
+	min-height: 200px;
+	width: 300px;
+}
+.map {
+	border: 1px solid #d3d6db;
+	position: relative;
+}
+.map.map-google:before {
+	content: attr(data-missingkey);
+	display: block;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	color: #999;
+	z-index: -1;
+}
+.map img {
+	display: block;
+	box-shadow: inset 0px 1px 3px rgba(0, 0, 0, 0.1);
+	-moz-user-select: -moz-none;
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	height: 250px;
+	width: 300px;
+}
+.map.zoomable img {
+	cursor: -webkit-zoom-in;
+	cursor: -moz-zoom-in;
+	cursor: zoom-in;
+}
+.map.zoomable img.zoomed {
+	cursor: -webkit-zoom-out;
+	cursor: -moz-zoom-out;
+	cursor: zoom-out;
+}
+h3 input {
+	font-size: 20px;
+	line-height: 1.4em;
+	width: 100%;
+}
+.stats-wrap #stats {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border: 0;
+	width: 80%;
+	border-collapse: collapse;
+}
+.stats-wrap #stats td {
+	vertical-align: middle;
+	border: 0;
+}
+.stats-wrap .big {
+	font-size: 18px;
+	font-weight: 100;
+	display: inline-block;
+	width: 90px;
+	margin-right: 5px;
+}
+.stats-wrap .verybold {
+	line-height: 2.5em;
+	font-size: 22px;
+	font-weight: 700;
+}
+.newsletter_page_mailster_subscribers .mailster-icon:before {
+	width: 24px;
+	height: 24px;
+	background-size: 24px 24px;
+	vertical-align: bottom;
+}
+.mailster-icon.client-desktop:before {
+	background-image: url('data:image/svg+xml;utf8,<svg version="1.1" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g fill="none"><path d="M0,0h24v24h-24Z"></path><path stroke="%23545454" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19,17h-14c-1.105,0 -2,-0.895 -2,-2v-10c0,-1.105 0.895,-2 2,-2h14c1.105,0 2,0.895 2,2v10c0,1.105 -0.895,2 -2,2Z"></path><path stroke="%23545454" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M14,17l0.5,4"></path><path stroke="%23545454" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M10,17l-0.5,4"></path><path stroke="%23545454" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M7.2,21h9.6"></path><path stroke="%23545454" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M21,13.5h-18"></path></g></svg>');
+}
+.mailster-icon.client-mobile:before {
+	background-image: url('data:image/svg+xml;utf8,<svg version="1.1" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g fill="none"><path d="M0 0h24v24h-24Z"></path><path stroke="%23545454" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9.5 3v1.8l-3.03311e-08 3.6816e-07c-.0249563.302922.197544.569922.5.6h4l-3.08771e-09 3.07058e-10c.302457-.030078.524956-.297078.5-.6v-1.8"></path><path stroke="%23545454" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M10 18h4"></path><path stroke="%23545454" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M16 21h-8l-8.74228e-08-3.55271e-15c-1.10457-4.82823e-08-2-.895431-2-2 0 0 0 0 0 0v-14l2.30926e-14 3.01992e-07c-1.66785e-07-1.10457.89543-2 2-2h8l-8.74228e-08 1.77636e-15c1.10457-4.82823e-08 2 .89543 2 2v14l-3.55271e-15 2.13163e-14c0 1.10457-.89543 2-2 2Z"></path></g></svg>');
+}
+.mailster-icon.client-webmail:before {
+	background-image: url('data:image/svg+xml;utf8,<svg version="1.1" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g stroke-linecap="round" stroke-width="1.5" stroke="%23545454" fill="none" stroke-linejoin="round"><path d="M19.5 21h-15c-1.105 0-2-.895-2-2v-14c0-1.105.895-2 2-2h15c1.105 0 2 .895 2 2v14c0 1.105-.895 2-2 2Z"></path><path d="M2.5 8h19"></path><path d="M5.505 5.49c-.003 0-.005.002-.005.005 0 .003.002.005.005.005 .003 0 .005-.002.005-.005 0-.003-.002-.005-.005-.005"></path><path d="M8.048 5.49c-.003 0-.005.002-.005.005 0 .003.002.005.005.005 .003 0 .005-.002.005-.005 0-.003-.002-.005-.005-.005"></path><path d="M10.588 5.49c-.003 0-.005.002-.005.005 0 .003.002.005.005.005 .003 0 .005-.002.005-.005 0-.003-.003-.005-.005-.005"></path></g><path fill="none" d="M0 0h24v24h-24Z"></path></svg>');
+}
+.mailster-icon.mailster-icon-sent:before {
+	background-image: url('data:image/svg+xml;utf8,<svg version="1.1" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g stroke-linecap="round" stroke-width="1.5" stroke="%23545454" fill="none" stroke-linejoin="round"><path d="M20,6.039v6.989"></path><path d="M21,19.028h-6"></path><path d="M19,17.028l2,2l-2,2"></path><path d="M11,17.028h-6c-1.105,0 -2,-0.895 -2,-2v-8.989"></path><path d="M5.011,4.028h12.979c1.11,0 2.011,0.9 2.011,2.011v0c0,0.667 -0.331,1.29 -0.883,1.664l-5.357,3.631c-1.365,0.925 -3.157,0.925 -4.522,0l-5.356,-3.63c-0.552,-0.374 -0.883,-0.998 -0.883,-1.664v-0.001c0,-1.111 0.9,-2.011 2.011,-2.011Z"></path></g><path fill="none" d="M24,0.028h-24v24h24v-24Z"></path></svg>');
+}
+.mailster-icon.mailster-icon-open:before {
+	background-image: url('data:image/svg+xml;utf8,<svg version="1.1" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g fill="none"><path d="M0,0.028h24v24h-24v-24Z"></path><path stroke="%23545454" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M3,9.703v9.297c0,1.105 0.895,2 2,2h13.999c1.105,0 2,-0.895 2,-2v-9.297"></path><path stroke="%23545454" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9.12,14.88l-5.53,5.53"></path><path stroke="%23545454" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M20.41,20.41l-5.53,-5.53"></path><path stroke="%23545454" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M6,6.622l-2.114,1.422c-1.178,0.792 -1.178,2.526 0,3.319l5.874,3.952c1.354,0.911 3.124,0.911 4.478,0l5.874,-3.952c1.178,-0.793 1.178,-2.526 0,-3.319l-2.112,-1.422"></path><path stroke="%23545454" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M18,12.785v-8.883c0,-0.552 -0.448,-1 -1,-1h-10c-0.552,0 -1,0.448 -1,1v8.883"></path><path stroke="%23545454" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9,6.5h6"></path><path stroke="%23545454" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9,10h6"></path></g></svg>');
+}
+.mailster-icon.mailster-icon-click:before {
+	background-image: url('data:image/svg+xml;utf8,<svg version="1.1" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g fill="none"><path d="M0,0h24v24h-24Z"></path><path stroke="%23545454" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M18.197,15.932v0l1.976,1.976c0.436,0.436 0.436,1.144 0,1.58l-1.186,1.186c-0.436,0.436 -1.144,0.436 -1.58,0l-1.976,-1.976l-1.489,1.489c-0.294,0.294 -0.794,0.176 -0.925,-0.218l-2.872,-8.617c-0.146,-0.437 0.27,-0.852 0.707,-0.707l8.617,2.872c0.394,0.131 0.512,0.631 0.218,0.925l-1.49,1.49"></path><path stroke="%23545454" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4.78,10.93h-2.28"></path><path stroke="%23545454" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M6.44,6.94l-1.62,-1.62"></path><path stroke="%23545454" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M6.4,14.96l-1.62,1.62"></path><path stroke="%23545454" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M10.43,5.28v-2.28"></path><path stroke="%23545454" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M14.46,6.9l1.62,-1.62"></path></g></svg>');
+}
+.mailster-icon.mailster-icon-unsubscribe:before {
+	background-image: url('data:image/svg+xml;utf8,<svg version="1.1" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g fill="none"><path d="M0 0h24v24h-24Z"></path><path stroke="%23545454" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M14.163 21l4.444-.988c.814-.18 1.393-.902 1.393-1.735v-12.511c0-.833-.579-1.555-1.392-1.735l-4.444-.988c-1.111-.247-2.164.598-2.164 1.736v14.486c0 1.137 1.053 1.982 2.163 1.735Z"></path><path stroke="%23545454" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M15 10.98v2"></path><path stroke="%23545454" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4 16v2.042c0 1.105.895 2 2 2h3"></path><path stroke="%23545454" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4 8v-2c0-1.105.895-2 2-2h3"></path><path stroke="%23545454" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4 12h5"></path><path stroke="%23545454" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M7 14l2-2 -2-2"></path></g></svg>');
+}
+.mailster-icon.mailster-icon-bounce:before {
+	background-image: url('data:image/svg+xml;utf8,<svg version="1.1" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g fill="none"><path d="M-0.01,0h24v24h-24v-24Z"></path><path stroke="%23545454" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19.99,11.028v-4.989"></path><path stroke="%23545454" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M15.99,17l-2,2l2,2"></path><path stroke="%23545454" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M17.989,4.028h-12.978c-1.111,0 -2.011,0.9 -2.011,2.011v0c0,0.667 0.331,1.29 0.883,1.664l5.357,3.631c1.365,0.925 3.157,0.925 4.522,0l5.356,-3.63c0.551,-0.374 0.882,-0.998 0.882,-1.664v-0.001c0,-1.111 -0.9,-2.011 -2.011,-2.011Z"></path><path stroke="%23545454" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M11,17.028h-6c-1.105,0 -2,-0.895 -2,-2v-8.989"></path><path stroke="%23545454" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M18,15.028h1c1.105,0 2,0.895 2,2v0c0,1.105 -0.895,2 -2,2h-0.49h0.49h-5.01"></path></g></svg>');
+}
+.mailster-icon.mailster-icon-bounce.hard:before {
+	background-image: url('data:image/svg+xml;utf8,<svg version="1.1" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g fill="none"><path d="M-0.01,0h24v24h-24v-24Z"></path><path stroke="%23D8605F" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19.99,11.028v-4.989"></path><path stroke="%23D8605F" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M15.99,17l-2,2l2,2"></path><path stroke="%23D8605F" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M17.989,4.028h-12.978c-1.111,0 -2.011,0.9 -2.011,2.011v0c0,0.667 0.331,1.29 0.883,1.664l5.357,3.631c1.365,0.925 3.157,0.925 4.522,0l5.356,-3.63c0.551,-0.374 0.882,-0.998 0.882,-1.664v-0.001c0,-1.111 -0.9,-2.011 -2.011,-2.011Z"></path><path stroke="%23D8605F" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M11,17.028h-6c-1.105,0 -2,-0.895 -2,-2v-8.989"></path><path stroke="%23D8605F" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M18,15.028h1c1.105,0 2,0.895 2,2v0c0,1.105 -0.895,2 -2,2h-0.49h0.49h-5.01"></path></g></svg>');
+}
+.mailster-icon.mailster-icon-error:before {
+	background-image: url('data:image/svg+xml;utf8,<svg version="1.1" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g fill="none"><path d="M0 0h24v24h-24Z"></path><path stroke="%23D8605F" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 13.12v-3.74"></path><path stroke="%23D8605F" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M11.999 16.125c-.138 0-.25.112-.249.25 0 .138.112.25.25.25 .138 0 .25-.112.25-.25 0-.138-.112-.25-.251-.25"></path><path stroke="%23D8605F" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M14.029 4.139l7.659 13.404c.89 1.558-.235 3.497-2.029 3.497h-15.318c-1.795 0-2.92-1.939-2.029-3.497l7.659-13.404c.897-1.571 3.161-1.571 4.058 8.88178e-16Z"></path></g></svg>');
+}
+.activity-wrap {
+	float: none;
+	clear: both;
+}
+.activity-wrap .wp-list-table.activities tr td {
+	display: table-cell !important;
+}
+.activity-wrap .red {
+	color: #d8605f;
+}
+.activity-wrap .mailster-icon-error {
+	color: #d8605f;
+}
+.activity-wrap .unsubscribe-message,
+.activity-wrap .bounce-message,
+.activity-wrap .error-message {
+	white-space: pre-line;
+}
+
+.mailster-tags {
+	padding: 11px 8px 2px;
+	margin-right: 20px;
+	box-sizing: border-box;
+}
+.mailster-tags label {
+	display: block;
+	padding-bottom: 8px;
+}
+.mailster-tags
+	.select2-container.select2-container--mailster
+	.select2-search--inline {
+	opacity: 0.3;
+}
+.mailster-tags:hover
+	.select2-container.select2-container--mailster
+	.select2-search--inline {
+	opacity: 1;
+}
+
+@media screen and (max-width: 782px) {
+	.wrap h2 {
+		overflow: hidden;
+		margin-bottom: 0;
+	}
+	.wrap span.alignright {
+		display: block;
+		margin: 10px 0;
+	}
+	#mailster_firstname,
+	#mailster_lastname {
+		width: 49%;
+		display: inline-block;
+	}
+	.user-meta {
+		min-height: auto;
+	}
+}

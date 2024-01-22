@@ -1,0 +1,76 @@
+#peepso {
+  &.ps-page--post-backgrounds {
+    .ps-postbox--settings {
+      .ps-postbox__title {
+        background: #66bb6a42;
+        font-weight: 600;
+        transition: background .3s;
+      }
+
+      .ps-settings {
+        background: #d0f6d242;
+        transition: background .3s;
+      }
+
+      &.postbox-muted {
+        opacity: 1;
+
+        .ps-postbox__title {
+          background: #e4e4e4;
+          color: #4d4d4d82;
+        }
+
+        .ps-settings {
+          background: #f9f9f9;
+        }
+
+        .postbox-sorting {
+          color: #4d4d4d;
+        }
+      }
+    }
+  }
+
+  /* temporary CSS tweak for colorpicker input */
+  .wp-picker-container input[type="text"].wp-color-picker,
+  .wp-picker-input-wrap .button.wp-picker-default {
+    line-height: 2;
+  }
+}
+
+.psa-post__backgrounds-preview {
+  position: relative;
+  display: block;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  max-height: 400px;
+  max-width: 600px;
+  height: 100%;
+  width: 100%;
+
+  &:before {
+    content: " ";
+    display: block;
+    padding-top: 62.5%;
+  }
+}
+
+.psa-post__backgrounds-preview-text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 150%;
+  color: #fff;
+}
+
+.psa-post__backgrounds-preview-image {
+  width: 600px;
+}

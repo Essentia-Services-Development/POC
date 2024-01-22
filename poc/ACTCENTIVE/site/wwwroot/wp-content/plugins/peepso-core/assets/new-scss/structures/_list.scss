@@ -1,0 +1,17 @@
+%ps-list {
+  list-style-type: none;
+  margin:0 !important;
+  padding:0 !important;
+}
+
+.ps-list--dots {
+  line-height: 1.4;
+
+  > * {
+    display: block;
+
+    &:before {
+      content:"• ";
+    }
+  }
+}

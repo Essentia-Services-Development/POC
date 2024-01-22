@@ -1,0 +1,251 @@
+@mixin ps-dropdown__menu($align: left) {
+  --bg: var(--PS-COLOR--APP);
+  --radius: var(--BORDER-RADIUS--MD);
+  --font-size: var(--PS-DROPDOWN-FONT-SIZE);
+
+  position: absolute;
+  z-index: 50;
+
+  @if $align == right {
+    @if $rtl {
+      left: 0;
+      right: auto;
+    } @else {
+      left: auto;
+      right: 0;
+    }
+  } @else {
+    @if $rtl {
+      left: auto;
+      right: 0;
+    } @else {
+      left: 0;
+      right: auto;
+    }
+  }
+
+  @if $rtl {
+    text-align: right;
+  } @else {
+    text-align: left;
+  }
+
+  display: none;
+  width: var(--width);
+  margin: 0;
+  padding-left: 0;
+  padding-right: 0;
+  font-size: var(--font-size);
+  line-height: 1.15;
+  background-color: var(--bg);
+  border-radius: var(--radius);
+  box-shadow: var(--BOX-SHADOW--MD);
+}
+
+@mixin ps-dropdown-style-menu {
+  --bg--hover: var(--PS-COLOR--APP--GRAY);
+
+  .ps-dropdown__menu {
+    padding-top: var(--PADD);
+    padding-bottom: var(--PADD);
+
+    > a,
+    > button {
+      display: block;
+      padding: var(--PADD) var(--PADD--MD);
+      color: var(--PS-COLOR--TEXT);
+      border-top: 1px solid var(--DIVIDER--LIGHT);
+
+      @if $comp_mode {
+        color: var(--PS-COLOR--TEXT) !important;
+      }
+
+      @if $rtl {
+        text-align: right;
+      } @else {
+        text-align: left;
+      }
+
+      &:first-child {
+        border-top: none;
+      }
+
+      @include mq($from: tablet) {
+        &:hover,
+        &:focus,
+        &.active {
+          color: var(--PS-COLOR--TEXT);
+          background-color: var(--bg--hover);
+
+          @if $comp_mode {
+            color: var(--PS-COLOR--TEXT) !important;
+          }
+        }
+      }
+    }
+
+    > button {
+      width: 100%;
+      border: none;
+      outline: none;
+      background-color: transparent;
+      border-top: 1px solid var(--DIVIDER--LIGHT);
+    }
+
+    i {
+      min-width: 24px;
+      color: var(--PS-COLOR--TEXT--LIGHT);
+    }
+  }
+}
+
+.ps-dropdown {
+  position: relative;
+}
+
+.ps-dropdown__menu {
+  --width: 200px;
+
+  @include ps-dropdown__menu;
+
+  @include mq($from: desktop) {
+    .ps-focus__cover-action & {
+      --width: auto;
+      min-width: 200px;
+      white-space: nowrap;
+    }
+  }
+}
+
+.ps-dropdown--arrow {
+  .ps-dropdown__menu {
+    &:before {
+      content: " ";
+      position: absolute;
+
+      @if $rtl {
+        right: var(--PADD--MD);
+      } @else {
+        left: var(--PADD--MD);
+      }
+
+      bottom: 100%;
+      width: 0;
+      height: 0;
+      border-left: 8px solid transparent;
+      border-right: 8px solid transparent;
+      border-bottom: 8px solid var(--bg);
+    }
+  }
+}
+
+.ps-dropdown--menu {
+  @include ps-dropdown-style-menu;
+}
+
+.ps-dropdown--left {
+  .ps-dropdown__menu {
+    @if $rtl {
+      left: 0;
+      right: auto;
+      transform: translateX(var(--PADD--MD));
+    } @else {
+      left: auto;
+      right: 0;
+      transform: translateX(var(--PADD--MD));
+    }
+
+    &:before {
+      @if $rtl {
+        right: auto;
+        left: var(--PADD--MD);
+      } @else {
+        left: auto;
+        right: var(--PADD--MD);
+      }
+    }
+  }
+  &.ps-comment__actions-dropdown {
+    .ps-dropdown__menu{
+      transform: none;
+    }
+  }
+}
+
+.ps-dropdown--menu-header {
+  top: 90%;
+  font-size: 80%;
+}
+
+.ps-dropdown--privacy,
+.ps-dropdown--follow {
+  @include ps-dropdown-style-menu;
+
+  .ps-dropdown__menu {
+    --width: 300px;
+
+    // i {
+    //   min-width: 0;
+    //   margin-left: 0;
+    //   margin-right: 0;
+    // }
+  }
+}
+
+.ps-dropdown--follow {
+  .ps-group & {
+    .ps-dropdown__menu {
+      --width: 100%;
+    }
+  }
+}
+
+.ps-dropdown__group {}
+
+.ps-dropdown__group-title {
+  position: relative;
+
+  @if $rtl {
+    padding-left: var(--PADD--MD);
+  } @else {
+    padding-right: var(--PADD--MD);
+  }
+
+  font-weight: bold;
+
+  i {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+
+    @if $rtl {
+      left: 0;
+    } @else {
+      right: 0;
+    }
+  }
+}
+
+.ps-dropdown__group-desc {
+  margin-top: var(--PADD);
+  font-size: 90%;
+  line-height: var(--PS-LINE-HEIGHT);
+  color: var(--PS-COLOR--TEXT--LIGHT);
+
+  br {
+    margin-bottom: var(--PADD--SM);
+  }
+
+  &:empty {
+    display: none;
+  }
+}
+
+.ps-dropdown--full {
+  .ps-dropdown__menu {
+    --width: 100%;
+
+    left: 0;
+    right: 0;
+  }
+}

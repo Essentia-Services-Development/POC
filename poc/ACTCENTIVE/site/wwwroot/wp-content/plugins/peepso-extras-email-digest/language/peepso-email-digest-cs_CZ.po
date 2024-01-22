@@ -1,0 +1,332 @@
+# Translation of PeepSo - Email Digest in Czech
+# This file is distributed under the same license as the PeepSo - Email Digest package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-02-02 12:10:17+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n >= 2 && n <= 4) ? 1 : 2);\n"
+"X-Generator: GlotPress/3.0.0\n"
+"Language: cs_CZ\n"
+"Project-Id-Version: PeepSo - Email Digest\n"
+
+#: peepsoemaildigest.php:822
+msgid "A summary of community activity is sent if you are inactive for more than %d days."
+msgstr ""
+
+#: peepsoemaildigest.php:821
+msgid "%s email digest"
+msgstr ""
+
+#: peepsoemaildigest.php:315
+msgid "Monthly"
+msgstr ""
+
+#: peepsoemaildigest.php:314
+msgid "Biweekly"
+msgstr ""
+
+#: peepsoemaildigest.php:313
+msgid "Weekly"
+msgstr ""
+
+#: peepsoemaildigest.php:312
+msgid "Daily"
+msgstr ""
+
+#: classes/configsectionemaildigest.php:37
+msgid "Use files"
+msgstr ""
+
+#: peepsoemaildigest.php:150
+msgid "Every 2 weeks"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "PeepSo"
+msgstr "PeepSo"
+
+#. Description of the plugin/theme
+msgid "Bring users back with automated newsletter"
+msgstr "Přiveďte uživatele zpět za pomoci automatických newsletterů"
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://peepso.com"
+msgstr "https://peepso.com"
+
+#. Plugin Name of the plugin/theme
+msgid "PeepSo Core: Email Digest"
+msgstr ""
+
+#: templates/general/email-digest.php:41
+msgid "Comment"
+msgstr "Komentář"
+
+#: templates/general/email-digest.php:41
+msgid "Like"
+msgstr "To se mi líbí"
+
+#: templates/general/email-digest.php:39
+msgid "Read more"
+msgstr "Přečtěte si více"
+
+#: templates/general/email-digest.php:25
+msgid "shared a post"
+msgstr "sdílel příspěvek"
+
+#: templates/general/email-digest-recipient.php:16
+msgid "Last email sent: "
+msgstr "Poslední email odeslán:"
+
+#: templates/general/email-digest-recipient.php:13
+msgid "User last login: "
+msgstr "Poslední přihlášení uživatele:"
+
+#: peepsoemaildigest.php:935
+msgid "Preview email was sent"
+msgstr "Náhled emailu byl odeslán"
+
+#: peepsoemaildigest.php:724
+msgid "Most commented post"
+msgstr "Nejvíce komentované příspěvky"
+
+#: peepsoemaildigest.php:686
+msgid "Most liked post"
+msgstr "Nejoblíbenější příspěvky"
+
+#: peepsoemaildigest.php:624
+msgid "Email digest is not activated"
+msgstr ""
+
+#: peepsoemaildigest.php:619
+msgid "Email digest sent to %d users"
+msgstr ""
+
+#: peepsoemaildigest.php:479
+msgid "Other popular posts"
+msgstr "Další populární příspěvky"
+
+#: peepsoemaildigest.php:472
+msgid "There are only %d posts, required at least %d"
+msgstr ""
+
+#: peepsoemaildigest.php:400
+msgid "Current time is %s, cron scheduled at %s"
+msgstr ""
+
+#: peepsoemaildigest.php:364
+msgid "There are %d logs in your database. You can clear the logs by clicking the button below."
+msgstr "V databázi máte %d protokolů. Protokoly můžete vymazat klepnutím na tlačítko níže."
+
+#: peepsoemaildigest.php:363
+msgid "Clear Logs"
+msgstr "Vyčistit logy"
+
+#: peepsoemaildigest.php:362
+msgid "Preview email failed"
+msgstr ""
+
+#: peepsoemaildigest.php:361
+msgid "Preview email sent"
+msgstr ""
+
+#: peepsoemaildigest.php:343
+msgid "PeepSo Email Digest"
+msgstr "PeepSo Automaticky Generované Emaily"
+
+#: peepsoemaildigest.php:292
+msgid "Get it now!"
+msgstr "Získejte to nyní!"
+
+#: peepsoemaildigest.php:290
+msgid "The %s plugin requires the PeepSo plugin to be installed and activated."
+msgstr "%s rozšíření  vyžaduje instalaci a aktivaci PeepSo pluginu."
+
+#: classes/emaildigestadminajax.php:46
+msgid "No Log Found."
+msgstr "Nebyl nalezen žádný záznam."
+
+#: classes/emaildigestadmin.php:42
+msgid "This will be sent to user based on schedule."
+msgstr "Toto bude odesláno uživateli podle plánu."
+
+#: classes/emaildigestadmin.php:41
+msgid "Digest Email"
+msgstr "Automatický Email"
+
+#: classes/configsectionemaildigest.php:356
+msgid "Sent Email Digest Logs"
+msgstr "Záznamy odeslaných Automaticky Vygenerovaných emailů"
+
+#: classes/configsectionemaildigest.php:349
+msgid "The logs keep latest 100 sent Email Digest emails. You can see which users got the emails and what was their last login when the email was generated and sent to them. You can also preview the email that was sent."
+msgstr "Protokol zaznamenává posledních 100  Email Digest odeslaných emailů. Vidíte, kteří uživatelé dostali e-maily a kdy se naposledy přihlásili, když byl vygenerován a odeslán email. Můžete také zobrazit náhled e-mailu, který byl odeslán."
+
+#: classes/configsectionemaildigest.php:341
+msgid "General"
+msgstr "Všeobecné"
+
+#: classes/configsectionemaildigest.php:315
+msgid "How many emails should be created in a batch"
+msgstr "Kolik emailů by mělo být vytvořeno v jedné dávce"
+
+#: classes/configsectionemaildigest.php:312
+msgid "Depending on the amount of inactive users in your community, not to overload the site there's a batch creation system. This setting controls how many emails will be generated in one batch. This setting does not send the emails. PeepSo mailqueue takes care of the delivery."
+msgstr "Kvůli počtu neaktivních uživatelů v komunitě je vytvořen systém dávek, aby nedošlo k přetížení webu. Toto nastavení určuje, kolik e-mailů bude vygenerován v jedné dávce. Toto nastavení neodesílá e-maily. PeepSo mailová fronta se stará o odeslání."
+
+#: classes/configsectionemaildigest.php:308
+msgid "Execute Email Digest email creation via cron job"
+msgstr "Spustit vytváření Automaticky Vygenerovaných emailů pomocí cron úlohy"
+
+#: classes/configsectionemaildigest.php:305
+msgid "It's advised to switch this setting on and setup a server-side cron job. You can use this command: wget %s It can easily run every hour."
+msgstr "Doporučuje se zapnout toto nastavení a na serveru nastavit cron úlohu. Můžete použít tento příkaz: wget %s lze snadno spustit každou hodinu."
+
+#: classes/configsectionemaildigest.php:236
+#: classes/configsectionemaildigest.php:243
+#: classes/configsectionemaildigest.php:260
+#: classes/configsectionemaildigest.php:283
+msgid "At"
+msgstr "V"
+
+#: classes/configsectionemaildigest.php:233
+#: classes/configsectionemaildigest.php:256
+#: classes/configsectionemaildigest.php:279
+msgid "The time when Email Digest emails will start to be sent. Emails are sent in batches by the mailqueue, they're not all sent at once, so your users might get them at different times."
+msgstr "Doba, kdy se odesálají automaticky generované emaily. Emaily jsou odesílány v dávkách, všechny nejsou odeslány najednou, takže Vaši uživatelé mohou zprávy obdržet v různých časech."
+
+#: classes/configsectionemaildigest.php:206
+msgid "Sat"
+msgstr "So"
+
+#: classes/configsectionemaildigest.php:205
+msgid "Fri"
+msgstr "Pá"
+
+#: classes/configsectionemaildigest.php:204
+msgid "Thu"
+msgstr "Čt"
+
+#: classes/configsectionemaildigest.php:203
+msgid "Wed"
+msgstr "St"
+
+#: classes/configsectionemaildigest.php:202
+msgid "Tue"
+msgstr "Út"
+
+#: classes/configsectionemaildigest.php:201
+msgid "Mon"
+msgstr "Po"
+
+#: classes/configsectionemaildigest.php:200
+msgid "Sun"
+msgstr "Ne"
+
+#: classes/configsectionemaildigest.php:195
+#: classes/configsectionemaildigest.php:212
+msgid "Every"
+msgstr "Každý"
+
+#: classes/configsectionemaildigest.php:191
+msgid "If selected date is bigger than the number of days in month, email digest will be sent at the end of the month."
+msgstr ""
+
+#: classes/configsectionemaildigest.php:181
+msgid "How often should the Email Digest emails be sent"
+msgstr "Jak často mají být Automaticky Vygenerované email odeslány?"
+
+#: classes/configsectionemaildigest.php:172
+msgid "Send Email Digest emails to users inactive for more than"
+msgstr "Poslat Automaticky Vygenerované emaily uživatelům, kteří jsou neaktivní déle než"
+
+#: classes/configsectionemaildigest.php:168
+msgid "Users who didn't visit the site in the number of days selected or more will receive the Email Digest emails."
+msgstr "Uživatelé, kteří nenavštívili webovou stránku během definovaného počtu dní nebo více obdrží Automaticky Vygenerované emaily"
+
+#: classes/configsectionemaildigest.php:158
+msgid "Send Email Digest emails"
+msgstr "Poslat Automaticky Vygenerované emaily"
+
+#: classes/configsectionemaildigest.php:155
+msgid "Email Digest emails contains only posts which have 'Public' or 'Site Members' privacy settings. All other posts, meaning with privacy settings of 'Only me' and 'Friends Only' will be ignored and not sent as part of the Email Digest."
+msgstr "Emaily Email Digest obsahují pouze příspěvky, které mají nastaven typ zobrazení 'veřejné' nebo 'členové webu'. Všechny ostatní příspěvky pro nastavení soukromí 'jen já' a 'pouze přátelé' budou ignorovány a nebudou odeslány jako součást Email Digest."
+
+#: classes/configsectionemaildigest.php:150
+msgid "These settings control the Email Digest plugin. The plugin has been designed to interest and bring inactive users back to your community by showing them most interesting and engaging posts from a given period."
+msgstr "Toto je nastavení pro rozšíření Email Digest. Zásuvný modul byl navržen tak, aby přivedl neaktivní uživatele zpět do komunity. Zobrazuje nejzajímavější a nejúspějšnější příspěvky z daného období."
+
+#: classes/configsectionemaildigest.php:136
+msgid "Users"
+msgstr ""
+
+#: classes/configsectionemaildigest.php:120
+msgid "Which User Roles should receive the emails"
+msgstr "Které uživatelské role by měly přijímat emaily"
+
+#: classes/configsectionemaildigest.php:106
+msgid "Subscribe new users by default"
+msgstr ""
+
+#: classes/configsectionemaildigest.php:99
+msgid "Content"
+msgstr ""
+
+#: classes/configsectionemaildigest.php:90
+msgid "Show 'read mode' if the posts can't be shown in full and they hit the limit of characters."
+msgstr "Zobrazit 'číst více' pokud příspěvky nemohou být zobrazeny celé a jsou delší než znakový limit."
+
+#: classes/configsectionemaildigest.php:86
+msgid "Limit the post length in Email Digest email to"
+msgstr "Omezit délku příspěvku v Automaticky Vygenerovaných emailech na"
+
+#: classes/configsectionemaildigest.php:79
+msgid "Allow duplicate posts"
+msgstr "Povolit duplicitní příspěvky"
+
+#: classes/configsectionemaildigest.php:76
+msgid "With this setting on, most commented on and most liked posts will be showcased as such. However, they might also, and most likely will be shown in the main content of the Email Digest email."
+msgstr "Pokud je toto nastavení zapnuto, nejoblíbenější a nejvíce komentované příspěvky budou rozeslány také."
+
+#: classes/configsectionemaildigest.php:72
+msgid "Include most commented post"
+msgstr "Zahrnout nejvíce komentované příspěvky"
+
+#: classes/configsectionemaildigest.php:69
+msgid "With this setting switched on, Email Digest email will also contain the most commented on post from a given period and showcase it as such."
+msgstr "Pokud je toto nastavení zapnuté, Automaticky Vygenerované emaily budou obsahovat nejvíce komentované příspěvky z daného období a budou tak také označeny."
+
+#: classes/configsectionemaildigest.php:65
+msgid "Include most liked post"
+msgstr "Zahrnout nejoblíbenější příspěvky"
+
+#: classes/configsectionemaildigest.php:62
+msgid "With this setting switched on, Email Digest email will also contain the most liked post from a given period and showcase it as such."
+msgstr "Pokud je toto nastavení zapnuté, Automaticky Vygenerované emaily budou obsahovat nejoblíbenější příspěvky z daného období a budou tak také označeny."
+
+#: classes/configsectionemaildigest.php:58
+msgid "Send Email Digest emails even if there are less posts"
+msgstr "Odeslat Automaticky Vygenerované emaily, i když je k dispozici méně příspěvků"
+
+#: classes/configsectionemaildigest.php:55
+msgid "An Email Digest email must have at least 1 new post to be sent out. If there are no new ones it won't be sent."
+msgstr "Automaticky Vygenerovaný email musí obsahovat alespoň 1 nový příspěvek, aby mohl být odeslán. Pokud nejsou žádné nové příspěvky, žádný email se neodešle."
+
+#: classes/configsectionemaildigest.php:51
+msgid "How many posts should be included per one email"
+msgstr "Kolik příspěvků by mělo být zahrnuto v jednom emailu"
+
+#: classes/configsectionemaildigest.php:29
+msgid "Use images"
+msgstr ""
+
+#: classes/configsectionemaildigest.php:21
+msgid "Email Digest Title"
+msgstr ""
+
+#: classes/configsectionemaildigest.php:18 peepsoemaildigest.php:340
+#: peepsoemaildigest.php:589 peepsoemaildigest.php:829
+msgid "Email Digest"
+msgstr "Automaticky Generované emaily"

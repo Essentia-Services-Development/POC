@@ -1,0 +1,5 @@
+<step title="Startup Request" date="2023-05-23T14:50:52.837" instance="359730" url="/webssh/socket.io/?EIO=4&amp;transport=polling&amp;t=OX95qpe&amp;sid=rz1EYIg88-AA-N5pAAAK" method="GET" type="request" pid="92,1,14" ScmType="None" >
+  <step title="Cleanup Xml Logs" date="2023-05-23T14:50:52.842" >
+    <step title="Cleanup Infos" date="2023-05-23T14:50:52.849" totalFiles="325" totalCleanup="165" /><!-- duration: 4ms -->
+  </step><!-- duration: 14ms -->
+</step><!-- duration: 20ms -->

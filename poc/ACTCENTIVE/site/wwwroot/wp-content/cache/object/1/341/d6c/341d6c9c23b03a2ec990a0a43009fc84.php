@@ -1,0 +1,1 @@
+ %†d<?php exit; ?>a:1:{s:7:"content";s:157:"a:2:{s:12:"voting_votes";a:2:{s:9:"component";s:6:"Voting";s:10:"labellable";b:1;}s:7:"account";a:2:{s:9:"component";s:9:"Dashboard";s:10:"labellable";b:1;}}";}

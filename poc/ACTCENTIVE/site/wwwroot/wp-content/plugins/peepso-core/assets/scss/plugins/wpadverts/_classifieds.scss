@@ -1,0 +1,287 @@
+.ps-classifieds {
+	@extend %clearfix;
+}
+
+.ps-classified__item {
+	position: relative;
+	height: 100%;
+	padding: 14px;
+	line-height: 1.4;
+	background-color: $scss-classifieds-item-bg;
+	border: 1px solid $scss-classifieds-item-border;
+
+	@include media('medium') {
+		padding-bottom: 40px;
+	}
+}
+
+.ps-classified__item-wrapper {
+	margin-bottom: 14px;
+
+	&:first-child {
+		margin-top: 0;
+	}
+}
+
+.ps-classified__item-body {
+	@extend %clearfix;
+}
+
+.ps-classified__item-image {
+	display: inline-block;
+	margin-bottom: 14px;
+
+	+ .ps-classified__item-title {
+		padding-top: 5px;
+	}
+
+	@include media('medium') {
+		float: left;
+		max-width: 160px;
+		margin-right: 14px;
+	}
+}
+
+.ps-classified__item-title {
+	margin-top: 0;
+	margin-bottom: 5px;
+	padding: 0;
+	font-size: 18px;
+	line-height: 1.2;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+.ps-classified__item-details {
+	margin-bottom: 5px;
+}
+
+.ps-classified__item-desc {
+	max-height: 2.8em;
+	margin-bottom: 14px;
+	overflow: hidden;
+}
+
+.ps-classified__item-price {
+	font-weight: bold;
+}
+
+.ps-classified__item-footer {
+	padding-top: 10px;
+	font-size: 90%;
+	border-top: 1px solid $scss-classifieds-item-border;
+
+	> span {
+		display: block;
+	}
+
+	@include media('medium') {
+		position: absolute;
+		left: 14px;
+		right: 14px;
+		bottom: 10px;
+
+		> span {
+			display: inline-block;
+			margin-right: 5px;
+		}
+	}
+}
+
+.ps-classified__item-actions {
+	margin-top: 14px;
+
+	@include media('medium') {
+		display: block;
+		float: right;
+		margin-top: 0;
+	}
+}
+
+.ps-classified__item--stream {
+	p {
+		margin-bottom: 0 !important;
+	}
+}
+
+.ps-classified__item--manage {
+	.ps-classified__item-image {
+		@include media('medium') {
+			max-width: 130px;
+		}
+	}
+}
+
+.ps-classified__item--featured {
+	background-color: $scss-classifieds-item-featured-bg;
+	border-color: $scss-classifieds-item-featured-border;
+
+	.ps-classified__item-footer {
+		border-color: $scss-classifieds-item-featured-border;
+	}
+}
+
+.ps-classifieds--manage {
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: -5px;
+	margin-left: -5px;
+	margin-right: -5px;
+
+	.ps-classified__item-wrapper {
+		flex: 1 0 50%;
+		margin-bottom: 0;
+		padding: 5px;
+	}
+
+	.advert-manage-deleted {
+		background-color: transparent !important;
+	}
+}
+
+.ps-form--classifieds {
+	.ps-form__field {
+		> input,
+		> select {
+			width: 100%;
+		}
+
+		> input,
+		.adverts-multiselect-input {
+			@extend %ps-input;
+		}
+
+		> select {
+			@extend %ps-input;
+			@extend %ps-select;
+		}
+	}
+
+	.wp-editor-wrap {
+		border: 1px solid $scss-classifieds-item-border;
+	}
+
+	.ps-form__row--error {
+		.wp-editor-wrap {
+			border-color: $color-danger;
+		}
+	}
+
+	.ps-radio,
+	.ps-checkbox {
+		padding-top: 5px;
+		padding-bottom: 5px;
+
+		input[type="radio"],
+		input[type="checkbox"] {
+			margin-top: 5px;
+			opacity: 1;
+			line-height: 1;
+		}
+	}
+
+	.adverts-multiselect-options {
+		input[type="radio"],
+		input[type="checkbox"] {
+			margin-top: 2px;
+			opacity: 1;
+			line-height: 1;
+		}
+	}
+}
+
+.ps-page-filters--classifieds {
+	.ps-input,
+	.ps-select {
+		width: 100%;
+	}
+
+	@include media('medium') {
+		.ps-filters__row {
+			width: 50%;
+
+			&:first-child {
+				padding-right: $padding-sm;
+			}
+
+			&:last-child {
+				padding-left: $padding-sm;
+			}
+		}
+	}
+}
+
+.ps-form__row--adverts-account {
+	display: none;
+}
+
+// TEMPORARY FIX - move above
+.ps-form--classifieds .adverts-multiselect-options input[type="radio"],
+.ps-form--classifieds .adverts-multiselect-options input[type="checkbox"] {
+	position: static;
+	width: auto;
+	height: auto;
+}
+
+// Grid
+.ps-classifieds__grid {
+	margin-top: 35px;
+
+	@include media('medium') {
+		position: relative;
+		display: flex;
+		flex-wrap: wrap;
+		margin-left: -($padd);
+		margin-right: -($padd);
+
+		.ps-classified__item-wrapper {
+			width: 50%;
+			padding-left: $padd;
+			padding-right: $padd;
+		}
+
+		.ps-classified__item {
+			display: flex;
+			flex-wrap: wrap;
+			padding-bottom: $padding-base;
+		}
+
+		.ps-classified__item-body {
+			width: 100%;
+		}
+
+		.ps-classified__item-image {
+			float: none;
+			display: block;
+			max-width: 100%;
+			margin-left: 0;
+			margin-right: 0;
+		}
+
+		.ps-classified__item-footer {
+			position: static;
+			align-self: flex-end;
+			width: 100%;
+		}
+
+		.ps-classified__item-actions {
+			position: relative;
+			float: none;
+			margin-top: $padd;
+			text-align: center;
+		}
+	}
+
+	&--3 {
+		.ps-classified__item-wrapper {
+			width: 33.33%;
+		}
+	}
+
+	&--4 {
+		.ps-classified__item-wrapper {
+			width: 25%;
+		}
+	}
+}

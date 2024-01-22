@@ -1,0 +1,53 @@
+%wp-comments-ul {
+  padding-left: 0;
+  list-style: none;
+  margin-bottom: 0;
+
+  li {
+    margin-bottom: var(--PADD);
+    padding-bottom: var(--PADD);
+    list-style-type: none;
+    font-size: 80%;
+    border-bottom: 1px solid var(--DIVIDER--LIGHT);
+
+    > a {
+      font-weight: bold;
+    }
+
+    &:last-child {
+      margin-bottom: 0;
+      padding-bottom: 0;
+      border-bottom: none;
+    }
+  }
+}
+
+.widget.widget_recent_comments,
+.gc-widget.widget_recent_comments {
+  ul,
+  ol {
+    @extend %wp-comments-ul;
+  }
+}
+
+.gc-widget {
+  ul,
+  ol {
+    &.wp-block-latest-comments {
+      @extend %wp-comments-ul;
+
+      .wp-block-latest-comments__comment-date {
+        font-size: 90%;
+        color: var(--GC-COLOR--TEXT--LIGHT);
+      }
+
+      .wp-block-latest-comments__comment-excerpt {
+        p {
+          &:last-child {
+            margin-bottom: 0;
+          }
+        }
+      }
+    }
+  }
+}

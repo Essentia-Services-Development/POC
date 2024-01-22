@@ -1,0 +1,56 @@
+.peepso {
+    #give_user_history {
+        @if $comp_mode {
+            .theme-twentytwentythree &,
+            .theme-twentytwentytwo & {
+                display: table;
+                border-collapse: separate;
+                -webkit-border-horizontal-spacing: 0px;
+                -webkit-border-vertical-spacing: 0px;
+                border-spacing: 0px;
+                width: 100%;
+                border: 1px solid var(--DIVIDER--LIGHT);
+                border-radius: var(--BORDER-RADIUS--XL);
+                background-color: var(--PS-COLOR--APP);
+
+                @media screen and (max-width:480px) {
+                    thead {
+                        display: block;
+                    }
+                }
+    
+                .give-donation-row {
+                    &:not(:last-child) {
+                        td {
+                            border-bottom: 1px solid var(--DIVIDER--LIGHT);
+                        }
+                    }
+
+                    @media screen and (min-width:480px) {
+                        &:first-child {
+                            td > .give-mobile-title {
+                                display: block;
+                                text-transform: uppercase;
+                                border-bottom: 1px solid var(--DIVIDER);
+                                margin-bottom: var(--PADD);
+                                padding-bottom: var(--PADD);
+                            }
+                        }
+                    }
+        
+                    > th {
+                        display: none;
+                    }
+    
+                    > td {
+                        padding: var(--PADD);
+
+                        @media screen and (max-width:480px) {
+                            border-bottom: 1px solid var(--DIVIDER--LIGHT);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

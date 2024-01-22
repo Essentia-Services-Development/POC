@@ -1,0 +1,46 @@
+.gc-scroll__to-top {
+  --size: 50px;
+  --size--mobile: 40px;
+  --gap: 50px;
+  --gap--mobile: 10px;
+
+  position: fixed;
+  z-index: 100;
+
+  @if $rtl {
+    left: var(--gap--mobile);
+  } @else {
+    right: var(--gap--mobile);
+  }
+
+  bottom: var(--gap--mobile);
+  display: none;
+  width: var(--size--mobile);
+  height: var(--size--mobile);
+  font-size: 24px;
+  line-height: var(--size--mobile);
+  text-align: center;
+  color: var(--c-ps-btn-action-color);
+  background-color: var(--c-ps-btn-action-bg);
+  box-shadow: var(--BOX-SHADOW--MD);
+  border-radius: var(--BORDER-RADIUS--MD);
+  transition: background-color .2s ease;
+
+  &:hover {
+    color: var(--c-ps-btn-action-color);
+    background-color: var(--c-ps-btn-action-bg-hover);
+  }
+
+  @include mq($from: desktop) {
+    @if $rtl {
+      left: var(--gap);
+    } @else {
+      right: var(--gap);
+    }
+
+    bottom: var(--gap);
+    width: var(--size);
+    height: var(--size);
+    line-height: var(--size);
+  }
+}

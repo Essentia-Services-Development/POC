@@ -1,0 +1,372 @@
+//
+//  REGISTER
+//
+
+
+
+.ps-form {
+  width: 100%;
+  margin-top: 0;
+  margin-bottom: ($padd * 2);
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+
+.ps-form__container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+
+.ps-form__row {
+  flex-grow: 1;
+  width: 100%;
+  margin-bottom: $padd--med;
+
+  &:last-of-type {
+    margin-bottom: 0;
+  }
+}
+
+
+.ps-form__label {
+  display: block;
+  margin-bottom: $padd;
+  font-size: 14px;
+}
+
+
+.ps-form__field {
+  position: relative;
+
+  .ps-input,
+  .ps-select {
+    width: 100%;
+  }
+}
+
+
+.ps-form__field-inner {
+  position: relative;
+}
+
+
+.ps-form__helper,
+.ps-form__field-desc {
+  margin-top: ($padd / 2);
+  line-height: 1.2;
+  color: $color-text-light;
+}
+
+
+.ps-form__error {
+  color: $color-danger;
+}
+
+
+.ps-form__limit {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -15px;
+  font-size: $font-size-xs;
+  line-height: 1.4;
+
+  @if $scss-direction == rtl {
+    text-align: left;
+  } @else {
+    text-align: right;
+  }
+}
+
+
+.ps-form__footer {
+  @extend %clearfix;
+}
+
+
+.ps-form__separator {
+  width: 100%;
+  margin-bottom: $padd--med;
+  padding-bottom: $padd;
+  font-size: 20px;
+  line-height: 1.4;
+  color: $color-text;
+  border-bottom: 2px solid $color-light;
+
+  .ps-form__row & {
+    margin-bottom: 0;
+  }
+
+  .ps-list--column & {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border-bottom: none;
+  }
+}
+
+
+.ps-form__row--half {
+  @include media('medium') {
+    width: 48%;
+    max-width: 48%;
+  }
+}
+
+.ps-form__row--clear {
+  @include media('medium') {
+    @if $scss-direction == rtl {
+      padding-left: 52%;
+    } @else {
+      padding-right: 52%;
+    }
+  }
+}
+
+
+.ps-form__row--user {
+  .ps-form__field {
+    padding: $padd;
+    background-color: $color-light;
+
+    // ROUNDED CORNERS
+    @if $scss-rounded == true {
+      border-radius: 4px;
+    }
+  }
+}
+
+
+.ps-form__row--group,
+.ps-form__row--inline {
+  .ps-form__field {
+    margin-bottom: $padd;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  @include media('medium') {
+    display: flex;
+    align-items: center;
+
+    .ps-form__field {
+      flex-grow: 1;
+      margin-bottom: 0;
+
+      @if $scss-direction == rtl {
+        padding-left: $padd--med;
+      } @else {
+        padding-right: $padd--med;
+      }
+
+      &:last-child {
+        padding-left: 0;
+        padding-right: 0;
+      }
+    }
+  }
+
+  .ps-btn {
+    width: 100%;
+  }
+}
+
+
+.ps-form__row--inline {
+  .ps-form__field {
+    flex-grow: 0;
+  }
+}
+
+
+.ps-form__row--checkbox {
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+
+  .ps-form__label {
+    margin-bottom: 0;
+  }
+}
+
+
+.ps-form__field--group {
+  display: flex;
+}
+
+
+//
+//  *
+//  FORM MODIFIERS
+//  Modify form and it's elements.
+//
+
+
+//  Form modifier for registration
+.ps-form--register {
+  .ps-form__row {
+    margin-bottom: ($padd * 2);
+
+    &:last-of-type {
+      margin-bottom: 0;
+    }
+
+    .ps-checkbox {
+      margin-bottom: $padd;
+    }
+  }
+
+  .ps-form__row--checkbox {
+    .ps-checkbox {
+      margin-bottom: 0;
+    }
+  }
+}
+
+
+//  Form modifier for a Ban dialog window
+.ps-form--ban {}
+
+
+//  Form modifier for a Create Album dialog window
+.ps-form--album {}
+
+
+//  Form modifier for Groups
+.ps-form--group {}
+
+
+//  Form login
+.ps-form--login {
+  margin-bottom: 0 !important;
+
+  .ps-input {
+    margin: 0 !important;
+  }
+
+  .ps-btn,
+  .ps-btn:hover,
+  .ps-btn:focus {
+    padding-top: 8.5px !important;
+    padding-bottom: 8.5px !important;
+  }
+
+  .ps-link {
+    @if $scss-direction == rtl {
+      margin-left: $padd;
+    } @else {
+      margin-right: $padd;
+    }
+
+    &:last-child {
+      margin-left: 0;
+      margin-right: 0;
+    }
+  }
+}
+
+
+//  Form modifier for Profile widget
+.ps-form--login-widget {
+  margin-bottom: 0;
+
+  .ps-form__row {
+    margin-bottom: $padd;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+
+//
+//  INPUTS
+//
+.ps-input {
+  &:read-only {
+    background-color: $color-light !important;
+    border: none !important;
+  }
+}
+
+
+.ps-input__prepend {
+  max-height: 35px;
+  padding: 0 ($padd / 2);
+  line-height: 35px;
+  color: $color-text;
+  background-color: $color-light;
+
+  // ROUNDED CORNERS
+  @if $scss-rounded == true {
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+  }
+
+  + .ps-input {
+    border-top-left-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+  }
+}
+
+
+//  OLD FORMS - REPLACE IT LATER
+.ps-form-search {
+  position: relative;
+  margin-bottom: $padding-base;
+  padding-right: 35px;
+
+  input[type="text"] {
+    width: 100%;
+    display: block;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+  }
+
+  .ps-btn {
+    position: absolute;
+    top:0;
+    right: 0;
+    display: block;
+    height: 35px;
+  }
+
+  @extend %clearfix;
+}
+
+
+.ps-form-search-messages {
+  padding-right: 45px;
+}
+
+
+.ps-form-legend {
+  padding: 0;
+
+  &:empty {
+    display: none;
+  }
+}
+
+
+.ps-form-search-opt {
+  position: absolute;
+  top:0;
+  right: 0;
+  font-size: $font-size-md;
+  line-height: 34px;
+}
+
+
+// Group modal - checkbox
+.ps-form__item {
+  margin-bottom: $padd;
+}

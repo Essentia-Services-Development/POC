@@ -1,0 +1,125 @@
+.gecko {
+    .wpadverts-blocks,
+    .wpadverts-cpt,
+    .peepso {
+        .ate-text-base,
+        .atw-text-gray-200,
+        .atw-text-gray-400,
+        .atw-text-gray-500 {
+            color: var(--GC-COLOR--TEXT--LIGHT);
+            opacity: var(--tw-text-opacity);
+        }
+    
+        .atw-text-gray-600,
+        .atw-text-gray-700 {
+            color: var(--GC-COLOR--TEXT);
+            opacity: var(--tw-text-opacity);
+        }
+        .atw-text-gray-800,
+        .atw-text-gray-900 {
+            color: var(--GC-COLOR--HEADING);
+            opacity: var(--tw-text-opacity);
+        }
+
+        .wpa-selected {
+            .atw-text-gray-400,
+            .atw-text-gray-500,
+            .atw-text-gray-600,
+            .atw-text-gray-700,
+            .atw-text-gray-800,
+            .atw-text-gray-900 {
+                --tw-text-opacity: 0.5;
+            }
+        }
+
+        .atw-bg-white,
+        .wpadverts-flash {
+            color: var(--GC-COLOR--TEXT--LIGHT);
+            background-color: var(--GC-COLOR--APP);
+
+            .wpa-flash-icon {
+                opacity: 0.5;
+                color: var(--GC-COLOR--TEXT--LIGHT);
+            }
+        }
+
+        .atw-bg-gray-50,
+        .md\:atw-bg-gray-50 {
+            background-color: var(--GC-COLOR--APP);
+        }
+
+        .atw-bg-gray-200 {
+            background-color: var(--GC-COLOR--APP--GRAY);
+        }
+
+        .wpadverts-slide {
+            background-color: var(--GC-COLOR--APP);
+        }
+
+        .wpa-result-item {
+            &:hover {
+                background-color: var(--GC-COLOR--APP--GRAY);
+            }
+        }
+
+        .atw-border-gray-100,
+        .atw-border-gray-300 {
+            border-color: var(--GC-COLOR--APP--GRAY);
+        }
+
+        .wpadverts-form .wpa-field-label {
+            color: var(--GC-COLOR--TEXT);
+        }
+
+        .adverts-flexbox-title {
+            color: var(--GC-COLOR--TEXT);
+        }
+
+        .wpadverts-form.wpa-form-interline .wpa-form-header,
+        .wpadverts-form.wpa-form-interline .wpa-field-wrap,
+        .adverts-form .adverts-control-group > div.adverts-field-header,
+        .adverts-form .adverts-control-group.adverts-field-actions {
+            border-color: var(--GC-COLOR--APP--GRAY);
+        }
+
+        .wpadverts-form .adverts-multiselect-options {
+            background-color: var(--GC-COLOR--APP);
+            border-color: var(--GC-COLOR--APP--GRAY);
+        }
+
+        .adverts-multiselect-options > label {
+            color: var(--GC-COLOR--TEXT--LIGHT);
+        }
+
+        .wpadverts-form .adverts-multiselect-options > label:hover {
+            background-color: var(--GC-COLOR--APP--GRAY);
+        }
+
+        .wpadverts-form .wpa-form-buttons {
+            background-color: var(--GC-COLOR--APP);
+        }
+
+        .wpadverts-form.wpa-solid input[type="checkbox"], .wpadverts-form.wpa-solid input[type="radio"] {
+            background-color: var(--GC-COLOR--APP--GRAY);
+            border-color: var(--GC-COLOR--APP--LIGHTGRAY);
+        }
+
+        .wpa-field-input {
+            input[type="text"],
+            input[type="password"],
+            input[type="email"],
+            input[type="tel"],
+            input[type="search"],
+            input[type="url"],
+            input[type="number"],
+            input[type="date"],
+            input[type="file"] {
+                @include gc-input;
+            }
+
+            .gc-btn {
+                color: var(--color);
+            }
+        }
+    }
+}

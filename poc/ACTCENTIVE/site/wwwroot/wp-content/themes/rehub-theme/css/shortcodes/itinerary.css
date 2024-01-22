@@ -1,0 +1,13 @@
+/* Itinerary
+================================================== */
+.wpsm-itinerary .wpsm-itinerary-icon:after{content: '';border: 1px dashed #ddd;position: absolute;left: 15px;height: 99%;}
+.wpsm-itinerary .wpsm-itinerary-item:last-child .wpsm-itinerary-icon:after{border:none}
+.wpsm-itinerary-item{display:table;position: relative;}
+.wpsm-itinerary-icon{display: table-cell;color: #fff;}
+.wpsm-itinerary-icon span{display: block;border-radius: 100%;width: 32px;height: 32px;line-height: 32px;padding-left: 1px;font-size: 18px;text-align: center;}
+.wpsm-itinerary-icon i{font-size: 15px}
+.wpsm-itinerary-content{display: table-cell;color: #333;overflow: hidden;vertical-align: top;padding: 0 0 35px 15px;}
+.wpsm-itinerary-content p:last-child{margin-bottom: 0}.wpsm-itinerary-content h2, .wpsm-itinerary-content h3, .wpsm-itinerary-content h4, .wpsm-itinerary-content h5{margin-top: 0}
+.itinerary-order .wpsm-itinerary{padding:15px; font-size:120%; background:white; margin-top: -30px;}
+.itinerary-order .wp-block-column{border-top: 1px #ddd dashed;}
+.itinerary-order a{color:inherit;}

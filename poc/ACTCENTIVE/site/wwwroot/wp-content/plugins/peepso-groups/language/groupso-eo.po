@@ -1,0 +1,1842 @@
+# Translation of PeepSo - Groups in Esperanto
+# This file is distributed under the same license as the PeepSo - Groups package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2023-11-05 10:31:02+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0\n"
+"Language: eo\n"
+"Project-Id-Version: PeepSo - Groups\n"
+
+#: classes/admin/configsectiongroups.php:515
+msgid "Allow groups to override this setting"
+msgstr ""
+
+#: classes/admin/configsectiongroups.php:501
+#: templates/groups/group-settings.php:450
+msgid "Members tab"
+msgstr ""
+
+#: classes/admin/configsectiongroups.php:459
+msgid "Allow group managers to pin posts"
+msgstr "Lasu al grupaj administratoroj fiksi afiŝojn"
+
+#: classes/admin/configsectiongroups.php:456
+msgid "Disabled: only comunity/site administrators will be allowed to pin posts"
+msgstr "Malebligita: nur komunumaj/retejaj administrantoj rajtas fiksi afiŝojn"
+
+#: classes/admin/configsectiongroups.php:456
+msgid "Enabled: group management will be allowed to pin posts."
+msgstr "Ebligita: grupaj administrantoj rajtas fiksi afiŝojn"
+
+#: classes/admin/configsectiongroups.php:452
+msgid "Use \"pinned\" style only in group context"
+msgstr "Uzi \"fiksita\" stilo nur en grupaj kuntekstoj"
+
+#: classes/admin/configsectiongroups.php:449
+msgid "Disabled: pinned group posts will always have the \"pinned\" style"
+msgstr "Malebligita: fiksitaj grupaj afiŝoj ĉiam montras la \"fiksitan\" stilon"
+
+#: classes/admin/configsectiongroups.php:449
+msgid "Enabled: pinned group posts will only have a \"pinned\" style when viewed in the group context and single post view"
+msgstr "Ebligita: fiksitaj grupaj afiŝoj havas \"fiksitan\" stilon nur kiam ĝi estas vidata en grupaj kuntekstoj kaj dum unuopaj afiŝaj vidoj"
+
+#: classes/api/groupajax.php:404
+msgid "Group custom input saved."
+msgstr "Grupa tajlorita enigo konservita."
+
+#: templates/groups/group-category-header.php:68
+#: templates/groups/group-header.php:91
+msgid "Rotate right"
+msgstr "Turni dekstren"
+
+#: templates/groups/group-category-header.php:64
+#: templates/groups/group-header.php:87
+msgid "Rotate left"
+msgstr "Turni maldekstren"
+
+#: classes/admin/configsectiongroups.php:434
+msgid "Editing group files"
+msgstr "Redakti grupajn dosierojn"
+
+#: classes/admin/configsectiongroups.php:423
+msgid "Enabled: group moderators can moderate files in their groups"
+msgstr "Ebligita: grupaj kontrolantoj povas administri dosierojn en siaj grupoj"
+
+#: classes/admin/configsectiongroups.php:415
+msgid "Enabled: group managers can moderate files in their groups"
+msgstr "Ebligita: grupaj administrantoj povas administri dosierojn en siaj grupoj"
+
+#: classes/admin/configsectiongroups.php:407
+#: classes/admin/configsectiongroups.php:415
+#: classes/admin/configsectiongroups.php:423
+msgid "Disabled: only admin can moderate files"
+msgstr "Malebligita: nur administranto povas administri dosierojn"
+
+#: classes/admin/configsectiongroups.php:407
+msgid "Enabled: group owners can moderate files in their groups"
+msgstr "Ebligita: grupaj posedantoj povas administri dosierojn en siaj grupoj"
+
+#: templates/groups/group-category.php:39
+msgid "You currently can't post in any groups in this category."
+msgstr "Vi nuntempe ne povas afiŝi en iujn ajn grupojn en ĉi tiu kategorio."
+
+#: classes/admin/configsectiongroups.php:125
+msgid "Default list style"
+msgstr "Defaŭlta lista stilo"
+
+#: classes/admin/configsectiongroups.php:122
+msgid "Controls the default view. If user changes the view, their preference becomes \"sticky\""
+msgstr "Regas la defaŭltan vidon. Se uzanto ŝanĝas la vidon, la prefero fariĝas \"gluita\""
+
+#. Author of the plugin/theme
+msgid "PeepSo"
+msgstr "PeepSo"
+
+#. Description of the plugin/theme
+msgid "Public and closed user groups"
+msgstr "Publikaj kaj fermitaj uzantaj grupoj"
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://peepso.com"
+msgstr "https://peepso.com"
+
+#. Plugin Name of the plugin/theme
+msgid "PeepSo Core: Groups"
+msgstr "PeepSo kerno: Grupoj"
+
+#: templates/groups/postbox-interaction.php:23
+msgid "A group"
+msgstr "Grupo"
+
+#: templates/groups/postbox-interaction.php:13
+msgid "My profile"
+msgstr "Mia profilo"
+
+#: templates/groups/groups.php:160 templates/groups/groups.php:167
+msgid "Loading"
+msgstr "Ŝargado"
+
+#: templates/groups/groups.php:150
+msgid "Group Categories"
+msgstr "Grupaj kategorioj"
+
+#: templates/groups/groups.php:112
+msgid "No filter"
+msgstr "Neniu filtrilo"
+
+#: templates/groups/groups.php:103
+msgid "Descending"
+msgstr "Malsupren"
+
+#: templates/groups/groups.php:94
+msgid "Recently added"
+msgstr "Lastatempe aldonitaj"
+
+#: templates/groups/groups.php:64
+msgid "Any of the words"
+msgstr "Iu ajn el la vortoj"
+
+#: templates/groups/groups.php:63
+msgid "Exact phrase"
+msgstr "Ekzakta frazo"
+
+#: templates/groups/groups.php:57
+msgid "Show filters"
+msgstr "Montri filtrilojn"
+
+#: templates/groups/groups-item.php:31
+msgid "%d pending"
+msgstr "%d atendas"
+
+#: templates/groups/groups-categories.php:18
+msgid "Show all"
+msgstr "Montri ĉiujn"
+
+#: templates/groups/group.php:45
+msgid "Currently group is unpublished."
+msgstr "Nuntempe grupo estas malpublikigita."
+
+#: templates/groups/group.php:36
+msgid "You can still react & comment on posts in this group."
+msgstr "Vi povas kaj reagi kaj komenti al la afiŝoj en ĉi tiu grupo."
+
+#: templates/groups/group.php:33
+msgid "You can still comment on posts in this group."
+msgstr "Vi povas komenti al la afiŝoj en ĉi tiu grupo."
+
+#: templates/groups/group.php:30
+msgid "You can still react to the posts in this group."
+msgstr "Vi povas reagi al la afiŝoj en ĉi tiu grupo."
+
+#: templates/groups/group.php:25
+msgid "This is an announcement group, only the Owners and Managers can create new posts."
+msgstr "Ĉi tiu estas grupo por anoncado, nur la posedantoj kaj mastrumantoj povas krei novajn afiŝojn."
+
+#: templates/groups/group.php:22
+msgid "You must join the group to be able to create new posts."
+msgstr "Vi devas aliĝi al la grupo por povi krei novajn afiŝojn."
+
+#: templates/groups/group-settings.php:676
+msgid "User immediately becomes a new member after click \"join\" button"
+msgstr "Uzanto tuj fariĝas membro alklakante la \"aliĝi\" butonon"
+
+#: templates/groups/group-settings.php:673
+msgid "Automatically accept join requests"
+msgstr "Aŭtomate akcepti petojn de aliĝoj"
+
+#: templates/groups/group-settings.php:625
+msgid "Owners & Managers will not receive notifications about new members"
+msgstr "Posedantoj kaj administrantoj ne ricevos sciigojn pri novaj membroj"
+
+#: templates/groups/group-settings.php:622
+msgid "Disable new member notifications"
+msgstr "Malebligi novajn membrajn sciigojn"
+
+#: templates/groups/group-settings.php:592
+#: templates/groups/group-settings.php:603
+msgid "Nothing (default)"
+msgstr "Nenio (defaŭlto)"
+
+#: templates/groups/group-settings.php:588
+#: templates/groups/group-settings.php:606
+msgid "Reactions and comments"
+msgstr "Reagoj kaj komentoj"
+
+#: templates/groups/group-settings.php:585
+#: templates/groups/group-settings.php:605
+msgid "Comments"
+msgstr "Komentoj"
+
+#: templates/groups/group-settings.php:582
+#: templates/groups/group-settings.php:604
+msgid "Reactions"
+msgstr "Reagoj"
+
+#: templates/groups/group-settings.php:555
+msgid "Has no effect if the setting above is set to \"yes\""
+msgstr "Havas neniun efekton se la supra agordo estas agordita al \"jes\""
+
+#: templates/groups/group-settings.php:552
+msgid "Allowed non-member actions"
+msgstr "Permesataj agoj de ne-membroj"
+
+#: templates/groups/group-settings.php:501
+msgid "Disable likes/comments"
+msgstr "Malebligi ŝatojn/komentojn"
+
+#: templates/groups/group-settings.php:399
+msgid "Disable new posts"
+msgstr "Malebligi novajn afiŝojn"
+
+#: classes/admin/configsectiongroups.php:506
+#: templates/groups/group-settings.php:352
+#: templates/groups/group-settings.php:402
+#: templates/groups/group-settings.php:453
+#: templates/groups/group-settings.php:504
+msgid "Has no effect on Owner, Managers and Site Administrators"
+msgstr "Havas neniun efikon al posedantoj, mastrumantoj kaj retejaj administrantoj"
+
+#: templates/groups/group-settings.php:349
+msgid "Enable \"Invite\" button"
+msgstr "Ebligi \"Inviti\"-butonon"
+
+#: templates/groups/group-settings.php:325
+#: templates/groups/group-settings.php:334
+#: templates/groups/group-settings.php:376
+#: templates/groups/group-settings.php:385
+#: templates/groups/group-settings.php:426
+#: templates/groups/group-settings.php:435
+#: templates/groups/group-settings.php:477
+#: templates/groups/group-settings.php:486
+#: templates/groups/group-settings.php:528
+#: templates/groups/group-settings.php:537
+#: templates/groups/group-settings.php:649
+#: templates/groups/group-settings.php:658
+#: templates/groups/group-settings.php:700
+#: templates/groups/group-settings.php:709
+msgid "No"
+msgstr "Ne"
+
+#: templates/groups/group-settings.php:325
+#: templates/groups/group-settings.php:333
+#: templates/groups/group-settings.php:376
+#: templates/groups/group-settings.php:384
+#: templates/groups/group-settings.php:426
+#: templates/groups/group-settings.php:434
+#: templates/groups/group-settings.php:477
+#: templates/groups/group-settings.php:485
+#: templates/groups/group-settings.php:528
+#: templates/groups/group-settings.php:536
+#: templates/groups/group-settings.php:649
+#: templates/groups/group-settings.php:657
+#: templates/groups/group-settings.php:700
+#: templates/groups/group-settings.php:708
+msgid "Yes"
+msgstr "Jes"
+
+#: templates/groups/group-settings.php:301
+msgid "Has no effect on Site Administrators"
+msgstr "Havas neniun efikon al retejaj administrantoj"
+
+#: templates/groups/group-settings.php:297
+msgid "Enable \"Request To Join\" button"
+msgstr "Ebligi \"Peti aliĝon\"-butonon"
+
+#: templates/groups/group-settings.php:296
+msgid "Enable \"Join\" button"
+msgstr "Ebligi \"Aliĝi\"-butonon"
+
+#: templates/groups/group-settings.php:199
+msgid "No rules"
+msgstr "Neniuj reguloj"
+
+#: templates/groups/group-settings.php:167
+msgid "Group Rules"
+msgstr "Grupaj reguloj"
+
+#: templates/groups/group-settings.php:145
+msgid "No description"
+msgstr "Neniu priskribo"
+
+#: templates/groups/group-settings.php:113
+msgid "Group Description"
+msgstr "Grupa priskribo"
+
+#: templates/groups/group-settings.php:100
+msgid "This field might be automatically adjusted  after editing."
+msgstr "Ĉi tiu kampo eble aŭtomate ĝustiĝos post redaktado."
+
+#: templates/groups/group-settings.php:100
+msgid "Letters, numbers and dashes are recommended, eg my-amazing-group-123."
+msgstr "Literoj, nombroj kaj streketoj estas rekomendataj, ekz. mia-mirinda-grupo-123."
+
+#: templates/groups/group-settings.php:68
+msgid "Group Slug"
+msgstr "Grupa URL-nomo"
+
+#: templates/groups/group-settings.php:27
+#: templates/groups/group-settings.php:74
+#: templates/groups/group-settings.php:120
+#: templates/groups/group-settings.php:174
+#: templates/groups/group-settings.php:233
+#: templates/groups/group-settings.php:308
+#: templates/groups/group-settings.php:359
+#: templates/groups/group-settings.php:409
+#: templates/groups/group-settings.php:460
+#: templates/groups/group-settings.php:511
+#: templates/groups/group-settings.php:562
+#: templates/groups/group-settings.php:632
+#: templates/groups/group-settings.php:683
+msgid "Edit"
+msgstr "Redakti"
+
+#: templates/groups/group-settings.php:20
+msgid "Group Name"
+msgstr "Grupa nomo"
+
+#: templates/groups/group-members-tabs.php:36
+msgid "<span>Banned</span><span class=\"ps-tabs__count\">%s</span>"
+msgstr "<span>Forbarita</span><span class=\"ps-tabs__count\">%s</span>"
+
+#: templates/groups/group-members-tabs.php:30
+msgid "<span>Pending</span><span class=\"ps-tabs__count ps-js-pending-count\" data-id=\"%d\">%s</span>"
+msgstr "<span>Atendanta</span><span class=\"ps-tabs__count ps-js-pending-count\" data-id=\"%d\">%s</span>"
+
+#: templates/groups/group-members-tabs.php:24
+msgid "<span>Invited</span><span class=\"ps-tabs__count ps-js-invited-count\" data-id=\"%d\">%s</span>"
+msgstr "<span>Invitita</span><span class=\"ps-tabs__count ps-js-invited-count\" data-id=\"%d\">%s</span>"
+
+#: templates/groups/group-members-tabs.php:17
+msgid "Management"
+msgstr "Administrado"
+
+#: templates/groups/group-members-tabs.php:11
+msgid "All Members"
+msgstr "Ĉiuj membroj"
+
+#: templates/groups/group-members-search-form.php:81
+msgid "Only users with avatars"
+msgstr "Nur membroj kun avataroj"
+
+#: templates/groups/group-members-search-form.php:78
+msgid "Avatars"
+msgstr "Avataroj"
+
+#: templates/groups/group-members-search-form.php:70
+msgid "Members I don't follow"
+msgstr "Membroj, kiujn mi ne sekvas"
+
+#: templates/groups/group-members-search-form.php:69
+msgid "Members I follow"
+msgstr "Membroj, kiujn mi sekvas"
+
+#: templates/groups/group-members-search-form.php:68
+msgid "All members"
+msgstr "Ĉiuj membroj"
+
+#: templates/groups/group-members-search-form.php:59
+msgid "Most liked"
+msgstr "Plej ŝatataj"
+
+#: templates/groups/group-members-search-form.php:57
+msgid "Latest members"
+msgstr "Plej novaj membroj"
+
+#: templates/groups/group-members-search-form.php:56
+msgid "Recently online"
+msgstr "Lastatempe ensalutintaj"
+
+#: templates/groups/group-members-search-form.php:53
+#: templates/groups/groups.php:92
+msgid "Sort"
+msgstr "Ordigi"
+
+#: templates/groups/group-members-search-form.php:37
+msgid "Any"
+msgstr "Ajna"
+
+#: templates/groups/group-members-item.php:24
+#: templates/groups/group-members-item.php:31
+msgid "Moderator"
+msgstr "Kontrolanto"
+
+#: templates/groups/group-members-item.php:23
+#: templates/groups/group-members-item.php:30
+msgid "Manager"
+msgstr "Mastrumanto"
+
+#: templates/groups/group-members-item-actions.php:5
+msgid "Manage"
+msgstr "Trakti"
+
+#: templates/groups/group-header.php:208
+msgid "Settings"
+msgstr "Agordoj"
+
+#: templates/groups/group-header.php:183 templates/groups/group-header.php:216
+msgid "<span class=\"ps-js-pending-count\" data-id=\"%d\">%s</span> pending"
+msgstr "<span class=\"ps-js-pending-count\" data-id=\"%d\">%s</span> atendas"
+
+#: templates/groups/group-header.php:176
+msgid "%s member"
+msgid_plural "%s members"
+msgstr[0] "%s membro"
+msgstr[1] "%s membroj"
+
+#: templates/groups/group-header.php:168
+msgid "%s Group"
+msgstr "%s grupo"
+
+#: templates/groups/group-header.php:79
+msgid "Upload"
+msgstr "Alŝuti"
+
+#: templates/groups/group-category.php:58
+#: templates/groups/group-category.php:59 templates/groups/group.php:76
+#: templates/groups/group.php:77
+msgid "No posts found."
+msgstr "Neniu afiŝo trovita."
+
+#: templates/groups/group-category-header.php:124
+#: templates/groups/group-header.php:201
+msgid "Stream"
+msgstr "Fluo"
+
+#: templates/groups/group-category-header.php:111
+msgid "with %d groups"
+msgstr "kun %d grupoj"
+
+#: templates/groups/group-category-header.php:109
+#: templates/groups/group-header.php:137
+msgid "Group category"
+msgstr "Grupa kategorio"
+
+#: templates/groups/group-category-header.php:94
+#: templates/groups/group-header.php:116
+msgid "Show details"
+msgstr "Montri detalojn"
+
+#: templates/groups/group-category-header.php:60
+#: templates/groups/group-header.php:83
+msgid "Reposition"
+msgstr "Repozicii"
+
+#: templates/groups/group-category-header.php:52
+#: templates/groups/group-header.php:75
+msgid "Change cover image"
+msgstr "Ŝanĝi kovrilan bildon"
+
+#: templates/groups/group-category-header.php:34
+#: templates/groups/group-header.php:51
+msgid "Change avatar"
+msgstr "Ŝanĝi avataron"
+
+#: templates/groups/group-category-header.php:22
+#: templates/groups/group-header.php:39
+msgid "%s avatar"
+msgstr "%s profilbildo"
+
+#: templates/groups/group-category-header.php:13
+#: templates/groups/group-header.php:30
+msgid "%s cover photo"
+msgstr "%s kovrila foto"
+
+#: classes/admin/configsectiongroups.php:119
+#: templates/groups/group-category-groups.php:12 templates/groups/groups.php:34
+#: templates/groups/profile-groups.php:15
+msgid "List"
+msgstr "Listo"
+
+#: classes/admin/configsectiongroups.php:118
+#: templates/groups/group-category-groups.php:11 templates/groups/groups.php:33
+#: templates/groups/profile-groups.php:14
+msgid "Grid"
+msgstr "Krado"
+
+#: templates/groups/dialog-invite.php:58
+msgid "Invite users to group"
+msgstr "Inviti uzantojn al la grupo"
+
+#: templates/groups/dialog-invite.php:58
+msgid "Add users to group"
+msgstr "Aldoni uzantojn al grupo"
+
+#: templates/groups/dialog-invite.php:46
+msgid "Invite to Group"
+msgstr "Inviti al la grupo"
+
+#: templates/groups/dialog-invite.php:46
+msgid "Add to group"
+msgstr "Aldoni al grupo"
+
+#: templates/groups/dialog-invite.php:46
+msgid "Invited"
+msgstr "Invitita"
+
+#: templates/groups/dialog-invite.php:46
+msgid "Added"
+msgstr "Aldonita"
+
+#: templates/groups/dialog-invite.php:22
+msgid "Please note: Users who are either banned, already invited, members or blocked receiving invitations to this group will not show in this listing."
+msgstr "Bonvolu noti: uzantoj kiuj estas aŭ forbaritaj, jam invititaj, membroj aŭ baritaj kiuj estas ricevantaj inviton al ĉi tiu grupo ne estos montrataj en ĉi tiu listo."
+
+#: templates/groups/dialog-invite.php:17 templates/groups/group-category.php:60
+#: templates/groups/group.php:78
+msgid "Nothing more to show."
+msgstr "Nenio pli por montri."
+
+#: templates/groups/dialog-invite.php:16
+msgid "Load more"
+msgstr "Ŝargi pli"
+
+#: templates/groups/dialog-invite.php:10
+#: templates/groups/group-members-search-form.php:25
+#: templates/groups/groups.php:56 templates/groups/postbox-interaction.php:29
+msgid "Start typing to search..."
+msgstr "Ektajpi por serĉi..."
+
+#: templates/groups/dialog-create.php:92 templates/groups/dialog-create.php:99
+#: templates/groups/group-category-groups.php:19 templates/groups/groups.php:43
+#: templates/groups/profile-groups.php:21
+msgid "Create Group"
+msgstr "Krei grupon"
+
+#: templates/groups/dialog-create.php:43
+#: templates/groups/group-settings.php:226 templates/groups/groups.php:110
+msgid "Category"
+msgid_plural "Categories"
+msgstr[0] "Kategorio"
+msgstr[1] "Kategorioj"
+
+#: templates/groups/dialog-create.php:21 templates/groups/group-settings.php:52
+#: templates/groups/group-settings.php:153
+#: templates/groups/group-settings.php:207
+msgid "Characters left"
+msgstr "Restantaj signoj"
+
+#: templates/groups/dialog-create.php:20
+msgid "Enter your group's description..."
+msgstr "Enskribi la priskribon de via grupo..."
+
+#: templates/groups/dialog-create.php:8
+msgid "Enter your group's name..."
+msgstr "Enskribi la nomon de via grupo..."
+
+#: templates/groups/dialog-create.php:4
+msgid "Name"
+msgstr "Nomo"
+
+#: templates/groups/dialog-category-cover-remove.php:7
+#: templates/groups/dialog-cover-remove.php:7
+msgid "Remove Cover Image"
+msgstr "Forigi kovrilan bildon"
+
+#: templates/groups/dialog-category-cover-remove.php:1
+#: templates/groups/dialog-cover-remove.php:1
+msgid "Are you sure want to remove this cover image?"
+msgstr "Ĉu vi certas ke vi volas forigi ĉi tiun kovrilan bildon?"
+
+#: templates/groups/dialog-category-avatar.php:95
+msgid "Change Group Category Avatar"
+msgstr "Ŝanĝi grupan kategorian avataron"
+
+#: templates/groups/dialog-avatar.php:98
+#: templates/groups/dialog-category-avatar.php:98
+msgid "Done"
+msgstr "Farita"
+
+#: templates/groups/dialog-avatar.php:95
+msgid "Change Group Avatar"
+msgstr "Ŝanĝu grupan avataron"
+
+#: templates/groups/dialog-avatar.php:74
+#: templates/groups/dialog-category-avatar.php:74
+msgid "This is how <strong>%s</strong> avatar will appear throughout the entire community."
+msgstr "Ĉi tiel estas kiel <strong>%s</strong> avataro estos montrata tra la tuta komunumo."
+
+#: templates/groups/dialog-avatar.php:65 templates/groups/dialog-avatar.php:68
+#: templates/groups/dialog-category-avatar.php:65
+#: templates/groups/dialog-category-avatar.php:68
+msgid "Avatar Preview"
+msgstr "Avatara antaŭmontro"
+
+#: templates/groups/dialog-avatar.php:60
+#: templates/groups/dialog-category-avatar.php:60
+msgid "No avatar uploaded. Use the button above to select and upload one."
+msgstr "Neniu avataro alŝutita. Uzu la butonon supre por elekti kaj alŝuti iun."
+
+#: templates/groups/dialog-avatar.php:52
+#: templates/groups/dialog-category-avatar.php:52
+#: templates/groups/dialog-category-cover-remove.php:14
+#: templates/groups/dialog-cover-remove.php:14
+msgid "Confirm"
+msgstr "Konfirmi"
+
+#: templates/groups/dialog-avatar.php:35
+#: templates/groups/dialog-category-avatar.php:35
+msgid "Crop"
+msgstr "Stuci"
+
+#: templates/groups/dialog-avatar.php:24
+#: templates/groups/dialog-category-avatar.php:24
+msgid "Automatically Generated. (Maximum width: 160px)"
+msgstr "Aŭtomate kreita. (Maksimuma larĝeco: 160 bilderoj)"
+
+#: templates/groups/dialog-avatar.php:20
+#: templates/groups/dialog-category-avatar.php:20
+msgid "Uploaded Photo"
+msgstr "Alŝutita foto"
+
+#: templates/groups/dialog-avatar.php:13
+#: templates/groups/dialog-category-avatar.php:13
+#: templates/groups/group-category-header.php:56
+msgid "Upload new"
+msgstr "Alŝuti novan"
+
+#: templates/admin/groups.php:20
+msgid "Are you sure?"
+msgstr "Ĉu vi certas?"
+
+#: templates/admin/groups.php:11
+msgid "Search Groups"
+msgstr "Serĉi grupojn"
+
+#: templates/admin/group_categories_button.php:18
+msgid "Add New"
+msgstr "Aldoni novan"
+
+#: templates/admin/group_categories_button.php:12
+#: templates/admin/group_categories_button.php:25
+msgid "Group categories are currently disabled. You can enable them in PeepSo Config -> Groups"
+msgstr "Grupaj kategorioj estas nuntempe malebligitaj. Vi povas ebligi ilin en PeepSo Config -> Grupoj"
+
+#: templates/admin/group_categories_button.php:7
+msgid "Collapse All"
+msgstr "Malvastigi ĉiujn"
+
+#: templates/admin/group_categories_button.php:4
+msgid "Expand All"
+msgstr "Vastigi ĉiujn"
+
+#: templates/admin/group_categories.php:102
+msgid "Generate"
+msgstr "Krei"
+
+#: templates/admin/group_categories.php:101
+msgid "URL slug"
+msgstr "URL-nomo"
+
+#: templates/admin/group_categories.php:55
+#: templates/groups/group-category-header.php:80
+#: templates/groups/group-header.php:103 templates/groups/group-settings.php:36
+#: templates/groups/group-settings.php:83
+#: templates/groups/group-settings.php:128
+#: templates/groups/group-settings.php:182
+#: templates/groups/group-settings.php:241
+#: templates/groups/group-settings.php:317
+#: templates/groups/group-settings.php:368
+#: templates/groups/group-settings.php:418
+#: templates/groups/group-settings.php:469
+#: templates/groups/group-settings.php:520
+#: templates/groups/group-settings.php:571
+#: templates/groups/group-settings.php:641
+#: templates/groups/group-settings.php:692
+msgid "Save"
+msgstr "Konservi"
+
+#: templates/admin/group_categories.php:54
+#: templates/groups/dialog-avatar.php:48
+#: templates/groups/dialog-category-avatar.php:48
+#: templates/groups/dialog-category-cover-remove.php:10
+#: templates/groups/dialog-cover-remove.php:10
+#: templates/groups/dialog-create.php:95
+#: templates/groups/group-category-header.php:79
+#: templates/groups/group-header.php:102 templates/groups/group-settings.php:32
+#: templates/groups/group-settings.php:79
+#: templates/groups/group-settings.php:125
+#: templates/groups/group-settings.php:179
+#: templates/groups/group-settings.php:238
+#: templates/groups/group-settings.php:313
+#: templates/groups/group-settings.php:364
+#: templates/groups/group-settings.php:414
+#: templates/groups/group-settings.php:465
+#: templates/groups/group-settings.php:516
+#: templates/groups/group-settings.php:567
+#: templates/groups/group-settings.php:637
+#: templates/groups/group-settings.php:688
+msgid "Cancel"
+msgstr "Nuligi"
+
+#: templates/admin/group_categories.php:20
+msgid "no name"
+msgstr "neniu nomo"
+
+#: groups.php:2858
+msgid "Get it now!"
+msgstr "Akiru ĝin nun!"
+
+#: groups.php:2856
+msgid "The %s plugin requires the PeepSo plugin to be installed and activated."
+msgstr "La %s kromprogramo bezonas ke la PeepSo kromprogramo estas instalita kaj aktivigita."
+
+#: groups.php:2809
+msgid "group cover photo"
+msgstr "grupa kovrila bildo"
+
+#: groups.php:2804
+msgid "group avatar"
+msgstr "grupa profilbildoavataro"
+
+#: groups.php:2759
+msgid "No result found."
+msgstr "Neniu rezulto trovita."
+
+#: groups.php:2661
+msgid "Are you sure you want to change the group privacy?"
+msgstr "Ĉu vi certas ke vi volas ŝanĝi la privatecon de la grupo?"
+
+#: groups.php:2660
+msgid "Are you sure you want to change the group URL?"
+msgstr "Ĉu vi certas ke vi volas ŝanĝi la grupan URL-n?"
+
+#: groups.php:2659 groups.php:2660 groups.php:2661
+msgid "All group members will be notified."
+msgstr "Ĉiuj grupaj membroj estas sciigitaj."
+
+#: groups.php:2659
+msgid "Are you sure you want to change the group name?"
+msgstr "Ĉu vi certas ke vi volas ŝanĝi la nomon de la grupo?"
+
+#: groups.php:2658 templates/groups/groups-item.php:29
+msgid "members"
+msgstr "membroj"
+
+#: groups.php:2656
+msgid "Less"
+msgstr "Malpli"
+
+#: groups.php:2655 templates/groups/group-category-header.php:154
+#: templates/groups/group-category-header.php:157
+#: templates/groups/group-header.php:263 templates/groups/groups-item.php:66
+msgid "More"
+msgstr "Pli"
+
+#: groups.php:2539
+msgid "changed group privacy to %s"
+msgstr "sanĝis grupan privatecon al %s"
+
+#: groups.php:2515
+msgid "renamed a group you're a member of"
+msgstr "ŝanĝis nomon en grupo en kiu vi estas membro"
+
+#: groups.php:2464
+msgid "accepted you as a group member"
+msgstr "akceptis vin kiel grupan membron"
+
+#: groups.php:2418
+msgid "requested to join your group"
+msgstr "petas aliĝi al via grupo"
+
+#: groups.php:2411
+msgid "and %s%s more users%s requested to join your group"
+msgstr "kaj %s%s pli da uzantoj%s petas aliĝon al via grupo"
+
+#: groups.php:2404
+msgid "and %s%s%s requested to join your group"
+msgstr "kaj %s%s%s petas aliĝon al via grupo"
+
+#: groups.php:2350
+msgid "accepted your group invitation"
+msgstr "akceptis vian grupan inviton"
+
+#: groups.php:2309
+msgid "joined your group"
+msgstr "aliĝis al via grupo"
+
+#: groups.php:2207
+msgid " added %1$d photo to the album: <a href=\"%3$s\">%2$s</a>"
+msgid_plural " added %1$d photos to the album: <a href=\"%3$s\">%2$s</a>"
+msgstr[0] " aldonis %1$d foton al la albumo: <a href=\"%3$s\">%2$s</a>"
+msgstr[1] " aldonis %1$d fotojn al la albumo: <a href=\"%3$s\">%2$s</a>"
+
+#: groups.php:2187 groups.php:2217
+msgid " updated group cover"
+msgstr " ĝisdatigis grupan kovrilan bildon"
+
+#: groups.php:2177
+msgid " updated group avatar"
+msgstr " ĝisdatigis grupan avataron"
+
+#: groups.php:1503 groups.php:1505
+msgid "joined this group"
+msgstr "aliĝis al ĉi tiu grupo"
+
+#: groups.php:1475 groups.php:1477
+msgid "joined a group"
+msgstr "aliĝis al grupo"
+
+#: groups.php:1456
+msgid "You are not a member of this group"
+msgstr "Vi ne estas membro de ĉi tiu grupo"
+
+#: groups.php:922
+msgid "groups"
+msgstr "grupoj"
+
+#: groups.php:891
+msgctxt "Profile link"
+msgid "Groups"
+msgstr "Grupoj"
+
+#: groups.php:866
+msgctxt "Community link"
+msgid "Groups"
+msgstr "Grupoj"
+
+#: groups.php:815
+msgid "Post to"
+msgstr "Afiŝi al"
+
+#: groups.php:708
+msgid "Group Stream Photos"
+msgstr "Grupaj fluaj fotoj"
+
+#: groups.php:704
+msgid "Group Covers"
+msgstr "Grupaj kovrilaj bildoj"
+
+#: groups.php:700
+msgid "Group Avatars"
+msgstr "Grupaj avataroj"
+
+#: groups.php:677
+msgid "This will be sent to a group owner when another user comments on the cover"
+msgstr "Ĉi tiu estos sendita al grupa posedanto kiam alia uzanto komentas pri la kovrila bildo"
+
+#: groups.php:676
+msgid "User Comment Group Cover"
+msgstr "Uzanta komenta grupa kovrila bildo"
+
+#: groups.php:672
+msgid "This will be sent to a group owner when another user comments on the avatar"
+msgstr "Ĉi tiu estos sendita al grupa posedanto kiam alia uzanto komentas pri la avataro"
+
+#: groups.php:671
+msgid "User Comment Group Avatar"
+msgstr "Uzanta komenta grupa avataro"
+
+#: groups.php:666
+msgid "Notify Administrators when a new new group is created"
+msgstr "Sciigi administrantojn kiam nova grupo estas kreita"
+
+#: groups.php:665
+msgid "New Group Created"
+msgstr "Nova grupo kreita"
+
+#: groups.php:661
+msgid "Notify users about new posts in groups."
+msgstr "Sciigi uzantojn pri novaj afiŝoj en grupoj."
+
+#: groups.php:660
+msgid "New Post In Group"
+msgstr "Nova afiŝo en grupo"
+
+#: groups.php:578
+msgid "Group subscriptions"
+msgstr "Grupaj abonantoj"
+
+#: groups.php:537
+msgid "{sitename} - New Group Created"
+msgstr "{sitename} - Nova grupo kreita"
+
+#: groups.php:484
+msgid "%s posted in %s"
+msgstr "%s afiŝis en %s"
+
+#: groups.php:445
+msgid "posted in %s"
+msgstr "afiŝis en %s"
+
+#: groups.php:261 templates/groups/group-header.php:137
+msgid "Group categories"
+msgstr "Grupaj kategorioj"
+
+#: groups.php:242
+msgid "PeepSo Groups"
+msgstr "PeepSo grupoj"
+
+#: classes/widgets/widgetgroup.php:59
+msgid "About %s"
+msgstr "Pri %s"
+
+#: classes/widgets/widgetgroup.php:8 classes/widgets/widgetgroup.php:9
+msgid "PeepSo Groups: about the group"
+msgstr "PeepSo grupoj: pri la grupo"
+
+#: classes/shortcodes/groupsshortcode.php:188 groups.php:2714
+msgid "The file size you uploaded is too big. The maximum file size is %s."
+msgstr "La grando de la dosiero kiun vi alŝutis estas tro granda. La maksimuma dosiergrandeco estas %s."
+
+#: classes/shortcodes/groupsshortcode.php:186 groups.php:2712
+msgid "The file type you uploaded is not allowed. Only JPEG, PNG, and WEBP allowed."
+msgstr "Ĉi tia dosiera tipo, kiun vi alŝutis, ne estas permesata. Nur JPEG, PNG, kaj WEBP estas permesataj."
+
+#: classes/shortcodes/groupsshortcode.php:130
+msgctxt "Page listing"
+msgid "PeepSo"
+msgstr "PeepSo"
+
+#: classes/shortcodes/groupsshortcode.php:126
+msgid "Displays the Groups listing and single Group view."
+msgstr "Montri la grupajn listojn kaj unu grupan vidon."
+
+#: classes/shortcodes/groupsshortcode.php:114
+#: classes/shortcodes/groupsshortcode.php:130 groups.php:239 groups.php:252
+#: groups.php:906 install/activate.php:40
+#: templates/groups/group-category-header.php:130
+#: templates/groups/groups.php:149
+msgid "Groups"
+msgstr "Grupoj"
+
+#: classes/models/groupuser.php:648
+msgid "Reject"
+msgstr "Rifuzi"
+
+#: classes/models/groupuser.php:642
+msgid "Approve"
+msgstr "Aprobi"
+
+#: classes/models/groupuser.php:633
+msgid "Cancel Invitation"
+msgstr "Nuligi inviton"
+
+#: classes/models/groupuser.php:623
+msgid "Unban"
+msgstr "Malforbari"
+
+#: classes/models/groupuser.php:620
+msgid "Are you sure you want to unban %s and restore as a regular Group Member?"
+msgstr "Ĉu vi certas ke vi volas malforbari %s kaj restarigi al normala grupa membro?"
+
+#: classes/models/groupuser.php:597
+msgid "Ban"
+msgstr "Forbari"
+
+#: classes/models/groupuser.php:593
+msgid "This user will be unable to join or be invited."
+msgstr "Ĉi tiu uzanto povos nek aliĝi nek esti invitebla."
+
+#: classes/models/groupuser.php:592
+msgid "Are you sure you want to ban this user?"
+msgstr "Ĉu vi certas ke vi volas forbari ĉi tiun uzanton?"
+
+#: classes/models/groupuser.php:567
+msgid "Remove"
+msgstr "Forigi"
+
+#: classes/models/groupuser.php:564
+msgid "To join again the user will have to be invited and/or approved."
+msgstr "Por aliĝi ree la uzanto devas esti invitita kaj/aŭ aprobita."
+
+#: classes/models/groupuser.php:561
+msgid "Are you sure you want to remove this user?"
+msgstr "Ĉu vi certas ke vi volas forigi ĉi tiun uzanton?"
+
+#: classes/models/groupuser.php:547
+msgid "Turn into regular member"
+msgstr "Igi normala membro"
+
+#: classes/models/groupuser.php:544
+msgid "Are you sure you want to make %s a regular Group Member?"
+msgstr "Ĉu vi certas ke vi volas fari %s al normala grupa membro?"
+
+#: classes/models/groupuser.php:534
+msgid "Turn into Moderator"
+msgstr "Igi kontrolanto"
+
+#: classes/models/groupuser.php:531
+msgid "Are you sure you want to make %s a Group Moderator?"
+msgstr "Ĉu vi certas, ke vi volas igi %s-n grupa kontrolanto?"
+
+#: classes/models/groupuser.php:521
+msgid "Turn into Manager"
+msgstr "Igi mastrumanto"
+
+#: classes/models/groupuser.php:518
+msgid "Are you sure you want to make %s a Group Manager?"
+msgstr "Ĉu vi certas, ke vi volas igi %s-n grupa mastrumanto?"
+
+#: classes/models/groupuser.php:509
+msgid "Transfer ownership"
+msgstr "Transdoni posedon"
+
+#: classes/models/groupuser.php:506
+msgid "Are you sure you want to make %s a new Group Owner? There can be only one owner in the group."
+msgstr "Ĉu vi certas, ke vi volas igi %s-n nova grupa posedanto? En la grupo nur unu povas esti posedanto."
+
+#: classes/models/groupuser.php:503
+msgid "yourself"
+msgstr "vi mem"
+
+#: classes/models/groupuser.php:465
+msgid "To be able to leave, you need to transfer ownership to another user first."
+msgstr "Por povi foriri, vi unue devas transdoni posedon al alia uzanto."
+
+#: classes/models/groupuser.php:465
+msgid "You can't leave this group."
+msgstr "Vi ne povas foriri el ĉi tiu grupo."
+
+#: classes/models/groupuser.php:463 groups.php:1454
+msgid "You are the group %s"
+msgstr "Vi estas %s de la grupo"
+
+#: classes/models/groupuser.php:444
+msgid "You are a group %s"
+msgstr "Vi estas %s de grupo"
+
+#: classes/models/groupuser.php:434 classes/models/groupuser.php:570
+msgid "Leave"
+msgstr "Foriru"
+
+#: classes/models/groupuser.php:428
+msgid "To join again a member will have to be invited."
+msgstr "Por denove aliĝi, membro devas esti invitita."
+
+#: classes/models/groupuser.php:424 classes/models/groupuser.php:575
+msgid "To join again you will have to be approved or invited."
+msgstr "Por denove aliĝi vi devas esti aprobita aŭ invitita."
+
+#: classes/models/groupuser.php:421 classes/models/groupuser.php:572
+msgid "Are you sure you want to leave this group?"
+msgstr "Ĉu vi certas ke vi volas foriri el ĉi tiu grupo?"
+
+#: classes/models/groupuser.php:411
+msgid "Request To Join"
+msgstr "Petu por aliĝi"
+
+#: classes/models/groupuser.php:404
+msgid "Join"
+msgstr "Aliĝi"
+
+#: classes/models/groupuser.php:397
+msgid "Cancel Request To Join"
+msgstr "Nuligi peton por aliĝi"
+
+#: classes/models/groupuser.php:391
+msgid "You need to be approved"
+msgstr "Vi devas esti aprobita"
+
+#: classes/models/groupuser.php:390
+msgid "Pending approval"
+msgstr "Atendas aprobon"
+
+#: classes/models/groupuser.php:383
+msgid "Reject invite"
+msgstr "Rifuzi inviton"
+
+#: classes/models/groupuser.php:377
+msgid "Accept invite"
+msgstr "Akcepti inviton"
+
+#: classes/models/groupuser.php:358
+msgid "Add users"
+msgstr "Aldoni uzanton"
+
+#: classes/models/groupuser.php:354
+msgid "Invite"
+msgstr "Inviti"
+
+#: classes/models/groupuser.php:137
+msgid "As community administrator, you have the same control as group owner."
+msgstr "Kiel komunuma administranto, vi havas la saman povon kiel grupa posedanto."
+
+#: classes/models/groupuser.php:120
+msgid "As an owner you can manage all aspects of the group and its content"
+msgstr "Kiel posedanto vi povas administri ĉiujn aspektojn de la grupo kaj ĝia enhavo"
+
+#: classes/models/groupuser.php:119
+msgid "owner"
+msgstr "posedanto"
+
+#: classes/models/groupuser.php:115
+msgid "As a manager you can manage the group members and edit or delete all posts and comments in this group"
+msgstr "Kiel mastrumanto vi povas administri la membrojn de la grupo kaj redakti aŭ forigi ĉiujn afiŝojn kaj komentojn en ĉi tiu grupo"
+
+#: classes/models/groupuser.php:114
+msgid "manager"
+msgstr "mastrumanto"
+
+#: classes/models/groupuser.php:110
+msgid "As a moderator you can edit or delete all posts and comments in this group"
+msgstr "Kiel kontrolanto vi povas redakti aŭ forigi ĉiujn afiŝojn kaj komentojn en ĉi tiu grupo"
+
+#: classes/models/groupuser.php:109
+msgid "moderator"
+msgstr "kontrolanto"
+
+#: classes/models/groupuser.php:103 groups.php:2657
+#: templates/groups/groups-item.php:29
+msgid "member"
+msgstr "membro"
+
+#: classes/models/groupprivacy.php:35
+msgid "Non-members can't see the group at all."
+msgstr "Ne-membroj tute ne povas vidi la grupon."
+
+#: classes/models/groupprivacy.php:35
+msgid "Users need to be invited."
+msgstr "Uzantoj devas esti invititaj."
+
+#: classes/models/groupprivacy.php:34
+msgid "secret"
+msgstr "sekreta"
+
+#: classes/models/groupprivacy.php:33
+msgid "Secret"
+msgstr "Sekreta"
+
+#: classes/models/groupprivacy.php:28
+msgid "Non-members can only see the group page."
+msgstr "Ne-membroj povas vidi nur la grupan paĝon."
+
+#: classes/models/groupprivacy.php:28
+msgid "Users need to be invited or request the group membership."
+msgstr "Uzantoj devas esti invititaj aŭ peti aliĝon al la grupo."
+
+#: classes/models/groupprivacy.php:27
+msgid "private"
+msgstr "privata"
+
+#: classes/models/groupprivacy.php:26
+msgid "Private"
+msgstr "Privata"
+
+#: classes/models/groupprivacy.php:20
+msgid "Non-members can see the group content, but they can't post."
+msgstr "Ne-membroj povas vidi la grupajn enhavojn, sed ne mem afiŝi."
+
+#: classes/models/groupprivacy.php:19
+msgid "open"
+msgstr "publika"
+
+#: classes/models/groupprivacy.php:18
+msgid "Open"
+msgstr "Publika"
+
+#: classes/models/groupfollower.php:218
+msgid "Receive emails about new posts in this group"
+msgstr "Ricevi retpoŝtaĵojn pri novaj afiŝoj en ĉi tiu grupo"
+
+#: classes/models/groupfollower.php:215 groups.php:1470
+msgid "Receive emails"
+msgstr "Ricevi retpoŝtaĵojn"
+
+#: classes/models/groupfollower.php:211
+msgid "Be notified about new posts in this group"
+msgstr "Ricevi sciigojn pri novaj afiŝoj en ĉi tiu grupo"
+
+#: classes/models/groupfollower.php:208 groups.php:1466
+msgid "Be notified"
+msgstr "ricevi sciigojn"
+
+#: classes/models/groupfollower.php:204
+msgid "Show posts from this group in \"my following\" stream"
+msgstr "Montri afiŝojn de ĉi tiu grupo en \"mia sekva\" fluo"
+
+#: classes/models/groupfollower.php:201 groups.php:1462
+msgid "Follow"
+msgstr "Sekvi"
+
+#: classes/models/groupfollower.php:190
+msgid "Not receiving notifications"
+msgstr "Ne ricevas sciigojn"
+
+#: classes/models/groupfollower.php:186
+msgid "Receiving notifications"
+msgstr "Ricevas sciigojn"
+
+#: classes/models/groupfollower.php:176
+msgid "Not following"
+msgstr "Ne abonas"
+
+#: classes/models/groupfollower.php:173
+#: templates/groups/group-members-search-form.php:66
+msgid "Following"
+msgstr "Abonas"
+
+#: classes/models/groupcategory.php:79 groups.php:2662
+#: templates/groups/groups.php:128
+msgid "Uncategorized"
+msgstr "Senkategoria"
+
+#: classes/models/group.php:416
+msgid "This group name cannot be used"
+msgstr "Ĉi tiu grupa nomo ne povas esti uzata"
+
+#: classes/models/group.php:399
+msgid "Maximum length is %s"
+msgstr "Maksimuma longeco estas %s"
+
+#: classes/models/group.php:395
+msgid "Minimum length is %s characters"
+msgstr "Minimuma longeco estas %s signoj"
+
+#: classes/models/group.php:391
+msgid "This field can't be a number"
+msgstr "Ĉi tiu kampo ne povas esti nombro"
+
+#: classes/models/group.php:382 classes/models/group.php:386
+msgid "This field is required"
+msgstr "Ĉi tiu kampo estas bezonata"
+
+#: classes/api/groupusersajax.php:237 classes/api/groupusersajax.php:242
+msgid "No users found."
+msgstr "Neniuj uzantoj trovitaj."
+
+#: classes/api/groupuserajax.php:266
+msgid "Invalid role"
+msgstr "Nevalida rolo"
+
+#: classes/api/groupuserajax.php:219
+msgid "Unable to add this user"
+msgstr "Ne eblas aldoni ĉi tiun uzanton"
+
+#: classes/api/groupuserajax.php:215
+msgid "added you to a group"
+msgstr "aldonis vin al grupo"
+
+#: classes/api/groupuserajax.php:206
+msgid "Unable to invite this user"
+msgstr "Ne eblas inviti ĉi tiun uzanton"
+
+#: classes/api/groupuserajax.php:204
+msgid "invited you to join a group"
+msgstr "invitis vin aliĝi al la grupo"
+
+#: classes/api/groupuserajax.php:187
+msgid "You are not allowed to manage members"
+msgstr "Vi ne rajtas administri anojn"
+
+#: classes/api/groupuserajax.php:138
+msgid "Are you sure you want to block all future invites to this group?"
+msgstr "Ĉu vi certas, ke vi volas bloki ĉiujn estontajn invitilojn en ĉi tiun grupon?"
+
+#: classes/api/groupuserajax.php:137
+msgid "Block invites"
+msgstr "Bloki invitilojn"
+
+#: classes/api/groupuserajax.php:128
+msgid "Unable to leave this group"
+msgstr "Ne eblas foriri de ĉi tiu grupo"
+
+#: classes/api/groupuserajax.php:108
+msgid "Unable to cancel request to join this group"
+msgstr "Ne eblas nuligi la peton por aliĝi en ĉi tiun grupon"
+
+#: classes/api/groupuserajax.php:63 classes/api/groupuserajax.php:87
+msgid "Unable to join this group"
+msgstr "Ne eblas aliĝi al ĉi tiu grupo"
+
+#: classes/api/groupsajax.php:123
+msgid "No groups found"
+msgstr "Neniuj grupoj trovitaj"
+
+#: classes/api/groupsajax.php:120
+msgid "%s doesn't belong to any groups yet"
+msgstr "%s ankoraŭ ne estas en iu grupo"
+
+#: classes/api/groupsajax.php:120
+msgid "You don't belong to any groups yet"
+msgstr "Vi ankoraŭ ne apartenas al iu grupo"
+
+#: classes/api/groupcategoryajax.php:13
+msgid "New Category"
+msgstr "Nova kategorio"
+
+#: classes/api/groupcategoryajax.php:9 classes/api/groupcategoryajax.php:52
+#: classes/api/groupcategoryajax.php:71 classes/api/groupcategoryajax.php:101
+#: classes/api/groupcategoryajax.php:136 classes/api/groupcategoryajax.php:161
+msgid "Insufficient permissions."
+msgstr "Mankas permesoj."
+
+#: classes/api/groupcategoriesajax.php:53
+msgid "No Categories Found."
+msgstr "Neniuj kategorioj trovitaj."
+
+#: classes/api/groupajax.php:751 classes/api/groupcategoryajax.php:506
+msgid "Changes saved."
+msgstr "Ŝanĝoj konservitaj."
+
+#: classes/api/groupajax.php:610 classes/api/groupajax.php:716
+#: classes/api/groupcategoryajax.php:372 classes/api/groupcategoryajax.php:476
+msgid "No file uploaded."
+msgstr "Neniu dosiero alŝutita."
+
+#: classes/api/groupajax.php:599 classes/api/groupcategoryajax.php:361
+msgid "Minimum avatar resolution is %d x %d pixels."
+msgstr "Minimuma avatara distingivo estas %d x %d bilderoj."
+
+#: classes/api/groupajax.php:576 classes/api/groupajax.php:699
+#: classes/api/groupcategoryajax.php:338 classes/api/groupcategoryajax.php:458
+msgid "The file type you uploaded is not allowed."
+msgstr "La tipo de dosiero kiun vi alŝutis ne estas permesata."
+
+#: classes/api/groupajax.php:570 classes/api/groupajax.php:705
+#: classes/api/groupcategoryajax.php:332 classes/api/groupcategoryajax.php:464
+msgid "The file you uploaded is either missing or too large."
+msgstr "La dosiero kiun vi alŝutis aŭ mankas aŭ estas tro granda."
+
+#: classes/api/groupajax.php:554 classes/api/groupajax.php:641
+#: classes/api/groupajax.php:721 classes/api/groupajax.php:755
+#: classes/api/groupcategoryajax.php:316 classes/api/groupcategoryajax.php:402
+#: classes/api/groupcategoryajax.php:481
+msgid "You do not have enough permissions."
+msgstr "Vi ne havas sufiĉajn permesojn."
+
+#: classes/api/groupajax.php:426 classes/api/groupajax.php:494
+#: classes/api/groupcategoryajax.php:190 classes/api/groupcategoryajax.php:257
+msgid "Invalid access"
+msgstr "Nevalida aliro"
+
+#: classes/api/groupajax.php:383 classes/api/groupajax.php:407
+msgid "You are not authorized to change this group categories."
+msgstr "Vi ne rajtas ŝanĝi kategoriojn de ĉi tiu grupo."
+
+#: classes/api/groupajax.php:378
+msgid "Group categories saved."
+msgstr "Grupaj kategorioj ŝanĝitaj."
+
+#: classes/api/groupajax.php:340
+msgid "You are not authorized to change this group description."
+msgstr "Vi ne rajtas ŝanĝi ĉi tiun grupan priskribon."
+
+#: classes/api/groupajax.php:337
+msgid "Group description saved."
+msgstr "Grupa priskribo ŝanĝita."
+
+#: classes/api/groupajax.php:294
+msgid "You are not authorized to change this group name."
+msgstr "Vi ne rajtas ŝanĝi ĉi tiun grupan nomon."
+
+#: classes/api/groupajax.php:290
+msgid "Group privacy changed."
+msgstr "Grupa privateco ŝanĝita."
+
+#: classes/api/groupajax.php:275
+msgid "Invalid Group Privacy"
+msgstr "Nevalida grupa privateco"
+
+#: classes/api/groupajax.php:245
+msgid "You are not authorized to manage this group's settings"
+msgstr "Vi ne estas rajtigita por administri la agordoj de ĉi tiu grupo"
+
+#: classes/api/groupajax.php:182 classes/api/groupajax.php:242
+msgid "Group name saved."
+msgstr "Grupa nomo konservita."
+
+#: classes/api/groupajax.php:139 classes/api/groupajax.php:200
+#: classes/api/groupajax.php:260 classes/api/groupajax.php:309
+#: classes/api/groupajax.php:355 classes/api/groupajax.php:398
+#: classes/api/groupajax.php:544 classes/api/groupajax.php:627
+#: classes/api/groupajax.php:678 classes/api/groupajax.php:737
+#: classes/api/groupcategoryajax.php:307 classes/api/groupcategoryajax.php:389
+#: classes/api/groupcategoryajax.php:438 classes/api/groupcategoryajax.php:495
+msgid "Request could not be verified."
+msgstr "Peto ne povis esti konfirmita."
+
+#: classes/api/groupajax.php:124 classes/api/groupajax.php:185
+#: classes/api/groupuserajax.php:273
+msgid "Insufficient permissions"
+msgstr "Mankas permesoj"
+
+#: classes/api/groupajax.php:121
+msgid "Setting saved"
+msgstr "Agordo konservita"
+
+#: classes/api/groupajax.php:94
+msgid "Request could not be verified"
+msgstr "Peto ne povis esti konfirmita"
+
+#: classes/admin/groupslisttable.php:328
+msgid "Show"
+msgstr "Montri"
+
+#: classes/admin/groupslisttable.php:310
+msgid "Unpublished"
+msgstr "Malpublikigita"
+
+#: classes/admin/groupslisttable.php:308
+#: templates/admin/group_categories.php:80
+msgid "Published"
+msgstr "Publikigita"
+
+#: classes/admin/groupslisttable.php:305
+msgid "All"
+msgstr "Ĉiuj"
+
+#: classes/admin/groupslisttable.php:279
+msgid "group"
+msgid_plural "groups"
+msgstr[0] "grupo"
+msgstr[1] "grupoj"
+
+#: classes/admin/groupslisttable.php:270
+msgid "deleted"
+msgstr "forigita"
+
+#: classes/admin/groupslisttable.php:251
+msgid "updated"
+msgstr "ĝisdatigita"
+
+#: classes/admin/groupslisttable.php:243
+msgid "unpublished your group"
+msgstr "malpublikigis vian grupon"
+
+#: classes/admin/groupslisttable.php:236
+msgid "published your group"
+msgstr "publikigis vian grupon"
+
+#: classes/admin/groupslisttable.php:200 templates/groups/dialog-avatar.php:8
+#: templates/groups/dialog-category-avatar.php:8
+#: templates/groups/group-category-header.php:72
+#: templates/groups/group-header.php:95
+msgid "Delete"
+msgstr "Forigi"
+
+#: classes/admin/groupslisttable.php:199
+msgid "Unpublish"
+msgstr "Malpublikigi"
+
+#: classes/admin/groupslisttable.php:198
+msgid "Publish"
+msgstr "Publikigi"
+
+#: classes/admin/groupslisttable.php:173
+msgid "unpublished"
+msgstr "malpublikigita"
+
+#: classes/admin/groupslisttable.php:173
+msgid "published"
+msgstr "publikigita"
+
+#: classes/admin/groupslisttable.php:128 templates/groups/dialog-create.php:65
+msgid "Privacy"
+msgstr "Privateco"
+
+#: classes/admin/groupslisttable.php:116
+msgid "Read more"
+msgstr "Legi pli"
+
+#: classes/admin/groupslisttable.php:62 templates/groups/group-header.php:213
+msgid "Members"
+msgstr "Membroj"
+
+#: classes/admin/groupslisttable.php:61
+msgid "Status"
+msgstr "Stato"
+
+#: classes/admin/groupslisttable.php:60
+#: templates/groups/group-members-item.php:22
+#: templates/groups/group-members-item.php:29
+msgid "Owner"
+msgstr "Posedanto"
+
+#: classes/admin/groupslisttable.php:58
+#: templates/admin/group_categories.php:120
+#: templates/groups/dialog-create.php:16
+msgid "Description"
+msgstr "Priskribo"
+
+#: classes/admin/groupslisttable.php:57
+msgid "Group"
+msgstr "Grupo"
+
+#: classes/admin/configsectiongroups.php:522
+msgid "Advanced"
+msgstr "Altnivela"
+
+#: classes/admin/configsectiongroups.php:495
+msgid "Show membership summary for group names on stream"
+msgstr "Montri membrecan resumon por grupaj nomoj sur fluo"
+
+#: classes/admin/configsectiongroups.php:492
+msgid "When enabled, hovering over group names on stream will display membership and following summary. This feature is likely to slow down stream performance."
+msgstr "Kiam ebligita, musumi sur grupaj nomoj en fluo montras membrecon kaj sekvan resumon. Ĉi tiu funkcio probable malrapidigos la fluan kapablon."
+
+#: classes/admin/configsectiongroups.php:486
+msgid "Email Admins when a new group is created"
+msgstr "Sendi retmesaĝon al administrantoj kiam nova grupo estas kreita"
+
+#: classes/admin/configsectiongroups.php:483
+msgid "Users with Administrator role will receive an email when a new group is created"
+msgstr "Uzantoj kun administrantaj roloj ricevos retmesaĝon kiam nova grupo estas kreita"
+
+#: classes/admin/configsectiongroups.php:477
+msgid "Replace \"invite\" with \"add\" for Admins"
+msgstr "Anstataŭigi \"inviti\" per \"aldoni\" por administrantoj"
+
+#: classes/admin/configsectiongroups.php:474
+msgid "Site and Community Administrators will add users to group without the need to confirm."
+msgstr "Retejaj kaj komunumaj administrantoj aldonos uzantojn al grupoj sen bezonoj de konfirmoj de ili."
+
+#: classes/admin/configsectiongroups.php:467
+msgid "Force unique names"
+msgstr "Devigi unikajn nomojn"
+
+#: classes/admin/configsectiongroups.php:464
+msgid "Enabled: PeepSo will disallow creating groups with the same names. Runs a risk of exposing the existence of secret groups to non-members."
+msgstr "Ebligita: PeepSo malpermesos la kreadon de grupoj kun la samaj nomoj. Tio riskas ke la ekzistado de sekretaj grupoj estos malkaŝita al ne-membroj."
+
+#: classes/admin/configsectiongroups.php:445
+msgid "Pin to top only inside groups"
+msgstr "Fiksi supre nur en grupoj"
+
+#: classes/admin/configsectiongroups.php:442
+msgid "Disabled: pinned group posts will be also pinned to top on author profile and main activity"
+msgstr "Malebligita: fiksitaj grupaj afiŝoj estos  fiksitaj ankaŭ al supro sur aŭtora profilo kaj ĉefa aktiveco"
+
+#: classes/admin/configsectiongroups.php:442
+msgid "Enabled: pinned group posts will be pinned to top only in group views"
+msgstr "Ebligita: fiksitaj grupaj afiŝoj estos fiksitaj al supro nur en grupaj vidoj"
+
+#: classes/admin/configsectiongroups.php:400
+msgid "Editing group posts and comments"
+msgstr "Redakti grupajn afiŝojn kaj komentojn"
+
+#: classes/admin/configsectiongroups.php:393
+#: classes/admin/configsectiongroups.php:427
+msgid "By group moderators"
+msgstr "Per grupaj kontrolantoj"
+
+#: classes/admin/configsectiongroups.php:389
+msgid "Enabled: group moderators can edit posts and comments in respective groups"
+msgstr "Ebligita: grupaj kontrolantoj povas redakti afiŝojn kaj komentojn en siaj grupoj"
+
+#: classes/admin/configsectiongroups.php:385
+#: classes/admin/configsectiongroups.php:419
+msgid "By group managers"
+msgstr "Per mastrumantoj"
+
+#: classes/admin/configsectiongroups.php:381
+msgid "Enabled: group managers can edit posts and comments in respective groups"
+msgstr "Ebligita: mastrumantoj povas redakti afiŝojn kaj komentojn en siaj grupoj"
+
+#: classes/admin/configsectiongroups.php:377
+#: classes/admin/configsectiongroups.php:411
+msgid "By group owners"
+msgstr "Per grupaj posedantoj"
+
+#: classes/admin/configsectiongroups.php:373
+#: classes/admin/configsectiongroups.php:381
+#: classes/admin/configsectiongroups.php:389
+msgid "Disabled: only admin can edit posts and comments"
+msgstr "Malebligita: nur administranto povas redakti afiŝojn kaj komentojn"
+
+#: classes/admin/configsectiongroups.php:373
+msgid "Enabled: group owners can edit posts and comments in respective groups"
+msgstr "Ebligita: grupaj posedantoj povas redakti afiŝojn kaj komentojn en siaj grupoj"
+
+#: classes/admin/configsectiongroups.php:366
+#: classes/admin/groupslisttable.php:59
+msgid "Categories"
+msgstr "Kategorioj"
+
+#: classes/admin/configsectiongroups.php:359
+msgid "Show group count"
+msgstr "Montri grupan nombron"
+
+#: classes/admin/configsectiongroups.php:356
+msgid "The count will not be accurate if a category contains unpublished or secret groups."
+msgstr "La kalkulado ne estos preciza se kategorio enhavas malpublikigitajn aŭ sekretajn grupojn."
+
+#: classes/admin/configsectiongroups.php:350
+msgid "Hide empty categories"
+msgstr "Kaŝi malplenajn kategoriojn"
+
+#: classes/admin/configsectiongroups.php:347
+msgid "Hide categories which don't have any groups assigned to them."
+msgstr "Kaŝi kategoriojn kiuj ne havas iujn grupojn aligitajn al ili."
+
+#: classes/admin/configsectiongroups.php:341
+msgid "Expand all categories"
+msgstr "Etendu ĉiujn kategoriojn"
+
+#: classes/admin/configsectiongroups.php:338
+msgid "Disabled: only the first category shows a preview of the group listing."
+msgstr "Malebligita: nur la unua kategorio montras antaŭrigardon de la grupa listigo."
+
+#: classes/admin/configsectiongroups.php:332
+msgid "Each category loads"
+msgstr "Ĉiu kategorio ŝarĝas"
+
+#: classes/admin/configsectiongroups.php:328
+msgid "Only this many groups will show in each category before offering a link to the full category listing."
+msgstr "Nur tiom da grupoj aperos en ĉiu kategorio antaŭ ol estos proponita ligilo al la plena kategoria listigo."
+
+#: classes/admin/configsectiongroups.php:319
+msgid "%d groups"
+msgstr "%d grupoj"
+
+#: classes/admin/configsectiongroups.php:306
+msgid "Category listing"
+msgstr "Kategoria listigo"
+
+#: classes/admin/configsectiongroups.php:300
+msgid "Each ajax call loads"
+msgstr "Po ĉiu ajax alvokaj ŝarĝoj"
+
+#: classes/admin/configsectiongroups.php:296
+msgid "Only this many categories will show in each ajax call in category listing."
+msgstr "Nur ĉi tiom da kategorioj estos montrataj po ĉiu ajax alvoko en kategoria listado."
+
+#: classes/admin/configsectiongroups.php:293
+#: classes/admin/configsectiongroups.php:322
+msgid "default"
+msgstr "defaŭlta"
+
+#: classes/admin/configsectiongroups.php:290
+msgid "%d category"
+msgid_plural "%d categories"
+msgstr[0] "%d kategorio"
+msgstr[1] "%d kategorioj"
+
+#: classes/admin/configsectiongroups.php:280
+msgid "Allowed categories per group"
+msgstr "Permesitaj kategorioj po grupo"
+
+#: classes/admin/configsectiongroups.php:267
+msgid "Allow multiple categories per group"
+msgstr "Permesi multajn kategoriojn per grupo"
+
+#: classes/admin/configsectiongroups.php:264
+msgid "Users will be able to assign a group to multiple categories"
+msgstr "Uzantoj povos asigni grupon al multaj kategorioj"
+
+#: classes/admin/configsectiongroups.php:257
+msgid "Set group categories as default view."
+msgstr "Agordi grupajn kategoriojn kiel defaŭlta vido."
+
+#: classes/admin/configsectiongroups.php:249
+msgid "Enable group categories"
+msgstr "Ebligi grupajn kategoriojn"
+
+#: classes/admin/configsectiongroups.php:246
+msgid "Users will be able to assign groups to categories."
+msgstr "Uzantoj povos asigni grupojn al  kategorioj."
+
+#: classes/admin/configsectiongroups.php:238
+msgid "New members"
+msgstr "Novaj membroj"
+
+#: classes/admin/configsectiongroups.php:231
+msgid "Automatically subscribe new members to emails"
+msgstr "Aŭtomate abonigi novajn membrojn por retpoŝto"
+
+#: classes/admin/configsectiongroups.php:228
+msgid "Enabled: new group members will automatically be subscribed to receive new posts email notifications"
+msgstr "Ebligita: novaj grupanoj aŭtomate aboniĝos por ricevi sciigojn retpoŝte pri novaj afiŝoj"
+
+#: classes/admin/configsectiongroups.php:222
+msgid "Automatically subscribe new members to notifications"
+msgstr "Aŭtomate abonigi novajn membrojn al sciigoj"
+
+#: classes/admin/configsectiongroups.php:219
+msgid "Enabled: new group members will automatically be subscribed to receive new posts notifications (on-site)"
+msgstr "Ebligita: novaj grupanoj aŭtomate aboniĝos por ricevi sciigojn pri novaj afiŝoj (sur retejo)"
+
+#: classes/admin/configsectiongroups.php:213
+msgid "Notifications"
+msgstr "Sciigoj"
+
+#: classes/admin/configsectiongroups.php:207
+msgid "Action text (on other streams)"
+msgstr "Aga teksto (sur aliaj fluoj)"
+
+#: classes/admin/configsectiongroups.php:204
+msgid "For example \"joined a group:\". Leave empty for default. Applies to old posts too."
+msgstr "Ekzemple \"aliĝis al grupo:\".  Lasu malplenan defaŭlte.  Aplikiĝas ankaŭ al malnovaj afiŝoj."
+
+#: classes/admin/configsectiongroups.php:200
+msgid "Action text (on group stream)"
+msgstr "Aga teksto (sur grupa fluo)"
+
+#: classes/admin/configsectiongroups.php:197
+msgid "For example \"joined this group\". Leave empty for default. Applies to old posts too."
+msgstr "Ekzemple \"aliĝis al ĉi tiu grupo\".  Lasu malplenan defaŭlte.  Aplikiĝas ankaŭ al malnovaj afiŝoj."
+
+#: classes/admin/configsectiongroups.php:193
+#: classes/admin/configsectiongroups.php:509
+msgid "Enabled"
+msgstr "Ebligita"
+
+#: classes/admin/configsectiongroups.php:190
+msgid "Enabled: automatically post on user's stream when they join a group. These posts are deleted automatically when the user leaves or is removed/banned from the group."
+msgstr "Ebligita: aŭtomate afiŝi en la uzanta fluo kiam ili aliĝas al grupo.  Ĉi tiuj afiŝoj estas forigitaj aŭtomate kiam la uzanto foriras aŭ estas forigita/forbarita de la grupo."
+
+#: classes/admin/configsectiongroups.php:185
+msgid "Post to stream when joining"
+msgstr "Afiŝi al fluo kiam aliĝas"
+
+#: classes/admin/configsectiongroups.php:177
+msgid "General"
+msgstr "Ĝenerale"
+
+#: classes/admin/configsectiongroups.php:142
+msgid "Enable group creation"
+msgstr "Ebligi kreadon de grupo"
+
+#: classes/admin/configsectiongroups.php:139
+msgid "Disabled: only site admins can create groups"
+msgstr "Malebligita: nur retejaj administrantoj povas krei grupojn"
+
+#: classes/admin/configsectiongroups.php:139
+msgid "Enabled: all site members can create groups"
+msgstr "Ebligita: ĉiuj retejaj membroj povas krei grupojn"
+
+#: classes/admin/configsectiongroups.php:131
+msgid "Group listings"
+msgstr "Listigoj de grupoj"
+
+#: classes/admin/configsectiongroups.php:104
+msgid "Default sort direction"
+msgstr "Defaŭlta ordo-direkto"
+
+#: classes/admin/configsectiongroups.php:97 templates/groups/groups.php:104
+msgid "Ascending"
+msgstr "Suprenvicige"
+
+#: classes/admin/configsectiongroups.php:96
+msgid "Descending (default)"
+msgstr "Descende (defaŭlta)"
+
+#: classes/admin/configsectiongroups.php:91
+msgid "Default sort"
+msgstr "Defaŭlta ordigo"
+
+#: classes/admin/configsectiongroups.php:85 templates/groups/groups.php:96
+msgid "Members count"
+msgstr "Nombro da partoprenantoj"
+
+#: classes/admin/configsectiongroups.php:84
+#: templates/groups/group-members-search-form.php:55
+#: templates/groups/groups.php:95
+msgid "Alphabetical"
+msgstr "Alfabete"
+
+#: classes/admin/configsectiongroups.php:83
+msgid "Recently added (default)"
+msgstr "Lastatempe aldonita (defaŭlta)"
+
+#: classes/admin/configsectiongroups.php:78
+msgid "Allow guest access"
+msgstr "Permesi gastan aliron"
+
+#: classes/admin/configsectiongroups.php:75
+msgid "Show or hide the groups listing from visitors who are not logged in"
+msgstr "Montri aŭ kaŝi la listojn de grupoj por vizitantoj, kiuj ne estas ensalutintaj"
+
+#: classes/admin/configsectiongroups.php:70
+msgid "Show creation date"
+msgstr "Montri daton de kreo"
+
+#: classes/admin/configsectiongroups.php:67
+msgid "Show or hide the groups creation dates in the groups listing"
+msgstr "Montri aŭ kaŝi la datojn de kreo de grupoj en la listigo de grupoj"
+
+#: classes/admin/configsectiongroups.php:61
+msgid "Show owner(s)"
+msgstr "Montri posedanto(j)n"
+
+#: classes/admin/configsectiongroups.php:58
+msgid "Show or hide the groups owner(s) in the groups listing"
+msgstr "Montri aŭ kaŝi la posedanto(j)n de la grupoj sur la listigo de grupoj"
+
+#: classes/admin/configsectiongroups.php:51
+msgid "SEO"
+msgstr "SEO"
+
+#: classes/admin/configsectiongroups.php:45
+msgid "Group slug changes"
+msgstr "Ŝanĝoj de grupa URL"
+
+#: classes/admin/configsectiongroups.php:42
+msgid "Option 3: the group owner can change the slug manually."
+msgstr "Opcio 3: la posedanto de la grupo povas ŝanĝi la URL-on permane."
+
+#: classes/admin/configsectiongroups.php:42
+msgid "Option 2: new group slug will be generated upon group name change."
+msgstr "Opcio 2: nova grupa URL estos kreita post ŝanĝo de grupnomo."
+
+#: classes/admin/configsectiongroups.php:42
+msgid "Option 1: group slug will stay the same as the original group name."
+msgstr "Opcio 1: grupa URL restos same kiel la originala grupnomo."
+
+#: classes/admin/configsectiongroups.php:38
+msgid "by the group owner"
+msgstr "de la posedanto de la grupo"
+
+#: classes/admin/configsectiongroups.php:37
+msgid "when group name is changed"
+msgstr "kiam grupa nomo estas ŝanĝita"
+
+#: classes/admin/configsectiongroups.php:36
+msgid "never"
+msgstr "neniam"
+
+#: classes/admin/configsectiongroups.php:31
+msgid "Use slugs in group URLs"
+msgstr "Uzi URL-nomon en grupaj URL-oj"
+
+#: classes/admin/configsectiongroups.php:28
+msgid "Disabled: /groups/1234/"
+msgstr "Malebligita: /groups/1234/"
+
+#: classes/admin/configsectiongroups.php:28
+msgid "Enabled: /groups/my-amazing-group/"
+msgstr "Ebligita: /groups/my-amazing-group/"

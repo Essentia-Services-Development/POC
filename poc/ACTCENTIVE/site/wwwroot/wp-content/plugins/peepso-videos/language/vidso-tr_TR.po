@@ -1,0 +1,872 @@
+# Translation of PeepSo - Audio & Video in Turkish
+# This file is distributed under the same license as the PeepSo - Audio & Video package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-02-01 10:20:51+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/3.0.0\n"
+"Language: tr\n"
+"Project-Id-Version: PeepSo - Audio & Video\n"
+
+#: classes/configsectionvideos.php:258
+msgid "Clear history"
+msgstr ""
+
+#: classes/configsectionvideos.php:34
+msgid "Autoplay on activity stream"
+msgstr ""
+
+#: classes/configsectionvideos.php:30
+msgid "When enabled, videos will be autoplayed when visible on activity stream."
+msgstr ""
+
+#: classes/configsectionvideos.php:809
+msgid "Media Library"
+msgstr ""
+
+#: classes/configsectionvideos.php:799
+msgid "When enabled all users are able to access all files in media library."
+msgstr ""
+
+#: classes/adminvideosqueuelisttable.php:73
+msgid "Thumbnail"
+msgstr ""
+
+#: classes/adminvideosqueuelisttable.php:206
+msgid "See post"
+msgstr ""
+
+#: classes/adminvideosqueuelisttable.php:72
+msgid "Link"
+msgstr ""
+
+#: templates/videos/content-media-pending.php:15
+msgid "Video is being processed. You'll be notified when it's ready."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "PeepSo"
+msgstr "PeepSo"
+
+#. Description of the plugin/theme
+msgid "Upload audio and video files. Link and embed audio and video from supported providers"
+msgstr "Ses ve video dosyalarını yükleyin. Desteklenen sağlayıcılardan gelen ses ve videoyu bağlayın ve gömün"
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://peepso.com"
+msgstr "https://peepso.com"
+
+#: templates/widgets/videos.tpl.php:32
+msgid "View All"
+msgstr "Hepsini gör"
+
+#: templates/widgets/community-videos.tpl.php:36
+#: templates/widgets/videos.tpl.php:48
+msgid "No video"
+msgstr "Video yok"
+
+#: templates/widgets/community-videos.tpl.php:34
+#: templates/widgets/videos.tpl.php:46
+msgid "No audio"
+msgstr "Ses yok"
+
+#: templates/widgets/community-videos.tpl.php:31
+#: templates/widgets/videos.tpl.php:43
+msgid "No media"
+msgstr "Medya yok"
+
+#: templates/videos/videos-group.php:23 templates/videos/videos.php:18
+msgid "Oldest first"
+msgstr "İlk önce en eski"
+
+#: templates/videos/videos-group.php:22 templates/videos/videos.php:17
+msgid "Newest first"
+msgstr "İlk önce en yeni"
+
+#: templates/videos/videos-group.php:17 templates/videos/videos.php:12
+msgid "Large thumbnails"
+msgstr ""
+
+#: templates/videos/videos-group.php:16 templates/videos/videos.php:11
+msgid "Small thumbnails"
+msgstr ""
+
+#: templates/videos/postbox-videos.php:105
+msgid ""
+"Your video was uploaded successfully!\n"
+"It's been added to the queue, we will notify you when your video is published."
+msgstr ""
+"Videonuz başarıyla yüklendi!\n"
+"kuyruğa eklendi, videonuz yayınlandığında size haber vereceğiz."
+
+#: templates/videos/postbox-videos.php:103
+msgid "Your video was uploaded successfully!"
+msgstr ""
+
+#: templates/videos/postbox-videos.php:16
+msgid "Enter video URL here"
+msgstr "Video URL'si buraya girin"
+
+#: templates/videos/postbox-audio.php:89
+msgid ""
+"Your audio was uploaded successfully!\n"
+"It's been added to the queue, we will notify you when your audio is published."
+msgstr ""
+"Sesiniz başarıyla yüklendi!\n"
+"kuyruğa eklendi, sesiniz yayınlandığında size haber vereceğiz."
+
+#: templates/videos/postbox-audio.php:78
+msgid "Album (optional)"
+msgstr "Albüm (isteğe bağlı)"
+
+#: templates/videos/postbox-audio.php:74
+msgid "Artist (optional)"
+msgstr "Sanatçı (isteğe bağlı)"
+
+#: templates/videos/postbox-audio.php:70 templates/videos/postbox-videos.php:92
+msgid "Enter the title..."
+msgstr "Başlık girin..."
+
+#: templates/videos/postbox-audio.php:58 templates/videos/postbox-videos.php:80
+msgid "Upload failed: "
+msgstr "Yükleme başarısız: "
+
+#: templates/videos/postbox-audio.php:55 templates/videos/postbox-videos.php:77
+msgid "File uploaded"
+msgstr ""
+
+#: templates/videos/postbox-audio.php:43 templates/videos/postbox-videos.php:43
+msgid "Max file size: %1$sMB"
+msgstr "Maksimum Dosya Boyutu: %1$sMB"
+
+#: templates/videos/postbox-audio.php:40 templates/videos/postbox-videos.php:40
+msgid "Upload"
+msgstr "Yükle"
+
+#: templates/videos/postbox-audio.php:29 templates/videos/postbox-videos.php:29
+msgid "or"
+msgstr "veya"
+
+#: templates/videos/postbox-audio.php:16
+msgid "Audio URL"
+msgstr "Ses Linki"
+
+#: templates/videos/post-edit.php:1
+msgid "Enter video URL here. Use browser link, not embed code."
+msgstr "Video URL'sini buraya girin. Gömme kodu değil tarayıcı bağlantısını kullanın."
+
+#: templates/videos/content-media-pending.php:22
+msgid "Video failed to convert."
+msgstr "Video dönüştürülemedi."
+
+#: templates/videos/content-media-pending.php:20
+msgid "It has now converted."
+msgstr "Şimdi dönüştürüldü."
+
+#: templates/videos/content-media-pending.php:17
+msgid "Video is being converted. It should be available in a few minutes."
+msgstr "Video dönüştürülüyor. Birkaç dakika içinde dönüştürülecektir."
+
+#: templates/videos/card.php:10
+msgid "Album"
+msgstr "Albüm"
+
+#: templates/videos/card.php:6
+msgid "Artist"
+msgstr "Sanatçı"
+
+#: peepsovideos.php:1818
+msgid "Video conversion failed"
+msgstr "Video dönüştürme işlemi başarısız oldu"
+
+#: peepsovideos.php:1812
+msgid "Video conversion complete"
+msgstr "Video dönüştürme işlemi tamamlandı"
+
+#: peepsovideos.php:1756
+msgid "video"
+msgstr "video"
+
+#: peepsovideos.php:1465
+msgid "by"
+msgstr ""
+
+#: peepsovideos.php:1450
+msgid "posted an audio"
+msgstr "ses paylaşıldı"
+
+#: peepsovideos.php:1432
+msgid "posted a video"
+msgstr "video paylaşıldı"
+
+#: peepsovideos.php:1430 peepsovideos.php:1452
+msgid "posted"
+msgstr "paylaşıldı"
+
+#: peepsovideos.php:618
+msgid "Video Uploads"
+msgstr "Video Yüklemeleri"
+
+#. Plugin Name of the plugin/theme
+#: peepsovideos.php:597
+msgid "PeepSo Core: Audio & Video"
+msgstr "PeepSo Çekirdek Bileşeni: Ses & Video"
+
+#: peepsovideos.php:544
+msgid "Get it now!"
+msgstr "Şimdi alın!"
+
+#: peepsovideos.php:542
+msgid "The %s plugin requires the PeepSo plugin to be installed and activated."
+msgstr "%s eklenti PeepSo eklenti yüklendiğinde ve etkinleştirildiğinde gereklidir."
+
+#: peepsovideos.php:96 peepsovideos.php:1829
+msgid "Videos"
+msgstr "Videolar"
+
+#: peepsovideos.php:93 peepsovideos.php:1829
+msgid "Audio & Video"
+msgstr "Ses & Video"
+
+#: classes/widgets/widgetvideos.php:117
+msgid "My Media"
+msgstr "Benim Galerim"
+
+#: classes/widgets/widgetvideos.php:13
+msgid "PeepSo Audio & Video Widget"
+msgstr "PeepSo Ses & Video Bileşeni"
+
+#: classes/widgets/widgetvideos.php:12
+msgid "PeepSo Audio & Video"
+msgstr "PeepSo Ses & Video"
+
+#: classes/widgets/widgetcommunityvideos.php:117
+#: classes/widgets/widgetvideos.php:134
+msgid "All"
+msgstr "Tümü"
+
+#: classes/widgets/widgetcommunityvideos.php:114
+#: classes/widgets/widgetvideos.php:131
+msgid "Media type"
+msgstr "Ortam türü"
+
+#: classes/widgets/widgetcommunityvideos.php:111
+#: classes/widgets/widgetvideos.php:128
+msgid "Advanced"
+msgstr "Gelişmiş"
+
+#: classes/widgets/widgetcommunityvideos.php:100
+msgid "Latest Media"
+msgstr "En Yeni Ortam"
+
+#: classes/widgets/widgetcommunityvideos.php:13
+msgid "PeepSo Community Audio & Video Widget"
+msgstr "PeepSo Topluluğu Ses & Video bileşeni"
+
+#: classes/widgets/widgetcommunityvideos.php:12
+msgid "PeepSo Community Audio & Video"
+msgstr "PeepSo Topluluğu Ses & Video"
+
+#: classes/videosupload.php:977
+msgid "Your video failed to convert"
+msgstr ""
+
+#: classes/videosupload.php:969
+msgid "Your video is ready"
+msgstr "Videonuz hazır"
+
+#: classes/videosupload.php:855
+msgid "line:"
+msgstr "satır:"
+
+#: classes/videosupload.php:854
+msgid "file:"
+msgstr "dosya:"
+
+#: classes/videosupload.php:853 classes/videosupload.php:857
+msgid "message:"
+msgstr "mesaj:"
+
+#: classes/videosupload.php:846
+msgid "Server resources exceeded"
+msgstr "Sunucu kaynakları aşıldı"
+
+#: classes/videosupload.php:831
+msgid "Transcoder Read Job Failed: "
+msgstr "Kod Dönüştürme Okuma İşlemi Başarısız Oldu: "
+
+#: classes/videosupload.php:815
+msgid "Transcoder Job Failed: "
+msgstr "Kod Dönüştürme İşlemi Başarısız Oldu: "
+
+#: classes/videosupload.php:701
+msgid "Poster"
+msgstr "Afiş"
+
+#: classes/videosupload.php:647
+msgid "Animated WEBM"
+msgstr "Animasyonlu WEBM"
+
+#: classes/videosupload.php:634
+msgid "Animated GIF"
+msgstr "Animasyonlu GIF"
+
+#: classes/videosupload.php:588
+msgid "Failed to convert videos."
+msgstr "Videolar dönüştürülemedi."
+
+#: classes/videosupload.php:474
+msgid "Source file not found"
+msgstr "Kaynak dosya bulunamadı"
+
+#: classes/videosupload.php:454
+msgid "Nothing to convert?"
+msgstr "Dönüştürülecek bir şey yok mu?"
+
+#: classes/videosupload.php:442
+msgid "Missing shell_exec() or exec()"
+msgstr "Kayıp shell_exec() veya exec()"
+
+#: classes/videosupload.php:409
+msgid "There was a problem when creating transcoder job."
+msgstr "Kod dönüştürme oluşturulurken bir sorun oluştu."
+
+#: classes/videosupload.php:334
+msgid "There was a problem when deleting file"
+msgstr "Dosyayı silinirken bir sorun oluştu"
+
+#: classes/videosupload.php:293
+msgid "There was a problem when uploading the file"
+msgstr "Dosya yüklenirken bir sorun oluştu"
+
+#: classes/videosupload.php:202
+msgid "Missing Amazon configuration."
+msgstr "Eksik Amazon yapılandırması."
+
+#: classes/videosupload.php:104
+msgid "Failed to create transcoder job."
+msgstr "Kod dönüştürme işi oluşturulamadı."
+
+#: classes/videosupload.php:86
+msgid "Failed upload video to s3."
+msgstr "Video s3'e yüklenemedi."
+
+#: classes/videosajax.php:291
+msgid "Failed to upload media."
+msgstr "Medya yüklenemedi."
+
+#: classes/videosajax.php:273
+msgid "File extension is not allowed"
+msgstr ""
+
+#: classes/videosajax.php:258
+msgid "Invalid filetype"
+msgstr "Geçersiz dosya türü"
+
+#: classes/videosajax.php:241
+msgid "Maximum file upload quota reached. Delete posts with videos to free some space"
+msgstr "Maksimum dosya yükleme kotasına ulaşıldı. Yer açmak için gönderideki videoları silin"
+
+#: classes/videosajax.php:216
+msgid "Maximum file upload quota reached. Delete posts with %s to free some space."
+msgstr ""
+
+#: classes/videosajax.php:215
+msgid "videos"
+msgstr ""
+
+#: classes/videosajax.php:215
+msgid "audio"
+msgstr ""
+
+#: classes/videosajax.php:213
+msgid "Only files up to %1$dMB are allowed."
+msgstr "Yalnızca %1$dMB 'a kadar dosyalara izin verilir."
+
+#: classes/videosajax.php:156
+msgid "%s doesn't have any videos yet"
+msgstr "%s adlı kullanıcının henüz hiç videosu yok"
+
+#: classes/videosajax.php:156
+msgid "You don't have any videos yet"
+msgstr "Henüz hiç videonuz yok"
+
+#: classes/videosajax.php:83
+msgid "Sorry, this is not a valid audio.<br><small>Please make sure you're using a valid URL, not an embed code.</small>"
+msgstr ""
+
+#: classes/videosajax.php:81
+msgid "Sorry, this is not a valid video.<br><small>Please make sure you're using a valid URL, not an embed code.</small>"
+msgstr ""
+
+#: classes/videosadmin.php:79
+msgid "This will be sent to a video owner when video conversion is failed"
+msgstr "Video dönüştürme işlemi başarısız olduğunda bu video sahibine gönderilir"
+
+#: classes/videosadmin.php:78
+msgid "Video Conversion Failed"
+msgstr "Video Dönüştürme Başarısız"
+
+#: classes/videosadmin.php:74
+msgid "This will be sent to a video owner when video conversion is complete"
+msgstr "Video dönüştürme işlemi tamamlandığında bu video sahibine gönderilir"
+
+#: classes/videosadmin.php:73
+msgid "Video Conversion Complete"
+msgstr "Video dönüştürme işlemi tamamlandı"
+
+#: classes/videosadmin.php:36
+msgid "Video of post %s"
+msgstr "%s adlı yayının videosu"
+
+#: classes/configsectionvideos.php:474
+#: classes/widgets/widgetcommunityvideos.php:119
+#: classes/widgets/widgetvideos.php:136 peepsovideos.php:100
+#: peepsovideos.php:678 peepsovideos.php:1662
+msgid "Audio"
+msgstr "Ses"
+
+#: classes/configsectionvideos.php:467
+msgid "Last.fm API key"
+msgstr "Last.fm API anahtarı"
+
+#: classes/configsectionvideos.php:464
+msgid "here"
+msgstr "buradan"
+
+#: classes/configsectionvideos.php:464
+msgid "You can get the API key %s"
+msgstr "API anahtarını alabilirsiniz %s"
+
+#: classes/configsectionvideos.php:456
+msgid "Cover art download will be attempted via Last.fm API."
+msgstr "Kapak resmi indirilmeye Last.fm API aracılığıyla denenecek."
+
+#: classes/configsectionvideos.php:455
+msgid "Cover Art"
+msgstr "Kapak Resmi"
+
+#: classes/configsectionvideos.php:449
+msgid "Allowed space per user for audio"
+msgstr ""
+
+#: classes/configsectionvideos.php:438
+msgid "Maximum audio upload size"
+msgstr ""
+
+#: classes/configsectionvideos.php:422
+msgid "Users will be able to upload audio files. The files will be published immediately without conversion."
+msgstr "Kullanıcılar ses dosyalarını yükleyebilir. Dosyalar dönüştürülmeden anında yayınlanacaktır."
+
+#: classes/configsectionvideos.php:420
+msgid "Audio uploads"
+msgstr "Ses yüklemeleri"
+
+#: classes/configsectionvideos.php:413
+msgid "%s appears to be %s"
+msgstr "%s bunun gibi görünecek %s"
+
+#: classes/configsectionvideos.php:412
+msgid "disabled"
+msgstr "devre dışı"
+
+#: classes/configsectionvideos.php:412
+msgid "enabled"
+msgstr "etkin"
+
+#: classes/configsectionvideos.php:403
+msgid "Audio uploads don't require a cron job or conversion, but they require a PHP function finfo_open() to work properly."
+msgstr "Ses yüklemeleri bir cron işi veya dönüşümü gerektirmez, ancak düzgün çalışması için bir PHP fonksiyonu finfo_open() gerektirir."
+
+#: classes/configsectionvideos.php:388
+msgid "When enabled users are able to link and/or upload audio."
+msgstr "Etkinleştirildiğinde, kullanıcılar ses bağlantısı paylaşabilir ve/veya yükleyebilir."
+
+#: classes/configsectionvideos.php:375
+msgid "Video uploads"
+msgstr "Video yüklemeleri"
+
+#: classes/configsectionvideos.php:369
+msgid "Output format"
+msgstr "Çıktı biçimi"
+
+#: classes/configsectionvideos.php:365
+msgid "WEBM file format results in smaller files, but conversion might use more server resources."
+msgstr "WEBM dosya formatı daha küçük dosyalara neden olur, ancak dönüştürmek daha fazla sunucu kaynağı kullanabilir."
+
+#: classes/configsectionvideos.php:362
+msgid "Both"
+msgstr "İkisi de"
+
+#: classes/configsectionvideos.php:361
+msgid "WEBM"
+msgstr "WEBM"
+
+#: classes/configsectionvideos.php:360
+msgid "GIF"
+msgstr "GIF"
+
+#: classes/configsectionvideos.php:355
+msgid "Generate animated gif"
+msgstr "Hareketli gif üret"
+
+#: classes/configsectionvideos.php:351
+msgid "When enabled a quick few second gif will be generated from the video. It’ll be visible when hovering cursor over the video."
+msgstr "Etkinleştirildiğinde, videodan birkaç saniye hızlı bir gif oluşturulur. Fare imleci videonun üzerine getirildiğinde görünür."
+
+#: classes/configsectionvideos.php:346
+msgid "Generate poster videos"
+msgstr "Videolara kapak oluştur"
+
+#: classes/configsectionvideos.php:342
+msgid "When enabled video preview thumbnail will be generated. With the option disabled, there will be no preview frame. It’ll just be black background with a play icon on it."
+msgstr "Etkinleştirildiğinde video önizlemesi küçük resmi oluşturulur. Seçenek devre dışı bırakıldığında, önizleme çerçevesi olmaz. Üzerinde play simgesi olan siyah bir arka plan olacaktır."
+
+#: classes/configsectionvideos.php:340
+msgid "Thumbnails and previews"
+msgstr "Küçük resimler ve önizlemeler"
+
+#: classes/configsectionvideos.php:333
+msgid "Delete original file after conversion"
+msgstr "Dönüştürdükten sonra orijinal dosyayı sil"
+
+#: classes/configsectionvideos.php:330
+msgid "Deleting the original file after conversion is recommended to save space on the server"
+msgstr "Sunucuda yer kazanmak için dönüştürdükten sonra orijinal dosyayı silmek önerilir"
+
+#: classes/configsectionvideos.php:325
+msgid "Path to the FFprobe binary"
+msgstr "FFprobe binary dosyasının yolu"
+
+#: classes/configsectionvideos.php:322
+msgid "The FFprobe library is required for video resolution analysis. Please ask your hosting provider about it."
+msgstr "FFprobe kütüphanesi, video çözünürlüğü analizi için gereklidir. Lütfen barındırma sağlayıcınıza bunu sorun."
+
+#: classes/configsectionvideos.php:318
+msgid "Never upscale videos"
+msgstr "Asla videoları yükseltme"
+
+#: classes/configsectionvideos.php:314
+msgid "When enabled, source videos with resolution lower than the defined output resolution will not be upscaled. The nearest lower resolution will be preferred. This setting is recommended to save space."
+msgstr "Etkinleştirildiğinde, tanımlanmış çıkış çözünürlüğünden daha düşük çözünürlüğe sahip kaynak videolar yükseltilmez. En yakın düşük çözünürlük tercih edilecektir. Yer kazanmak için bu ayar önerilir."
+
+#: classes/configsectionvideos.php:310
+msgid "Output resolution"
+msgstr "Çıkış çözünürlüğü"
+
+#: classes/configsectionvideos.php:306
+msgid "Applies to newly uploaded videos"
+msgstr "Yeni yüklenen videolara uygulanır"
+
+#: classes/configsectionvideos.php:294
+msgid "FFmpeg extra param"
+msgstr ""
+
+#: classes/configsectionvideos.php:288
+msgid "Path to the FFmpeg binary"
+msgstr "FFmpeg binary dosyasının yolu"
+
+#: classes/configsectionvideos.php:285
+msgid "The FFmpeg library is required for video conversions. Please ask your hosting provider about it."
+msgstr "FFmpeg kütüphanesi video dönüşümleri için gereklidir. Lütfen barındırma sağlayıcınıza bunu sorun."
+
+#: classes/configsectionvideos.php:283
+msgid "Conversions with ffmpeg"
+msgstr ""
+
+#: classes/configsectionvideos.php:270
+msgid "To enable the use of AWS, set the \"Enable AWS S3 & Elastic Transcoder Integration\" to \"YES\" and fill in the additional settings fields.<br/>To get your AWS Access ID and Keys, you can sign up here: %sGet Your AWS Access Keys%s."
+msgstr "AWS kullanımını etkinleştirmek için \"AWS S3 & Elastic Kod Dönüştürücü\" yü \"EVET\" olarak ayarlayın ve ek ayar alanlarını doldurun.<br/>AWS Erişim Kimliğinizi ve Anahtarınızı almak için buradan kaydolabilirsiniz: %sAWS Erişim Anahtarınızı Alın%s."
+
+#: classes/configsectionvideos.php:259
+msgid "AWS Error History:"
+msgstr "AWS Hata Geçmişi:"
+
+#: classes/configsectionvideos.php:247
+msgid "Don't keep a local copy of uploaded files"
+msgstr "Yüklenen dosyaların yerel bir kopyasını saklamayın"
+
+#: classes/configsectionvideos.php:241
+msgid "Elastic Transcoder Preset Id"
+msgstr "Elastik Kod Dönüştürücü Preset Id"
+
+#: classes/configsectionvideos.php:235
+msgid "Amazon Elastic Transcoder Preset is required"
+msgstr "Amazon Elastik Kod Dönüştürücü Preset gereklidir"
+
+#: classes/configsectionvideos.php:226
+msgid "Elastic Transcoder Pipeline Id"
+msgstr "Elastic Kod Dönüştürücü Pipeline Id"
+
+#: classes/configsectionvideos.php:220
+msgid "Amazon Elastic Transcoder Pipeline is required"
+msgstr "Amazon Elastik Kod Dönüştürücü Pipeline gereklidir"
+
+#: classes/configsectionvideos.php:211
+msgid "Amazon S3 Bucket"
+msgstr "Amazon S3 Bucket"
+
+#: classes/configsectionvideos.php:205
+msgid "Amazon S3 Bucket is required"
+msgstr "Amazon S3 Bucket gereklidir"
+
+#: classes/configsectionvideos.php:199
+msgid "Name of the Bucket to upload your videos to on Amazon S3"
+msgstr "Videolarınızı Amazon S3'e yüklemek için Bucket'ın Adı"
+
+#: classes/configsectionvideos.php:195
+msgid "AWS Region"
+msgstr "AWS Bölgeler"
+
+#: classes/configsectionvideos.php:189
+msgid "US West (Oregon)"
+msgstr "ABD Batı (Oregon)"
+
+#: classes/configsectionvideos.php:188
+msgid "US West (N. California)"
+msgstr "ABD Batı (Kuzey California)"
+
+#: classes/configsectionvideos.php:187
+msgid "US East (Ohio)"
+msgstr "ABD Doğu (Ohio)"
+
+#: classes/configsectionvideos.php:186
+msgid "US East (N. Virginia)"
+msgstr "ABD Doğu (Kuzey Virginia)"
+
+#: classes/configsectionvideos.php:185
+msgid "South America (São Paulo)"
+msgstr "Güney Amerika (São Paulo)"
+
+#: classes/configsectionvideos.php:184
+msgid "EU (Paris)"
+msgstr "AB (Paris)"
+
+#: classes/configsectionvideos.php:183
+msgid "EU (London)"
+msgstr "AB (Londra)"
+
+#: classes/configsectionvideos.php:182
+msgid "EU (Ireland)"
+msgstr "AB (İrlanda)"
+
+#: classes/configsectionvideos.php:181
+msgid "EU (Frankfurt)"
+msgstr "AB (Frankfurt)"
+
+#: classes/configsectionvideos.php:180
+msgid "Canada (Central)"
+msgstr "Kanada (Merkez)"
+
+#: classes/configsectionvideos.php:179
+msgid "Asia Pacific (Tokyo)"
+msgstr "Asya Pasifik (Tokyo)"
+
+#: classes/configsectionvideos.php:178
+msgid "Asia Pacific (Sydney)"
+msgstr "Asya Pasifik (Sidney)"
+
+#: classes/configsectionvideos.php:177
+msgid "Asia Pacific (Singapore)"
+msgstr "Asya Pasifik (Singapur)"
+
+#: classes/configsectionvideos.php:176
+msgid "Asia Pacific (Seoul)"
+msgstr "Asya Pasifik (Seul)"
+
+#: classes/configsectionvideos.php:175
+msgid "Asia Pacific (Mumbai)"
+msgstr "Asya Pasifik (Mumbai)"
+
+#: classes/configsectionvideos.php:170
+msgid "Amazon Secret Access Key"
+msgstr "Amazon Gizli Erişim Anahtarı"
+
+#: classes/configsectionvideos.php:164
+msgid "Amazon Secret Access Key is required"
+msgstr "Amazon Gizli Erişim Anahtarı gereklidir"
+
+#: classes/configsectionvideos.php:155
+msgid "Amazon Access Key ID"
+msgstr "Amazon Erişim Anahtarı ID'si"
+
+#: classes/configsectionvideos.php:148
+msgid "Amazon Access Key ID is required"
+msgstr "Amazon Erişim Anahtarı ID'si gereklidir"
+
+#: classes/configsectionvideos.php:142
+msgid "The Access Key ID you received when you signed up for AWS (20 characters)"
+msgstr "AWS'ye kaydolduğunuzda aldığınız Erişim Anahtarı ID'si (20 karakterden oluşan)"
+
+#: classes/configsectionvideos.php:140
+msgid "Conversions with AWS Elastic Transcoder"
+msgstr ""
+
+#: classes/configsectionvideos.php:133
+msgid "Allowed file extensions"
+msgstr ""
+
+#: classes/configsectionvideos.php:130
+msgid "One per line, it will allow MP4 if empty. The only officially supported format at the moment is mp4."
+msgstr ""
+
+#: classes/configsectionvideos.php:124
+msgid "Advanced options"
+msgstr ""
+
+#: classes/configsectionvideos.php:116
+msgid "Please bear in mind, video conversion is an advanced feature which carries a lot of technical requirements. It is recommended to test in on a staging copy of your website before deploying it live. By checking this field you confirm you understand all technical requirements that have to be met in order to use this feature, as outlined in the \"important information\" box."
+msgstr ""
+
+#: classes/configsectionvideos.php:111
+msgid "Allowed space per user for video"
+msgstr ""
+
+#: classes/configsectionvideos.php:108 classes/configsectionvideos.php:446
+msgid "In megabytes. 0 (zero) for no limit"
+msgstr "Megabayt olarak. 0 (sıfır) limitsiz"
+
+#: classes/configsectionvideos.php:100
+msgid "Maximum video upload size"
+msgstr ""
+
+#: classes/configsectionvideos.php:97 classes/configsectionvideos.php:435
+msgid "In megabytes - WordPress maximum upload size allowed is %1$sMB"
+msgstr "Megabayt olarak - İzin verilen maksimum WordPress yükleme boyutu %1$sMB'dir"
+
+#: classes/configsectionvideos.php:81 classes/configsectionvideos.php:430
+msgid "Limits"
+msgstr "Limitler"
+
+#: classes/configsectionvideos.php:49
+#: classes/widgets/widgetcommunityvideos.php:118
+#: classes/widgets/widgetvideos.php:135 peepsovideos.php:649
+#: peepsovideos.php:1631
+msgid "Video"
+msgstr "Video"
+
+#: classes/configsectionvideos.php:42
+msgid "Play inline on mobile"
+msgstr ""
+
+#: classes/configsectionvideos.php:38
+msgid "When enabled, PeepSo will attempt fo force an inline player on mobile devices. The results may vary depending on video providers."
+msgstr ""
+
+#: classes/configsectionvideos.php:26 classes/configsectionvideos.php:76
+#: classes/configsectionvideos.php:392 classes/configsectionvideos.php:426
+#: classes/configsectionvideos.php:460 classes/configsectionvideos.php:803
+msgid "Enabled"
+msgstr "Aktif"
+
+#: classes/configsectionvideos.php:22
+msgid "When enabled users are able to link and/or upload videos."
+msgstr "Etkinleştirildiğinde, kullanıcılar video bağlantısı paylaşabilir ve/veya yükleyebilir."
+
+#: classes/adminvideosqueuelisttable.php:366
+msgid "%1$d video %2$s"
+msgid_plural "%1$d videos %2$s"
+msgstr[0] "%1$d video %2$s"
+msgstr[1] "%1$d videolar %2$s"
+
+#: classes/adminvideosqueuelisttable.php:360
+msgid "updated"
+msgstr "güncellendi"
+
+#: classes/adminvideosqueuelisttable.php:334
+msgid "deleted"
+msgstr "silindi"
+
+#: classes/adminvideosqueuelisttable.php:308
+msgid "Delete"
+msgstr "Sil"
+
+#: classes/adminvideosqueuelisttable.php:307
+msgid "Set to \"waiting\""
+msgstr "\"Bekliyor\" olarak ayarla"
+
+#: classes/adminvideosqueuelisttable.php:250
+msgid "0 bytes"
+msgstr "0 byte"
+
+#: classes/adminvideosqueuelisttable.php:246
+msgid " byte"
+msgstr " byte"
+
+#: classes/adminvideosqueuelisttable.php:242
+msgid " bytes"
+msgstr " byte"
+
+#: classes/adminvideosqueuelisttable.php:238
+msgid " KB"
+msgstr " KB"
+
+#: classes/adminvideosqueuelisttable.php:234
+msgid " MB"
+msgstr " MB"
+
+#: classes/adminvideosqueuelisttable.php:230
+msgid " GB"
+msgstr " GB"
+
+#: classes/adminvideosqueuelisttable.php:193
+msgid "Unknown"
+msgstr "Bilinmeyen"
+
+#: classes/adminvideosqueuelisttable.php:187
+msgid "Rejected"
+msgstr "Reddedildi"
+
+#: classes/adminvideosqueuelisttable.php:184
+msgid "Ready"
+msgstr "Hazır"
+
+#: classes/adminvideosqueuelisttable.php:180
+msgid "Retry"
+msgstr "Yeniden dene"
+
+#: classes/adminvideosqueuelisttable.php:173
+msgid "Delay"
+msgstr "Gecikme"
+
+#: classes/adminvideosqueuelisttable.php:170
+msgid "Processing"
+msgstr "İşleniyor"
+
+#: classes/adminvideosqueuelisttable.php:166
+#: classes/adminvideosqueuelisttable.php:176
+msgid "Failed"
+msgstr "Başarısız"
+
+#: classes/adminvideosqueuelisttable.php:162
+#: classes/adminvideosqueuelisttable.php:190
+msgid "Success"
+msgstr "Başarılı"
+
+#: classes/adminvideosqueuelisttable.php:158
+msgid "Waiting"
+msgstr "Bekliyor"
+
+#: classes/adminvideosqueuelisttable.php:77
+msgid "Status"
+msgstr "Durum"
+
+#: classes/adminvideosqueuelisttable.php:76
+msgid "Date"
+msgstr "Tarih"
+
+#: classes/adminvideosqueuelisttable.php:75
+msgid "File Size"
+msgstr "Dosya Boyutu"
+
+#: classes/adminvideosqueuelisttable.php:74
+msgid "Title"
+msgstr "Başlık"
+
+#: classes/adminvideosqueuelisttable.php:71
+msgid "User"
+msgstr "Kullanıcı"

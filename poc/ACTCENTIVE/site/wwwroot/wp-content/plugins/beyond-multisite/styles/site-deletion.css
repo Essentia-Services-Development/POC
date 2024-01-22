@@ -1,0 +1,28 @@
+
+.be-mu-clean-red-deletion-message {
+    background-color: #c75c5c;
+    -webkit-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    padding: 30px 35px;
+    margin: 36px 20px 15px 0;
+}
+
+.be-mu-clean-caution-img {
+    width: 110px;
+    height: 110px;
+    float: left;
+    padding-right: 23px;
+}
+
+.be-mu-clean-deletion-text {
+    color: #fff;
+    font-weight: 700;
+    font-size: 150%;
+    margin: 0;
+}
+
+#be-mu-clean-loading-cancel-deletion {
+    color: white;
+    font-weight: 700;
+}

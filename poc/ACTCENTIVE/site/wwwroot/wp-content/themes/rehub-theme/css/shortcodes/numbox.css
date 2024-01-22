@@ -1,0 +1,13 @@
+/* Numbox
+================================================== */
+.wpsm-numbox, .wpsm-numhead { clear: both; padding: 0 0 0 60px; position: relative; }
+.wpsm-numbox span.num, .wpsm-numhead span { border-radius: 50%; display: block; font-size: 20px; font-weight: 600; height: 38px; left: 0; line-height: 32px; position: absolute; text-align: center; top: 0; width: 38px; }
+.wpsm-numbox.wpsm-style1 span.num, .wpsm-numhead.wpsm-style1 span, .wpsm-numcircle.wpsm-style1 { color: #CCCCCC; border: 3px solid #CCCCCC; }
+.wpsm-numbox.wpsm-style2 span.num, .wpsm-numhead.wpsm-style2 span, .wpsm-numcircle.wpsm-style2 { border: 3px solid #363636; color: #363636; }
+.wpsm-numbox.wpsm-style3 span.num, .wpsm-numhead.wpsm-style3 span, .wpsm-numcircle.wpsm-style3 { border: 3px solid #fb7203; color: #fb7203; }
+.wpsm-numbox.wpsm-style4 span.num, .wpsm-numhead.wpsm-style4 span, .wpsm-numcircle.wpsm-style4 { border: 3px solid #61BAEA; color: #61BAEA; }
+.wpsm-numbox.wpsm-style5 span.num, .wpsm-numbox.wpsm-style6 span.num{ border: none; color: #fff; font-size: 55px; height: 55px; line-height: 55px; font-weight: normal; font-family: Roboto, Arial }
+.wpsm-numbox.wpsm-style6 span.num{color: #111; }
+.wpsm-numbox.wpsm-style5 h3, .wpsm-numbox.wpsm-style6 h3, .wpsm-numbox.wpsm-style5 h2, .wpsm-numbox.wpsm-style6 h2, .wpsm-numbox.wpsm-style6 h4, .wpsm-numbox.wpsm-style5 h4{margin: 0 0 10px 0}
+.wpsm-numhead span{top:-4px;}
+.wpsm-numcircle{font-weight:bold;border-radius: 50%;margin-right: 8px;font-size: 20px;width: 35px;height: 35px;line-height: 35px;display: inline-block;text-align: center; }

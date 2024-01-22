@@ -1,0 +1,264 @@
+#toolbarContainer {
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+    padding: 5px 10px;
+    border-radius:0px;
+}
+
+.toolbar {
+    top: 30px;
+} 
+a#viewBookmark {
+    display: none ;
+ }
+
+#viewerContainer {
+    top: 120px;
+    bottom: 25px;
+}
+
+.toolbarButtonSpacer {
+    width:5px !important;
+}
+
+.logo_block {
+    display: none;
+}
+
+#toolbarViewerMiddle {
+    position: absolute;
+    left: 52%;
+    transform: translateX(-43%);
+}
+/**Viewer Media Query**/
+
+@media only screen and (max-width:990px) {
+    .splitToolbarButton.hiddenSmallView {
+        display: none !important;
+    }
+
+    span#scaleSelectContainer {
+        display: none !important;
+    }
+    button#presentationMode {
+        display: none !important;
+    }
+
+    button#openFile {
+        display: none !important;
+    }
+
+    button#print {
+        display: none !important;
+    }
+
+    /* button#download {
+        display: none !important;
+    } */
+
+    /* a#viewBookmark {
+        display: none !important;
+    } */
+
+    .verticalToolbarSeparator.hiddenSmallView {
+        display: none !important;
+    }
+
+    #toolbarContainer {
+        width:400px;
+    }
+    #toolbarViewerMiddle {
+       left:56%;
+    }
+  }
+
+  @media only screen and (max-width:700px) {
+    #toolbarViewerMiddle {
+        left:60%;
+     }
+  }
+
+   
+  @media only screen and (max-width:440px) {
+    #toolbarContainer {
+        width:290px;
+    }
+
+    button#viewFind {
+        display: none !important;
+    } 
+
+    #toolbarViewerMiddle {
+        left: 67%;
+    }
+
+  }
+
+  @media only screen and (max-width:365px) {
+    #toolbarViewerMiddle {
+        left: 71%;
+    }
+  }
+
+
+html[dir="ltr"] #outerContainer.sidebarOpen #sidebarContainer {
+    bottom: 0px !important;
+    width: 209px;
+    top:0px !important;
+} 
+
+.secondaryToolbar {
+    bottom:0px !important;
+    top:0px!important;
+}
+
+div#secondaryToolbar {
+    display: flex;
+    align-items: center;
+} 
+
+@media screen and (-webkit-min-device-pixel-ratio: 2), screen and (min-resolution: 2dppx) {
+#viewerContainer {
+  top: 100px !important;
+  bottom: 30px !important;
+ } 
+
+ html[dir="ltr"] .toolbar-top-center.icon-small .findbar {
+    left: 25%  !important;
+ } 
+ html[dir="ltr"] .toolbar-top-center.icon-medium .findbar {
+    left: 25%  !important;
+ } 
+ html[dir="ltr"] .toolbar-top-center.icon-large .findbar {
+    left: 25%  !important;
+ } 
+
+}
+
+.doorHanger:after, .doorHanger:before, .doorHangerRight:after {
+
+    border: solid rgba(0, 0, 0, 0);
+    border-width: 9px;
+}
+
+
+.toolbar-top-center.icon-small  #toolbarContainer {
+    padding: 12px 10px;
+}
+
+.toolbar-top-center.icon-medium  #toolbarContainer {
+    padding: 5px 8px;
+}
+
+.toolbar-top-center.icon-large  #toolbarContainer {
+    padding: 5px 8px;
+}
+
+html[dir="ltr"] .toolbar-top-center.icon-small .findbar {
+    left: 31%;
+    top: 91px !important;
+} 
+
+html[dir="ltr"] .toolbar-top-center.icon-medium .findbar {
+    left: 31%;
+    top: 85px !important;
+} 
+
+html[dir="ltr"] .toolbar-top-center.icon-large .findbar {
+    left: 32%;
+    top: 96px !important;
+} 
+html[dir="ltr"] .toolbar-bottom-full-width.icon-small .findbar {
+    left: 64px;
+    top: unset;
+    bottom: 43px !important;
+}
+
+html[dir="ltr"] .toolbar-bottom-full-width.icon-medium .findbar {
+    left: 80px;
+    top: unset;
+    bottom: 54px !important;
+}
+
+html[dir="ltr"] .toolbar-bottom-full-width.icon-large .findbar {
+    left: 80px;
+    top: unset;
+    bottom: 62px !important;
+}
+
+.toolbar-top-center.icon-small #tnc-share {
+    left:33%;
+    top: 26px;
+} 
+.toolbar-top-center.icon-medium #tnc-share {
+    left:33%;
+    top: 10px;
+} 
+
+.toolbar-top-center.icon-large #tnc-share {
+    left:33%;
+    top: 11px;
+} 
+
+
+/*right toolbar responsive */
+@media only screen and (max-width:1390px) {
+    .secondaryToolbar {
+        bottom: unset !important;
+        top: 102px!important;
+    }
+
+}
+
+#loadingBar {
+    bottom: -7px;
+    max-width: 820px;
+    margin: auto;
+    text-align: center;
+}
+
+
+.doorHanger:after,
+  .doorHanger:before,
+  .doorHangerRight:after,
+  .doorHangerRight:before {
+    bottom: 100%;
+    border: solid rgba(0, 0, 0, 0); 
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+  }
+
+  .doorHanger:before, .doorHangerRight:before {
+    border-width: 9px !important;
+  }  
+
+.toolbar-top-center.icon-large #toolbarSidebar {
+    margin-top: -15px !important;
+}
+
+html[dir="ltr"] .toolbar-top-center.icon-large #sidebarContent {
+    top: 47px;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 2), screen and (min-resolution: 2dppx) {
+html[dir="ltr"] .toolbar-top-center.icon-large #sidebarContent {
+  top: 53px !important;
+ }
+ .toolbar-top-center.icon-large #toolbarSidebar {
+    margin-top: -8px !important;
+ }
+} 
+
+ 
+
+
+
+
+
+
+

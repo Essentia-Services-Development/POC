@@ -1,0 +1,157 @@
+/**
+ * 12. Responsive
+ */
+@media only screen and (max-width:1200px){
+
+  .pvfwof-metabox{
+
+    .pvfwof-field{
+
+      .pvfwof-title{
+        float: none;
+        width: 100%;
+        margin-bottom: 10px;
+      }
+
+      .pvfwof-fieldset{
+        float: none;
+        width: 100%;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width:782px){
+
+  .pvfwof-header-inner{
+    text-align: center;
+
+    h1{
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  }
+
+  .pvfwof-form-result{
+    float: none;
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .pvfwof-search,
+  .pvfwof-header-right,
+  .pvfwof-header-left{
+    width: 100%;
+  }
+
+  .pvfwof-search{
+    text-align: center;
+    margin-bottom: 15px;
+  }
+
+  .pvfwof-footer{
+    text-align: center;
+  }
+
+  .pvfwof-buttons{
+    float: none;
+  }
+
+  .pvfwof-copyright{
+    float: none;
+    margin-top: 10px;
+  }
+
+  .pvfwof-nav,
+  .pvfwof-expand-all,
+  .pvfwof-reset-section,
+  .pvfwof-nav-background{
+    display: none !important;
+  }
+
+  .pvfwof-nav-normal + .pvfwof-content{
+    margin-left: 0;
+  }
+
+  .pvfwof-section-title,
+  .pvfwof-section{
+    display: block !important;
+  }
+
+  .pvfwof-field{
+
+    .pvfwof-title{
+      float: none;
+      width: 100%;
+      margin-bottom: 10px;
+    }
+
+    .pvfwof-fieldset{
+      float: none;
+      width: 100%;
+    }
+  }
+
+  .pvfwof-field-color{
+
+    .button.wp-picker-clear{
+      padding: 0 8px;
+      line-height: 2.14285714;
+      min-height: 32px;
+    }
+  }
+
+  .pvfwof-profile-options,
+  .pvfwof-taxonomy-edit-fields{
+
+    > .pvfwof-field{
+
+      > .pvfwof-title{
+        float: none;
+        width: 100%;
+        margin-bottom: 10px;
+      }
+
+      > .pvfwof-fieldset{
+        float: none;
+        width: 100%;
+      }
+    }
+  }
+
+  .pvfwof-nav-menu-options{
+
+    > .pvfwof-fields{
+      margin-left: -10px;
+      margin-right: -10px;
+
+      > .pvfwof-field{
+        padding: 10px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 782px) {
+
+  .pvfwof-modal{
+
+    .pvfwof-modal-inner{
+      width: 90%;
+    }
+  }
+}
+
+@media only screen and (max-height: 750px) {
+
+  .pvfwof-modal{
+
+    .pvfwof-modal-inner{
+      height: auto;
+    }
+
+    .pvfwof-modal-content{
+      height: calc(100vh - 200px);
+    }
+  }
+}

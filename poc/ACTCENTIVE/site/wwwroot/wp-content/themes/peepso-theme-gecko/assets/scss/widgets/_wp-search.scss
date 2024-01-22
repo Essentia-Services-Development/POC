@@ -1,0 +1,111 @@
+.searchform,
+.woocommerce-product-search {
+	position: relative;
+
+	input[type="text"],
+	input[type="search"] {
+		width: 100%;
+
+    @if $rtl {
+      padding-left: 100px; // when RTL is on
+    } @else {
+      padding-right: 100px; // when RTL is off
+    }
+
+		font-size: 90%;
+	}
+
+	input[type="submit"],
+	button[type="submit"] {
+    position: absolute;
+
+    @if $rtl {
+      left: 3px;
+    } @else {
+      right: 3px;
+    }
+
+		bottom: 3px;
+		padding: var(--PADD);
+		font-size: 90%;
+		line-height: 1;
+		background-color: var(--GC-COLOR--PRIMARY);
+		border: none;
+    border-radius: var(--BORDER-RADIUS--MD);
+    color: var(--GC-COLOR--TEXT--INVERT);
+		cursor: pointer;
+    transition: background-color .2s ease;
+    z-index: 1;
+
+		&:hover {
+			background-color: var(--GC-COLOR--PRIMARY--DARK);
+		}
+	}
+}
+
+//
+//	Support for new Search block
+//
+.wp-block-search {
+	.entry-content & {
+		margin-bottom: var(--PADD--MD);
+
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
+
+	.wp-block-search__label {
+		display: block;
+		font-size: 110%;
+		line-height: var(--GC-LINE-HEIGHT);
+		font-weight: normal;
+		color: var(--COLOR--HEADING);
+
+		.gc-widget & {
+			width: auto;
+			margin-top: calc(-1 * (var(--PADD--MD)));
+			margin-left: calc(-1 * (var(--PADD--MD)));
+			margin-right: calc(-1 * (var(--PADD--MD)));
+			margin-bottom: var(--PADD--MD);
+			padding-top: var(--PADD--MD);
+		  padding-left: var(--PADD--MD);
+		  padding-right: var(--PADD--MD);
+		  padding-bottom: 0;
+		}
+	}
+
+	.wp-block-search__input {
+		border: 1px solid var(--DIVIDER--LIGHT);
+		box-shadow: inset 0 0 0 1px transparent;
+
+		@if $rtl {
+			border-top-left-radius: 0;
+			border-bottom-left-radius: 0;
+    } @else {
+      border-top-right-radius: 0;
+			border-bottom-right-radius: 0;
+    }
+	}
+
+	.wp-block-search__button {
+		margin: 0;
+		color: var(--GC-COLOR--TEXT);
+		background-color: var(--GC-COLOR--APP--LIGHTGRAY);
+		border: 1px solid var(--DIVIDER--LIGHT);
+
+		@if $rtl {
+			border-right: 0;
+			border-top-right-radius: 0;
+			border-bottom-right-radius: 0;
+    } @else {
+      border-left: 0;
+			border-top-left-radius: 0;
+			border-bottom-left-radius: 0;
+    }
+
+		&:hover {
+			background-color: var(--GC-COLOR--APP--GRAY);
+		}
+	}
+}

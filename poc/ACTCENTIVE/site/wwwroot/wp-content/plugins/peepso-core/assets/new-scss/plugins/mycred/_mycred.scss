@@ -1,0 +1,61 @@
+.ps-page--mycred {}
+
+.ps-page--mycred-history {}
+
+.ps-mycred {}
+
+.ps-mycred--history {}
+
+.ps-mycred__history-title {
+  margin-bottom: var(--PADD--MD);
+}
+
+.ps-mycred__history {
+  padding: var(--PADD--MD);
+  background-color: var(--PS-COLOR--APP);
+  border-radius: var(--BORDER-RADIUS--XL);
+  box-shadow: var(--BOX-SHADOW--HARD);
+
+  ul.pagination {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    margin-top: var(--PADD);
+    margin-bottom: var(--PADD);
+    padding: 0;
+    list-style: none;
+    color: var(--PS-COLOR--TEXT--LIGHT);
+
+    li {
+      list-style-type: none;
+
+      > a,
+      > span {
+        display: block;
+        padding: var(--PADD);
+      }
+
+      > span {
+        color: var(--PS-COLOR--TEXT--LIGHT);
+      }
+
+      &.active {
+        font-weight: bold;
+        background-color: var(--PS-COLOR--APP--GRAY);
+        border-radius: var(--BORDER-RADIUS);
+      }
+
+      &:nth-child(2) {
+        margin-right: auto;
+      }
+
+      &:nth-last-child(2) {
+        margin-left: auto;
+      }
+    }
+  }
+
+  .table th {
+    text-align: left;
+  }
+}

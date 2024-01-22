@@ -1,0 +1,1055 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Affegg\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/support/plugin/affegg\n"
+"POT-Creation-Date: 2017-01-04 15:31+0200\n"
+"PO-Revision-Date: 2017-01-04 15:37+0200\n"
+"Last-Translator: Sizam themes <sizamtheme@gmail.com>\n"
+"Language-Team: \n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.11\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: application/TemplateManager.php:88
+msgid "[custom]"
+msgstr "[пользовательский]"
+
+#: application/Widget.php:10
+msgid "Products from storefronts"
+msgstr "Товары из витрин"
+
+#: application/Widget.php:25
+msgid "Title:"
+msgstr "Title:"
+
+#: application/Widget.php:30
+msgid "Number of products:"
+msgstr "Количество товаров:"
+
+#: application/Widget.php:35
+msgid "Sorting:"
+msgstr "Сортировка:"
+
+#: application/Widget.php:37
+msgid "Last storefronts"
+msgstr "Последние витрины"
+
+#: application/Widget.php:38
+msgid "Last updated products"
+msgstr "Последние обновленные товары"
+
+#: application/Widget.php:39
+msgid "Last added products"
+msgstr "Последние добавленные товары"
+
+#: application/Widget.php:40
+msgid "With discount"
+msgstr "По скидке"
+
+#: application/Widget.php:41
+msgid "Random"
+msgstr "Случайно"
+
+#: application/Widget.php:45
+msgid "Storefronts:"
+msgstr "Витрины:"
+
+#: application/Widget.php:47
+msgid "ID of storefronts, with commas"
+msgstr "ID витрин, через запятую."
+
+#: application/Widget.php:50
+msgid "Template:"
+msgstr "Шаблон:"
+
+#: application/Widget.php:59
+msgid "Only in stock products"
+msgstr "Только товары в наличии"
+
+#: application/admin/AffiliateEggAdmin.php:71
+msgid "Are you sure?"
+msgstr "Вы уверены?"
+
+#: application/admin/AffiliateEggAdmin.php:72
+msgid "Use shortcode:"
+msgstr ""
+"Чтобы добавить эту витрину в запись или на страницу используйте шорткод:"
+
+#: application/admin/AffiliateEggAdmin.php:82
+#: application/admin/GeneralConfig.php:26
+msgid "Settings"
+msgstr "Опции"
+
+#: application/admin/AffiliateEggAdmin.php:83
+#: application/admin/DeeplinkConfig.php:26
+#: application/admin/views/deeplink_settings.php:3
+msgid "Deeplink settings"
+msgstr "Настройка Deeplink"
+
+#: application/admin/AffiliateEggAdmin.php:92
+#: application/admin/EggController.php:22
+#: application/admin/views/eggs_index.php:50
+#: application/admin/views/eggs_thickbox.php:11
+#: application/admin/views/eggs_thickbox.php:119
+msgid "Storefronts"
+msgstr "Витрины"
+
+#: application/admin/AutoblogController.php:23
+#: application/admin/views/autoblog_index.php:31
+msgid "Auto Bloging"
+msgstr "Автоблоггинг"
+
+#: application/admin/AutoblogController.php:24
+#: application/admin/views/autoblog_edit.php:6
+#: application/admin/views/autoblog_index.php:32
+msgid "Add Autoblog"
+msgstr "Добавить автоблоггинг"
+
+#: application/admin/AutoblogController.php:91
+msgid "Task for autoblog was saved"
+msgstr "Задание автоблоггинга сохранено."
+
+#: application/admin/AutoblogController.php:91
+#: application/admin/AutoblogTable.php:42
+msgid "Run now"
+msgstr "Запустить сейчас"
+
+#: application/admin/AutoblogController.php:93
+msgid "Error occurred during saving task for autoblog."
+msgstr "При сохранении задания автоблоггинга возникла ошибка."
+
+#: application/admin/AutoblogController.php:96
+msgid "Not valid URL of directory or this shop is not supported."
+msgstr ""
+"Невалидный URL каталога или этот магазин не поддерживается. Невалидные "
+"данные для автоблоггинга."
+
+#: application/admin/AutoblogController.php:107
+msgid "Autoblog is not found"
+msgstr "Автоблоггинг не найден"
+
+#: application/admin/AutoblogTable.php:36 application/admin/EggTable.php:34
+msgid "(without title)"
+msgstr "(без названия)"
+
+#: application/admin/AutoblogTable.php:41 application/admin/EggTable.php:39
+msgid "Edit"
+msgstr "Редактировать"
+
+#: application/admin/AutoblogTable.php:43 application/admin/EggTable.php:43
+#: application/admin/MyListTable.php:148
+msgid "Delete"
+msgstr "Удалить"
+
+#: application/admin/AutoblogTable.php:52
+#: application/admin/views/autoblog_metabox.php:151
+msgid "Works"
+msgstr "Работает"
+
+#: application/admin/AutoblogTable.php:54
+#: application/admin/views/autoblog_metabox.php:152
+msgid "Stoped"
+msgstr "Остановлен"
+
+#: application/admin/EggController.php:23
+#: application/admin/views/edit_egg.php:23
+msgid "Add storefront"
+msgstr "Добавить витрину"
+
+#: application/admin/EggController.php:87
+msgid "Storefront was saved"
+msgstr "Витрина была сохранена."
+
+#: application/admin/EggController.php:87
+#: application/admin/views/eggs_index.php:51
+msgid "Add new"
+msgstr "Добавить новую"
+
+#: application/admin/EggController.php:89
+msgid "Error occurred while saving storefront"
+msgstr "При сохранении витрины, возникла ошибка."
+
+#: application/admin/EggController.php:92
+msgid "Not valid data for storefront"
+msgstr "Невалидные данные для витрины."
+
+#: application/admin/EggController.php:106
+msgid "Storefront is not found"
+msgstr "Витрина не найдена"
+
+#: application/admin/EggTable.php:40
+#: application/admin/views/edit_egg_meta_box.php:7
+msgid "Shortcode"
+msgstr "Шорткод"
+
+#: application/admin/EggTable.php:41 application/admin/GeneralConfig.php:45
+msgid "Update products"
+msgstr "Обновить товары"
+
+#: application/admin/EggTable.php:42 application/admin/GeneralConfig.php:60
+msgid "Update Catalogs"
+msgstr "Обновить каталоги"
+
+#: application/admin/EggThickboxEditorButton.php:40
+#: application/admin/EggThickboxEditorButton.php:41
+msgid "Add storefronts"
+msgstr "Добавить витрины Affiliate Egg"
+
+#: application/admin/EggThickboxTable.php:39
+msgid "Add"
+msgstr "Добавить"
+
+#: application/admin/GeneralConfig.php:37
+msgid "Website language"
+msgstr "Язык сайты"
+
+#: application/admin/GeneralConfig.php:38
+msgid "Language of output templates."
+msgstr "Язык для шаблонов."
+
+#: application/admin/GeneralConfig.php:46
+msgid ""
+"Cache lifetime of products in seconds, after which it is necessary to update "
+"the price and availability. 0 - never update."
+msgstr ""
+"Время жизни кэша товаров в секундах, после которого необходимо обновить цену "
+"и наличие товара. 0 - никогда не обновлять."
+
+#: application/admin/GeneralConfig.php:53
+msgid "Field \"Update products\" - can't be empty."
+msgstr "Поле \"Обновить товары\" - не может быть пустым."
+
+#: application/admin/GeneralConfig.php:61
+msgid ""
+"Cache lifetime of catalogs in seconds, after which it is necessary to update "
+"the price and availability of catalog products. 0 - never update."
+msgstr ""
+"Время жизни кэша каталогов в секундах, после которого необходимо обновить "
+"товары каталога. 0 - никогда не обновлять."
+
+#: application/admin/GeneralConfig.php:68
+msgid "Field \"Update catalogs\" - can't be empty."
+msgstr "Поле \"Обновить каталоги\" - не может быть пустым."
+
+#: application/admin/GeneralConfig.php:75
+msgid "Delay while updating"
+msgstr "Пауза при добавлении"
+
+#: application/admin/GeneralConfig.php:76
+msgid ""
+"Pause in microseconds between a caching of products. More pause - less load "
+"on server. 1000000 microseconds = 1 second."
+msgstr ""
+"Пауза в микросекундах между кэшированием товаров. Больше пауза - меньше "
+"нагрузка на сервер. 1000000 микросекунд = 1 секунда."
+
+#: application/admin/GeneralConfig.php:83
+msgid "Field \"Delay while updating\" - can't be empty."
+msgstr "Поле \"Пауза при добавлении\" - не может быть пустым."
+
+#: application/admin/GeneralConfig.php:90
+msgid "Pause when updating"
+msgstr "Пауза при обновлении"
+
+#: application/admin/GeneralConfig.php:91
+msgid ""
+"Pause in microseconds when autoupdating catalogs and products. 1000000 "
+"microseconds = 1 second."
+msgstr ""
+"Пауза в микросекундах при автообновлении каталогов и товаров. 1000000 "
+"микросекунд = 1 секунда."
+
+#: application/admin/GeneralConfig.php:98
+msgid "Field \"Pause when updating\" - can't be empty."
+msgstr "Поле \"Пауза при обновлении\" - не может быть пустым."
+
+#: application/admin/GeneralConfig.php:105
+msgid "Size of description"
+msgstr "Размер описания"
+
+#: application/admin/GeneralConfig.php:106
+msgid "Maximum size of description in symbols. 0 - don't trim description"
+msgstr ""
+"Максимальный размер описания товара в символах. 0 - не обрезать описание."
+
+#: application/admin/GeneralConfig.php:113
+msgid "Field \"Size of description\" - can't be empty."
+msgstr "Поле \"Размер описания\" - не может быть пустым."
+
+#: application/admin/GeneralConfig.php:120
+msgid "Save images"
+msgstr "Сохранять картинки"
+
+#: application/admin/GeneralConfig.php:121
+msgid ""
+"To keep pictures of products on the local server. <p class=\"description\"> "
+"Be convinced that the directory <em> of wp-content/uploads</em>  is writable."
+"</p>"
+msgstr ""
+"Сохранять картинки товаров на локальный сервер. <p class=\"description"
+"\">Убедитесь, что директория <em>wp-content/uploads</em> доступна для записи."
+"</p>"
+
+#: application/admin/GeneralConfig.php:131
+msgid ""
+"To save the image of product as Featured image for a post. <p class="
+"\"description\"> Picture is also loaded into Media library. It is applied "
+"only to the new/updated posts. Actually for  \"magazine style\" themes </p>"
+msgstr ""
+"Установить изображение товара, как Featured image для поста. <p class="
+"\"description\">Картинка также загружается в Медиа библиотеку. Применяется "
+"только для новых/обновленных постов. Актуально для \"magazine style\" тем.</"
+"p>"
+
+#: application/admin/GeneralConfig.php:134
+msgid "Don't set"
+msgstr "Не устанавливать"
+
+#: application/admin/GeneralConfig.php:135
+msgid "Set first image"
+msgstr "Установить первую картинку"
+
+#: application/admin/GeneralConfig.php:136
+msgid "Set second image"
+msgstr "Установить вторую картинку"
+
+#: application/admin/GeneralConfig.php:137
+msgid "Set last image"
+msgstr "Установить последнюю картинку"
+
+#: application/admin/GeneralConfig.php:138
+msgid "Set random image"
+msgstr "Установить случайную картинку"
+
+#: application/admin/GeneralConfig.php:146
+msgid "Button color"
+msgstr "Цвет кнопки"
+
+#: application/admin/GeneralConfig.php:147
+msgid "Button color for standard templates."
+msgstr "Цвет кнопки для стандартных шаблонов."
+
+#: application/admin/GeneralConfig.php:156
+#: application/admin/GeneralConfig.php:166
+msgid "Price history"
+msgstr "История изменения цены"
+
+#: application/admin/GeneralConfig.php:157
+msgid "How long save price history. 0 - deactivate price history."
+msgstr ""
+"Сколько дней хранить историю изменения цены. 0 - выключить историю изменения "
+"цены."
+
+#: application/admin/GeneralConfig.php:166
+msgid "The field \"%s\" can't be more than %d."
+msgstr "Поле \"%s\" не может быть больше %d."
+
+#: application/admin/GeneralConfig.php:173
+msgid "Allow members to subscribe for price drop alert on email."
+msgstr "Разрешить посетителям подписку на снижение цены по email."
+
+#: application/admin/GeneralConfig.php:174
+msgid "Active subscriptions now: <b>%d</b>"
+msgstr "Активных подписок сейчас: <b>%d</b>"
+
+#: application/admin/GeneralConfig.php:175
+msgid "Messages are sent for last %d days: <b>%d</b>"
+msgstr "Сообщений отправлено за последние %d дней: <b>%d</b>"
+
+#: application/admin/GeneralConfig.php:176
+msgid ""
+"This option requires \"Price history\" option (must be enabled) to work."
+msgstr ""
+"Для работы этой опции \"История изменения цены\" также должна быть включена."
+
+#: application/admin/GeneralConfig.php:182
+msgid "Noindex tag"
+msgstr "Тег noindex"
+
+#: application/admin/GeneralConfig.php:183
+msgid "Add tag &lt;noindex&gt; for all storefronts."
+msgstr "Добавить тег &lt;noindex&gt; для всех витрин."
+
+#: application/admin/GeneralConfig.php:192
+msgid "Show storefront with ajax"
+msgstr "Витрины через AJAX"
+
+#: application/admin/GeneralConfig.php:193
+msgid ""
+"To load storefronts on the site through JavaScript. <p class=\"description"
+"\"> Usually it hides storefronts from indexing by search bots. This is not "
+"worked if you use next parameter in shortcode of storefront. </p>"
+msgstr ""
+"Загружать витрины на сайте через JavaScript. <p class=\"description\">Обычно "
+"это скрывает витрины от индексирования поисковыми ботами. Вывод через AJAX "
+"не доступен, если при выводе витрины задан параметр next.</p>"
+
+#: application/admin/GeneralConfig.php:202
+msgid "Subid from ID of storefront"
+msgstr "Subid из ID витрин"
+
+#: application/admin/GeneralConfig.php:203
+msgid ""
+"Auto add subid in Deeplink url. <p class=\"description\">It will not adding, "
+"if subid is already exist in Deeplink.</p>"
+msgstr ""
+"Автоматически добавлять subid в Deeplink ссылки. <p class=\"description\">Не "
+"добавляется, если subid уже задан в Deeplink.</p>"
+
+#: application/admin/GeneralConfig.php:212
+msgid "Subid from GET parameter"
+msgstr "Subid из GET параметра"
+
+#: application/admin/GeneralConfig.php:213
+msgid ""
+"Automatically add subid to Deeplink from GET parameter \"affegg_subid \". <p "
+"class=\"description\"> For example, it is possible to use this for tracking "
+"of conversion of ads. Has the top priority if other subid are set. </p>"
+msgstr ""
+"Автоматически добавлять subid в Deeplink ссылки из GET параметра "
+"\"affegg_subid\".<p class=\"description\">Например, можно использовать для "
+"отслеживания конверсии рекламных объвлений. Имеет наивысший приоритет, если "
+"заданы другие subid.</p>"
+
+#: application/admin/GeneralConfig.php:222
+msgid "Show link in storefronts with site redirect (cloal links)"
+msgstr "Ссылки через редирект"
+
+#: application/admin/GeneralConfig.php:223
+msgid "Show links with 301 redirect"
+msgstr "Ссылки на товары через локальный 301 редирект."
+
+#: application/admin/GeneralConfig.php:232
+msgid "Reviews"
+msgstr "Отзывы"
+
+#: application/admin/GeneralConfig.php:233
+msgid "How many reviews will be parsed. 0 - all"
+msgstr "Парсить максимум отзывов. 0 - все."
+
+#: application/admin/GeneralConfig.php:243
+msgid "Google Analytics Events"
+msgstr "События Google Analytics"
+
+#: application/admin/GeneralConfig.php:244
+msgid ""
+"Add Google Analytics tracking. Also, you need to add to your site Universal "
+"Analytics (analytics.js)"
+msgstr ""
+"Добавить события Google Analytics. <p class=\"description\">Должен быть "
+"установлен Universal Analytics (analytics.js) код на сайте.</p>"
+
+#: application/admin/GeneralConfig.php:253
+msgid "Link  \"See more\""
+msgstr "Ссылка \"Смотреть еще\""
+
+#: application/admin/GeneralConfig.php:254
+msgid "Show Link  \"See more\" after storefront"
+msgstr "Ссылка \"Смотреть еще\" отображается ниже вывода витрины."
+
+#: application/admin/GeneralConfig.php:257
+msgid "Don't use Link  \"See more\""
+msgstr "Не показывать ссылку"
+
+#: application/admin/GeneralConfig.php:258
+msgid "Show only if storefront has only one link"
+msgstr "Показывать, если витрина состоит из одной ссылки"
+
+#: application/admin/GeneralConfig.php:259
+msgid "Use first link on catalog"
+msgstr "Использовать первую ссылку на каталог"
+
+#: application/admin/GeneralConfig.php:260
+msgid "Use last link on catalog"
+msgstr "Использовать последнюю ссылку на каталог"
+
+#: application/admin/GeneralConfig.php:268
+msgid "Save meta to post"
+msgstr "Добавить метаданные"
+
+#: application/admin/GeneralConfig.php:269
+msgid ""
+"When you will add storefronts to post, data will be added also to post meta. "
+msgstr ""
+"При добавлении шорткода в пост, сохранять данные о товаре в <a href="
+"\"https://codex.wordpress.org/%D0%9F%D1%80%D0%BE%D0%B8%D0%B7%D0%B2%D0%BE"
+"%D0%BB%D1%8C%D0%BD%D1%8B%D0%B5_%D0%BF%D0%BE%D0%BB%D1%8F\">произвольные поля</"
+"a> поста. Кроме того, данные по всем товарам будут сохранены в отдельном "
+"поле."
+
+#: application/admin/GeneralConfig.php:272
+msgid "Don't add"
+msgstr "Не добавлять"
+
+#: application/admin/GeneralConfig.php:273
+msgid "Add data from product with minimum price"
+msgstr "Добавить товар с минимальной ценой"
+
+#: application/admin/GeneralConfig.php:274
+msgid "Add data from product with maximum price"
+msgstr "Добавить товар с максимальной ценой"
+
+#: application/admin/GeneralConfig.php:275
+msgid "Add first product"
+msgstr "Добавить первый товар"
+
+#: application/admin/GeneralConfig.php:276
+msgid "Add last product"
+msgstr "Добавить последний товар"
+
+#: application/admin/GeneralConfig.php:277
+msgid "Add data from random product"
+msgstr "Добавить случайный товар"
+
+#: application/admin/HelpController.php:21
+#: application/admin/views/custom_search.php:2
+msgid "Search of products"
+msgstr "Поиск товаров"
+
+#: application/admin/HelpController.php:22
+#: application/admin/views/eggs_index.php:39 application/admin/views/help.php:2
+msgid "Help"
+msgstr "Помощь"
+
+#: application/admin/LicConfig.php:29
+#: application/admin/views/lic_settings.php:2
+msgid "License"
+msgstr "Лицензия"
+
+#: application/admin/LicConfig.php:36
+msgid "License key"
+msgstr "Ключ лицензии"
+
+#: application/admin/LicConfig.php:37
+msgid ""
+"Put license key here. You can find a key in the <a href=\"http://www."
+"keywordrush.com/panel\"> the user's panels </a> or from your dealer."
+msgstr ""
+"Сюда необходимо ввести действующий ключ лицензии. Найти ключ вы можете в "
+"своей <a href=\"http://www.keywordrush.com/panel\">панели пользователя</a>. "
+"Если у вас еще нет ключа, вы можете приобрести его на <a href=\"http://www."
+"keywordrush.com/affiliateegg\">официальном сайте</a> плагина."
+
+#: application/admin/LicConfig.php:44
+msgid "Field \"License key\" can't be empty."
+msgstr "Поле \"Ключ лицензии\" не может быть пустым."
+
+#: application/admin/LicConfig.php:48
+msgid "Not valid license key."
+msgstr "Неверный ключ лицензии."
+
+#: application/admin/LicConfig.php:52
+msgid ""
+"The license key you have entered is invalid. Please verify you have typed "
+"the license key correctly. If you believe that there was a mistake, please, "
+"contacts with <a href=\"http://www.keywordrush.com/en/contact\">support</a>."
+msgstr ""
+"Ключ лицензии не принят. Убедитесь, что вы указали верный ключ лицензии. "
+"Если вы думаете. что произошла ошибка, обратитесь в <a href=\"http://www."
+"keywordrush.com/contact\">поддержку плагина</a>."
+
+#: application/admin/MyListTable.php:115
+msgid "back"
+msgstr " назад"
+
+#: application/admin/views/autoblog_edit.php:4
+msgid "Edit autoblog"
+msgstr "Редактировать автоблоггинг"
+
+#: application/admin/views/autoblog_edit.php:8
+msgid "Back to list"
+msgstr "Назад к списку"
+
+#: application/admin/views/autoblog_index.php:2
+msgid "Work of autoblog"
+msgstr "Работа автоблоггинга"
+
+#: application/admin/views/autoblog_index.php:6
+msgid "Please, wait for ending of autoblog work."
+msgstr "Пожалуйста, дождитесь окончания работы автоблоггинга."
+
+#: application/admin/views/autoblog_index.php:24
+msgid "Deleted tasks of autoblog:"
+msgstr "Удалено заданий автоблоггинга:"
+
+#: application/admin/views/autoblog_index.php:26
+msgid "Autoblog finished work"
+msgstr "Автоблоггинг закончил работу"
+
+#: application/admin/views/autoblog_index.php:38
+msgid ""
+"With autobloging you can adjust automatic creation of posts. For a task of "
+"autobloging use the URL of shop catalog with the updated list of goods, for "
+"example, the section \"new products \"."
+msgstr ""
+"С помощью автоблоггинга вы можете настроить автоматическое создание постов с "
+"товарами. Для задания автоблоггинга используйте URL каталога магазина с "
+"обновляемым списком товаров, например, раздел \"новинки\". Периодически "
+"будут создаваться Affiliate Egg Витрины из новых товаров, а также новые "
+"посты в блоге с этими витринами."
+
+#: application/admin/views/autoblog_metabox.php:6
+#: application/admin/views/autoblog_metabox.php:10
+#: application/admin/views/edit_egg_meta_box.php:18
+#: application/models/AutoblogModel.php:56 application/models/EggModel.php:44
+msgid "Name"
+msgstr "Название"
+
+#: application/admin/views/autoblog_metabox.php:15
+#: application/admin/views/autoblog_metabox.php:19
+msgid "Url of catalog"
+msgstr "URL каталога"
+
+#: application/admin/views/autoblog_metabox.php:20
+msgid "Set catalog url of shop"
+msgstr "Задайте URL страницы каталога магазина."
+
+#: application/admin/views/autoblog_metabox.php:26
+msgid "Frequency"
+msgstr "Периодичность проверки"
+
+#: application/admin/views/autoblog_metabox.php:30
+msgid "2 times in day"
+msgstr "Два раза в сутки"
+
+#: application/admin/views/autoblog_metabox.php:31
+msgid "Once a day"
+msgstr "Один раз в сутки"
+
+#: application/admin/views/autoblog_metabox.php:32
+msgid "Each three days"
+msgstr "Каждые три дня"
+
+#: application/admin/views/autoblog_metabox.php:33
+msgid "Once a week"
+msgstr "Один раз в неделю"
+
+#: application/admin/views/autoblog_metabox.php:35
+msgid "Checking of catalog for new products"
+msgstr "Проверка каталога на наличие новых товаров."
+
+#: application/admin/views/autoblog_metabox.php:41
+msgid "Handle products"
+msgstr "Обрабатывать товаров"
+
+#: application/admin/views/autoblog_metabox.php:46
+msgid "Only first N products will be handled."
+msgstr "Только первые N товаров из каталоге будут учтены."
+
+#: application/admin/views/autoblog_metabox.php:52
+msgid "Products in one post"
+msgstr "Товаров в одном посте"
+
+#: application/admin/views/autoblog_metabox.php:58
+msgid "How many products do we need to merge in one post."
+msgstr "Сколько товаров объеденить в один пост."
+
+#: application/admin/views/autoblog_metabox.php:65
+msgid "Post status"
+msgstr "Статус поста"
+
+#: application/admin/views/autoblog_metabox.php:69
+msgid "Published"
+msgstr "Опубликован"
+
+#: application/admin/views/autoblog_metabox.php:70
+msgid "Draft"
+msgstr "Черновик"
+
+#: application/admin/views/autoblog_metabox.php:77
+msgid "User"
+msgstr "Пользователь"
+
+#: application/admin/views/autoblog_metabox.php:83
+msgid "Name of this user will be used for post publishing"
+msgstr "От имени этого пользователя будут публиковаться посты."
+
+#: application/admin/views/autoblog_metabox.php:89
+msgid "Category"
+msgstr "Категория"
+
+#: application/admin/views/autoblog_metabox.php:95
+msgid "Post category"
+msgstr "Категория для постов."
+
+#: application/admin/views/autoblog_metabox.php:101
+msgid "Template for title"
+msgstr "Шаблон заголовка"
+
+#: application/admin/views/autoblog_metabox.php:108
+msgid "Template for post title"
+msgstr "Шаблон для заголовка поста."
+
+#: application/admin/views/autoblog_metabox.php:109
+msgid "Use tags:"
+msgstr "Используйте теги:"
+
+#: application/admin/views/autoblog_metabox.php:110
+msgid ""
+"You can use \"formulas\" with a list of synonyms, of which one will be "
+"selected as random option, for example, {Discount|Sale|Cheap}."
+msgstr ""
+"Вы можете использовать \"формулы\" с перечислением синонимов, из которых "
+"будет выбран один случайный вариант, например, {Скидка|Распродажа|Дешево}."
+
+#: application/admin/views/autoblog_metabox.php:118
+msgid "Template for shopfronts"
+msgstr "Шаблон для витрин"
+
+#: application/admin/views/autoblog_metabox.php:147
+msgid "Task status"
+msgstr "Статус задания"
+
+#: application/admin/views/autoblog_metabox.php:154
+msgid "Autobloging can be stoped."
+msgstr "Aвтоблоггинг можно приостановить."
+
+#: application/admin/views/custom_search.php:5
+msgid "Keywords"
+msgstr "Введите название товара или бренда..."
+
+#: application/admin/views/custom_search.php:7
+msgid "You can start searching here for all products of supported shops."
+msgstr "Здесь вы можете начать поиск товаров по всем поддерживаемым магазинам."
+
+#: application/admin/views/custom_search.php:8
+msgid "Based on Yandex Search"
+msgstr ""
+"Создано на основе <a href=\"http://site.yandex.ru/\">Яндекс.Поиск для сайта</"
+"a>."
+
+#: application/admin/views/deeplink_settings.php:8
+msgid "This is list of supported shops"
+msgstr "Это список поддерживаемых магазинов."
+
+#: application/admin/views/deeplink_settings.php:9
+msgid ""
+"To receive the comissions for a partnership transitions and sale of products "
+"from the links, you must specify Deeplink of CPA-network for each store."
+msgstr ""
+"Чтобы получать партнерское вознаграждение за переходы и продажи по ссылкам "
+"на товары, необходимо задать Deeplink одной из CPA-сетей для каждого "
+"магазина."
+
+#: application/admin/views/deeplink_settings.php:11
+msgid ""
+"Icons near each settings is only hint of CPA company where we find this "
+"shop. You can use any Deeplink instead"
+msgstr ""
+"Иконка CPA-сети возле настройки каждого магазина - лишь подсказка, в каких "
+"сетях мы нашли этого адверта. Вы можете указать Deeplink любой сети."
+
+#: application/admin/views/deeplink_settings.php:14
+msgid ""
+"Also you can use affiliate programs of each shops. For this, add your "
+"partner affiliate ID which will be added to all links of this shop. For "
+"example:"
+msgstr ""
+"Вы также можете монетизировать трафик через \"родные\" партнерские программы "
+"магазинов. Для этого задайте свой партнерский идентификатор, который будет "
+"добавлен ко всем ссылкам на магазин, например:"
+
+#: application/admin/views/deeplink_settings.php:18
+msgid "Also you can use the template:"
+msgstr "Также вы можете использовать шаблоны:"
+
+#: application/admin/views/edit_egg.php:2
+msgid "Load products"
+msgstr "Загружаем товары"
+
+#: application/admin/views/edit_egg.php:6
+msgid "Please, stand by"
+msgstr "Пожалуйста, дождитесь окончания загрузки товаров."
+
+#: application/admin/views/edit_egg.php:21
+msgid "Edit storefront"
+msgstr "Редактировать витрину"
+
+#: application/admin/views/edit_egg.php:25
+msgid "Back to list of storefronts"
+msgstr "Назад к списку витрин"
+
+#: application/admin/views/edit_egg.php:37
+msgid ""
+"To create storefront, just add url of pages with products, each link from "
+"new line"
+msgstr ""
+"Чтобы создать витрину, просто укажите url страниц с товарами, каждый - с "
+"новой строки."
+
+#: application/admin/views/edit_egg.php:38
+msgid ""
+"You can also add url of catalog page on shop (it can be also page with "
+"search results, archive, etc) to bulk add list of products."
+msgstr ""
+"Вы также можете задать url страницы каталога (раздела магазина, результатов "
+"поиска и т.д.), чтобы добавить в витрину список товаров."
+
+#: application/admin/views/edit_egg.php:39
+msgid "For this, use special symbols, for example:"
+msgstr ""
+"Для этого используйте специальный синтаксис, чтобы обозначить url каталога, "
+"например:"
+
+#: application/admin/views/edit_egg.php:41
+msgid ""
+"Parameter <em>limit=10</em> shows how many products we need to take from "
+"catalog."
+msgstr ""
+"Параметр <em>limit=10</em> указывает на максимальное количество товаров, "
+"которое необходимо взять из каталога."
+
+#: application/admin/views/edit_egg.php:43
+msgid ""
+"To insert in shopfront image instead of products, use special syntax for the "
+"url of picture:"
+msgstr ""
+"Чтобы включить в витрину любое изображение, используйте специальный "
+"синтаксис для url картинки:"
+
+#: application/admin/views/edit_egg.php:44
+msgid "Fashion dress"
+msgstr "Модное платье"
+
+#: application/admin/views/edit_egg.php:55
+msgid "Save"
+msgstr "Сохранить"
+
+#: application/admin/views/edit_egg_meta_box.php:22
+msgid "Name of shopfront (not required)"
+msgstr "Название витрины (необязательно)"
+
+#: application/admin/views/edit_egg_meta_box.php:27
+msgid "Urls"
+msgstr "Ссылки"
+
+#: application/admin/views/edit_egg_meta_box.php:30
+msgid ""
+"You can set url of single product page or page with list of products. Each "
+"url from new line"
+msgstr ""
+"Вы можете задать url страницы товара в магазине или url каталога. Каждый url "
+"- с новой строки."
+
+#: application/admin/views/edit_egg_meta_box.php:35
+msgid "Template"
+msgstr "Шаблон"
+
+#: application/admin/views/edit_egg_meta_box.php:48
+msgid "Limit of products"
+msgstr "Лимит товаров"
+
+#: application/admin/views/eggs_index.php:2
+msgid "Product update"
+msgstr "Обновление товаров"
+
+#: application/admin/views/eggs_index.php:6
+msgid "Please wait for the update of products."
+msgstr "Пожалуйста, дождитесь окончания обновления информации по товарам."
+
+#: application/admin/views/eggs_index.php:11
+msgid "Catalog update"
+msgstr "Обновление каталогов"
+
+#: application/admin/views/eggs_index.php:15
+msgid "Please wait for the end of product load "
+msgstr "Пожалуйста, дождитесь окончания загрузки товаров из каталогов."
+
+#: application/admin/views/eggs_index.php:36
+msgid "Deleted storefronts:"
+msgstr "Удалено витрин:"
+
+#: application/admin/views/eggs_index.php:39
+msgid "License key was activated. Plugin is ready for work."
+msgstr ""
+"Ключ лицензии успешно активирован. Affiliate Egg плагин готов к работе."
+
+#: application/admin/views/eggs_index.php:39
+msgid "for work with plugin."
+msgstr "по работе с плагином."
+
+#: application/admin/views/eggs_index.php:42
+msgid "Product information was updated"
+msgstr "Информация о товарах была обновлена"
+
+#: application/admin/views/eggs_index.php:45
+msgid "Products were updated"
+msgstr "Товары каталогов были обновлены"
+
+#: application/admin/views/eggs_index.php:57
+msgid "This is a list of your storefronts"
+msgstr "Это список ваших витрин. "
+
+#: application/admin/views/eggs_index.php:58
+msgid ""
+"To copy storefront to post, copy shortcode <em>[affegg id=ID]</em> and "
+"insert it to post."
+msgstr ""
+"Чтобы вставить витрину на страницу или в пост, скопируйте ее шорткод "
+"<em>[affegg id=ID]</em> и в редакторе вставьте его в место, где должны "
+"отображаться товары."
+
+#: application/admin/views/eggs_index.php:59
+msgid "Each storefront has unique ID, which must be used in shortcode."
+msgstr ""
+"Каждая витрина имеет уникальный цифровой идентификатор (ID), который "
+"необходимо указать в шорткоде."
+
+#: application/admin/views/eggs_index.php:69
+#: application/admin/views/eggs_thickbox.php:124
+msgid "Search of storefronts"
+msgstr "Поиск Витрин"
+
+#: application/admin/views/general_settings.php:2
+msgid "Options"
+msgstr "Affiliate Egg Опции"
+
+#: application/models/AutoblogModel.php:57 application/models/EggModel.php:45
+msgid "Date created"
+msgstr "Дата создания"
+
+#: application/models/AutoblogModel.php:58
+msgid "Last run"
+msgstr "Последний запуск"
+
+#: application/models/AutoblogModel.php:59
+msgid "Status"
+msgstr "Статус"
+
+#: application/models/AutoblogModel.php:60
+msgid "Total posts"
+msgstr "Всего постов"
+
+#: application/models/EggModel.php:46
+msgid "Last updated"
+msgstr "Последнее изменение"
+
+#: templates/egg_masonry_3cols.php:5
+msgid "Masonry (3 colums)"
+msgstr "Кирпичная кладка (3 колонки)"
+
+#: templates/egg_masonry_3cols.php:48
+#: templates/egg_price_comparison_full.php:98
+msgid "See more..."
+msgstr "Смотреть все..."
+
+#: templates/egg_price_comparison_full.php:5
+msgid "Price comparison (full)"
+msgstr "Сравнение цены на один товар (с описанием и характеристиками)"
+
+#. Plugin Name of the plugin/theme
+msgid "Affiliate Egg"
+msgstr "Affiliate Egg"
+
+#. Plugin URI of the plugin/theme
+msgid "http://www.keywordrush.com/en/affiliateegg"
+msgstr "http://www.keywordrush.com/affiliateegg"
+
+#. Description of the plugin/theme
+msgid ""
+"Parse, add, update products from affiliate shops. Let you to earn money from "
+"affiliate networks."
+msgstr ""
+"Добавляет товары из интернет-магазинов на страницу или в посты. Позволяет "
+"монетизировать ссылки через CPA-сети."
+
+#. Author of the plugin/theme
+msgid "keywordrush.com"
+msgstr "keywordrush.com"
+
+#. Author URI of the plugin/theme
+msgid "http://www.keywordrush.com"
+msgstr "http://www.keywordrush.com"
+
+#~ msgid ""
+#~ "Not valid key. Be convinced that you use the valid key. If you believe "
+#~ "that there was a mistake, please, contacts with <a href=\"http://www."
+#~ "keywordrush.com/contact\">support</a>."
+#~ msgstr ""
+#~ "Ключ лицензии не принят. Убедитесь, что вы используйте действительный "
+#~ "ключ. Если вы верите, что произошла ошибка, пожалуйста, обратитесь в <a "
+#~ "href=\"http://www.keywordrush.com/contact\">поддержку</a> плагина."
+
+#~ msgid "Slider"
+#~ msgstr "Карусель"
+
+#~ msgid "Grid (3 colums)"
+#~ msgstr "Сетка (3 колонки)"
+
+#~ msgid "Product сard "
+#~ msgstr "Карточка товара"
+
+#~ msgid "Price:"
+#~ msgstr "Цена:"
+
+#~ msgid "Buy now"
+#~ msgstr "Купить"
+
+#~ msgid "In stock:"
+#~ msgstr "Наличие:"
+
+#~ msgid "Yes"
+#~ msgstr "Да"
+
+#~ msgid "No"
+#~ msgstr "Нет"
+
+#~ msgid "Product сard for Auto Bloging"
+#~ msgstr "Карточка товара автоблог"
+
+#~ msgid "User reviews"
+#~ msgstr "Отзывы покупателей"
+
+#~ msgid "All customer reviews"
+#~ msgstr "Смотреть все отзывы"
+
+#~ msgid "Features"
+#~ msgstr "Характеристики"
+
+#~ msgid "out of stock"
+#~ msgstr "нет в наличии"
+
+#~ msgid "Price comparison (short)"
+#~ msgstr "Сравнение цены на один товар (без описаниея)"
+
+#~ msgid "Tile (3 columns)"
+#~ msgstr "Плитка (3 колонки)"
+
+#~ msgid "Grid (1 column)"
+#~ msgstr "Сетка (1 колонка)"
+
+#~ msgid "List"
+#~ msgstr "Список"
+
+#~ msgid "Tile (1 column)"
+#~ msgstr "Плитка (1 колонка)"
+
+#~ msgid ""
+#~ "You are using Wordpress %s. <em>%s</em> needs minimum <strong>Wordpress "
+#~ "%s</strong>."
+#~ msgstr ""
+#~ "Вы используете Wordpress %s. <em>%s</em> требует минимум "
+#~ "<strong>Wordpress %s</strong>."
+
+#~ msgid ""
+#~ "You have PHP %s on your server. <em>%s</em> needs minimum <strong>PHP %s</"
+#~ "strong>."
+#~ msgstr ""
+#~ "На вашем сервере установлен PHP %s. <em>%s</em> требует минимум "
+#~ "<strong>PHP %s</strong>."
+
+#~ msgid "Plugin needs extension <strong>%s</strong>."
+#~ msgstr "Требуется расширение <strong>%s</strong>."
+
+#~ msgid "can't be installed!"
+#~ msgstr "не может быть установлен!"
+
+#~ msgid "http://www.keywordrush.com/affiliateegg"
+#~ msgstr "http://www.keywordrush.com/affiliateegg"
+
+#~ msgid "You do not have sufficient permissions to access this page."
+#~ msgstr "You do not have sufficient permissions to access this page."

@@ -1,0 +1,159 @@
+# Translation of PeepSo - WP Job Manager Integration in Arabic
+# This file is distributed under the same license as the PeepSo - WP Job Manager Integration package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: +0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=(n == 0) ? 0 : ((n == 1) ? 1 : ((n == 2) ? 2 : ((n % 100 >= 3 && n % 100 <= 10) ? 3 : ((n % 100 >= 11 && n % 100 <= 99) ? 4 : 5))));\n"
+"X-Generator: GlotPress/3.0.0\n"
+"Language: ar\n"
+"Project-Id-Version: PeepSo - WP Job Manager Integration\n"
+
+#: templates/overrides/job-dashboard.php:36
+msgid "%s doesn't have any active listings yet"
+msgstr ""
+
+#: classes/wpjm_permissions.php:17
+msgid "Sorry, you can't create job listings"
+msgstr ""
+
+#: classes/admin/configsectionwpjm.php:49
+msgid "Custom icon CSS class"
+msgstr ""
+
+#: classes/admin/configsectionwpjm.php:46
+msgid "FontAwesome (or similar). Leave empty for default value"
+msgstr ""
+
+#: classes/admin/configsectionwpjm.php:42
+msgid "Profile slug"
+msgstr ""
+
+#: classes/admin/configsectionwpjm.php:35
+msgid "Profile label"
+msgstr ""
+
+#: classes/admin/configsectionwpjm.php:32
+#: classes/admin/configsectionwpjm.php:39
+msgid "Leave empty for default value"
+msgstr ""
+
+#: classes/admin/configsectionwpjm.php:28
+msgid "Advanced"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "PeepSo"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Add integration for WP Job Manager plugin"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://peepso.com"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "PeepSo Integrations: WP Job Manager"
+msgstr ""
+
+#: templates/overrides/job-dashboard.php:98
+msgid "Add Job"
+msgstr ""
+
+#: templates/overrides/job-dashboard.php:66
+msgid "Filled?"
+msgstr ""
+
+#: templates/overrides/job-dashboard.php:61
+msgid "expired"
+msgstr ""
+
+#: templates/overrides/job-dashboard.php:57
+msgid "Featured Job"
+msgstr ""
+
+#: templates/overrides/job-dashboard.php:38
+msgid "You do not have any active listings."
+msgstr ""
+
+#: templates/overrides/job-application.php:23
+msgid "Apply for job"
+msgstr ""
+
+#: templates/jobs/profile.php:19
+msgid "Create"
+msgstr ""
+
+#: peepso-wpjm.php:352
+msgid "Jobs"
+msgstr ""
+
+#: peepso-wpjm.php:291
+msgid "posted a job"
+msgstr ""
+
+#: peepso-wpjm.php:259 peepso-wpjm.php:262
+msgid "WP Job Manager"
+msgstr ""
+
+#: peepso-wpjm.php:231
+msgid "Get it now!"
+msgstr ""
+
+#: peepso-wpjm.php:229
+msgid "The %s plugin requires the PeepSo plugin to be installed and activated."
+msgstr ""
+
+#: classes/admin/configsectionwpjm.php:102
+msgid "Activity Stream"
+msgstr ""
+
+#: classes/admin/configsectionwpjm.php:95
+msgid "Default privacy"
+msgstr ""
+
+#: classes/admin/configsectionwpjm.php:89
+msgid "Only Me"
+msgstr ""
+
+#: classes/admin/configsectionwpjm.php:88
+msgid "Friends Only"
+msgstr ""
+
+#: classes/admin/configsectionwpjm.php:87
+msgid "Site Members"
+msgstr ""
+
+#: classes/admin/configsectionwpjm.php:86
+msgid "Public"
+msgstr ""
+
+#: classes/admin/configsectionwpjm.php:81
+msgid "Append title after action text"
+msgstr ""
+
+#: classes/admin/configsectionwpjm.php:78
+msgid "The title of  the Job Listing will be displayed after the action text as a link"
+msgstr ""
+
+#: classes/admin/configsectionwpjm.php:74
+msgid "Action text"
+msgstr ""
+
+#: classes/admin/configsectionwpjm.php:64
+msgid "Create activity stream item when someone post a job."
+msgstr ""
+
+#: classes/admin/configsectionwpjm.php:56
+msgid "Profile Integration"
+msgstr ""
+
+#: classes/admin/configsectionwpjm.php:20
+#: classes/admin/configsectionwpjm.php:68
+msgid "Enabled"
+msgstr ""

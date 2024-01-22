@@ -1,0 +1,147 @@
+.toolbar {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom:0px;
+    z-index: 9999;
+    cursor: default;
+}
+
+
+.tnc-pdf-back-to-btn {
+    bottom:80px !important;
+}
+
+#viewerContainer {
+    top: 30px;
+    bottom: 70px !important;
+} 
+
+html[dir="ltr"] #outerContainer.sidebarOpen #sidebarContainer {
+    bottom: 53px !important;
+    top:0px !important;
+}
+
+
+
+@media screen and (-webkit-min-device-pixel-ratio: 2), screen and (min-resolution: 2dppx) {
+    .findbar {
+    top: unset !important;
+    }
+}
+
+div#secondaryToolbar::after {
+    width: 0  !important;
+    height: 0  !important;
+    border-left: 10px solid transparent !important;
+    border-right: 10px solid transparent !important;
+    border-top: 15px solid var(--doorhanger-bg-color) !important;
+    position: absolute !important;
+    top: 100% !important;
+    right: 10px !important;
+}
+
+div#secondaryToolbar::before {
+    display: none !important;
+}
+
+.doorHangerRight:after {
+    border-bottom-color: unset !important;
+} 
+
+div#findbar::before {
+    width: 0  !important;
+    height: 0  !important;
+    border-left: 10px solid transparent !important;
+    border-right: 10px solid transparent !important;
+    border-top: 15px solid var(--doorhanger-border-color) !important;
+    position: absolute !important;
+    top: 100% !important;
+    right: 10px !important;
+}
+
+html[dir="ltr"] .toolbar-bottom-full-width.icon-small .findbar {
+    left: 64px;
+    top: unset;
+    bottom: 43px !important;
+}
+
+html[dir="ltr"] .toolbar-bottom-full-width.icon-medium .findbar {
+    left: 80px;
+    top: unset;
+    bottom: 54px !important;
+}
+
+
+html[dir="ltr"] .toolbar-bottom-full-width.icon-large .findbar {
+    left: 80px;
+    top: unset;
+    bottom: 62px !important;
+}
+
+.toolbar-bottom-full-width.icon-small #tnc-share {
+    top: -68px !important;
+} 
+
+.toolbar-bottom-full-width.icon-medium #tnc-share {
+    top: -85px !important;
+} 
+.toolbar-bottom-full-width.icon-large #tnc-share {
+    top: -95px !important;
+} 
+
+.toolbar-bottom-full-width.icon-small .secondaryToolbar {
+    bottom:47px !important;
+    top:unset !important;
+} 
+
+.toolbar-bottom-full-width.icon-medium .secondaryToolbar {
+    bottom:55px !important;
+    top:unset !important;
+} 
+.toolbar-bottom-full-width.icon-large .secondaryToolbar {
+    bottom:64px !important;
+    top:unset !important;
+} 
+
+.toolbar-bottom-full-width.icon-large  #toolbarSidebar {
+    margin-top:-15px;
+  }
+
+  html[dir="ltr"] .toolbar-bottom-full-width.icon-large  #sidebarContent {
+    top:46px;
+  }
+  
+#loadingBar {
+    top: -6px;
+} 
+
+@media screen and (-webkit-min-device-pixel-ratio: 2), screen and (min-resolution: 2dppx) {
+    html[dir="ltr"] .toolbar-bottom-full-width.icon-large #sidebarContent {
+      top: 53px !important;
+     }
+     .toolbar-bottom-full-width.icon-large #toolbarSidebar {
+        margin-top: -8px !important;
+     }
+} 
+
+
+/*media query*/
+
+@media screen and (max-width:332px) {
+    .toolbarField.pageNumber {
+        width: 25px;
+      }
+}
+
+
+
+
+
+
+
+  
+  
+ 
+
+

@@ -1,0 +1,9 @@
+<?php /*NWJjbDNsYng1QmhMczU4UHdsd3hjQ1U4YmljNXRGKzFNcHhoblB4eGE3UUZmS0NQV2MyMnRyMUkxWDZWSmNQOVVhckVDMzZwQlhyeFVEQmNCeFFwNWg4bmZFVG1UVkxSYjVLdWlxYmZJT0N3emMvZHpHMllrQW9lb1dEcGhtdmhHSktFUERkSU5lc1lEUVdSZHRqNzNMbmxydC94emd3dXR5T1NBazlsMnRhMXRIQWJ4Mzkyc0Z6SjYzZ0x1elBYSnlDMWpqbllpVG44NHRhSi9DZUp4QT09*/
+namespace Aws\ApplicationAutoScaling\Exception;
+
+use Aws\Exception\AwsException;
+
+/**
+ * Represents an error interacting with the **Application Auto Scaling** service.
+ */
+class ApplicationAutoScalingException extends AwsException {}

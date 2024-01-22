@@ -1,0 +1,231 @@
+.ps-profile--notifications {}
+
+.ps-profile__edit-page--notifications {}
+
+.ps-profile__notifications {
+  line-height: var(--PS-LINE-HEIGHT);
+}
+
+.ps-profile__notifications--other {
+  border-top: 1px solid var(--DIVIDER--LIGHT);
+
+  .ps-profile__notifications-row {
+    padding: var(--PADD--SM);
+  }
+}
+
+.ps-profile__notifications-title {
+  font-size: 128%;
+}
+
+.ps-profile__list {
+  background-color: var(--COLOR--APP--GRAY);
+  padding: var(--PADD--MD);
+  border-radius: var(--BORDER-RADIUS--MD);
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.ps-profile__notifications-row {
+  padding: var(--PADD--MD);
+  border-bottom: 1px solid var(--DIVIDER--LIGHT);
+
+  &:last-child {
+    border-bottom: none;
+  }
+}
+
+.ps-profile__notifications-row-title {
+  margin-bottom: var(--PADD);
+}
+
+.ps-profile__notifications-row-desc {
+  position: relative;
+  font-size: 90%;
+  color: var(--PS-COLOR--TEXT--LIGHT);
+
+  > .ps-form__check {
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+
+    @if $rtl {
+      left: var(--PADD--MD);
+    } @else {
+      right: var(--PADD--MD);
+    }
+
+    transform: translateY(-50%);
+  }
+}
+
+.ps-profile__notifications-row-data {
+  font-size: 90%;
+
+  .ps-alert {
+    margin-top: var(--PADD);
+    margin-bottom: 0;
+  }
+}
+
+.ps-profile__notifications-shortcuts {
+  margin-top: var(--PADD);
+}
+
+.ps-profile__notifications-shortcut {}
+
+.ps-profile__notifications-list {
+  margin-top: var(--PADD--MD);
+}
+
+.ps-profile__notifications-list-item {
+  .ps-form__field {
+    padding: var(--PADD--SM) var(--PADD);
+    transition: background-color .1s ease;
+    border-radius: var(--BORDER-RADIUS--MD);
+
+    &:hover {
+      background-color: var(--PS-COLOR--APP--GRAY);
+    }
+  }
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.ps-profile__notification {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  line-height: 1.4;
+}
+
+.ps-profile__notification-header {
+  border-bottom: 1px solid var(--DIVIDER--LIGHT);
+
+  &.ps-form__field {
+    padding-left: 0;
+    padding-right: 0;
+    border-radius: 0;
+
+    &:hover {
+      background-color: transparent;
+    }
+  }
+
+  .ps-profile__notification {
+    display: block;
+  }
+
+  .ps-profile__notification-checkbox {
+    justify-content: flex-end;
+    padding-left: var(--PADD);
+    padding-right: var(--PADD);
+
+    span {
+      // min-width: 0;
+      //
+      // @if $rtl {
+      //   padding-left: var(--PADD--MD);
+      // } @else {
+      //   padding-right: var(--PADD--MD);
+      // }
+      //
+      // &:last-child {
+      //   @if $rtl {
+      //     padding-left: 0;
+      //   } @else {
+      //     padding-right: 0;
+      //   }
+      // }
+    }
+  }
+}
+
+.ps-profile__notification-legend {
+  &.ps-form__field {
+    padding-left: 0;
+    padding-right: 0;
+    border-radius: 0;
+
+    &:hover {
+      background-color: transparent;
+    }
+  }
+}
+
+.ps-profile__notification-label {
+  font-size: 80%;
+
+  @if $comp_mode {
+    font-weight: normal;
+  }
+
+  .ps-profile__notification-legend & {
+    padding-top: var(--PADD);
+    font-size: 100%;
+  }
+
+  + .ps-profile__notification-checkbox {
+    @if $rtl {
+      padding-right: var(--PADD);
+    } @else {
+      padding-left: var(--PADD);
+    }
+  }
+
+  small {
+    font-size: 90%;
+    color: var(--PS-COLOR--TEXT--LIGHT);
+
+    &:before {
+      content: " ";
+      display: block;
+    }
+  }
+}
+
+.ps-profile__notification-title {
+  font-weight: bold;
+  font-size: 80%;
+}
+
+.ps-profile__notification-checkbox {
+  display: flex;
+
+  > span {
+    min-width: 35px;
+    text-align: center;
+
+    // @if $rtl {
+    //   margin-right: var(--PADD--MD);
+    // } @else {
+    //   margin-left: var(--PADD--MD);
+    // }
+    //
+    // @include mq($from: desktop) {
+    //   min-width: 70px;
+    //   margin: 0;
+    //
+    //   @if $rtl {
+    //     padding-left: var(--PADD);
+    //     text-align: left;
+    //   } @else {
+    //     padding-right: var(--PADD);
+    //     text-align: right;
+    //   }
+    // }
+  }
+
+  &:empty {
+    display: none;
+  }
+
+  .ps-checkbox__label {
+    &:before {
+      margin-left: 0;
+      margin-right: 0;
+    }
+  }
+}

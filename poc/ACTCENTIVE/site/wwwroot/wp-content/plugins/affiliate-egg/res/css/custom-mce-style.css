@@ -1,0 +1,10 @@
+/* tinymce < v.4.0 */
+span.mce_affegg_insert_table:after {
+    font-family: "dashicons";
+    content: "\f159";
+}
+/* tinymce >= v.4.0 */
+i.mce-i-affegg_insert_table:after {
+    font-family: "dashicons";
+    content: "\f159";
+}

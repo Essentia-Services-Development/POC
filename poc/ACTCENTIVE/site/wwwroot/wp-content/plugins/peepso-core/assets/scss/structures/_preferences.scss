@@ -1,0 +1,133 @@
+.ps-preferences {}
+
+
+.ps-preferences__notification {
+  display: flex;
+  justify-content: space-between;
+  line-height: 1.6;
+}
+
+
+.ps-preferences__notifications-actions {
+  margin-bottom: $padd--med;
+}
+
+
+.ps-preferences-notifications__menu {
+  margin-top: $padd;
+  text-align: center;
+
+  @include media('medium') {
+    display: flex;
+    border: $divider;
+  }
+}
+
+
+.ps-preferences-notifications__menu-item {
+  display: block;
+  padding: ($padd / 2) 0;
+  font-size: 12px;
+
+  @include media('medium') {
+    flex-grow: 1;
+    width: 50%;
+    padding: ($padd / 2);
+    font-size: 11px;
+    border-right: $divider;
+
+    &:last-child {
+      border-left: none;
+      border-right: none;
+    }
+  }
+
+  @include media('large') {
+    width: auto;
+
+    &:last-child {
+      border-left: none;
+      border-right: none;
+    }
+  }
+}
+
+
+.ps-preferences__checkbox {
+  display: flex;
+  justify-content: flex-end;
+  width: 100px;
+
+  label {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  > span {
+    @if $scss-direction == rtl {
+      padding-left: 30px;
+    } @else {
+      padding-right: 30px;
+    }
+
+    &:last-child {
+      @if $scss-direction == rtl {
+        padding-left: 20px;
+      } @else {
+        padding-right: 20px;
+      }
+    }
+
+    @include media('medium') {
+      &:last-child {
+        @if $scss-direction == rtl {
+          padding-left: 25px;
+        } @else {
+          padding-right: 25px;
+        }
+      }
+
+      &:first-child {
+        @if $scss-direction == rtl {
+          padding-left: 50px;
+        } @else {
+          padding-right: 50px;
+        }
+      }
+    }
+  }
+
+  @include media('medium') {
+    width: 50px;
+  }
+}
+
+
+.ps-preferences__title {
+  font-weight: bold;
+}
+
+.ps-form-legend + .ps-form-controls .ps-preferences__checkbox {
+  width: 100%;
+  font-weight: bold;
+
+  > span {
+    @if $scss-direction == rtl {
+      padding-left: 10px;
+    } @else {
+      padding-right: 10px;
+    }
+
+    &:last-child {
+      @if $scss-direction == rtl {
+        padding-left: 0;
+      } @else {
+        padding-right: 0;
+      }
+    }
+  }
+
+  @include media('small') {
+    font-size: 10px;
+  }
+}

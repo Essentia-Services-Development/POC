@@ -1,0 +1,208 @@
+# Translation of PeepSo - File Uploads in French (France)
+# This file is distributed under the same license as the PeepSo - File Uploads package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: +0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/3.0.0\n"
+"Language: fr\n"
+"Project-Id-Version: PeepSo - File Uploads\n"
+
+#: classes/admin/configsectionfileuploads.php:38
+msgid "For added security, and especially in the case of risky/executable files (PHP, JS, HTML etc.), it is always better to instruct users to use zipped archives."
+msgstr ""
+
+#: classes/admin/configsectionfileuploads.php:37
+msgid "One file type per line. Enable additional file types at your own risk."
+msgstr ""
+
+#: peepsofileuploads.php:410
+msgid "Supported formats are: %s."
+msgstr ""
+
+#: templates/file/postbox-file.php:62
+msgid "Completed"
+msgstr ""
+
+#: peepsofileuploads.php:413
+msgid "Maximum daily file upload quota reached. Delete posts with files to free some space."
+msgstr ""
+
+#: peepsofileuploads.php:412 peepsofileuploads.php:414
+msgid "Maximum file upload quota reached. Delete posts with files to free some space."
+msgstr ""
+
+#: peepsofileuploads.php:411
+msgid "Only files up to %dMB are allowed."
+msgstr ""
+
+#: classes/admin/configsectionfileuploads.php:114
+msgid "User limits"
+msgstr ""
+
+#: classes/admin/configsectionfileuploads.php:24
+msgid "Enabled"
+msgstr ""
+
+#: templates/file/postbox-file.php:31
+msgid "Allowed file types: %s"
+msgstr ""
+
+#: peepsofileuploads.php:883
+msgid "Attach a file"
+msgstr ""
+
+#: peepsofileuploads.php:444
+msgid " uploaded %d files"
+msgstr ""
+
+#: api/rest/v1/files.php:83
+msgid "%s doesn't have any files yet"
+msgstr ""
+
+#: api/rest/v1/files.php:80
+msgid "You don't have any files yet"
+msgstr ""
+
+#: api/rest/v1/files.php:76
+msgid "Group %s doesn't have any files yet"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "PeepSo"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Add ability to upload file"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://peepso.com"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "PeepSo Core: File Uploads"
+msgstr ""
+
+#: templates/file/postbox-file.php:42
+msgid "Drag your files here or browse"
+msgstr ""
+
+#: templates/file/postbox-file.php:22
+msgid "Max file size: %1$sMB"
+msgstr ""
+
+#: templates/file/postbox-file.php:8
+msgid "Click here to start uploading files"
+msgstr ""
+
+#: templates/file/group.php:46 templates/file/postbox-file.php:66
+#: templates/file/profile.php:40 templates/file/single-file.php:22
+msgid "Delete"
+msgstr ""
+
+#: templates/file/group.php:42 templates/file/profile.php:36
+#: templates/file/single-file.php:16 templates/widgets/community-files.php:42
+#: templates/widgets/files.php:42
+msgid "Download"
+msgstr ""
+
+#: templates/file/group.php:20 templates/file/profile.php:12
+msgid "Grid"
+msgstr ""
+
+#: templates/file/group.php:19 templates/file/profile.php:11
+msgid "List"
+msgstr ""
+
+#: peepsofileuploads.php:446
+msgid " uploaded a file"
+msgstr ""
+
+#: peepsofileuploads.php:409
+msgid "Say something about these files..."
+msgstr ""
+
+#: peepsofileuploads.php:315 peepsofileuploads.php:363
+#: peepsofileuploads.php:709 peepsofileuploads.php:726
+msgid "Files"
+msgstr ""
+
+#: peepsofileuploads.php:292
+msgid "Upload file"
+msgstr ""
+
+#: peepsofileuploads.php:289
+msgid "File Uploads"
+msgstr ""
+
+#: peepsofileuploads.php:261
+msgid "Get it now!"
+msgstr ""
+
+#: peepsofileuploads.php:259
+msgid "The %s plugin requires the PeepSo plugin to be installed and activated."
+msgstr ""
+
+#: classes/widgets/widgetfiles.php:119
+msgid "My Files"
+msgstr ""
+
+#: classes/widgets/widgetfiles.php:20
+msgid "PeepSo Files Widget"
+msgstr ""
+
+#: classes/widgets/widgetfiles.php:16
+msgid "PeepSo Files"
+msgstr ""
+
+#: classes/widgets/widgetcommunityfiles.php:106
+msgid "Latest Files"
+msgstr ""
+
+#: classes/widgets/widgetcommunityfiles.php:16
+#: classes/widgets/widgetcommunityfiles.php:20
+msgid "PeepSo Community Files"
+msgstr ""
+
+#: classes/admin/configsectionfileuploads.php:107
+msgid "Daily files upload limit"
+msgstr ""
+
+#: classes/admin/configsectionfileuploads.php:90
+msgid "Maximum number of files per user"
+msgstr ""
+
+#: classes/admin/configsectionfileuploads.php:73
+msgid "Allowed space per user in megabytes"
+msgstr ""
+
+#: classes/admin/configsectionfileuploads.php:70
+#: classes/admin/configsectionfileuploads.php:87
+#: classes/admin/configsectionfileuploads.php:104
+msgid "Set 0 for Unlimited."
+msgstr ""
+
+#: classes/admin/configsectionfileuploads.php:61
+msgid "General"
+msgstr ""
+
+#: classes/admin/configsectionfileuploads.php:54
+msgid "Maximum upload size in megabytes"
+msgstr ""
+
+#: classes/admin/configsectionfileuploads.php:51
+msgid "WordPress maximum upload size allowed is %1$sMB. WordPress setting takes priority over PeepSo. If you want to allow bigger file uploads please look into WrodPress and / or your server configuration."
+msgstr ""
+
+#: classes/admin/configsectionfileuploads.php:41
+msgid "Accepted file types"
+msgstr ""
+
+#: classes/admin/configsectionfileuploads.php:19
+msgid "When enabled users are able to upload files."
+msgstr ""

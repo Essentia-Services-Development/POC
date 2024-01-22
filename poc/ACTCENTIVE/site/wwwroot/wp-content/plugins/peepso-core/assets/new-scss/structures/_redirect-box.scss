@@ -1,0 +1,21 @@
+.ps-redirect__link {
+  a {
+    word-break: break-all;
+  }
+}
+
+.ps-redirect__box-actions {
+  .ps-btn {
+    @include mq($until: desktop) {
+      text-align: center;
+
+      &:first-child {
+        @if $rtl {
+          margin-left: var(--PADD--MD);
+        } @else {
+          margin-right: var(--PADD--MD);
+        }
+      }
+    }    
+  }
+}

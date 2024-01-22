@@ -1,0 +1,23 @@
+#log_form iframe {
+	min-width: 700px;
+	min-height: 800px;
+	border: 1px solid #ccd0d4;
+}
+
+#log_form table th {
+	width: 200px;
+	vertical-align: top;
+	font-weight: bold;
+}
+#previewtabs {
+	border-bottom: 0;
+}
+textarea.code {
+	background-image: url(../img/pre_bg.png);
+	background-size: 100% 38px;
+	background-attachment: scroll;
+	background-position: 0 3px;
+	line-height: 19px;
+	padding: 0;
+	resize: vertical;
+}

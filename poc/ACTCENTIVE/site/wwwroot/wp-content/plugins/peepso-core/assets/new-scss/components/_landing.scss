@@ -1,0 +1,106 @@
+.ps-landing {
+  --radius: var(--BORDER-RADIUS--XL);
+
+  margin-bottom: var(--PADD--MD);
+  line-height: var(--PS-LINE-HEIGHT);
+  border-radius: var(--radius);
+  box-shadow: var(--BOX-SHADOW--HARD);
+}
+
+.ps-lading__inner {}
+
+.ps-landing__cover {
+  --cover-height: var(--c-ps-landing-image-height-mobile);
+  --cover-position: var(--c-ps-landing-image-position-mobile);
+  --cover-size: var(--c-ps-landing-image-size-mobile);
+  --cover-repeat: var(--c-ps-landing-image-repeat-mobile);
+  --cover-bg: var(--c-ps-landing-background-color);
+
+  @include mq($from: desktop) {
+    --cover-height: var(--c-ps-landing-image-height);
+    --cover-position: var(--c-ps-landing-image-position);
+    --cover-size: var(--c-ps-landing-image-size);
+    --cover-repeat: var(--c-ps-landing-image-repeat);
+  }
+
+  border-top-left-radius: var(--radius);
+  border-top-right-radius: var(--radius);
+  background-color: var(--cover-bg);
+  background-size: var(--cover-size);
+  background-position: center var(--cover-position);
+  background-repeat: var(--cover-repeat);
+  overflow: hidden;
+  height: 0;
+  padding-top: var(--cover-height);
+  position: relative;
+
+  + .ps-landing__form {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+}
+
+.ps-landing__cover-inner {
+  // margin-top: 20%;
+  padding: var(--PADD--MD);
+  background-color: rgba(0,0,0, .5);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  @include mq($from: desktop) {
+    display: flex;
+    align-items: center;
+  }
+}
+
+.ps-landing__content {
+  flex-grow: 2;
+  color: #fff;
+  text-shadow: 0 1px 2px rgba(0,0,0, .5);
+
+  @include mq($from: desktop) {
+    @if $rtl {
+      margin-left: var(--PADD);
+    } @else {
+      margin-right: var(--PADD);
+    }
+  }
+}
+
+.ps-landing__title {
+  margin-bottom: var(--PADD--SM);
+  font-weight: bold;
+  font-size: 130%;
+}
+
+.ps-landing__text {
+  font-size: 100%;
+
+  @include mq($until: tablet) {
+    font-size: 75%;
+  }
+}
+
+.ps-landing__actions {
+  .ps-btn--join {
+    white-space: nowrap;
+  }
+
+  @include mq($until: desktop) {
+    margin-top: var(--PADD);
+
+    .ps-btn--join {
+      display: block;
+      text-align: center;
+      white-space: normal;
+    }
+  }
+}
+
+.ps-landing__form {
+  padding: var(--PADD--MD);
+  background-color: var(--PS-COLOR--APP);
+  border-radius: var(--radius);
+}

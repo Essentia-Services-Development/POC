@@ -1,0 +1,10 @@
+{
+	"apiVersion": 1,
+	"name": "rehub/box",
+	"title": "Info box",
+	"category": "helpler-modules",
+	"description": "Colored Info Boxes",
+	"textdomain": "rehub-framework",
+	"icon": "info",
+	"editorStyle": "rh-gutenberg-admin"
+}

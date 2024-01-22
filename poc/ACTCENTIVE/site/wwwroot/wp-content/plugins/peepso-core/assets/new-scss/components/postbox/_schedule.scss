@@ -1,0 +1,144 @@
+.ps-postbox__menu-item--schedule {
+  .ps-activity--narrow & {
+    position: static;
+  }
+}
+
+.ps-postbox__schedule {
+  --width: 300px;
+
+  .ps-activity--narrow & {
+    --width: 100%;
+
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+  }
+
+  @include mq($until: desktop) {
+    width: 100%;
+    left: 0;
+    right: 0;
+  }
+
+  &.ps-dropdown__menu {    
+    --bg: var(--c-ps-postbox-dropdown-bg);
+    --bg--light: var(--c-ps-postbox-dropdown-bg-light);
+    --text-color: var(--c-ps-postbox-dropdown-text-color);
+    --text-color--light: var(--c-ps-postbox-dropdown-icon-color);
+
+    background-color: var(--bg);
+
+    > a {
+      color: var(--text-color);
+
+      @include mq($from: tablet) {
+        &:hover,
+        &:focus,
+        &.active {
+          color: var(--text-color);
+          background-color: var(--bg--light);
+        }
+      }
+    }
+  }
+}
+
+.ps-postbox__schedule-option {
+  position: relative;
+  display: block;
+  padding: var(--PADD);
+  color: var(--PS-COLOR--TEXT);
+  border-bottom: 1px solid var(--DIVIDER--LIGHT);
+
+  @if $comp_mode {
+    color: var(--PS-COLOR--TEXT) !important;
+  }
+
+  &:first-child {
+    border-top-left-radius: var(--radius);
+    border-top-right-radius: var(--radius);
+  }
+
+  &:last-child {
+    border-bottom: none;
+    border-bottom-left-radius: var(--radius);
+    border-bottom-right-radius: var(--radius);
+  }
+
+  @include mq($from: tablet) {
+    &:hover {
+      color: var(--PS-COLOR--TEXT);
+      background-color: var(--PS-COLOR--APP--GRAY);
+
+      @if $comp_mode {
+        color: var(--PS-COLOR--TEXT) !important;
+      }
+    }
+  }
+}
+
+.ps-postbox__schedule-calendar {
+  display: none;
+}
+
+.ps-postbox__schedule-form {
+  display: flex;
+  align-items: stretch;
+  flex-wrap: wrap;
+  padding-top: var(--PADD--SM);
+}
+
+.ps-postbox__schedule-date {
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  width: 100%;
+}
+
+.ps-postbox__schedule-time {
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: 3;
+}
+
+.ps-postbox__schedule-label {
+  width: 100%;
+  margin-top: var(--PADD--SM);
+  margin-bottom: var(--PADD--SM);
+  color: var(--text-color--light);
+}
+
+.ps-postbox__schedule-select {
+  &.ps-input {
+    position: relative;
+    z-index: 1;
+    flex-grow: 1;
+    width: auto;
+
+    @if $rtl {
+      margin-left: var(--PADD--SM);
+    } @else {
+      margin-right: var(--PADD--SM);
+    }
+
+    &:last-child {
+      margin-left: 0;
+      margin-right: 0;
+    }
+  }
+}
+
+.ps-postbox__schedule-actions {
+  display: flex;
+  align-items: stretch;
+  flex-grow: 0;
+
+  @if $rtl {
+    padding-right: var(--PADD--SM);
+  } @else {
+    padding-left: var(--PADD--SM);
+  }
+}

@@ -1,0 +1,402 @@
+//
+//  DROPDOWN COMPONENT
+//
+
+
+
+/*.ps-dropdown {
+  position: relative;
+  display: inline-block;
+}*/
+
+
+.datepicker-dropdown {
+  right: auto;
+}
+
+
+.ps-dropdown-privacy {
+  .ps-dropdown-menu {
+    min-width: 120px;
+  }
+}
+
+
+.ps-dropdown-privacy {
+  vertical-align: middle;
+
+  .ps-form__controls & {
+    margin-left: 0;
+  }
+}
+
+
+.ps-dropdown--stream {
+  .ps-dropdown__menu {
+    @if $scss-direction == rtl {
+      left: 0;
+      right: auto;
+    } @else {
+      left: auto;
+      right: 0;
+    }
+
+    @include media('medium') {
+      .ps-stream__post--pinned & {
+        min-width: 300px;
+      }
+    }
+  }
+}
+
+
+.ps-dropdown-focus {
+  .ps-dropdown__menu {
+    min-width: 140px;
+
+    @if $scss-direction == rtl {
+      left: 0;
+      right: auto;
+    } @else {
+      left: auto;
+      right: 0;
+    }
+  }
+}
+
+
+//
+//  NEW DROPDOWN
+//
+/*.ps-dropdown {
+  position: relative;
+}
+
+
+.ps-dropdown__menu {
+  position: absolute;
+  z-index: map-get($zindex, dropdown);
+  display: none;
+  width: 100%;
+  min-width: 170px;
+  background-color: $scss-dropdown-bg;
+  border: $scss-dropdown-border;
+
+  @include media('large') {
+    top: 100%;
+    width: auto;
+  }
+
+  // ROUNDED CORNERS
+  @if $scss-rounded == true {
+    border-radius: 6px;
+  }
+
+  @if $scss-direction == rtl {
+    right: 0;
+    text-align: right;
+  } @else {
+    left: 0;
+    text-align: left;
+  }
+
+  @extend %box-shadow;
+
+  // ROUNDED CORNERS
+  @if $scss-rounded == false {
+    @extend %radius--reset;
+  }
+
+  > a {
+    display: block;
+    padding: $padd;
+    font-size: 13px;
+    line-height: 1;
+    background-color: $scss-dropdown-item-bg;
+    border-top: $scss-dropdown-item-separator;
+
+    // ROUNDED CORNERS
+    @if $scss-rounded == true {
+      &:first-child {
+        border-top-left-radius: 6px;
+        border-top-right-radius: 6px;
+      }
+
+      &:last-child {
+        border-bottom-left-radius: 6px;
+        border-bottom-right-radius: 6px;
+      }
+    }
+
+    @include media('medium') {
+      padding-left: $padd;
+      padding-right: $padd;
+
+      &:hover,
+      &:focus,
+      &.active {
+        background-color: $scss-dropdown-item-bg-hover;
+      }
+
+      &:first-child {
+        border-top: none;
+      }
+    }
+  }
+
+  [class^="ps-icon"] {
+    vertical-align: baseline;
+
+    &:before {
+      @if $scss-direction == rtl {
+        margin-left: ($padding-sm / 2);
+        margin-right: 0;
+      } @else {
+        margin-left: 0;
+        margin-right: ($padding-sm / 2);
+      }
+    }
+  }
+}*/
+
+
+.ps-dropdown__toggle {}
+
+
+.ps-dropdown__desc {
+  padding: ($padd / 2);
+  font-size: 11px;
+  color: $color-text-light;
+  border-top: $divider-dashed;
+
+  > i {
+    font-size: 13px;
+    vertical-align: middle !important;
+  }
+}
+
+
+.ps-dropdown--right {
+  .ps-dropdown__menu,
+  .ps-dropdown__box {
+    @if $scss-direction == rtl {
+      left: 0;
+      right: auto;
+    } @else {
+      left: auto;
+      right: 0;
+    }
+  }
+}
+
+
+.ps-dropdown--stream-filter {
+  position: static;
+  padding: 2px;
+
+  @include media('small') {
+    flex-grow: 1;
+  }
+
+  @include media('large') {
+    position: relative;
+  }
+
+  > .ps-btn {
+    width: 100%;
+  }
+
+  .ps-dropdown__menu {
+    > a {
+      @if $scss-direction == rtl {
+        padding-right: 30px;
+      } @else {
+        padding-left: 30px;
+      }
+    }
+
+    .ps-checkbox {
+      > input {
+        position: absolute;
+
+        @if $scss-direction == rtl {
+          right: -20px;
+        } @else {
+          left: -20px;
+        }
+      }
+
+      > label {
+        text-indent: 0;
+
+        @if $scss-direction == rtl {
+          padding-right: 0;
+        } @else {
+          padding-left: 0;
+        }
+
+        &:before {
+          @if $scss-direction == rtl {
+            right: -23px;
+          } @else {
+            left: -23px;
+          }
+        }
+
+        &:after {
+          @if $scss-direction == rtl {
+            right: -20px;
+          } @else {
+            left: -20px;
+          }
+        }
+      }
+    }
+
+    .ps-dropdown__group-desc {
+      margin-top: 0;
+    }
+
+    @include media('medium') {
+      min-width: 400px;
+    }
+  }
+
+  &[data-id="peepso_search_hashtag"] {
+    .ps-dropdown__actions {
+      line-height: 2;
+
+      > .ps-input {
+        @if $scss-direction == rtl {
+          margin-right: 5px;
+        } @else {
+          margin-left: 5px;
+        }
+      }
+    }
+  }
+}
+
+
+.ps-dropdown__menu--toolbar {
+  @include media('small') {
+    position: static;
+    min-width: auto;
+    padding-left: $padd--med !important;
+    padding-right: $padd--med !important;
+    background-color: $scss-submenu-dropdown-bg;
+    border: none;
+    box-shadow: none;
+  }
+}
+
+
+.ps-dropdown--submenu {
+  display: block;
+  line-height: 1;
+  background-color: $submenu-bg;
+
+  > a {
+    display: block;
+    padding: $padd;
+    text-align: center;
+  }
+
+  @include media('medium') {
+    display: none;
+  }
+}
+
+
+.ps-dropdown__menu--submenu {
+  width: 100%;
+  max-width: 100%;
+}
+
+
+.ps-dropdown__group {
+  position: relative;
+}
+
+
+.ps-dropdown__group-title {
+  display: block;
+  margin: 0;
+  color: $color-text;
+
+  > i {
+    @if $scss-direction == rtl {
+      float: left;
+    } @else {
+      float: right;
+    }
+  }
+
+  label > span {
+    color: $color-text;
+  }
+
+  @extend %clearfix;
+}
+
+
+.ps-dropdown__group-desc {
+  margin-top: $padd;
+  font-size: 11px;
+  line-height: 1.4;
+  color: $color-text-light;
+
+  &:empty {
+    display: none;
+  }
+}
+
+
+.ps-dropdown--group-privacy,
+.ps-dropdown--group-follow {
+  position: static;
+  text-shadow: none;
+
+  @include media('medium') {
+    .ps-dropdown__menu {
+      min-width: 300px;
+    }
+  }
+
+  @include media('large') {
+    position: relative;
+  }
+}
+
+
+.ps-dropdown__actions {
+  display: flex;
+  justify-content: space-between;
+  padding: ($padd / 2);
+  border-top: $scss-dropdown-item-separator;
+}
+
+
+.ps-dropdown--userbar {
+  @if $scss-direction == rtl {
+    margin-right: 5px;
+    padding-right: 5px;
+    border-right: 1px solid rgba(0,0,0, .08);
+  } @else {
+    margin-left: 5px;
+    padding-left: 5px;
+    border-left: 1px solid rgba(0,0,0, .08);
+  }
+
+  .ps-dropdown__toggle {
+    display: block;
+    border: 1px solid rgba(0,0,0, .05) !important;
+    border-radius: 4px;
+  }
+}
+
+.ps-dropdown__menu--postbox-group {
+  width: 96%;
+  margin-left: 2%;
+  margin-right: 2%;
+}

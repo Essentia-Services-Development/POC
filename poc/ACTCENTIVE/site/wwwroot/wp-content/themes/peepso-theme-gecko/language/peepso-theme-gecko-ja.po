@@ -1,0 +1,2651 @@
+# Translation of PeepSo - Gecko Theme in Japanese
+# This file is distributed under the same license as the PeepSo - Gecko Theme package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: +0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/3.0.0\n"
+"Language: ja_JP\n"
+"Project-Id-Version: PeepSo - Gecko Theme\n"
+
+#: core/admin/settings.php:274
+msgid "Inject Open Graph tags"
+msgstr ""
+
+#: core/admin/settings.php:270
+msgid "Open Graph"
+msgstr ""
+
+#: core/admin/customizer-options.php:3013
+msgid "Force single column Products view on Mobile."
+msgstr ""
+
+#: core/admin/customizer-options.php:3003
+msgid "Set default number of product columns."
+msgstr ""
+
+#: core/admin/customizer-options.php:3002
+msgid "Product columns."
+msgstr ""
+
+#: core/admin/customizer-options.php:2994
+msgid "Show sidebars on Shop & Product pages."
+msgstr ""
+
+#: core/admin/customizer-options.php:2986
+msgid "Makes every single product view builder friendly (full width layout with no paddings arround)."
+msgstr ""
+
+#: core/admin/customizer-preset.php:542
+msgid "Lime Green"
+msgstr ""
+
+#: core/admin/customizer-options.php:2782
+msgid "Hashtags in postbox"
+msgstr ""
+
+#: core/admin/customizer-options.php:1325
+msgid "Icon background color on hover"
+msgstr ""
+
+#: core/admin/customizer-options.php:1319
+msgid "Icon color on hover"
+msgstr ""
+
+#: core/admin/customizer-options.php:1313
+msgid "Icon color"
+msgstr ""
+
+#: core/admin/customizer-options.php:1307
+msgid "This will only affect the menu icon not the notifications icon."
+msgstr ""
+
+#: core/admin/customizer-options.php:1306
+msgid "Menu Icons"
+msgstr ""
+
+#: core/admin/customizer-options.php:3097
+msgid "Display breadcrumbs"
+msgstr ""
+
+#: core/admin/customizer-options.php:3088
+msgid "General Settings."
+msgstr ""
+
+#: core/admin/customizer-options.php:3087
+msgid "Settings related to Yoast SEO plugin."
+msgstr ""
+
+#: core/admin/customizer-options.php:3086
+msgid "Yoast SEO"
+msgstr ""
+
+#: core/admin/customizer-options.php:1093
+msgid "Full width mode"
+msgstr ""
+
+#: core/admin/customizer-options.php:1039
+msgid "Fixed background position"
+msgstr ""
+
+#: core/admin/customizer-options.php:990
+msgid "Show right sidebar on desktop."
+msgstr ""
+
+#: core/admin/customizer-options.php:982
+msgid "Show left sidebar on desktop."
+msgstr ""
+
+#: core/admin/customizer-options.php:976
+msgid "Desktop visibility"
+msgstr ""
+
+#: core/admin/customizer-options.php:1781
+msgid "Show caption under Featured Image on Single post."
+msgstr ""
+
+#: core/admin/customizer-options.php:1718
+msgid "Show caption under Featured Image on Blog & Search page."
+msgstr ""
+
+#: core/widgets.php:59
+msgid "Designed for content slider, will be displayed under header."
+msgstr ""
+
+#: core/admin/customizer-options.php:854
+msgid "Show edit link at the bottom of the page/post."
+msgstr ""
+
+#: single.php:95 template-parts/content-page.php:73
+msgid "Edit Page"
+msgstr ""
+
+#: page-tpl-landing.php:77
+msgid "You are logged in as"
+msgstr ""
+
+#: page-tpl-landing.php:62
+msgid "Register or login to see the Community activities."
+msgstr ""
+
+#: page-tpl-landing.php:61
+msgid "Welcome back!"
+msgstr ""
+
+#: core/admin/settings.php:194
+msgid "All available post types"
+msgstr ""
+
+#: core/admin/settings.php:182
+msgid "Comma-separated list of post types"
+msgstr ""
+
+#: core/admin/settings.php:163
+msgid "post types"
+msgstr ""
+
+#: core/admin/settings.php:134
+msgid "single items"
+msgstr ""
+
+#: core/admin/settings.php:130
+msgid "Redirecting guests to a landing page is a great way to keep your website closed to non-members. You can define some exceptions from that rule, but keep in mind this might affect performance for guests. We recommend not defining too many exceptions."
+msgstr ""
+
+#: core/admin/settings.php:107
+msgid "Redirect guests"
+msgstr ""
+
+#: core/admin/customizer-options.php:2666
+msgid "Post Type hover background color"
+msgstr ""
+
+#: core/admin/customizer-options.php:2660
+msgid "Post Type background color"
+msgstr ""
+
+#: core/admin/customizer-options.php:2654
+msgid "Post Type active icons"
+msgstr ""
+
+#: core/admin/customizer-options.php:2648
+msgid "Post Type icons"
+msgstr ""
+
+#: core/admin/customizer-options.php:2642
+msgid "Postbox icons active (all)"
+msgstr ""
+
+#: core/page.php:226 core/page.php:249 core/page.php:262
+msgid "MegaMenu is activated. This setting is overridden by MegaMenu plugin."
+msgstr ""
+
+#: core/admin/customizer.php:321
+msgid "MegaMenu is activated. Some settings may be overridden by MegaMenu plugin."
+msgstr ""
+
+#: template-parts/peepso/focus.php:89
+msgid "Rotate right"
+msgstr ""
+
+#: template-parts/peepso/focus.php:85
+msgid "Rotate left"
+msgstr ""
+
+#: core/admin/customizer-options.php:1530
+msgid "Display Footer"
+msgstr ""
+
+#: core/admin/customizer-options.php:1085
+msgid "Display Header"
+msgstr ""
+
+#: core/admin/customizer-options.php:199
+msgid "Tagline font-size"
+msgstr ""
+
+#: core/admin/customizer.php:391
+msgid "Tablet"
+msgstr ""
+
+#: core/admin/customizer-options.php:1733
+msgid "Number of Columns."
+msgstr ""
+
+#: functions.php:25
+msgid "Please make sure the first three version numbers of PeepSo plugins %s and Gecko theme %s match. It’d be best to update the plugins and theme to latest versions. If you are using a child theme, please check our <a href=\"%s\">documentation</a> to fix the issue."
+msgstr ""
+
+#: core/admin/customizer-options.php:2572
+msgid "Post attachment background color"
+msgstr ""
+
+#: core/admin/customizer-options.php:2499
+msgid "Gap between Posts"
+msgstr ""
+
+#: core/admin/customizer.php:218
+msgid "Publish - Set preset as default"
+msgstr ""
+
+#: core/admin/customizer.php:213
+msgid "Save changes"
+msgstr ""
+
+#: core/admin/customizer.php:170
+msgid "Select Preset"
+msgstr ""
+
+#: core/admin/customizer.php:152
+msgid "Discard changes"
+msgstr ""
+
+#: core/admin/customizer.php:143
+msgid "Preset Settings"
+msgstr ""
+
+#: core/admin/customizer.php:136
+msgid "Theme Preset"
+msgstr ""
+
+#: core/admin/customizer-options.php:2776
+#: core/admin/customizer-options.php:2794
+msgid "Text background"
+msgstr ""
+
+#: core/admin/customizer-options.php:2764
+msgid "These settings will not affect hashtags in gradient widget style."
+msgstr ""
+
+#: core/admin/customizer-options.php:2763
+msgid "Hashtags in widget"
+msgstr ""
+
+#: core/admin/customizer-options.php:2758
+msgid "Hashtags"
+msgstr ""
+
+#: core/admin/customizer-preset.php:500
+msgid "Dating"
+msgstr ""
+
+#: core/admin/customizer-preset.php:461
+msgid "Sunset"
+msgstr ""
+
+#: core/admin/customizer-preset.php:415 core/admin/customizer-preset.php:423
+#: core/admin/customizer-preset.php:461 core/admin/customizer-preset.php:500
+#: core/admin/customizer-preset.php:542
+msgid "Gecko:"
+msgstr ""
+
+#: core/admin/customizer-options.php:2832
+msgid "Chat & Messages"
+msgstr ""
+
+#: core/admin/customizer-options.php:2803
+msgid "Groups"
+msgstr ""
+
+#: core/admin/customizer-options.php:2731
+msgid "Polls"
+msgstr ""
+
+#: core/admin/customizer-options.php:2722
+msgid "Notifications counter text color"
+msgstr ""
+
+#: core/admin/customizer-options.php:2716
+msgid "Notifications counter background"
+msgstr ""
+
+#: core/admin/customizer-options.php:2710
+msgid "Unread notification background"
+msgstr ""
+
+#: core/admin/customizer-options.php:2705
+msgid "Notifications"
+msgstr ""
+
+#: core/admin/customizer-options.php:2402
+msgid "Action buttons style"
+msgstr ""
+
+#: core/admin/customizer-options.php:2396
+#: core/admin/customizer-options.php:2426
+msgid "Button text color on Hover"
+msgstr ""
+
+#: core/admin/customizer-options.php:2390
+#: core/admin/customizer-options.php:2420
+msgid "Button background on Hover"
+msgstr ""
+
+#: core/admin/customizer-options.php:2384
+#: core/admin/customizer-options.php:2414
+msgid "Button text color"
+msgstr ""
+
+#: core/admin/customizer-options.php:2378
+#: core/admin/customizer-options.php:2408
+msgid "Button background"
+msgstr ""
+
+#: core/admin/customizer-options.php:2372
+msgid "Default style"
+msgstr ""
+
+#: core/admin/customizer-options.php:2367
+msgid "Buttons"
+msgstr ""
+
+#: core/admin/customizer-options.php:2749
+msgid "Poll option infill color"
+msgstr ""
+
+#: core/admin/customizer-options.php:2743
+msgid "Poll option background color"
+msgstr ""
+
+#: core/admin/customizer-options.php:2737
+msgid "Make sure text is readable on default and infill background colors."
+msgstr ""
+
+#: core/admin/customizer-options.php:2736
+msgid "Poll option text color"
+msgstr ""
+
+#: core/admin/customizer-options.php:901
+msgid "With this setting you can limit middle column maximum width. Use any unit, like px or %."
+msgstr ""
+
+#: core/admin/customizer-options.php:900
+msgid "It will affect not only Community pages but also Blog and other pages."
+msgstr ""
+
+#: core/admin/customizer-options.php:899
+msgid "Middle column max-width"
+msgstr ""
+
+#: core/admin/customizer-options.php:575
+msgid "Here you can edit global text colors."
+msgstr ""
+
+#: core/admin/customizer-options.php:572
+msgid "Typography colors"
+msgstr ""
+
+#: core/admin/customizer-options.php:449
+msgid "Info dark color"
+msgstr ""
+
+#: core/admin/customizer-options.php:442
+msgid "Info ultralight color"
+msgstr ""
+
+#: core/admin/customizer-options.php:435
+msgid "Info light color"
+msgstr ""
+
+#: core/admin/customizer-options.php:428
+msgid "Info color"
+msgstr ""
+
+#: core/admin/customizer-options.php:423
+msgid "Info colors used for default alerts."
+msgstr ""
+
+#: core/admin/customizer-options.php:420
+msgid "Info colors"
+msgstr ""
+
+#: core/admin/customizer-options.php:411
+msgid "Links hover color on gradient"
+msgstr ""
+
+#: core/admin/customizer-options.php:405
+msgid "Links on gradient color"
+msgstr ""
+
+#: core/admin/customizer-options.php:399
+msgid "Text on gradient color"
+msgstr ""
+
+#: core/admin/customizer-options.php:393
+msgid "Gradient color 2"
+msgstr ""
+
+#: core/admin/customizer-options.php:387
+msgid "Gradient color 1"
+msgstr ""
+
+#: core/admin/customizer-options.php:377
+msgid "Gradient angle"
+msgstr ""
+
+#: core/admin/customizer-options.php:372
+msgid "Used as default gradient widget colors. (maybe on more elements in the future)"
+msgstr ""
+
+#: core/admin/customizer-options.php:369
+msgid "Gradient colors"
+msgstr ""
+
+#: core/admin/customizer-options.php:360
+msgid "Alt dark color"
+msgstr ""
+
+#: core/admin/customizer-options.php:353
+msgid "Alt light color"
+msgstr ""
+
+#: core/admin/customizer-options.php:346
+msgid "Alt color"
+msgstr ""
+
+#: core/admin/customizer-options.php:341
+msgid "Alternative to primary color. Default color for community Join button, one of the Gradient colors and some small UI elements."
+msgstr ""
+
+#: core/admin/customizer-options.php:338
+msgid "Alt colors"
+msgstr ""
+
+#: core/admin/customizer-options.php:288
+msgid "Base colors palette (primary colors, text, backgrounds)."
+msgstr ""
+
+#: core/admin/customizer-options.php:254
+msgid "Here you can edit font-size or line-height."
+msgstr ""
+
+#: peepso/activity/post.php:96
+msgid "Click to reveal NSFW content."
+msgstr ""
+
+#: core/widgets.php:153
+msgid "Widgets added to this area will be displayed under content and sidebars."
+msgstr ""
+
+#: core/widgets.php:143
+msgid "Widgets added to this area will be displayed under content but between sidebars."
+msgstr ""
+
+#: core/widgets.php:95
+msgid "Widgets added to this area will be displayed above content but between sidebars."
+msgstr ""
+
+#: core/widgets.php:67
+msgid "Widgets added to this area will be displayed above content and sidebars."
+msgstr ""
+
+#: core/widgets.php:31
+msgid "Dedicated area for shopping cart widgets, will be displayed on header bar."
+msgstr ""
+
+#: core/widgets.php:21
+msgid "Dedicated area for search widgets, will be displayed on header bar."
+msgstr ""
+
+#: core/widgets.php:11
+msgid "Widgets & Blocks will be displayed on header bar, next to header menu."
+msgstr ""
+
+#: core/admin/customizer-options.php:3069
+msgid "Overrides Tutor LMS primary colors."
+msgstr ""
+
+#: core/admin/customizer-options.php:3060
+msgid "General Tutor LMS settings."
+msgstr ""
+
+#: core/admin/customizer-options.php:3059
+msgid "Settings related to Tutor LMS plugin."
+msgstr ""
+
+#: core/admin/customizer-options.php:3058
+msgid "Tutor LMS"
+msgstr ""
+
+#: core/admin/customizer-options.php:1797
+#: core/admin/customizer-options.php:1806
+#: core/admin/customizer-options.php:1815
+#: core/admin/customizer-options.php:1824
+#: core/admin/customizer-options.php:1833
+msgid "It will also affect Archives page."
+msgstr ""
+
+#: core/admin/customizer-options.php:1132
+msgid "Enable long menu"
+msgstr ""
+
+#: core/admin/customizer-options.php:1124
+msgid "If there is not enough space on header to show all the menu links inline, it will hide the rest of them under dropdown menu."
+msgstr ""
+
+#: core/admin/customizer-options.php:1122
+msgid "Long menu support"
+msgstr ""
+
+#: peepso/general/login.php:48
+msgid "TFA code"
+msgstr ""
+
+#: core/admin/customizer-options.php:1372
+msgid "Arrow icon color"
+msgstr ""
+
+#: core/admin/customizer-options.php:1346
+msgid "Position on to the right"
+msgstr ""
+
+#: core/admin/customizer-options.php:580
+msgid "Global headings color"
+msgstr ""
+
+#: core/admin/customizer-options.php:149
+msgid "Site Icon (Favicon)"
+msgstr ""
+
+#: core/admin/customizer-options.php:1654
+msgid "Display footer (social) widgets"
+msgstr ""
+
+#: core/admin/customizer-options.php:1646
+msgid "Display footer widgets"
+msgstr ""
+
+#: core/admin/customizer-options.php:1640
+msgid "Landing Page footer widgets"
+msgstr ""
+
+#: core/admin/customizer-options.php:1632
+msgid "Full width footer"
+msgstr ""
+
+#: core/admin/customizer-options.php:1626
+msgid "Landing Page footer"
+msgstr ""
+
+#: core/admin/customizer-options.php:1623
+msgid "Landing page settings."
+msgstr ""
+
+#: core/admin/customizer-options.php:1621
+msgid "Landing Page (Template)"
+msgstr ""
+
+#: core/admin/customizer-options.php:1688
+msgid "Each blog post on front-end will show only limited number of words (Blog page)."
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Landing"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Builder friendly"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://PeepSo.com"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "PeepSo, Inc."
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Thank you for choosing Gecko as your theme. We're very passionate about creating the best possible experience for you and your community. Community that can be built with PeepSo - The Next Generation User Profile And Social Networking Plugins for WordPress. For more information about PeepSo go to: <a href=\"https://PeepSo.com\">PeepSo.com</a>.<!--Gecko Parent-->"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "https://GeckoTheme.com"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "PeepSo Theme: Gecko"
+msgstr ""
+
+#: template-parts/peepso/focus.php:81
+msgid "Reposition"
+msgstr ""
+
+#: template-parts/peepso/focus.php:77
+msgid "Upload new"
+msgstr ""
+
+#: template-parts/peepso/focus.php:73
+msgid "Change cover"
+msgstr ""
+
+#: template-parts/peepso/focus.php:65 template-parts/peepso/focus.php:129
+msgid "%s is currently online"
+msgstr ""
+
+#: template-parts/peepso/focus.php:58 template-parts/peepso/focus.php:122
+msgid "Change avatar"
+msgstr ""
+
+#: template-parts/peepso/focus.php:46 template-parts/peepso/focus.php:110
+msgid "%s avatar"
+msgstr ""
+
+#: template-parts/peepso/focus.php:26
+msgid "%s cover photo"
+msgstr ""
+
+#: template-parts/content.php:100
+msgid "Tags: "
+msgstr ""
+
+#: template-parts/content.php:97
+msgid "Category: "
+msgstr ""
+
+#: template-parts/content.php:71
+msgid "Read more %s"
+msgstr ""
+
+#: template-parts/content.php:68
+msgid "Read more"
+msgstr ""
+
+#: template-parts/content-search.php:63 template-parts/content.php:107
+msgid "Comments"
+msgstr ""
+
+#: template-parts/content-search.php:51 template-parts/content-search.php:61
+#: template-parts/content.php:57 template-parts/content.php:105
+msgid "Published by"
+msgstr ""
+
+#: template-parts/content-search.php:6 template-parts/content.php:8
+msgid ", "
+msgstr ""
+
+#: template-parts/content-page.php:63 template-parts/content.php:78
+msgid "Pages:"
+msgstr ""
+
+#: template-parts/content-none.php:31
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr ""
+
+#: template-parts/content-none.php:26
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr ""
+
+#: template-parts/content-none.php:22
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content-none.php:15
+msgid "Nothing Found"
+msgstr ""
+
+#: search.php:50
+msgid "Search Results for: %s"
+msgstr ""
+
+#: peepso/general/register-panel.php:51
+msgid "Join us now, it's free!"
+msgstr ""
+
+#: peepso/general/register-panel.php:42
+msgid "Come and join our community. Expand your network and get to know new people!"
+msgstr ""
+
+#: peepso/general/register-panel.php:40
+msgid "Your e-mail address was confirmed. You can now log in."
+msgstr ""
+
+#: peepso/general/register-panel.php:35
+msgid "Get Connected!"
+msgstr ""
+
+#: peepso/general/register-panel.php:33
+msgid "Thank you"
+msgstr ""
+
+#: peepso/general/login.php:87
+msgid "Resend activation code"
+msgstr ""
+
+#: peepso/general/login.php:84
+msgid "Forgot Password"
+msgstr ""
+
+#: peepso/general/login.php:81
+msgid "Register"
+msgstr ""
+
+#: peepso/general/login.php:68 peepso/general/login.php:69
+msgid "Remember Me"
+msgstr ""
+
+#: peepso/general/login.php:60
+msgid "Login"
+msgstr ""
+
+#: peepso/general/login.php:39
+msgid "Password"
+msgstr ""
+
+#: peepso/general/login.php:32
+msgid "Please use a valid email address."
+msgstr ""
+
+#: peepso/general/login.php:10
+msgid "Log in or register"
+msgstr ""
+
+#: peepso/activity/post.php:184
+msgid "%sLogin%s to react or comment on this post."
+msgstr ""
+
+#: peepso/activity/post.php:168 peepso/activity/post.php:179
+msgid "%sRegister%s or %sLogin%s to react or comment on this post."
+msgstr ""
+
+#: peepso/activity/post.php:157
+msgid "Clear"
+msgstr ""
+
+#: peepso/activity/post.php:145
+msgid "Write a comment..."
+msgstr ""
+
+#: peepso/activity/post.php:127
+msgid "Comments are closed"
+msgstr ""
+
+#: peepso/activity/post.php:52
+msgid "Post privacy"
+msgstr ""
+
+#: peepso/activity/post.php:27
+msgid "This pinned post will not display to all users because of its privacy settings."
+msgstr ""
+
+#: peepso/activity/post.php:21
+msgid "Pinned"
+msgstr ""
+
+#: page.php:27 page.php:41 template-parts/content-page.php:47
+#: template-parts/content-search.php:34 template-parts/content.php:39
+msgid "Edit"
+msgstr ""
+
+#: page-tpl-landing.php:24
+msgid "Go to Homepage"
+msgstr ""
+
+#: header.php:352 header.php:394
+msgid "Type to search"
+msgstr ""
+
+#: header.php:228
+msgid "Log Out"
+msgstr ""
+
+#: header.php:186
+msgid "Members"
+msgstr ""
+
+#: header.php:179
+msgid "My Profile"
+msgstr ""
+
+#: functions.php:634
+msgid "Preferred color theme"
+msgstr ""
+
+#: functions.php:360
+msgid "WP Customizer"
+msgstr ""
+
+#: functions.php:351
+msgid "Customize"
+msgstr ""
+
+#: core/widgets.php:267
+msgid "Background Color 2"
+msgstr ""
+
+#: core/widgets.php:262
+msgid "Background Color 1"
+msgstr ""
+
+#: core/utility.php:260
+msgid "updated"
+msgstr ""
+
+#: core/utility.php:14
+msgid "All rights reserved © %s"
+msgstr ""
+
+#: core/page.php:271
+msgid "Makes page full-width without paddings around so you can use whole available space in page builder of your choice."
+msgstr ""
+
+#: core/page.php:258
+msgid "Makes header transparent (removes top padding on <body> with Builder friendly option enabled) to help header blend with page background. It will still use solid background color on scroll."
+msgstr ""
+
+#: core/page.php:235
+msgid "Display content inside box with background and shadow around (just like on single post view)."
+msgstr ""
+
+#: core/landing.php:41
+msgid "Button label"
+msgstr ""
+
+#: core/landing.php:34
+msgid "Button url"
+msgstr ""
+
+#: core/landing.php:29
+msgid "Redirect Button"
+msgstr ""
+
+#: core/helpers.php:43
+msgid "%s year"
+msgid_plural "%s years"
+msgstr[0] ""
+
+#: core/helpers.php:38
+msgid "%s month"
+msgid_plural "%s months"
+msgstr[0] ""
+
+#: core/helpers.php:33
+msgid "%s week"
+msgid_plural "%s weeks"
+msgstr[0] ""
+
+#: core/helpers.php:28
+msgid "%s day"
+msgid_plural "%s days"
+msgstr[0] ""
+
+#: core/helpers.php:23
+msgid "%s hour"
+msgid_plural "%s hours"
+msgstr[0] ""
+
+#. translators: min=minute
+#: core/helpers.php:18
+msgid "%s min"
+msgid_plural "%s mins"
+msgstr[0] ""
+
+#: core/enqueue-scripts.php:119
+msgid "Click to expand"
+msgstr ""
+
+#: core/admin/settings.php:310
+msgid "Requires a compatible third party wrapper. Enables widget positions for app context."
+msgstr ""
+
+#: core/admin/settings.php:281 core/admin/settings.php:307
+msgid "Enabled"
+msgstr ""
+
+#: core/admin/settings.php:300
+msgid "Dedicated app widget positions:"
+msgstr ""
+
+#: core/admin/settings.php:241
+msgid "Use these presets:"
+msgstr ""
+
+#: core/admin/settings.php:230
+msgid "Selected custom presets"
+msgstr ""
+
+#: core/admin/settings.php:229
+msgid "All custom presets"
+msgstr ""
+
+#: core/admin/settings.php:228 core/admin/settings.php:280
+#: core/admin/settings.php:306
+msgid "Disabled"
+msgstr ""
+
+#: core/admin/settings.php:222
+msgid "Let users select preferred theme"
+msgstr ""
+
+#: core/admin/settings.php:157 core/admin/settings.php:184
+msgid "For example"
+msgstr ""
+
+#: core/admin/settings.php:155
+msgid "Use \"blog\" and \"frontpage\" to exclude your Blog Page and Frontpage"
+msgstr ""
+
+#: core/admin/settings.php:153
+msgid "Comma-separated list of page IDs that should be visible to visitors"
+msgstr ""
+
+#: core/admin/settings.php:134 core/admin/settings.php:163
+msgid "Redirect exceptions"
+msgstr ""
+
+#: core/admin/settings.php:124
+msgid "Redirect all guests to a specified page except from Registration and Privacy Policy pages"
+msgstr ""
+
+#: core/admin/settings.php:296
+msgid "App"
+msgstr ""
+
+#: core/admin/settings.php:218
+msgid "User preferences"
+msgstr ""
+
+#: core/admin/settings.php:103
+msgid "Redirects"
+msgstr ""
+
+#: core/admin/license.php:623
+msgid "<strong>%1$s %2$s</strong> is available. <a href=\"%3$s\" class=\"thickbox\" title=\"%4s\">Check out what's new</a> or <a href=\"%5$s\"%6$s>update now</a>."
+msgstr ""
+
+#: core/admin/license.php:622
+msgid "Updating this theme will lose any customizations you have made. 'Cancel' to stop, 'OK' to update."
+msgstr ""
+
+#: core/admin/license.php:620
+msgid "Site is inactive."
+msgstr ""
+
+#: core/admin/license.php:619
+msgid "License key is disabled."
+msgstr ""
+
+#: core/admin/license.php:618
+msgid "License is inactive."
+msgstr ""
+
+#: core/admin/license.php:617
+msgid "License keys do not match."
+msgstr ""
+
+#: core/admin/license.php:616
+msgid "License key has expired."
+msgstr ""
+
+#: core/admin/license.php:615
+msgid "License key expired %s."
+msgstr ""
+
+#: core/admin/license.php:614
+msgid "You have %1$s / %2$s sites activated."
+msgstr ""
+
+#: core/admin/license.php:613
+msgid "Lifetime License."
+msgstr ""
+
+#: core/admin/license.php:612
+msgid "Expires %s."
+msgstr ""
+
+#: core/admin/license.php:611
+msgid "License key is active."
+msgstr ""
+
+#: core/admin/license.php:610
+msgid "unlimited"
+msgstr ""
+
+#: core/admin/license.php:609
+msgid "Renew?"
+msgstr ""
+
+#: core/admin/license.php:608 core/admin/license.php:621
+msgid "License status is unknown."
+msgstr ""
+
+#: core/admin/license.php:607
+msgid "Activate License"
+msgstr ""
+
+#: core/admin/license.php:606
+msgid "Deactivate License"
+msgstr ""
+
+#: core/admin/license.php:605
+msgid "License Action"
+msgstr ""
+
+#: core/admin/license.php:604
+msgid "License Key"
+msgstr ""
+
+#: core/admin/license.php:603
+msgid "Enter your theme license key."
+msgstr ""
+
+#: core/admin/license.php:602
+msgid "Theme License"
+msgstr ""
+
+#: core/admin/license.php:222
+msgid "<a href=\"%s\">Review your Gecko license</a>."
+msgstr ""
+
+#: core/admin/license.php:220
+msgid "Gecko license is missing or invalid (%s). Please enter a valid license and click \"SAVE\" to activate it."
+msgstr ""
+
+#: core/admin/license.php:162
+msgid "License key"
+msgstr ""
+
+#: core/admin/license.php:178 core/admin/page_builders.php:95
+#: core/admin/settings.php:320
+msgid "Version"
+msgstr ""
+
+#: core/admin/license.php:145 core/admin/page_builders.php:54
+#: core/admin/page_builders.php:62 core/admin/settings.php:92
+msgid "Page Builders"
+msgstr ""
+
+#: core/admin/license.php:132 core/admin/license.php:147
+#: core/admin/license.php:156 core/admin/page_builders.php:64
+#: core/admin/settings.php:94
+msgid "License"
+msgstr ""
+
+#: core/admin/license.php:143 core/admin/page_builders.php:60
+#: core/admin/settings.php:64 core/admin/settings.php:79
+#: core/admin/settings.php:90 header.php:193
+msgid "Settings"
+msgstr ""
+
+#: core/admin/license.php:120
+msgid "Your license can't be checked because of an API request limit.<br/> If the problem persists, please contact <a href=\"https://www.peepso.com/contact\" target=\"_blank\">PeepSo Support</a>."
+msgstr ""
+
+#: core/admin/license.php:116
+msgid "The license is invalid (%s)."
+msgstr ""
+
+#: core/admin/license.php:112
+msgid "Expired on %s"
+msgstr ""
+
+#: core/admin/license.php:110
+msgid "%s remaining"
+msgstr ""
+
+#: core/admin/customizer.php:1090
+msgid "Are you sure want to delete the current preset?"
+msgstr ""
+
+#: core/admin/customizer.php:1089
+msgid "Are you sure want to discard any changes to the current preset?"
+msgstr ""
+
+#: core/admin/customizer.php:1088
+msgid "Leaving the page will discard unsaved changes to the current preset. Are you sure?"
+msgstr ""
+
+#: core/admin/customizer.php:1087
+msgid "Switching preset will discard unsaved changes to the current preset. Are you sure?"
+msgstr ""
+
+#: core/admin/customizer.php:1086
+msgid "Are you sure want to save and set the current preset as default?"
+msgstr ""
+
+#: core/admin/customizer.php:1085
+msgid "Set as default preset"
+msgstr ""
+
+#: core/admin/customizer.php:1084
+msgid "Default preset"
+msgstr ""
+
+#: core/admin/customizer.php:199 core/admin/customizer.php:1083
+msgid "Published"
+msgstr ""
+
+#: core/admin/customizer.php:1081
+msgid "Saved"
+msgstr ""
+
+#: core/admin/customizer.php:744
+msgid "<b>Global setting</b> - applies to all presets"
+msgstr ""
+
+#: core/admin/customizer.php:656
+msgid "Change"
+msgstr ""
+
+#: core/admin/customizer.php:653
+msgid "Remove"
+msgstr ""
+
+#: core/admin/customizer.php:399
+msgid "Loading"
+msgstr ""
+
+#: core/admin/customizer.php:384
+msgid "Only custom presets can be modified - select a custom preset to edit. To create a custom preset, <u>duplicate a Gecko preset</u>."
+msgstr ""
+
+#: core/admin/customizer.php:303 core/admin/settings.php:163
+#: core/admin/settings.php:222 core/admin/settings.php:274
+msgid "Beta"
+msgstr ""
+
+#: core/admin/customizer.php:276 core/admin/customizer.php:299
+msgid "New"
+msgstr ""
+
+#: core/admin/customizer.php:265
+msgid "Back to Categories"
+msgstr ""
+
+#: core/admin/customizer.php:259
+msgid "Update"
+msgstr ""
+
+#: core/admin/customizer.php:249
+msgid "New preset name"
+msgstr ""
+
+#: core/admin/customizer.php:246
+msgid "Rename preset"
+msgstr ""
+
+#: core/admin/customizer.php:234 core/admin/customizer.php:253
+#: template-parts/peepso/focus.php:100
+msgid "Cancel"
+msgstr ""
+
+#: core/admin/customizer.php:228
+msgid "Custom preset"
+msgstr ""
+
+#: template-parts/peepso/focus.php:93
+msgid "Delete"
+msgstr ""
+
+#: core/admin/customizer.php:162
+msgid "Remove selected preset"
+msgstr ""
+
+#: core/admin/customizer.php:157
+msgid "Rename selected preset"
+msgstr ""
+
+#: core/admin/customizer.php:190
+msgid "Duplicate"
+msgstr ""
+
+#: core/admin/customizer.php:188
+msgid "New custom preset based on the current."
+msgstr ""
+
+#: core/admin/customizer.php:1082
+msgid "Publish"
+msgstr ""
+
+#: core/admin/customizer.php:240 core/admin/customizer.php:1080
+#: template-parts/peepso/focus.php:101
+msgid "Save"
+msgstr ""
+
+#: core/admin/customizer.php:196
+msgid "Save changes to the current preset."
+msgstr ""
+
+#: core/admin/customizer.php:54 core/admin/customizer.php:58
+msgid "Back to WordPress"
+msgstr ""
+
+#: core/admin/customizer.php:109 core/admin/customizer.php:110
+#: core/admin/license.php:144 core/admin/page_builders.php:61
+#: core/admin/settings.php:91 functions.php:359
+msgid "Gecko Customizer"
+msgstr ""
+
+#: core/admin/customizer-preset.php:423
+msgid "Dark"
+msgstr ""
+
+#: core/admin/customizer-preset.php:415
+msgid "Light"
+msgstr ""
+
+#: core/admin/settings.php:57 core/admin/settings.php:58
+msgid "Gecko"
+msgstr ""
+
+#: core/admin/customizer-options.php:3041
+msgid "Show sidebars on all Courses."
+msgstr ""
+
+#: core/admin/customizer-options.php:3032
+msgid "General LearnDash settings."
+msgstr ""
+
+#: core/admin/customizer-options.php:3031
+msgid "Settings related to LearnDash plugin."
+msgstr ""
+
+#: core/admin/customizer-options.php:3030
+msgid "LearnDash"
+msgstr ""
+
+#: core/admin/customizer-options.php:2985
+msgid "Builder friendly products."
+msgstr ""
+
+#: core/admin/customizer-options.php:2976
+msgid "General WooCommerce settings."
+msgstr ""
+
+#: core/admin/customizer-options.php:2975
+msgid "Settings related to WooCommerce plugin."
+msgstr ""
+
+#: core/admin/customizer-options.php:2974
+msgid "WooCommerce"
+msgstr ""
+
+#: core/admin/customizer-options.php:2923
+msgid "Mobile view"
+msgstr ""
+
+#: core/admin/customizer-options.php:2915
+#: core/admin/customizer-options.php:2959
+msgid "To fill the white space."
+msgstr ""
+
+#: core/admin/customizer-options.php:2914
+#: core/admin/customizer-options.php:2958
+msgid "Repeat the landing image"
+msgstr ""
+
+#: core/admin/customizer-options.php:2903
+#: core/admin/customizer-options.php:2947
+msgid "Landing image size"
+msgstr ""
+
+#: core/admin/customizer-options.php:2892
+#: core/admin/customizer-options.php:2936
+msgid "Landing image position"
+msgstr ""
+
+#: core/admin/customizer-options.php:2886
+#: core/admin/customizer-options.php:2930
+msgid "You can use any unit, like %, vh, or px."
+msgstr ""
+
+#: core/admin/customizer-options.php:2885
+#: core/admin/customizer-options.php:2929
+msgid "Landing image height"
+msgstr ""
+
+#: core/admin/customizer-options.php:2879
+msgid "Desktop view"
+msgstr ""
+
+#: core/admin/customizer-options.php:2873
+msgid "Background color under image."
+msgstr ""
+
+#: core/admin/customizer-options.php:2869
+msgid "Landing / Register box"
+msgstr ""
+
+#: core/admin/customizer-options.php:2860
+msgid "Chat message text color (you)."
+msgstr ""
+
+#: core/admin/customizer-options.php:2854
+msgid "Chat message background (you)."
+msgstr ""
+
+#: core/admin/customizer-options.php:2848
+msgid "Chat message text color (participants)."
+msgstr ""
+
+#: core/admin/customizer-options.php:2842
+msgid "Chat message background (participants)."
+msgstr ""
+
+#: core/admin/customizer-options.php:2836
+msgid "Chat window Notification background color."
+msgstr ""
+
+#: core/admin/customizer-options.php:2818
+msgid "Group cover avatar size."
+msgstr ""
+
+#: core/admin/customizer-options.php:2807
+msgid "Group cover height."
+msgstr ""
+
+#: core/admin/customizer-options.php:2696
+msgid "Postbox dropdown icon color"
+msgstr ""
+
+#: core/admin/customizer-options.php:2690
+msgid "Postbox dropdown text color"
+msgstr ""
+
+#: core/admin/customizer-options.php:2684
+msgid "Postbox dropdown background light"
+msgstr ""
+
+#: core/admin/customizer-options.php:2678
+msgid "Postbox dropdown background"
+msgstr ""
+
+#: core/admin/customizer-options.php:2672
+msgid "Postbox separator"
+msgstr ""
+
+#: core/admin/customizer-options.php:2636
+msgid "Postbox icons (all)"
+msgstr ""
+
+#: core/admin/customizer-options.php:2630
+msgid "Postbox text"
+msgstr ""
+
+#: core/admin/customizer-options.php:2624
+msgid "Postbox background"
+msgstr ""
+
+#: core/admin/customizer-options.php:2618
+msgid "Postbox"
+msgstr ""
+
+#: core/admin/customizer-options.php:2610
+msgid "Post gallery width"
+msgstr ""
+
+#: core/admin/customizer-options.php:2604
+msgid "You can use any unit, like px, % or auto."
+msgstr ""
+
+#: core/admin/customizer-options.php:2603
+msgid "Single photo height"
+msgstr ""
+
+#: core/admin/customizer-options.php:2595
+msgid "If the photo has a \"100%\" width (setting above), you can add a \"Click to expand\" button for a photo with excessive height."
+msgstr ""
+
+#: core/admin/customizer-options.php:2594
+msgid "Trim long single photo (BETA)."
+msgstr ""
+
+#: core/admin/customizer-options.php:2588
+msgid "If the photo has \"auto\" width (setting above), you can limit the photo with the maximum width."
+msgstr ""
+
+#: core/admin/customizer-options.php:2587
+msgid "Single photo limit width"
+msgstr ""
+
+#: core/admin/customizer-options.php:2579
+msgid "Change \"Single photo height\" to \"auto\" for best results."
+msgstr ""
+
+#: core/admin/customizer-options.php:2578
+msgid "Force single photo to fill 100% width."
+msgstr ""
+
+#: core/admin/customizer-options.php:2566
+msgid "Photos in post"
+msgstr ""
+
+#: core/admin/customizer-options.php:2555
+msgid "Pinned post - border size"
+msgstr ""
+
+#: core/admin/customizer-options.php:2549
+msgid "Pinned post - marker text color"
+msgstr ""
+
+#: core/admin/customizer-options.php:2543
+msgid "Pinned post - border color"
+msgstr ""
+
+#: core/admin/customizer-options.php:2537
+msgid "Pinned post"
+msgstr ""
+
+#: core/admin/customizer-options.php:2527
+msgid "Post font-size"
+msgstr ""
+
+#: core/admin/customizer-options.php:2521
+msgid "Post text light color"
+msgstr ""
+
+#: core/admin/customizer-options.php:2515
+msgid "Post text color"
+msgstr ""
+
+#: core/admin/customizer-options.php:2509
+msgid "Post background"
+msgstr ""
+
+#: core/admin/customizer-options.php:2493 peepso/activity/post.php:158
+msgid "Post"
+msgstr ""
+
+#: core/admin/customizer-options.php:2488 header.php:172
+msgid "Activity stream"
+msgstr ""
+
+#: core/admin/customizer-options.php:2475
+msgid "Toolbar icons size"
+msgstr ""
+
+#: core/admin/customizer-options.php:2465
+msgid "Toolbar font-size"
+msgstr ""
+
+#: core/admin/customizer-options.php:2459
+msgid "Toolbar links color on hover"
+msgstr ""
+
+#: core/admin/customizer-options.php:2453
+msgid "Toolbar links color"
+msgstr ""
+
+#: core/admin/customizer-options.php:2447
+msgid "Toolbar background"
+msgstr ""
+
+#: core/admin/customizer-options.php:2439
+msgid "Toolbar sticky (BETA)"
+msgstr ""
+
+#: core/admin/customizer-options.php:2435
+msgid "Toolbar"
+msgstr ""
+
+#: core/admin/customizer-options.php:2356
+msgid "Remove side paddings from PeepSo pages on mobile"
+msgstr ""
+
+#: core/admin/customizer-options.php:2355
+msgid "Full width PeepSo pages on mobile"
+msgstr ""
+
+#: core/admin/customizer-options.php:2341
+msgid "Avatar corners"
+msgstr ""
+
+#: core/admin/customizer-options.php:2335
+msgid "Avatars"
+msgstr ""
+
+#: core/admin/customizer-options.php:2327
+msgid "Show page title on PeepSo pages."
+msgstr ""
+
+#: core/admin/customizer-options.php:2310
+#: core/admin/customizer-options.php:2819
+msgid "Avatar size may affect cover height."
+msgstr ""
+
+#: core/admin/customizer-options.php:2309
+msgid "Profile avatar size."
+msgstr ""
+
+#: core/admin/customizer-options.php:2301
+msgid "Center focus Avatar and details/actions."
+msgstr ""
+
+#: core/admin/customizer-options.php:2291
+#: core/admin/customizer-options.php:2808
+msgid "Set the lowest point if you want to force cover to use its lowest possible height on all resolutions."
+msgstr ""
+
+#: core/admin/customizer-options.php:2290
+msgid "Profile cover height."
+msgstr ""
+
+#: core/admin/customizer-options.php:2286
+msgid "Full width cover"
+msgstr ""
+
+#: core/admin/customizer-options.php:2285
+msgid "Wide cover"
+msgstr ""
+
+#: core/admin/customizer-options.php:2284
+msgid "Default"
+msgstr ""
+
+#: core/admin/customizer-options.php:2279
+msgid "Profile cover size."
+msgstr ""
+
+#: core/admin/customizer-options.php:2275
+msgid "Profile page settings"
+msgstr ""
+
+#: core/admin/customizer-options.php:2269
+msgid "General PeepSo settings."
+msgstr ""
+
+#: core/admin/customizer-options.php:2268
+msgid "Here you can change style of the PeepSo components."
+msgstr ""
+
+#: core/admin/customizer-options.php:2267
+msgid "PeepSo"
+msgstr ""
+
+#: core/admin/customizer-options.php:2243
+msgid "Under content area widgets."
+msgstr ""
+
+#: core/admin/customizer-options.php:2241
+msgid "Under content widgets"
+msgstr ""
+
+#: core/admin/customizer-options.php:2220
+msgid "Above content area widgets."
+msgstr ""
+
+#: core/admin/customizer-options.php:2218
+msgid "Above content widgets"
+msgstr ""
+
+#: core/admin/customizer-options.php:2187
+msgid "Bottom area widgets (under the middle theme part)."
+msgstr ""
+
+#: core/admin/customizer-options.php:2185
+msgid "Bottom widgets"
+msgstr ""
+
+#: core/admin/customizer-options.php:2157
+#: core/admin/customizer-options.php:2190
+msgid "Columns number"
+msgstr ""
+
+#: core/admin/customizer-options.php:2154
+msgid "Top area widgets (above the middle theme part)."
+msgstr ""
+
+#: core/admin/customizer-options.php:2152
+msgid "Top widgets"
+msgstr ""
+
+#: core/admin/customizer-options.php:2094
+msgid "Sticky top bar with widgets for Mobile App only."
+msgstr ""
+
+#: core/admin/customizer-options.php:2092
+msgid "Sticky Top (Mobile App)"
+msgstr ""
+
+#: core/admin/customizer-options.php:2016
+msgid "Sticky Top (under header)"
+msgstr ""
+
+#: core/admin/customizer-options.php:1990
+#: core/admin/customizer-options.php:2066
+#: core/admin/customizer-options.php:2142
+msgid "Will remove container maximum width and default side padding."
+msgstr ""
+
+#: core/admin/customizer-options.php:1989
+#: core/admin/customizer-options.php:2065
+#: core/admin/customizer-options.php:2141
+msgid "Full width"
+msgstr ""
+
+#: core/admin/customizer-options.php:1979
+#: core/admin/customizer-options.php:2055
+#: core/admin/customizer-options.php:2131
+msgid "Additional padding inside bar"
+msgstr ""
+
+#: core/admin/customizer-options.php:1969
+#: core/admin/customizer-options.php:2045
+#: core/admin/customizer-options.php:2121
+msgid "Font-size"
+msgstr ""
+
+#: core/admin/customizer-options.php:1963
+#: core/admin/customizer-options.php:2039
+#: core/admin/customizer-options.php:2115
+msgid "Links hover color"
+msgstr ""
+
+#: core/admin/customizer-options.php:1942
+#: core/admin/customizer-options.php:2018
+msgid "Sticky top bar with widgets."
+msgstr ""
+
+#: core/admin/customizer-options.php:1940
+msgid "Sticky Top (above header)"
+msgstr ""
+
+#: core/admin/customizer-options.php:1932
+msgid "Gradient widgets Links hover color"
+msgstr ""
+
+#: core/admin/customizer-options.php:1926
+msgid "Gradient widgets Links color"
+msgstr ""
+
+#: core/admin/customizer-options.php:1920
+msgid "Gradient widgets Text color"
+msgstr ""
+
+#: core/admin/customizer-options.php:1914
+msgid "Gradient widgets Background color 2"
+msgstr ""
+
+#: core/admin/customizer-options.php:1908
+msgid "Gradient widgets Background color"
+msgstr ""
+
+#: core/admin/customizer-options.php:1905
+msgid "Edit default colors of gradient widgets."
+msgstr ""
+
+#: core/admin/customizer-options.php:1903
+msgid "Gradient widgets"
+msgstr ""
+
+#: core/admin/customizer-options.php:1883
+msgid "Default widgets Text color"
+msgstr ""
+
+#: core/admin/customizer-options.php:1877
+msgid "Default widgets Background color"
+msgstr ""
+
+#: core/admin/customizer-options.php:1874
+msgid "Edit colors of default Widgets."
+msgstr ""
+
+#: core/admin/customizer-options.php:1872
+msgid "Default widgets"
+msgstr ""
+
+#: core/admin/customizer-options.php:1866
+#: core/admin/customizer-options.php:1867
+msgid "General widget settings."
+msgstr ""
+
+#: core/admin/customizer-options.php:1865
+msgid "Widgets"
+msgstr ""
+
+#: core/admin/customizer-options.php:1849
+msgid "Enable full width header."
+msgstr ""
+
+#: core/admin/customizer-options.php:1841
+msgid "Enable full width layout."
+msgstr ""
+
+#: core/admin/customizer-options.php:1832
+msgid "Show header menu."
+msgstr ""
+
+#: core/admin/customizer-options.php:1823
+msgid "Show right sidebar."
+msgstr ""
+
+#: core/admin/customizer-options.php:1814
+msgid "Show left sidebar."
+msgstr ""
+
+#: core/admin/customizer-options.php:1805
+msgid "Show footer."
+msgstr ""
+
+#: core/admin/customizer-options.php:1796
+msgid "Show header."
+msgstr ""
+
+#: core/admin/customizer-options.php:1793
+msgid "Settings for search results page."
+msgstr ""
+
+#: core/admin/customizer-options.php:1791
+msgid "Search results"
+msgstr ""
+
+#: core/admin/customizer-options.php:1774
+msgid "Max height of the post featured image."
+msgstr ""
+
+#: core/admin/customizer-options.php:1771
+msgid "Settings for single post view."
+msgstr ""
+
+#: core/admin/customizer-options.php:1769
+msgid "Single post"
+msgstr ""
+
+#: core/admin/customizer-options.php:1759
+msgid "Grid layout on Search page."
+msgstr ""
+
+#: core/admin/customizer-options.php:1751
+msgid "Grid layout on Archives page."
+msgstr ""
+
+#: core/admin/customizer-options.php:1743
+msgid "Grid layout on Blog page."
+msgstr ""
+
+#: core/admin/customizer-options.php:1730
+msgid "Grid settings for blog related pages."
+msgstr ""
+
+#: core/admin/customizer-options.php:1728
+msgid "Grid layout"
+msgstr ""
+
+#: core/admin/customizer-options.php:1712
+#: core/admin/customizer-options.php:1775
+msgid "Use pixels as unit or set 100% - for auto height. (Default is 100%)"
+msgstr ""
+
+#: core/admin/customizer-options.php:1711
+msgid "Max height of the posts featured image (Blog view)."
+msgstr ""
+
+#: core/admin/customizer-options.php:1703
+msgid "Show `update` date on posts meta."
+msgstr ""
+
+#: core/admin/customizer-options.php:1696
+msgid "Number of words if limit is enabled. (Default is 55)"
+msgstr ""
+
+#: core/admin/customizer-options.php:1687
+msgid "Limit words on Blog page."
+msgstr ""
+
+#: core/admin/customizer-options.php:1679
+msgid "Show sidebars on Blog Posts."
+msgstr ""
+
+#: core/admin/customizer-options.php:1675
+msgid "All settings related to blog page."
+msgstr ""
+
+#: core/admin/customizer-options.php:1674
+#: core/admin/customizer-options.php:2981
+#: core/admin/customizer-options.php:3037
+#: core/admin/customizer-options.php:3065
+#: core/admin/customizer-options.php:3093
+msgid "General settings"
+msgstr ""
+
+#: core/admin/customizer-options.php:1669
+msgid "Blog, search page, archives etc."
+msgstr ""
+
+#: core/admin/customizer-options.php:1668
+msgid "Wordpress blog settings."
+msgstr ""
+
+#: core/admin/customizer-options.php:1667
+msgid "Blog"
+msgstr ""
+
+#: core/admin/customizer-options.php:1259
+#: core/admin/customizer-options.php:1610
+#: core/admin/customizer-options.php:2006
+#: core/admin/customizer-options.php:2082
+#: core/admin/customizer-options.php:2175
+#: core/admin/customizer-options.php:2208
+#: core/admin/customizer-options.php:2231
+#: core/admin/customizer-options.php:2254
+msgid "Display on mobile"
+msgstr ""
+
+#: core/admin/customizer-options.php:1251
+#: core/admin/customizer-options.php:1602
+#: core/admin/customizer-options.php:1998
+#: core/admin/customizer-options.php:2074
+#: core/admin/customizer-options.php:2167
+#: core/admin/customizer-options.php:2200
+#: core/admin/customizer-options.php:2223
+#: core/admin/customizer-options.php:2246
+msgid "Display on desktop"
+msgstr ""
+
+#: core/admin/customizer-options.php:1592
+msgid "Columns number."
+msgstr ""
+
+#: core/admin/customizer-options.php:1586
+msgid "Footer widgets"
+msgstr ""
+
+#: core/admin/customizer-options.php:1574
+#: core/admin/customizer-options.php:1580
+msgid "Line %d"
+msgstr ""
+
+#: core/admin/customizer-options.php:1574
+#: core/admin/customizer-options.php:1580
+msgid "Footer text"
+msgstr ""
+
+#: core/admin/customizer-options.php:1568
+msgid "Footer copyrights"
+msgstr ""
+
+#: core/admin/customizer-options.php:1562
+msgid "Links color on hover."
+msgstr ""
+
+#: core/admin/customizer-options.php:1556
+msgid "Links color."
+msgstr ""
+
+#: core/admin/customizer-options.php:1550
+msgid "Text light color."
+msgstr ""
+
+#: core/admin/customizer-options.php:1544
+msgid "Text color."
+msgstr ""
+
+#: core/admin/customizer-options.php:1538
+msgid "Footer background."
+msgstr ""
+
+#: core/admin/customizer-options.php:1524
+msgid "Footer appearance"
+msgstr ""
+
+#: core/admin/customizer-options.php:1521
+msgid "Theme footer settings."
+msgstr ""
+
+#: core/admin/customizer-options.php:1519
+msgid "Footer"
+msgstr ""
+
+#: core/admin/customizer-options.php:1492
+msgid "Under menu widget settings"
+msgstr ""
+
+#: core/admin/customizer-options.php:1479
+#: core/admin/customizer-options.php:1504
+#: core/admin/customizer-options.php:1957
+#: core/admin/customizer-options.php:2033
+#: core/admin/customizer-options.php:2109 core/widgets.php:277
+msgid "Links color"
+msgstr ""
+
+#: core/admin/customizer-options.php:1473
+#: core/admin/customizer-options.php:1498
+#: core/admin/customizer-options.php:1951
+#: core/admin/customizer-options.php:2027
+#: core/admin/customizer-options.php:2103
+#: core/admin/customizer-options.php:2770
+#: core/admin/customizer-options.php:2788 core/widgets.php:272
+msgid "Text color"
+msgstr ""
+
+#: core/admin/customizer-options.php:1467
+msgid "Above menu widget settings"
+msgstr ""
+
+#: core/admin/customizer-options.php:1456
+msgid "Menu font-size"
+msgstr ""
+
+#: core/admin/customizer-options.php:1450
+msgid "Menu background color"
+msgstr ""
+
+#: core/admin/customizer-options.php:1444
+msgid "Menu active indicator color"
+msgstr ""
+
+#: core/admin/customizer-options.php:1438
+msgid "Menu active link color"
+msgstr ""
+
+#: core/admin/customizer-options.php:1432
+msgid "Menu links color"
+msgstr ""
+
+#: core/admin/customizer-options.php:1426
+msgid "Menu settings"
+msgstr ""
+
+#: core/admin/customizer-options.php:1415
+msgid "Logo font-size"
+msgstr ""
+
+#: core/admin/customizer-options.php:1409
+msgid "Logo text color"
+msgstr ""
+
+#: core/admin/customizer-options.php:1403
+msgid "Logo background color"
+msgstr ""
+
+#: core/admin/customizer-options.php:1393
+msgid "Logo height (image)"
+msgstr ""
+
+#: core/admin/customizer-options.php:1385
+msgid "Show logo"
+msgstr ""
+
+#: core/admin/customizer-options.php:1379
+msgid "Logo settings"
+msgstr ""
+
+#: core/admin/customizer-options.php:1366
+msgid "Close icon color"
+msgstr ""
+
+#: core/admin/customizer-options.php:1360
+msgid "Overlay background color"
+msgstr ""
+
+#: core/admin/customizer-options.php:1354
+#: core/admin/customizer-options.php:1485
+#: core/admin/customizer-options.php:1510
+#: core/admin/customizer-options.php:1945
+#: core/admin/customizer-options.php:2021
+#: core/admin/customizer-options.php:2097
+msgid "Background color"
+msgstr ""
+
+#: core/admin/customizer-options.php:1336
+msgid "Mobile menu settings."
+msgstr ""
+
+#: core/admin/customizer-options.php:1334
+msgid "Mobile menu"
+msgstr ""
+
+#: core/admin/customizer-options.php:1299
+msgid "Sidenav logo"
+msgstr ""
+
+#: core/admin/customizer-options.php:1284
+msgid "Show sidenav"
+msgstr ""
+
+#: core/admin/customizer-options.php:1278
+#: core/admin/customizer-options.php:1340
+msgid "Basic settings"
+msgstr ""
+
+#: core/admin/customizer-options.php:1273
+msgid "In the next stage you will be able to modify menu options, sidebar size, position of elements and colors of sidenav."
+msgstr ""
+
+#: core/admin/customizer-options.php:1272
+msgid "Additional side navigation. (Requires PeepSo)"
+msgstr ""
+
+#: core/admin/customizer-options.php:1270
+msgid "Sidenav"
+msgstr ""
+
+#: core/admin/customizer-options.php:1245
+msgid "Header search"
+msgstr ""
+
+#: core/admin/customizer-options.php:1234
+msgid "Header menu font-size"
+msgstr ""
+
+#: core/admin/customizer-options.php:1223
+msgid "Header menu alignment"
+msgstr ""
+
+#: core/admin/customizer-options.php:1217
+msgid "Header menu"
+msgstr ""
+
+#: core/admin/customizer-options.php:1210
+msgid "Header active link indicator"
+msgstr ""
+
+#: core/admin/customizer-options.php:1204
+msgid "Header links hover color"
+msgstr ""
+
+#: core/admin/customizer-options.php:1198
+msgid "Header links color"
+msgstr ""
+
+#: core/admin/customizer-options.php:1192
+msgid "Header text color"
+msgstr ""
+
+#: core/admin/customizer-options.php:1186
+msgid "Header tagline color"
+msgstr ""
+
+#: core/admin/customizer-options.php:1180
+msgid "Header logo (text) color"
+msgstr ""
+
+#: core/admin/customizer-options.php:1174
+msgid "Header background"
+msgstr ""
+
+#: core/admin/customizer-options.php:1168
+msgid "Header colors"
+msgstr ""
+
+#: core/admin/customizer-options.php:1159
+msgid "On mobile"
+msgstr ""
+
+#: core/admin/customizer-options.php:1151
+msgid "On desktop"
+msgstr ""
+
+#: core/admin/customizer-options.php:1143
+msgid "Header will follow on scroll when this setting is enabled."
+msgstr ""
+
+#: core/admin/customizer-options.php:1141
+msgid "Sticky header"
+msgstr ""
+
+#: core/admin/customizer-options.php:1111
+msgid "Header font-size"
+msgstr ""
+
+#: core/admin/customizer-options.php:1101
+msgid "Header height"
+msgstr ""
+
+#: core/admin/customizer-options.php:1079
+msgid "Basic header options"
+msgstr ""
+
+#: core/admin/customizer-options.php:1074
+msgid "Header settings."
+msgstr ""
+
+#: core/admin/customizer-options.php:1072
+msgid "Header"
+msgstr ""
+
+#: core/admin/customizer-options.php:1058
+msgid "Body background image repeat"
+msgstr ""
+
+#: core/admin/customizer-options.php:1047
+msgid "Body background image size"
+msgstr ""
+
+#: core/admin/customizer-options.php:1033
+msgid "Body background image"
+msgstr ""
+
+#: core/admin/customizer-options.php:1027
+msgid "Body class"
+msgstr ""
+
+#: core/admin/customizer-options.php:1024
+msgid "Theme body settings."
+msgstr ""
+
+#: core/admin/customizer-options.php:1022
+msgid "Body"
+msgstr ""
+
+#: core/admin/customizer-options.php:1012
+msgid "Show right sidebar on mobile."
+msgstr ""
+
+#: core/admin/customizer-options.php:1004
+msgid "Show left sidebar on mobile."
+msgstr ""
+
+#: core/admin/customizer-options.php:998
+msgid "Mobile visibility"
+msgstr ""
+
+#: core/admin/customizer-options.php:966
+msgid "Gap between widgets in sidebars."
+msgstr ""
+
+#: core/admin/customizer-options.php:965
+msgid "Widgets gap"
+msgstr ""
+
+#: core/admin/customizer-options.php:958
+msgid "Right sidebar fixed width."
+msgstr ""
+
+#: core/admin/customizer-options.php:952 core/admin/customizer-options.php:959
+msgid "You can use any unit, like px or %. (Default is 1fr)"
+msgstr ""
+
+#: core/admin/customizer-options.php:951
+msgid "Left sidebar fixed width."
+msgstr ""
+
+#: core/admin/customizer-options.php:945
+msgid "Sidebar gaps & dimensions"
+msgstr ""
+
+#: core/admin/customizer-options.php:937
+msgid "Scrollable right sidebar."
+msgstr ""
+
+#: core/admin/customizer-options.php:929
+msgid "Scrollable left sidebar."
+msgstr ""
+
+#: core/admin/customizer-options.php:923
+msgid "Works similarly to Sticky Sidebars, but it also allows to scroll sidebars independently from middle column. (when enabled it overrides Sticky sidebars feature)"
+msgstr ""
+
+#: core/admin/customizer-options.php:922
+msgid "Scrollable sidebars (BETA)"
+msgstr ""
+
+#: core/admin/customizer-options.php:914
+msgid "Sticky sidebars."
+msgstr ""
+
+#: core/admin/customizer-options.php:911
+msgid "Theme sidebars settings."
+msgstr ""
+
+#: core/admin/customizer-options.php:909
+msgid "Sidebars"
+msgstr ""
+
+#: core/admin/customizer-options.php:889
+msgid "Have in mind this setting may not work if you set fixed width in \"px\" on sidebars. Middle column will fill all the available space then."
+msgstr ""
+
+#: core/admin/customizer-options.php:888
+msgid "Middle column size"
+msgstr ""
+
+#: core/admin/customizer-options.php:878
+msgid "This will affect the gaps between main columns (middle and sidebars)."
+msgstr ""
+
+#: core/admin/customizer-options.php:877
+msgid "Columns gap"
+msgstr ""
+
+#: core/admin/customizer-options.php:870
+msgid "Layout width"
+msgstr ""
+
+#: core/admin/customizer-options.php:866
+msgid "Theme layout settings."
+msgstr ""
+
+#: core/admin/customizer-options.php:864
+msgid "Layout"
+msgstr ""
+
+#: core/admin/customizer-options.php:846
+msgid "Show scroll to top button."
+msgstr ""
+
+#: core/admin/customizer-options.php:838
+msgid "Limits the ability to edit Gecko Page options to admins only. (Moderators & Editors have access to these options as default)"
+msgstr ""
+
+#: core/admin/customizer-options.php:837
+msgid "Limit access to Gecko Page options."
+msgstr ""
+
+#: core/admin/customizer-options.php:829
+msgid "Please note that zooming is always enabled on iOS devices regardless of the value of this option."
+msgstr ""
+
+#: core/admin/customizer-options.php:828
+msgid "Allow zoom on Mobile."
+msgstr ""
+
+#: core/admin/customizer-options.php:814
+msgid "Theme settings."
+msgstr ""
+
+#: core/admin/customizer-options.php:812 core/admin/customizer-options.php:2323
+msgid "General"
+msgstr ""
+
+#: core/admin/customizer-options.php:806
+msgid "Header, footer, sidebars, layout."
+msgstr ""
+
+#: core/admin/customizer-options.php:805
+msgid "Gecko theme settings."
+msgstr ""
+
+#: core/admin/customizer-options.php:804 functions.php:643
+msgid "Theme"
+msgstr ""
+
+#: core/admin/customizer-options.php:793
+msgid "Global shadow color"
+msgstr ""
+
+#: core/admin/customizer-options.php:783
+msgid "Global shadow thickness"
+msgstr ""
+
+#: core/admin/customizer-options.php:773
+msgid "Global shadow blur"
+msgstr ""
+
+#: core/admin/customizer-options.php:763
+msgid "Global shadow distance"
+msgstr ""
+
+#: core/admin/customizer-options.php:759
+msgid "Global shadow settings applied to most of the theme elements."
+msgstr ""
+
+#: core/admin/customizer-options.php:758
+msgid "Shadows"
+msgstr ""
+
+#: core/admin/customizer-options.php:746
+msgid "Global border radius"
+msgstr ""
+
+#: core/admin/customizer-options.php:742
+msgid "Borders"
+msgstr ""
+
+#: core/admin/customizer-options.php:736 core/admin/customizer-options.php:737
+msgid "Borders, shadows etc."
+msgstr ""
+
+#: core/admin/customizer-options.php:735
+msgid "Appearance"
+msgstr ""
+
+#: core/admin/customizer-options.php:724
+msgid "Invert light border"
+msgstr ""
+
+#: core/admin/customizer-options.php:718
+msgid "Invert border"
+msgstr ""
+
+#: core/admin/customizer-options.php:712
+msgid "Dark border"
+msgstr ""
+
+#: core/admin/customizer-options.php:706
+msgid "Lighten border"
+msgstr ""
+
+#: core/admin/customizer-options.php:700
+msgid "Light border"
+msgstr ""
+
+#: core/admin/customizer-options.php:694
+msgid "Basic border"
+msgstr ""
+
+#: core/admin/customizer-options.php:689
+msgid "These colors are used for borders & separators of components, widgets etc."
+msgstr ""
+
+#: core/admin/customizer-options.php:686
+msgid "Borders & Separators"
+msgstr ""
+
+#: core/admin/customizer-options.php:677
+msgid "Base dark gray color"
+msgstr ""
+
+#: core/admin/customizer-options.php:671
+msgid "Base light gray color"
+msgstr ""
+
+#: core/admin/customizer-options.php:665
+msgid "Base gray color"
+msgstr ""
+
+#: core/admin/customizer-options.php:659
+msgid "Base darker color"
+msgstr ""
+
+#: core/admin/customizer-options.php:653
+msgid "Base dark color"
+msgstr ""
+
+#: core/admin/customizer-options.php:647
+msgid "Base color"
+msgstr ""
+
+#: core/admin/customizer-options.php:641
+msgid "Body background"
+msgstr ""
+
+#: core/admin/customizer-options.php:636
+msgid "These colors are used for backgrounds of components, widgets etc."
+msgstr ""
+
+#: core/admin/customizer-options.php:633
+msgid "Backgrounds"
+msgstr ""
+
+#: core/admin/customizer-options.php:624
+msgid "Link focus color"
+msgstr ""
+
+#: core/admin/customizer-options.php:618
+msgid "Link hover color"
+msgstr ""
+
+#: core/admin/customizer-options.php:612
+msgid "Link color"
+msgstr ""
+
+#: core/admin/customizer-options.php:609
+msgid "These colors are used for links."
+msgstr ""
+
+#: core/admin/customizer-options.php:607
+msgid "Links"
+msgstr ""
+
+#: core/admin/customizer-options.php:563
+msgid "Abort dark color"
+msgstr ""
+
+#: core/admin/customizer-options.php:556
+msgid "Abort ultralight color"
+msgstr ""
+
+#: core/admin/customizer-options.php:549
+msgid "Abort light color"
+msgstr ""
+
+#: core/admin/customizer-options.php:542
+msgid "Abort color"
+msgstr ""
+
+#: core/admin/customizer-options.php:537
+msgid "Abort action/error colors used for alerts buttons etc."
+msgstr ""
+
+#: core/admin/customizer-options.php:534
+msgid "Abort colors"
+msgstr ""
+
+#: core/admin/customizer-options.php:525
+msgid "Warning dark color"
+msgstr ""
+
+#: core/admin/customizer-options.php:518
+msgid "Warning ultralight color"
+msgstr ""
+
+#: core/admin/customizer-options.php:511
+msgid "Warning light color"
+msgstr ""
+
+#: core/admin/customizer-options.php:504
+msgid "Warning color"
+msgstr ""
+
+#: core/admin/customizer-options.php:499
+msgid "Warning action colors used for alerts buttons etc."
+msgstr ""
+
+#: core/admin/customizer-options.php:496
+msgid "Warning colors"
+msgstr ""
+
+#: core/admin/customizer-options.php:487
+msgid "Success dark color"
+msgstr ""
+
+#: core/admin/customizer-options.php:480
+msgid "Success ultralight color"
+msgstr ""
+
+#: core/admin/customizer-options.php:473
+msgid "Success light color"
+msgstr ""
+
+#: core/admin/customizer-options.php:466
+msgid "Success color"
+msgstr ""
+
+#: core/admin/customizer-options.php:461
+msgid "Success action colors used for alerts buttons etc."
+msgstr ""
+
+#: core/admin/customizer-options.php:458
+msgid "Success colors"
+msgstr ""
+
+#: core/admin/customizer-options.php:329
+msgid "Primary dark color"
+msgstr ""
+
+#: core/admin/customizer-options.php:322
+msgid "Primary ultralight color"
+msgstr ""
+
+#: core/admin/customizer-options.php:315
+msgid "Primary light color"
+msgstr ""
+
+#: core/admin/customizer-options.php:308
+msgid "Primary shade color"
+msgstr ""
+
+#: core/admin/customizer-options.php:301
+msgid "Primary color"
+msgstr ""
+
+#: core/admin/customizer-options.php:296
+msgid "Base colors used for important elements like action buttons, alerts, progress bars or active element indicators."
+msgstr ""
+
+#: core/admin/customizer-options.php:293
+msgid "Primary colors"
+msgstr ""
+
+#: core/admin/customizer-options.php:285
+msgid "Here you can change global colors which may affect many elements. You can find more specific settings in different categories."
+msgstr ""
+
+#: core/admin/customizer-options.php:283
+msgid "Global colors"
+msgstr ""
+
+#: core/admin/customizer-options.php:598
+msgid "Global text lighten color"
+msgstr ""
+
+#: core/admin/customizer-options.php:592
+msgid "Global text light color"
+msgstr ""
+
+#: core/admin/customizer-options.php:586
+msgid "Global text color"
+msgstr ""
+
+#: core/admin/customizer-options.php:269
+msgid "Global line-height"
+msgstr ""
+
+#: core/admin/customizer-options.php:259
+msgid "Global font-size"
+msgstr ""
+
+#: core/admin/customizer-options.php:251
+msgid "Typography"
+msgstr ""
+
+#: core/admin/customizer-options.php:242
+msgid "Google fonts"
+msgstr ""
+
+#: core/admin/customizer-options.php:239
+msgid "Choose one of the available fonts."
+msgstr ""
+
+#: core/admin/customizer-options.php:237
+msgid "Fonts"
+msgstr ""
+
+#: core/admin/customizer-options.php:228
+msgid "Mobile logo height"
+msgstr ""
+
+#: core/admin/customizer-options.php:222 core/admin/customizer-options.php:229
+#: core/admin/customizer-options.php:871 core/admin/customizer-options.php:2611
+msgid "You can use any unit, like px or %."
+msgstr ""
+
+#: core/admin/customizer-options.php:221
+msgid "Logo height"
+msgstr ""
+
+#: core/admin/customizer-options.php:215
+msgid "Logo link redirect"
+msgstr ""
+
+#: core/admin/customizer-options.php:209 core/admin/customizer-options.php:2349
+msgid "Other"
+msgstr ""
+
+#: core/admin/customizer-options.php:191
+msgid "Show tagline on mobile"
+msgstr ""
+
+#: core/admin/customizer-options.php:183
+msgid "Show tagline next to the logo"
+msgstr ""
+
+#: core/admin/customizer-options.php:177
+msgid "Tagline"
+msgstr ""
+
+#: core/admin/customizer-options.php:169 core/admin/customizer.php:390
+msgid "Mobile"
+msgstr ""
+
+#: core/admin/customizer-options.php:161 core/admin/customizer.php:392
+msgid "Desktop"
+msgstr ""
+
+#: core/admin/customizer-options.php:155
+msgid "Logo visibility"
+msgstr ""
+
+#: core/admin/customizer-options.php:143
+msgid "Site Mobile Logo"
+msgstr ""
+
+#: core/admin/customizer-options.php:137
+msgid "Site Logo"
+msgstr ""
+
+#: core/admin/customizer-options.php:131
+msgid "Logo image"
+msgstr ""
+
+#: core/admin/customizer-options.php:128
+msgid "Select Logo."
+msgstr ""
+
+#: core/admin/customizer-options.php:126 core/admin/customizer-options.php:1293
+msgid "Logo"
+msgstr ""
+
+#: core/admin/customizer-options.php:121
+msgid "Logo, fonts, typography."
+msgstr ""
+
+#: core/admin/customizer-options.php:120
+msgid "Site settings."
+msgstr ""
+
+#: core/admin/customizer-options.php:119
+msgid "Site"
+msgstr ""
+
+#: comments.php:63 single.php:90
+msgid "Next"
+msgstr ""
+
+#: comments.php:62 single.php:91
+msgid "Previous"
+msgstr ""
+
+#: comments.php:33
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+
+#. translators: %s: post title
+#: comments.php:28
+msgctxt "comments title"
+msgid "One thought on &ldquo;%s&rdquo;"
+msgstr ""
+
+#: archive.php:61 index.php:58 page-tpl-profile.php:47 page.php:82
+#: search.php:76 template-parts/content-page.php:67
+#: template-parts/content.php:82
+msgid "Page"
+msgstr ""
+
+#: archive.php:60 index.php:57 page-tpl-profile.php:46 page.php:81
+#: search.php:75
+msgid "Next page"
+msgstr ""
+
+#: archive.php:59 index.php:56 page-tpl-profile.php:45 page.php:80
+#: search.php:74
+msgid "Previous page"
+msgstr ""
+
+#: 404.php:16
+msgid "Back to home"
+msgstr ""
+
+#: 404.php:13
+msgid "It looks like nothing was found at this location."
+msgstr ""
+
+#: 404.php:10
+msgid "404"
+msgstr ""

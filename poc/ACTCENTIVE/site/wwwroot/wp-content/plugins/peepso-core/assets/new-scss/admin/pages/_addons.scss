@@ -1,0 +1,941 @@
+// @import url('https://fonts.googleapis.com/css?family=Courier&display=swap');
+
+//
+//  Page modifier
+//
+.pa-list {
+  > li {
+    margin-bottom: var(--PADD);
+    list-style-type: disc;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+.pa-page--addons {
+  margin-top: var(--PADD--XL);
+  line-height: 1.4;
+  background-color: var(--COLOR--APP);
+  border-radius: var(--BORDER-RADIUS--XL);
+  max-width: 1200px;
+  box-sizing: border-box;
+
+  * {
+    box-sizing: border-box;
+  }
+
+  input[type="checkbox"] {
+    width: 23px;
+    height: 23px;
+    border-radius: 50%;
+    border-color: #66bb6a;
+    box-shadow: inset 0 0 0 3px #66bb6a42;
+    transition: all .3s ease;
+    color: #fff;
+    outline: none;
+
+    &:checked {
+      background-color: #66bb6a;
+      border: 1px solid #66bb6a;
+      color: #fff;
+
+      &:before {
+        content: "\f00c";
+        margin: 0;
+        width: 100%;
+        height: 100%;
+        font-size: 15px;
+        line-height: 23px;
+        font-family: "Font Awesome 6 Free";
+        font-weight: 900;
+      }
+    }
+
+    &:focus {
+      outline: none;
+    }
+
+    &:disabled,
+    &:disabled:checked {
+      opacity: 1;
+      border: 1px solid #b3b3b3;
+      box-shadow: none;
+    }
+  }
+}
+
+//
+//  Addons page wrapper
+//
+.pa-addons {
+  --bg-dark-gray : #eaeaea;
+  --bg--hover-dark-gray: #dadada;
+  --border-color: #dadada;
+  --icon: var(--PS-COLOR--TEXT--LIGHT);
+  --color: var(--PS-COLOR--TEXT);
+
+  position: relative;
+
+  .pa-btn {
+    transition: all .3s ease;
+
+    .gci-sync-alt {
+      font-size: 95%;
+    }
+  }
+
+  > .pa-addons__disabler {
+		background: rgba(255, 255, 255, .2);
+	}
+}
+
+.pa-addons__disabler {
+  background: rgba(255, 255, 255, .8);
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+// .pa-addons__spinner {
+//   --color--spinner: var(--PS-COLOR--TEXT--LIGHT);
+
+//   &:before {
+//     animation: pa-addons-spinner 1.2s linear infinite;
+//     border: 3px solid var(--color--spinner);
+//     border-color: var(--color--spinner) transparent var(--color--spinner) transparent;
+//     border-radius: 50%;
+//     content: " ";
+//     display: inline-block;
+//     width: 14px;
+//     height: 14px;
+//   }
+
+//   .pa-addons__list & {
+//     --color--spinner: #fff;
+//   }
+// }
+
+.pa-addons__spinner {
+  animation: pa-addons-spinner 1.2s linear infinite;
+}
+
+@keyframes pa-addons-spinner {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+//
+//  Wrapping license key input
+//
+.pa-addons__license {
+  padding: var(--PADD--MD);
+}
+
+//
+//  Wrapping license name
+//
+.pa-addons__license-name {
+  font-size: 180%;
+
+  i {
+    @if $rtl {
+      margin-left: var(--PADD);
+    } @else {
+      margin-right: var(--PADD);
+    }
+
+    color: var(--PS-COLOR--SUCCESS);
+  }
+}
+
+.pa-addons__license-header {
+  margin-bottom: var(--PADD--MD);
+  font-size: 200%;
+  font-weight: 600;
+}
+
+.pa-addons__license-form {
+  @include mq($until: tablet) {
+    display: block;
+  }
+
+  .pa-addons__license-input-wrapper {
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    position: relative;
+
+    @if $rtl {
+      margin-left: var(--PADD);
+    } @else {
+      margin-right: var(--PADD);
+    }
+
+    @include mq($until: tablet) {
+      margin-bottom: 10px;
+
+      @if $rtl {
+        margin-left: 0;
+      } @else {
+        margin-right: 0;
+      }
+    }
+
+    input {
+      font-family: 'Courier', sans-serif;
+      min-width: 320px;
+      border-color: var(--border-color);
+
+      @include mq($until: tablet) {
+        width: 100%;
+      }
+
+      @if $rtl {
+        padding-right: var(--PADD);
+        border-right: 0;
+        border-top-left-radius: var(--BORDER-RADIUS--XL) !important;
+        border-bottom-left-radius: var(--BORDER-RADIUS--XL) !important;
+      } @else {
+        padding-left: var(--PADD);
+        border-left: 0;
+        border-top-right-radius: var(--BORDER-RADIUS--XL) !important;
+        border-bottom-right-radius: var(--BORDER-RADIUS--XL) !important;
+      }
+
+      &:focus,
+      &:hover {
+        border-color: var(--bg--hover-dark-gray);
+      }
+    }
+
+    > i {
+      width: 50px;
+      height: 41px;
+      line-height: 41px;
+      text-align: center;
+      color: var(--icon);
+      background-color: var(--bg-dark-gray);
+      border: 1px solid var(--border-color);
+
+      @if $rtl {
+        border-top-right-radius: var(--BORDER-RADIUS--MD);
+        border-bottom-right-radius: var(--BORDER-RADIUS--MD);
+      } @else {
+        border-top-left-radius: var(--BORDER-RADIUS--MD);
+        border-bottom-left-radius: var(--BORDER-RADIUS--MD);
+      }
+    }
+  }
+}
+
+.pa-addons__license-key {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  align-items: center;
+
+  @include mq($until: tablet) {
+    display: block;
+  }
+}
+
+.pa-addons__license-notice {
+
+  @if $rtl {
+    padding-right: var(--PADD);
+  } @else {
+    padding-left: var(--PADD);
+  }
+
+  font-size: 100%;
+  line-height: 41px;
+  color: var(--PS-COLOR--TEXT--LIGHT);
+
+  @if $rtl {
+    border-top-left-radius: var(--BORDER-RADIUS--MD);
+    border-bottom-left-radius: var(--BORDER-RADIUS--MD);
+  } @else {
+    border-top-right-radius: var(--BORDER-RADIUS--MD);
+    border-bottom-right-radius: var(--BORDER-RADIUS--MD);
+  }
+
+  @include mq($until: tablet) {
+    line-height: 1.4;
+    padding: var(--PADD) 0;
+  }
+
+  i {
+    @if $rtl {
+      margin-left: var(--PADD);
+    } @else {
+      margin-right: var(--PADD);
+    }
+  }
+}
+
+.pa-addons_license-button {
+  white-space: nowrap;
+  min-width: 140px;
+
+  @include mq($until: tablet) {
+    width: 100%;
+  }
+}
+
+.pa-addons__header {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  flex-wrap: wrap;
+
+  @include mq($until: desktop) {
+    display: block;
+  }
+
+  .pa-addons__bulk-actions {
+    margin-bottom: 41px;
+    padding: var(--PADD--MD);
+    justify-content: flex-end;
+
+    @if $rtl {
+      margin-right: auto;
+    } @else {
+      margin-left: auto;
+    }
+  }
+}
+
+//
+//  Wrapping license key errors/messages
+//
+.pa-addons__license-message {
+  margin-top: var(--PADD);
+  padding: var(--PADD);
+  color: var(--PS-COLOR--TEXT);
+  background-color: var(--PS-COLOR--APP);
+  border-radius: var(--BORDER-RADIUS--MD);
+  border: 1px solid var(--PS-COLOR--ABORT);
+
+  &:empty {
+    display: none;
+  }
+}
+
+//
+//  Addons actions
+//
+.pa-addons__actions {
+  position: relative;
+}
+
+.pa-addons__actions--bottom {
+  padding-top: var(--PADD--MD);
+  border-top: 1px solid var(--DIVIDER--LIGHT);
+
+  .pa-addons__actions-select-all.pa-addons__addon--selected {
+    background-color: unset;
+  }
+}
+
+//
+//  Wrapping bulk actions and license name
+//
+.pa-addons__actions-inner {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: var(--PADD--MD);
+  padding-right: var(--PADD--MD);
+  padding-bottom: var(--PADD--MD);
+
+  .pa-addons__actions--bottom & {
+    justify-content: flex-end;
+  }
+}
+
+//
+// Wrapping select all addons checkbox
+//
+.pa-addons__actions-select-all {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  width: auto;
+  align-items: center;
+  padding: var(--PADD--MD);
+  border-top: 1px solid var(--DIVIDER--LIGHT);
+
+  input[type="checkbox"] {
+    margin: 0;
+  }
+
+  label {
+    margin: 0;
+
+    @if $rtl {
+      margin-right: var(--PADD);
+    } @else {
+      margin-left: var(--PADD);
+    }
+  }
+
+  .pa-addons__actions--bottom & {
+    margin-right: auto;
+    padding: 0;
+    border-top: 0;
+  }
+}
+
+//
+//  Bulk actions
+//
+.pa-addons__bulk-actions {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+
+  .pa-btn {
+    border-radius: 0;
+    position: relative;
+    background-color: var(--bg-dark-gray);
+    box-shadow: inset 0 0 0 1px var(--border-color);
+
+    &:hover,
+    &:focus {
+      background-color: var(--bg--hover-dark-gray);
+    }
+
+    &:disabled {
+      --bg: #fafafa;
+      --color: #b6b6b6;
+      --bg--hover: #fafafa;
+      --color--hover: #b6b6b6;
+      background-color: var(--bg);
+      cursor: not-allowed;
+      opacity: 1;
+
+      &:after {
+        content: attr(data-tooltip);
+        position: absolute;
+        z-index: 5;
+        top: -35px;
+        left: 50%;
+        transform: translateX(-50%);
+        display: none;
+        padding: 5px;
+        color: #fff;
+        background-color: rgba(0,0,0,.85);
+        border-radius: 4px;
+        white-space: nowrap;
+      }
+
+      &:hover {
+        &:after {
+          display: block;
+        }
+      }
+    }
+  }
+
+  .pa-addons__bulk-action-show {
+    border-radius: var(--radius);
+  }
+
+  .pa-addons__bulk-action-install {
+    @if $rtl {
+      border-top-right-radius: var(--radius);
+      border-bottom-right-radius: var(--radius);
+    } @else {
+      border-top-left-radius: var(--radius);
+      border-bottom-left-radius: var(--radius);
+    }
+  }
+
+  .pa-addons__bulk-action-activate {}
+
+  .pa-addons__bulk-action-hide {
+    @if $rtl {
+      border-top-left-radius: var(--radius);
+      border-bottom-left-radius: var(--radius);
+    } @else {
+      border-top-right-radius: var(--radius);
+      border-bottom-right-radius: var(--radius);
+    }
+  }
+}
+
+//
+//  Wrapping list of available to install or installed addons/plugins
+//
+.pa-addons__list {
+  padding-bottom: var(--PADD);
+  transition: all .3s ease;
+}
+
+//
+//  A separator with addons/plugins category name
+//
+.pa-addons__list-group {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  align-items: center;
+  padding: var(--PADD--MD);
+  font-size: 150%;
+  border-top: 1px solid var(--DIVIDER--LIGHT);
+
+  &:nth-child(2) {
+    border-top: none;
+  }
+
+  input[type="checkbox"] {
+    margin: 0;
+
+    @if $rtl {
+      margin-left: var(--PADD);
+    } @else {
+      margin-right: var(--PADD);
+    }
+  }
+}
+
+//
+//  Wrapping single addon info & actions
+//
+.pa-addons__addon {
+  padding: var(--PADD) var(--PADD--MD);
+  border-top: 1px dashed var(--DIVIDER);
+  transition: all .3s ease;
+}
+
+//
+//  Modifier class for already active addon
+//
+.pa-addons__addon--inactive {
+  input[type="checkbox"] {
+    position: relative;
+    border-color: #b3b3b3;
+    box-shadow: inset 0 0 0 3px #eee;
+    color: #b0b0b0;
+    background-color: #eee;
+
+    &:after {
+      content: attr(data-tooltip);
+      position: absolute;
+      z-index: 5;
+      top: 50%;
+      left: 20px;
+      transform: translateY(-50%);
+      display: none;
+      padding: 5px;
+      color: #fff;
+      background-color: rgba(0,0,0, .85);
+      border-radius: 4px;
+      white-space: nowrap;
+    }
+
+    &:hover {
+      &:after {
+        display: block;
+      }
+    }
+
+    &:checked {
+      border-color: #b3b3b3;
+      box-shadow: inset 0 0 0 3px #eee;
+      color: #b0b0b0;
+      background-color: #eee;
+    }
+  }
+}
+
+//
+//  Modifier class for should upgrade addon
+//
+.pa-addons__addon--upgrade {
+  input[type=checkbox] {
+    border-color: #d4d4d4;
+    box-shadow: inset 0 0 0 3px #fafafa;
+
+    &:before {
+      content: "\f00d";
+      margin: 0;
+      width: 100%;
+      height: 100%;
+      font-size: 15px;
+      line-height: 22px;
+      font-family: "Font Awesome 6 Free";
+      font-weight: 900;
+      color: #d4d4d4;
+    }
+  }
+
+  h3 {
+    color: #d4d4d4;
+  }
+
+  img {
+    opacity: .5;
+  }
+
+  .pa-addons__addon-desc {
+    opacity: .5;
+
+    .pa-addons__addon-desc-btn {
+      pointer-events: none;
+      cursor: not-allowed;
+    }
+  }
+
+  &.pa-addons__list-group {
+    input[type=checkbox] {
+      position: relative;
+
+      &:before {
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+    }
+
+    span {
+      color: #d4d4d4;
+    }
+  }
+}
+
+.pa-addons__addon-name {
+  @if $rtl {
+    padding-right: var(--PADD--MD);
+  } @else {
+    padding-left: var(--PADD--MD);
+  }
+
+  font-size: 120%;
+}
+
+.pa-addons__addon-header {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  @include mq($until: tablet) {
+    display: block;
+  }
+}
+
+.pa-addons__addon-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -moz-box;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -moz-box-align: center;
+  align-items: center;
+
+  @include mq($until: tablet) {
+    margin-bottom: var(--PADD);
+  }
+
+  img {
+    display: block;
+    width: 41px;
+    transition: all .3s ease;
+  }
+
+  h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+    transition: all .3s ease;
+
+    @if $rtl {
+      margin-right: var(--PADD--SM);
+    } @else {
+      margin-left: var(--PADD--SM);
+    }
+  }
+
+  input[type="checkbox"] {
+    margin: 0;
+
+    @if $rtl {
+      margin-left: var(--PADD);
+    } @else {
+      margin-right: var(--PADD);
+    }
+  }
+}
+
+.pa-addons__addon-actions {
+  min-width: 160px;
+  transition: all .3s ease;
+
+  a {
+    width: 100%;
+    transition: all .3s ease;
+    white-space: nowrap;
+
+    @include mq($until: tablet) {
+      text-align: center;
+    }
+  }
+
+  .pa-btn--addon-install {
+    background-color: #D32F2F;
+
+    &.pa-btn--disabled {
+      color: #fff;
+
+      &:hover {
+        background-color: #D32F2F;
+      }
+    }
+
+    &:hover {
+      background-color: #E53935;
+    }
+  }
+
+  .pa-btn--addon-inactive {
+    background-color: #F57C00;
+
+    &:hover {
+      background-color: #ff9930;
+    }
+  }
+
+  .pa-btn--addon-active {
+    background-color: #66bb6a;
+    pointer-events: none;
+    cursor: not-allowed;
+
+    &:hover {
+      background-color: #66bb6a;
+    }
+  }
+
+  .pa-btn--addon-upgrade {
+    background-color: #eef6f9;
+    color: #494954;
+
+    &:hover,
+    &:focus,
+    &:active {
+      color: #494954;
+      background-color: #f1fbff;
+    }
+  }
+}
+
+.pa-addons__addon-desc {}
+
+.pa-addons__addon-desc-text {
+  margin-top: var(--PADD);
+
+  @include mq($until: tablet) {
+    overflow: hidden;
+    transition: max-height .5s;
+
+    &.slide-up {
+      max-height: 0;
+    }
+
+    &.slide-down {
+      max-height: 600px;
+    }
+  }
+}
+
+.pa-addons__addon-desc-btn {
+  display: none;
+  margin: var(--PADD) 0;
+
+
+  @include mq($until: tablet) {
+    display: block;
+
+    &:focus {
+      outline: none;
+      box-shadow: none;
+    }
+  }
+}
+
+//
+// Shrink the size of the addon item elements when bulk actions are enabled
+//
+.pa-addons__list--bulk {
+  .pa-addons__addon-title {
+    img {
+      width: 24px;
+    }
+
+    h3 {
+      font-size: 18px;
+
+      @if $rtl {
+        margin-right: 3px;
+      } @else {
+        margin-left: 3px;
+      }
+    }
+  }
+
+  .pa-addons__addon-actions {
+    min-width: 140px;
+
+    @include mq($until: tablet) {
+      min-width: 100px;
+    }
+
+    a {
+      --padd: var(--PADD--SM) var(--PADD);
+      --font-size: 110%;
+
+      i {
+        @include mq($until: tablet) {
+          @if $rtl {
+            margin-left: var(--PADD-SM);
+          } @else {
+            margin-right: var(--PADD-SM);
+          }
+        }
+      }
+    }
+  }
+
+  .pa-addons__addon--selected {
+    background-color: #66bb6a42;
+  }
+
+  @include mq($until: tablet) {
+    .pa-addons__addon-header {
+      display: flex;
+    }
+  }
+
+  .pa-btn {
+    .gci-sync-alt {
+      font-size: 90%;
+    }
+  }
+}
+
+.pa-addons__actions-select-all.pa-addons__addon--selected {
+  background-color: #66bb6a42;
+}
+
+//
+// Addons tutorial
+//
+.pa-addons-tutorial {
+  max-height: 600px;
+  transition: max-height .3s;
+  overflow: hidden;
+
+  &.slide-up {
+    max-height: 0;
+    width: 0;
+  }
+}
+
+.pa-addons-tutorial-inner {
+  max-width: 1200px;
+  background: #fff;
+  padding: var(--PADD--MD);
+  margin-top: var(--PADD);
+  background-color: var(--COLOR--APP);
+  border-radius: var(--BORDER-RADIUS--XL);
+  line-height: 1.4;
+  position: relative;
+  border: 3px solid #d24842;
+  box-shadow: var(--BOX-SHADOW--HARD);
+
+  a {
+    color: #d24842;
+    outline: 0;
+    box-shadow: none;
+    text-decoration: underline !important;
+    transition: all .3s ease;
+
+    &:hover,
+    &:focus {
+      color: #f06159;
+      text-decoration: underline;
+    }
+  }
+
+  .ps-emphasis {
+    color: #f06159;
+    background-color: rgba(27,31,35,.09);
+    padding: var(--PADD--XS) var(--PADD--SM);
+    font-weight: 600;
+    border-radius: 3px;
+    white-space: nowrap;
+  }
+
+  .pa-addons-tutorial__close {
+    position: absolute;
+    top: var(--PADD);
+    color: #91919d;
+
+    @if $rtl {
+      left: var(--PADD);
+    } @else {
+      right: var(--PADD);
+    }
+
+    &:hover {
+      color: #231e23;
+    }
+
+    i {
+      font-size: 23px;
+    }
+  }
+}
+
+.pa-addons-tutorial__title {
+  h3 {
+    font-weight: 600;
+    font-size: 200%;
+    margin-top: 0 !important;
+    margin-bottom: 15px;
+  }
+}
+
+.pa-addons-tutorial__desc {
+  p {
+    font-size: 16px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  i {
+    @if $rtl {
+      margin-left: var(--PADD--SM);
+    } @else {
+      margin-right: var(--PADD--SM);
+    }
+
+    color: #ffa500;
+  }
+}

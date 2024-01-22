@@ -1,0 +1,30 @@
+.ps-profile--preferences {}
+
+.ps-profile__edit-page--preferences {}
+
+.ps-profile__preferences {
+  padding-bottom: var(--PADD);
+  line-height: var(--PS-LINE-HEIGHT);
+
+  .ps-form__legend {
+    padding: var(--PADD--MD);
+    border-top: 1px solid var(--DIVIDER--LIGHT);
+
+    &:first-of-type {
+      border-top: none;
+    }
+  }
+}
+
+.ps-profile__preference {
+  padding: var(--PADD) var(--PADD--MD);
+  font-size: 90%;
+
+  + .ps-form__legend {
+    margin-top: var(--PADD);
+  }
+
+  .ps-dropdown {
+    margin-top: var(--PADD--SM);
+  }
+}

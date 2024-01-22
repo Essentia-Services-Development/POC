@@ -1,0 +1,34 @@
+/*Compare*/
+.wpsm-button.wpsm-button-new-compare i{font-size: 16px; line-height: 14px}
+.loading.wpsm-button-new-compare{opacity: 0.7}
+.comparing.wpsm-button-new-compare{opacity: 0.5}
+.not-incompare .re-icon-compare:before{content: "\e92e";display: inline-block; }
+.re-compare-item{position:relative;height:70px;line-height:15px;font-size:15px;border:1px solid;padding:10px 25px 10px 10px;transition:color .2s ease,border-color .2s ease;margin-bottom:10px;border-color:#333;color:#333; background: #fff}
+.re-compare-item i.re-compare-close{position:absolute;color: #cc0000;line-height: 16px; top:3px; right: 3px; font-size: 16px; cursor: pointer;}
+i.re-compare-close-in-chart{position:absolute;color: #e5e5e5; top:3px; right: 3px; font-size: 22px; cursor: pointer;z-index: 999;}
+.re-compare-item a{color: #111 !important}
+.re-compare-img{width: 45px; height: 45px; padding: 2px; background-color: #fff; border: 1px solid #ddd; text-align: center;float: left;margin-right: 10px;}
+.re-compare-img img{height: 39px; max-width: 100%;}
+.re-compare-title{line-height: 14px; max-height: 28px; overflow: hidden;display: -webkit-box;-webkit-line-clamp: 2;-webkit-box-orient: vertical;}
+.comparing .re-icon-compare:before{content: "\f14a";}
+.comparing:hover .re-icon-compare:before{content: "\f00d";}
+#re-compare-bar-tabs ul{padding: 0 20px 20px 20px}
+.re-compare-destin.wpsm-button{font-size: 20px !important;opacity: 0;padding: 15px 20px;display: block;cursor: pointer;font-weight: bold; margin: 20px; line-height: 22px; text-align: center; border: none !important;}
+.active .re-compare-destin.wpsm-button{transition: all .4s .5s;opacity: 1;margin: 10px 20px 20px 20px;}
+.re-compare-destin.wpsm-button i{margin: 0 8px;}
+#re-compare-bar-tabs ul:after{content:"";display:block;clear:both;}
+#re-compare-bar-tabs ul li{cursor:pointer;padding: 10px 0;color:#707070;font-size: 15px;line-height: 15px; display: inline-block; margin: 0 15px 15px 0;}
+#re-compare-bar-tabs ul li.current{border-bottom: 1px dashed #444;font-weight: bold;}
+#re-compare-bar-tabs ul li.no-multicats.current{cursor:inherit;background:transparent;color:#707070;font-weight: bold;}
+#re-compare-bar-tabs ul li.no-multicats.current:hover{background:transparent;}
+#re-compare-bar.active{bottom: 0;}
+.meta .wpsm-button-new-compare {float: left;margin: 0 15px 5px 0;}
+.re-compare-item i.re-compare-new-close {position: absolute;color: #cc0000;line-height: 16px;top: 3px;right: 3px;font-size: 16px;cursor: pointer;}
+#re-compare-icon-fixed{cursor:pointer;z-index: 999;position: fixed; top: 270px; width: 55px; height: 55px; line-height: 55px; background: #fff; right: 0; text-align: center; font-size: 22px;box-shadow: 0 0 20px rgb(187 187 187 / 36%); border-radius: 8px 0 0 8px}
+.proccessed .re-compare-notice{transform: scale(0.2);}
+.re-compare-icon-toggle:before {content: "\e92e";position: absolute;left: 0;font-size: 22px;top: 0;opacity: 0;transition: all 0.3s ease-in;transform: scale(2); }
+.proccessed.re-compare-icon-toggle:before{opacity: 1; transform: scale(1);}
+.re-compare-icon-toggle{position: relative;line-height: 22px; cursor: pointer; display: inline-block; }
+.re-compare-error{padding: 0 20px;color: red;margin-bottom:15px; font-size: 85%}
+.rev-in-compare-flip{position: absolute;top: 10px; right: 15px}
+.cmpr-title{font-size: 13px;line-height: 18px;height: 36px;}

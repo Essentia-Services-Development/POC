@@ -1,0 +1,9 @@
+/*TOOLTIP */
+.wpsm-tooltip { border-bottom: 1px dotted #666; font-weight: bold; }
+.meta_value_row_chart .wpsm-tooltip{border: none;}
+.tipsy { font-size: 10px; position: absolute; padding: 5px; z-index: 2000000; }
+.tipsy-inner { background-color: #000; color: #FFF; max-width: 200px; padding: 5px 8px 4px 8px; text-align: center; }
+.tipsy-inner { border-radius: 3px; }
+.tipsy-arrow { position: absolute; width: 0; height: 0; line-height: 0; border: 5px dashed #000; }
+.tipsy-arrow-s { border-top-color: #000; }
+.tipsy-s .tipsy-arrow { bottom: 0; left: 50%; margin-left: -5px; border-top-style: solid; border-bottom: none; border-left-color: transparent; border-right-color: transparent; }

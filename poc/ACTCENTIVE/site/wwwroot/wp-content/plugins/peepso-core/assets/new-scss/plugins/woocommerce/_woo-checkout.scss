@@ -1,0 +1,109 @@
+.peepso {
+  .woocommerce #respond input#submit,
+  .woocommerce a.button,
+  .woocommerce button.button,
+  .woocommerce input.button {
+    color: var(--PS-COLOR--TEXT--LIGHT);
+    background-color: var(--PS-COLOR--APP--LIGHTGRAY);
+
+    &:hover {
+      color: var(--PS-COLOR--TEXT);
+      background-color: var(--PS-COLOR--APP--GRAY);
+    }
+  }
+
+  .woocommerce a.button.alt {
+    color: var(--PS-COLOR--TEXT--INVERT);
+    background-color: var(--PS-COLOR--PRIMARY);
+
+    &:hover {
+      color: var(--PS-COLOR--TEXT--INVERT);
+      background-color: var(--PS-COLOR--PRIMARY--DARK);
+    }
+  }
+
+  .woocommerce-error,
+  .woocommerce-info,
+  .woocommerce-message {
+    color: var(--PS-COLOR--TEXT--LIGHT);
+    background-color: var(--PS-COLOR--APP);
+  }
+
+  #add_payment_method table.cart td.actions .coupon .input-text,
+  &.woocommerce-cart table.cart td.actions .coupon .input-text,
+  &.woocommerce-checkout table.cart td.actions .coupon .input-text {
+    border: none;
+  }
+
+  #add_payment_method #payment,
+  .woocommerce-cart #payment,
+  .woocommerce-checkout #payment {
+    background-color: var(--PS-COLOR--APP);
+  }
+
+  .select2-dropdown {
+    background-color: var(--PS-COLOR--APP);
+  }
+
+  .select2-container--default .select2-results__option[aria-selected="true"],
+  .select2-container--default .select2-results__option[data-selected="true"] {
+    background-color: var(--PS-COLOR--APP--GRAY);
+  }
+
+  .select2-container--default .select2-selection--single {
+    height: auto;
+    padding: var(--PADD);
+    background-color: var(--PS-COLOR--APP);
+    border: 1px solid var(--DIVIDER--LIGHT);
+  }
+
+  .select2-container--default .select2-selection--single .select2-selection__arrow {
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  #add_payment_method #payment div.payment_box,
+  .woocommerce-cart #payment div.payment_box,
+  .woocommerce-checkout #payment div.payment_box {
+    color: var(--PS-COLOR--TEXT--LIGHT);
+    background-color: var(--PS-COLOR--APP--GRAY);
+  }
+
+  #add_payment_method #payment div.payment_box::before,
+  .woocommerce-cart #payment div.payment_box::before,
+  .woocommerce-checkout #payment div.payment_box::before {
+    border: 1em solid var(--PS-COLOR--APP--GRAY);
+    border-right-color: transparent;
+    border-left-color: transparent;
+    border-top-color: transparent;
+  }
+
+  .woocommerce-checkout-review-order {
+    ul {
+      list-style: none;
+
+      li {
+        list-style-type: none;
+      }
+    }
+  }
+
+  &.woocommerce #reviews #comments ol.commentlist li .comment-text {
+    border: 1px solid var(--DIVIDER--LIGHT);
+  }
+
+  #add_payment_method #payment ul.payment_methods li img.stripe-icon, .woocommerce-checkout #payment ul.payment_methods li img.stripe-icon {
+    max-width: 40px;
+    padding-left: 3px;
+    margin: 0;
+}
+
+  #add_payment_method #payment ul.payment_methods li img, .woocommerce-cart #payment ul.payment_methods li img, .woocommerce-checkout #payment ul.payment_methods li img {
+      vertical-align: middle;
+      margin: -2px 0 0 .5em;
+      padding: 0;
+      padding-left: 0px;
+      position: relative;
+      box-shadow: none;
+  }
+}

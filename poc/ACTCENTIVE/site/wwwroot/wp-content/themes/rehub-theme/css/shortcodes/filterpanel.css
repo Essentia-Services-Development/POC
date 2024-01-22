@@ -1,0 +1,53 @@
+/*FILTER PANEL*/
+.re_filter_panel{position: relative;z-index: 700; margin: 0 0 30px 0; box-shadow: 0 1px 0 #E4E4E4; user-select: none;}
+.re_filter_panel ul.re_filter_ul{margin: 0; padding: 0}
+.re_filter_panel ul.re_filter_ul li{display: inline-block; margin: 0}
+.re_filter_panel ul.re_filter_ul li span {cursor: pointer;padding: 12px 16px;display: inline-block;transition: all .3s ease; font-size: 15px; line-height: 16px}
+div.sortingloading{position: relative;}
+div.sortingloading > *{opacity: 0.2;} 
+div.sortingloading:after {z-index: 2; content: "\f110"; position: absolute; top: 30px; left: 45%; font-size: 65px; opacity: 1; animation: fa-spin 1s linear infinite; }
+
+.re_filter_panel .re_tax_dropdown{position: absolute;top: 4px;right: 0;margin: 0;overflow: hidden; transition: all 0.5s ease; }
+.re_filter_panel .re_tax_dropdown.active{box-shadow: 0 3px 20px #ccc;}
+.re_filter_panel .re_tax_dropdown li.label{display: block; padding: 12px 20px; margin: 0;font-size: 15px; line-height: 16px; cursor: pointer; color: #111;}
+.re_filter_panel .re_tax_dropdown li.label:after{float: right; content: "+"; margin-left: 5px; transition: transform .3s ease-in-out}
+@media (min-width:1024px){
+    .re_filter_panel .re_tax_dropdown li.label{text-align: right;}
+    .rtl .re_filter_panel .re_tax_dropdown li.label{text-align: left;}
+    .rtl .re_filter_panel .re_tax_dropdown li.label:after{float:left; margin-right: 5px;}
+}
+.re_filter_panel .re_tax_dropdown.active li.label:after{transform: rotate3d(0,0,1,180deg);}
+.re_filter_panel .re_tax_dropdown li.rh_drop_item {display: block;margin: 0; height: 0} 
+.re_filter_panel .re_tax_dropdown.active li.rh_drop_item {height: auto}   
+.re_filter_panel .re_tax_dropdown li.rh_drop_item span{display: block;padding: 12px 20px;background-color: #FFF;border-top: 1px solid #EDEDED;opacity: 0;transform: translate3d(100%,0,0);transition: opacity 0.3s, transform 0.3s;  font-size: 14px; line-height: 16px; font-style: normal;  color:#111;} 
+.re_filter_panel .re_tax_dropdown li.rh_drop_item span:hover, .re_filter_panel .re_tax_dropdown li.rh_drop_item span.active{box-shadow: inset 0 300px 0 #f9f9f9; color:#111 !important; cursor: pointer;}
+.re_filter_panel .re_tax_dropdown li.rh_drop_item span:before{display: none;}
+.re_filter_panel .re_tax_dropdown.active li.rh_drop_item span {opacity: 1;transform: translate3d(0,0,0);}
+.re_filter_panel .re_tax_dropdown.active li:nth-child(5) span {transition-delay: 0.05s;}
+.re_filter_panel .re_tax_dropdown.active li:nth-child(4) span{transition-delay: 0.1s;}
+.re_filter_panel .re_tax_dropdown.active li:nth-child(3) span {transition-delay: 0.15s;}
+.re_filter_panel .re_tax_dropdown.active li:nth-child(2) span {transition-delay: 0.2s;} 
+.re_filter_panel .re_tax_dropdown li a {text-decoration: none;}
+.re_filter_panel .re_tax_dropdown.activeul li.label:after{display:inline-block; content: "\f021" !important; animation: fa-spin 1s linear infinite; color: #3E92E1;}
+
+@media screen and (max-width: 767px) {
+.re_filter_panel ul.re_filter_ul li span {display: none;}
+.re_filter_panel ul.re_filter_ul li, .re_filter_panel ul.re_filter_ul li span.active, .re_filter_panel ul.re_filter_ul li span.showfiltermobile {display: block;}
+.re_filter_panel ul.re_filter_ul li span.active:after{ float: right; content: "\f078"; margin-left:8px; }
+.tabsajax ul.re_filter_ul li span.active:after{display: none;}
+.re_filter_panel .re_tax_dropdown{top: 100%; width: 100%}
+.re_filter_panel.tax_enabled_drop{margin: 0 0 65px 0}
+}
+
+.tabsajax .re_filter_panel{margin-bottom: 8px; display:block; background-color: #ebebeb;background: linear-gradient(to bottom, #fff 1px, #f9f9f9 1px, #ebebeb);border: 1px solid #b9bbbd;border-radius: 3px;box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.7), 0 1px 2px rgba(0, 0, 0, 0.08);}
+.tabsajax .re_filter_panel ul.re_filter_ul li{float: left;}
+.rh_col_tabs_4 .re_filter_panel ul.re_filter_ul li{width: 25%;}
+.rh_col_tabs_3 .re_filter_panel ul.re_filter_ul li{width: 33.33%;}
+.rh_col_tabs_2 .re_filter_panel ul.re_filter_ul li{width: 50%;}
+.tabsajax .re_filter_panel ul.re_filter_ul li span{display: block; text-align: center; padding: 7px 0;border-right: 1px solid #ccc;}
+.tabsajax .re_filter_panel ul.re_filter_ul li:last-child span{border: none; border-radius: 0 3px 3px 0}
+.tabsajax .re_filter_panel ul.re_filter_ul li:first-child span{border-radius: 3px 0 0 3px}
+.tabsajax .re_filter_panel ul.re_filter_ul{overflow: hidden;}
+.tabsajax .re_ajax_pagination .def_btn{line-height: 18px; font-size: 13px; padding: 6px 30px}
+.tabsajax .re_ajax_pagination .def_btn.active_ajax_pagination:before{ font-size: 13px }
+.tabsajax .post-meta{margin: 0}

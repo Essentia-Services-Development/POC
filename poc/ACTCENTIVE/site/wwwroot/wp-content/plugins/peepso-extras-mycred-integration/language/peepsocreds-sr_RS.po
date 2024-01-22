@@ -1,0 +1,195 @@
+# Translation of PeepSo - MyCRED Integration in Serbian
+# This file is distributed under the same license as the PeepSo - MyCRED Integration package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-09-06 06:03:33+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
+"X-Generator: GlotPress/3.0.0\n"
+"Language: sr_RS\n"
+"Project-Id-Version: PeepSo - MyCRED Integration\n"
+
+#. Description of the plugin/theme
+msgid "Award myCRED points for performing actions in PeepSo. Requires the MyCred plugin."
+msgstr "Доделите myCRED поене за обављање радњи у PeepSo заједници. Захтева myCRED додатак."
+
+#. Author of the plugin/theme
+msgid "PeepSo"
+msgstr "PeepSo"
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://peepso.com"
+msgstr "https://peepso.com"
+
+#. Plugin Name of the plugin/theme
+msgid "PeepSo Integrations: myCRED"
+msgstr "PeepSo интеграције: myCRED"
+
+#: templates/profile/profile-mycred.php:22
+msgid "%s History"
+msgstr "%s Историја"
+
+#: peepsocreds.php:356
+msgid "Get it now!"
+msgstr "Преузми одмах!"
+
+#: peepsocreds.php:354
+msgid "The %s plugin requires the PeepSo plugin to be installed and activated."
+msgstr "Додатак %s захтева да PeepSo додатак буде инсталиран и активиран."
+
+#: peepsocreds.php:268 peepsocreds.php:269 peepsocreds.php:272
+msgid "myCRED"
+msgstr "myCRED"
+
+#: peepsocreds.php:234
+msgid "PeepSo - New stream photo"
+msgstr "PeepSo - нова фотографија на протоку активности"
+
+#: peepsocreds.php:231
+msgid "PeepSo - Add friend"
+msgstr "PeepSo - додај пријатеља"
+
+#: peepsocreds.php:228
+msgid "PeepSo - New message"
+msgstr "PeepSo - нова порука"
+
+#: peepsocreds.php:225
+msgid "PeepSo - New profile avatar"
+msgstr "PeepSo - нови профилни аватар"
+
+#: peepsocreds.php:222
+msgid "PeepSo - New profile cover"
+msgstr "PeepSo - нова насловна фотографија профила"
+
+#: peepsocreds.php:219
+msgid "PeepSo - Like content"
+msgstr "PeepSo - свиђа ми се садржај"
+
+#: peepsocreds.php:216
+msgid "PeepSo - New comment"
+msgstr "PeepSo - нови коментар"
+
+#: peepsocreds.php:213
+msgid "PeepSo - New post"
+msgstr "PeepSo - нови пост"
+
+#: peepsocreds.php:169
+msgid "User Points"
+msgstr "Поени корисника"
+
+#: peepsocreds.php:161
+msgid "Point"
+msgid_plural "Points"
+msgstr[0] "Поен"
+msgstr[1] "Поена"
+msgstr[2] "Поена"
+
+#: peepsocreds.php:115
+msgctxt "Profile link"
+msgid "Points"
+msgstr "Поени"
+
+#: classes/mycredhook.php:749
+msgid "%plural% for deleting PeepSo Profile Avatar"
+msgstr "%plural% за брисање PeepSo профилног аватара"
+
+#: classes/mycredhook.php:725
+msgid "%plural% for Add New PeepSo Profile Avatar"
+msgstr "%plural% за додавање новог PeepSo профилног аватара"
+
+#: classes/mycredhook.php:705
+msgid "%plural% for deleting PeepSo Profile Cover"
+msgstr "%plural% за брисање PeepSo насловне фотографије"
+
+#: classes/mycredhook.php:681
+msgid "%plural% for Add New PeepSo Profile Cover"
+msgstr "%plural% за додавање нове PeepSo насловне фотографије"
+
+#: classes/mycredhook.php:661
+msgid "%plural% for deleting PeepSo Stream Photo"
+msgstr "%plural% за брисање фотографије PeepSo протока активности"
+
+#: classes/mycredhook.php:637
+msgid "%plural% for Add New PeepSo Stream Photo"
+msgstr "%plural% за додавање нове фотографије за PeepSo проток активности"
+
+#: classes/mycredhook.php:617
+msgid "%plural% for PeepSo Friend Deletion"
+msgstr "%plural% за брисање PeepSo пријатеља"
+
+#: classes/mycredhook.php:593
+msgid "%plural% for Add New PeepSo Friend"
+msgstr "%plural% за додавање новог PeepSo пријатеља"
+
+#: classes/mycredhook.php:572
+msgid "%plural% for Un-Like PeepSo Content / Profile"
+msgstr "%plural% за уклањање свиђања на PeepSo садржају / профилу"
+
+#: classes/mycredhook.php:548
+msgid "%plural% for Like PeepSo Content / Profile"
+msgstr "%plural% за свиђања на PeepSo садржају / профилу"
+
+#: classes/mycredhook.php:527
+msgid "%plural% for Comment Deletion"
+msgstr "%plural% за брисање коментара"
+
+#: classes/mycredhook.php:521
+msgid "PeepSo Message authors can receive %_plural% for replying to their own Message"
+msgstr "Аутори PeepSo порука могу да приме %_plural% за одговор на сопствену поруку"
+
+#: classes/mycredhook.php:496
+msgid "%plural% for New PeepSo Comment"
+msgstr "%plural% за нови PeepSo коментар"
+
+#: classes/mycredhook.php:478
+msgid "%plural% for PeepSo Message Deletion"
+msgstr "%plural% за брисање PeepSo порука"
+
+#: classes/mycredhook.php:472
+msgid "PeepSo Message authors can receive %_plural% for creating new message."
+msgstr "Аутори PeepSo порука могу да приме %_plural% за креирање нове поруке."
+
+#: classes/mycredhook.php:447
+msgid "%plural% for New PeepSo Message"
+msgstr "%plural% за нову PeepSo поруку"
+
+#: classes/mycredhook.php:428
+msgid "%plural% for PeepSo Post Deletion"
+msgstr "%plural% за брисање PeepSo поста"
+
+#: classes/mycredhook.php:418 classes/mycredhook.php:437
+#: classes/mycredhook.php:461 classes/mycredhook.php:487
+#: classes/mycredhook.php:510 classes/mycredhook.php:536
+#: classes/mycredhook.php:562 classes/mycredhook.php:581
+#: classes/mycredhook.php:607 classes/mycredhook.php:626
+#: classes/mycredhook.php:651 classes/mycredhook.php:670
+#: classes/mycredhook.php:695 classes/mycredhook.php:714
+#: classes/mycredhook.php:739 classes/mycredhook.php:758
+msgid "Log template"
+msgstr "Log шаблон"
+
+#: classes/mycredhook.php:412 classes/mycredhook.php:455
+#: classes/mycredhook.php:504 classes/mycredhook.php:556
+#: classes/mycredhook.php:601 classes/mycredhook.php:645
+#: classes/mycredhook.php:689 classes/mycredhook.php:733
+msgid "Limit"
+msgstr "Ограничење"
+
+#: classes/mycredhook.php:404
+msgid "%plural% for New PeepSo Post"
+msgstr "%plural% за нови PeepSo пост"
+
+#: classes/configsectionmycred.php:33
+msgid "General"
+msgstr "Опште"
+
+#: classes/configsectionmycred.php:17
+msgid "Show myCRED Points History Page"
+msgstr "Прикажи страницу myCRED историје поена"
+
+#: classes/configsectionmycred.php:15
+msgid "When enabled it will show user's points history in their profile."
+msgstr "Када је ово подешавање омогућено, приказана је историја поена на профилу корисника."

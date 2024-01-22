@@ -1,0 +1,41 @@
+.psw-members {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: var(--PADD--SM);
+  grid-row-gap: var(--PADD--SM);
+  justify-content: center;
+}
+
+.psw-members__item {
+  .ps-avatar--member {
+    z-index: 0;
+
+    &:hover {
+      z-index: 1;
+    }
+
+    img {
+      box-shadow: var(--box-shadow);
+    }
+  }
+}
+
+.psw-members__count {
+  grid-column-start: 1;
+  grid-column-end: 5;
+  margin-top: var(--PADD--SM);
+  font-size: 80%;
+  color: var(--PS-COLOR--TEXT--LIGHT);
+
+  + .psw-members__count {
+    margin-top: 0;
+  }
+}
+
+.psw-members__info {
+  grid-column-start: 1;
+  grid-column-end: 5;
+  font-size: 90%;
+  color: var(--PS-COLOR--TEXT--LIGHT);
+  text-align: center;
+}

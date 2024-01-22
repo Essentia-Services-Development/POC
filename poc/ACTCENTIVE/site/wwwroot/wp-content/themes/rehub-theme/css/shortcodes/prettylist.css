@@ -1,0 +1,25 @@
+/* #list style
+================================================== */
+.wpsm_pretty_list ul li a{display: inline-block;line-height: 18px; text-decoration: none; transition: none }
+.darklink ul li a, nav.top_menu .darklink ul li a{color: #111 !important}
+.darklink ul li a:hover, nav.top_menu .darklink ul li a:hover{color: #fff !important}
+body .wpsm_pretty_list ul li { transition: all 0.2s ease; position:relative;list-style-type: none !important; margin: 0;padding: 10px 20px 10px 28px; border-radius: 100px; }
+.wpsm_pretty_list.small_gap_list ul li{padding: 6px 12px 6px 28px;}
+.wpsm_pretty_list ul li:before{text-align: center; position: absolute;top: 0;bottom: 0;left: 0px;width: 15px;height: 15px;margin: auto;line-height: 1;}
+.wpsm_pretty_list.wpsm_pretty_hover ul li:hover{padding: 10px 20px 10px 34px;}
+.wpsm_pretty_list.small_gap_list.wpsm_pretty_hover ul li:hover{padding: 6px 12px 6px 34px;}
+.wpsm_pretty_list.wpsm_pretty_hover ul li:hover:before{left: 12px}
+.font130 .wpsm_pretty_list ul li{padding-left: 34px}
+.rtl .wpsm_pretty_list ul li:before{left: auto; right: 0px;}
+.rtl .wpsm_pretty_list ul li{padding: 12px 28px 12px 20px;}
+.rtl .wpsm_pretty_list.small_gap_list ul li{padding: 6px 28px 6px 12px;}
+.rtl .wpsm_pretty_list.wpsm_pretty_hover ul li:hover{padding: 10px 34px 10px 20px;}
+.rtl .wpsm_pretty_list.small_gap_list.wpsm_pretty_hover ul li:hover{padding: 6px 34px 6px 12px;}
+.rtl .wpsm_pretty_list.wpsm_pretty_hover ul li:hover:before{right: 12px; left: auto;}
+.rtl .font130 .wpsm_pretty_list ul li{padding-right:34px}
+.wpsm_arrowlist ul li:before{content: "\f105"; color:orange;}
+.rtl .wpsm_arrowlist ul li:before {content: "\f104"}
+.wpsm_checklist ul li:before {content: "\f00c"; color: #1abf3d}
+.wpsm_starlist ul li:before { content: "\e9d9"; color:orange; }
+.wpsm_bulletlist ul li:before { content: "\f192";}
+.wpsm_pretty_hover ul li:hover:before, .wpsm_pretty_list.wpsm_pretty_hover ul li:hover a{color: #fff !important}

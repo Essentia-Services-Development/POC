@@ -1,0 +1,332 @@
+# Translation of PeepSo - Email Digest in Serbian
+# This file is distributed under the same license as the PeepSo - Email Digest package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2023-01-17 09:29:22+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
+"X-Generator: GlotPress/3.0.0\n"
+"Language: sr_RS\n"
+"Project-Id-Version: PeepSo - Email Digest\n"
+
+#: peepsoemaildigest.php:822
+msgid "A summary of community activity is sent if you are inactive for more than %d days."
+msgstr "Резиме активности у заједници ће бити послат ако сте неактивни више од %d дана."
+
+#: peepsoemaildigest.php:821
+msgid "%s email digest"
+msgstr "%s email сажетак"
+
+#: peepsoemaildigest.php:315
+msgid "Monthly"
+msgstr "Месечно"
+
+#: peepsoemaildigest.php:314
+msgid "Biweekly"
+msgstr "На две недеље"
+
+#: peepsoemaildigest.php:313
+msgid "Weekly"
+msgstr "Недељно"
+
+#: peepsoemaildigest.php:312
+msgid "Daily"
+msgstr "Дневно"
+
+#: classes/configsectionemaildigest.php:37
+msgid "Use files"
+msgstr "Користи датотеке"
+
+#: peepsoemaildigest.php:150
+msgid "Every 2 weeks"
+msgstr "Сваке 2 недеље"
+
+#. Author of the plugin/theme
+msgid "PeepSo"
+msgstr "PeepSo"
+
+#. Description of the plugin/theme
+msgid "Bring users back with automated newsletter"
+msgstr "Вратите кориснике уз помоћ аутоматизованих билтена"
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://peepso.com"
+msgstr "https://peepso.com"
+
+#. Plugin Name of the plugin/theme
+msgid "PeepSo Core: Email Digest"
+msgstr "PeepSo Core: Email Digest"
+
+#: templates/general/email-digest.php:41
+msgid "Comment"
+msgstr "Коментариши"
+
+#: templates/general/email-digest.php:41
+msgid "Like"
+msgstr "Свиђа ми се"
+
+#: templates/general/email-digest.php:39
+msgid "Read more"
+msgstr "Прочитај више"
+
+#: templates/general/email-digest.php:25
+msgid "shared a post"
+msgstr "је поделио/ла пост"
+
+#: templates/general/email-digest-recipient.php:16
+msgid "Last email sent: "
+msgstr "Последњи послат мејл: "
+
+#: templates/general/email-digest-recipient.php:13
+msgid "User last login: "
+msgstr "Последње логовање корисника: "
+
+#: peepsoemaildigest.php:935
+msgid "Preview email was sent"
+msgstr "Мејл са прегледом је послат"
+
+#: peepsoemaildigest.php:724
+msgid "Most commented post"
+msgstr "Пост са највише коментара"
+
+#: peepsoemaildigest.php:686
+msgid "Most liked post"
+msgstr "Пост са највише свиђања"
+
+#: peepsoemaildigest.php:624
+msgid "Email digest is not activated"
+msgstr "Email digest није активиран"
+
+#: peepsoemaildigest.php:619
+msgid "Email digest sent to %d users"
+msgstr "Email digest је послат корисницима: %d"
+
+#: peepsoemaildigest.php:479
+msgid "Other popular posts"
+msgstr "Други популарни постови"
+
+#: peepsoemaildigest.php:472
+msgid "There are only %d posts, required at least %d"
+msgstr "Има само %d постова, неопходно је најмање %d"
+
+#: peepsoemaildigest.php:400
+msgid "Current time is %s, cron scheduled at %s"
+msgstr "Тренутно време је %s, cron је заказан за %s"
+
+#: peepsoemaildigest.php:364
+msgid "There are %d logs in your database. You can clear the logs by clicking the button below."
+msgstr "Постоји %d log-ова у Вашој бази података. Можете очистити log-ове кликом на дугме испод."
+
+#: peepsoemaildigest.php:363
+msgid "Clear Logs"
+msgstr "Очисти Log-ове"
+
+#: peepsoemaildigest.php:362
+msgid "Preview email failed"
+msgstr "Мејл са прегледом није успео"
+
+#: peepsoemaildigest.php:361
+msgid "Preview email sent"
+msgstr "Мејл са прегледом је послат"
+
+#: peepsoemaildigest.php:343
+msgid "PeepSo Email Digest"
+msgstr "PeepSo Email Digest"
+
+#: peepsoemaildigest.php:292
+msgid "Get it now!"
+msgstr "Преузми одмах!"
+
+#: peepsoemaildigest.php:290
+msgid "The %s plugin requires the PeepSo plugin to be installed and activated."
+msgstr "Додатак %s захтева да PeepSo додатак буде инсталиран и активиран."
+
+#: classes/emaildigestadminajax.php:46
+msgid "No Log Found."
+msgstr "Није пронађен Log."
+
+#: classes/emaildigestadmin.php:42
+msgid "This will be sent to user based on schedule."
+msgstr "Ово ће бити послато кориснику у зависности од заказаног распореда."
+
+#: classes/emaildigestadmin.php:41
+msgid "Digest Email"
+msgstr "Digest Email"
+
+#: classes/configsectionemaildigest.php:356
+msgid "Sent Email Digest Logs"
+msgstr "Log-ови послатих Email Digest"
+
+#: classes/configsectionemaildigest.php:349
+msgid "The logs keep latest 100 sent Email Digest emails. You can see which users got the emails and what was their last login when the email was generated and sent to them. You can also preview the email that was sent."
+msgstr "Log-ови чувају најскоријих 100 послатих Email Digest мејлова. Можете видети који корисници су примили мејлове и последње логовање корисника када је мејл био генерисан и послат. Такође можете извршити увид у садржај мејла који је послат."
+
+#: classes/configsectionemaildigest.php:341
+msgid "General"
+msgstr "Опште"
+
+#: classes/configsectionemaildigest.php:315
+msgid "How many emails should be created in a batch"
+msgstr "Колико мејлова треба да буде садржано у једном скупу"
+
+#: classes/configsectionemaildigest.php:312
+msgid "Depending on the amount of inactive users in your community, not to overload the site there's a batch creation system. This setting controls how many emails will be generated in one batch. This setting does not send the emails. PeepSo mailqueue takes care of the delivery."
+msgstr "У зависности од количине неактивних корисника у Вашој заједници, како се сајт не би преоптеретио постоји систем за формирање скупова. Ово подешавање контролише колико мејлова ће бити генерисано по једном скупу. Ово подешавање не шаље мејлове. PeepSo mailqueue се брине о слању."
+
+#: classes/configsectionemaildigest.php:308
+msgid "Execute Email Digest email creation via cron job"
+msgstr "Изврши креацију Email Digest мејла користећи cron job"
+
+#: classes/configsectionemaildigest.php:305
+msgid "It's advised to switch this setting on and setup a server-side cron job. You can use this command: wget %s It can easily run every hour."
+msgstr "Саветујемо да укључите ово подешавање и успоставите server-side cron job. Можете употребити ову команду: wget %s Може да се активира на сваких сат времена."
+
+#: classes/configsectionemaildigest.php:236
+#: classes/configsectionemaildigest.php:243
+#: classes/configsectionemaildigest.php:260
+#: classes/configsectionemaildigest.php:283
+msgid "At"
+msgstr "У"
+
+#: classes/configsectionemaildigest.php:233
+#: classes/configsectionemaildigest.php:256
+#: classes/configsectionemaildigest.php:279
+msgid "The time when Email Digest emails will start to be sent. Emails are sent in batches by the mailqueue, they're not all sent at once, so your users might get them at different times."
+msgstr "Време када Email Digest мејлови отпочну са слањем. Мејлови ће бити послати у скуповима путем mailqueue, нису сви послати истовремено, тако да ће их Ваши корисници примати у различитим временским интервалима."
+
+#: classes/configsectionemaildigest.php:206
+msgid "Sat"
+msgstr "Суб"
+
+#: classes/configsectionemaildigest.php:205
+msgid "Fri"
+msgstr "Пет"
+
+#: classes/configsectionemaildigest.php:204
+msgid "Thu"
+msgstr "Чет"
+
+#: classes/configsectionemaildigest.php:203
+msgid "Wed"
+msgstr "Сре"
+
+#: classes/configsectionemaildigest.php:202
+msgid "Tue"
+msgstr "Ут"
+
+#: classes/configsectionemaildigest.php:201
+msgid "Mon"
+msgstr "Пон"
+
+#: classes/configsectionemaildigest.php:200
+msgid "Sun"
+msgstr "Нед"
+
+#: classes/configsectionemaildigest.php:195
+#: classes/configsectionemaildigest.php:212
+msgid "Every"
+msgstr "Сваки"
+
+#: classes/configsectionemaildigest.php:191
+msgid "If selected date is bigger than the number of days in month, email digest will be sent at the end of the month."
+msgstr "Ако одабрани датум обухвата временски период дужи од броја дана у месецу, Email Digest ће бити послат на крају месеца."
+
+#: classes/configsectionemaildigest.php:181
+msgid "How often should the Email Digest emails be sent"
+msgstr "Колико често Email Digest мејлови треба да се шаљу"
+
+#: classes/configsectionemaildigest.php:172
+msgid "Send Email Digest emails to users inactive for more than"
+msgstr "Пошаљи Email Digest мејлове корисницима који су неактивни дуже од"
+
+#: classes/configsectionemaildigest.php:168
+msgid "Users who didn't visit the site in the number of days selected or more will receive the Email Digest emails."
+msgstr "Корисници који нису посетили сајт током одабраног броја дана или дуже ће примити Email Digest мејлове."
+
+#: classes/configsectionemaildigest.php:158
+msgid "Send Email Digest emails"
+msgstr "Пошаљи Email Digest мејлове"
+
+#: classes/configsectionemaildigest.php:155
+msgid "Email Digest emails contains only posts which have 'Public' or 'Site Members' privacy settings. All other posts, meaning with privacy settings of 'Only me' and 'Friends Only' will be ignored and not sent as part of the Email Digest."
+msgstr "Email Digest мејлови садрже само постове који поседују \"Јавно\" или \"Чланови сајта\" подешавања приватности. Сви други постови, подразумевајући да имају подешавања приватности \"Само ја\" и \"Само пријатељи\", биће игнорисани и неће бити послати у склопу Email Digest."
+
+#: classes/configsectionemaildigest.php:150
+msgid "These settings control the Email Digest plugin. The plugin has been designed to interest and bring inactive users back to your community by showing them most interesting and engaging posts from a given period."
+msgstr "Ова подешавања контролишу додатак Email Digest. Додатак је дизајниран како би заинтересовао неактивне кориснике и вратио их Вашој заједници, на тај начин што им показује најинтересантније и најпривлачније постове из одређеног периода."
+
+#: classes/configsectionemaildigest.php:136
+msgid "Users"
+msgstr "Корисници"
+
+#: classes/configsectionemaildigest.php:120
+msgid "Which User Roles should receive the emails"
+msgstr "Које корисничке улоге треба да приме мејлове"
+
+#: classes/configsectionemaildigest.php:106
+msgid "Subscribe new users by default"
+msgstr "Упиши нове чланове као основну поставку"
+
+#: classes/configsectionemaildigest.php:99
+msgid "Content"
+msgstr "Садржај"
+
+#: classes/configsectionemaildigest.php:90
+msgid "Show 'read mode' if the posts can't be shown in full and they hit the limit of characters."
+msgstr "Прикажи 'модалитет за читање' ако постови не могу бити видљиви у потпуности и достижу ограничење карактера."
+
+#: classes/configsectionemaildigest.php:86
+msgid "Limit the post length in Email Digest email to"
+msgstr "Ограничи дужину поста у Email Digest мејлу на"
+
+#: classes/configsectionemaildigest.php:79
+msgid "Allow duplicate posts"
+msgstr "Дозволи дуплирање постова"
+
+#: classes/configsectionemaildigest.php:76
+msgid "With this setting on, most commented on and most liked posts will be showcased as such. However, they might also, and most likely will be shown in the main content of the Email Digest email."
+msgstr "Када је ово подешавање укључено, постови са највише коментара и са највише свиђања ће бити промовисани као такви. Међутим, врло је вероватно да ће бити приказани и у главном делу садржаја Email Digest email-а."
+
+#: classes/configsectionemaildigest.php:72
+msgid "Include most commented post"
+msgstr "Уврсти пост са највише коментара"
+
+#: classes/configsectionemaildigest.php:69
+msgid "With this setting switched on, Email Digest email will also contain the most commented on post from a given period and showcase it as such."
+msgstr "Када је ово подешавање укључено, Email Digest мејл ће садржати и пост са највише коментара из одређеног периода и промовисати га као таквог."
+
+#: classes/configsectionemaildigest.php:65
+msgid "Include most liked post"
+msgstr "Уврсти пост са највише свиђања"
+
+#: classes/configsectionemaildigest.php:62
+msgid "With this setting switched on, Email Digest email will also contain the most liked post from a given period and showcase it as such."
+msgstr "Када је ово подешавање укључено, Email Digest email ће садржати и пост са највише свиђања из одређеног периода и промовисати га као таквог."
+
+#: classes/configsectionemaildigest.php:58
+msgid "Send Email Digest emails even if there are less posts"
+msgstr "Пошаљи Email Digest мејлове чак и ако садрже мање постова"
+
+#: classes/configsectionemaildigest.php:55
+msgid "An Email Digest email must have at least 1 new post to be sent out. If there are no new ones it won't be sent."
+msgstr "Email Digest мејл мора да садржи најмање 1 нови пост да би био послат. Ако нема нових постова, неће бити послат."
+
+#: classes/configsectionemaildigest.php:51
+msgid "How many posts should be included per one email"
+msgstr "Колико постова треба да садржи један мејл"
+
+#: classes/configsectionemaildigest.php:29
+msgid "Use images"
+msgstr "Користи слике"
+
+#: classes/configsectionemaildigest.php:21
+msgid "Email Digest Title"
+msgstr "Email Digest наслов"
+
+#: classes/configsectionemaildigest.php:18 peepsoemaildigest.php:340
+#: peepsoemaildigest.php:589 peepsoemaildigest.php:829
+msgid "Email Digest"
+msgstr "Email Digest"

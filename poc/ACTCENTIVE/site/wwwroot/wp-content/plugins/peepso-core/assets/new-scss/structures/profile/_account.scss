@@ -1,0 +1,55 @@
+.ps-profile--account {}
+
+.ps-profile__edit-page--account {}
+
+.ps-profile__account {}
+
+.ps-profile__account-row {
+  padding: var(--PADD--MD);
+  border-bottom: 1px solid var(--DIVIDER--LIGHT);
+
+  &:last-child {
+    border-bottom: none;
+  }
+}
+
+.ps-profile__account--basic {}
+
+.ps-profile__account-row--deletion {}
+
+.ps-profile__account-row--gdpr {
+  p {
+    font-size: 80%;
+    color: var(--PS-COLOR--TEXT--LIGHT);
+  }
+}
+
+.ps-profile__account-header {
+  margin-bottom: var(--PADD--MD);
+}
+
+.ps-profile__account-form {
+  font-size: 90%;
+
+  .ps-form__field {
+
+    @include input--password-icon;
+
+    .ps-password-preview {
+      top: var(--PADD--MD);
+    }
+  }
+}
+
+.ps-profile__account-gdpr {
+  #download-request-account-data {
+    .ps-form__container {
+      display: flex;
+      margin-bottom: var(--PADD);
+
+      .ps-form__row--submit:not(:last-child) {
+        margin-right: var(--PADD);
+      }
+    }
+  }
+}

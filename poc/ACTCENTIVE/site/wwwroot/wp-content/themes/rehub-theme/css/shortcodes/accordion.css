@@ -1,0 +1,9 @@
+.wpsm-accordion .wpsm-accordion-trigger { outline: none; display: block;padding: 15px; border: 1px solid #ddd; text-transform: none; font-weight: normal; font-size: 15px !important; line-height: 21px !important; margin: 10px 0 0; cursor: pointer; background: none #f9f9f9; position: relative; z-index: 1 }
+.wpsm-accordion .wpsm-accordion-trigger:before { content: "+"; display: inline-block; margin-right: 5px; font-size: 16px; }
+.wpsm-accordion .wpsm-accordion-trigger:hover { background-color: #eee; text-decoration: none; }
+.wpsm-accordion .wpsm-accordion-item.open .wpsm-accordion-trigger{ background: none #eee; text-decoration: none; }
+.wpsm-accordion .wpsm-accordion-item.open .wpsm-accordion-trigger:before { content: "–"; }
+.wpsm-accordion .wpsm-accordion-item.close .accordion-content{display: none;}
+.wpsm-accordion .accordion-content { background-color: #fff; padding: 15px; border: 1px solid #ddd; border-top: 0px; position: relative; z-index: 0 }
+.wpsm-accordion .accordion-content p:last-child { margin: 0px; }
+.rtl .wpsm-accordion .wpsm-accordion-trigger:before{margin-left: 5px;}

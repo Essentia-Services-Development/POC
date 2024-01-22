@@ -1,0 +1,459 @@
+.fsp-log {
+    border-radius: 2px;
+    background-color: #FFFFFF;
+    -webkit-box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.04);
+    box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.04);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-bottom: 8px;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: 12px 16px;
+    position: relative
+}
+
+.fsp-log-image > img {
+    width: 32px;
+    height: 32px;
+    display: block;
+    margin-right: 16px;
+    border-radius: 50%
+}
+
+.fsp-log-title {
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1
+}
+
+.fsp-log-title.fsp-is-second {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%
+}
+
+.fsp-log-title-text {
+    color: #292D32;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 20px
+}
+
+.fsp-log-title-text i {
+    margin-left: 4px;
+    color: #A9B8C5;
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: 20px
+}
+
+.fsp-log-title-subtext {
+    color: #828F9A;
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: 20px
+}
+
+.fsp-log-title-subtext i {
+    margin-left: 4px;
+    margin-right: 8px;
+    color: #A9B8C5;
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: 20px
+}
+
+.fsp-log-title-link > a {
+    color: #292D32;
+    font-size: 12px;
+    line-height: 20px
+}
+
+.fsp-log-title-link > a > i {
+    margin-right: 8px;
+    color: #A9B8C5;
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: 20px
+}
+
+.fsp-log-title-sublink i {
+    margin-right: 8px;
+    margin-left: 0
+}
+
+.fsp-log-status-container {
+    -ms-flex-preferred-size: 30%;
+    flex-basis: 30%;
+    display: block;
+    margin-top: 8px
+}
+
+.fsp-log-status-container > .fsp-button {
+    padding: 4px 10px 4px 10px;
+    line-height: 16px;
+    margin-top: 8px;
+    white-space: nowrap;
+    min-height: unset
+}
+
+.fsp-log-status-container > .fsp-button > i {
+    margin-right: 8px
+}
+
+.fsp-log-stat {
+    color: #828F9A;
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: 20px;
+    white-space: nowrap
+}
+
+.fsp-log-stat > i {
+    display: none
+}
+
+.fsp-log-stat-value {
+    color: #292D32;
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: 20px
+}
+
+.fsp-log-stats {
+    position: absolute;
+    bottom: 8px;
+    right: 12px;
+    text-align: right;
+    display: block
+}
+
+.fsp-logs-pagination > .fsp-form-select {
+    width: -webkit-min-content !important;
+    width: -moz-min-content !important;
+    width: min-content !important;
+    display: inline-block !important;
+    margin-left: 12px;
+    border: 0 !important
+}
+
+.fsp-logs-pagination > .fsp-button {
+    margin-right: 8px;
+    margin-bottom: 8px
+}
+
+.fsp-logs-pagination > .fsp-button:last-child {
+    margin-right: 0
+}
+
+.fsp-logs-title.fsp-title {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap
+}
+
+.fsp-logs-title.fsp-title .fsp-title-button {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-top: 12px
+}
+
+.fsp-logs-title.fsp-title .fsp-title-button > .fsp-button {
+    margin-top: 12px
+}
+
+.fsp-logs-title.fsp-title .fsp-title-selector {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: 0
+}
+
+.fsp-logs-title.fsp-title .fsp-title-selector:last-of-type {
+    padding-left: 24px
+}
+
+@media (min-width: 750px) {
+    .fsp-log {
+        -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+        padding: 8px 24px
+    }
+
+    .fsp-log-image {
+        display: block
+    }
+
+    .fsp-log-status-container {
+        -ms-flex-preferred-size: 25%;
+        flex-basis: 25%;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: left;
+        -ms-flex-pack: left;
+        justify-content: left;
+        margin-top: 0
+    }
+
+    .fsp-log-status-container > .fsp-button {
+        margin-left: 8px;
+        margin-top: 0
+    }
+
+    .fsp-log-title {
+        text-align: left;
+        white-space: nowrap;
+        -ms-flex-preferred-size: 25%;
+        flex-basis: 25%
+    }
+
+    .fsp-log-title.fsp-is-second {
+        margin: 0;
+        -ms-flex-preferred-size: 25%;
+        flex-basis: 25%
+    }
+
+    .fsp-log-stat {
+        -ms-flex-preferred-size: 50%;
+        flex-basis: 50%;
+        color: #828F9A;
+        font-size: 12px;
+        letter-spacing: 0;
+        line-height: 20px;
+        text-align: left
+    }
+
+    .fsp-log-stat > i {
+        margin-right: 8px;
+        display: inline-block
+    }
+
+    .fsp-log-stat-value {
+        color: #292D32;
+        font-size: 12px;
+        letter-spacing: 0;
+        line-height: 20px
+    }
+
+    .fsp-log-stats {
+        -ms-flex-preferred-size: 25%;
+        flex-basis: 25%;
+        -ms-flex-item-align: center;
+        align-self: center;
+        position: unset;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -webkit-justify-content: flex-end;
+        justify-content: flex-end;
+    }
+
+    .fsp-logs-title.fsp-title {
+        -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap
+    }
+
+    .fsp-logs-title.fsp-title .fsp-title-button {
+        -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+        margin-top: 0
+    }
+
+    .fsp-logs-title.fsp-title .fsp-title-button > .fsp-button {
+        margin-right: 16px;
+        margin-top: 0
+    }
+
+    .fsp-logs-title.fsp-title .fsp-title-button > .fsp-button:last-child {
+        margin-right: 0
+    }
+
+    .fsp-logs-title.fsp-title .fsp-title-selector {
+        -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+        margin-right: 32px
+    }
+}
+
+/*rtl*/
+
+[dir="rtl"] .fsp-log-image > img {
+    margin-left: 16px;
+    margin-right: 0;
+}
+
+[dir="rtl"] .fsp-log-title-subtext i {
+    margin-right: 4px;
+    margin-left: 8px;
+}
+
+[dir="rtl"] .fsp-log-title-link > a > i {
+    margin-left: 8px;
+    margin-right: 0;
+}
+
+[dir="rtl"] .fsp-log-title-sublink i {
+    margin-left: 8px;
+    margin-right: 0
+}
+
+[dir="rtl"] .fsp-log-status-container > .fsp-button > i {
+    margin-left: 8px;
+    margin-right: 0;
+}
+
+[dir="rtl"] .fsp-log-stats {
+    left: 12px;
+    right:unset;
+}
+
+[dir="rtl"] .fsp-logs-pagination > .fsp-form-select {
+    margin-right: 12px;
+    margin-left: 0;
+}
+
+[dir="rtl"] .fsp-logs-pagination > .fsp-button {
+    margin-left: 8px;
+    margin-right: 0;
+}
+
+[dir="rtl"] .fsp-logs-pagination > .fsp-button:last-child {
+    margin-left: 0
+}
+
+[dir="rtl"] .fsp-logs-title.fsp-title .fsp-title-selector {
+    margin-left: 0
+}
+
+[dir="rtl"] .fsp-logs-title.fsp-title .fsp-title-selector:last-of-type {
+    padding-right: 24px;
+    padding-left:0;
+}
+
+[dir="rtl"] .fsp-log-title-text i {
+    margin-right: 4px;
+    margin-left: unset;
+}
+
+@media (min-width: 750px) {
+    [dir="rtl"] .fsp-log-status-container {
+        -webkit-box-pack: right;
+        -ms-flex-pack: right;
+        justify-content: right;
+    }
+
+    [dir="rtl"] .fsp-log-status-container > .fsp-button {
+        margin-right: 8px;
+        margin-left: 0;
+    }
+
+    [dir="rtl"] .fsp-log-stat > i {
+        margin-left: 8px;
+        margin-right: 0;
+    }
+
+    [dir="rtl"] .fsp-logs-title.fsp-title .fsp-title-button > .fsp-button {
+        margin-left: 16px;
+        margin-right: 0;
+    }
+
+    [dir="rtl"] .fsp-log-title {
+        text-align: unset;
+    }
+
+    [dir="rtl"] .fsp-logs-title.fsp-title .fsp-title-button > .fsp-button:last-child {
+        margin-left: 0
+    }
+
+    [dir="rtl"] .fsp-logs-title.fsp-title .fsp-title-selector {
+        margin-left: 32px;
+        margin-right: 0;
+    }
+}
+
+
+.fsp-logs-control {
+    color: #A9B8C5;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 16px;
+    margin-right: 24px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    cursor: pointer
+}
+
+.fsp-logs-controls {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between
+}
+
+.fsp-logs-controls > .fsp-button {
+    padding: 4px 10px 4px 10px;
+    line-height: 16px;
+    margin-left: -12px;
+    min-height: unset;
+    border: 0;
+    margin-right: 24px
+}
+
+.fsp-logs-controls > .fsp-status {
+    margin-right: 24px;
+}
+
+.fsp-logs-controls > .fsp-button > i {
+    margin-right: 0
+}
+
+.fsp-logs-control-text {
+    color: #292D32;
+    font-family: Poppins, sans-serif;
+    font-size: 12px;
+    letter-spacing: 0;
+    margin-left: 8px
+}
+
+.fsp-logs-control:hover {
+    color: #e84c51;
+    -webkit-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s
+}
+
+.fsp-check-all-row {
+    margin-bottom: 16px;
+    padding: 0 24px;
+}

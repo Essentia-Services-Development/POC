@@ -1,0 +1,18 @@
+#systemreport-phpinfo table {width:100%;}
+#systemreport-phpinfo pre {margin: 0px; font-family: monospace;}
+#systemreport-phpinfo a:link {color: #000099; text-decoration: none; background-color: #ffffff;}
+#systemreport-phpinfo a:hover {text-decoration: underline;}
+#systemreport-phpinfo table {border-collapse: collapse;}
+#systemreport-phpinfo .center {text-align: center;}
+#systemreport-phpinfo .center table { margin-left: auto; margin-right: auto; text-align: left;}
+#systemreport-phpinfo .center th { text-align: center !important; }
+#systemreport-phpinfo td, #systemreport-phpinfo th { border: 1px solid #000000; font-size: 75%; vertical-align: baseline;}
+#systemreport-phpinfo h1 {font-size: 150%;}
+#systemreport-phpinfo h2 {font-size: 125%;}
+#systemreport-phpinfo .p {text-align: left;}
+#systemreport-phpinfo .e {background-color: #ccccff; font-weight: bold; color: #000000;}
+#systemreport-phpinfo .h {background-color: #9999cc; font-weight: bold; color: #000000;}
+#systemreport-phpinfo .v {background-color: #cccccc; color: #000000;}
+#systemreport-phpinfo .vr {background-color: #cccccc; text-align: right; color: #000000;}
+#systemreport-phpinfo img {float: right; border: 0px;}
+#systemreport-phpinfo hr {width: 600px; background-color: #cccccc; border: 0px; height: 1px; color: #000000;}

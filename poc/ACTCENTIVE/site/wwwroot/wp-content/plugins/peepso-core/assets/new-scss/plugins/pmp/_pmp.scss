@@ -1,0 +1,412 @@
+@mixin table-mobile-view {
+  thead {
+    display: none;
+  }
+
+  tbody {
+    tr {
+      border: 1px solid var(--DIVIDER--LIGHT);
+      display: block;
+      margin-bottom: var(--PADD--MD);
+      border-radius: var(--BORDER-RADIUS--MD);
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+
+    td {
+      border-bottom: 1px solid var(--DIVIDER--LIGHT);
+      display: block;
+      font-size: 70% !important;
+      text-align: right;
+      padding: var(--PADD) !important;
+
+      &:last-child {
+        border-bottom: 0;
+      }
+
+      &:before {
+        content: "";
+        float: left;
+        font-weight: bold;
+        font-size: 90%;
+        min-width: 20%;
+        text-align: left;
+      }
+    }
+  }
+}
+
+.peepso {
+  #pmpro_account {
+    @if $comp_mode {
+      table {
+        @include table;
+      }
+    }
+  }
+}
+
+.peepso,
+.pmpro-levels,
+.pmpro-checkout,
+.pmpro-confirmation,
+.pmpro-account,
+.pmpro-invoice,
+.pmpro-member-profile-edit,
+.pmpro-cancel,
+.pmpro-login,
+.pmpro-billing {
+  #pmpro_account,
+  .entry-content {
+    background-color: var(--COLOR--APP);
+    border-radius: var(--BORDER-RADIUS--MD);
+    box-shadow: var(--BOX-SHADOW--HARD);
+    overflow: hidden;
+
+    .pmpro_invoice_wrap {
+      padding: var(--PADD--MD);
+
+      table {
+        + .pmpro_actions_nav {
+          margin-top: var(--PADD--MD);
+        }
+      }
+
+      .pmpro_actions_nav {
+        padding: 0;
+      }
+    }
+
+    label {
+      margin-bottom: var(--PADD--SM);
+      font-size: 90%;
+    }
+
+    .lite {
+      font-size: 80%;
+      margin-top: var(--PADD--SM);
+    }
+
+    h3 {
+      font-weight: normal;
+      font-size: 120%;
+    }
+
+    table {
+      margin-bottom: 0;
+
+      th {
+        padding: var(--PADD--MD);
+        border-top: none;
+      }
+
+      td {
+        padding: var(--PADD--MD);
+        font-size: 80%;
+      }
+    }
+
+    .pmpro_actions_nav {
+      margin: 0;
+      padding: var(--PADD--MD);
+      font-size: 80%;
+
+      &:after {
+        content: " ";
+        display: block;
+        clear: both;
+      }
+    }
+
+    .button,
+    .pmpro_btn {
+      padding: var(--PADD) var(--PADD--MD);
+      font-weight: normal;
+      color: var(--COLOR--TEXT);
+      background-color: var(--COLOR--APP--GRAY);
+      border: 1px solid var(--DIVIDER--LIGHT);
+      text-decoration: none;
+
+      &:hover {
+        color: var(--COLOR--TEXT);
+        background-color: var(--COLOR--APP);
+        border: 1px solid var(--DIVIDER--LIGHT);
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+.pmpro-checkout {
+  .entry-content {
+    padding: var(--PADD--MD);
+
+    h3 {
+      margin-top: 0 !important;
+    }
+  }
+}
+
+.pmpro-confirmation {
+  .entry-content {
+    padding: var(--PADD--MD);
+
+    .pmpro_actions_nav {
+      padding: var(--PADD--MD);
+      background-color: var(--COLOR--APP--GRAY);
+      border-radius: var(--BORDER-RADIUS--MD);
+    }
+  }
+}
+
+.peepso,
+.pmpro-account {
+  #pmpro_account,
+  .entry-content {
+    h3 {
+      padding-left: var(--PADD--MD) !important;
+      padding-right: var(--PADD--MD) !important;
+    }
+
+    table {
+      .pmpro_actionlinks {
+        margin-top: var(--PADD);
+      }
+    }
+
+    .pmpro_box {
+      padding: var(--PADD--MD);
+
+      > h2 {
+        font-size: 140%;
+        margin-bottom: var(--PADD--MD);
+        font-weight: 500;
+      }
+
+      &:first-child {
+        margin-top: 0;
+        padding-top: var(--PADD--MD);
+        border-top: none;
+      }
+
+      border-top: 1px solid var(--DIVIDER--LIGHT);
+    }
+
+    #pmpro_account {
+      .pmpro_box {
+        &:first-child {
+          margin-top: 0;
+          padding-top: var(--PADD--MD);
+          border-top: none;
+        }
+
+        border-top: 1px solid var(--DIVIDER--LIGHT);
+      }
+    }
+
+    #pmpro_account-profile {
+      padding-left: var(--PADD--MD);
+      padding-right: var(--PADD--MD);
+
+      h3 {
+        margin-bottom: var(--PADD--MD);
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+      }
+
+      .pmpro_actionlinks {
+        padding-left: 0;
+        padding-right: 0;
+      }
+    }
+
+    .pmpro_box {
+      > .pmpro_actionlinks {
+        margin-top: var(--PADD--MD);
+        padding-left: var(--PADD--MD);
+        padding-right: var(--PADD--MD);
+        font-size: 80%;
+      }
+    }
+  }
+}
+
+.pmpro-member-profile-edit {
+  .entry-content {
+    padding: var(--PADD--MD);
+
+    label {
+      margin-bottom: var(--PADD--SM);
+      font-size: 90%;
+    }
+
+    .lite {
+      font-size: 80%;
+      margin-top: var(--PADD--SM);
+    }
+
+    #pass-strength-result {
+      margin-top: var(--PADD);
+      &:empty {
+        display: none;
+      }
+    }
+  }
+}
+
+.pmpro-login {
+  .entry-content {
+    padding: var(--PADD--MD);
+
+    .pmpro_actions_nav {
+      padding: 0;
+    }
+  }
+}
+
+.pmpro-billing {
+  .entry-content {
+    padding: var(--PADD--MD);
+
+    .pmpro_actions_nav {
+      padding: 0;
+    }
+  }
+}
+
+.pmpro-cancel {
+  .entry-content {
+    padding: var(--PADD--MD);
+
+    .pmpro_actionlinks {
+      a {
+        display: block;
+        text-align: center;
+      }
+    }
+  }
+}
+
+#pmpro_cancel {
+  table {
+    @include mq($until: desktop) {
+      @include table-mobile-view();
+
+      tbody {
+        td {
+          &:nth-child(1)::before {
+            content: "Level";
+          }
+
+          &:nth-child(2)::before {
+            content: "Expiration";
+          }
+
+          &:nth-child(3) {
+            text-align: center;
+          }
+        }
+      }
+    }
+  }
+}
+
+#pmpro_invoices_table {
+  @include mq($until: desktop) {
+    @include table-mobile-view();
+
+    tbody {
+      td {
+        &:nth-child(1)::before {
+          content: "Date";
+        }
+
+        &:nth-child(2)::before {
+          content: "Invoice #";
+        }
+
+        &:nth-child(3)::before {
+          content: "Level";
+        }
+
+        &:nth-child(4)::before {
+          content: "Total Billed";
+        }
+      }
+    }
+  }
+}
+
+#pmpro_levels_table {
+  @include mq($until: desktop) {
+    @include table-mobile-view();
+
+    tbody {
+      td {
+        &:nth-child(1)::before {
+          content: "Level";
+        }
+
+        &:nth-child(2)::before {
+          content: "Price";
+        }
+      }
+    }
+  }
+}
+
+#pmpro_account {
+  #pmpro_account-membership {
+    @include mq($until: desktop) {
+      table {
+        @include table-mobile-view();
+
+        tbody {
+          td {
+            &:nth-child(1)::before {
+              content: "Level";
+            }
+
+            &:nth-child(2)::before {
+              content: "Billing";
+            }
+
+            &:nth-child(3)::before {
+              content: "Expiration";
+            }
+          }
+        }
+      }
+    }
+  }
+  
+  #pmpro_account-invoices {
+    @include mq($until: desktop) {
+      table {
+        @include table-mobile-view();
+
+        tbody {
+          td {
+            &:nth-child(1)::before {
+              content: "Date";
+            }
+
+            &:nth-child(2)::before {
+              content: "Level";
+            }
+
+            &:nth-child(3)::before {
+              content: "Amount";
+            }
+
+            &:nth-child(4)::before {
+              content: "Status";
+            }
+          }
+        }
+      }
+    }
+  }
+}

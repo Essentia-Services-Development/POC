@@ -1,0 +1,362 @@
+# Translation of PeepSo - Paid Memberships Pro Integration in German
+# This file is distributed under the same license as the PeepSo - Paid Memberships Pro Integration package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-02-10 20:35:22+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0\n"
+"Language: de\n"
+"Project-Id-Version: PeepSo - Paid Memberships Pro Integration\n"
+
+#: peepsopmp.php:783
+msgid "private"
+msgstr ""
+
+#: peepsopmp.php:761
+msgid "Check this to make selected <b>Private PeepSo Groups</b> require this membership level."
+msgstr ""
+
+#: peepsopmp.php:758
+msgid "Require this membeship level"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Memberships and access control for your PeepSo community. Requires the Paid Memberships Pro plugin."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "PeepSo"
+msgstr "PeepSo"
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://peepso.com"
+msgstr "https://peepso.com"
+
+#. Plugin Name of the plugin/theme
+msgid "PeepSo Monetization: Paid Memberships Pro"
+msgstr "PeepSo Monetarisierung: Paid Memberships Pro"
+
+#: templates/pmp/pmp_levels.php:34
+msgid "Select"
+msgstr "Auswählen"
+
+#: templates/pmp/pmp_levels.php:21
+msgid "Free"
+msgstr "Kostenlos"
+
+#: templates/pmp/pmp_levels.php:5
+msgid "Price"
+msgstr "Preis"
+
+#: templates/pmp/pmp_levels.php:4
+msgid "Level"
+msgstr "Level"
+
+#: templates/pmp/pmp_checkout.php:743
+msgid "Processing..."
+msgstr "Wird verarbeitet..."
+
+#: templates/pmp/pmp_checkout.php:733
+msgid "Submit and Confirm"
+msgstr "Senden und bestätigen"
+
+#: templates/pmp/pmp_checkout.php:733
+msgid "Submit and Check Out"
+msgstr "Bestätigen und zur Kasse"
+
+#: templates/pmp/pmp_checkout.php:721
+msgid "Complete Payment"
+msgstr "kostenpflichtige Bezahlung abschließen"
+
+#: templates/pmp/pmp_checkout.php:701
+msgid "I agree to the %s"
+msgstr "Ich mit einverstanden mit den %s"
+
+#: templates/pmp/pmp_checkout.php:613
+msgid "what's this?"
+msgstr "was ist das?"
+
+#: templates/pmp/pmp_checkout.php:612
+msgid "CVV"
+msgstr ""
+
+#: templates/pmp/pmp_checkout.php:579
+msgid "Expiration Date"
+msgstr "Gültig bis"
+
+#: templates/pmp/pmp_checkout.php:574
+msgid "Card Number"
+msgstr "Kartennummer"
+
+#: templates/pmp/pmp_checkout.php:531
+msgid "Card Type"
+msgstr "Kartenart"
+
+#: templates/pmp/pmp_checkout.php:508
+msgid "We Accept %s"
+msgstr "Wir akzeptieren %s"
+
+#: templates/pmp/pmp_checkout.php:507
+msgid "Payment Information"
+msgstr "Zahlungsinformation"
+
+#: templates/pmp/pmp_checkout.php:470
+msgid "Confirm Email"
+msgstr ""
+
+#: templates/pmp/pmp_checkout.php:447
+msgid "Phone"
+msgstr "Telefon"
+
+#: templates/pmp/pmp_checkout.php:422
+msgid "Country"
+msgstr "Land"
+
+#: templates/pmp/pmp_checkout.php:369
+msgid "City, State Zip"
+msgstr "Stadt"
+
+#: templates/pmp/pmp_checkout.php:360
+msgid "Postal Code"
+msgstr "Postleitzahl"
+
+#: templates/pmp/pmp_checkout.php:356
+msgid "State"
+msgstr "Bundesland"
+
+#: templates/pmp/pmp_checkout.php:352
+msgid "City"
+msgstr "Stadt"
+
+#: templates/pmp/pmp_checkout.php:342
+msgid "Address 2"
+msgstr "Adresszusatz"
+
+#: templates/pmp/pmp_checkout.php:338
+msgid "Address 1"
+msgstr "Strasse 1"
+
+#: templates/pmp/pmp_checkout.php:334
+msgid "Last Name"
+msgstr "Nachname"
+
+#: templates/pmp/pmp_checkout.php:330
+msgid "First Name"
+msgstr "Vorname"
+
+#: templates/pmp/pmp_checkout.php:323
+msgid "Billing Address"
+msgstr "Rechnungsadresse"
+
+#: templates/pmp/pmp_checkout.php:306
+msgid "Check Out with PayPal"
+msgstr "Mit PayPal bezahlen"
+
+#: templates/pmp/pmp_checkout.php:302
+msgid "Check Out with a Credit Card Here"
+msgstr "Mit Kreditkarte bezahlen"
+
+#: templates/pmp/pmp_checkout.php:293
+msgid "Choose your Payment Method"
+msgstr "Wähle deine Zahlungsmethode"
+
+#: templates/pmp/pmp_checkout.php:277
+msgid "You are logged in as <strong>%s</strong>."
+msgstr "Du bist angemeldet als <strong>%s</strong>."
+
+#: templates/pmp/pmp_checkout.php:253
+msgid "LEAVE THIS BLANK"
+msgstr "DIESES FELD LEER LASSEN"
+
+#: templates/pmp/pmp_checkout.php:252
+msgid "Full Name"
+msgstr "Vor- und Nachname"
+
+#: templates/pmp/pmp_checkout.php:233
+msgid "Confirm Email Address"
+msgstr ""
+
+#: templates/pmp/pmp_checkout.php:224 templates/pmp/pmp_checkout.php:461
+msgid "Email Address"
+msgstr ""
+
+#: templates/pmp/pmp_checkout.php:206
+msgid "Confirm Password"
+msgstr "Passwort bestätigen"
+
+#: templates/pmp/pmp_checkout.php:197
+msgid "Password"
+msgstr "Passwort"
+
+#: templates/pmp/pmp_checkout.php:188
+msgid "Username"
+msgstr "Benutzername"
+
+#: templates/pmp/pmp_checkout.php:180
+msgid "Log in here"
+msgstr "Hier einloggen"
+
+#: templates/pmp/pmp_checkout.php:180
+msgid "Already have an account?"
+msgstr "Hast du bereits einen Account?"
+
+#: templates/pmp/pmp_checkout.php:179
+msgid "Account Information"
+msgstr "Accountinformation"
+
+#: templates/pmp/pmp_checkout.php:91 templates/pmp/pmp_checkout.php:623
+msgid "Apply"
+msgstr "Anwenden"
+
+#: templates/pmp/pmp_checkout.php:79 templates/pmp/pmp_checkout.php:89
+#: templates/pmp/pmp_checkout.php:621
+msgid "Discount Code"
+msgstr "Rabatt-Code"
+
+#: templates/pmp/pmp_checkout.php:77
+msgid "Click here to enter your discount code"
+msgstr "Hier klicken, um einen Rabattcode einzugeben"
+
+#: templates/pmp/pmp_checkout.php:77
+msgid "Do you have a discount code?"
+msgstr "Hast du einen Rabattcode?"
+
+#: templates/pmp/pmp_checkout.php:75
+msgid "Click here to change your discount code"
+msgstr "Hier klicken, um deinen Rabattcode zu ändern"
+
+#: templates/pmp/pmp_checkout.php:64
+msgid "<p class=\"pmpro_level_discount_applied\">The <strong>%s</strong> code has been applied to your order.</p>"
+msgstr "<p class=\"pmpro_level_discount_applied\"> der <strong>%s</strong>-Code wurde deiner Bestellung hinzugefügt.</p>"
+
+#: templates/pmp/pmp_checkout.php:54
+msgid "You have selected the <strong>%s</strong> membership level."
+msgstr "Du hast den Mitgliedslevel <strong>%s</strong> ausgewählt."
+
+#: templates/pmp/pmp_checkout.php:46
+msgid "change"
+msgstr "ändern"
+
+#: templates/pmp/pmp_checkout.php:45
+msgid "Membership Level"
+msgstr "Mitgliedsstatus"
+
+#: templates/pmp/pmp_checkout.php:38
+msgid "Almost done. Review the membership information and pricing below then <strong>click the \"Complete Payment\" button</strong> to finish your order."
+msgstr "Fast fertig. Überprüfe bitte die untenstehenden Angaben zur Mitgliedschaft und den Preisen bevor du auf den Button <strong>\"kostenpflichtige Bezahlung abschließen\"</strong> klickst."
+
+#: peepsopmp.php:861
+msgid "unpublished"
+msgstr "unveröffentlicht"
+
+#: peepsopmp.php:854
+msgid "No Icon"
+msgstr "Kein Icon"
+
+#: peepsopmp.php:841
+msgid "Automatically assign users a selected VIP icon who pick this membership level"
+msgstr "Weisen Sie Benutzern, die diese Mitgliedschaftsstufe auswählen, automatisch ein ausgewähltes VIP-Symbol zu"
+
+#: peepsopmp.php:840
+msgid "PeepSo VIP"
+msgstr "PeepSo - VIP"
+
+#: peepsopmp.php:784
+msgid "secret"
+msgstr "geheim"
+
+#: peepsopmp.php:782
+msgid "open"
+msgstr "offen"
+
+#: peepsopmp.php:765
+msgid "Automatically add users who pick this membership level to the following groups."
+msgstr "Automatisches Hinzufügen von Benutzern, die diese Mitgliedschaftsebene folgende Gruppen zu holen."
+
+#: peepsopmp.php:755
+msgid "PeepSo Groups"
+msgstr "PeepSo Gruppen"
+
+#: peepsopmp.php:656
+msgid "Done"
+msgstr "Fertig"
+
+#: peepsopmp.php:480
+msgid "PeepSo PMP Integration"
+msgstr "PeepSo PMP Integration"
+
+#: peepsopmp.php:477
+msgid "PMP"
+msgstr "PMP"
+
+#: peepsopmp.php:433
+msgid "Get it now!"
+msgstr "Hole es dir jetzt!"
+
+#: peepsopmp.php:431
+msgid "The %s plugin requires the PeepSo plugin to be installed and activated."
+msgstr "Damit das %s Plugin genutzt werden kann, muss PeepSo installiert und aktiviert sein."
+
+#: peepsopmp.php:139
+msgid "Membership"
+msgstr "Mitgliedschaft"
+
+#: classes/configsectionpmpintegration.php:99
+msgid "General"
+msgstr "Allgemein"
+
+#: classes/configsectionpmpintegration.php:91
+msgid "Strict group memberships (BETA)"
+msgstr "Strikte Gruppenmitgliedschaften (BETA)"
+
+#: classes/configsectionpmpintegration.php:87
+msgid "When enabled, users who lose access to a membership level will be removed from all groups assigned to this membership level"
+msgstr "Wenn diese Option aktiviert ist, werden Benutzer, die den Zugriff auf eine Mitgliedschaftsebene verlieren, aus allen Gruppen entfernt, die dieser Mitgliedschaftsebene zugewiesen sind"
+
+#: classes/configsectionpmpintegration.php:81
+msgid "User Login State Handler"
+msgstr "Benutzeranmeldestatus-Handler"
+
+#: classes/configsectionpmpintegration.php:76
+msgid "How would you like to handle the user login state while choosing a membership level? This setting is related to an issue introduced in PMP 2.4.1"
+msgstr "Wie möchten Sie den Anmeldestatus des Benutzers bei der Auswahl einer Mitgliedschaftsstufe handhaben? Diese Einstellung hängt mit einem Problem zusammen, das in PMP 2.4.1 eingeführt wurde"
+
+#: classes/configsectionpmpintegration.php:72
+msgid "Session"
+msgstr "Sitzung"
+
+#: classes/configsectionpmpintegration.php:71
+msgid "Cookie"
+msgstr "Cookie"
+
+#: classes/configsectionpmpintegration.php:65
+msgid "Hide \"Membership\" tab in user profiles"
+msgstr "\"Mitgliedschaft\" im Benutzerprofil ausblenden"
+
+#: classes/configsectionpmpintegration.php:59
+msgid "Enable email notifications for users that have no membership plans"
+msgstr "Aktivieren Sie E-Mail-Benachrichtigungen für Benutzer, die keine Mitgliedschaftspläne haben"
+
+#: classes/configsectionpmpintegration.php:53
+msgid "Force complete membership for users that have no membership plans"
+msgstr "Vollständige Mitgliedschaft für Benutzer erzwingen, die keine Mitgliedschaftspläne haben"
+
+#: classes/configsectionpmpintegration.php:46
+msgid "Enable integration upon PeepSo registration"
+msgstr "Aktivieren Sie die Integration bei der PeepSo-Registrierung"
+
+#: classes/configsectionpmpintegration.php:39
+msgid "Enable PMP Integration"
+msgstr "Aktiviere PMP Integration"
+
+#: classes/configsectionpmpintegration.php:30
+msgid "Turn on the use of PMP Integration"
+msgstr "Die Verwendung der PMP Integration aktivieren"
+
+#: classes/configsectionpmpintegration.php:25
+msgid "Configure the use of PeepSo PMP Integration."
+msgstr "Konfiguriere die Einstellungen der PeepSo PMP Integration."

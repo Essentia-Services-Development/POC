@@ -1,0 +1,329 @@
+//
+//  VIDEO
+//
+
+
+
+.ps-video {
+  margin: -2px;
+
+  @extend %clearfix;
+}
+
+
+.ps-video-wrapper {
+  width: 50%;
+  padding: 2px;
+
+  @if $scss-direction == rtl {
+    float: right;
+  } @else {
+    float: left;
+  }
+
+  @include media('medium') {
+    width: 33.33%;
+  }
+}
+
+
+.ps-video-item {
+  background-color: black;
+  overflow: hidden;
+
+  // ROUNDED CORNERS
+  @if $scss-rounded == true {
+    border-radius: 6px;
+  }
+
+  img {
+    top: 50%;
+    width: 100%;
+    vertical-align: middle;
+  }
+
+  @include media('small') {
+    height: 100px;
+  }
+
+  @include media('medium') {
+    height: 150px;
+  }
+
+  @include media('large') {
+    height: 200px;
+  }
+}
+
+
+.ps-video-item > a {
+  position: relative;
+  top: 50%;
+  display: block;
+  transform: translateY(-50%)
+}
+
+
+.ps-video-item > a .ps-video-play {
+  color: rgba(255,255,255,0.5);
+  transition: all 0.2s ease;
+  text-shadow: 0 0 2px rgba(0,0,0,.25);
+}
+
+
+.ps-video-item > a:hover .ps-video-play,
+.ps-video-item > a:focus .ps-video-play {
+  color: white;
+}
+
+
+.ps-video-thumbnail img,
+.ps-video-thumbnail video {
+  width: 100%;
+  margin: 0 !important;
+  max-height: 80vh;
+  object-fit: contain;
+
+  @include media('medium') {
+    max-height: 50vh;
+  }
+
+  @include media('large') {
+    max-height: 50vh;
+  }
+}
+
+
+.ps-video-thumbnail .ps-video-play {
+  color: rgba(255,255,255,0.5);
+  cursor: pointer;
+  transition: all 0.2s ease;
+  text-shadow: 0 0 2px rgba(0,0,0,.25);
+}
+
+
+.ps-video-thumbnail:hover .ps-video-play,
+.ps-video-thumbnail:focus .ps-video-play {
+  color: white;
+}
+
+
+.ps-video-play {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -42px;
+  font-size: 60px;
+  line-height: 14px;
+  transform: translateY(-50%);
+}
+
+
+.ps-lightbox-object {
+  iframe,
+  .wp-video {
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  .wp-video {
+    height: 100% !important;
+    margin: 0;
+    max-width: 100%;
+    width: 100% !important;
+
+    video {
+      display: block;
+      margin: 0;
+      height: 100%;
+    }
+  }
+
+  .fb-video {
+    display: inline-block;
+    height: auto;
+    max-height: 100%;
+    vertical-align: middle;
+
+    > iframe {
+      margin: 0;
+      padding: 0;
+    }
+  }
+
+  .wp-audio-shortcode {
+    margin: 0;
+    width: 90% !important;
+  }
+
+  @include media('large') {
+    iframe,
+    .wp-video {
+      height: 100%;
+    }
+  }
+}
+
+
+.ps-stream-attachments {
+  .wp-video {
+    margin: 0;
+    max-width: 100%;
+    width: 100% !important;
+
+    video {
+      display: block;
+      margin: 0;
+      width: 100% !important;
+      height: auto;
+      max-height: 80vh;
+
+      @include media('medium') {
+        max-height: 50vh;
+      }
+
+      @include media('large') {
+        max-height: 50vh;
+      }
+    }
+  }
+}
+
+/*  Fix for divi themes  */
+.fluid-width-video-wrapper {
+  .peepso & {
+    padding-top: 60% !important;
+  }
+}
+
+
+//
+//  Video tab on postbox
+//
+.ps-videos__postbox {
+  position: relative;
+
+  .ps-textarea {
+    margin-top: 0;
+    margin-bottom: 0;
+    height: 35px;
+    resize: none;
+  }
+}
+
+
+.ps-videos__postbox-embed {
+  position: relative;
+
+  .ps-textarea {
+    margin-bottom: $padd;
+  }
+}
+
+
+.ps-videos__postbox-upload {
+  padding-bottom: $padd;
+  text-align: center;
+}
+
+
+.ps-videos__postbox-action {
+  cursor: pointer;
+
+  > span {
+    display: block;
+    padding-top: $padd;
+    font-size: $font-size-sm;
+    color: $color-text-light;
+  }
+}
+
+
+.ps-videos__postbox-file {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+}
+
+
+.ps-videos__postbox-form {
+  > i {
+    font-size: 35px;
+  }
+}
+
+
+.ps-videos__postbox-progress {
+  position: relative;
+  width: 100%;
+  height: 5px;
+  margin-top: $padd;
+  margin-bottom: $padd;
+  background-color: #eee;
+
+  // ROUNDED CORNERS
+  @if $scss-rounded == true {
+    border-radius: 6px;
+    overflow: hidden;
+  }
+}
+
+
+.ps-videos__postbox-progress-wrapper {
+  position: relative;
+}
+
+
+.ps-videos__postbox-progressbar {
+  height: 100%;
+  background-color: $color-primary;
+}
+
+
+.ps-videos__postbox-percentage {
+  position: absolute;
+  top: -20px;
+
+  @if $scss-direction == rtl {
+    left: 0;
+  } @else {
+    right: 0;
+  }
+}
+
+
+.ps-videos__postbox-progress-done {
+  margin-bottom: 5px;
+  color: initial;
+  font-size: $font-size-sm;
+  line-height: 2;
+  text-align: center;
+
+  > span:before {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+
+.ps-videos__postbox-notice {
+  line-height: 1.4;
+
+  > i {
+    display: block;
+    font-size: 35px;
+    text-align: center;
+  }
+}
+
+
+.ps-videos__postbox-preview {
+  padding-bottom: $padd;
+
+  &:empty {
+    padding-bottom: 0;
+  }
+}

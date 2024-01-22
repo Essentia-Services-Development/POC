@@ -1,0 +1,97 @@
+//
+//  HELPER: INPUT
+//
+
+
+
+%ps-input {
+  /*display: inline-block;
+  padding: 0 $padding-sm;
+  margin-top: 0;
+  margin-bottom: 0;
+  height: 35px;
+  border: $scss-input-border;
+  color: $scss-input-color;
+  font-size: $font-size-base;
+  line-height: $line-height-base;
+  background-color: $scss-input-bg;
+  transition: all .25s ease-in-out;
+  box-shadow: none;
+
+  &:focus {
+    color: $scss-input-color !important;
+    background-color: $scss-input-bg;
+    border-color: $scss-input-border-focus;
+
+    + .ps-charcount--input {
+      color: #fff;
+      background-color: $scss-input-border-focus;
+    }
+  }
+
+  // ROUNDED CORNERS
+  @if $scss-rounded == false {
+    @extend %radius--reset;
+  } @else {
+    border-radius: 4px;
+  }*/
+}
+
+
+%ps-select {
+  background-image: url(../../assets/images/sprites/caret-sprite.png);
+  background-repeat: no-repeat;
+  -webkit-appearance: none;
+  -moz-appearance:    none;
+  appearance:         none;
+
+  // ROUNDED CORNERS
+  @if $scss-rounded == true {
+    border-radius: 4px;
+  }
+
+  @if $scss-direction == rtl {
+    background-position: 0 -90%;
+  } @else {
+    background-position: 100% -90%;
+  }
+
+  &:focus {
+    @if $scss-direction == rtl {
+      background-position: 0 190%;
+    } @else {
+      background-position: 100% 190%;
+    }
+  }
+}
+
+
+%ps-textarea {
+  /*display: inline-block;
+  width: 100%;
+  padding: $padding-sm;
+  margin-top: 0;
+  margin-bottom: 0;
+  border: $scss-input-border;
+  background: $scss-input-bg;
+  color: $scss-input-color;
+  font-size: $font-size-sm;
+  line-height: $line-height-sm;
+  transition: all .25s ease-in-out;
+  box-shadow: none;
+
+  // ROUNDED CORNERS
+  @if $scss-rounded == true {
+    border-radius: 4px;
+  }
+
+  &:focus {
+    color: $scss-input-color;
+    border-color: $scss-input-border-focus;
+
+    + .ps-charcount--input {
+      color: #fff;
+      background-color: $scss-input-border-focus;
+    }
+  }*/
+}

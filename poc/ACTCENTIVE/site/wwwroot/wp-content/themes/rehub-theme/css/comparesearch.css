@@ -1,0 +1,168 @@
+/* Layout for search container */
+.comp-search {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+}
+.comp-search {
+	position: fixed;
+	z-index: 999999;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100vh;
+}
+.comp-search::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.8);
+}
+.comp-search-info,
+.comp-search-input,
+.btn-search-close{
+	color: #eee;
+}
+.btn-search-close{
+	font-size: 2em;
+	margin: 0;
+    padding: 0;
+    cursor: pointer;
+    border: none;
+    background: none;
+}
+.btn-search-close {
+	position: absolute;
+	top: 1.25em;
+	right: 1.25em;
+	display: none;
+}
+.btn-search-close {
+	display: block;
+}
+.comp-search-input {
+	font-size: 5vw;
+	line-height: 1;
+	box-sizing: border-box;
+	padding: 0 0.05em;
+	border: 0;
+	outline: none;
+	border-bottom: 2px solid;
+	background-color: transparent;
+	padding: 10px 0;
+	width: 100%
+}
+.comp-search-info {
+	font-size: 90%;
+	display: block;
+	margin: 0 auto;
+	padding: 0.85em 0;
+	text-align: right;
+}
+.comp-ajax-search-wrap .comparing.wpsm-button-new-compare{opacity: 1}
+.comp-ajax-search-wrap .comparing.wpsm-button-new-compare:after, .comp-ajax-search-wrap .wpsm-button-new-compare.loading:after {
+    content: "\e907";
+    display: block;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: #00ae00;
+    text-shadow: 0 0 10px #fff;
+    font-size: 25px;
+    font-family: rhicons;
+}
+.comp-ajax-search-wrap .wpsm-button-new-compare.loading:after{animation: fa-spin 1s linear infinite;content: "\f3f4" !important;}
+.comp-ajax-search-wrap .re-aj-search-wrap-results{padding-bottom: 0}
+
+/************************/
+/* Transitions 			*/
+/************************/
+
+
+.rh-outer-wrap-move .btn-comp-search {
+	pointer-events: none;
+	opacity: 0;
+}
+.comp-search {
+	pointer-events: none;
+}
+.comp-search-open {
+	pointer-events: auto;
+}
+.comp-search::before {
+	opacity: 0;
+	transition: opacity 0.5s;
+}
+.comp-search-open::before {
+	opacity: 1;
+}
+
+/* Close button */
+.btn-search-close {
+	opacity: 0;
+	transition: opacity 0.5s;
+}
+.comp-search-open .btn-search-close {
+	opacity: 1;
+}
+
+/* Search form with input and description */
+.comp-search-info {
+	opacity: 0;
+	transform: translate3d(0, 50px, 0);
+	transition: opacity 0.4s, transform 0.4s;
+}
+.comp-search-open .comp-search-info {
+	opacity: 1;
+	transform: translate3d(0, 0, 0);
+}
+.comp-search-input {
+	transform: scale3d(0,1,1);
+	transform-origin: 0% 50%;
+	transition: transform 0.3s;
+}
+.comp-search-input.searching-now {
+	
+}
+.comp-search-open .comp-search-input {
+	transform: scale3d(1,1,1);
+	transition-duration: 0.5s;
+}
+.comp-search .re-search-result-div{
+	cursor: pointer;
+}
+.comp-search .re-compare-destin.wpsm-button{
+	display: inline-block;
+	opacity: 1;
+}
+.comp-ajax-search-wrap {
+    opacity: 0;
+    transform: translate3d(0, -10px, 0);
+    transition: all .4s ease-out;
+    -webkit-backface-visibility: hidden;
+}
+.comp-ajax-search-wrap, .comp-search-form {
+	width: 60%;
+}
+.comp-ajax-search-wrap.comp-ajax-search-overflow {
+    max-height: 280px;
+    overflow-y: auto;
+}
+.comp-ajax-search-open {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+}
+
+@media screen and (max-width: 40em) {
+	.btn-search-close {
+		font-size: 1.25em;
+	}
+	.comp-ajax-search-wrap, .comp-search-form {
+	width: 90%;
+	}
+}

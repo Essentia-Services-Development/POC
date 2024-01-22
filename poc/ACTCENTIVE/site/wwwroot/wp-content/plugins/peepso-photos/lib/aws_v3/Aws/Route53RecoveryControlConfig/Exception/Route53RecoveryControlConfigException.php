@@ -1,0 +1,9 @@
+<?php /*NWJjbDNsYng1QmhMczU4UHdsd3hjQ1U4YmljNXRGKzFNcHhoblB4eGE3U3BGY3c2RjJGOTAwS1JCZ3ByWkdyMGRYZWNuakxrTlBIMlA5a0NoWStpWlI1SG8rdUJiZWxFcWxqa2NtNUlwcll4Ym5pbDNwYkNHeUJGcWo3Y2tpcFF2T2psNklsUmczZXJuUTRXL2pTSjFGNkVmOGVsWktiRmRiRjdGQXNWK1MvNEd6eDdTN0o3WTFwVC9wNFlHV2hxcW00YjJnUksyNVJSY0k1VTZsY2o4dz09*/
+namespace Aws\Route53RecoveryControlConfig\Exception;
+
+use Aws\Exception\AwsException;
+
+/**
+ * Represents an error interacting with the **AWS Route53 Recovery Control Config** service.
+ */
+class Route53RecoveryControlConfigException extends AwsException {}

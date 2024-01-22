@@ -1,0 +1,33 @@
+.psw-photos {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: var(--PADD--SM);
+  grid-row-gap: var(--PADD--SM);
+  justify-content: center;
+}
+
+.psw-photos__photo {
+  img {
+    border-radius: var(--BORDER-RADIUS--MD);
+    vertical-align: middle;
+  }
+}
+
+.psw-photos__photo-link {
+  display: block;
+}
+
+.psw-photos__more {
+  grid-column-start: 1;
+  grid-column-end: 5;
+  margin-top: var(--PADD--SM);
+  font-size: 80%;
+}
+
+.psw-photos__info {
+  grid-column-start: 1;
+  grid-column-end: 5;
+  font-size: 90%;
+  color: var(--PS-COLOR--TEXT--LIGHT);
+  text-align: center;
+}

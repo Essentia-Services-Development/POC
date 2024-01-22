@@ -1,0 +1,20 @@
+.gc-post__gallery--single-trim {
+  overflow: hidden;
+  position: relative;
+  transition: max-height .3s;
+
+  .gc-post__gallery--single-expand {
+    position: absolute;
+    width: 100%;
+    background: rgba(0,0,0,.75);
+    color: #fff;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    text-align: center;
+    font-size: 15px;
+    padding: var(--PADD--SM) var(--PADD);
+    cursor: pointer;
+    transition: all .3s;
+  }
+}

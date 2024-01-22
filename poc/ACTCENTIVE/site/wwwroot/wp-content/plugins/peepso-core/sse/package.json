@@ -1,0 +1,13 @@
+{
+  "name": "peepso-sse",
+  "private": true,
+  "scripts": {
+    "start": "npm install && npm run server --",
+    "server": "node index.js"
+  },
+  "dependencies": {
+    "forever-monitor": "^1.7.1",
+    "minimist": "^1.2.0",
+    "rimraf": "^2.6.2"
+  }
+}

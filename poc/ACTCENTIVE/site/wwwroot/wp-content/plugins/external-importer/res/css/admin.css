@@ -1,0 +1,240 @@
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+    display: none !important;
+}
+
+.egg-container .products {
+    background: #fff;
+    padding: 0px;     
+}
+
+.egg-container .products .product-row td {
+    padding-bottom: 10px;
+    padding-top: 5px;
+}
+
+.egg-container .products table tr th.check-column {
+    width: 2.2em;
+    padding: 6px 0 0 5px;
+    vertical-align: top;
+}
+
+.egg-container .products table tr .check-column-th {
+    width: 2.2em;
+    vertical-align: middle;
+}
+
+.egg-container .products table tr td img {
+    max-width: 60px;
+    max-height: 60px;
+}
+
+.egg-container .products table tr .column-price span {
+    font-weight: bold;
+}
+
+.egg-container .products table tr td.column-thumb {
+    width: 52px;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.egg-container .products table tr td.column-title {
+    width: 65%;
+}
+
+.egg-container .products table tr td.column-title a:after {
+    content: "\f504";
+    font: normal 12px/1 'dashicons';
+    vertical-align: top;
+    margin-left: 2px;
+    color: #337ab7;
+    text-decoration: none;
+}
+
+.egg-container .products table tr td.column-title a {
+
+}
+
+.egg-container .products table tr td.column-import-button {
+    vertical-align: middle;
+    width: 3ch;
+}
+
+.egg-container .products table tr td.column-import-spinner {
+    vertical-align: middle;
+    width: 30px;
+    color: #96588a;
+}
+
+.egg-container .dashicons.spinning {
+    animation: spin 1s infinite linear;
+    -webkit-animation: spin2 1s infinite linear;
+}
+
+@keyframes spin {
+    from { transform: scale(1) rotate(0deg); }
+    to { transform: scale(1) rotate(360deg); }
+}
+
+@-webkit-keyframes spin2 {
+    from { -webkit-transform: rotate(0deg); }
+    to { -webkit-transform: rotate(360deg); }
+}
+
+.egg-container .products table tr td.column-del-btne {
+    width: 2ch;
+}
+
+
+.egg-container .products table tr td.column-price {
+    width: 15ch;
+    white-space: nowrap;
+}
+
+.egg-container .products table tr .column-price del {
+    color: #999;
+}
+
+.egg-container .products table tr .close {
+    padding: 0px;
+    font-size: 18px;    
+}
+
+.egg-container .products table tr .close:disabled {
+    opacity: 0.2;
+}
+
+.egg-container .ce-import-settings {
+    background-color: #ffffff;
+    padding: 5px;
+    padding-right: 17px;
+}
+
+.egg-container .ce-import-settings label {
+    margin-top: 5px
+}
+
+.egg-container .ce-import-settings button {
+    margin-top: 8px
+}
+
+.egg-container .egg-prefill-log{
+    overflow: auto;
+    padding: 10px 0px;
+}
+
+.egg-container .egg-prefill-log{
+    overflow: auto;
+    padding: 10px 0px;
+}
+
+.egg-container .import-action-btn{
+    width: 10em !important;
+}
+
+#ei-import-area{
+    padding: 0px; 
+}
+
+.egg-container .ei-import-tab {
+    background-color: #fff; 
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-width: 0px 1px 1px 1px;
+}
+
+.egg-container .ei-import-tab-options{
+    padding-top: 20px;
+    background-color: #fff;     
+}
+
+.egg-container .nopadding{
+    padding: 0px;   
+}
+
+#external-importer label {
+    font-weight: normal !important;
+}
+
+#external-importer input[type="checkbox"] {
+    margin: 0 0 0;
+}
+
+.egg-container .ie-ml-20 {
+    margin-left: 20px;
+}
+
+#external-importer{
+    margin-top: 8px;
+}
+
+.egg-container .panel-stat-area {
+    background: #f5f5f5;
+}
+
+.egg-container .panel-settings-area {
+
+
+}
+
+.egg-container .product-animate-if.ng-enter, .product-animate-if.ng-leave {
+    transition:all cubic-bezier(0.250, 0.460, 0.450, 0.940) 1s;
+}
+
+.egg-container .product-animate-if.ng-enter,
+.egg-container .product-animate-if.ng-leave.ng-leave-active {
+    opacity:0;
+}
+
+.egg-container .product-animate-if.ng-leave,
+.egg-container .product-animate-if.ng-enter.ng-enter-active {
+    opacity:1;
+}
+
+.egg-container .page-title-action:disabled {
+    border: 1px solid #999999;
+    color: #777777;
+}
+
+.egg-container .no-margin {
+    margin: 0px !important;
+}
+.egg-container .no-padding {
+    padding: 0px !important;
+}
+
+.eimporter-user-guide {
+    color: #8A2BE2;
+}
+
+.eimporter-user-guide a {
+    color: #8A2BE2;
+    text-decoration: none;
+}
+
+.eimporter-user-guide a:after {
+    content: "\f504";
+    font: normal 12px/1 'dashicons';
+    vertical-align: top;
+    margin-left: 2px;
+    color: #8A2BE2;
+    text-decoration: none;
+}
+.exi-label {
+    display: inline;
+    padding: .3em .6em .3em;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    vertical-align: baseline;
+    border-radius: .25em;
+    font-size: 85%;
+}
+
+.exi-label-success, .exi-label-active {
+    background-color: #00ba37;
+}
+
+.exi-label-error, .exi-label-inactive {
+    background-color: #d63638;
+}

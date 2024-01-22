@@ -1,0 +1,858 @@
+# Translation of PeepSo - Photos in Czech
+# This file is distributed under the same license as the PeepSo - Photos package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-02-02 12:11:38+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n >= 2 && n <= 4) ? 1 : 2);\n"
+"X-Generator: GlotPress/3.0.0\n"
+"Language: cs_CZ\n"
+"Project-Id-Version: PeepSo - Photos\n"
+
+#: classes/photosajax.php:796
+msgid "Temporary file has been moved"
+msgid_plural "Temporary files has been moved"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: classes/configsectionphotos.php:336
+msgid "Clear history"
+msgstr ""
+
+#: classes/configsectionphotos.php:229
+msgid "Photo size & quality"
+msgstr ""
+
+#: classes/configsectionphotos.php:121
+msgid "User limits"
+msgstr ""
+
+#: templates/photos/photo-album-custom.php:216
+#: templates/photos/photo-group-album-custom.php:221
+msgid "Comments are closed"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "PeepSo"
+msgstr "PeepSo"
+
+#. Description of the plugin/theme
+msgid "Photo uploads and albums"
+msgstr "Nabrávání fotek a alb"
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://peepso.com"
+msgstr "https://peepso.com"
+
+#. Plugin Name of the plugin/theme
+msgid "PeepSo Core: Photos"
+msgstr "PeepSo Core: Fotky"
+
+#: templates/widgets/photos.tpl.php:31
+msgid "View All"
+msgstr "Zobrazit vše"
+
+#: templates/widgets/community-photos.tpl.php:29
+#: templates/widgets/photos.tpl.php:40
+msgid "No photos"
+msgstr "Žádné fotky"
+
+#: templates/photos/postbox-photos.php:19
+msgid "Say something about this photo..."
+msgstr "Řekněte něco o této fotce..."
+
+#: templates/photos/postbox-photos.php:8
+msgid "Max photo dimensions: %1$s x %2$spx | Max file size: %3$sMB"
+msgstr "Maximální rozměry fotky: %1$s x %2$spx | Maximální velikost: %3$sMB"
+
+#: templates/photos/postbox-photos.php:6
+msgid "Click here to start uploading photos"
+msgstr "Klikněte zde pro zahájení nahrávání fotografií"
+
+#: templates/photos/popup.php:11
+msgid "Close"
+msgstr "Zavřít"
+
+#: templates/photos/photos.php:35
+msgid "Photo Albums"
+msgstr "Fotoalba"
+
+#: templates/photos/photos.php:33
+msgid "Recently added photos"
+msgstr "Nedávno přidané fotky"
+
+#: templates/photos/photos-group.php:34 templates/photos/photos.php:27
+msgid "Albums"
+msgstr "Alba"
+
+#: templates/photos/photo-item-album.php:51
+msgid "Friends Only"
+msgstr "Pouze přátelé"
+
+#: templates/photos/photo-item-album.php:45
+msgid "Private"
+msgstr "Soukromé"
+
+#: templates/photos/photo-item-album.php:40
+msgid "Members only"
+msgstr "Pouze pro členy"
+
+#: templates/photos/photo-item-album.php:35
+#: templates/photos/photo-item-album.php:53
+msgid "Public"
+msgstr "Veřejné"
+
+#: templates/photos/photo-group-item-album.php:23
+#: templates/photos/photo-item-album.php:26
+msgid "%s photo"
+msgid_plural "%s photos"
+msgstr[0] "%s fotka"
+msgstr[1] "%s fotky"
+msgstr[2] "%s fotky"
+
+#: templates/photos/photo-comment.php:31 templates/photos/photo-item.php:27
+msgid "Gif"
+msgstr "Gif"
+
+#: templates/photos/photo-comment.php:22
+msgid "Uploaded a photo"
+msgstr "Nahrál fotografii"
+
+#: templates/photos/photo-comment.php:21
+msgid "%s uploaded a photo"
+msgstr "%s nahrál fotku"
+
+#: templates/photos/photo-album.php:14
+#: templates/photos/photo-group-album.php:19
+msgid "Back to Photos"
+msgstr "Zpět na Fotky"
+
+#: templates/photos/photo-album.php:10
+#: templates/photos/photo-group-album.php:15
+msgid "%s Album"
+msgstr "%s album"
+
+#: templates/photos/photo-album-upload.php:24
+msgid "Add photos to album"
+msgstr "Přidat fotky do alba"
+
+#: templates/photos/photo-album-upload.php:17
+msgid "Upload Photo"
+msgstr "Nahrát fotku"
+
+#: templates/photos/photo-album-upload.php:1
+msgid "Photo privacy is inherited from the album"
+msgstr "Soukromí fotky převzato z alba"
+
+#: templates/photos/photo-album-dialog.php:56
+#: templates/photos/photo-album-dialog.php:63
+#: templates/photos/photos-group.php:27 templates/photos/photos.php:20
+#: templates/photos/photos.php:41
+msgid "Create Album"
+msgstr "Vytvořit Album"
+
+#: templates/photos/photo-album-dialog.php:49
+#: templates/photos/photo-album-upload.php:9
+msgid "Please select at least one photo to be uploaded"
+msgstr "Zvolte alespoň jednu fotku, kterou chcete nahrát"
+
+#: templates/photos/photo-album-dialog.php:46
+#: templates/photos/photo-album-upload.php:6
+msgid "Upload photos to album"
+msgstr "Nahrát fotky do alba"
+
+#: templates/photos/photo-album-dialog.php:21
+msgid "Album privacy"
+msgstr "Soukromí alba"
+
+#: templates/photos/photo-album-dialog.php:13
+msgid "Album name can't be empty"
+msgstr "Název alba nemůže být prázdný"
+
+#: templates/photos/photo-album-dialog.php:9
+msgid "Album name"
+msgstr "Název alba"
+
+#: templates/photos/photo-album-custom.php:205
+#: templates/photos/photo-group-album-custom.php:211
+msgid "Post"
+msgstr "Příspěvek"
+
+#: templates/photos/photo-album-custom.php:204
+#: templates/photos/photo-group-album-custom.php:210
+msgid "Clear"
+msgstr "Vymazat"
+
+#: templates/photos/photo-album-custom.php:192
+#: templates/photos/photo-group-album-custom.php:198
+msgid "Write a comment..."
+msgstr "Napiště komentář..."
+
+#: templates/photos/photo-album-custom.php:148
+#: templates/photos/photo-album.php:28
+#: templates/photos/photo-group-album-custom.php:150
+#: templates/photos/photo-group-album.php:33
+#: templates/photos/photos-group.php:42 templates/photos/photos.php:48
+msgid "Oldest first"
+msgstr "Nejstarší nejdříve"
+
+#: templates/photos/photo-album-custom.php:147
+#: templates/photos/photo-album.php:27
+#: templates/photos/photo-group-album-custom.php:149
+#: templates/photos/photo-group-album.php:32
+#: templates/photos/photos-group.php:41 templates/photos/photos.php:47
+msgid "Newest first"
+msgstr "Nejnovější nejdříve"
+
+#: templates/photos/photo-album-custom.php:142
+#: templates/photos/photo-album.php:22
+#: templates/photos/photo-group-album-custom.php:144
+#: templates/photos/photo-group-album.php:27
+#: templates/photos/photos-group.php:21 templates/photos/photos.php:14
+msgid "Large thumbnails"
+msgstr "Velké miniatury"
+
+#: templates/photos/photo-album-custom.php:141
+#: templates/photos/photo-album.php:21
+#: templates/photos/photo-group-album-custom.php:143
+#: templates/photos/photo-group-album.php:26
+#: templates/photos/photos-group.php:20 templates/photos/photos.php:13
+msgid "Small thumbnails"
+msgstr "Malé miniatury"
+
+#: templates/photos/photo-album-custom.php:126
+#: templates/photos/photo-group-album-custom.php:128
+msgid "Save description"
+msgstr "Uložit popis"
+
+#: templates/photos/photo-album-custom.php:119
+#: templates/photos/photo-group-album-custom.php:121
+msgid "No description"
+msgstr "Žádný popis"
+
+#: templates/photos/photo-album-custom.php:100
+#: templates/photos/photo-group-album-custom.php:102
+msgid "Description privacy"
+msgstr "Soukromí popisu"
+
+#: templates/photos/photo-album-custom.php:92
+#: templates/photos/photo-group-album-custom.php:94
+msgid "Edit description"
+msgstr "Upravit popis"
+
+#: templates/photos/photo-album-custom.php:90
+#: templates/photos/photo-album-dialog.php:36
+#: templates/photos/photo-group-album-custom.php:92
+msgid "Album description"
+msgstr "Popis alba"
+
+#: templates/photos/photo-album-custom.php:68
+#: templates/photos/photo-group-album-custom.php:70
+msgid "Edit title"
+msgstr "Upravit název"
+
+#: templates/photos/photo-album-custom.php:62
+#: templates/photos/photo-group-album-custom.php:64
+msgid "Save"
+msgstr "Uložit"
+
+#: templates/photos/photo-album-custom.php:60
+#: templates/photos/photo-album-custom.php:123
+#: templates/photos/photo-album-dialog.php:59
+#: templates/photos/photo-album-upload.php:20
+#: templates/photos/photo-group-album-custom.php:62
+#: templates/photos/photo-group-album-custom.php:125
+msgid "Cancel"
+msgstr "Zrušit"
+
+#: templates/photos/photo-album-custom.php:49
+#: templates/photos/photo-group-album-custom.php:51
+msgid "Add Photos"
+msgstr "Přidat Fotky"
+
+#: templates/photos/photo-album-custom.php:37
+#: templates/photos/photo-group-album-custom.php:40
+msgid "Back"
+msgstr "Zpět"
+
+#: templates/photos/photo-album-custom.php:28
+#: templates/photos/photo-group-album-custom.php:31
+msgid "Are you sure you want to delete this album?"
+msgstr "Opravdu chcete smazat toto album?"
+
+#: templates/photos/photo-album-custom.php:24
+#: templates/photos/photo-group-album-custom.php:27
+msgid "Remove album"
+msgstr "Odebrat album"
+
+#: templates/photos/modal-photo-item.php:31
+msgid "Set as my cover"
+msgstr "Nastavit jako mou úvodní fotku"
+
+#: templates/photos/modal-photo-item.php:30
+msgid "Set as my avatar"
+msgstr "Nastavit jako mou profilovou fotku"
+
+#: templates/photos/modal-photo-item.php:27
+msgid "Options"
+msgstr "Možnosti"
+
+#: peepsosharephotos.php:2217
+msgid "Post updates on Activity Stream when user changes groups cover."
+msgstr "Poslat aktivitu na zeď při zmeně cover fotografie skupiny."
+
+#: peepsosharephotos.php:2216
+msgid "Enable post updates upon groups cover change"
+msgstr "Povolit zobrazení aktivity při změně cover obrázku skupiny"
+
+#: peepsosharephotos.php:2209
+msgid "Post updates on Activity Stream when user changes groups avatar."
+msgstr "Poslat aktivitu na zeď při zmeně profilové fotografie skupiny."
+
+#: peepsosharephotos.php:2208
+msgid "Enable post updates upon groups avatar change"
+msgstr "Povolit zobrazení aktivity na zdi při změně profilové fotografie skupiny"
+
+#: peepsosharephotos.php:2192
+msgid "Post updates on Activity Stream when user changes profile cover."
+msgstr "Poslat aktivitu na zeď při zmeně cover obrázku."
+
+#: peepsosharephotos.php:2191
+msgid "Enable post updates upon user cover change"
+msgstr "Povolit zobrazení aktivity při změně cover obrázku"
+
+#: peepsosharephotos.php:2184
+msgid "Post updates on Activity Stream when user changes profile avatar."
+msgstr "Poslat aktivitu na zeď při zmeně profilové fotografie."
+
+#: peepsosharephotos.php:2183
+msgid "Enable post updates upon user avatar change"
+msgstr "Povolit odeslání příspěvku při změně profilové fotografie"
+
+#: peepsosharephotos.php:1887
+msgid "Upload photos"
+msgstr "Nahrát fotky"
+
+#: peepsosharephotos.php:1674
+msgid "Delete Album"
+msgstr "Vymazat Album"
+
+#: peepsosharephotos.php:1288
+msgid "cover photo"
+msgstr "úvodní fotka"
+
+#: peepsosharephotos.php:1283
+msgid "avatar"
+msgstr "avatar"
+
+#: peepsosharephotos.php:1275 peepsosharephotos.php:1298
+msgid "photo"
+msgid_plural "photos"
+msgstr[0] "Fotka"
+msgstr[1] "Fotky"
+msgstr[2] "Fotky"
+
+#: peepsosharephotos.php:1263
+msgid "album"
+msgstr "album"
+
+#: peepsosharephotos.php:800
+msgid " shared photos"
+msgstr " sdílel fotky"
+
+#: peepsosharephotos.php:792
+msgid " uploaded %1$d photo"
+msgid_plural " uploaded %1$d photos"
+msgstr[0] " nahrál %1$d fotku"
+msgstr[1] " nahrál %1$d fotky"
+msgstr[2] " nahrál %1$d fotky"
+
+#: peepsosharephotos.php:787
+msgid " added %1$d photo to the album: <a href=\"%3$s\">%2$s</a>"
+msgid_plural " added %1$d photos to the album: <a href=\"%3$s\">%2$s</a>"
+msgstr[0] " přidal %1$d fotku do alba: <a href=\"%3$s\">%2$s</a>"
+msgstr[1] " přidal %1$d fotky do alba: <a href=\"%3$s\">%2$s</a>"
+msgstr[2] " přidal %1$d fotky do alba: <a href=\"%3$s\">%2$s</a>"
+
+#: peepsosharephotos.php:769
+msgid " uploaded a new profile cover"
+msgstr "nahrál novou úvodní fotku"
+
+#: peepsosharephotos.php:766
+msgid " uploaded a new avatar"
+msgstr "nahrál novou profilovou fotku"
+
+#: peepsosharephotos.php:660
+msgid "Photo"
+msgstr "Fotka"
+
+#: peepsosharephotos.php:519 templates/photos/postbox-photos.php:18
+msgid "Supported formats are: gif, jpg, jpeg, tiff, png, and webp."
+msgstr ""
+
+#: peepsosharephotos.php:518
+msgid "Only "
+msgstr "Pouze "
+
+#: peepsosharephotos.php:489 peepsosharephotos.php:1471
+msgid "Upload Failed! Please try again."
+msgstr "Nahrávání selhalo! Prosím zkuste to znovu."
+
+#: peepsosharephotos.php:433 peepsosharephotos.php:577
+#: peepsosharephotos.php:1394 peepsosharephotos.php:1422
+#: peepsosharephotos.php:1433 templates/photos/photos-group.php:33
+#: templates/photos/photos.php:26
+msgid "Photos"
+msgstr "Fotky"
+
+#: peepsosharephotos.php:412
+msgid "Get it now!"
+msgstr "Získejte to nyní!"
+
+#: peepsosharephotos.php:410
+msgid "The %s plugin requires the PeepSo plugin to be installed and activated."
+msgstr "%s rozšíření  vyžaduje instalaci a aktivaci PeepSo pluginu."
+
+#: peepsosharephotos.php:325
+msgid "Stream Photos"
+msgstr "Streamovat fotky"
+
+#: peepsosharephotos.php:321
+msgid "Profile Covers"
+msgstr "Úvodní Fotky Profilu"
+
+#: peepsosharephotos.php:317
+msgid "Profile Avatars"
+msgstr "Profilové Avatary"
+
+#: classes/widgets/widgetphotos.php:112
+msgid "My Photos"
+msgstr "Moje Fotky"
+
+#: classes/widgets/widgetphotos.php:13
+msgid "PeepSo Photos Widget"
+msgstr "PeepSo Widget Fotky"
+
+#: classes/widgets/widgetphotos.php:12 peepsosharephotos.php:436
+msgid "PeepSo Photos"
+msgstr "PeepSo Fotky"
+
+#: classes/widgets/widgetcommunityphotos.php:95
+msgid "Latest Photos"
+msgstr "Nejnovější fotky"
+
+#: classes/widgets/widgetcommunityphotos.php:12
+#: classes/widgets/widgetcommunityphotos.php:13
+msgid "PeepSo Community Photos"
+msgstr "PeepSo Komunitní Fotky"
+
+#: classes/photosmodel.php:663
+msgid "There was an error removing the file %1$s. Error: %2$s"
+msgstr "Při odebrání souboru %1$s došlo k chybě. Chyba: %2$s"
+
+#: classes/photosmodel.php:657
+msgid "There was a problem when deleting the file"
+msgstr "Při mazání souboru došlo k problému"
+
+#: classes/photosmodel.php:637
+msgid "There was an error setting up Amazon S3 library."
+msgstr "Při vytváření knihovny Amazon S3 došlo k chybě."
+
+#: classes/photosmodel.php:614
+msgid "There was a problem when uploading the file"
+msgstr "Při nahrávání souboru došlo k problému"
+
+#: classes/photosmodel.php:532
+msgid "Missing Amazon configuration."
+msgstr "Chybí konfigurace Amazonu."
+
+#: classes/photosajax.php:1202
+msgid "You do not have permission to do that."
+msgstr "Na toto nemáte dostatečná oprávnění"
+
+#: classes/photosajax.php:1147
+msgid "You are not authorized to change this album access."
+msgstr "Nemáte oprávnění měnit přístup k tomuto albu."
+
+#: classes/photosajax.php:1142
+msgid "Photo Album access changed."
+msgstr "Změna přístupu k fotoalbu."
+
+#: classes/photosajax.php:1114
+msgid "Invalid extra field."
+msgstr "Neplatné další pole."
+
+#: classes/photosajax.php:1085
+msgid "You are not authorized to change this album description."
+msgstr "Nemáte oprávnění měnit popis tohoto alba."
+
+#: classes/photosajax.php:1080
+msgid "Photo Album description saved."
+msgstr "Popis fotoalba byl uložen."
+
+#: classes/photosajax.php:1025
+msgid "Photo Album name saved."
+msgstr "Název fotoalba byl uložen."
+
+#: classes/photosajax.php:998 classes/photosajax.php:1030
+msgid "You are not authorized to change this album name."
+msgstr "Nemáte oprávnění měnit název tohoto alba."
+
+#: classes/photosajax.php:993
+msgid "Photo Album has been deleted."
+msgstr "Fotoalbum bylo smazáno."
+
+#: classes/photosajax.php:913
+msgid "You are not authorized to add photos."
+msgstr "Nemáte oprávnění přidávat fotky."
+
+#: classes/photosajax.php:907
+msgid "Activity is not found."
+msgstr "Aktivita nenalezena."
+
+#: classes/photosajax.php:904
+msgid "New photos added"
+msgstr "Nové fotky přidány"
+
+#: classes/photosajax.php:845 classes/photosajax.php:948
+msgid "Temporary file has been deleted"
+msgid_plural "Temporary files has been deleted"
+msgstr[0] "Dočasný soubor byl smazán"
+msgstr[1] "Dočasné soubory byl smazány"
+msgstr[2] "Dočasné soubory byl smazány"
+
+#: classes/photosajax.php:728
+msgid "You are not authorized to create album for this user."
+msgstr "Nemáte oprávnění vytvořit album pro tohoto uživatele."
+
+#: classes/photosajax.php:723
+msgid "Album "
+msgstr "Album "
+
+#: classes/photosajax.php:659
+msgid "You are not authorized to use this photo as cover."
+msgstr "Nemáte oprávnění používat tuto fotku jako úvodní fotku."
+
+#: classes/photosajax.php:654
+msgid "Your profile cover has been changed."
+msgstr "Vaše uvodní fotka byla změněna."
+
+#: classes/photosajax.php:603 classes/photosajax.php:665
+#: classes/photosajax.php:734 classes/photosajax.php:919
+msgid "Photo not found"
+msgstr "Fotka nenalezena"
+
+#: classes/photosajax.php:597
+msgid "You are not authorized to use this photo as avatar."
+msgstr "Nemáte oprávnění používat tuto fotku jako avatar."
+
+#: classes/photosajax.php:592
+msgid "Your avatar has been changed."
+msgstr "Váš avatar byl změněn."
+
+#: classes/photosajax.php:551 classes/photosajax.php:616
+#: classes/photosajax.php:678 classes/photosajax.php:743
+#: classes/photosajax.php:809 classes/photosajax.php:857
+#: classes/photosajax.php:932 classes/photosajax.php:960
+#: classes/photosajax.php:1011 classes/photosajax.php:1043
+#: classes/photosajax.php:1128
+msgid "Request could not be verified."
+msgstr "Žádost nemohla být ověřena."
+
+#: classes/photosajax.php:426
+msgid "%s doesn't have any photos yet"
+msgstr "%s zatím nemá žádné fotky"
+
+#: classes/photosajax.php:426
+msgid "You don't have any photos yet"
+msgstr "Zatím nemáte žádné fotografie"
+
+#: classes/photosajax.php:369
+msgid "Maximum file upload quota reached. Delete posts with photos to free some space."
+msgstr "Byla dosažena maximální kvóta pro nahrání souborů. Odstraňte příspěvky s fotkami pro uvolnění místa."
+
+#: classes/photosajax.php:367
+msgid "Only files up to %1$dMB are allowed."
+msgstr "Povoleny jsou pouze soubory do %1$dMB."
+
+#: classes/photosajax.php:365
+msgid "Maximum photo upload quota reached. Delete posts with photos to free some space."
+msgstr "Byla dosažena maximální kvóta pro nahrání fotek. Odstraňte příspěvky s fotkami pro uvolnění místa."
+
+#: classes/photosajax.php:361
+msgid "Maximum daily photo upload quota reached. Delete posts with photos to free some space."
+msgstr "Byla dosažena maximální denní kvóta pro nahrání fotek. Odstraňte příspěvky s fotkami pro uvolnění místa."
+
+#: classes/photosajax.php:163
+msgid "Image exceeds maximum photo size of %1$d x %2$d."
+msgstr "Obrázek překračuje maximální velikost fotky %1$d x %2$d."
+
+#: classes/photosajax.php:159
+msgid "Only photos with a maximum of %1$d pixel height are allowed, please resize."
+msgstr "Jsou povoleny pouze fotky s maximální výškou %1$d pixelů, změňte velikost."
+
+#: classes/photosajax.php:157
+msgid "Only photos with a maximum of %1$d pixel width are allowed, please resize."
+msgstr "Jsou povoleny pouze fotky s maximální šířkou %1$d pixelů, změňte velikost."
+
+#: classes/photosajax.php:117
+msgid "Only files up to %1$dMB are allowed"
+msgstr "Povoleny jsou pouze soubory do %1$dMB"
+
+#: classes/photosajax.php:92
+msgid "Maximum file upload quota reached. Delete posts with photos to free some space"
+msgstr "Byla dosažena maximální kvóta pro nahrání souborů. Smazat příspěvky s fotografiemi, abyste uvolnili místo"
+
+#: classes/photosadmin.php:304
+msgid "Photo %1$d of post %2$s"
+msgstr "Fotka %1$d z příspěvku %2$s"
+
+#: classes/photosadmin.php:295
+msgid "Photo of post %s"
+msgstr "Fotka z příspěvku %s"
+
+#: classes/photosadmin.php:266
+msgid "Configure the use of PeepSo Share Photos."
+msgstr "Konfigurace použití PeepSo Sdílení Fotek"
+
+#: classes/photosadmin.php:263
+msgid "Photos Settings"
+msgstr "Nastavení fotek"
+
+#: classes/photosadmin.php:213
+msgid "The AWS Secret Key you received when you signed up for AWS (40 characters)"
+msgstr "AWS Secret Key, který jste obdrželi během registrace do AWS (40 znaků)"
+
+#: classes/photosadmin.php:184
+msgid "Turn on the use of Amazon AWS for image storage"
+msgstr "Zapnout využití Amazon AWS pro ukládání fotek"
+
+#: classes/photosadmin.php:45
+msgid "WordPress maximum upload size allowed is %1$sMB"
+msgstr "Maximální povolená velikost souborů pro WordPress je %1$sMB"
+
+#: classes/configsectionphotos.php:359
+msgid "AWS"
+msgstr ""
+
+#: classes/configsectionphotos.php:347 classes/photosadmin.php:267
+msgid "To enable the use of AWS, set the \"Enable AWS S3 Storage\" to \"YES\" and fill in the additional settings fields.<br/>To get your AWS Access ID and Keys, you can sign up here: %sGet Your AWS Access Keys%s."
+msgstr "Chcete-li povolit použití AWS, nastavte \"Povolit AWS S3 úložiště\" na \"ANO\" a vyplňte další nastavení.<br/>Pro získání vašeho AWS Access ID a Keys, se můžete registrovat zde: %sZískejte Vaše AWS Access Keys%s."
+
+#: classes/configsectionphotos.php:337 classes/photosadmin.php:252
+msgid "AWS Error History:"
+msgstr "AWS Historie Chyb:"
+
+#: classes/configsectionphotos.php:325
+msgid "Don't keep a local copy of uploaded files"
+msgstr "Neuchovávejte místní kopii nahraných souborů"
+
+#: classes/configsectionphotos.php:322
+msgid "Disabling AWS S3 will cause photos to disappear, because photos will not be redownloaded"
+msgstr "Zakázání AWS S3 způsobí, že fotografie zmizí, protože fotografie nebudou staženy"
+
+#: classes/configsectionphotos.php:318
+msgid "Bucket location"
+msgstr "Umístění Bucket"
+
+#: classes/configsectionphotos.php:312
+msgid "US West (Oregon)"
+msgstr "USA západ (Oregon)"
+
+#: classes/configsectionphotos.php:311
+msgid "US West (N. California)"
+msgstr "USA západ (Severní Kalifornie)"
+
+#: classes/configsectionphotos.php:310
+msgid "US East (Ohio)"
+msgstr "USA východ (Ohio)"
+
+#: classes/configsectionphotos.php:309
+msgid "US East (N. Virginia)"
+msgstr "USA východ (N. Virginie)"
+
+#: classes/configsectionphotos.php:308
+msgid "South America (São Paulo)"
+msgstr "Jižní Amerika (São Paulo)"
+
+#: classes/configsectionphotos.php:307
+msgid "EU (Paris)"
+msgstr "EU (Paříž)"
+
+#: classes/configsectionphotos.php:306
+msgid "EU (London)"
+msgstr "EU (Londýn)"
+
+#: classes/configsectionphotos.php:305
+msgid "EU (Ireland)"
+msgstr "EU (Irsko)"
+
+#: classes/configsectionphotos.php:304
+msgid "EU (Frankfurt)"
+msgstr ""
+
+#: classes/configsectionphotos.php:303
+msgid "Canada (Central)"
+msgstr "Kanada (střední)"
+
+#: classes/configsectionphotos.php:302
+msgid "Asia Pacific (Tokyo)"
+msgstr "Asie pacifik (Tokio)"
+
+#: classes/configsectionphotos.php:301
+msgid "Asia Pacific (Sydney)"
+msgstr "Asie pacifik (Sydney)"
+
+#: classes/configsectionphotos.php:300
+msgid "Asia Pacific (Singapore)"
+msgstr "Asie pacifik (Singapore)"
+
+#: classes/configsectionphotos.php:299
+msgid "Asia Pacific (Seoul)"
+msgstr "Asie pacifik (Seoul)"
+
+#: classes/configsectionphotos.php:298
+msgid "Asia Pacific (Mumbai)"
+msgstr "Asie pacifik (Mumbai)"
+
+#: classes/configsectionphotos.php:293 classes/photosadmin.php:230
+msgid "Amazon S3 Bucket"
+msgstr "Amazon S3 Bucket"
+
+#: classes/configsectionphotos.php:286 classes/photosadmin.php:238
+msgid "Amazon S3 Bucket is required"
+msgstr "Je vyžadován Amazon S3 Bucket"
+
+#: classes/configsectionphotos.php:280 classes/photosadmin.php:231
+msgid "Name of the Bucket to upload your images to on Amazon S3"
+msgstr "Název \"Bucket\", do kterého se mají nahrávat fotky na Amazon S3"
+
+#: classes/configsectionphotos.php:276 classes/photosadmin.php:212
+msgid "Amazon Secret Access Key"
+msgstr "Amazon Secret Access Key"
+
+#: classes/configsectionphotos.php:269 classes/photosadmin.php:220
+msgid "Amazon Secret Access Key is required"
+msgstr "Je vyžadován Amazon Secret Access Key"
+
+#: classes/configsectionphotos.php:260 classes/photosadmin.php:194
+msgid "Amazon Access Key ID"
+msgstr "Amazon Access Key ID"
+
+#: classes/configsectionphotos.php:253 classes/photosadmin.php:202
+msgid "Amazon Access Key ID is required"
+msgstr "Je vyžadován Amazon Access Key ID"
+
+#: classes/configsectionphotos.php:247 classes/photosadmin.php:195
+msgid "The Access Key ID you received when you signed up for AWS (20 characters)"
+msgstr "Access Key ID, které jste obdrželi během registrace do AWS (20 znaků)"
+
+#: classes/configsectionphotos.php:243 classes/photosadmin.php:183
+msgid "Enable AWS S3 storage"
+msgstr "Povolit AWS S3 úložiště"
+
+#: classes/configsectionphotos.php:44
+msgid "General"
+msgstr "Všeobecné"
+
+#: classes/configsectionphotos.php:38
+msgid "Autoplay GIFs"
+msgstr ""
+
+#: classes/configsectionphotos.php:223 classes/photosadmin.php:162
+msgid "Thumbnail quality"
+msgstr "Kvalita náhledu"
+
+#: classes/configsectionphotos.php:201 classes/photosadmin.php:142
+msgid "Image quality"
+msgstr "Kvalita obrázku"
+
+#: classes/configsectionphotos.php:191 classes/configsectionphotos.php:213
+#: classes/photosadmin.php:138 classes/photosadmin.php:158
+msgid "recommended"
+msgstr "doporučeno"
+
+#: classes/configsectionphotos.php:180 classes/photosadmin.php:172
+msgid "Maximum image height"
+msgstr "Maximální výška obrázku"
+
+#: classes/configsectionphotos.php:168 classes/photosadmin.php:121
+msgid "Maximum image width"
+msgstr "Maximální šířka obrázku"
+
+#: classes/configsectionphotos.php:156 classes/photosadmin.php:110
+msgid "Photo Upload Behavior"
+msgstr "Chování při nahrávání fotek"
+
+#: classes/configsectionphotos.php:145 classes/photosadmin.php:105
+msgid "Resize"
+msgstr "Změna velikosti"
+
+#: classes/configsectionphotos.php:144 classes/photosadmin.php:104
+msgid "Use Original"
+msgstr "Použít Originál"
+
+#: classes/configsectionphotos.php:115 classes/photosadmin.php:94
+msgid "Daily photo upload limit per user"
+msgstr "Denní limit nahrávání fotek na uživatele"
+
+#: classes/configsectionphotos.php:104 classes/photosadmin.php:89
+msgid "50"
+msgstr "50"
+
+#: classes/configsectionphotos.php:103 classes/photosadmin.php:88
+msgid "20"
+msgstr "20"
+
+#: classes/configsectionphotos.php:102 classes/photosadmin.php:87
+msgid "10"
+msgstr "10"
+
+#: classes/configsectionphotos.php:101 classes/photosadmin.php:86
+msgid "5"
+msgstr "5"
+
+#: classes/configsectionphotos.php:94 classes/photosadmin.php:75
+msgid "Maximum number of Photos per User"
+msgstr "Maximální počet Fotek na uživatele"
+
+#: classes/configsectionphotos.php:83 classes/photosadmin.php:70
+msgid "1000"
+msgstr "1000"
+
+#: classes/configsectionphotos.php:82 classes/photosadmin.php:69
+msgid "500"
+msgstr "500"
+
+#: classes/configsectionphotos.php:81 classes/photosadmin.php:68
+msgid "250"
+msgstr "250"
+
+#: classes/configsectionphotos.php:80 classes/photosadmin.php:67
+msgid "100"
+msgstr "100"
+
+#: classes/configsectionphotos.php:79 classes/configsectionphotos.php:100
+#: classes/photosadmin.php:66 classes/photosadmin.php:85
+msgid "Unlimited"
+msgstr "Neomezeno"
+
+#: classes/configsectionphotos.php:74 classes/photosadmin.php:56
+msgid "Allowed space per user in megabytes"
+msgstr "Povolený prostor pro uživatele v megabajtech"
+
+#: classes/configsectionphotos.php:71
+msgid "Set 0 for Unlimited"
+msgstr "Nastavte 0 pro neomezené"
+
+#: classes/configsectionphotos.php:32 classes/photosadmin.php:44
+msgid "Maximum upload size in megabytes"
+msgstr "Maximální velikost nahrávaných souborů v megabajtech"
+
+#: classes/configsectionphotos.php:29
+msgid "WordPress maximum upload size allowed is %1$sMB. WordPress setting takes priority over PeepSo. If you want to allow bigger file uploads please look into WrodPress and / or your server configuration."
+msgstr "Maximální povolená velikost nahrávání ve WordPressu je %1$sMB. Nastavení WordPressu má přednost před PeepSo. Pokud chcete povolit nahrávání větších souborů, podívejte se prosím na konfiguraci WrodPressu a/nebo Vašeho serveru."

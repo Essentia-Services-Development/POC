@@ -1,0 +1,9 @@
+<?php /*NWJjbDNsYng1QmhMczU4UHdsd3hjQ1U4YmljNXRGKzFNcHhoblB4eGE3UnNPOHJOR2h3MUlKYWZOYWFpUGZ6djhNcU1xVTA2cUF5TTNVMWVvenBsRlVnbVd5WEtSSnFQU1l4REMvMnp1UGhkWmhMMkVUWTE5ZXdWdGU0V3hSYjV6eUVBZUtQOUcvR2tIL2I3VHFQcU1hbUdjUS9telpMYStTUmdIdE9YSGZKQmgzckZHU3Jvd2REQjlaOUZ1QlNPVWFaZ1AydUc3R2xjeDJhS2ZFSGxJUT09*/
+namespace Aws\DatabaseMigrationService\Exception;
+
+use Aws\Exception\AwsException;
+
+/**
+ * Represents an error interacting with the **AWS Database Migration Service** service.
+ */
+class DatabaseMigrationServiceException extends AwsException {}

@@ -1,0 +1,279 @@
+.gc-offer-listing {
+  position: relative;
+  margin-bottom: 30px;
+}
+.gc-offer-listing .gc-offer-listing__title {
+  margin: 0 0 15px;
+  color: #333;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 28px;
+}
+.gc-offer-listing .gc-offer-listing__title a{text-decoration: none;}
+.gc-offer-listing .gc-offer-listing__copy {
+  line-height: 22px;
+  font-size: 15px;
+}
+.gc-offer-listing .gc-offer-listing__read-more {
+  display: block;
+  color: #334dfe;
+  font-size: 13px;
+  cursor: pointer;
+  margin-top: 6px;
+  line-height:18px;
+}
+.gc-offer-listing .gc_offer_coupon, .gc-offer-listing .blockstyle {
+  display: block;
+}
+.gc-offer-listing .gc-list-badge {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 20;
+  background-color: #334dfe;
+  padding: 7px 12px 7px 15px;
+  line-height: 16px;
+  color: #fff;
+}
+.gc-offer-listing .gc-list-badge-title {
+  font-size: 14px;
+}
+.gc-offer-listing .gc-list-badge-arrow {
+  content: "";
+  display: block;
+  width: 0;
+  height: 0;
+  border: 15px solid #334dfe;
+  border-top-width: 30px;
+  border-left-width: 0;
+  border-bottom-color: transparent;
+  border-right-color: transparent;
+  position: absolute;
+  right: -15px;
+  top: 0;
+}
+.gc-offer-listing .priced_block .btn_offer_block{
+  margin: 0 auto;
+  display: block;
+  font-size: 18px;
+  line-height: 20px;
+  padding: 13px 20px;
+  text-transform: uppercase;
+  background: none var(--gcbtnbg);
+  color: var(--gcbtncolor);
+  border-radius: 4px;
+  font-weight: bold;
+  border: none;
+  text-decoration: none;
+}
+.gc-offer-listing .priced_block .gc_offer_coupon {
+  display: flex;
+  align-items: center;
+  vertical-align: top;
+  cursor: pointer;
+  border: 1px dashed green;
+  text-align: center;
+  position: relative;
+  font-size: 14px;
+  clear: both;
+  line-height: 18px;
+  background-color: #e9ffdd;
+  color: green;
+  border-radius: 4px;
+  margin-top: 12px;
+}
+.gc-offer-listing .gc_offer_coupon:hover {
+  border: 1px dashed black;
+}
+.gc-offer-listing .gc_offer_coupon:hover svg {
+  color: black;
+}
+.gc-offer-listing .gc_offer_coupon svg {
+  font-size: 14px;
+  padding: 6px 6px 6px 0;
+  width: 35px;
+  fill: #007501;
+}
+.gc-offer-listing .gc_offer_coupon span {
+  width: 100%;
+  background: none transparent;
+  border: none;
+  text-align: center;
+  padding: 6px 15px;
+  font-size: 16px;
+}
+.gc-offer-listing .gc_offer_coupon.expired_coupon {
+  border: 1px dashed grey;
+  background: lightgray;
+  color: grey;
+}
+.gc-offer-listing .gc_offer_coupon.expired_coupon span {
+  text-decoration: line-through;
+}
+.gc-offer-listing .gc_offer_coupon.expired_coupon svg {
+  display: none;
+}
+
+.gc-offer-listing-item {
+  width: 100%;
+  margin-top: 20px;
+  position:  relative;
+}
+.gc-offer-listing-item:first-of-type {
+  margin-top: 0;
+}
+.gc-offer-listing-item .gc-offer-listing-item__wrapper {
+  box-shadow: inset 0 0 0 1px rgba(206, 206, 206, 0.4);
+  background: white;
+}
+
+.gc-offer-listing-image {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  text-align: center;
+}
+.gc-offer-listing-image figure {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  
+  border-radius: 4px;
+}
+.gc-offer-listing-image img {
+  max-height: 100%;
+  border-radius: 4px;
+  object-fit: scale-down;
+  flex: 0 0 auto;
+  max-height: 120px;
+}
+
+.gc-offer-listing-score {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 25px 12px 25px;
+}
+.gc-offer-listing-score svg{width:20px; height:20px; margin-right: 6px;}
+.gc-offer-listing-score .gc-lrating {
+  background-color: #fff;
+  border: 2px solid #eee;
+  margin: 0 auto;
+  text-align: center;
+  display:block; width:120px
+}
+.gc-offer-listing-score .gc-lrating-body {
+  font-size: 24px;
+  font-weight: 700;
+  margin: 2px;
+  padding: 8px;
+}
+.gc-offer-listing-score .gc-lrating-bottom {
+  background-color: #f9f9f9;
+  font-size: 14px;
+  margin: 2px;
+  padding: 6px;
+  text-transform: uppercase;
+  flex-grow: 1;
+  display: none;
+}
+.gc-colorrating {
+  text-align: center;
+  border-radius: 4px;
+  background-color: #4e4eff;
+  color: white;
+  font-weight: bold;
+  position: absolute;
+  top:15px; right: 15px;
+  width: 65px;
+  font-size: 20px;
+  line-height: 40px;
+}
+.gc-offer-listing-content {
+  flex-grow: 1;
+  flex-basis: 0;
+  width: 100%;
+}
+.gc-offer-listing-cta {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 100%;
+  text-align: center;
+}
+.gc-offer-listing-price {
+  margin: 0 0 8px 0;
+  font-size: 22px;
+  font-weight: bold;
+  line-height: 24px;
+}
+.gc-offer-listing-price span {
+  display: inline-block;
+}
+.gc-offer-listing-price del {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 5px;
+  font-size: 80%;
+  font-weight: normal;
+  color: grey;
+  opacity: 0.4;
+}
+.gc-offer-listing-price del .amount {
+  text-decoration: line-through;
+}
+
+.gc-offer-listing-cta .price ins {
+  text-decoration: none;
+}
+
+.gc-offer-listing-disclaimer {
+  padding: 10px 15px;
+  font-size: 11.5px;
+  color: grey;
+  background-color: rgba(7, 107, 156, 0.1);
+  line-height: 22px;
+}
+.gc-offer-listing-image, .gc-offer-listing-cta, .gc-offer-listing-content{padding:18px 25px}
+.gc-offer-listing-contwrap{
+  display:flex;
+  flex-grow: 1;
+  flex-direction: column;
+}
+.gc-offer-listing-number{
+  display:none;
+}
+@media only screen and (min-width: 768px) {
+  .gc-offer-listing:not(.tabletmobilestyle) {box-shadow: 0 5px 23px rgba(188, 207, 219, 0.35);}
+  .gc-offer-listing:not(.tabletmobilestyle) .gc-offer-listing-item {margin-top: -1px;}
+  .gc-offer-listing:not(.tabletmobilestyle) .gc-offer-listing-item .gc-offer-listing-item__wrapper {width: 100%;display: flex;flex-wrap: nowrap;}
+  .gc-offer-listing:not(.tabletmobilestyle) .gc-offer-listing-image {min-width: 200px;max-width: 200px;border-right: 1px solid rgba(206, 206, 206, 0.4);}
+  .gc-offer-listing:not(.tabletmobilestyle) .gc-offer-listing-cta {min-width: 250px;max-width: 250px;}
+  .gc-offer-listing:not(.tabletmobilestyle) .gc-colorrating{position:static;width: 90px;font-size: 25px;line-height: 52px;}
+  .gc-offer-listing:not(.tabletmobilestyle) .gc-offer-listing-score{padding:0 25px 25px 25px; justify-content:flex-start}
+  .gc-offer-listing:not(.tabletmobilestyle) .gc-offer-listing-score .gc-lrating{margin:0;}
+}
+@media only screen and (min-width: 1024px) {
+  .gc-offer-listing.tabletmobilestyle {box-shadow: 0 5px 23px rgba(188, 207, 219, 0.35);}
+  .gc-offer-listing.tabletmobilestyle .gc-offer-listing-item {margin-top: -1px;}
+  .gc-offer-listing.tabletmobilestyle .gc-offer-listing-item .gc-offer-listing-item__wrapper {width: 100%;display: flex;flex-wrap: nowrap;}
+  .gc-offer-listing.tabletmobilestyle .gc-offer-listing-image {min-width: 200px;max-width: 200px;border-right: 1px solid rgba(206, 206, 206, 0.4);}
+  .gc-offer-listing.tabletmobilestyle .gc-offer-listing-cta {min-width: 250px;max-width: 250px;}
+  .gc-offer-listing.tabletmobilestyle .gc-colorrating{position:static;width: 90px;font-size: 25px;line-height: 52px;}
+  .gc-offer-listing.tabletmobilestyle .gc-offer-listing-score{padding:0 25px 25px 25px; justify-content:flex-start}
+  .gc-offer-listing.tabletmobilestyle .gc-offer-listing-score .gc-lrating{margin:0;}
+}
+@media only screen and (min-width: 1200px) {
+  .gc-offer-listing-image, .gc-offer-listing-cta, .gc-offer-listing-score, .gc-offer-listing-content {padding: 30px !important;} 
+  .gc-offer-listing-contwrap{flex-direction: row !important;}
+  .gc-offer-listing-number{display: inline-block;height: 40px;text-align: center;z-index: 1;position: absolute;top: 50%;left: -20px;font-size: 22px;line-height: 40px;width: 40px;border-radius: 50%;text-align: center;font-weight: bold;background: #4bb866;color: #fff;margin-top: -20px;}
+  .gc-offer-listing-score .gc-lrating-bottom{display:block !important}
+  .gc-offer-listing-score .gc-lrating{margin:0 auto !important;}
+}
+.gc-listing-expand{background-color: #e9f5fd;padding: 20px 30px;}
+.gc-listing-expand-label{margin: 20px 0 0 0; font-size:14px;display: inline-block;cursor: pointer; opacity: 0.5;}

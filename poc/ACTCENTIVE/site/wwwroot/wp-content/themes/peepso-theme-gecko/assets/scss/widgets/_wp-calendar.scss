@@ -1,0 +1,99 @@
+//
+//  WP BLOCK: CALENDAR
+//
+.calendar_wrap,
+.wp-block-calendar {
+  .gc-widget & {
+    .wp-calendar-table {
+      margin-bottom: 0;
+      font-size: 80%;
+      text-align: center;
+
+      caption {
+        margin-bottom: var(--PADD--MD);
+        padding: 0;
+        font-weight: 500;
+      }
+
+      th {
+        padding: var(--PADD) 0;
+        font-weight: 500;
+        color: var(--GC-COLOR--TEXT--LIGHT);
+        background-color: var(--GC-COLOR--APP--GRAY);
+        border: none;
+
+        &:first-child {
+          border-top-left-radius: var(--BORDER-RADIUS--MD);
+          border-bottom-left-radius: var(--BORDER-RADIUS--MD);
+        }
+
+        &:last-child {
+          border-top-right-radius: var(--BORDER-RADIUS--MD);
+          border-bottom-right-radius: var(--BORDER-RADIUS--MD);
+        }
+      }
+
+      tbody {
+        td {
+          position: relative;
+          padding: var(--PADD) 0;
+          color: var(--GC-COLOR--TEXT);
+          border: none;
+
+          &:hover {
+            background-color: var(--GC-COLOR--APP--GRAY);
+            border-radius: var(--BORDER-RADIUS--MD);
+          }
+
+          &.pad {
+            &:hover {
+              background-color: transparent;
+            }
+          }
+
+          > a {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            display: -webkit-flex;
+            display: -ms-flex;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            color: var(--GC-COLOR--PRIMARY);
+            background-color: var(--GC-COLOR--PRIMARY--ULTRALIGHT);
+            box-shadow: inset 0 0 0 3px transparent;
+            border-radius: var(--BORDER-RADIUS--MD);
+
+            &:hover {
+              box-shadow: inset 0 0 0 3px var(--GC-COLOR--PRIMARY--SHADE);
+            }
+          }
+        }
+      }
+
+      #today {
+        color: var(--c-ps-btn-action-color);
+        background-color: var(--c-ps-btn-action-bg);
+        border-radius: var(--BORDER-RADIUS--MD);
+      }
+    }
+
+    .wp-calendar-nav {
+      display: -webkit-flex;
+      display: -ms-flex;
+      display: flex;
+      justify-content: space-between;
+      margin-top: var(--PADD--MD);
+      padding: 0;
+      font-size: 80%;
+
+      a {
+        text-decoration: none;
+      }
+    }
+  }
+}

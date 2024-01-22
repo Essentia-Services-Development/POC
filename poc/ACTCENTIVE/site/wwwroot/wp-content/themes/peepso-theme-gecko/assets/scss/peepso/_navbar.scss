@@ -1,0 +1,77 @@
+.ps-page {
+  position: relative;
+}
+
+.gc-navbar--sticky {
+	--gc-header-height: calc(var(--header-height) + var(--admin-height));
+
+	z-index: 100;
+	transition: top .3s linear;
+  top: 0;
+  
+  @include mq($until: desktop) {
+    .admin-bar & {
+      --gc-header-height: calc(var(--header-height) + var(--admin-height) + 13px);
+    }
+  }
+
+  &.gc-navbar--scroll {
+    .ps-page & {
+      position: sticky;
+      top: var(--gc-header-height);
+
+      @include mq($until: desktop) {
+        position: fixed;
+        left: 0;
+        right: 0;
+      }
+    }
+  
+    .gc-profile__cover & {
+      position: fixed;
+      top: var(--gc-header-height);
+    }
+  
+    .gc-profile__cover--wide &,
+    .gc-profile__cover--full & {
+      width: var(--content-width);
+      left: 50%;
+      transform: translatex(-50%);
+      border-radius: var(--BORDER-RADIUS--XL);
+
+      @include mq($from: desktop) {
+        &.gc-navbar--left {
+          right: unset;
+
+          @if $rtl {
+            right: 30px;
+          } @else {
+            left: 30px;
+          }
+
+          transform: unset;
+        }
+  
+        &.gc-navbar--right {
+          left: unset;
+
+          @if $rtl {
+            left: 30px;
+          } @else {
+            right: 30px;
+          }
+
+          transform: unset;
+        }
+      }
+  
+      @include mq($until: desktop) {
+        width: 100%;
+  
+        .peepso-sts & {
+          border-radius: 0;
+        }
+      }
+    }
+  }
+}

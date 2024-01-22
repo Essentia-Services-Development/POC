@@ -1,0 +1,388 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PeepSo Core: Email Digest\n"
+"POT-Creation-Date: 2023-11-28 08:07+0700\n"
+"PO-Revision-Date: 2023-02-21 14:26+0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: Poedit 2.4.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: peepsoemaildigest.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: classes/configsectionemaildigest.php:18 peepsoemaildigest.php:340
+#: peepsoemaildigest.php:589 peepsoemaildigest.php:829
+msgid "Email Digest"
+msgstr ""
+
+#: classes/configsectionemaildigest.php:21
+msgid "Email Digest Title"
+msgstr ""
+
+#: classes/configsectionemaildigest.php:29
+msgid "Use images"
+msgstr ""
+
+#: classes/configsectionemaildigest.php:37
+msgid "Use files"
+msgstr ""
+
+#: classes/configsectionemaildigest.php:51
+msgid "How many posts should be included per one email"
+msgstr ""
+
+#: classes/configsectionemaildigest.php:55
+msgid ""
+"An Email Digest email must have at least 1 new post to be sent out. If there "
+"are no new ones it won't be sent."
+msgstr ""
+
+#: classes/configsectionemaildigest.php:58
+msgid "Send Email Digest emails even if there are less posts"
+msgstr ""
+
+#: classes/configsectionemaildigest.php:62
+msgid ""
+"With this setting switched on, Email Digest email will also contain the most "
+"liked post from a given period and showcase it as such."
+msgstr ""
+
+#: classes/configsectionemaildigest.php:65
+msgid "Include most liked post"
+msgstr ""
+
+#: classes/configsectionemaildigest.php:69
+msgid ""
+"With this setting switched on, Email Digest email will also contain the most "
+"commented on post from a given period and showcase it as such."
+msgstr ""
+
+#: classes/configsectionemaildigest.php:72
+msgid "Include most commented post"
+msgstr ""
+
+#: classes/configsectionemaildigest.php:76
+msgid ""
+"With this setting on, most commented on and most liked posts will be "
+"showcased as such. However, they might also, and most likely will be shown "
+"in the main content of the Email Digest email."
+msgstr ""
+
+#: classes/configsectionemaildigest.php:79
+msgid "Allow duplicate posts"
+msgstr ""
+
+#: classes/configsectionemaildigest.php:86
+msgid "Limit the post length in Email Digest email to"
+msgstr ""
+
+#: classes/configsectionemaildigest.php:90
+msgid ""
+"Show 'read mode' if the posts can't be shown in full and they hit the limit "
+"of characters."
+msgstr ""
+
+#: classes/configsectionemaildigest.php:99
+msgid "Content"
+msgstr ""
+
+#: classes/configsectionemaildigest.php:106
+msgid "Subscribe new users by default"
+msgstr ""
+
+#: classes/configsectionemaildigest.php:120
+msgid "Which User Roles should receive the emails"
+msgstr ""
+
+#: classes/configsectionemaildigest.php:136
+msgid "Users"
+msgstr ""
+
+#: classes/configsectionemaildigest.php:150
+msgid ""
+"These settings control the Email Digest plugin. The plugin has been designed "
+"to interest and bring inactive users back to your community by showing them "
+"most interesting and engaging posts from a given period."
+msgstr ""
+
+#: classes/configsectionemaildigest.php:155
+msgid ""
+"Email Digest emails contains only posts which have 'Public' or 'Site "
+"Members' privacy settings. All other posts, meaning with privacy settings of "
+"'Only me' and 'Friends Only' will be ignored and not sent as part of the "
+"Email Digest."
+msgstr ""
+
+#: classes/configsectionemaildigest.php:158
+msgid "Send Email Digest emails"
+msgstr ""
+
+#: classes/configsectionemaildigest.php:168
+msgid ""
+"Users who didn't visit the site in the number of days selected or more will "
+"receive the Email Digest emails."
+msgstr ""
+
+#: classes/configsectionemaildigest.php:172
+msgid "Send Email Digest emails to users inactive for more than"
+msgstr ""
+
+#: classes/configsectionemaildigest.php:181
+msgid "How often should the Email Digest emails be sent"
+msgstr ""
+
+#: classes/configsectionemaildigest.php:191
+msgid ""
+"If selected date is bigger than the number of days in month, email digest "
+"will be sent at the end of the month."
+msgstr ""
+
+#: classes/configsectionemaildigest.php:195
+#: classes/configsectionemaildigest.php:212
+msgid "Every"
+msgstr ""
+
+#: classes/configsectionemaildigest.php:200
+msgid "Sun"
+msgstr ""
+
+#: classes/configsectionemaildigest.php:201
+msgid "Mon"
+msgstr ""
+
+#: classes/configsectionemaildigest.php:202
+msgid "Tue"
+msgstr ""
+
+#: classes/configsectionemaildigest.php:203
+msgid "Wed"
+msgstr ""
+
+#: classes/configsectionemaildigest.php:204
+msgid "Thu"
+msgstr ""
+
+#: classes/configsectionemaildigest.php:205
+msgid "Fri"
+msgstr ""
+
+#: classes/configsectionemaildigest.php:206
+msgid "Sat"
+msgstr ""
+
+#: classes/configsectionemaildigest.php:233
+#: classes/configsectionemaildigest.php:256
+#: classes/configsectionemaildigest.php:279
+msgid ""
+"The time when Email Digest emails will start to be sent. Emails are sent in "
+"batches by the mailqueue, they're not all sent at once, so your users might "
+"get them at different times."
+msgstr ""
+
+#: classes/configsectionemaildigest.php:236
+#: classes/configsectionemaildigest.php:243
+#: classes/configsectionemaildigest.php:260
+#: classes/configsectionemaildigest.php:283
+msgid "At"
+msgstr ""
+
+#: classes/configsectionemaildigest.php:305
+#, php-format
+msgid ""
+"It's advised to switch this setting on and setup a server-side cron job. You "
+"can use this command: wget %s It can easily run every hour."
+msgstr ""
+
+#: classes/configsectionemaildigest.php:308
+msgid "Execute Email Digest email creation via cron job"
+msgstr ""
+
+#: classes/configsectionemaildigest.php:312
+msgid ""
+"Depending on the amount of inactive users in your community, not to overload "
+"the site there's a batch creation system. This setting controls how many "
+"emails will be generated in one batch. This setting does not send the "
+"emails. PeepSo mailqueue takes care of the delivery."
+msgstr ""
+
+#: classes/configsectionemaildigest.php:315
+msgid "How many emails should be created in a batch"
+msgstr ""
+
+#: classes/configsectionemaildigest.php:341
+msgid "General"
+msgstr ""
+
+#: classes/configsectionemaildigest.php:349
+msgid ""
+"The logs keep latest 100 sent Email Digest emails. You can see which users "
+"got the emails and what was their last login when the email was generated "
+"and sent to them. You can also preview the email that was sent."
+msgstr ""
+
+#: classes/configsectionemaildigest.php:356
+msgid "Sent Email Digest Logs"
+msgstr ""
+
+#: classes/emaildigestadmin.php:41
+msgid "Digest Email"
+msgstr ""
+
+#: classes/emaildigestadmin.php:42
+msgid "This will be sent to user based on schedule."
+msgstr ""
+
+#: classes/emaildigestadminajax.php:46
+msgid "No Log Found."
+msgstr ""
+
+#: peepsoemaildigest.php:150
+msgid "Every 2 weeks"
+msgstr ""
+
+#: peepsoemaildigest.php:290
+#, php-format
+msgid "The %s plugin requires the PeepSo plugin to be installed and activated."
+msgstr ""
+
+#: peepsoemaildigest.php:292
+msgid "Get it now!"
+msgstr ""
+
+#: peepsoemaildigest.php:312
+msgid "Daily"
+msgstr ""
+
+#: peepsoemaildigest.php:313
+msgid "Weekly"
+msgstr ""
+
+#: peepsoemaildigest.php:314
+msgid "Biweekly"
+msgstr ""
+
+#: peepsoemaildigest.php:315
+msgid "Monthly"
+msgstr ""
+
+#: peepsoemaildigest.php:343
+msgid "PeepSo Email Digest"
+msgstr ""
+
+#: peepsoemaildigest.php:361
+msgid "Preview email sent"
+msgstr ""
+
+#: peepsoemaildigest.php:362
+msgid "Preview email failed"
+msgstr ""
+
+#: peepsoemaildigest.php:363
+msgid "Clear Logs"
+msgstr ""
+
+#: peepsoemaildigest.php:364
+#, php-format
+msgid ""
+"There are %d logs in your database. You can clear the logs by clicking the "
+"button below."
+msgstr ""
+
+#: peepsoemaildigest.php:400
+#, php-format
+msgid "Current time is %s, cron scheduled at %s"
+msgstr ""
+
+#: peepsoemaildigest.php:472
+#, php-format
+msgid "There are only %d posts, required at least %d"
+msgstr ""
+
+#: peepsoemaildigest.php:479
+msgid "Other popular posts"
+msgstr ""
+
+#: peepsoemaildigest.php:619
+#, php-format
+msgid "Email digest sent to %d users"
+msgstr ""
+
+#: peepsoemaildigest.php:624
+msgid "Email digest is not activated"
+msgstr ""
+
+#: peepsoemaildigest.php:686
+msgid "Most liked post"
+msgstr ""
+
+#: peepsoemaildigest.php:724
+msgid "Most commented post"
+msgstr ""
+
+#: peepsoemaildigest.php:821
+#, php-format
+msgid "%s email digest"
+msgstr ""
+
+#: peepsoemaildigest.php:822
+#, php-format
+msgid ""
+"A summary of community activity is sent if you are inactive for more than %d "
+"days."
+msgstr ""
+
+#: peepsoemaildigest.php:935
+msgid "Preview email was sent"
+msgstr ""
+
+#: templates/general/email-digest-recipient.php:13
+msgid "User last login: "
+msgstr ""
+
+#: templates/general/email-digest-recipient.php:16
+msgid "Last email sent: "
+msgstr ""
+
+#: templates/general/email-digest.php:25
+msgid "shared a post"
+msgstr ""
+
+#: templates/general/email-digest.php:39
+msgid "Read more"
+msgstr ""
+
+#: templates/general/email-digest.php:41
+msgid "Like"
+msgstr ""
+
+#: templates/general/email-digest.php:41
+msgid "Comment"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "PeepSo Core: Email Digest"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://peepso.com"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Bring users back with automated newsletter"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "PeepSo"
+msgstr ""

@@ -1,0 +1,223 @@
+//
+//  DIALOG COMPONENT
+//
+
+
+
+.ps-dialog {
+  @extend %reset;
+  @extend %form-checkbox;
+
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+  color: $color-text;
+  border: $scss-dialog-border;
+  background-color: $scss-dialog-bg;
+
+  // ROUNDED CORNERS
+  @if $scss-rounded == true {
+    border-radius: 6px;
+  }
+
+  @extend %box-shadow;
+
+  .ps-postbox {
+    margin-bottom: 0;
+  }
+
+  .ps-giphy {
+    padding: 5px;
+    border: $divider;
+  }
+
+  @include media('medium') {
+    width: 500px;
+  }
+}
+
+
+.ps-dialog-wide {
+  @include media('large') {
+    width: 600px;
+  }
+}
+
+
+.ps-dialog-full {
+  @include media('large') {
+    width: auto;
+    max-width: 960px;
+
+    #cWindowContent {
+      overflow-y: auto;
+      overflow-x: hidden;
+      max-height: 480px;
+    }
+  }
+}
+
+
+.ps-dialog-wrapper {
+  position: fixed;
+  z-index: map-get($zindex, dialog);
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+  background-color: rgba(0,0,0,.65);
+  overflow-x: hidden;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+
+  @include media('medium') {
+    background-color: transparent;
+  }
+}
+
+
+.ps-dialog-container {
+  width: 100%;
+  padding-bottom: 80%;
+
+  &:before {
+    display: inline-block;
+    content: '';
+    height: 100%;
+    vertical-align: middle;
+  }
+
+  @include media('medium') {
+    padding-bottom: 0;
+    height: 100%;
+  }
+}
+
+
+.ps-dialog-header {
+  padding: $padding-base;
+  background-color: $scss-dialog-header-bg;
+  color: $scss-dialog-header-color;
+  font-size: $font-size-base;
+
+  // ROUNDED CORNERS
+  @if $scss-rounded == true {
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+  }
+
+  @if $scss-direction == rtl {
+    text-align: right;
+  } @else {
+    text-align: left;
+  }
+
+  @extend %clearfix;
+}
+
+
+.ps-dialog-title {
+  display: block;
+  font-weight: bold;
+
+  @if $scss-direction == rtl {
+    float: right;
+  } @else {
+    float: left;
+  }
+}
+
+
+.ps-dialog-close {
+  display: block;
+
+  @if $scss-direction == rtl {
+    float: left;
+  } @else {
+    float: right;
+  }
+
+  span {
+    color: $scss-dialog-close-color;
+
+    &:hover,
+    &:focus {
+      color: $scss-dialog-close-color-hover;
+    }
+  }
+}
+
+
+.ps-dialog-body {
+  overflow-y: auto;
+  padding: $padding-base;
+  font-size: $font-size-base;
+  -webkit-overflow-scrolling: touch;
+
+  @if $scss-direction == rtl {
+    text-align: right;
+  } @else {
+    text-align: left;
+  }
+
+  @extend %clearfix;
+
+  img {
+    max-width: 100%;
+  }
+
+  .ps-dialog-wide & {
+    overflow: visible;
+  }
+}
+
+
+.ps-dialog-footer {
+  padding: $padding-sm $padding-base;
+  background-color: $scss-dialog-footer-bg;
+
+  // ROUNDED CORNERS
+  @if $scss-rounded == true {
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+  }
+
+  @extend %clearfix;
+
+  @if $scss-direction == rtl {
+    text-align: left;
+
+    .ps-button-action,
+    .ps-button-cancel {
+      float: left;
+    }
+  } @else {
+    text-align: right;
+  }
+
+  &:empty {
+    display: none;
+  }
+}
+
+.ps-dialog-disabler {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+  background: #FFF;
+  opacity: .5;
+  display: none;
+
+  .ps-dialog-spinner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 4em;
+  }
+}

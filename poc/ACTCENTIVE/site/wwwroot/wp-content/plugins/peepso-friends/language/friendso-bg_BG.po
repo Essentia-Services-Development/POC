@@ -1,0 +1,434 @@
+# Translation of PeepSo - Friends in Bulgarian
+# This file is distributed under the same license as the PeepSo - Friends package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-02-02 10:33:02+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0\n"
+"Language: bg\n"
+"Project-Id-Version: PeepSo - Friends\n"
+
+#: peepsofriends.php:220
+msgid "Posts from your friends"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "PeepSo"
+msgstr "PeepSo"
+
+#. Description of the plugin/theme
+msgid "Friend connections and \"friends\" privacy level"
+msgstr "Приятелства и ниво на поверителност на \"приятели\""
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://peepso.com"
+msgstr "https://peepso.com"
+
+#. Plugin Name of the plugin/theme
+msgid "PeepSo Core: Friends"
+msgstr "PeepSo Core: Приятели"
+
+#: templates/widgets/friendsbirthday.tpl.php:117
+msgid "No upcoming birthdays."
+msgstr ""
+
+#: templates/widgets/friendsbirthday.tpl.php:100
+msgid "Birthday tomorrow."
+msgid_plural "Birthday in %s days.</span>"
+msgstr[0] "Рожден ден утре."
+msgstr[1] "Рождени дни през следващите %s дни.</span>"
+
+#: templates/widgets/friendsbirthday.tpl.php:67
+#: templates/widgets/friendsbirthday.tpl.php:116
+msgid "Upcoming Birthday"
+msgstr "Предстоящ рожден ден"
+
+#: templates/widgets/friendsbirthday.tpl.php:55
+msgid "No friends' birthdays today."
+msgstr ""
+
+#: templates/widgets/friendsbirthday.tpl.php:39
+msgid "Say Happy Birthday!"
+msgstr ""
+
+#: templates/widgets/friendsbirthday.tpl.php:21
+#: templates/widgets/friendsbirthday.tpl.php:54
+msgid "Birthday Today"
+msgstr "Рожден ден днес"
+
+#: templates/widgets/friends.tpl.php:49
+#: templates/widgets/mutual-friends.tpl.php:40
+msgid "No friends"
+msgstr "Няма приятели"
+
+#: templates/widgets/friends.tpl.php:41
+msgid "View All"
+msgstr "Виж всички"
+
+#: templates/messages/list-header.php:2
+msgid "New message"
+msgstr "Ново съобщение"
+
+#: templates/friends/submenu.php:17
+msgid "Friend requests"
+msgstr "Покани за приятелство"
+
+#: templates/friends/pending.php:39
+msgid "Sent requests"
+msgstr ""
+
+#: templates/friends/pending.php:20
+msgid "Received requests"
+msgstr ""
+
+#: templates/friends/notification-popover-item.php:41
+msgid "Approve"
+msgstr "Потвърди"
+
+#: templates/friends/notification-popover-item.php:35
+msgid "Ignore"
+msgstr "Откажи"
+
+#: templates/friends/notification-popover-header.php:3
+msgid "Search friends"
+msgstr ""
+
+#: templates/friends/dialog-remove-friend.php:1
+msgid "Are you sure want to remove a friend?"
+msgstr ""
+
+#: peepsofriends.php:820
+msgid "Someone sent me a friend request"
+msgstr ""
+
+#: peepsofriends.php:702
+msgid "Add as your friend"
+msgstr "Добави като приятел"
+
+#: peepsofriends.php:697
+msgid "Add Friend"
+msgstr ""
+
+#: peepsofriends.php:684
+msgid "Friends limit reached"
+msgstr ""
+
+#: peepsofriends.php:646
+msgid "Reject Request"
+msgstr "Отхвърли поканата"
+
+#: peepsofriends.php:641
+msgid "Reject"
+msgstr "Отхвърли"
+
+#: peepsofriends.php:635
+msgid "Accept Request"
+msgstr "Приеми поканата"
+
+#: peepsofriends.php:630
+msgid "Accept"
+msgstr "Приеми"
+
+#: peepsofriends.php:615 peepsofriends.php:620
+msgid "Cancel Friend Request"
+msgstr "Изпратена покана"
+
+#: peepsofriends.php:604
+msgid "Unfriend"
+msgstr "Премахване от приятели"
+
+#: peepsofriends.php:602
+msgid "Remove friend"
+msgstr "Премахване от приятели"
+
+#: peepsofriends.php:597
+msgid "Friend"
+msgstr "Приятели"
+
+#: peepsofriends.php:537 templates/friends/dialog-remove-friend.php:10
+msgid "Cancel"
+msgstr "Отказ"
+
+#: peepsofriends.php:535
+msgid "Are you sure?"
+msgstr "Сигурни ли сте?"
+
+#: peepsofriends.php:534 peepsofriends.php:536
+#: templates/friends/dialog-remove-friend.php:7
+#: templates/friends/dialog-remove-friend.php:14
+msgid "Remove Friend"
+msgstr "Премахване от приятели"
+
+#: peepsofriends.php:439
+msgid "Friends Only"
+msgstr "Приятели"
+
+#: peepsofriends.php:308
+msgid "Get it now!"
+msgstr "Вземи го сега!"
+
+#: peepsofriends.php:306
+msgid "The %s plugin requires the PeepSo plugin to be installed and activated."
+msgstr "Плъгинът %s изисква PeepSo да бъде инсталиран и активиран."
+
+#: peepsofriends.php:180
+msgid "Pending friend requests"
+msgstr ""
+
+#: install/activate.php:86 peepsofriends.php:366 peepsofriends.php:367
+#: templates/friends/notification-popover-header.php:1
+msgid "Friend Requests"
+msgstr "Покани за приятелство"
+
+#: classes/widgets/widgetmutualfriends.php:16
+msgid "PeepSo Mutual Friends Widget"
+msgstr "PeepSo Общи приятели"
+
+#: classes/widgets/widgetmutualfriends.php:15
+msgid "PeepSo Mutual Friends"
+msgstr "PeepSo Общи приятели"
+
+#: classes/widgets/widgetfriendsbirthday.php:204
+msgid "Max number of upcoming birthdays to show:"
+msgstr "Максимален брой предстоящи рождени дни да се показват:"
+
+#: classes/widgets/widgetfriendsbirthday.php:189
+msgid "How many days ahead?"
+msgstr "Колко дни напред?"
+
+#: classes/widgets/widgetfriendsbirthday.php:184
+msgid "Show upcoming birthdays"
+msgstr "Покажи предстоящи рождени дни"
+
+#: classes/widgets/widgetfriendsbirthday.php:178
+msgid "Upcoming Birthdays"
+msgstr "Предстоящи рождени дни"
+
+#: classes/widgets/widgetfriendsbirthday.php:175
+msgid "Hide if empty"
+msgstr "Скрий, когато е празно"
+
+#: classes/widgets/widgetfriendsbirthday.php:165
+msgid "Title"
+msgstr "Заглавие"
+
+#: classes/widgets/widgetfriendsbirthday.php:162
+msgid "General Settings"
+msgstr "Основни настройки"
+
+#: classes/widgets/widgetfriendsbirthday.php:149
+msgid "Upcoming Friends Birthdays"
+msgstr "Предстоящи рождени дни на приятели"
+
+#: classes/widgets/widgetfriendsbirthday.php:15
+msgid "PeepSo Friends Birthday Widget"
+msgstr "PeepSo Рождени дни на приятели"
+
+#: classes/widgets/widgetfriendsbirthday.php:14
+msgid "PeepSo Friends Birthday"
+msgstr "PeepSo Рождени дни"
+
+#: classes/widgets/widgetfriends.php:132
+msgid "My Friends"
+msgstr "Моите приятели"
+
+#: classes/widgets/widgetfriends.php:18
+msgid "PeepSo Friends Widget"
+msgstr "PeepSo Приятели"
+
+#: classes/widgets/widgetfriends.php:17
+msgid "PeepSo Friends"
+msgstr "PeepSo Приятели"
+
+#: classes/userautofriends.php:172
+msgid "The user has been successfully added."
+msgstr ""
+
+#: classes/userautofriends.php:121
+msgid "The user has been successfully removed."
+msgstr ""
+
+#: classes/userautofriends.php:92
+msgid "The user is now friends with all other users."
+msgstr ""
+
+#: classes/userautofriends.php:86 classes/userautofriends.php:115
+#: classes/userautofriends.php:166
+msgid "Could not verify nonce."
+msgstr ""
+
+#: classes/userautofriends.php:53
+msgid "1 item"
+msgid_plural "%s items"
+msgstr[0] ""
+msgstr[1] ""
+
+#: classes/userautofriends.php:15 classes/userautofriends.php:80
+#: classes/userautofriends.php:109 classes/userautofriends.php:138
+#: classes/userautofriends.php:160
+msgid "Insufficient permissions."
+msgstr ""
+
+#: classes/friendsrequests.php:555 classes/friendsrequests.php:565
+msgid "Friend Request Ignored"
+msgstr "Поканата за приятелство е отказана"
+
+#: classes/friendsrequests.php:545
+msgid "Friend Request Denied"
+msgstr "Поканата за приятелство е отказана"
+
+#: classes/friendsrequests.php:520
+msgid "accepted your friend request"
+msgstr "прие поканата ви за приятел"
+
+#: classes/friendsrequests.php:502 classes/friendsrequests.php:509
+msgid "%s accepted your friend request"
+msgstr "%s прие поканата ви за приятел"
+
+#: classes/friendsrequests.php:475 classes/friendsrequests.php:482
+msgid "New Friend Request from %s"
+msgstr "Нова покана за приятелство от %s"
+
+#: classes/friendsrequests.php:286 classes/friendsshortcode.php:145
+#: peepsofriends.php:862
+msgid " mutual friend"
+msgid_plural " mutual friends"
+msgstr[0] " общ приятел"
+msgstr[1] " общи приятели"
+
+#: classes/friendsrequests.php:72 classes/friendsrequests.php:104
+#: classes/friendsrequests.php:142
+msgid "You do not have enough permissions."
+msgstr "Вие нямате достатъчно права."
+
+#: classes/friendsrequests.php:58
+msgid "[FRIENDS] request already sent"
+msgstr ""
+
+#: classes/friendspostswidget.php:17
+msgid "This will select up to 5 posts, displaying the most recent post by each of up to five users that are friends."
+msgstr "Това ще избере и покаже до 5 поста от най-новите постове на до 5 потребители, които са приятели."
+
+#: classes/friendspostswidget.php:16
+msgid "Friends Posts"
+msgstr "Постове на приятели"
+
+#: classes/friendsconfig.php:82
+msgid "This will be sent to a user when a friend request is accepted."
+msgstr "Това ще бъде изпратено на потребителя, когато поканата за приятелство е одобрена."
+
+#: classes/friendsconfig.php:81
+msgid "Friend Request Accepted"
+msgstr "Поканата за приятелство е приета"
+
+#: classes/friendsconfig.php:77
+msgid "This will be sent to a user when a friend request is received."
+msgstr "Това ще бъде изпратено на потребителя, когато получи покана за приятелство."
+
+#: classes/friendsconfig.php:76
+msgid "Friend Request Received"
+msgstr "Получена е покана за приятелство"
+
+#: classes/friendsconfig.php:60
+msgid "Friends Settings"
+msgstr "Настройки за приятели"
+
+#: classes/friendsconfig.php:40
+msgid "Members can send messages to"
+msgstr "Потребителите могат да изпращат съобщения до"
+
+#: classes/friendsajax.php:292 classes/widgets/widgetmutualfriends.php:109
+msgid "Mutual Friends"
+msgstr "Общи приятели"
+
+#: classes/friendsajax.php:247
+msgid "%s has no friends yet"
+msgstr "%s все още няма приятели"
+
+#: classes/friendsajax.php:247
+msgid "You have no friends yet"
+msgstr "Все още нямате приятели"
+
+#: classes/friendsajax.php:187 templates/friends/pending.php:33
+msgid "You currently have no friend requests"
+msgstr "В момента нямате покани за приятелство"
+
+#: classes/friendsajax.php:46 classes/friendsajax.php:117 peepsofriends.php:675
+msgid "%s already has %d friends"
+msgstr ""
+
+#: classes/friendsajax.php:44 classes/friendsajax.php:119 peepsofriends.php:673
+msgid "You already have %d friends"
+msgstr ""
+
+#: classes/admin/userautofriendslisttable.php:224
+msgid "user"
+msgid_plural "users"
+msgstr[0] ""
+msgstr[1] ""
+
+#: classes/admin/userautofriendslisttable.php:218
+msgid "removed"
+msgstr ""
+
+#: classes/admin/userautofriendslisttable.php:212
+msgid "befriend"
+msgstr ""
+
+#: classes/admin/userautofriendslisttable.php:167
+msgid "Remove from list autofriends creation."
+msgstr ""
+
+#: classes/admin/userautofriendslisttable.php:166
+#: classes/admin/userautofriendslisttable.php:192
+msgid "Remove"
+msgstr ""
+
+#: classes/admin/userautofriendslisttable.php:163
+msgid "Befriend All users."
+msgstr ""
+
+#: classes/admin/userautofriendslisttable.php:162
+#: classes/admin/userautofriendslisttable.php:191
+msgid "Befriend All Users"
+msgstr ""
+
+#: classes/admin/userautofriendslisttable.php:90
+msgid "Actions"
+msgstr ""
+
+#: classes/admin/userautofriendslisttable.php:89 install/activate.php:81
+#: peepsofriends.php:218 peepsofriends.php:571 peepsofriends.php:574
+#: peepsofriends.php:817 peepsofriends.php:882 peepsofriends.php:910
+#: templates/friends/submenu.php:9
+msgid "Friends"
+msgstr "Приятели"
+
+#: classes/admin/userautofriendslisttable.php:88
+msgid "Name"
+msgstr ""
+
+#: classes/admin/configsectionfriends.php:92
+msgid "Auto Friends"
+msgstr ""
+
+#: classes/admin/configsectionfriends.php:63
+msgid "Adding a user to the list below will automatically create friendship between that user and any newly registered user. It will not create friendships between this user and already existing ones. <br> To create missing friendship connections, please use the button on the right. Once clicked it'll add that user as friends to everyone else in your PeepSo community. <br> Removing user from the list below will <strong>NOT</strong> remove existing friendship connections. "
+msgstr ""
+
+#: classes/admin/configsectionfriends.php:57
+msgid "search"
+msgstr ""
+
+#: classes/admin/configsectionfriends.php:35
+#: classes/admin/configsectionfriends.php:42
+msgid "Maximum amount of friends"
+msgstr ""
+
+#: classes/admin/configsectionfriends.php:32
+msgid "Too many friendships can result in degraded performance for the user. Limit of friends applies to all users, including the administrators."
+msgstr ""

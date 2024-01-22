@@ -1,0 +1,59 @@
+//
+//  EDIT
+//
+
+
+
+.ps-edit {
+  @extend %clearfix;
+
+  position: relative;
+}
+
+
+.ps-edit__row {
+  position: relative;
+  padding: $padd;
+  border-bottom: $divider;
+
+  &:last-of-type {
+    border-bottom: none;
+  }
+}
+
+
+.ps-edit__row-name {
+  margin-bottom: $padd--med;
+
+  @if $scss-direction == rtl {
+    padding-left: 120px;
+  } @else {
+    padding-right: 120px;
+  }
+
+  font-size: $font-size-base;
+  line-height: 1.4;
+  color: $color-text-light;
+}
+
+
+.ps-edit__row-content {
+  font-size: $font-size-sm;
+  line-height: 1.6;
+  color: $color-text-dark;
+}
+
+
+.ps-edit__row-actions {
+  position: absolute;
+  top: $padd;
+
+  @if $scss-direction == rtl {
+    left: $padd;
+  } @else {
+    right: $padd;
+  }
+}
+
+
+.ps-edit__editor {}

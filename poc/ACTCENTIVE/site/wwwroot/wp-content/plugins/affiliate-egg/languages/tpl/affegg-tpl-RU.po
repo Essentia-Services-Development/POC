@@ -1,0 +1,326 @@
+# Copyright (C) 2017 Affiliate Egg
+# This file is distributed under the same license as the Affiliate Egg package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Affiliate Egg 7.4.1\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/support/plugin/affegg-tpl\n"
+"POT-Creation-Date: 2020-12-18 15:25:32+00:00\n"
+"PO-Revision-Date: 2020-12-18 17:27+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.3.1\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: application/PriceAlert.php:80
+msgid "All fields are required."
+msgstr "Все поля являются обязательными."
+
+#: application/PriceAlert.php:83
+msgid "Your email address is invalid."
+msgstr "Неверный email."
+
+#: application/PriceAlert.php:86
+msgid "The price has already been reached."
+msgstr "Эта цена уже достигнута."
+
+#: application/PriceAlert.php:94
+msgid "You already tracking this product."
+msgstr "Вы уже отслеживаете этот товар."
+
+#: application/PriceAlert.php:114
+msgid ""
+"We are now tracking this product for you. Please verify your email address "
+"to be notified of price drops."
+msgstr ""
+"Мы будем следить за ценой на этот товар. Пожалуйста, подтвердите ваш email, "
+"чтобы мы могли уведомить вас о снижении цены."
+
+#: application/PriceAlert.php:116
+msgid "Internal Error. Please notify the administrator."
+msgstr ""
+
+#: application/PriceAlert.php:122
+msgid "Welcome to %s"
+msgstr "Добро пожаловать на %s"
+
+#: application/PriceAlert.php:132
+msgid "Hello,"
+msgstr "Добрый день,"
+
+#: application/PriceAlert.php:133
+msgid "You have successfully set a price drop alert for %s."
+msgstr "Вы успешно  установили слежение за ценой для %s."
+
+#: application/PriceAlert.php:134
+msgid ""
+"We will not send you any price alerts until you verified your email address."
+msgstr ""
+"Мы не будем отправлять вам никакие оповещения о цене, пока вы не подтвердите "
+"свой адрес электронной почты."
+
+#: application/PriceAlert.php:135
+msgid ""
+"Please open this link to validate your email address:<br> <a href=\"%s\">%s</"
+"a>"
+msgstr ""
+"Пожалуйста, перейдите по этой ссылке для подтверждения вашего email адреса:"
+"<br>  <a href=\"%s\">%s</a>"
+
+#: application/PriceAlert.php:143
+msgid ""
+"<br><pre class=\"moz-signature\" cols=\"72\">--\r\n"
+"Thank You,\r\n"
+" Team %s</pre>"
+msgstr ""
+
+#: application/PriceAlert.php:196
+msgid ""
+"Your email has been verified. We will let you know by email when the Price "
+"Drops."
+msgstr ""
+"Ваш email был проверен. Мы сообщим вам по email, когда цена на товар "
+"снизится."
+
+#: application/PriceAlert.php:196
+msgid "Success!"
+msgstr "Успех!"
+
+#: application/PriceAlert.php:213
+msgid "You are now unsubscribed from our Price Alerts via email."
+msgstr "Вы отписались от всех наших оповещениях о снижении цены."
+
+#: application/PriceAlert.php:213
+msgid "Unsubscribed!"
+msgstr "Отписка!"
+
+#: application/PriceAlert.php:229
+msgid "  Ok  "
+msgstr " Ok  "
+
+#: application/PriceAlert.php:282
+msgid "Price alert: \"%s\""
+msgstr "Снижение цены: \"%s\""
+
+#: application/PriceAlert.php:298
+msgid "Good news!"
+msgstr "Отличные новости!"
+
+#: application/PriceAlert.php:299
+msgid "The price target you set for the item has been reached."
+msgstr "Желаемая цена для товара была достигнута."
+
+#: application/PriceAlert.php:300
+msgid "<a href=\"%s\">Save %s (%s%%) on %s</a>"
+msgstr "<a href=\"%s\">Экономьте %s (%s%%) на %s</a>"
+
+#: application/PriceAlert.php:302
+msgid "Desired Price: %s"
+msgstr "Ожидаемая цена: %s"
+
+#: application/PriceAlert.php:303
+msgid "Current Price: <strong>%s</strong>"
+msgstr "Текущая цена: <strong>%s</strong>"
+
+#: application/PriceAlert.php:304 templates/egg_price_tracker_alert.php:37
+msgid "as of"
+msgstr "от"
+
+#: application/PriceAlert.php:305
+msgid "Price dropped from %s to %s"
+msgstr "Цена снизилась с %s до %s"
+
+#: application/PriceAlert.php:307
+msgid "<a href=\"%s\">More info...</a>"
+msgstr "<a href=\"%s\">Больше информации...</a>"
+
+#: application/PriceAlert.php:310
+msgid ""
+"This present alert has now expired. You may <a href=\"%s\">create a new "
+"alert</a> for this item."
+msgstr ""
+"Эта подписка на слежение за ценой будет удалена. Вы можете <a href=\"%s"
+"\">создать новое слежение за ценой</a> для этого товара."
+
+#: application/PriceAlert.php:311
+msgid ""
+"If you don't want to receive any price alerts from us in the future, <a href="
+"\"%s\">please click here</a>."
+msgstr ""
+"Если вы больше не хотите получать никакие уведомления от нас, <a href=\"%s"
+"\">перейдите по ссылке</a>."
+
+#: application/TemplateHelper.php:277 templates/egg_price_tracker_alert.php:35
+msgid "Price"
+msgstr "Цена"
+
+#: application/Widget.php:25
+msgid "Title:"
+msgstr "Заголовок:"
+
+#: application/admin/GeneralConfig.php:56
+msgid "default"
+msgstr ""
+
+#: templates/blocks/price_alert_inline.php:9
+msgid "Wait For A Price Drop"
+msgstr "Узнать о снижении цены"
+
+#: templates/blocks/price_alert_inline.php:14
+#: templates/blocks/price_alert_inline.php:15
+msgid "Your Email"
+msgstr "Ваш Email"
+
+#: templates/blocks/price_alert_inline.php:18
+#: templates/blocks/price_alert_inline.php:24
+msgid "Desired Price"
+msgstr "Ожидаемая цена"
+
+#: templates/blocks/price_alert_inline.php:30
+msgid "SET ALERT"
+msgstr "ПОДПИСАТЬСЯ"
+
+#: templates/blocks/price_alert_inline.php:35
+msgid "You will receive a notification when the price drops."
+msgstr "Вы получите уведомление, когда цена упадет."
+
+#: templates/blocks/price_history.php:7
+msgid "Price History"
+msgstr "Динамика цены"
+
+#: templates/blocks/price_history.php:15
+msgid "Statistics"
+msgstr "Статистика"
+
+#: templates/blocks/price_history.php:18
+msgid "Current Price"
+msgstr "Текущая цена"
+
+#: templates/blocks/price_history.php:30
+msgid "Highest Price"
+msgstr "Максимальная цена"
+
+#: templates/blocks/price_history.php:36
+msgid "Lowest Price"
+msgstr "Минимальная цена"
+
+#: templates/blocks/price_history.php:42
+msgid "Since"
+msgstr "Начиная с"
+
+#: templates/blocks/price_history.php:45
+msgid "Last price changes"
+msgstr "Изменения цены"
+
+#: templates/egg_carousel.php:5
+msgid "Slider"
+msgstr "Карусель"
+
+#: templates/egg_grid_3cols.php:6
+msgid "Grid (3 colums)"
+msgstr "Сетка (3 колонки)"
+
+#: templates/egg_grid_3cols.php:60 templates/egg_item.php:46
+#: templates/egg_item_autoblog.php:48 templates/egg_list.php:54
+#: templates/egg_price_tracker_alert.php:42
+msgid "Buy now"
+msgstr "Купить"
+
+#: templates/egg_grid_3cols.php:76 templates/egg_item.php:81
+#: templates/egg_item_autoblog.php:103 templates/egg_list.php:65
+#: templates/egg_tile_3cols.php:37
+msgid "See more..."
+msgstr "Смотреть все..."
+
+#: templates/egg_item.php:6
+msgid "Product сard"
+msgstr "Карточка товара"
+
+#: templates/egg_item.php:58 templates/egg_item_autoblog.php:60
+#: templates/egg_price_comparison_full.php:56
+msgid "Features"
+msgstr "Характеристики"
+
+#: templates/egg_item.php:68 templates/egg_item_autoblog.php:70
+#: templates/egg_price_comparison_full.php:50
+msgid "Description"
+msgstr "Описание"
+
+#: templates/egg_item_autoblog.php:6
+msgid "Product сard for Auto Bloging"
+msgstr "Карточка товара для автоблога"
+
+#: templates/egg_item_autoblog.php:75
+#: templates/egg_price_comparison_full.php:66
+msgid "User reviews"
+msgstr "Отзывы пользователей"
+
+#: templates/egg_item_autoblog.php:90
+#, fuzzy
+#| msgid "User reviews"
+msgid "View all reviews"
+msgstr "Отзывы пользователей"
+
+#: templates/egg_list.php:6 templates/wegg_list.php:5
+msgid "List"
+msgstr "Список"
+
+#: templates/egg_price_comparison_full.php:5
+#, fuzzy
+#| msgid "Price comparison (short)"
+msgid "Price comparison (full)"
+msgstr "Сравнение цены"
+
+#: templates/egg_price_comparison_short.php:6
+msgid "Price comparison (short)"
+msgstr "Сравнение цены"
+
+#: templates/egg_price_tracker_alert.php:5
+msgid "Price tracker & alert"
+msgstr "История цены и уведомления"
+
+#: templates/egg_tile_3cols.php:5 templates/wegg_tile_3cols.php:5
+msgid "Tile (3 columns)"
+msgstr "Плитка (3 колонки)"
+
+#: templates/wegg_grid.php:5
+msgid "Grid (1 column)"
+msgstr "Сетка (1 колонка)"
+
+#: templates/wegg_tile.php:5
+msgid "Tile (1 column)"
+msgstr "Плитка (1 колонка)"
+
+#. Plugin Name of the plugin/theme
+#, fuzzy
+#| msgid "Affiliate Egg"
+msgid "Affiliate Egg Pro"
+msgstr "Affiliate Egg"
+
+#. Plugin URI of the plugin/theme
+msgid "http://www.keywordrush.com/en/affiliateegg"
+msgstr "http://www.keywordrush.com/affiliateegg"
+
+#. Description of the plugin/theme
+msgid ""
+"Parse, add, update products from affiliate shops. Let you to earn money from "
+"affiliate networks."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "keywordrush.com"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://www.keywordrush.com"
+msgstr ""
+
+#~ msgid "Buy This Item"
+#~ msgstr "Купить сейчас"
+
+#~ msgid "out of stock"
+#~ msgstr "нет в наличии"

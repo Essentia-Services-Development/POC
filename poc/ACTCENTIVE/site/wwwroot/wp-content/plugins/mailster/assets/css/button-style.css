@@ -1,0 +1,143 @@
+html.mailster-embeded-form,
+.mailster-embeded-form body {
+	margin: 0 !important;
+	padding: 0 !important;
+	min-width: 500px;
+	min-height: 50px;
+	display: block;
+	direction: ltr;
+}
+.btn-widget {
+	margin: 0 !important;
+	padding: 0 !important;
+	font: normal normal normal 11px/18px 'Helvetica Neue', Arial, sans-serif;
+	color: #555;
+	-webkit-user-select: none;
+	position: relative;
+}
+.mailster-form-wrap {
+	overflow: hidden;
+}
+.mailster-form-inner {
+	float: left;
+}
+.btn-widget .btn {
+	margin: 0 !important;
+	position: relative;
+	cursor: pointer;
+	z-index: 2;
+	display: inline-block;
+	max-width: 200px;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	vertical-align: bottom;
+}
+.btn-widget .btn:empty {
+	padding: 0 4px 0 4px;
+}
+.btn-widget .btn:empty:before {
+	margin-right: 0;
+}
+.btn-widget.init {
+	opacity: 0.5;
+	filter: alpha(50);
+}
+.btn-widget.init .btn {
+	cursor: progress !important;
+}
+.btn-widget.ontop .btn {
+	display: block;
+}
+.btn-widget.ontop .btn-count {
+	margin-bottom: 4px;
+	display: block;
+	float: none;
+	min-height: 36px;
+	width: 60px;
+	left: 50%;
+	-moz-transform: translate(-58%, 0);
+	-webkit-transform: translate(-58%, 0);
+	transform: translate(-58%, 0);
+}
+.btn-widget.ontop .btn-count u,
+.btn-widget.ontop .btn-count i {
+	position: absolute;
+	zoom: 1;
+	width: 0;
+	height: 0;
+	border-right-color: #aaa;
+	border-left: 0;
+	line-height: 0;
+	top: auto;
+	left: 50%;
+	bottom: 0;
+	right: auto;
+	margin: 0 0 -3px -3px;
+	border: 3px transparent solid;
+	border-top-color: #aaa;
+	border-bottom: 0;
+}
+.btn-widget.ontop .btn-count u {
+	margin-bottom: -2px;
+	border-top-color: #fff;
+}
+.btn-widget.ontop .btn-count a {
+	font-size: 16px;
+	line-height: 34px;
+}
+.btn-widget .btn-count {
+	position: relative;
+	background: #fff;
+	border: #bbb solid 1px;
+	border-radius: 3px;
+	min-height: 18px;
+	min-width: 15px;
+	text-align: center;
+	display: inline-block;
+	margin-left: 5px;
+	z-index: 1;
+	float: right;
+}
+.btn-widget .btn-count i,
+.btn-widget .btn-count u {
+	position: absolute;
+	zoom: 1;
+	line-height: 0;
+	width: 0;
+	height: 0;
+	left: 0;
+	top: 50%;
+	margin: -4px 0 0 -4px;
+	border: 4px transparent solid;
+	border-right-color: #aaa;
+	border-left: 0;
+	border-width: 4px 4px 4px 0;
+}
+.btn-widget .btn-count u {
+	border-right-color: #fff;
+	margin-left: -3px;
+}
+.btn-widget a {
+	color: #333;
+}
+.btn-widget .btn-count a {
+	padding: 0 3px;
+}
+.btn-widget .btn {
+	display: inline-block;
+	text-decoration: inherit;
+	margin-right: 0.4em;
+	transition: all 0.1s ease-in-out;
+	content: '';
+	opacity: 0.8;
+	background-image: url('data:image/svg+xml;utf8,<svg version="1.1" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g fill="none"><path d="M0 0h24v24h-24Z"></path><path stroke="%23ffffff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.636 5.045h14.727c.904 0 1.637.733 1.637 1.637v10.636c0 .904-.733 1.636-1.636 1.636h-14.728c-.903.001-1.636-.732-1.636-1.636v-10.636c0-.904.733-1.637 1.636-1.637Z"></path><path stroke="%23ffffff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3.119 6.075l7.694 5.503c.695.497 1.629.498 2.325.002l7.738-5.519"></path></g></svg>');
+	background-repeat: no-repeat;
+	background-position: 2% 50%;
+}
+.btn-widget .btn:hover:before {
+	color: #28b4e9;
+}
+.btn-widget .btn:focus {
+	outline: 0;
+}

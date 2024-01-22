@@ -1,0 +1,11 @@
+.peepso #pmpro_account-profile {
+	display: none;
+}
+
+.peepso .pmpro_box:first-of-type {
+	border-top: none !important;
+}
+
+.peepso .pmpro_box > h3 {
+	margin-bottom: 10px !important;
+}

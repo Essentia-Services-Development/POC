@@ -1,0 +1,248 @@
+summary,
+details {
+	display: block;
+}
+details {
+	visibility: hidden;
+}
+details > summary {
+	visibility: visible;
+}
+details details {
+	visibility: visible;
+}
+details > summary:before {
+	content: '';
+	display: inline-block;
+	vertical-align: bottom;
+	margin: 0 8px 0 -14px;
+	background-image: url('data:image/svg+xml;utf8,<svg version="1.1" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g fill="none"><path d="M0 0h24v24h-24Z"></path><path stroke="%23545454" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M10 16l4-4 -4-4"></path></g></svg>');
+	transition: transform 0.3s;
+	width: 20px;
+	height: 20px;
+}
+.rtl details > summary:before {
+	margin: 0 -14px 0 8px;
+	transform: rotate(180deg);
+}
+details[open] > summary:before {
+	transform: rotate(90deg);
+}
+details[open] {
+	visibility: visible;
+}
+details summary {
+	cursor: pointer;
+}
+summary:hover {
+	cursor: pointer;
+}
+summary:focus {
+	outline: none;
+}
+details summary::-webkit-details-marker {
+	display: none;
+}
+
+summary {
+	border-top: 1px solid #dfdfdf;
+	padding: 1em 2em;
+	font-weight: bold;
+	line-height: 1.5em;
+}
+details summary.loading {
+	background-position: 94% center;
+	background-repeat: no-repeat;
+	background-size: 20px 20px;
+	background-image: url(../img/loading.gif) !important;
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+	only screen and (-o-min-device-pixel-ratio: 32),
+	only screen and (min--moz-device-pixel-ratio: 1.5),
+	only screen and (min-device-pixel-ratio: 1.5) {
+	details summary.loading {
+		background-image: url(../img/loading_2x.gif) !important;
+	}
+}
+details summary.loaded {
+	color: inherit;
+}
+details > div {
+	padding: 0.5em 3em 1em;
+}
+.drag-drop #drag-drop-area {
+	border: 4px dashed #c3c4c7;
+	height: 200px;
+}
+#subscriber-table {
+	padding: 0;
+	width: 100%;
+	overflow: auto;
+}
+#subscriber-table select {
+	width: 150px;
+	word-wrap: normal;
+}
+#subscriber-table table {
+	border: 0;
+}
+#subscriber-table table td {
+	max-height: 30px;
+	max-width: 150px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.table-wrap {
+	max-height: 500px;
+	border: 1px solid #c3c4c7;
+	overflow: auto;
+}
+.table-wrap table.widefat {
+	border: 0;
+}
+.table-wrap table thead {
+	background: #fff;
+	position: sticky;
+	top: 0;
+}
+.status {
+	padding-left: 2em;
+}
+.status.progress {
+	float: none;
+	visibility: visible;
+	vertical-align: baseline;
+	opacity: 1;
+	width: auto;
+}
+
+#import_wordpress .inner {
+	display: flex;
+	flex-wrap: wrap;
+}
+#import_wordpress div {
+	padding-right: 20px;
+}
+.import-wrap section.footer {
+	margin-left: -3em;
+	margin-right: -3em;
+	margin-bottom: -1em;
+	margin-top: 1em;
+	padding: 1em 3em;
+}
+
+#TB_window section.footer {
+	background: #f6f7f7;
+	border-top: 1px solid #dfdfdf;
+	padding: 0 1.5em;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+h2 span.howto {
+	padding-top: 1em;
+	font-size: small;
+}
+
+.import-wrap form {
+	position: relative;
+}
+
+.import-wrap form.loading {
+	opacity: 0.8;
+}
+
+.import-wrap form.loading:before {
+	content: '';
+	position: absolute;
+	left: -2em;
+	right: 0;
+	display: block;
+	bottom: 92px;
+	top: 0;
+	background-position: 10% center;
+	background-repeat: no-repeat;
+	background-image: url(../img/loading.gif) !important;
+	background-color: rgba(255, 255, 255, 0.7);
+}
+
+.import-process-wrap {
+	backdrop-filter: blur(2px);
+	background-color: rgba(0, 0, 0, 0.35);
+	bottom: 0;
+	display: flex;
+	display: none;
+	left: 0;
+	position: fixed;
+	right: 0;
+	top: 0;
+	z-index: 100000;
+}
+
+.import-process-wrap .import-process {
+	position: fixed;
+	z-index: 1000;
+	width: 50vw;
+	height: 50vh;
+	max-width: 500px;
+	max-height: 210px;
+	top: 33%;
+	background: #fff;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	box-shadow: 0 10px 10px rgba(0, 0, 0, 0.25);
+	border-radius: 2px;
+	padding: 2em;
+}
+.import-process-wrap .import-process h2 {
+	padding: 0;
+	margin-bottom: 2em;
+}
+.import-process-wrap .import-process .progress {
+	padding: 0;
+	background: #efefef;
+	border-radius: 2px;
+}
+.import-process-wrap .import-process .progress .bar {
+	width: 0px;
+	position: relative;
+	height: 20px;
+	display: block;
+	background: #2bb3e7;
+	border-radius: 2px;
+	overflow: hidden;
+}
+.import-process-wrap .import-process.paused .progress .bar {
+	background: #8a8a8a;
+}
+.import-process-wrap .import-process.paused .progress .bar:before {
+	content: none;
+}
+.import-process-wrap .import-process.paused .pause-import,
+.import-process-wrap .import-process:not(.paused) .resume-import {
+	display: none;
+}
+
+.import-process-wrap .import-percentage {
+	font-size: 3em;
+	font-weight: bold;
+	padding-bottom: 0.1em;
+}
+.import-process-wrap .import-stats {
+	font-weight: bold;
+	display: flex;
+	justify-content: space-between;
+	text-transform: uppercase;
+	font-size: 0.9em;
+}
+.import-process-wrap .import-stats span {
+	padding-top: 0.8em;
+	padding-bottom: 0.8em;
+	font-weight: bold;
+}
+.import-process-wrap .import-stats span:last-child {
+	font-weight: bold;
+}

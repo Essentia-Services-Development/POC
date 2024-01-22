@@ -1,0 +1,102 @@
+.ps-profile--about {}
+
+.ps-profile__edit-page--about {}
+
+.ps-profile__about {}
+
+.ps-profile__about-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--PADD--MD);
+  border-bottom: 1px solid var(--DIVIDER--LIGHT);
+}
+
+.ps-profile__about-header-title {}
+
+.ps-profile__about-header-actions {}
+
+.ps-profile__about-footer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: var(--PADD--MD);
+  border-top: 1px solid var(--DIVIDER--LIGHT);
+}
+
+.ps-profile__about-fields {
+  padding: var(--PADD--MD);
+}
+
+.ps-profile__about-field {
+  margin-bottom: var(--PADD);
+  padding-bottom: var(--PADD);
+  line-height: var(--PS-LINE-HEIGHT);
+  border-bottom: 1px solid var(--DIVIDER--LIGHT);
+
+  .ps-alert {
+    margin-top: var(--PADD);
+    margin-bottom: 0;
+  }
+
+  &:last-of-type {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border-bottom: none;
+  }
+}
+
+.ps-profile__about-field-required {
+  color: var(--PS-COLOR--ABORT);
+}
+
+.ps-profile__about-field-row {}
+
+.ps-profile__about-field-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.ps-profile__about-field-title {
+  font-size: 80%;
+  text-transform: uppercase;
+  color: var(--PS-COLOR--TEXT--LIGHT);
+}
+
+.ps-profile__about-field-data {}
+
+.ps-profile__about-field-edit {
+  display: flex;
+}
+
+.ps-profile__about-field-edit-item {
+  @if $rtl {
+    margin-left: var(--PADD--SM);
+  } @else {
+    margin-right: var(--PADD--SM);
+  }
+
+  &:last-child {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+.ps-profile__about-field-actions {}
+
+.ps-profile__about-field-static {
+  font-size: 90%;
+}
+
+.ps-profile__about-field-placeholder {
+  color: var(--PS-COLOR--TEXT--LIGHT);
+}
+
+.ps-profile__about-field-form {
+  display: none;
+
+  .ps-input__wrapper {
+    margin-top: var(--PADD);
+  }
+}

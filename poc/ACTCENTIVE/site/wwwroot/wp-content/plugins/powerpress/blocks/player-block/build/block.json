@@ -1,0 +1,17 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "powerpress/player-block",
+  "version": "1.0.0",
+  "title": "PowerPress Player",
+  "category": "media",
+  "icon": "megaphone",
+  "description": "Media player for PowerPress podcast",
+  "supports": {
+    "html": false
+  },
+  "textdomain": "player-block",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}

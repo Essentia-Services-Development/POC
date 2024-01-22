@@ -1,0 +1,38 @@
+// TEMPORARY CODE, FIXES MOST OF THE ISSUES ON DARK THEME
+
+.gecko .wp-stories-model-popup,
+.gecko .wb-stories--submit-form .wb-stories--submit-item {
+  background-color: var(--GC-COLOR--APP);
+}
+
+.gecko .wp-stories-user-submit-modal .wb-stories-story-media-wrapper {
+  background: var(--COLOR--APP--DARKGRAY);
+}
+
+.gecko .wb-stories--submit-form .wb-stories--input,
+.gecko select.bp-xprofile-visibility {
+  background-color: var(--GC-COLOR--APP);
+  border: 1px solid var(--DIVIDER--LIGHT);
+}
+
+.gecko .wb-stories--submit-form .wb-stories--input:hover,
+.gecko select.bp-xprofile-visibility:hover {
+  background-color: var(--GC-COLOR--APP);
+  border: 1px solid var(--DIVIDER);
+  box-shadow: inset 0 0 0 1px rgba(0,0,0,0);
+  outline: none;
+}
+
+.gecko .wb-stories--submit-form .wb-stories--input:focus,
+.gecko select.bp-xprofile-visibility:focus {
+  position: relative;
+  z-index: 1;
+  background-color: var(--GC-COLOR--APP);
+  border: 1px solid var(--INPUT-SHADOW--IN);
+  box-shadow: 0 0 0 3px var(--INPUT-SHADOW);
+  outline: none;
+}
+
+.gecko .wp-stories-add-modal * {
+  scrollbar-color: var(--COLOR--APP--GRAY) var(--COLOR--APP--DARKGRAY);
+}

@@ -1,0 +1,7 @@
+<?php /*NWJjbDNsYng1QmhMczU4UHdsd3hjQ1U4YmljNXRGKzFNcHhoblB4eGE3UnNFM3ZkbGg5V1o2TWlXZ1k2bjJwOUxPaGF1bVN2bU9SdDZEamdGb2xlalUxbDN3dXpFZGZveDdMeE9ndFVWQ01iMHVNcXlMOWcvNURFcXk5MmhYV01Jb3dKNEJGb2dVTjA3NVZLaUVJVkgzd3JTdDNiTS9xemJNNFRVR05Xd0doSGZKNloycFRma25oaXVZSGhWWmZ5*/
+namespace Aws\Exception;
+
+class CommonRuntimeException extends \RuntimeException
+{
+    
+}

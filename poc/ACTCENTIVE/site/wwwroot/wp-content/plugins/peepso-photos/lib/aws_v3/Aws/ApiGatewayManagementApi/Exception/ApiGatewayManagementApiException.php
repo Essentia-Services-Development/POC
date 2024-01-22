@@ -1,0 +1,9 @@
+<?php /*NWJjbDNsYng1QmhMczU4UHdsd3hjQ1U4YmljNXRGKzFNcHhoblB4eGE3UmdvdXZuTmRqZ2RmOHFDSnFIMzVIUmxsN21mU3FkQUFTL01mallVbGRIZVl4QzdQVVZpZStFV254T3BTK3h2OGRocE44K3MrakJDRHo2OUpLUE15VldtSlZBRzh4aGphUVQyL01OTlpuajZPTG5BT3pTWk1EaW5iMUozUTVibzFmRGxYS1pFbEhnMEo2LzFNcjJrWnFBZ1JQU1JmM0pxQVVkZ3hKMmd3VDdiQT09*/
+namespace Aws\ApiGatewayManagementApi\Exception;
+
+use Aws\Exception\AwsException;
+
+/**
+ * Represents an error interacting with the **AmazonApiGatewayManagementApi** service.
+ */
+class ApiGatewayManagementApiException extends AwsException {}

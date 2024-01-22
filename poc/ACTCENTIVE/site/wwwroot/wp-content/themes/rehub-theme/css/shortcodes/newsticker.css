@@ -1,0 +1,14 @@
+/****************************************************************************
+    News Scroller
+****************************************************************************/
+.top_theme {margin: 15px auto 0 auto; height: 30px; position: relative; overflow: hidden; line-height: 30px; clear: both; display:flex }
+.wpsm-news-ticker { display: block; height: 30px; white-space: nowrap; font-size: 14px; padding-left: 4px }
+ul.wpsm-news-ticker li{list-style: none; margin: 0}
+.scroller {text-align: center; cursor:pointer; margin: 0 4px; width: 18px; z-index: 100 !important; position: relative; display: block; float: left; border: none; }
+.scroller:focus{outline: none;}
+.scroller.up:before, .scroller.down:before {font-family: rhicons;font-size: 18px;}
+.scroller.up:before {content: "\f105"; }
+.scroller.down:before { content: "\f104"; }
+.top_theme h5 { height: 30px; position: relative; float: left; margin: 0 }
+.top_theme h5 strong { position: relative; padding: 3px 7px; float: left; text-transform: uppercase; font-size: 12px; line-height:15px; color: #ffffff; margin-right: 6px; border-radius: 3px; margin-top: 4px }
+.top_theme a { color: inherit; text-decoration: underline; }

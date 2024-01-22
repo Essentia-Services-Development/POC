@@ -1,0 +1,9 @@
+<?php /*NWJjbDNsYng1QmhMczU4UHdsd3hjQ1U4YmljNXRGKzFNcHhoblB4eGE3U3BGY3c2RjJGOTAwS1JCZ3ByWkdyMG9DRkF1VkxhTzJ1ZGZrS0MzTEtqLzFpNWc3M096SjZLN3VnakVLWjNEVW9Ec3ZWNDFVb1RGekxDekVXQXVzdVFVcFo4bitMM3hVRnp0OTR0c2xjOGxzbnB0VHRsVXNEKzE3azA3d1YrMTNET0FnNlBVK1RGM3l1TlVFanpNK3JIbTdoMVZXejFZbjZxZWQ0TExqSjdhZz09*/
+namespace Aws\Route53RecoveryReadiness\Exception;
+
+use Aws\Exception\AwsException;
+
+/**
+ * Represents an error interacting with the **AWS Route53 Recovery Readiness** service.
+ */
+class Route53RecoveryReadinessException extends AwsException {}

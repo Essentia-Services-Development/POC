@@ -1,0 +1,33 @@
+.ps-modal--group-invite {}
+
+.ps-group__invite {}
+
+.ps-group__invite-search {
+  margin-bottom: var(--PADD--MD);
+}
+
+.ps-group__invite-list {
+  max-height: 300px;
+  overflow: auto;
+
+  .ps-members {
+    @include mq($from: desktop) {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-column-gap: var(--PADD--MD);
+      grid-row-gap: var(--PADD--MD);
+    }
+
+    .ps-member {
+      box-shadow: inset var(--BOX-SHADOW--HARD);
+
+      &:hover {
+        box-shadow: inset var(--BOX-SHADOW--HARD);
+      }
+    }
+
+    .ps-member__name {
+      margin-bottom: 0;
+    }
+  }
+}

@@ -1,0 +1,35 @@
+%wp-archives-ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 80%;
+
+  > li {
+    margin: 0;
+    margin-bottom: var(--PADD);
+    padding: 0;
+    list-style-type: none;
+    color: var(--GC-COLOR--TEXT--LIGHT);
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+.widget.widget_archive,
+.gc-widget.widget_archive {
+  > ul,
+  > ol {
+    @extend %wp-archives-ul;
+  }
+}
+
+.gc-widget {
+  ul,
+  ol {
+    &.wp-block-archives {
+      @extend %wp-archives-ul;
+    }
+  }
+}

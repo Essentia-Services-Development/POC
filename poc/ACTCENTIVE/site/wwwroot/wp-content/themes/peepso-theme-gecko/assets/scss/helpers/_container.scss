@@ -1,0 +1,25 @@
+%container {
+    max-width: var(--container);
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: var(--PADD--MD);
+    padding-right: var(--PADD--MD);
+}
+
+%container__nopadd {
+    max-width: $container;
+    margin-left: auto;
+    margin-right: auto;
+
+    @include mq($from: tablet) {
+        max-width: calc(var(--container) - 60px);
+    }
+}
+
+.g-container {
+    @extend %container;
+}
+
+.g-container__nopadd {
+    @extend %container__nopadd;
+}

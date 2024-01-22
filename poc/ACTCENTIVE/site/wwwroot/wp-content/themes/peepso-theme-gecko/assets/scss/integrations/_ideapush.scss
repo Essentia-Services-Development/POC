@@ -1,0 +1,184 @@
+// Ideas page
+.idea-push,
+.idea-template-default {
+  .idea-item-status {
+    background-color: var(--GC-COLOR--APP--LIGHTGRAY);
+  }
+  
+  .ideapush-container .idea-item-tag, .ideapush-container .idea-item-file, .ideapush-container .idea-item-file-download {
+    background-color: var(--GC-COLOR--APP--LIGHTGRAY);
+    color: Var(--COLOR--TEXT--LIGHT);
+  }
+
+  .ideapush-container i, .ideapush-container a, 
+  .ideapush-dialog .close-button, 
+  .ideapush-dialog-image .close-button, 
+  .idea-page-number.active {
+    color: var(--GC-COLOR--LINK);
+  }
+
+  .ideapush-container .idea-item-tag:hover, 
+  .ideapush-container .idea-item-file:hover, 
+  .idea-page-number:hover {
+    color: var(--GC-COLOR--LINK);
+    border-color: var(--GC-COLOR--LINK);
+  }
+
+  button {
+    --bg: var(--c-ps-btn-action-bg);
+    --color: var(--c-ps-btn-action-color);
+    --bg--hover: var(--c-ps-btn-action-bg-hover);
+    --color--hover: var(--c-ps-btn-action-color-hover);
+
+    &.update-user-profile,
+    &.submit-new-idea,
+    &.create-idea-form-reveal {
+      background-color: var(--bg);
+      color: var(--color) !important;
+
+      i {
+        color: var(--color);
+      }
+
+      &:hover,
+      &:focus {
+        background-color: var(--bg--hover);
+        color: var(--color--hover) !important;
+      }
+    }
+  }
+}
+
+.ideapush-container {
+  // Filter
+  .ideapush-idea-filter {
+    select {
+      width: auto;
+      border-color: var(--DIVIDER);
+      background: var(--GC-COLOR--APP--GRAY);
+      color: var(--GC-COLOR--TEXT);
+
+      &:focus {
+        background: var(--GC-COLOR--APP--GRAY) !important;
+      }
+    }
+  
+    i {
+      color: var(--COLOR--TEXT--LIGHT);
+    }
+  }
+
+  .ideapush-idea-search {
+    i.search-icon {
+      color: var(--COLOR--TEXT--LIGHT);
+    }
+  }
+  
+  .ideapush-search-input {
+    border-color: var(--DIVIDER);
+    background-color: var(--GC-COLOR--APP--GRAY);
+    color: var(--GC-COLOR--TEXT);
+  }
+
+  // Idea list
+  .ideapush-container-idea-header {
+    border-bottom: 2px solid var(--DIVIDER--DARK);
+  }
+  
+  .idea-item {
+    border-bottom: 1px solid var(--DIVIDER);
+  }
+
+  .idea-vote-container {
+    border-color: var(--DIVIDER);
+  }
+
+  // Idea form submit
+  .ideapush-form-inner, .ideapush-leader-board-inner, .ideapush-form-inner, .ideapush-comments-widget-inner {
+    background-color: var(--GC-COLOR--APP);
+    padding: var(--PADD--MD);
+    border-color: var(--DIVIDER);
+    border-radius: var(--BORDER-RADIUS--MD);
+    box-shadow: var(--BOX-SHADOW);
+    border: 0;
+    position: relative;
+  }
+
+  .ideapush-container-form .ideapush-form-inner {
+    input, textarea, .tagsinput, #idea-push-new-comment {
+      background-color: var(--GC-COLOR--APP--GRAY);
+      border-color: var(--DIVIDER);
+      color: var(--GC-COLOR--TEXT);
+
+      &:focus {
+        background-color: var(--GC-COLOR--APP);
+        border-color: var(--DIVIDER);
+      }
+    }
+  }
+
+  .ideapush-form-idea-tags {
+    background-color: var(--GC-COLOR--APP--GRAY);
+    border-color: var(--DIVIDER);
+  }
+
+  .ideapush-form-idea-attachment-label, .ideapush-user-profile-attachment-label {
+    background: var(--GC-COLOR--APP--GRAY);
+    border-color: var(--DIVIDER) !important;
+    color: var(--GC-COLOR--TEXT--LIGHT);
+  }
+
+  .ideapush-form-idea-attachment, .ideapush-user-profile-attachment, 
+  .ideapush-form-idea-image {
+    position: absolute;
+    left: 0;
+    width: 100% !important;
+
+    &:focus {
+      position: absolute;
+    }
+  }
+}
+
+// Single idea page
+article.type-idea {
+  @extend %post;
+
+  .entry-header {
+    padding-bottom: 0 !important;
+  }
+
+  .idea-vote-container {
+    border-color: var(--DIVIDER);
+  }
+
+  .idea-item-admin-functions {
+    border-top: 1px solid var(--DIVIDER);
+    border-bottom: 1px solid var(--DIVIDER);
+    padding: var(--PADD--MD);
+    background: var(--GC-COLOR--APP--GRAY);
+
+    a {
+      padding-left: 0;
+      padding-bottom: 0;
+      padding-right: var(--PADD--MD);
+    }
+  }
+
+  .admin-functions-heading {
+    margin-bottom: var(--PADD) !important;
+  }
+
+  .admin-functions-disclaimer {
+    display: block;
+    margin-left: 0;
+    padding: var(--PADD);
+    border: 1px solid var(--DIVIDER);
+    color: var(--COLOR--TEXT--LIGHT);
+    background: var(--GC-COLOR--APP--LIGHTGRAY);
+  }
+
+  .idea-statuses-listing {
+    display: block;
+  }
+}

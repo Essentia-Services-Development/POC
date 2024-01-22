@@ -1,0 +1,32 @@
+.ps-form--register {}
+
+.ps-form--register-main {}
+
+.ps-form--register-activate {}
+
+.ps-form--register-resend {}
+
+.ps-form--register-recover {}
+
+.ps-form--register-recover-sent {}
+
+.psf-register {
+  margin: calc(-1 * var(--PADD--MD));
+  margin-top: 0;
+  padding: var(--PADD--MD);
+  border-top: 1px solid var(--DIVIDER--LIGHT);
+}
+
+.psf-register--main {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+.psf-register--activate {}
+
+.psf-register--resend {}
+
+.psf-register--recover {}
+
+.psf-register--recover-sent {}

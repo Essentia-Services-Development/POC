@@ -1,0 +1,246 @@
+@mixin tabs($center: 0) {
+  --padd: var(--PADD);
+  --tabs-bg: var(--PS-COLOR--APP--GRAY);
+  --tabs-bg--hover: var(--PS-COLOR--APP--GRAY);
+  --tabs-bg--active: var(--PS-COLOR--APP);
+  --tabs-text-color: var(--PS-COLOR--TEXT--LIGHT);
+  --tabs-text-color--hover: var(--PS-COLOR--TEXT);
+  --tabs-text-color--active: var(--PS-COLOR--TEXT);
+  --tabs-icon-color: var(--PS-COLOR--TEXT--LIGHT);
+  --tabs-icon-color--active: var(--PS-COLOR--PRIMARY--LIGHT);
+  --tabs-item-separator: var(--DIVIDER--LIGHT);
+
+  display: flex;
+  align-items: stretch;
+  margin-top: var(--PADD--MD);
+  margin-bottom: var(--PADD--MD);
+  border-radius: var(--BORDER-RADIUS--MD);
+  box-shadow: var(--BOX-SHADOW--HARD);
+
+  &:first-child {
+    margin-top: 0;
+  }
+}
+
+@mixin tab($active: 0, $arrow: 0, $default: 0) {
+  @if $default != 0 {
+    position: relative;
+    flex-grow: 1;
+
+    @if $rtl {
+      border-left: 1px solid var(--tabs-item-separator);
+    } @else {
+      border-right: 1px solid var(--tabs-item-separator);
+    }
+
+    background-color: var(--tabs-bg);
+
+    @include mq($from: tablet) {
+      &:hover,
+      &:focus {
+        background-color: var(--tabs-bg--hover);
+      }
+    }
+
+    > a {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100%;
+      padding: var(--padd);
+      color: var(--tabs-text-color);
+
+      @if $comp_mode {
+        color: var(--tabs-text-color) !important;
+      }
+
+      @include mq($from: tablet) {
+        &:hover,
+        &:focus {
+          color: var(--tabs-text-color--hover);
+
+          @if $comp_mode {
+            color: var(--tabs-text-color--hover) !important;
+          }
+        }
+      }
+    }
+
+    &:first-child {
+      @if $rtl {
+        border-top-right-radius: var(--BORDER-RADIUS--MD);
+        border-bottom-right-radius: var(--BORDER-RADIUS--MD);
+
+        > a {
+          border-top-right-radius: var(--BORDER-RADIUS--MD);
+          border-bottom-right-radius: var(--BORDER-RADIUS--MD);
+        }
+      } @else {
+        border-top-left-radius: var(--BORDER-RADIUS--MD);
+        border-bottom-left-radius: var(--BORDER-RADIUS--MD);
+
+        > a {
+          border-top-left-radius: var(--BORDER-RADIUS--MD);
+          border-bottom-left-radius: var(--BORDER-RADIUS--MD);
+        }
+      }
+    }
+
+    &:last-child {
+      @if $rtl {
+        border-top-left-radius: var(--BORDER-RADIUS--MD);
+        border-bottom-left-radius: var(--BORDER-RADIUS--MD);
+
+        > a {
+          border-top-left-radius: var(--BORDER-RADIUS--MD);
+          border-bottom-left-radius: var(--BORDER-RADIUS--MD);
+        }
+      } @else {
+        border-top-right-radius: var(--BORDER-RADIUS--MD);
+        border-bottom-right-radius: var(--BORDER-RADIUS--MD);
+
+        > a {
+          border-top-right-radius: var(--BORDER-RADIUS--MD);
+          border-bottom-right-radius: var(--BORDER-RADIUS--MD);
+        }
+      }
+
+      @if $rtl {
+        border-left: none;
+      } @else {
+        border-right: none;
+      }
+    }
+
+    i {
+      color: var(--tabs-icon-color);
+
+      &:first-child {
+        @if $rtl {
+          margin-left: var(--PADD--SM);
+        } @else {
+          margin-right: var(--PADD--SM);
+        }
+      }
+
+      &:last-child {
+        @if $rtl {
+          margin-right: var(--PADD--SM);
+        } @else {
+          margin-left: var(--PADD--SM);
+        }
+      }
+    }
+  }
+
+  @if $active != 0 {
+    background-color: var(--tabs-bg--active);
+
+    &:hover,
+    &:focus {
+      background-color: var(--tabs-bg--active);
+    }
+
+    > a {
+      color: var(--tabs-text-color--active);
+
+      @if $comp_mode {
+        color: var(--tabs-text-color--active) !important;
+      }
+
+      @include mq($from: tablet) {
+        &:hover,
+        &:focus {
+          color: var(--tabs-text-color--active);
+
+          @if $comp_mode {
+            color: var(--tabs-text-color--active) !important;
+          }
+        }
+      }
+    }
+
+    i {
+      color: var(--tabs-icon-color--active);
+    }
+  }
+
+  @if $arrow != 0 {
+    &:before {
+      content: " ";
+      position: absolute;
+      top: 100%;
+      left: 0;
+      right: 0;
+      display: block;
+      width: 0;
+      height: 0;
+      margin-left: auto;
+      margin-right: auto;
+      border-left: 8px solid transparent;
+      border-right: 8px solid transparent;
+      border-top: 8px solid var(--tabs-item-separator);
+    }
+
+    &:after {
+      content: " ";
+      position: absolute;
+      top: 100%;
+      left: 0;
+      right: 0;
+      display: block;
+      width: 0;
+      height: 0;
+      margin-left: auto;
+      margin-right: auto;
+      border-left: 7px solid transparent;
+      border-right: 7px solid transparent;
+      border-top: 7px solid var(--tabs-bg--active);
+    }
+  }
+}
+
+.ps-tabs {
+  @include tabs;
+}
+
+.ps-tabs__item {
+  @include tab($default: true);
+}
+
+.ps-tabs__item--active {
+  @include tab($active: true);
+}
+
+.ps-tabs--center {
+  text-align: center;
+}
+
+.ps-tabs--arrows {
+  .ps-tabs__item--active {
+    @include tab($arrow: true);
+  }
+}
+
+.ps-tabs__count {
+  padding: calc(var(--PADD--SM) / 2) var(--PADD--SM);
+  color: var(--PS-COLOR--TEXT--LIGHT);
+  background-color: var(--PS-COLOR--APP--DARKGRAY);
+  border-radius: var(--BORDER-RADIUS);
+
+  &:first-child {
+    @if $rtl {
+      margin-left: var(--PADD--SM);
+    } @else {
+      margin-right: var(--PADD--SM);
+    }
+  }
+
+  &:last-child {
+    @if $rtl {
+      margin-right: var(--PADD--SM);
+    } @else {
+      margin-left: var(--PADD--SM);
+    }
+  }
+}

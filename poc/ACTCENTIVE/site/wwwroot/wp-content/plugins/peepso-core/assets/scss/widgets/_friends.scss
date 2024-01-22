@@ -1,0 +1,33 @@
+//
+//  WIDGET: FRIENDS
+//
+
+
+
+.ps-widget--friends {}
+
+
+.ps-widget--friends__wrapper {}
+
+
+.ps-widget__friends {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: -2px;
+  margin-left: -2px;
+  margin-right: -2px;
+}
+
+
+.ps-widget__friends-item {
+  width: 25%;
+  padding: 2px;
+
+  img {
+    vertical-align: middle;
+  }
+
+  > a {
+    position: relative;
+  }
+}

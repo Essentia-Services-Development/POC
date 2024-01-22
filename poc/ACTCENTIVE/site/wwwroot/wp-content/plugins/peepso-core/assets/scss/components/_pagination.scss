@@ -1,0 +1,56 @@
+//
+//  PAGINATION COMPONENT
+//
+
+
+
+.ps-pagination {
+  display: block;
+  margin-top: $padding-base;
+  background-color: $scss-pagination-bg;
+  text-align: center;
+
+  // ROUNDED CORNERS
+  @if $scss-rounded == true {
+    border-radius: 6px;
+    overflow: hidden;
+  }
+
+  @extend %clearfix;
+}
+
+
+.ps-pagination-item,
+.ps-pagination-next,
+.ps-pagination-prev,
+.ps-pagination-total {
+  display: inline-block;
+
+  a,
+  span {
+    display: block;
+    padding-left: $padding-sm;
+    padding-right: $padding-sm;
+    font-size: $font-size-sm;
+    line-height: 32px;
+  }
+
+  a {
+    &:hover,
+    &:focus,
+    &.active {
+      background-color: $scss-pagination-bg-hover;
+    }
+  }
+}
+
+
+.ps-pagination-item,
+.ps-pagination-prev {
+  float: left;
+}
+
+
+.ps-pagination-next {
+  float: right;
+}

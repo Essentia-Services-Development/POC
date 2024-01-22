@@ -1,0 +1,13 @@
+        .ps-blogposts__post-image {
+        height: 150px;
+        }
+
+        .ps-blogposts__post-image--left,
+        .ps-blogposts__post-image--right {
+        width: 150px;
+        }
+
+        .ps-blogposts__post {
+        height: 350px;
+        }
+        

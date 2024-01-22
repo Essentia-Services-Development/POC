@@ -1,0 +1,12 @@
+<step title="Process Shutdown" date="2023-06-02T12:48:59.738" instance="359730" pid="91,1,2" uptime="-00:00:00.0006162" lastrequesttime="738672.12:48:59.7379468" >
+  <step title="Cleanup Xml Logs" date="2023-06-02T12:48:59.764" >
+    <step title="Error occurred" date="2023-06-02T12:48:59.768" type="error" text="No such device : &apos;/home/LogFiles/kudu/trace&apos;" stackTrace="   at System.IO.Enumeration.FileSystemEnumerator`1.FindNextEntry(Byte* , Int32 )
+   at System.IO.Enumeration.FileSystemEnumerator`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 )
+   at System.IO.Directory.GetFiles(String , String , EnumerationOptions )
+   at System.IO.Directory.GetFiles(String , String )
+   at System.IO.Abstractions.DirectoryWrapper.GetFiles(String path, String searchPattern)
+   at Kudu.Core.Infrastructure.FileSystemHelpers.GetFiles(String path, String pattern) in /tmp/KuduLite/Kudu.Core/Infrastructure/FileSystemHelpers.cs:line 296
+   at Kudu.Core.Tracing.XmlTracer.EnsureMaxXmlFiles() in /tmp/KuduLite/Kudu.Core/Tracing/XmlTracer.cs:line 276" /><!-- duration: 11ms -->
+  </step><!-- duration: 18ms -->
+</step><!-- duration: 47ms -->

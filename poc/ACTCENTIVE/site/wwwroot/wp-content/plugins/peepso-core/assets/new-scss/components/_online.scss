@@ -1,0 +1,117 @@
+@keyframes ps-pulse {
+  0% {
+    transform: scale(.83);
+  }
+  80%, 100% {
+    opacity: 0;
+  }
+}
+
+@keyframes ps-pulse-dot {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.ps-online {
+  --size: 10px;
+  --online-color: var(--COLOR--ONLINE);
+  --online-border: var(--COLOR--APP);
+
+  position: absolute !important;
+  z-index: 1;
+
+  @if $rtl {
+    left: 0;
+  } @else {
+    right: 0;
+  }
+
+  bottom: 0;
+  width: var(--size);
+  height: var(--size);
+  box-shadow: 0 0 0 2px var(--online-border);
+  border-radius: 100%;
+}
+
+.ps-online__inner {
+  position: absolute;
+  top: 3px;
+
+  @if $rtl {
+    left: 3px;
+  } @else {
+    right: 3px;
+  }
+
+  &:before {
+    content: '';
+    position: relative;
+    display: block;
+    width: calc(2 * var(--size));
+    height: calc(2 * var(--size));
+    box-sizing: border-box;
+    margin-left: calc(-0.5 * var(--size));
+    margin-top: calc(-0.5 * var(--size));
+    border-radius: 100%;
+    background-color: var(--online-color);
+    animation: ps-pulse 1.25s cubic-bezier(0.215, 0.61, 0.355, 1) infinite;
+  }
+
+  &:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: block;
+    width: var(--size);
+    height: var(--size);
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 0 6px rgba(0,0,0, .3);
+    animation: ps-pulse-dot 1.25s cubic-bezier(0.455, 0.03, 0.515, 0.955) -.4s infinite;
+  }
+}
+
+.ps-online--static {
+  background-color: var(--online-color);
+
+  .ps-online__inner {
+    display: none;
+  }
+}
+
+.ps-online--md {
+  --size: 12px;
+}
+
+.ps-avatar--online {
+  --online-color: #45d927;
+  --online-color--light: #45d92780;
+
+  > img {
+    box-shadow: 0 0 0 2px var(--online-color);
+    animation: ps-pulse-ring 1.25s infinite;
+    transition: all .2s ease;
+  }
+}
+
+@keyframes ps-pulse-ring {
+  0% {
+    box-shadow: 0 0 0 2px var(--online-color);
+  }
+
+  50% {
+    box-shadow: 0 0 0 2px var(--online-color--light);
+  }
+
+  100% {
+    box-shadow: 0 0 0 2px var(--online-color);
+  }
+}

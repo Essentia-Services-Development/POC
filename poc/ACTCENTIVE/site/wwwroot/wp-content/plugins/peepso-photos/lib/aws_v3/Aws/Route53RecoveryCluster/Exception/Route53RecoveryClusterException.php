@@ -1,0 +1,9 @@
+<?php /*NWJjbDNsYng1QmhMczU4UHdsd3hjQ1U4YmljNXRGKzFNcHhoblB4eGE3U3BGY3c2RjJGOTAwS1JCZ3ByWkdyMDduTU5BcGZMMjZyeFNyY1FkNjZ0WVRYNWJ5UjVqNmZXY01IVU11c21adFo2RURqQ3dBZDV1TzZYVWw3R1JBTzhKMDZqVEswRk9vNGdZVUxmeGFXQnNSbVRiODBQY2pDcjJaTXp2aW0yOXA4YUtoM3U0RkMrMCtxWmZzS3FHYnlsZ29OMXBjb05KeWNQdWp4ZWp4SUlsQT09*/
+namespace Aws\Route53RecoveryCluster\Exception;
+
+use Aws\Exception\AwsException;
+
+/**
+ * Represents an error interacting with the **Route53 Recovery Cluster** service.
+ */
+class Route53RecoveryClusterException extends AwsException {}

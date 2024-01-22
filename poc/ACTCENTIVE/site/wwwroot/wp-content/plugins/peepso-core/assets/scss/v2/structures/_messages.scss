@@ -1,0 +1,185 @@
+/*
+//
+//  STRUCTURES: MESSAGES
+//
+//  Wraps all the inbox messages on a single page
+//
+*/
+
+/*
+//  Overrides
+*/
+.ps-page--messages {
+  padding: 0;
+  background-color: transparent;
+  border: none;
+}
+
+/*
+//  Messages
+*/
+.ps-messages {
+  @extend %basic-vars;
+}
+
+.ps-messages__search {
+  margin-bottom: var(--padd);
+}
+
+.ps-messages__search-inner {
+  display: flex;
+
+  .ps-input {
+    flex-grow: 2;
+    margin-right: var(--padd);
+  }
+}
+
+.ps-messages__intro {
+  padding: var(--padd--md);
+  text-align: center;
+  border: 2px solid var(--divider--light);
+  border-radius: $border-radius;
+}
+
+
+/*
+//  Message item
+*/
+.ps-message {
+  display: flex;
+  align-items: stretch;
+  background-color: var(--color-box--shade);
+  border-top: 1px solid var(--divider--lighten);
+
+  &:first-child {
+    border-top: none;
+  }
+
+  &:last-child {
+    border-bottom-left-radius: $border-radius;
+    border-bottom-right-radius: $border-radius;
+  }
+}
+
+.ps-message__checkbox {
+  display: flex;
+  align-items: center;
+  padding: var(--padd) var(--padd--md);
+}
+
+.ps-message__avatar {
+  display: flex;
+  align-items: center;
+  width: 48px;
+  min-width: 48px;
+  max-width: 48px;
+  padding-top: var(--padd);
+  padding-bottom: var(--padd);
+}
+
+.ps-message__body {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-grow: 2;
+  min-width: 0;
+  max-width: 100%;
+  padding: var(--padd) var(--padd--md);
+  cursor: pointer;
+}
+
+.ps-message__author {
+  margin-bottom: var(--padd--sm);
+}
+
+.ps-message__meta {
+  display: none;
+  align-items: center;
+  justify-content: flex-end;
+  min-width: 100px;
+  padding: var(--padd) var(--padd--md);
+  padding-left: 0;
+  font-size: var(--ps_FONT_SIZE-SM);
+  color: var(--ps_COLOR-TEXT--LIGHTEN);
+
+  @include media('medium') {
+    display: flex;
+  }
+}
+
+.ps-message__excerpt {
+  max-width: 100%;
+  line-height: 1.2;
+  color: var(--ps_COLOR-TEXT--LIGHTEN);
+
+  .ps-post__mood {
+    > i {
+      transform: none;
+    }
+  }
+
+  > span {
+    @include truncate();
+  }
+}
+
+.ps-message__actions {}
+
+.ps-message--unread {
+  background-color: $scss-messages-item-bg-unread;
+}
+
+
+/*
+//  Inbox
+*/
+.ps-message--inbox {}
+
+.ps-messages__inbox {}
+
+.ps-messages__inbox-header {
+  margin-bottom: var(--padd--md);
+
+  &:empty {
+    display: none;
+  }
+}
+
+.ps-messages__inbox-form {}
+
+.ps-messages__inbox-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: var(--padd) var(--padd--md);
+  border-top: 1px solid var(--divider--light);
+  border-bottom: 1px solid var(--divider--light);
+
+  @include media('medium') {
+    padding-right: 0;
+  }
+
+  .ps-btn {
+    padding-top: 6px !important;
+    padding-bottom: 6px !important;
+  }
+
+  > .ps-btn {
+    order: -1;
+    width: 100%;
+    margin-bottom: var(--padd);
+
+    @include media('medium'){
+      order: 1;
+      width: auto;
+      margin-bottom: 0;
+    }
+  }
+
+  .ps-select__wrapper {
+    flex-grow: 2;
+  }
+}
+
+.ps-messages__inbox-list {}

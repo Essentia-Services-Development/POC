@@ -1,0 +1,355 @@
+//
+//  CLASS MODIFIERS
+//
+
+//  Avatar modifier for comment component
+.ps-avatar--comment {
+  --width: var(--medium);
+}
+
+
+
+//
+//  Comment COMPONENT
+//
+
+//  Comment
+.ps-comment {
+  --gap: 30px;
+
+  @include mq($from: desktop) {
+    --gap: 50px;
+  }
+
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding: var(--PADD) var(--PADD--MD);
+
+  @if $rtl {
+    padding-left: var(--gap);
+  } @else {
+    padding-right: var(--gap);
+  }
+
+  font-size: 15px;
+  border-top: 1px solid var(--DIVIDER--LIGHT);
+
+  &:first-child {
+    border-top: none;
+  }
+
+  .ps-comments--nested & {
+    @if $rtl {
+      padding-right: var(--nested-gap);
+    } @else {
+      padding-left: var(--nested-gap);
+    }
+
+    border-top: 1px solid var(--DIVIDER--LIGHT);
+  }
+}
+
+.ps-comment__avatar {
+  align-self: flex-start;
+}
+
+.ps-comment__body {
+  flex-grow: 2;
+  min-width: 0;
+
+  @if $rtl {
+    padding-right: var(--PADD);
+  } @else {
+    padding-left: var(--PADD);
+  }
+
+  p {
+    margin-top: 0;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+.ps-comment__author {
+  display: inline;
+  font-weight: bold;
+
+  .ps-tag__link {
+    font-weight: bold;
+    color: var(--PS-COLOR--TEXT);
+
+    @if $comp_mode {
+      color: var(--PS-COLOR--TEXT) !important;
+    }
+
+    @include mq($from: tablet) {
+      &:hover,
+      &:focus {
+        color: var(--PS-COLOR--TEXT);
+
+        @if $comp_mode {
+          color: var(--PS-COLOR--TEXT) !important;
+        }
+      }
+    }
+  }
+}
+
+.ps-comment__content {
+  display: inline;
+  word-wrap: break-word;
+
+  p {
+    &:first-child {
+      display: inline;
+    }
+  }
+
+  // Auto RTL #6260
+  &.ps-text-rtl {
+    display: inline-block;
+    margin-top: 5px;
+  }  
+}
+
+.ps-comment__meta {
+  margin-top: var(--PADD--SM);
+  font-size: 80%;
+  color: var(--PS-COLOR--TEXT--LIGHT);
+
+  @include mq($from: desktop) {
+    display: flex;
+  }
+}
+
+.ps-comment__info {
+  position: relative;
+
+  a {
+    color: var(--PS-COLOR--TEXT--LIGHT);
+
+    @if $comp_mode {
+      color: var(--PS-COLOR--TEXT--LIGHT) !important;
+    }
+
+
+    @include mq($from: tablet) {
+      &:hover,
+      &:focus {
+        color: var(--PS-COLOR--TEXT);
+
+        @if $comp_mode {
+          color: var(--PS-COLOR--TEXT) !important;
+        }
+
+      }
+    }
+  }
+}
+
+.ps-comment__copy {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+
+  @if $rtl {
+    left: 0;
+    margin-right: var(--PADD--SM);
+  } @else {
+    right: 0;
+    margin-left: var(--PADD--SM);
+  }
+
+  color: var(--PS-COLOR--TEXT--LIGHT);
+
+  @if $comp_mode {
+    color: var(--PS-COLOR--TEXT--LIGHT) !important;
+  }
+
+  @include mq($from: tablet) {
+    &:hover,
+    &:focus {
+      color: var(--PS-COLOR--TEXT);
+
+      @if $comp_mode {
+        color: var(--PS-COLOR--TEXT) !important;
+      }
+    }
+  }
+
+  @include mq($from: desktop) {
+    opacity: 0;
+    transition: opacity .2s ease;
+
+    .ps-comment:hover & {
+      opacity: 1;
+    }
+  }
+
+  @include mq($until: desktop) {
+    position: static;
+    transform: none;
+
+    @if $rtl {
+      margin-right: 0;
+    } @else {
+      margin-left: 0;
+    }
+  }
+}
+
+.ps-comment__actions {
+  position: relative;
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-items: center;
+  transition: all .2s ease;
+
+  @include mq($until: desktop) {
+    margin-top: var(--PADD--SM);
+    font-size: 110%;
+    line-height: 1.6;
+
+    @if $rtl {
+      padding-left: var(--PADD);
+    } @else {
+      padding-right: var(--PADD);
+    }
+
+    .ps-comment__action--like:not(.actaction-like) {
+      width: 100%;
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
+
+  @include mq($from: desktop) {
+    display: flex;
+
+    @if $rtl {
+      padding-right: var(--PADD);
+    } @else {
+      padding-left: var(--PADD);
+    }
+
+    .ps-comment:hover & {
+      @if $rtl {
+        padding-left: var(--PADD);
+      } @else {
+        padding-right: var(--PADD);
+      }
+    }
+  }
+}
+
+.ps-comment__actions-dropdown {
+  position: absolute;
+  z-index: 30;
+  top: 50%;
+  transform: translateY(-50%);
+
+  @include mq($until: desktop) {
+    z-index: 15;
+  }
+
+  @if $rtl {
+    left: var(--PADD);
+  } @else {
+    right: var(--PADD);
+  }
+
+  @include mq($from: desktop) {
+    @if $rtl {
+      left: var(--PADD--MD);
+    } @else {
+      right: var(--PADD--MD);
+    }
+  }
+
+  > a {
+    color: var(--PS-COLOR--TEXT--LIGHT);
+
+    @if $comp_mode {
+      color: var(--PS-COLOR--TEXT--LIGHT) !important;
+    }
+
+    @include mq($from: tablet) {
+      &:hover,
+      &:focus {
+        color: var(--PS-COLOR--TEXT);
+
+        @if $comp_mode {
+          color: var(--PS-COLOR--TEXT) !important;
+        }
+      }
+    }
+  }
+
+  @include mq($from: desktop) {
+    .ps-dropdown__toggle {
+      opacity: 0;
+      transition: opacity .2s ease;
+    }
+
+    .ps-comment:hover & {
+      .ps-dropdown__toggle {
+        opacity: 1;
+      }
+    }
+  }
+
+  @include ps-dropdown-style-menu;
+}
+
+.ps-comment__action {
+  @if $rtl {
+    margin-left: var(--PADD);
+  } @else {
+    margin-right: var(--PADD);
+  }
+
+  i {
+    @if $rtl {
+      margin-left: calc(var(--PADD--SM) /2);
+    } @else {
+      margin-right: calc(var(--PADD--SM) /2);
+    }
+  }
+
+  &:last-child {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+.ps-comment__action--like {
+  &.liked {
+    font-weight: bold;
+
+    i {
+      font-weight: bold;
+    }
+  }
+}
+
+.ps-comment__action--reply {
+  color: var(--PS-COLOR--TEXT--LIGHT);
+
+  @if $comp_mode {
+    color: var(--PS-COLOR--TEXT--LIGHT) !important;
+  }
+
+  @include mq($from: tablet) {
+    &:hover,
+    &:focus {
+      color: var(--PS-COLOR--TEXT);
+
+      @if $comp_mode {
+        color: var(--PS-COLOR--TEXT) !important;
+      }
+    }
+  }
+}

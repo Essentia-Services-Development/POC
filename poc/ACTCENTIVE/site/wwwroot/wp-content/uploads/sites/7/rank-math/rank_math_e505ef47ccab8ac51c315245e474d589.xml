@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="//actcentive.com/ng-marketplace/main-sitemap.xsl"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	<url>
+		<loc>https://actcentive.com/ng-marketplace/</loc>
+		<lastmod>2023-06-03T19:21:54+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://actcentive.com/ng-marketplace/blog/</loc>
+		<lastmod>2023-06-13T09:50:36+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://actcentive.com/ng-marketplace/become-a-vendor/</loc>
+		<lastmod>2023-09-18T10:57:40+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://actcentive.com/ng-marketplace/stores-list/</loc>
+		<lastmod>2023-06-08T14:35:18+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://actcentive.com/ng-marketplace/vendor-dashboard/</loc>
+		<lastmod>2023-06-08T14:35:18+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://actcentive.com/ng-marketplace/shop/</loc>
+		<lastmod>2023-06-08T14:01:02+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://actcentive.com/ng-marketplace/basket/</loc>
+		<lastmod>2023-06-08T14:01:02+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://actcentive.com/ng-marketplace/checkout/</loc>
+		<lastmod>2023-06-08T14:01:02+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://actcentive.com/ng-marketplace/my-account/</loc>
+		<lastmod>2023-06-08T14:01:02+00:00</lastmod>
+	</url>
+</urlset>

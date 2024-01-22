@@ -1,0 +1,916 @@
+/* Copyright 2014 Mozilla Foundation
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ * Smart Red
+ */
+ /* .secondaryToolbar {
+	background-color: var(--doorhanger-bg-color);
+	background: #1c2b36;
+} */
+ .pdfViewer .page .loadingIcon {
+    position: absolute;
+    display: block;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background: url("light-icons/loading-icon.gif") center no-repeat;
+  }
+  
+  :root {  
+    --main-color: rgba(249, 249, 250, 1);
+    --body-bg-color: #f90e1a;
+    --errorWrapper-bg-color: rgba(169, 14, 14, 1);
+    --progressBar-color: #e50511;
+    --progressBar-indeterminate-bg-color: #f90e1a;
+    --progressBar-indeterminate-blend-color: #e50511;
+    --scrollbar-color: #e50511;
+    --scrollbar-bg-color: #f90e1a;
+    --toolbar-icon-bg-color: rgba(255, 255, 255, 1);
+    --toolbar-icon-hover-bg-color: rgba(255, 255, 255, 1);
+
+    --sidebar-narrow-bg-color: #f90e1a;
+    --sidebar-toolbar-bg-color: #f90e1a;
+    --toolbar-bg-color: #FF1604;
+    --toolbar-border-color: #f90e1a;
+    --button-hover-color: #f90e1a;
+    --toggled-btn-color: rgba(255, 255, 255, 1);
+    --toggled-btn-bg-color: #f90e1a;
+    --toggled-hover-active-btn-color: #f90e1a;
+    --dropdown-btn-bg-color: #f90e1a;
+    --separator-color: #f90e1a;
+    --field-color: rgba(250, 250, 250, 1);
+    --field-bg-color: #f90e1a;
+    --field-border-color: #FB3640;
+    --findbar-nextprevious-btn-bg-color: #f90e1a;
+    --treeitem-color: rgba(255, 255, 255, 0.8);
+    --treeitem-hover-color: rgba(255, 255, 255, 0.9);
+    --treeitem-selected-color: rgba(255, 255, 255, 0.9);
+    --treeitem-selected-bg-color: rgba(255, 255, 255, 0.25);
+    --sidebaritem-bg-color: #FB3640;
+    --doorhanger-bg-color: #FB3640;
+    --doorhanger-border-color: #f90e1a;
+    --doorhanger-hover-color: rgba(249, 249, 250, 1);
+    --doorhanger-hover-bg-color: #f90e1a;
+    --doorhanger-separator-color: #f90e1a;
+    --overlay-button-bg-color: #f90e1a;
+    --overlay-button-hover-bg-color: #f90e1a;
+  
+    --loading-icon: url(light-icons/loading.svg);
+    --treeitem-expanded-icon: url(light-icons/treeitem-expanded.svg);
+    --treeitem-collapsed-icon: url(light-icons/treeitem-collapsed.svg);
+    --toolbarButton-menuArrow-icon: url(light-icons/toolbarButton-menuArrow.svg);
+    --toolbarButton-sidebarToggle-icon: url(light-icons/toolbarButton-sidebarToggle.svg);
+    --toolbarButton-secondaryToolbarToggle-icon: url(light-icons/toolbarButton-secondaryToolbarToggle.svg);
+    --toolbarButton-pageUp-icon: url(light-icons/toolbarButton-pageUp.svg);
+    --toolbarButton-pageDown-icon: url(light-icons/toolbarButton-pageDown.svg);
+    --toolbarButton-zoomOut-icon: url(light-icons/toolbarButton-zoomOut.svg);
+    --toolbarButton-zoomIn-icon: url(light-icons/toolbarButton-zoomIn.svg);
+    --toolbarButton-presentationMode-icon: url(light-icons/toolbarButton-presentationMode.svg);
+    --toolbarButton-print-icon: url(light-icons/toolbarButton-print.svg);
+    --toolbarButton-openFile-icon: url(light-icons/toolbarButton-openFile.svg);
+    --toolbarButton-download-icon: url(light-icons/toolbarButton-download.svg);
+    --toolbarButton-bookmark-icon: url(light-icons/toolbarButton-bookmark.svg);
+    --toolbarButton-viewThumbnail-icon: url(light-icons/toolbarButton-viewThumbnail.svg);
+    --toolbarButton-viewOutline-icon: url(light-icons/toolbarButton-viewOutline.svg);
+    --toolbarButton-viewAttachments-icon: url(light-icons/toolbarButton-viewAttachments.svg);
+    --toolbarButton-viewLayers-icon: url(light-icons/toolbarButton-viewLayers.svg);
+    --toolbarButton-currentOutlineItem-icon: url(light-icons/toolbarButton-currentOutlineItem.svg);
+    --toolbarButton-search-icon: url(light-icons/toolbarButton-search.svg);
+    --findbarButton-previous-icon: url(light-icons/findbarButton-previous.svg);
+    --findbarButton-next-icon: url(light-icons/findbarButton-next.svg);
+    --secondaryToolbarButton-firstPage-icon: url(light-icons/secondaryToolbarButton-firstPage.svg);
+    --secondaryToolbarButton-lastPage-icon: url(light-icons/secondaryToolbarButton-lastPage.svg);
+    --secondaryToolbarButton-rotateCcw-icon: url(light-icons/secondaryToolbarButton-rotateCcw.svg);
+    --secondaryToolbarButton-rotateCw-icon: url(light-icons/secondaryToolbarButton-rotateCw.svg);
+    --secondaryToolbarButton-selectTool-icon: url(light-icons/secondaryToolbarButton-selectTool.svg);
+    --secondaryToolbarButton-handTool-icon: url(light-icons/secondaryToolbarButton-handTool.svg);
+    --secondaryToolbarButton-scrollVertical-icon: url(light-icons/secondaryToolbarButton-scrollVertical.svg);
+    --secondaryToolbarButton-scrollHorizontal-icon: url(light-icons/secondaryToolbarButton-scrollHorizontal.svg);
+    --secondaryToolbarButton-scrollWrapped-icon: url(light-icons/secondaryToolbarButton-scrollWrapped.svg);
+    --secondaryToolbarButton-spreadNone-icon: url(light-icons/secondaryToolbarButton-spreadNone.svg);
+    --secondaryToolbarButton-spreadOdd-icon: url(light-icons/secondaryToolbarButton-spreadOdd.svg);
+    --secondaryToolbarButton-spreadEven-icon: url(light-icons/secondaryToolbarButton-spreadEven.svg);
+    --secondaryToolbarButton-documentProperties-icon: url(light-icons/secondaryToolbarButton-documentProperties.svg);
+  }
+  
+  @media screen and (forced-colors: active) {
+    :root {
+      --button-hover-color: Highlight;
+      --doorhanger-hover-bg-color: Highlight;
+      --toolbar-icon-opacity: 1;
+      --toolbar-icon-bg-color: ButtonText;
+      --toolbar-icon-hover-bg-color: ButtonFace;
+      --toggled-btn-color: HighlightText;
+      --toggled-btn-bg-color: LinkText;
+      --doorhanger-hover-color: ButtonFace;
+      --doorhanger-border-color-whcm: 1px solid ButtonText;
+      --doorhanger-triangle-opacity-whcm: 0;
+      --overlay-button-border: 1px solid Highlight;
+      --overlay-button-hover-bg-color: Highlight;
+      --overlay-button-hover-color: ButtonFace;
+      --field-border-color: ButtonText;
+    }
+  }
+  
+  body {
+    background-color: var(--body-bg-color);
+  }
+  
+  body,
+  input,
+  button,
+  select {
+    scrollbar-color: var(--scrollbar-color) var(--scrollbar-bg-color);
+  }
+
+  .pdfPresentationMode.pdfPresentationModeControls > *,
+  .pdfPresentationMode.pdfPresentationModeControls .textLayer span {
+    cursor: default;
+  }
+  
+  #sidebarContainer {
+    width: var(--sidebar-width);
+    transition-duration: var(--sidebar-transition-duration);
+    transition-timing-function: var(--sidebar-transition-timing-function);
+  }
+  html[dir="ltr"] #sidebarContainer {
+    left: calc(0px - var(--sidebar-width));
+    border-right: var(--doorhanger-border-color-whcm);
+  }
+  html[dir="rtl"] #sidebarContainer {
+    transition-property: right;
+    right: calc(0px - var(--sidebar-width));
+    border-left: var(--doorhanger-border-color-whcm);
+  }
+
+  #sidebarContent {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+
+  #viewerContainer:not(.pdfPresentationMode) {
+    transition-duration: var(--sidebar-transition-duration);
+    transition-timing-function: var(--sidebar-transition-timing-function);
+  }
+  
+  #toolbarSidebar {
+    background-color: var(--sidebar-toolbar-bg-color);
+  }
+  
+  #toolbarContainer,
+  .findbar,
+  .secondaryToolbar {
+    background-color: var(--toolbar-bg-color);
+    box-shadow: 0 1px 0 var(--toolbar-border-color);
+  }
+
+  #loadingBar {
+    background-color: var(--body-bg-color);
+    border-bottom: 1px solid var(--toolbar-border-color);
+  
+    transition-duration: var(--sidebar-transition-duration);
+    transition-timing-function: var(--sidebar-transition-timing-function);
+  }
+
+  html[dir="ltr"] #loadingBar {
+    right: var(--loadingBar-end-offset);
+  }
+  html[dir="rtl"] #loadingBar {
+    left: var(--loadingBar-end-offset);
+  }
+  
+  html[dir="ltr"] #outerContainer.sidebarOpen #loadingBar {
+    left: var(--sidebar-width);
+  }
+  html[dir="rtl"] #outerContainer.sidebarOpen #loadingBar {
+    right: var(--sidebar-width);
+  }
+  
+  #loadingBar .progress {
+    background-color: var(--progressBar-color);
+  }
+  
+
+  
+  #loadingBar .progress.indeterminate {
+    background-color: var(--progressBar-indeterminate-bg-color);
+  }
+  
+  #loadingBar .progress.indeterminate .glimmer {
+    background: repeating-linear-gradient(
+      135deg,
+      var(--progressBar-indeterminate-blend-color) 0,
+      var(--progressBar-indeterminate-bg-color) 5px,
+      var(--progressBar-indeterminate-bg-color) 45px,
+      var(--progressBar-color) 55px,
+      var(--progressBar-color) 95px,
+      var(--progressBar-indeterminate-blend-color) 100px
+    );
+  }
+  
+  .findbar {
+    background-color: var(--toolbar-bg-color);
+  }
+  
+  .findbar .splitToolbarButton > .toolbarButton {
+    background-color: var(--findbar-nextprevious-btn-bg-color);
+    border-top: 1px solid var(--field-border-color);
+    border-bottom: 1px solid var(--field-border-color);
+  }
+  
+  html[dir="ltr"] .findbar .splitToolbarButton > .findNext {
+    border-right: 1px solid var(--field-border-color);
+  }
+  html[dir="rtl"] .findbar .splitToolbarButton > .findNext {
+    border-left: 1px solid var(--field-border-color);
+  }
+  
+  .findbar label:hover,
+  .findbar input:focus + label {
+    color: var(--toggled-btn-color);
+    background-color: var(--button-hover-color);
+  }
+  
+  .findbar .toolbarField[type="checkbox"]:checked + .toolbarLabel {
+    background-color: var(--toggled-btn-bg-color) !important;
+    color: var(--toggled-btn-color);
+  }
+  
+  #findInput[data-status="pending"] {
+    background-image: var(--loading-icon);
+  }
+  
+  .secondaryToolbar {
+    background-color: var(--doorhanger-bg-color);
+  }
+
+  .doorHanger,
+  .doorHangerRight {
+    box-shadow: 0 1px 5px var(--doorhanger-border-color),
+      0 0 0 1px var(--doorhanger-border-color);
+    border: var(--doorhanger-border-color-whcm);
+  }
+  .doorHanger:after,
+  .doorHanger:before,
+  .doorHangerRight:after,
+  .doorHangerRight:before {
+    opacity: var(--doorhanger-triangle-opacity-whcm);
+  }
+  .doorHanger:after {
+    border-bottom-color: var(--toolbar-bg-color);
+  }
+  .doorHangerRight:after {
+    border-bottom-color: var(--doorhanger-bg-color);
+  }
+  .doorHanger:before,
+  .doorHangerRight:before {
+    border-bottom-color: var(--doorhanger-border-color);
+  }
+  
+  .overlayButton:hover,
+  .overlayButton:focus {
+    background-color: var(--overlay-button-hover-bg-color);
+  }
+  
+  .overlayButton:hover > span,
+  .overlayButton:focus > span {
+    color: var(--overlay-button-hover-color);
+  } 
+  
+  .splitToolbarButton > .toolbarButton:hover,
+  .splitToolbarButton > .toolbarButton:focus,
+  .dropdownToolbarButton:hover,
+  .toolbarButton.textButton:hover,
+  .toolbarButton.textButton:focus {
+    background-color: var(--button-hover-color);
+  }
+  
+  .splitToolbarButtonSeparator {
+    background-color: var(--separator-color);
+  }
+  
+  .findbar .splitToolbarButtonSeparator {
+    background-color: var(--field-border-color);
+  }
+  
+  .toolbarButton,
+  .dropdownToolbarButton,
+  .secondaryToolbarButton,
+  .overlayButton {
+    color: var(--main-color);
+  }
+  .toolbarButton:hover,
+  .toolbarButton:focus {
+    background-color: var(--button-hover-color);
+  }
+  .secondaryToolbarButton:hover,
+  .secondaryToolbarButton:focus {
+    background-color: var(--doorhanger-hover-bg-color);
+    color: var(--doorhanger-hover-color);
+  }
+
+  .toolbarButton.toggled,
+  .splitToolbarButton.toggled > .toolbarButton.toggled,
+  .secondaryToolbarButton.toggled {
+    background-color: var(--toggled-btn-bg-color);
+    color: var(--toggled-btn-color);
+    box-shadow: 0 1px 1px hsl(0deg 0% 0% / 10%) inset, 0 0 1px hsl(0deg 0% 0% / 20%) inset, 0 1px 0 hsl(0deg 0% 100% / 5%);
+  }
+  
+  .secondaryToolbarButton.toggled::before {
+    background-color: var(--toggled-btn-color);
+  }
+  
+  .toolbarButton.toggled::before {
+    background-color: var(--toggled-btn-color);
+  }
+  
+  .toolbarButton.toggled:hover:active,
+  .splitToolbarButton.toggled > .toolbarButton.toggled:hover:active,
+  .secondaryToolbarButton.toggled:hover:active {
+    background-color: var(--toggled-hover-active-btn-color);
+  }
+  
+  .dropdownToolbarButton {
+    width: var(--scale-select-container-width);
+    background-color: var(--dropdown-btn-bg-color);
+  }
+  .dropdownToolbarButton::after {  
+    -webkit-mask-image: var(--toolbarButton-menuArrow-icon);
+    mask-image: var(--toolbarButton-menuArrow-icon);
+  }
+  
+  .dropdownToolbarButton > select {
+    width: calc(var(--scale-select-container-width) + var(--scale-select-overflow));
+    color: var(--main-color);
+    background-color: var(--dropdown-btn-bg-color);
+  }
+  
+  .dropdownToolbarButton > select:hover,
+  .dropdownToolbarButton > select:focus {
+    background-color: var(--button-hover-color);
+    color: var(--toggled-btn-color);
+  }
+  
+  .dropdownToolbarButton > select > option {
+    background: var(--doorhanger-bg-color);
+    color: var(--main-color);
+  }
+  
+  .toolbarButton::before,
+  .secondaryToolbarButton::before,
+  .dropdownToolbarButton::after,
+  .treeItemToggler::before {
+    /* All matching images have a size of 16x16
+     * All relevant containers have a size of 28x28 */
+    background-color: var(--toolbar-icon-bg-color);
+  }
+  
+  .dropdownToolbarButton:hover::after,
+  .dropdownToolbarButton:focus::after,
+  .dropdownToolbarButton:active::after {
+    background-color: var(--toolbar-icon-hover-bg-color);
+  }
+  
+  .toolbarButton::before {
+    opacity: var(--toolbar-icon-opacity);
+  }
+  
+  .toolbarButton:hover::before,
+  .toolbarButton:focus::before,
+  .secondaryToolbarButton:hover::before,
+  .secondaryToolbarButton:focus::before {
+    background-color: var(--toolbar-icon-hover-bg-color);
+  }
+  
+  .secondaryToolbarButton::before {
+    opacity: var(--doorhanger-icon-opacity);
+  }
+  
+  .toolbarButton#sidebarToggle::before {
+    -webkit-mask-image: var(--toolbarButton-sidebarToggle-icon);
+    mask-image: var(--toolbarButton-sidebarToggle-icon);
+  }
+  
+  .toolbarButton#secondaryToolbarToggle::before {
+    -webkit-mask-image: var(--toolbarButton-secondaryToolbarToggle-icon);
+    mask-image: var(--toolbarButton-secondaryToolbarToggle-icon);
+  }
+  
+  .toolbarButton.findPrevious::before {
+    -webkit-mask-image: var(--findbarButton-previous-icon);
+    mask-image: var(--findbarButton-previous-icon);
+  }
+  
+  .toolbarButton.findNext::before {
+    -webkit-mask-image: var(--findbarButton-next-icon);
+    mask-image: var(--findbarButton-next-icon);
+  }
+  
+  .toolbarButton.pageUp::before {
+    -webkit-mask-image: var(--toolbarButton-pageUp-icon);
+    mask-image: var(--toolbarButton-pageUp-icon);
+  }
+  
+  .toolbarButton.pageDown::before {
+    -webkit-mask-image: var(--toolbarButton-pageDown-icon);
+    mask-image: var(--toolbarButton-pageDown-icon);
+  }
+  
+  .toolbarButton.zoomOut::before {
+    -webkit-mask-image: var(--toolbarButton-zoomOut-icon);
+    mask-image: var(--toolbarButton-zoomOut-icon);
+  }
+  
+  .toolbarButton.zoomIn::before {
+    -webkit-mask-image: var(--toolbarButton-zoomIn-icon);
+    mask-image: var(--toolbarButton-zoomIn-icon);
+  }
+  
+  .toolbarButton.presentationMode::before,
+  .secondaryToolbarButton.presentationMode::before {
+    -webkit-mask-image: var(--toolbarButton-presentationMode-icon);
+    mask-image: var(--toolbarButton-presentationMode-icon);
+  }
+  
+  .toolbarButton.print::before,
+  .secondaryToolbarButton.print::before {
+    -webkit-mask-image: var(--toolbarButton-print-icon);
+    mask-image: var(--toolbarButton-print-icon);
+  }
+  
+  .toolbarButton.openFile::before,
+  .secondaryToolbarButton.openFile::before {
+    -webkit-mask-image: var(--toolbarButton-openFile-icon);
+    mask-image: var(--toolbarButton-openFile-icon);
+  }
+  
+  .toolbarButton.download::before,
+  .secondaryToolbarButton.download::before {
+    -webkit-mask-image: var(--toolbarButton-download-icon);
+    mask-image: var(--toolbarButton-download-icon);
+  }
+  
+  .toolbarButton.bookmark::before,
+  .secondaryToolbarButton.bookmark::before {
+    -webkit-mask-image: var(--toolbarButton-bookmark-icon);
+    mask-image: var(--toolbarButton-bookmark-icon);
+  }
+  
+  #viewThumbnail.toolbarButton::before {
+    -webkit-mask-image: var(--toolbarButton-viewThumbnail-icon);
+    mask-image: var(--toolbarButton-viewThumbnail-icon);
+  }
+  
+  #viewOutline.toolbarButton::before {
+    -webkit-mask-image: var(--toolbarButton-viewOutline-icon);
+    mask-image: var(--toolbarButton-viewOutline-icon);
+  }
+  
+  #viewAttachments.toolbarButton::before {
+    -webkit-mask-image: var(--toolbarButton-viewAttachments-icon);
+    mask-image: var(--toolbarButton-viewAttachments-icon);
+  }
+  
+  #viewLayers.toolbarButton::before {
+    -webkit-mask-image: var(--toolbarButton-viewLayers-icon);
+    mask-image: var(--toolbarButton-viewLayers-icon);
+  }
+  
+  #currentOutlineItem.toolbarButton::before {
+    -webkit-mask-image: var(--toolbarButton-currentOutlineItem-icon);
+    mask-image: var(--toolbarButton-currentOutlineItem-icon);
+  }
+  
+  #viewFind.toolbarButton::before {
+    -webkit-mask-image: var(--toolbarButton-search-icon);
+    mask-image: var(--toolbarButton-search-icon);
+  }
+  
+  .secondaryToolbarButton.firstPage::before {
+    -webkit-mask-image: var(--secondaryToolbarButton-firstPage-icon);
+    mask-image: var(--secondaryToolbarButton-firstPage-icon);
+  }
+  
+  .secondaryToolbarButton.lastPage::before {
+    -webkit-mask-image: var(--secondaryToolbarButton-lastPage-icon);
+    mask-image: var(--secondaryToolbarButton-lastPage-icon);
+  }
+  
+  .secondaryToolbarButton.rotateCcw::before {
+    -webkit-mask-image: var(--secondaryToolbarButton-rotateCcw-icon);
+    mask-image: var(--secondaryToolbarButton-rotateCcw-icon);
+  }
+  
+  .secondaryToolbarButton.rotateCw::before {
+    -webkit-mask-image: var(--secondaryToolbarButton-rotateCw-icon);
+    mask-image: var(--secondaryToolbarButton-rotateCw-icon);
+  }
+  
+  .secondaryToolbarButton.selectTool::before {
+    -webkit-mask-image: var(--secondaryToolbarButton-selectTool-icon);
+    mask-image: var(--secondaryToolbarButton-selectTool-icon);
+  }
+  
+  .secondaryToolbarButton.handTool::before {
+    -webkit-mask-image: var(--secondaryToolbarButton-handTool-icon);
+    mask-image: var(--secondaryToolbarButton-handTool-icon);
+  }
+  
+  .secondaryToolbarButton.scrollVertical::before {
+    -webkit-mask-image: var(--secondaryToolbarButton-scrollVertical-icon);
+    mask-image: var(--secondaryToolbarButton-scrollVertical-icon);
+  }
+  
+  .secondaryToolbarButton.scrollHorizontal::before {
+    -webkit-mask-image: var(--secondaryToolbarButton-scrollHorizontal-icon);
+    mask-image: var(--secondaryToolbarButton-scrollHorizontal-icon);
+  }
+  
+  .secondaryToolbarButton.scrollWrapped::before {
+    -webkit-mask-image: var(--secondaryToolbarButton-scrollWrapped-icon);
+    mask-image: var(--secondaryToolbarButton-scrollWrapped-icon);
+  }
+  
+  .secondaryToolbarButton.spreadNone::before {
+    -webkit-mask-image: var(--secondaryToolbarButton-spreadNone-icon);
+    mask-image: var(--secondaryToolbarButton-spreadNone-icon);
+  }
+  
+  .secondaryToolbarButton.spreadOdd::before {
+    -webkit-mask-image: var(--secondaryToolbarButton-spreadOdd-icon);
+    mask-image: var(--secondaryToolbarButton-spreadOdd-icon);
+  }
+  
+  .secondaryToolbarButton.spreadEven::before {
+    -webkit-mask-image: var(--secondaryToolbarButton-spreadEven-icon);
+    mask-image: var(--secondaryToolbarButton-spreadEven-icon);
+  }
+  
+  .secondaryToolbarButton.documentProperties::before {
+    -webkit-mask-image: var(--secondaryToolbarButton-documentProperties-icon);
+    mask-image: var(--secondaryToolbarButton-documentProperties-icon);
+  }
+  
+  .verticalToolbarSeparator {
+    background-color: var(--separator-color);
+  }
+  
+  .horizontalToolbarSeparator {
+    border-top: 1px solid var(--doorhanger-separator-color);
+  }
+  
+  .toolbarField {
+    background-color: var(--field-bg-color);
+    border-color: var(--field-border-color);
+    color: var(--field-color);
+  }
+  
+  .toolbarField.pageNumber.visiblePageIsLoading {
+    background-image: var(--loading-icon);
+  }
+  
+  .toolbarLabel {
+    color: var(--main-color);
+  }
+  
+  
+  a:focus > .thumbnail > .thumbnailSelectionRing,
+  .thumbnail:hover > .thumbnailSelectionRing {
+    background-color: var(--sidebaritem-bg-color);
+  }
+  
+  .thumbnail.selected > .thumbnailSelectionRing {
+    background-color: var(--sidebaritem-bg-color);
+  }
+  
+  .treeItem > a {
+    color: var(--treeitem-color);
+  }
+  
+  .treeItemToggler::before {
+    -webkit-mask-image: var(--treeitem-expanded-icon);
+    mask-image: var(--treeitem-expanded-icon);
+  }
+  .treeItemToggler.treeItemsHidden::before {
+    -webkit-mask-image: var(--treeitem-collapsed-icon);
+    mask-image: var(--treeitem-collapsed-icon);
+  }
+  
+  .treeItem.selected > a {
+    background-color: var(--treeitem-selected-bg-color);
+    color: var(--treeitem-selected-color);
+  }
+  
+  .treeItemToggler:hover,
+  .treeItemToggler:hover + a,
+  .treeItemToggler:hover ~ .treeItems,
+  .treeItem > a:hover {
+    background-color: var(--sidebaritem-bg-color);
+    color: var(--treeitem-hover-color);
+  }
+
+  /* TODO: file FF bug to support ::-moz-selection:window-inactive
+     so we can override the opaque grey background when the window is inactive;
+     see https://bugzilla.mozilla.org/show_bug.cgi?id=706209 */
+  
+  #errorWrapper {
+    background: none repeat scroll 0 0 var(--errorWrapper-bg-color);
+    color: var(--main-color);
+  }
+  
+  #errorMoreInfo {
+    background-color: var(--field-bg-color);
+    color: var(--field-color);
+    border: 1px solid var(--field-border-color);
+  }
+  
+  .overlayButton {
+    color: var(--main-color);
+    background-color: var(--overlay-button-bg-color);
+    border: var(--overlay-button-border) !important;
+  }
+  
+  #overlayContainer > .container > .dialog {
+    color: var(--main-color);
+    background-color: var(--doorhanger-bg-color);
+    border-color: #fb3741;
+  }
+  
+  .dialog .separator {
+    background-color: var(--separator-color);
+  }
+  
+  .grab-to-pan-grab {
+    cursor: url("light-icons/grab.cur"), move !important;
+    cursor: -webkit-grab !important;
+    cursor: grab !important;
+  }
+  .grab-to-pan-grab
+    *:not(input):not(textarea):not(button):not(select):not(:link) {
+    cursor: inherit !important;
+  }
+  .grab-to-pan-grab:active,
+  .grab-to-pan-grabbing {
+    cursor: url("light-icons/grabbing.cur"), move !important;
+    cursor: -webkit-grabbing !important;
+    cursor: grabbing !important;
+    position: fixed;
+    background: rgba(0, 0, 0, 0);
+    display: block;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+    z-index: 50000; /* should be higher than anything else in PDF.js! */
+  }
+  
+  @media all and (max-width: 840px) {
+    #sidebarContainer {
+      background-color: var(--sidebar-narrow-bg-color);
+    }
+  } 
+
+/* 
+=========================================================
+ >>> below codes aren't include in common.css file
+=========================================================
+*/ 
+
+/* TNC FlipBook - PDF viewer for WordPress Stylesheet
+Developed by ThemeNcode 
+*/
+
+/* popup form */
+.popup_content input[type="text"] { border: 1px solid #ddd; border-radius: 5px; padding: 5px 0; margin: 7px 0; color: #666; }
+.popup_content textarea { border: 1px solid #ddd; border-radius: 5px; padding: 2px 0; margin: 7px 0; color: #666; }
+.popup_content h3 { color: #666; text-align: center; margin-bottom: 10px; }
+
+.spread .page, .pdfViewer.scrollHorizontal .page, .pdfViewer.scrollWrapped .page{
+	margin-left: 6px;
+	margin-right: 6px;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 2), screen and (min-resolution: 2dppx){
+
+	/* Rules for Retina screens */
+	.toolbarField.pageNumber.visiblePageIsLoading,
+	.toolbarButton#sidebarToggle::before { content: url(light-icons/toolbarButton-sidebarToggle.svg);}
+	html[dir='rtl'] .toolbarButton#sidebarToggle::before { content: url(light-icons/toolbarButton-sidebarToggle-rtl.svg);}
+	.toolbarButton#secondaryToolbarToggle::before { content: url(light-icons/toolbarButton-secondaryToolbarToggle.svg);}
+	html[dir='rtl'] .toolbarButton#secondaryToolbarToggle::before { content: url(light-icons/toolbarButton-secondaryToolbarToggle-rtl.svg);}
+	.toolbarButton.findPrevious::before { content: url(light-icons/findbarButton-previous.svg);}
+	html[dir='rtl'] .toolbarButton.findPrevious::before { content: url(light-icons/findbarButton-previous-rtl.svg);}
+	.toolbarButton.findNext::before { content: url(light-icons/findbarButton-next.svg);}
+	html[dir='rtl'] .toolbarButton.findNext::before { content: url(light-icons/findbarButton-next-rtl.svg);}
+	.toolbarButton.pageUp::before { content: url(light-icons/toolbarButton-pageUp.svg);}
+	html[dir='rtl'] .toolbarButton.pageUp::before { content: url(light-icons/toolbarButton-pageUp-rtl.svg);}
+	.toolbarButton.pageDown::before { content: url(light-icons/toolbarButton-pageDown.svg);}
+	html[dir='rtl'] .toolbarButton.pageDown::before { content: url(light-icons/toolbarButton-pageDown-rtl.svg);}
+	.toolbarButton.zoomIn::before { content: url(light-icons/toolbarButton-zoomIn.svg);}
+	.toolbarButton.zoomOut::before { content: url(light-icons/toolbarButton-zoomOut.svg);}
+	.toolbarButton.presentationMode::before,
+	.secondaryToolbarButton.presentationMode::before { content: url(light-icons/toolbarButton-presentationMode.svg);}
+	.toolbarButton.print::before,
+	.secondaryToolbarButton.print::before { content: url(light-icons/toolbarButton-print.svg);}
+	.toolbarButton.openFile::before,
+	.secondaryToolbarButton.openFile::before { content: url(light-icons/toolbarButton-openFile.svg);}
+	.toolbarButton.download::before,
+	.secondaryToolbarButton.download::before { content: url(light-icons/toolbarButton-download.svg);}
+	.toolbarButton.bookmark::before,
+	.secondaryToolbarButton.bookmark::before { content: url(light-icons/toolbarButton-bookmark.svg);}
+	#viewThumbnail.toolbarButton::before { content: url(light-icons/toolbarButton-viewThumbnail.svg);}
+	#viewOutline.toolbarButton::before { content: url(light-icons/toolbarButton-viewOutline.svg);}
+	html[dir='rtl'] #viewOutline.toolbarButton::before { content: url(light-icons/toolbarButton-viewOutline-rtl.svg);}
+	#viewAttachments.toolbarButton::before { content: url(light-icons/toolbarButton-viewAttachments.svg);}
+	#viewFind.toolbarButton::before { content: url(light-icons/toolbarButton-search.svg);}
+	.secondaryToolbarButton.firstPage::before { content: url(light-icons/secondaryToolbarButton-firstPage.svg);}
+	.secondaryToolbarButton.lastPage::before { content: url(light-icons/secondaryToolbarButton-lastPage.svg);}
+	.secondaryToolbarButton.rotateCcw::before { content: url(light-icons/secondaryToolbarButton-rotateCcw.svg);}
+	.secondaryToolbarButton.rotateCw::before { content: url(light-icons/secondaryToolbarButton-rotateCw.svg);}
+	.secondaryToolbarButton.handTool::before { content: url(light-icons/secondaryToolbarButton-handTool.svg);}
+	.secondaryToolbarButton.documentProperties::before { content: url(light-icons/secondaryToolbarButton-documentProperties.svg);}
+	.outlineItemToggler::before {content: url(light-icons/treeitem-expanded.svg);}
+	.outlineItemToggler.outlineItemsHidden::before { content: url(light-icons/treeitem-collapsed.svg);}
+	html[dir='rtl'] .outlineItemToggler.outlineItemsHidden::before { content: url(light-icons/treeitem-collapsed-rtl.svg);}
+	.outlineItemToggler::before { right: 0; }
+	html[dir='rtl'] .outlineItemToggler::before { left: 0; }
+	.social_icon_d { background: url('light-icons/share.svg') no-repeat;}
+	.tnc_fb { background: url('light-icons/facebook.svg') no-repeat left;}
+	.tnc_tw { background: url('light-icons/twitter.svg') no-repeat left;}
+	.tnc_lin { background: url('light-icons/linkedin.svg') no-repeat left;}
+	.tnc_whatsapp { background: url('light-icons/whatsapp.svg') no-repeat left;}
+	.tnc_email { background: url('light-icons/email.svg') no-repeat left;}
+}
+
+.tnc_social_share {background: #e50511; }
+.tnc_social_share ul li {color: #999; }
+.tnc_social_share ul li a {color: #999;}
+.tnc_social_share ul li a.tnc_share {color: #FB3640; }
+.social_icon_d { background: url('light-icons/share.svg') no-repeat;}
+.tnc_fb { background: url('light-icons/facebook.svg') no-repeat left;}
+.tnc_tw { background: url('light-icons/twitter.svg') no-repeat left;}
+.tnc_lin { background: url('light-icons/linkedin.svg') no-repeat left;}
+.tnc_whatsapp { background: url('light-icons/whatsapp.svg') no-repeat left;}
+.tnc_email { background: url('light-icons/email.svg') no-repeat left;}
+.logo_text a {color: #FB3640;}
+
+
+.tnc-pdf-back-to-btn{
+  background: #fb3640;
+  padding: 15px 30px;
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  border: 1px solid #fb3640;
+}
+.tnc-pdf-back-to-btn a{
+	color: #fff;
+	text-decoration: none;
+}
+.textLayer{
+-moz-box-shadow: inset 0 0 10px #f80e1b;
+-webkit-box-shadow: inset 0 0 10px #f80e1b;
+box-shadow: inset 0 0 10px #f80e1b;
+}
+
+#toolbarContainer, .findbar, .secondaryToolbar {
+    box-shadow: 1px 2px 20px #dd000d;
+    -webkit-box-shadow: 1px 2px 20px #dd000d;
+    -moz-box-shadow: 1px 2px 20px #dd000d;
+}
+
+@media all and (max-width: 535px) {
+    #scaleSelectContainer {
+      display: none;
+    }
+  }
+  
+  @media print{
+    .tnc-pdf-back-to-btn{
+      display: none;
+    }
+    .pvfw_page_prev{
+      display: none;
+    }
+    .pvfw_page_next{
+      display: none;
+    }
+  }
+
+.pvfw_page_prev{
+    position: absolute;
+    top: 45%;
+    left: 0;
+    color: #fff;
+    background: #00000050;
+    border: 0px;
+    z-index: 100;
+  }
+  .pvfw_page_next{
+    position: absolute;
+    top: 45%;
+    right: 0;
+    color: #fff;
+    background: #00000050;
+    border: 0px;
+    z-index: 100;
+  }
+  
+  html{
+    margin-top: 0px!important;
+  }
+  /* #loadingBar{
+    background: #0c0c0d;
+    border-bottom: 1px solid #0c0c0d;
+  } */
+  #tnc-share{
+    display: none;
+    position: absolute !important;
+    margin-top: 32px;
+    left: 100px;
+    padding: 4px 2px;
+  }
+  .s-btn-style{
+    border: 0;
+    border-radius: 4px;
+    moz-border-radius: 4px;
+    color: #ffffff;
+    padding: 8px 20px;
+    font-weight: bold;
+    background: #0a772b;
+    margin: 10px 0;
+  }
+  .r-btn-style{
+    border: 0;
+    border-radius: 4px;
+    moz-border-radius: 4px;
+    color: #ffffff;
+    padding: 8px 20px;
+    font-weight: bold;
+    background: #d20808;
+    margin: 10px 0;
+  }
+  .send-to-friend h3{
+    text-align: center;
+    margin: 10px 0;
+  }
+  .send-to-friend input[type="text"], .send-to-friend input[type="email"]{
+    margin: 10px 0;
+    padding: 5px 10px;
+    border: 1px solid #eee;
+    width: 90%;
+    max-width: 100%;
+  }
+  .send-to-friend textarea{
+    margin: 10px 0;
+    padding: 5px 10px;
+    border: 1px solid #eee;
+    width: 90%;
+    max-width: 100%;
+  }
+  .email-result{
+    margin: 10px 0;
+    text-align: center;
+    font-weight: bold;
+  }
+  @media only screen and (max-width: 380px){
+    #tnc-share{
+      left: 0px;
+      top:0px;
+    }
+  }
+  @media only screen and (max-width: 900px){
+    .logo_text {
+      display: none;
+    }
+  }
+  #overlayContainer{
+    top:0;
+    left: 0;
+  }
+  @media print{
+    #overlayContainer{
+      display: none;
+    }
+  }
+  html .secondaryToolbarButton:before {
+    display: none!important;
+  }
+  html .secondaryToolbarButton {
+    padding-left: 0px!important;
+  }
+  html .secondaryToolbarButton {
+    text-align: center!important;
+  }

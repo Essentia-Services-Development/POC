@@ -1,0 +1,293 @@
+// THEME VARIABLES USE THESE IN COMPONENTS
+body {
+  // GLOBAL VARS
+  // --PADD--XS: calc(var(--PADD) / 4);
+	// --PADD--SM: calc(var(--PADD) / 2);
+	// --PADD: 10px;
+	// --PADD--MD: calc(var(--PADD) * 2);
+	// --PADD--XL: calc(var(--PADD) * 3);
+  //
+	// --CONTAINER: 1280px;
+  //
+	// --DIVIDER: rgba(70, 77, 87, 0.15);
+	// --DIVIDER--LIGHT: rgba(70, 77, 87, 0.1);
+	// --DIVIDER--LIGHTEN: rgba(70, 77, 87, 0.05);
+	// --DIVIDER--DARK: rgba(70, 77, 87, 0.25);
+	// --DIVIDER--R: rgba(255, 255, 255, 0.1);
+	// --DIVIDER--R--LIGHT: rgba(255, 255, 255, 0.05);
+  //
+	// --FONT-SIZE: 18px;
+	// --LINE-HEIGHT: 1.4;
+  //
+	// --COLOR--PRIMARY: #42A5F5;
+	// --COLOR--PRIMARY--SHADE: #90CAF9;
+  // --COLOR--PRIMARY--LIGHT: #BBDEFB;
+	// --COLOR--PRIMARY--ULTRALIGHT: #E3F2FD;
+  // --COLOR--PRIMARY--DARK: #2196F3;
+  //
+	// --COLOR--SUCCESS: #66BB6A;
+	// --COLOR--SUCCESS--LIGHT: #C8E6C9;
+	// --COLOR--SUCCESS--ULTRALIGHT: #E8F5E9;
+	// --COLOR--SUCCESS--DARK: #4CAF50;
+	// --COLOR--WARNING: #FFA726;
+	// --COLOR--WARNING--LIGHT: #FFE0B2;
+	// --COLOR--WARNING--ULTRALIGHT: #FFF3E0;
+	// --COLOR--WARNING--DARK: #F57C00;
+	// --COLOR--ABORT: #E53935;
+	// --COLOR--ABORT--LIGHT: #FFCDD2;
+	// --COLOR--ABORT--ULTRALIGHT: #FFEBEE;
+	// --COLOR--ABORT--DARK: #D32F2F;
+  //
+  // --COLOR--ALT: #f27e3f;
+	// --COLOR--ONLINE: #74e4a2;
+  //
+  // --COLOR--APP: #fff;
+	// --COLOR--APP--LIGHTGRAY: #fbfbfb;
+  // --COLOR--APP--GRAY: #f7f7f7;
+	// --COLOR--APP--DARKGRAY: #eee;
+	// --COLOR--APP--DARK: #46494f;
+	// --COLOR--APP--DARKER: #202124;
+  //
+	// --COLOR--HEADING: #333;
+  // --COLOR--TEXT: #494954;
+  // --COLOR--TEXT--LIGHT: #91919d;
+	// --COLOR--TEXT--LIGHTEN: #b0b0b9;
+	// --COLOR--TEXT--INVERT: #fff;
+  //
+	// --BORDER-RADIUS--SM: calc(var(--BORDER-RADIUS) / 2);
+	// --BORDER-RADIUS: 4px;
+	// --BORDER-RADIUS--MD: calc(var(--BORDER-RADIUS) + (var(--BORDER-RADIUS) / 2));
+	// --BORDER-RADIUS--XL: calc(var(--BORDER-RADIUS) * 2);
+	// --BORDER-RADIUS--AVATAR: 100%;
+  //
+	// --BOX-SHADOW--HARD: 0 0 0 1px rgba(70, 77, 87, 0.05);
+	// --BOX-SHADOW: 0 1px 2px rgba(70, 77, 87, 0.08);
+	// --BOX-SHADOW--MD: 0 0 20px rgba(70, 77, 87, 0.15);
+	// --BOX-SHADOW--XL: 0 20px 30px rgba(70, 77, 87, 0.1);
+  //
+	// --INPUT-SHADOW: #55b9ff80;
+	// --INPUT-SHADOW--IN: var(--COLOR--PRIMARY--LIGHT);
+
+  //
+
+  --GC-COLOR--PRIMARY: var(--COLOR--PRIMARY);
+  --GC-COLOR--PRIMARY--SHADE: var(--COLOR--PRIMARY--SHADE);
+  --GC-COLOR--PRIMARY--LIGHT: var(--COLOR--PRIMARY--LIGHT);
+  --GC-COLOR--PRIMARY--DARK: var(--COLOR--PRIMARY--DARK);
+  --GC-COLOR--PRIMARY--ULTRALIGHT: var(--COLOR--PRIMARY--ULTRALIGHT);
+
+  --GC-COLOR--ALT: var(--COLOR--ALT);
+  --GC-COLOR--ALT--LIGHT: var(--COLOR--ALT--LIGHT);
+  --GC-COLOR--ALT--DARK: var(--COLOR--ALT--DARK);
+
+  --GC-COLOR--GRADIENT--DEG: var(--COLOR--GRADIENT--DEG);
+	--GC-COLOR--GRADIENT--ONE: var(--COLOR--GRADIENT--ONE);
+	--GC-COLOR--GRADIENT--TWO: var(--COLOR--GRADIENT--TWO);
+	--GC-COLOR--GRADIENT--TEXT: var(--COLOR--GRADIENT--TEXT);
+	--GC-COLOR--GRADIENT--LINKS: var(--COLOR--GRADIENT--LINKS);
+  --GC-COLOR--GRADIENT--LINKS--HOVER: var(--COLOR--GRADIENT--LINKS--HOVER);
+	--GC-COLOR--GRADIENT: var(--COLOR--GRADIENT);
+
+  --GC-COLOR--INFO: var(--COLOR--INFO);
+	--GC-COLOR--INFO--LIGHT: var(--COLOR--INFO--LIGHT);
+	--GC-COLOR--INFO--ULTRALIGHT: var(--COLOR--INFO--ULTRALIGHT);
+	--GC-COLOR--INFO--DARK: var(--COLOR--INFO--DARK);
+  --GC-COLOR--SUCCESS: var(--COLOR--SUCCESS);
+	--GC-COLOR--SUCCESS--LIGHT: var(--COLOR--SUCCESS--LIGHT);
+	--GC-COLOR--SUCCESS--ULTRALIGHT: var(--COLOR--SUCCESS--ULTRALIGHT);
+	--GC-COLOR--SUCCESS--DARK: var(--COLOR--SUCCESS--DARK);
+	--GC-COLOR--WARNING: var(--COLOR--WARNING);
+	--GC-COLOR--WARNING--LIGHT: var(--COLOR--WARNING--LIGHT);
+	--GC-COLOR--WARNING--ULTRALIGHT: var(--COLOR--WARNING--ULTRALIGHT);
+	--GC-COLOR--WARNING--DARK: var(--COLOR--WARNING--DARK);
+	--GC-COLOR--ABORT: var(--COLOR--ABORT);
+	--GC-COLOR--ABORT--LIGHT: var(--COLOR--ABORT--LIGHT);
+	--GC-COLOR--ABORT--ULTRALIGHT: var(--COLOR--ABORT--ULTRALIGHT);
+	--GC-COLOR--ABORT--DARK: var(--COLOR--ABORT--DARK);
+
+  --GC-COLOR--APP: var(--COLOR--APP);
+  --GC-COLOR--APP--GRAY: var(--COLOR--APP--GRAY);
+  --GC-COLOR--APP--LIGHTGRAY: var(--COLOR--APP--LIGHTGRAY);
+  --GC-COLOR--APP--DARKGRAY: var(--COLOR--APP--DARKGRAY);
+
+  --GC-COLOR--HEADING: var(--COLOR--HEADING);
+  --GC-COLOR--TEXT: var(--COLOR--TEXT);
+  --GC-COLOR--TEXT--LIGHT: var(--COLOR--TEXT--LIGHT);
+  --GC-COLOR--TEXT--INVERT: var(--COLOR--TEXT--INVERT);
+
+  --GC-COLOR--LINK: var(--COLOR--LINK);
+  --GC-COLOR--LINK--HOVER: var(--COLOR--LINK-HOVER);
+  --GC-COLOR--LINK--FOCUS: var(--COLOR--LINK-FOCUS);
+
+  --GC-FONT-SIZE: 18px;
+  --GC-FONT-SIZE: var(--FONT-SIZE);
+  --GC-LINE-HEIGHT: 1.4;
+  --GC-LINE-HEIGHT: var(--LINE-HEIGHT);
+  --GC-FONT-FAMILY: var(--GC-FONT-FAMILY);
+
+	// HEADER
+	// --GC-HEADER-HEIGHT: 80px;
+	//--GC-HEADER-BG: var(--COLOR--APP);
+	//--GC-HEADER-FONT-SIZE: 100%;
+	//--GC-HEADER-MENU-FONT-SIZE: 90%;
+	// --GC-HEADER-MENU-TEXT-COLOR: var(--GC-COLOR--TEXT--LIGHT);
+	// --GC-HEADER-MENU-LINK-COLOR: var(--GC-COLOR--TEXT--LIGHT);
+	// --GC-HEADER-MENU-LINK-COLOR--HOVER: var(--GC-COLOR--TEXT);
+	// --GC-HEADER-MENU-LINK-COLOR--ACTIVE: var(--GC-HEADER-MENU-LINK-COLOR--HOVER);
+	// --GC-HEADER-MENU-LINK-INDICAOR: var(--GC-COLOR--PRIMARY--LIGHT);
+
+  --container: var(--c-gc-layout-width);
+
+  // CUSTOMIZER
+  --c-gc-body-bg: #f5f5f5;
+  --c-gc-body-bg-image-fixed: unset;
+  --c-gc-main-column: 2fr;
+  --c-gc-main-column-maxwidth: 100%;
+  --c-gc-layout-gap: var(--PADD--XL);
+
+  --c-gc-post-image-max-height: 100%;
+  --c-gc-blog-image-max-height: 100%;
+
+  --c-gc-header-bg: var(--COLOR--APP);
+  --c-gc-header-font-size: 100%;
+  --c-gc-header-menu-font-size: 100%;
+
+  --c-gc-header-logo-color: #333;
+  --c-gc-header-tagline-color: #555;
+
+  --c-gc-header-logo-height: 60px;
+  --c-gc-header-logo-height-mobile: 60px;
+
+  --c-gc-header-tagline-font-size: 90%;
+
+  --c-gc-header-sidebar-bg: var(--COLOR--APP);
+  --c-gc-header-sidebar-overlay-bg: var(--COLOR--APP);
+  --c-gc-header-sidebar-close-color: var(--COLOR--HEADING);
+  --c-gc-header-sidebar-arrow-color: var(--COLOR--TEXT--LIGHT);
+  --c-gc-header-sidebar-logo-height: 60px;
+  --c-gc-header-sidebar-logo-bg: var(--COLOR--APP);
+  --c-gc-header-sidebar-logo-text-color: var(--COLOR--HEADING);
+  --c-gc-header-sidebar-logo-font-size: 150%;
+  --c-gc-header-sidebar-menu-links-color: var(--COLOR--TEXT);
+  --c-gc-header-sidebar-menu-bg: var(--COLOR--APP);
+  --c-gc-header-sidebar-menu-font-size: 100%;
+  --c-gc-header-sidebar-above-menu-text-color: var(--COLOR--TEXT);
+  --c-gc-header-sidebar-above-menu-links-color: var(--COLOR--LINK);
+  --c-gc-header-sidebar-above-menu-bg: var(--COLOR--APP);
+  --c-gc-header-sidebar-under-menu-text-color: var(--COLOR--TEXT);
+  --c-gc-header-sidebar-under-menu-links-color: var(--COLOR--LINK);
+  --c-gc-header-sidebar-under-menu-bg: var(--COLOR--APP);
+  --c-gc-header-sidebar-menu-active-link-color: var(--COLOR--PRIMARY);
+  --c-gc-header-sidebar-menu-active-indicator-color: var(--COLOR--PRIMARY);
+
+  --c-gc-header-search-vis: block;
+  --c-gc-header-search-vis-mobile: block;
+
+  --c-gc-footer-bg: var(--COLOR--APP);
+  --c-gc-footer-text-color: var(--COLOR--TEXT);
+  --c-gc-footer-text-color-light: var(--COLOR--TEXT--LIGHT);
+  --c-gc-footer-links-color: var(--COLOR--LINK);
+  --c-gc-footer-links-color-hover: var(--COLOR--LINK-HOVER);
+
+  --c-gc-sidebar-left-width: 1fr;
+  --c-gc-sidebar-right-width: 1fr;
+  --c-gc-sidebar-widgets-gap: var(--PADD--XL);
+
+  --c-gc-widget-bg: var(--COLOR--APP);
+  --c-gc-widget-text-color: var(--COLOR--TEXT);
+  // --c-gc-widget-links-color: var(--COLOR--LINK);
+  // --c-gc-widget-links-color-hover: var(--COLOR--LINK--HOVER);
+
+  --c-gc-sticky-bar-under-bg: var(--COLOR--APP);
+  --c-gc-sticky-bar-under-text-color: var(--COLOR--TEXT--LIGHT);
+  --c-gc-sticky-bar-under-link-color: var(--COLOR--TEXT);
+  --c-gc-sticky-bar-under-link-color-hover: var(--COLOR--TEXT--LIGHT);
+  --c-gc-sticky-bar-under-font-size: 100%;
+  --c-gc-sticky-bar-under-add-padd: 0;
+  --c-gc-sticky-bar-under-vis: block;
+  --c-gc-sticky-bar-under-vis-mobile: block;
+
+  --c-gc-sticky-bar-above-bg: var(--COLOR--APP);
+  --c-gc-sticky-bar-above-text-color: var(--COLOR--TEXT--LIGHT);
+  --c-gc-sticky-bar-above-link-color: var(--COLOR--TEXT);
+  --c-gc-sticky-bar-above-link-color-hover: var(--COLOR--TEXT--LIGHT);
+  --c-gc-sticky-bar-above-font-size: 100%;
+  --c-gc-sticky-bar-above-add-padd: 0;
+  --c-gc-sticky-bar-above-vis: block;
+  --c-gc-sticky-bar-above-vis-mobile: block;
+
+  --c-gc-sticky-bar-mobile-bg: var(--COLOR--APP);
+  --c-gc-sticky-bar-mobile-text-color: var(--COLOR--TEXT--LIGHT);
+  --c-gc-sticky-bar-mobile-link-color: var(--COLOR--TEXT);
+  --c-gc-sticky-bar-mobile-link-color-hover: var(--COLOR--TEXT--LIGHT);
+  --c-gc-sticky-bar-mobile-font-size: 100%;
+  --c-gc-sticky-bar-mobile-add-padd: 0;
+
+  --c-gc-landing-footer-widgets-vis: none;
+  --c-gc-landing-footer-social-widgets-vis: none;
+
+  --widget--gradient-deg:             var(--COLOR--GRADIENT--DEG);
+  --widget--gradient-bg:              var(--COLOR--PRIMARY--LIGHT);
+  --widget--gradient-bg-2:            var(--COLOR--ALT--LIGHT);
+  --widget--gradient-color:           var(--COLOR--GRADIENT--TEXT);
+  --widget--gradient-links:           var(--COLOR--GRADIENT--LINKS);
+  --widget--gradient-links-hover:     var(--COLOR--GRADIENT--LINKS--HOVER);
+
+  font-family: var(--GC-FONT-FAMILY);
+  font-size: var(--GC-FONT-SIZE);
+
+  --INPUT-SHADOW: var(--COLOR--PRIMARY--ULTRALIGHT);
+	--INPUT-SHADOW--IN: var(--COLOR--PRIMARY--LIGHT);
+}
+
+body.gc-theme--dark {
+  --COLOR--APP: #191919;
+  --COLOR--APP--GRAY: #222;
+  --COLOR--APP--LIGHTGRAY: #121212;
+  --COLOR--APP--DARKGRAY: #1a1a1a;
+  --COLOR--APP--DARK: #46494f;
+  --COLOR--APP--DARKER: #202124;
+  --COLOR--TEXT: #f9f9f9;
+  --COLOR--TEXT--LIGHT: #8c8c8c;
+  --COLOR--HEADING: #fff;
+  --c-gc-body-bg: #111;
+  --BOX-SHADOW--HARD: 0 0 0 1px rgba(0, 0, 0, 0.15);
+	--BOX-SHADOW: 0 1px 2px rgba(0, 0, 0, 0.18);
+	--BOX-SHADOW--MD: 0 0 20px rgba(0, 0, 0, 0.25);
+	--BOX-SHADOW--XL: 0 20px 30px rgba(0, 0, 0, 0.2);
+  --c-ps-checkbox-border: rgba(255,255,255, .1);
+}
+
+.gc-theme__toggle {
+  position: fixed;
+  z-index: 100;
+  left: 50px;
+  bottom: 50px;
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  color: var(--GC-COLOR--WARNING);
+  background-color: var(--GC-COLOR--APP);
+  box-shadow: var(--BOX-SHADOW--MD);
+  border-radius: 100%;
+  box-shadow: 0 0 0 2px var(--GC-COLOR--WARNING);
+
+  &:hover {
+    color: var(--GC-COLOR--WARNING--DARK);
+  }
+
+  .gc-theme--dark & {
+    color: var(--GC-COLOR--TEXT--LIGHT);
+    box-shadow: 0 0 0 2px var(--GC-COLOR--APP--GRAY);
+
+    &:hover {
+      color: var(--GC-COLOR--TEXT);
+    }
+
+    > i {
+      font-weight: normal;
+    }
+  }
+}

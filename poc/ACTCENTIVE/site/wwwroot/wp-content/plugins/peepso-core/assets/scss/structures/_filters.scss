@@ -1,0 +1,44 @@
+//
+//  FILTERS
+//
+
+
+
+.ps-filters {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -($padd / 2);
+  margin-right: -($padd / 2);
+  margin-bottom: ($padd / 2);
+}
+
+
+.ps-filters__item {
+  flex-grow: 1;
+  padding-left: ($padd / 2);
+  padding-right: ($padd / 2);
+  padding-bottom: $padd;
+
+  @include media('large') {
+    max-width: 33.33%;
+  }
+}
+
+
+.ps-filters__item-label {
+  display: block;
+  margin-bottom: 2px;
+  line-height: 1.4;
+
+  + .ps-select,
+  + .ps-input {
+    width: 100%;
+  }
+
+  + .ps-checkbox {
+    margin-top: 10px;
+  }
+}
+
+
+.ps-filters__item--custom {}

@@ -1,0 +1,23 @@
+.psw-ulimits {}
+
+.psw-ulimits__progress {}
+
+.psw-ulimits__progress-message {
+  margin-bottom: var(--PADD);
+  font-size: 80%;
+  text-align: center;
+  color: var(--PS-COLOR--TEXT--LIGHT);
+
+  > a {
+    color: var(--PS-COLOR--TEXT--LIGHT);
+
+    &:hover,
+    &:focus {
+      color: var(--PS-COLOR--TEXT);
+    }
+  }
+}
+
+.psw-ulimits__progress-bar {
+  @include c-progress;
+}

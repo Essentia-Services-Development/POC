@@ -1,0 +1,97 @@
+<wpml-config>
+	<admin-texts>
+	 <key name="rehub_option">
+		  <key name="rehub_logo" />	
+		  <key name="rehub_logo_retina" />
+		  <key name="rehub_logo_sticky_url" />
+		  <key name="rehub_logo_inmenu_url" />
+		  <key name="logo_mobilesliding" />
+		  <key name="header_six_btn_txt" />	 
+		  <key name="header_six_btn_url" />	 
+		  <key name="header_seven_login_label" />
+		  <key name="header_seven_compare_btn_label" />
+		  <key name="header_seven_wishlist_label" />
+		  <key name="wishlistpage" />
+		  <key name="rehub_text_logo" />
+		  <key name="rehub_text_slogan" />
+		  <key name="rehub_newstick_label" />
+		  <key name="rehub_footer_text" />
+		  <key name="rehub_homecarousel_label_text" />
+		  <key name="rehub_btn_text" />
+		  <key name="rehub_btn_text_aff_links" />
+		  <key name="rehub_mask_text" />
+		  <key name="rehub_review_text" />
+		  <key name="rehub_readmore_text" />
+		  <key name="rehub_search_text" />
+		  <key name="rehub_btn_text_best" />
+		  <key name="rehub_choosedeal_text" />
+		  <key name="rehub_related_text" />
+		  <key name="rehub_commenttitle_text" />
+		  <key name="ce_custom_currency" />
+		  <key name="buy_best_text" />
+		  <key name="amp_custom_in_header" />
+		  <key name="rh_bp_user_post_name" />
+		  <key name="rh_bp_user_product_name" />
+		  <key name="rh_bp_custom_message_profile" />	  	  	  	  
+		  <key name="badge_label_1" />
+		  <key name="badge_label_2" />
+		  <key name="badge_label_3" />
+		  <key name="badge_label_4" />
+		  <key name="header_seven_more_element" />
+		  <key name="rehub_user_rev_criterias" />
+		  <key name="compare_page" />
+		  <key name="compare_multicats_textarea" />
+		  <key name="rehub_single_code" />
+		  <key name="rehub_single_before_post" />
+		  <key name="custom_register_link" />
+		  <key name="woo_code_zone_button" />
+		  <key name="woo_code_zone_content" />
+		  <key name="woo_code_zone_footer" />
+		  <key name="woo_code_zone_float" />
+		  <key name="woo_code_zone_loop" />
+		  <key name="rh_woo_shop_global" />
+		  <key name="footer_template" />
+		  <key name="rehub_header_style" />
+		  <key name="rehub_top_line_content" />
+		  <key name="blog_posttype_label" />
+	  </key>	  	  	  	  
+	</admin-texts>  
+	<custom-types>
+		<custom-type translate="1" display-as-translated="1">blog</custom-type>
+	</custom-types>
+	<taxonomies>
+ 		<taxonomy translate="1">store</taxonomy>
+		<taxonomy translate="1">blog_category</taxonomy>
+		<taxonomy translate="1">blog_tag</taxonomy>
+	</taxonomies>
+	<custom-fields>
+	<custom-field action="ignore">rehub_views</custom-field>
+	<custom-field action="ignore">rehub_views_year</custom-field>
+	<custom-field action="ignore">rehub_views_mon</custom-field>
+	<custom-field action="ignore">rehub_views_day</custom-field>
+	<custom-field action="ignore">post_user_raitings</custom-field>
+	<custom-field action="ignore">post_user_average</custom-field>
+	<custom-field action="ignore">post_user_raitings</custom-field>
+	<custom-field action="ignore">rehub_framework_post_type</custom-field>
+	<custom-field action="ignore">rehub_review_overall_score</custom-field>
+	<custom-field action="ignore">review_post</custom-field>
+	<custom-field action="ignore">review_woo_shortcode</custom-field>
+	<custom-field action="ignore">review_post</custom-field>
+	<custom-field action="ignore">rehub_review_editor_score</custom-field>
+	<custom-field action="translate" style="textarea">rh_product_video</custom-field>
+	<custom-field action="translate" style="textarea">rh_code_incart</custom-field>
+	<custom-field action="translate" style="textarea">rehub_woodeals_short</custom-field>
+	<custom-field action="translate" style="textarea">woo_code_zone_footer</custom-field>
+	<custom-field action="translate" style="textarea">rehub_offer_product_desc</custom-field>
+	<custom-field action="translate" style="textarea">rehub_offer_disclaimer</custom-field>
+	<custom-field action="translate" style="line">rehub_offer_product_price_old</custom-field>
+	<custom-field action="translate" style="line">rehub_offer_product_price</custom-field>
+	<custom-field action="translate" style="line">rehub_offer_product_coupon</custom-field>
+	<custom-field action="translate" style="line">rehub_offer_btn_text</custom-field>
+	<custom-field action="translate" style="line">rehub_offer_discount</custom-field>
+	<custom-field action="translate" style="line">rehub_offer_name</custom-field>
+	<custom-field action="copy-once">_woo_code_bg</custom-field>
+	<custom-field action="copy-once">rh_td_model</custom-field>
+	<custom-field action="copy-once">rh_td_model_usdz</custom-field>
+	</custom-fields>
+</wpml-config>

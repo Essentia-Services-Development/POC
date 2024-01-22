@@ -1,0 +1,226 @@
+.ps-notifications--notifs {
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.ps-notifications {
+  // Full height notif box on mobile
+  @include mq($until: desktop) {
+    max-height: unset !important;
+    height: 65vh;
+  }
+
+  .ps-navbar & {
+    @include mq($until: desktop) {
+      height: 58vh;
+    }
+  }
+}
+
+//
+//  NOTIF COMPONENT
+//
+
+//  Notif wrapper
+@mixin ps-notifs {
+  --gap: var(--PADD);
+  --bubble-bg: var(--c-ps-bubble-bg);
+  --bubble-color: var(--c-ps-bubble-color);
+  --bubble-font-size: 10px;
+
+  display: flex;
+}
+
+.ps-notifs {
+  @include ps-notifs;
+}
+
+.ps-notif {
+  @if $rtl {
+    margin-left: var(--gap);
+  } @else {
+    margin-right: var(--gap);
+  }
+
+  &:last-child {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  @include mq($from: desktop) {
+    position: relative;
+  }
+}
+
+.ps-notif__toggle {
+  display: block;
+  padding: var(--PADD--SM);
+  color: var(--PS-COLOR--TEXT--LIGHT);
+
+  @if $comp_mode {
+    color: var(--PS-COLOR--TEXT--LIGHT) !important;
+  }
+
+  &:hover,
+  &:focus {
+    color: var(--PS-COLOR--TEXT);
+
+    @if $comp_mode {
+      color: var(--PS-COLOR--TEXT) !important;
+    }
+  }
+}
+
+.ps-notif__box {
+  position: absolute;
+  z-index: 100;
+  top: 100%;
+  right: 0;
+  display: none;
+  width: 400px;
+  font-size: var(--PS-FONT-SIZE);
+  color: var(--PS-COLOR--TEXT--LIGHT);
+  background-color: var(--PS-COLOR--APP);
+  border-radius: var(--BORDER-RADIUS--MD);
+  box-shadow: var(--BOX-SHADOW--MD);
+
+  #wp-toolbar & {
+    position: absolute !important;
+    z-index: 100 !important;
+    top: 100% !important;
+    right: 0 !important;
+    width: 400px !important;
+  }
+
+  @include mq($until: desktop) {
+    left: 0 !important;
+    right: 0 !important;
+    width: 100%;
+  }
+}
+
+.ps-notif__box-header {
+  display: flex;
+  justify-content: space-between;
+  font-size: 70%;
+  border-bottom: 1px solid var(--DIVIDER--LIGHT);
+}
+
+.ps-notif__box-title {
+  padding: var(--PADD--SM) var(--PADD);
+  font-weight: bold;
+}
+
+.ps-notif__box-actions {
+  padding: var(--PADD--SM) var(--PADD);
+
+  .ps-notif__box-header & {
+    a {
+      color: var(--PS-COLOR--TEXT--LIGHT);
+
+      @include mq($from: tablet) {
+        &:hover,
+        &:focus {
+          color: var(--PS-COLOR--TEXT);
+        }
+      }
+    }
+  }
+}
+
+.ps-notif__bubble {
+  position: absolute;
+  top: calc(-1 * var(--PADD--SM));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 2px;
+  min-width: 17px;
+  height: 16px;
+  font-size: var(--bubble-font-size);
+  line-height: 1;
+  color: var(--bubble-color);
+  background-color: var(--bubble-bg);
+  border-radius: 4px;
+  box-shadow: 0 2px 2px rgba(0,0,0, .1);
+
+  @if $rtl {
+    left: 50%;
+    transform: translateX(calc(-1 * var(--PADD--MD)));
+  } @else {
+    right: 50%;
+    transform: translateX(var(--PADD--MD));
+  }
+
+  &:empty {
+    display: none;
+    padding: 0;
+  }
+
+  .ps-navbar & {
+    top: 0;
+  }
+}
+
+.ps-notifs__errors {}
+
+.ps-notifs__error {
+  margin-bottom: var(--PADD);
+  padding: var(--PADD);
+  font-size: 90%;
+  color: var(--PS-COLOR--TEXT--LIGHT);
+  text-align: center;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.ps-notif__box-footer {
+  display: flex;
+  padding: var(--PADD--SM);
+  font-size: 80%;
+
+  .ps-notif__box & {
+    a {
+      flex-grow: 1;
+      display: block;
+      padding: var(--PADD);
+      color: var(--PS-COLOR--TEXT);
+      box-shadow: inset 0 0 0 1px var(--DIVIDER--LIGHT);
+      border-radius: var(--BORDER-RADIUS);
+
+      @if $rtl {
+        margin-left: var(--PADD--SM);
+      } @else {
+        margin-right: var(--PADD--SM);
+      }
+
+      text-align: center;
+
+      &:hover,
+      &:focus {
+        color: var(--PS-COLOR--TEXT);
+        background-color: var(--DIVIDER--LIGHT);
+        box-shadow: none;
+      }
+
+      &:last-child {
+        margin-left: 0;
+        margin-right: 0;
+      }
+    }
+  }
+}
+
+.ps-notif--friends {
+  order: 1;
+}
+
+.ps-notif--messages {
+  order: 2;
+}
+
+.ps-notif--general {
+  order: 3;
+}

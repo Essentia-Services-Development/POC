@@ -1,0 +1,734 @@
+//
+//  POSTBOX COMPONENT
+//
+
+
+
+.ps-postbox {
+  position: relative;
+  margin-bottom: $padd--med;
+  background-color: $scss-postbox-bg;
+
+  // ROUNDED CORNERS
+  @if $scss-rounded == true {
+    border-radius: 6px;
+  }
+}
+
+
+.ps-postbox-content {
+  width: 100%;
+  min-height: 55px;
+  border-top: 3px solid $scss-postbox-tab-bg;
+  border-left: 3px solid $scss-postbox-tab-bg;
+  border-right: 3px solid $scss-postbox-tab-bg;
+
+  // ROUNDED CORNERS
+  @if $scss-rounded == true {
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+  }
+}
+
+
+.ps-postbox-status {
+  position: relative;
+  padding: $padd--med;
+  background-color: $postbox-status-bg;
+}
+
+
+.ps-postbox-charcount,
+.ps-charcount--input {
+  position: absolute;
+  top: 0;
+  padding: 0 4px;
+  background-color: $scss-postbox-tab-bg;
+  color: $scss-postbox-tab-color;
+  font-size: ($font-size-base / 1.5);
+  line-height: 16px;
+  transition: all .25s ease-in-out;
+
+  @if $scss-direction == rtl {
+    left: 0;
+  } @else {
+    right: 0;
+  }
+}
+
+
+.ps-postbox-input {
+  position: relative;
+  width: 100%;
+  min-height: 35px;
+
+  .ps-tagging-dropdown {
+    margin-top: 8px;
+  }
+}
+
+
+.ps-postbox-textarea {
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  background-color: transparent !important;
+  border: none !important;
+  font-size: $font-size-alt;
+  line-height: $line-height-base;
+  color: $scss-postbox-color;
+  resize: none;
+  outline: none;
+
+  &:focus {
+    background-color: transparent;
+    color: $scss-postbox-color;
+  }
+}
+
+
+.ps-postbox-mirror {
+  color: transparent;
+  display: inline-block;
+  font-family: inherit;
+  font-size: $font-size-alt;
+  font-weight: normal;
+  line-height: $line-height-base;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+
+.ps-postbox-action {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+
+  @if $scss-direction == rtl {
+    left: 0;
+  } @else {
+    right: 0;
+  }
+}
+
+
+.ps-postbox-loading {
+  position: absolute;
+  top: 10px;
+
+  @if $scss-direction == rtl {
+    left: 10px;
+  } @else {
+    right: 10px;
+  }
+}
+
+
+.ps-postbox-tab {
+  position: relative;
+  background-color: $scss-postbox-tab-bg;
+  font-size: $font-size-sm;
+
+  // ROUNDED CORNERS
+  @if $scss-rounded == true {
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+  }
+
+  > .ps-postbox__menu > .ps-postbox__menu-item > a,
+  > .ps-postbox__menu > .ps-postbox__menu-item > .interaction-icon-wrapper > a {
+    display: block;
+    padding: ($padding-sm / 1.1) ($padding-sm / 1.5);
+    font-size: $font-size-sm;
+    line-height: $line-height-sm;
+
+    &:hover,
+    &:focus {
+      background-color: $scss-postbox-tab-bg-hover;
+    }
+
+    > span {
+      line-height: 1 !important;
+      vertical-align: middle;
+
+      &.ps-icon-html-privacy {
+        display: none;
+
+        @include media('medium') {
+          display: inline-block;
+        }
+      }
+    }
+  }
+
+  .ps-postbox__menu-item.active > a {
+    background-color: $scss-postbox-tab-bg-hover;
+    color: $scss-postbox-tab-color-hover;
+  }
+
+  [class^="ps-icon"] {
+    fill: $scss-postbox-tab-color;
+    line-height: 1.4em;
+    vertical-align: middle;
+  }
+
+  .ps-dropdown-trigger {
+    position: static;
+  }
+}
+
+
+.ps-postbox-tabs {
+  color: $scss-postbox-color;
+
+  > div {
+    border-bottom: $postbox-tabs-border;
+    padding: $padding-sm $padding-sm 0;
+    display: none;
+    margin-bottom: -1px;
+  }
+
+  [data-tab-id="giphy"] {
+    padding: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+    > div {
+      padding: 0 !important;
+    }
+  }
+
+  .ps-giphy--slider {
+    padding: 0;
+  }
+
+  .ps-giphy__search {
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    border-bottom: $divider-dashed;
+
+    > input {
+      background-color: transparent;
+      border: none;
+
+      &:focus {
+        background-color: transparent;
+        border: none;
+      }
+    }
+  }
+
+  .ps-giphy__powered--slider {
+    position: static;
+    margin-top: 5px !important;
+  }
+}
+
+
+.ps-postbox-tab-more {
+  border-bottom: $postbox-tabs-border;
+}
+
+
+.ps-postbox-dropdown {
+  position: absolute;
+  z-index: map-get($zindex, dropdown);
+  top: 100%;
+  left: 2%;
+  width: 96%;
+  padding: $padding-sm;
+  border: $dropdown-border;
+  background-color: $dropdown-bg;
+
+  // ROUNDED CORNERS
+  @if $scss-rounded == true {
+    border-radius: 6px;
+  }
+}
+
+
+.ps-postbox-photo-upload {
+  padding-bottom: $padding-sm;
+  font-size: $font-size-base;
+  line-height: $line-height-base;
+  text-align: center;
+  cursor: pointer;
+
+  > span {
+    display: block;
+    margin-top: $padding-sm;
+    margin-bottom: 0;
+    color: $color-text-light;
+    font-size: $font-size-sm;
+    line-height: $line-height-sm;
+  }
+}
+
+
+.ps-postbox-info {
+  > span {
+    display: inline-block;
+    vertical-align: middle;
+  }
+}
+
+
+.ps-postbox-photo-progress {
+  background: $color-primary;
+  height: 6px;
+}
+
+
+.ps-postbox-photo-progressbar {
+  position: absolute;
+  left: 2px;
+  right: 7px;
+  bottom: 7px;
+  height: 6px;
+}
+
+
+.ps-postbox-photo-item {
+  position: relative;
+  float: left;
+  width: 16.6%;
+  height: 0;
+  margin: 0;
+  padding-bottom: 16.6%;
+
+  @if $scss-direction == rtl {
+    float: right;
+  } @else {
+    float: left;
+  }
+
+  .img-wrapper {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 1px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    border: $postbox-img-border;
+    background-color: $postbox-img-bg;
+    cursor: move;
+
+    @extend %box-shadow;
+
+    canvas {
+      width: 100%;
+    }
+  }
+}
+
+
+.ps-postbox-photo-item-add {
+  position: relative;
+  width: 16.6%;
+  height: 0;
+  margin: 0;
+  padding-bottom: 16.6%;
+
+  @if $scss-direction == rtl {
+    float: right;
+  } @else {
+    float: left;
+  }
+
+  span {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 1px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    border: $postbox-img-border;
+    border-style: dashed;
+    cursor: pointer;
+    font-size: 30px;
+
+    @extend %box-shadow;
+
+    i {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
+}
+
+
+.ps-postbox-photo-action {
+  position: absolute;
+  top: 1px;
+  right: 6px;
+  padding: 5px;
+  color: $postbox-img-action-color;
+  background-color: $postbox-img-action-bg;
+  text-align: center;
+
+  @extend %box-shadow;
+}
+
+
+.ps-postbox-photo-remove {
+  cursor: pointer;
+}
+
+
+.ps-postbox-photo-preview {
+  padding-bottom: $padding-base;
+  margin-bottom: $padding-sm;
+}
+
+
+.ps-postbox-location {
+  position: relative;
+
+  input[type="text"] {
+    width: 100%;
+    margin-bottom: 0;
+  }
+
+  .ps-location-action {
+    position: absolute;
+    top: $padding-sm;
+    right: $padding-sm;
+    width: auto;
+  }
+}
+
+
+.ps-postbox-locations {
+  @extend %ps-list;
+
+  overflow-y: scroll;
+  max-height: 150px;
+  margin-top: $padding-sm;
+
+  p {
+    font-weight: bold;
+  }
+
+  > li {
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-bottom: $dropdown-separator;
+    cursor: pointer;
+
+    &:hover {
+      background-color: $dropdown-item-bg-hover;
+    }
+
+    &:last-child {
+      border: none;
+    }
+  }
+
+  &:empty {
+    display: none;
+  }
+}
+
+
+.ps-postbox-map {
+  display: none;
+  width: 100%;
+  height: 200px;
+  margin-bottom: $padding-sm;
+}
+
+
+.ps-postbox-location-compact {
+  .ps-postbox-locmap {
+    min-height: 204px;
+
+    .ps-postbox-map {
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      width: 40%;
+      background-color: $scss-postbox-tab-bg;
+    }
+
+    .ps-postbox-locct {
+      width: 58%;
+    }
+  }
+}
+
+
+.ps-postbox-privacy {
+  left: 0;
+  right: 0;
+  width: 100%;
+
+  @include media('medium') {
+    left: auto;
+    right: auto;
+    max-width: 300px;
+  }
+
+  p {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: bold;
+    line-height: $line-height-base;
+  }
+}
+
+
+.ps-postbox-preview {
+  .ps-media-video {
+    margin-bottom: $padding-sm;
+  }
+}
+
+
+//
+//  NEW POSTBOX
+//
+.ps-postbox__tabs {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.ps-postbox__action {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+
+  @if $scss-direction == rtl {
+    left: 0;
+  } @else {
+    right: 0;
+  }
+
+  // ROUNDED CORNERS
+  @if $scss-rounded == true {
+    overflow: hidden;
+
+    @if $scss-direction == rtl {
+      border-bottom-left-radius: 6px;
+    } @else {
+      border-bottom-right-radius: 6px;
+    }
+  }
+}
+
+
+.ps-postbox__menu {
+  display: flex;
+  min-height: 32px;
+}
+
+
+.ps-postbox__menu-item {
+  a {
+    color: $scss-postbox-tab-color !important;
+
+    &:hover {
+      color: $scss-postbox-tab-color-hover !important;
+    }
+  }
+
+  // ROUNDED CORNERS
+  @if $scss-rounded == true {
+    &:first-child {
+      > div > a {
+        @if $scss-direction == rtl {
+          border-bottom-right-radius: 6px;
+        } @else {
+          border-bottom-left-radius: 6px;
+        }
+      }
+    }
+  }
+}
+
+.ps-postbox__menu-item--type {
+  a {
+    @if $scss-direction == rtl {
+      border-left: $divider;
+    } @else {
+      border-right: $divider;
+    }
+
+    @include media('medium') {
+      border: none;
+    }
+
+    > i {
+      display: none;
+      position: relative;
+      opacity: .5;
+      transition: opacity .3s ease;
+
+      &.active {
+        display: inline-block;
+        opacity: 1;
+
+        &:after {
+          content: "\e818";
+          font-family: 'peepso';
+          font-style: normal;
+          display: inline-block;
+          margin-right: 3px;
+          margin-left: 3px;
+
+          @include media('medium') {
+            display: none;
+          }
+        }
+      }
+
+      @include media('medium') {
+        display: inline-block;
+      }
+    }
+  }
+}
+
+
+.ps-postbox__menu--tabs {}
+
+
+.ps-postbox__menu--interactions {
+  .ps-postbox__menu-item {
+    @if $scss-direction == rtl {
+      margin-left: 1px;
+    } @else {
+      margin-right: 1px;
+    }
+
+    &.active {
+      box-shadow: inset 0 -3px 0 rgba(0,0,0, .1);
+    }
+  }
+}
+
+
+.ps-postbox--messages {
+  // ROUNDED CORNERS
+  @if $scss-rounded == true {
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+  }
+
+  .ps-postbox__action {
+    flex-wrap: wrap;
+
+    @include media('small') {
+      position: static;
+      justify-content: flex-end;
+    }
+  }
+}
+
+
+.ps-postbox--edit {
+  margin-bottom: 0;
+
+  .ps-postbox__action {
+    position: static;
+  }
+}
+
+
+.ps-postbox__separator {
+  text-align: center;
+  border-top: $divider;
+  border-width: 2px;
+
+  > span {
+    display: inline-block;
+    padding: 0 5px;
+    transform: translateY(-50%);
+    text-transform: uppercase;
+    color: $color-text-light;
+    background-color: $scss-postbox-bg;
+  }
+}
+
+.ps-postbox__schedule {
+  display: none;
+}
+
+.ps-postbox__schedule-form {
+  display: flex;
+  align-items: flex-end;
+  flex-wrap: wrap;
+}
+
+.ps-postbox__schedule-date {
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  width: 100%;
+  margin-top: $padd;
+}
+
+.ps-postbox__schedule-time {
+  display: flex;
+  flex-grow: 3;
+  flex-wrap: wrap;
+  margin-top: $padd;
+
+  @if $scss-direction == rtl {
+    margin-left: $padd;
+  } @else {
+    margin-right: $padd;
+  }
+}
+
+.ps-postbox__schedule-label {
+  display: block;
+  width: 100%;
+  margin-bottom: ($padd / 2);
+  color: $color-text-light;
+}
+
+.ps-postbox__schedule-select {
+  flex-grow: 1;
+
+  @if $scss-direction == rtl {
+    margin-left: ($padd / 2);
+  } @else {
+    margin-right: ($padd / 2);
+  }
+
+  &:last-child {
+    margin: 0;
+  }
+}
+
+.ps-postbox__schedule-actions {
+  flex-grow: 0;
+  margin-top: $padd;
+
+  .ps-btn {
+    padding-top: $padding-sm !important;
+    padding-bottom: $padding-sm !important;
+  }
+}
+
+.ps-dropdown__menu--schedule {
+  left: 0;
+  right: 0;
+  width: 100%;
+
+  @include media('medium') {
+    left: auto;
+    right: auto;
+    max-width: 300px;
+  }
+}

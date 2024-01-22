@@ -1,0 +1,20 @@
+/* ELEMENTOR */
+.elementor-widget-container .woocommerce .products, .elementor-widget-container .post_carousel_block, .elementor-widget-container .woo_carousel_block, .elementor-widget-container .wpsm_featured_wrap, .elementor-widget-container .news_block, .elementor-widget-container .news_two_col_block, .elementor-widget-container .top_theme, .elementor-widget-container .countdown_dashboard, .elementor-widget-container .gridcountdown .countdown_dashboard, .elementor-widget-container .wpsm_box, .elementor-widget-container .wpsm-titlebox, .elementor-widget-container .wpsm-banner-wrapper, .elementor-widget-container .elementor-widget-wpsm_versus{margin-bottom: 0; margin-top: 0}
+.rh-fullbrowser .elementor-inner, .rh-fullbrowser .post > .elementor{overflow: hidden}
+.elementor-widget-container .custom_search_box{padding: 0}
+.elementor-widget.elementor-widget-wpsm_TabsEvery{margin-bottom: 12px}
+.elementor a.rh-cartbox{box-shadow: rgba(0,0,0,0.15) 0px 1px 2px;}
+.rh-elementor-sticky-true>.elementor-container>.elementor-column{align-self: flex-start; padding-top: 0px}
+.rh-parallax-bg-true, .rh-main-bg-hover .elementor-widget-container a{transition: opacity 0.8s linear !important}
+.elementor-widget-heading b, .elementor-widget-text-editor b{font-weight: bold;}
+.elementor-editor-active .prehidden, .elementor-editor-preview .prehidden{opacity:1; visibility: visible;}
+@media (min-width: 768px){
+	body .elementor-column.el-col250{width: 250px}
+	body .elementor-column.el-calc250{width: calc(100% - 250px);}
+	body .elementor-column.el-col300{width: 300px}
+	body .elementor-column.el-calc300{width: calc(100% - 300px);}
+	body .elementor-column.el-col336{width: 336px}
+	body .elementor-column.el-calc336{width: calc(100% - 336px);}	
+}
+.particles-js-canvas-el{position: absolute; top: 0; left: 0; right: 0; bottom: 0; z-index: 0}
+.rh-gsap-wrap, .rh-prlx-mouse, .rhforce3d{perspective: 500px}

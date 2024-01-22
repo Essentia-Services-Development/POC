@@ -1,0 +1,116 @@
+.widget.widget_nav_menu,
+.gc-widget.widget_nav_menu {
+  padding-left: 0;
+  padding-right: 0;
+
+  .gc-widget__title {
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+  }
+
+  .menu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 80%;
+    line-height: 1.2;
+
+    a {
+      color: var(--GC-COLOR--TEXT);
+
+      &:hover,
+      &:focus {
+        color: var(--GC-COLOR--TEXT);
+        background-color: var(--GC-COLOR--APP--LIGHTGRAY);
+      }
+    }
+
+    > li {
+      margin: 0;
+      padding: 0;
+      list-style-type: none;
+      border-bottom: 1px solid var(--DIVIDER--LIGHT);
+
+      > a {
+        display: block;
+        padding: var(--PADD) var(--PADD--MD);
+      }
+
+      &:last-child {}
+
+      ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        line-height: 1.2;
+
+        &.sub-menu {
+          @if $rtl {
+            margin-right: var(--PADD);
+          } @else {
+            margin-left: var(--PADD);
+          }
+
+          li {
+            > a {
+              @if $rtl {
+                padding-right: var(--PADD--MD);
+              } @else {
+                padding-left: var(--PADD--MD);
+              }
+
+              box-shadow: none;
+            }
+          }
+        }
+
+        li {
+          margin: 0;
+          padding: 0;
+          list-style-type: none;
+          border-top: 1px solid var(--DIVIDER--LIGHT);
+
+          > a {
+            display: block;
+            padding: var(--PADD) var(--PADD--MD);
+
+            @if $rtl {
+              padding-right: var(--PADD--XL);
+              box-shadow: inset 4px 0 0 var(--GC-COLOR--APP--GRAY);
+            } @else {
+              padding-left: var(--PADD--XL);
+              box-shadow: inset 4px 0 0 var(--GC-COLOR--APP--GRAY);
+            }
+          }
+
+          &:last-child {}
+        }
+      }
+    }
+  }
+
+  &.gc-widget--clean {
+    .menu {
+      a {
+        color: var(--GC-COLOR--TEXT--LIGHT);
+
+        &:hover,
+        &:focus {
+          color: var(--GC-COLOR--TEXT);
+          background-color: transparent;
+        }
+      }
+
+      > li {
+        border-bottom: none;
+
+        > a {
+          padding: var(--PADD) 0;
+        }
+
+        &:last-child {}
+      }
+    }
+  }
+}

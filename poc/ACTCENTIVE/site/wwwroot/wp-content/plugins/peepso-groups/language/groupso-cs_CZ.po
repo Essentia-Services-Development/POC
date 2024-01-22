@@ -1,0 +1,1847 @@
+# Translation of PeepSo - Groups in Czech
+# This file is distributed under the same license as the PeepSo - Groups package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-02-02 12:09:22+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n >= 2 && n <= 4) ? 1 : 2);\n"
+"X-Generator: GlotPress/3.0.0\n"
+"Language: cs_CZ\n"
+"Project-Id-Version: PeepSo - Groups\n"
+
+#: classes/admin/configsectiongroups.php:515
+msgid "Allow groups to override this setting"
+msgstr ""
+
+#: classes/admin/configsectiongroups.php:501
+#: templates/groups/group-settings.php:450
+msgid "Members tab"
+msgstr ""
+
+#: classes/admin/configsectiongroups.php:459
+msgid "Allow group managers to pin posts"
+msgstr ""
+
+#: classes/admin/configsectiongroups.php:456
+msgid "Disabled: only comunity/site administrators will be allowed to pin posts"
+msgstr ""
+
+#: classes/admin/configsectiongroups.php:456
+msgid "Enabled: group management will be allowed to pin posts."
+msgstr ""
+
+#: classes/admin/configsectiongroups.php:452
+msgid "Use \"pinned\" style only in group context"
+msgstr ""
+
+#: classes/admin/configsectiongroups.php:449
+msgid "Disabled: pinned group posts will always have the \"pinned\" style"
+msgstr ""
+
+#: classes/admin/configsectiongroups.php:449
+msgid "Enabled: pinned group posts will only have a \"pinned\" style when viewed in the group context and single post view"
+msgstr ""
+
+#: classes/api/groupajax.php:404
+msgid "Group custom input saved."
+msgstr ""
+
+#: templates/groups/group-category-header.php:68
+#: templates/groups/group-header.php:91
+msgid "Rotate right"
+msgstr ""
+
+#: templates/groups/group-category-header.php:64
+#: templates/groups/group-header.php:87
+msgid "Rotate left"
+msgstr ""
+
+#: classes/admin/configsectiongroups.php:434
+msgid "Editing group files"
+msgstr ""
+
+#: classes/admin/configsectiongroups.php:423
+msgid "Enabled: group moderators can moderate files in their groups"
+msgstr ""
+
+#: classes/admin/configsectiongroups.php:415
+msgid "Enabled: group managers can moderate files in their groups"
+msgstr ""
+
+#: classes/admin/configsectiongroups.php:407
+#: classes/admin/configsectiongroups.php:415
+#: classes/admin/configsectiongroups.php:423
+msgid "Disabled: only admin can moderate files"
+msgstr ""
+
+#: classes/admin/configsectiongroups.php:407
+msgid "Enabled: group owners can moderate files in their groups"
+msgstr ""
+
+#: templates/groups/group-category.php:39
+msgid "You currently can't post in any groups in this category."
+msgstr ""
+
+#: classes/admin/configsectiongroups.php:125
+msgid "Default list style"
+msgstr ""
+
+#: classes/admin/configsectiongroups.php:122
+msgid "Controls the default view. If user changes the view, their preference becomes \"sticky\""
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "PeepSo"
+msgstr "PeepSo"
+
+#. Description of the plugin/theme
+msgid "Public and closed user groups"
+msgstr "Veřejné a uzavřené uživatelské skupiny"
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://peepso.com"
+msgstr "https://peepso.com"
+
+#. Plugin Name of the plugin/theme
+msgid "PeepSo Core: Groups"
+msgstr "PeepSo Core: Skupiny"
+
+#: templates/groups/postbox-interaction.php:23
+msgid "A group"
+msgstr "Skupina"
+
+#: templates/groups/postbox-interaction.php:13
+msgid "My profile"
+msgstr "Můj profil"
+
+#: templates/groups/groups.php:160 templates/groups/groups.php:167
+msgid "Loading"
+msgstr "Načítání"
+
+#: templates/groups/groups.php:150
+msgid "Group Categories"
+msgstr "Skupinové Kategorie"
+
+#: templates/groups/groups.php:112
+msgid "No filter"
+msgstr "Žádný filtr"
+
+#: templates/groups/groups.php:103
+msgid "Descending"
+msgstr "Sestupně"
+
+#: templates/groups/groups.php:94
+msgid "Recently added"
+msgstr "Nedávno přidané"
+
+#: templates/groups/groups.php:64
+msgid "Any of the words"
+msgstr ""
+
+#: templates/groups/groups.php:63
+msgid "Exact phrase"
+msgstr ""
+
+#: templates/groups/groups.php:57
+msgid "Show filters"
+msgstr "Zobrazit filtry"
+
+#: templates/groups/groups-item.php:31
+msgid "%d pending"
+msgstr "%d čekající"
+
+#: templates/groups/groups-categories.php:18
+msgid "Show all"
+msgstr "Ukázat vše"
+
+#: templates/groups/group.php:45
+msgid "Currently group is unpublished."
+msgstr "V současné době je skupina nezveřejněná."
+
+#: templates/groups/group.php:36
+msgid "You can still react & comment on posts in this group."
+msgstr ""
+
+#: templates/groups/group.php:33
+msgid "You can still comment on posts in this group."
+msgstr ""
+
+#: templates/groups/group.php:30
+msgid "You can still react to the posts in this group."
+msgstr ""
+
+#: templates/groups/group.php:25
+msgid "This is an announcement group, only the Owners and Managers can create new posts."
+msgstr ""
+
+#: templates/groups/group.php:22
+msgid "You must join the group to be able to create new posts."
+msgstr ""
+
+#: templates/groups/group-settings.php:676
+msgid "User immediately becomes a new member after click \"join\" button"
+msgstr ""
+
+#: templates/groups/group-settings.php:673
+msgid "Automatically accept join requests"
+msgstr ""
+
+#: templates/groups/group-settings.php:625
+msgid "Owners & Managers will not receive notifications about new members"
+msgstr ""
+
+#: templates/groups/group-settings.php:622
+msgid "Disable new member notifications"
+msgstr "Zakázat oznámení nových členů"
+
+#: templates/groups/group-settings.php:592
+#: templates/groups/group-settings.php:603
+msgid "Nothing (default)"
+msgstr ""
+
+#: templates/groups/group-settings.php:588
+#: templates/groups/group-settings.php:606
+msgid "Reactions and comments"
+msgstr ""
+
+#: templates/groups/group-settings.php:585
+#: templates/groups/group-settings.php:605
+msgid "Comments"
+msgstr ""
+
+#: templates/groups/group-settings.php:582
+#: templates/groups/group-settings.php:604
+msgid "Reactions"
+msgstr ""
+
+#: templates/groups/group-settings.php:555
+msgid "Has no effect if the setting above is set to \"yes\""
+msgstr ""
+
+#: templates/groups/group-settings.php:552
+msgid "Allowed non-member actions"
+msgstr ""
+
+#: templates/groups/group-settings.php:501
+msgid "Disable likes/comments"
+msgstr "Zakázat lajky/komentáře"
+
+#: templates/groups/group-settings.php:399
+msgid "Disable new posts"
+msgstr "Zakázat nové příspěvky"
+
+#: classes/admin/configsectiongroups.php:506
+#: templates/groups/group-settings.php:352
+#: templates/groups/group-settings.php:402
+#: templates/groups/group-settings.php:453
+#: templates/groups/group-settings.php:504
+msgid "Has no effect on Owner, Managers and Site Administrators"
+msgstr "Nemá žádný vliv na vlastníka, manažery a administrátory stránek"
+
+#: templates/groups/group-settings.php:349
+msgid "Enable \"Invite\" button"
+msgstr "Aktivujte tlačítko „Pozvat“"
+
+#: templates/groups/group-settings.php:325
+#: templates/groups/group-settings.php:334
+#: templates/groups/group-settings.php:376
+#: templates/groups/group-settings.php:385
+#: templates/groups/group-settings.php:426
+#: templates/groups/group-settings.php:435
+#: templates/groups/group-settings.php:477
+#: templates/groups/group-settings.php:486
+#: templates/groups/group-settings.php:528
+#: templates/groups/group-settings.php:537
+#: templates/groups/group-settings.php:649
+#: templates/groups/group-settings.php:658
+#: templates/groups/group-settings.php:700
+#: templates/groups/group-settings.php:709
+msgid "No"
+msgstr "Ne"
+
+#: templates/groups/group-settings.php:325
+#: templates/groups/group-settings.php:333
+#: templates/groups/group-settings.php:376
+#: templates/groups/group-settings.php:384
+#: templates/groups/group-settings.php:426
+#: templates/groups/group-settings.php:434
+#: templates/groups/group-settings.php:477
+#: templates/groups/group-settings.php:485
+#: templates/groups/group-settings.php:528
+#: templates/groups/group-settings.php:536
+#: templates/groups/group-settings.php:649
+#: templates/groups/group-settings.php:657
+#: templates/groups/group-settings.php:700
+#: templates/groups/group-settings.php:708
+msgid "Yes"
+msgstr "Ano"
+
+#: templates/groups/group-settings.php:301
+msgid "Has no effect on Site Administrators"
+msgstr "Nemá žádný vliv na správce stránek"
+
+#: templates/groups/group-settings.php:297
+msgid "Enable \"Request To Join\" button"
+msgstr "Povolte tlačítko „Požádat o připojení“"
+
+#: templates/groups/group-settings.php:296
+msgid "Enable \"Join\" button"
+msgstr "Povolit tlačítko „Připojit se“"
+
+#: templates/groups/group-settings.php:199
+msgid "No rules"
+msgstr ""
+
+#: templates/groups/group-settings.php:167
+msgid "Group Rules"
+msgstr ""
+
+#: templates/groups/group-settings.php:145
+msgid "No description"
+msgstr "Žádný popis"
+
+#: templates/groups/group-settings.php:113
+msgid "Group Description"
+msgstr "Popis skupiny"
+
+#: templates/groups/group-settings.php:100
+msgid "This field might be automatically adjusted  after editing."
+msgstr "Toto pole může být po úpravách automaticky upraveno."
+
+#: templates/groups/group-settings.php:100
+msgid "Letters, numbers and dashes are recommended, eg my-amazing-group-123."
+msgstr "Doporučujeme písmena, číslice a pomlčky, např. Moje-super-skupina-123."
+
+#: templates/groups/group-settings.php:68
+msgid "Group Slug"
+msgstr "Slug skupiny"
+
+#: templates/groups/group-settings.php:27
+#: templates/groups/group-settings.php:74
+#: templates/groups/group-settings.php:120
+#: templates/groups/group-settings.php:174
+#: templates/groups/group-settings.php:233
+#: templates/groups/group-settings.php:308
+#: templates/groups/group-settings.php:359
+#: templates/groups/group-settings.php:409
+#: templates/groups/group-settings.php:460
+#: templates/groups/group-settings.php:511
+#: templates/groups/group-settings.php:562
+#: templates/groups/group-settings.php:632
+#: templates/groups/group-settings.php:683
+msgid "Edit"
+msgstr "Upravit"
+
+#: templates/groups/group-settings.php:20
+msgid "Group Name"
+msgstr "Název skupiny"
+
+#: templates/groups/group-members-tabs.php:36
+msgid "<span>Banned</span><span class=\"ps-tabs__count\">%s</span>"
+msgstr "<span>Zakázáni</span><span class=\"ps-tabs__count\">%s</span>"
+
+#: templates/groups/group-members-tabs.php:30
+msgid "<span>Pending</span><span class=\"ps-tabs__count ps-js-pending-count\" data-id=\"%d\">%s</span>"
+msgstr "<span>Čekající</span><span class=\"ps-tabs__count ps-js-pending-count\" data-id=\"%d\">%s</span>"
+
+#: templates/groups/group-members-tabs.php:24
+msgid "<span>Invited</span><span class=\"ps-tabs__count ps-js-invited-count\" data-id=\"%d\">%s</span>"
+msgstr "<span>Pozváno</span><span class=\"ps-tabs__count ps-js-invited-count\" data-id=\"%d\">%s</span>"
+
+#: templates/groups/group-members-tabs.php:17
+msgid "Management"
+msgstr ""
+
+#: templates/groups/group-members-tabs.php:11
+msgid "All Members"
+msgstr "Všichni Členové"
+
+#: templates/groups/group-members-search-form.php:81
+msgid "Only users with avatars"
+msgstr "Pouze uživatelé s profilovými obrázky"
+
+#: templates/groups/group-members-search-form.php:78
+msgid "Avatars"
+msgstr "Profilové obrázky"
+
+#: templates/groups/group-members-search-form.php:70
+msgid "Members I don't follow"
+msgstr "Členové, které nesleduji"
+
+#: templates/groups/group-members-search-form.php:69
+msgid "Members I follow"
+msgstr "Členové, které sleduji"
+
+#: templates/groups/group-members-search-form.php:68
+msgid "All members"
+msgstr "Všichni členové"
+
+#: templates/groups/group-members-search-form.php:59
+msgid "Most liked"
+msgstr "Nejoblíbenější"
+
+#: templates/groups/group-members-search-form.php:57
+msgid "Latest members"
+msgstr "Nejnovější členové"
+
+#: templates/groups/group-members-search-form.php:56
+msgid "Recently online"
+msgstr "Nedávno online"
+
+#: templates/groups/group-members-search-form.php:53
+#: templates/groups/groups.php:92
+msgid "Sort"
+msgstr "Seřadit"
+
+#: templates/groups/group-members-search-form.php:37
+msgid "Any"
+msgstr "Jakékoliv"
+
+#: templates/groups/group-members-item.php:24
+#: templates/groups/group-members-item.php:31
+msgid "Moderator"
+msgstr "Moderátor"
+
+#: templates/groups/group-members-item.php:23
+#: templates/groups/group-members-item.php:30
+msgid "Manager"
+msgstr "Manažer"
+
+#: templates/groups/group-members-item-actions.php:5
+msgid "Manage"
+msgstr "Spravovat"
+
+#: templates/groups/group-header.php:208
+msgid "Settings"
+msgstr "Nastavení"
+
+#: templates/groups/group-header.php:183 templates/groups/group-header.php:216
+msgid "<span class=\"ps-js-pending-count\" data-id=\"%d\">%s</span> pending"
+msgstr "<span class=\"ps-js-pending-count\" data-id=\"%d\">%s</span> čekající"
+
+#: templates/groups/group-header.php:176
+msgid "%s member"
+msgid_plural "%s members"
+msgstr[0] "%s člen"
+msgstr[1] "%s členové"
+msgstr[2] "%s členové"
+
+#: templates/groups/group-header.php:168
+msgid "%s Group"
+msgstr "%s skupina"
+
+#: templates/groups/group-header.php:79
+msgid "Upload"
+msgstr "Nahrát"
+
+#: templates/groups/group-category.php:58
+#: templates/groups/group-category.php:59 templates/groups/group.php:76
+#: templates/groups/group.php:77
+msgid "No posts found."
+msgstr "Nenalezeny žádné příspěvky."
+
+#: templates/groups/group-category-header.php:124
+#: templates/groups/group-header.php:201
+msgid "Stream"
+msgstr "Zeď"
+
+#: templates/groups/group-category-header.php:111
+msgid "with %d groups"
+msgstr "s %d skupinami"
+
+#: templates/groups/group-category-header.php:109
+#: templates/groups/group-header.php:137
+msgid "Group category"
+msgstr "Kategorie skupiny"
+
+#: templates/groups/group-category-header.php:94
+#: templates/groups/group-header.php:116
+msgid "Show details"
+msgstr "Zobrazit detaily"
+
+#: templates/groups/group-category-header.php:60
+#: templates/groups/group-header.php:83
+msgid "Reposition"
+msgstr "Přizpůsobit"
+
+#: templates/groups/group-category-header.php:52
+#: templates/groups/group-header.php:75
+msgid "Change cover image"
+msgstr "Změnit úvodní fotku"
+
+#: templates/groups/group-category-header.php:34
+#: templates/groups/group-header.php:51
+msgid "Change avatar"
+msgstr "Změnit profilovou fotku"
+
+#: templates/groups/group-category-header.php:22
+#: templates/groups/group-header.php:39
+msgid "%s avatar"
+msgstr "%s profilové fotka"
+
+#: templates/groups/group-category-header.php:13
+#: templates/groups/group-header.php:30
+msgid "%s cover photo"
+msgstr "%s úvodní fotka"
+
+#: classes/admin/configsectiongroups.php:119
+#: templates/groups/group-category-groups.php:12 templates/groups/groups.php:34
+#: templates/groups/profile-groups.php:15
+msgid "List"
+msgstr "Seznam"
+
+#: classes/admin/configsectiongroups.php:118
+#: templates/groups/group-category-groups.php:11 templates/groups/groups.php:33
+#: templates/groups/profile-groups.php:14
+msgid "Grid"
+msgstr "Mřížka"
+
+#: templates/groups/dialog-invite.php:58
+msgid "Invite users to group"
+msgstr "Pozvat uživatele do skupiny"
+
+#: templates/groups/dialog-invite.php:58
+msgid "Add users to group"
+msgstr "Přidejte uživatele do skupiny"
+
+#: templates/groups/dialog-invite.php:46
+msgid "Invite to Group"
+msgstr "Pozvat do Skupiny"
+
+#: templates/groups/dialog-invite.php:46
+msgid "Add to group"
+msgstr "Přidat do skupiny"
+
+#: templates/groups/dialog-invite.php:46
+msgid "Invited"
+msgstr "Pozván"
+
+#: templates/groups/dialog-invite.php:46
+msgid "Added"
+msgstr "Přidáno"
+
+#: templates/groups/dialog-invite.php:22
+msgid "Please note: Users who are either banned, already invited, members or blocked receiving invitations to this group will not show in this listing."
+msgstr "Upozornění: Uživatelé, kteří jsou buď zablokování, již pozváni, členové nebo uživatelé, kteří zakázali příjem pozvánek do této skupiny se v tomto seznamu neobjeví."
+
+#: templates/groups/dialog-invite.php:17 templates/groups/group-category.php:60
+#: templates/groups/group.php:78
+msgid "Nothing more to show."
+msgstr "Nic víc k zobrazení."
+
+#: templates/groups/dialog-invite.php:16
+msgid "Load more"
+msgstr "Načíst další"
+
+#: templates/groups/dialog-invite.php:10
+#: templates/groups/group-members-search-form.php:25
+#: templates/groups/groups.php:56 templates/groups/postbox-interaction.php:29
+msgid "Start typing to search..."
+msgstr "Začněte psát pro vyhledání..."
+
+#: templates/groups/dialog-create.php:92 templates/groups/dialog-create.php:99
+#: templates/groups/group-category-groups.php:19 templates/groups/groups.php:43
+#: templates/groups/profile-groups.php:21
+msgid "Create Group"
+msgstr "Vytvořit Skupinu"
+
+#: templates/groups/dialog-create.php:43
+#: templates/groups/group-settings.php:226 templates/groups/groups.php:110
+msgid "Category"
+msgid_plural "Categories"
+msgstr[0] "Kategorie"
+msgstr[1] "Kategorie"
+msgstr[2] "Kategorie"
+
+#: templates/groups/dialog-create.php:21 templates/groups/group-settings.php:52
+#: templates/groups/group-settings.php:153
+#: templates/groups/group-settings.php:207
+msgid "Characters left"
+msgstr "Zbývá znaků"
+
+#: templates/groups/dialog-create.php:20
+msgid "Enter your group's description..."
+msgstr "Zadejte popis vaší skupiny..."
+
+#: templates/groups/dialog-create.php:8
+msgid "Enter your group's name..."
+msgstr "Zadejte název vaší skupiny..."
+
+#: templates/groups/dialog-create.php:4
+msgid "Name"
+msgstr "Jméno"
+
+#: templates/groups/dialog-category-cover-remove.php:7
+#: templates/groups/dialog-cover-remove.php:7
+msgid "Remove Cover Image"
+msgstr "Odebrat úvodní fotku"
+
+#: templates/groups/dialog-category-cover-remove.php:1
+#: templates/groups/dialog-cover-remove.php:1
+msgid "Are you sure want to remove this cover image?"
+msgstr "Opravdu chcete odstranit tento úvodní obrázek?"
+
+#: templates/groups/dialog-category-avatar.php:95
+msgid "Change Group Category Avatar"
+msgstr "Změnit profilovou fotku kategorie skupin"
+
+#: templates/groups/dialog-avatar.php:98
+#: templates/groups/dialog-category-avatar.php:98
+msgid "Done"
+msgstr "Hotovo"
+
+#: templates/groups/dialog-avatar.php:95
+msgid "Change Group Avatar"
+msgstr "Změnit profilovou fotku skupiny"
+
+#: templates/groups/dialog-avatar.php:74
+#: templates/groups/dialog-category-avatar.php:74
+msgid "This is how <strong>%s</strong> avatar will appear throughout the entire community."
+msgstr "Takto se profilová fotka <strong>%s</strong> bude zobrazovat v celé komunitě."
+
+#: templates/groups/dialog-avatar.php:65 templates/groups/dialog-avatar.php:68
+#: templates/groups/dialog-category-avatar.php:65
+#: templates/groups/dialog-category-avatar.php:68
+msgid "Avatar Preview"
+msgstr "Náhled Avataru"
+
+#: templates/groups/dialog-avatar.php:60
+#: templates/groups/dialog-category-avatar.php:60
+msgid "No avatar uploaded. Use the button above to select and upload one."
+msgstr "Žádný avatar nebyl nahrán. Pomocí tlačítka výše vyberte a nahrajte jeden."
+
+#: templates/groups/dialog-avatar.php:52
+#: templates/groups/dialog-category-avatar.php:52
+#: templates/groups/dialog-category-cover-remove.php:14
+#: templates/groups/dialog-cover-remove.php:14
+msgid "Confirm"
+msgstr "Potvrdit"
+
+#: templates/groups/dialog-avatar.php:35
+#: templates/groups/dialog-category-avatar.php:35
+msgid "Crop"
+msgstr "Oříznout"
+
+#: templates/groups/dialog-avatar.php:24
+#: templates/groups/dialog-category-avatar.php:24
+msgid "Automatically Generated. (Maximum width: 160px)"
+msgstr "Automaticky vygenerováno. (Maximální šířka: 160px)"
+
+#: templates/groups/dialog-avatar.php:20
+#: templates/groups/dialog-category-avatar.php:20
+msgid "Uploaded Photo"
+msgstr "Nahraná Fotka"
+
+#: templates/groups/dialog-avatar.php:13
+#: templates/groups/dialog-category-avatar.php:13
+#: templates/groups/group-category-header.php:56
+msgid "Upload new"
+msgstr "Nahrát nové"
+
+#: templates/admin/groups.php:20
+msgid "Are you sure?"
+msgstr "Jste si jisti?"
+
+#: templates/admin/groups.php:11
+msgid "Search Groups"
+msgstr "Vyhledat Skupiny"
+
+#: templates/admin/group_categories_button.php:18
+msgid "Add New"
+msgstr "Přidat Nový"
+
+#: templates/admin/group_categories_button.php:12
+#: templates/admin/group_categories_button.php:25
+msgid "Group categories are currently disabled. You can enable them in PeepSo Config -> Groups"
+msgstr "Kategorie skupin jsou momentálně zakázány. Můžete je povolit v PeepSo Konfigurace -> Skupiny"
+
+#: templates/admin/group_categories_button.php:7
+msgid "Collapse All"
+msgstr "Sbalit Vše"
+
+#: templates/admin/group_categories_button.php:4
+msgid "Expand All"
+msgstr "Rozbalit Vše"
+
+#: templates/admin/group_categories.php:102
+msgid "Generate"
+msgstr "generovat"
+
+#: templates/admin/group_categories.php:101
+msgid "URL slug"
+msgstr ""
+
+#: templates/admin/group_categories.php:55
+#: templates/groups/group-category-header.php:80
+#: templates/groups/group-header.php:103 templates/groups/group-settings.php:36
+#: templates/groups/group-settings.php:83
+#: templates/groups/group-settings.php:128
+#: templates/groups/group-settings.php:182
+#: templates/groups/group-settings.php:241
+#: templates/groups/group-settings.php:317
+#: templates/groups/group-settings.php:368
+#: templates/groups/group-settings.php:418
+#: templates/groups/group-settings.php:469
+#: templates/groups/group-settings.php:520
+#: templates/groups/group-settings.php:571
+#: templates/groups/group-settings.php:641
+#: templates/groups/group-settings.php:692
+msgid "Save"
+msgstr "Uložit"
+
+#: templates/admin/group_categories.php:54
+#: templates/groups/dialog-avatar.php:48
+#: templates/groups/dialog-category-avatar.php:48
+#: templates/groups/dialog-category-cover-remove.php:10
+#: templates/groups/dialog-cover-remove.php:10
+#: templates/groups/dialog-create.php:95
+#: templates/groups/group-category-header.php:79
+#: templates/groups/group-header.php:102 templates/groups/group-settings.php:32
+#: templates/groups/group-settings.php:79
+#: templates/groups/group-settings.php:125
+#: templates/groups/group-settings.php:179
+#: templates/groups/group-settings.php:238
+#: templates/groups/group-settings.php:313
+#: templates/groups/group-settings.php:364
+#: templates/groups/group-settings.php:414
+#: templates/groups/group-settings.php:465
+#: templates/groups/group-settings.php:516
+#: templates/groups/group-settings.php:567
+#: templates/groups/group-settings.php:637
+#: templates/groups/group-settings.php:688
+msgid "Cancel"
+msgstr "Zrušit"
+
+#: templates/admin/group_categories.php:20
+msgid "no name"
+msgstr "žádné jméno"
+
+#: groups.php:2858
+msgid "Get it now!"
+msgstr "Získejte to nyní!"
+
+#: groups.php:2856
+msgid "The %s plugin requires the PeepSo plugin to be installed and activated."
+msgstr "%s rozšíření  vyžaduje instalaci a aktivaci PeepSo pluginu."
+
+#: groups.php:2809
+msgid "group cover photo"
+msgstr "úvodní fotka skupiny"
+
+#: groups.php:2804
+msgid "group avatar"
+msgstr "avatar skupiny"
+
+#: groups.php:2759
+msgid "No result found."
+msgstr "Nebyl nalezen žádný výsledek."
+
+#: groups.php:2661
+msgid "Are you sure you want to change the group privacy?"
+msgstr "Opravdu chcete změnit nastavení soukromí skupiny?"
+
+#: groups.php:2660
+msgid "Are you sure you want to change the group URL?"
+msgstr "Opravdu chcete změnit adresu URL skupiny?"
+
+#: groups.php:2659 groups.php:2660 groups.php:2661
+msgid "All group members will be notified."
+msgstr "Všichni členové skupiny budou upozorněni."
+
+#: groups.php:2659
+msgid "Are you sure you want to change the group name?"
+msgstr "Opravdu chcete změnit název skupiny?"
+
+#: groups.php:2658 templates/groups/groups-item.php:29
+msgid "members"
+msgstr "Členové"
+
+#: groups.php:2656
+msgid "Less"
+msgstr "Méně"
+
+#: groups.php:2655 templates/groups/group-category-header.php:154
+#: templates/groups/group-category-header.php:157
+#: templates/groups/group-header.php:263 templates/groups/groups-item.php:66
+msgid "More"
+msgstr "Více"
+
+#: groups.php:2539
+msgid "changed group privacy to %s"
+msgstr ""
+
+#: groups.php:2515
+msgid "renamed a group you're a member of"
+msgstr "přejmenoval skupiny, které jste členem"
+
+#: groups.php:2464
+msgid "accepted you as a group member"
+msgstr "vás přijal jako člena skupiny"
+
+#: groups.php:2418
+msgid "requested to join your group"
+msgstr "požádal o připojení ke vaší skupině"
+
+#: groups.php:2411
+msgid "and %s%s more users%s requested to join your group"
+msgstr ""
+
+#: groups.php:2404
+msgid "and %s%s%s requested to join your group"
+msgstr ""
+
+#: groups.php:2350
+msgid "accepted your group invitation"
+msgstr "přijal pozvánku vaší skupiny"
+
+#: groups.php:2309
+msgid "joined your group"
+msgstr "se připojil k vaší skupině"
+
+#: groups.php:2207
+msgid " added %1$d photo to the album: <a href=\"%3$s\">%2$s</a>"
+msgid_plural " added %1$d photos to the album: <a href=\"%3$s\">%2$s</a>"
+msgstr[0] " přidal %1$d fotku do alba: <a href=\"%3$s\">%2$s</a>"
+msgstr[1] " přidal %1$d fotky do alba: <a href=\"%3$s\">%2$s</a>"
+msgstr[2] " přidal %1$d fotky do alba: <a href=\"%3$s\">%2$s</a>"
+
+#: groups.php:2187 groups.php:2217
+msgid " updated group cover"
+msgstr " upravil úvodní fotku skupiny"
+
+#: groups.php:2177
+msgid " updated group avatar"
+msgstr " upravit avatar skupiny"
+
+#: groups.php:1503 groups.php:1505
+msgid "joined this group"
+msgstr "připojil/a se k této skupině"
+
+#: groups.php:1475 groups.php:1477
+msgid "joined a group"
+msgstr "připojil/a se ke skupině"
+
+#: groups.php:1456
+msgid "You are not a member of this group"
+msgstr "Nejste členem této skupiny"
+
+#: groups.php:922
+msgid "groups"
+msgstr "skupiny"
+
+#: groups.php:891
+msgctxt "Profile link"
+msgid "Groups"
+msgstr "Skupiny"
+
+#: groups.php:866
+msgctxt "Community link"
+msgid "Groups"
+msgstr "Skupiny"
+
+#: groups.php:815
+msgid "Post to"
+msgstr "Přidat příspěvek do"
+
+#: groups.php:708
+msgid "Group Stream Photos"
+msgstr "Fotografie skupiny na zdi"
+
+#: groups.php:704
+msgid "Group Covers"
+msgstr "Cover skupiny"
+
+#: groups.php:700
+msgid "Group Avatars"
+msgstr "Skupinové Avatary"
+
+#: groups.php:677
+msgid "This will be sent to a group owner when another user comments on the cover"
+msgstr "Toto bude odesláno vlastníkovi skupiny, když jiný uživatel okomentuje úvodní fotku"
+
+#: groups.php:676
+msgid "User Comment Group Cover"
+msgstr "Komentář uživatele úvodního obrázku skupiny"
+
+#: groups.php:672
+msgid "This will be sent to a group owner when another user comments on the avatar"
+msgstr "Toto bude odesláno vlastníkovi skupiny, když jiný uživatel okomentuje profilovou fotku"
+
+#: groups.php:671
+msgid "User Comment Group Avatar"
+msgstr "Komentář uživatele profilového obrázku skupiny"
+
+#: groups.php:666
+msgid "Notify Administrators when a new new group is created"
+msgstr "Upozornit administrátory, když je vytvořena nová skupina"
+
+#: groups.php:665
+msgid "New Group Created"
+msgstr "Byla vytvořena nová skupina"
+
+#: groups.php:661
+msgid "Notify users about new posts in groups."
+msgstr "Upozorňovat uživatele na nové příspěvky ve skupinách."
+
+#: groups.php:660
+msgid "New Post In Group"
+msgstr "Nový příspěvek ve skupině"
+
+#: groups.php:578
+msgid "Group subscriptions"
+msgstr "Odběry skupiny"
+
+#: groups.php:537
+msgid "{sitename} - New Group Created"
+msgstr "{sitename} - Byla vytvořena nová skupina"
+
+#: groups.php:484
+msgid "%s posted in %s"
+msgstr ""
+
+#: groups.php:445
+msgid "posted in %s"
+msgstr "přidal/a příspěvek do %s"
+
+#: groups.php:261 templates/groups/group-header.php:137
+msgid "Group categories"
+msgstr "Kategorie skupin"
+
+#: groups.php:242
+msgid "PeepSo Groups"
+msgstr "PeepSo Skupiny"
+
+#: classes/widgets/widgetgroup.php:59
+msgid "About %s"
+msgstr ""
+
+#: classes/widgets/widgetgroup.php:8 classes/widgets/widgetgroup.php:9
+msgid "PeepSo Groups: about the group"
+msgstr ""
+
+#: classes/shortcodes/groupsshortcode.php:188 groups.php:2714
+msgid "The file size you uploaded is too big. The maximum file size is %s."
+msgstr "Velikost nahraného souboru je příliš velká. Maximální velikost souboru je %s."
+
+#: classes/shortcodes/groupsshortcode.php:186 groups.php:2712
+msgid "The file type you uploaded is not allowed. Only JPEG, PNG, and WEBP allowed."
+msgstr ""
+
+#: classes/shortcodes/groupsshortcode.php:130
+msgctxt "Page listing"
+msgid "PeepSo"
+msgstr ""
+
+#: classes/shortcodes/groupsshortcode.php:126
+msgid "Displays the Groups listing and single Group view."
+msgstr "Zobrazí seznam skupin a zobrazení jedné skupiny."
+
+#: classes/shortcodes/groupsshortcode.php:114
+#: classes/shortcodes/groupsshortcode.php:130 groups.php:239 groups.php:252
+#: groups.php:906 install/activate.php:40
+#: templates/groups/group-category-header.php:130
+#: templates/groups/groups.php:149
+msgid "Groups"
+msgstr "Skupiny"
+
+#: classes/models/groupuser.php:648
+msgid "Reject"
+msgstr "Odmítnout"
+
+#: classes/models/groupuser.php:642
+msgid "Approve"
+msgstr "Schválit"
+
+#: classes/models/groupuser.php:633
+msgid "Cancel Invitation"
+msgstr "Zrušit pozvánku"
+
+#: classes/models/groupuser.php:623
+msgid "Unban"
+msgstr "Zrušit zákaz"
+
+#: classes/models/groupuser.php:620
+msgid "Are you sure you want to unban %s and restore as a regular Group Member?"
+msgstr "Opravdu chcete zrušit zákaz přístupu uživateli %s a a udělat jej běžným člen skupiny?"
+
+#: classes/models/groupuser.php:597
+msgid "Ban"
+msgstr "Zakázat"
+
+#: classes/models/groupuser.php:593
+msgid "This user will be unable to join or be invited."
+msgstr "Tento uživatel se nebude moci připojit ani být pozván."
+
+#: classes/models/groupuser.php:592
+msgid "Are you sure you want to ban this user?"
+msgstr "Opravdu chcete tomuto uživateli zakázat přístup?"
+
+#: classes/models/groupuser.php:567
+msgid "Remove"
+msgstr "Odstranit"
+
+#: classes/models/groupuser.php:564
+msgid "To join again the user will have to be invited and/or approved."
+msgstr "Aby se uživatel mohl znovu připojit, bude muset být pozván a/nebo schválen."
+
+#: classes/models/groupuser.php:561
+msgid "Are you sure you want to remove this user?"
+msgstr "Opravdu chcete odebrat tohoto uživatele?"
+
+#: classes/models/groupuser.php:547
+msgid "Turn into regular member"
+msgstr "Udělit roli obyčejného člena"
+
+#: classes/models/groupuser.php:544
+msgid "Are you sure you want to make %s a regular Group Member?"
+msgstr ""
+
+#: classes/models/groupuser.php:534
+msgid "Turn into Moderator"
+msgstr "Udělit roli moderátora"
+
+#: classes/models/groupuser.php:531
+msgid "Are you sure you want to make %s a Group Moderator?"
+msgstr "Opravdu chcete z %s udělat moderátora skupiny?"
+
+#: classes/models/groupuser.php:521
+msgid "Turn into Manager"
+msgstr "Udělit roli manažera"
+
+#: classes/models/groupuser.php:518
+msgid "Are you sure you want to make %s a Group Manager?"
+msgstr "Opravdu chcete z %s udělat manažera skupiny?"
+
+#: classes/models/groupuser.php:509
+msgid "Transfer ownership"
+msgstr "Převést vlastnictví"
+
+#: classes/models/groupuser.php:506
+msgid "Are you sure you want to make %s a new Group Owner? There can be only one owner in the group."
+msgstr ""
+
+#: classes/models/groupuser.php:503
+msgid "yourself"
+msgstr "Vy"
+
+#: classes/models/groupuser.php:465
+msgid "To be able to leave, you need to transfer ownership to another user first."
+msgstr "Abyste mohli odejít, musíte nejprve převést vlastnictví na jiného uživatele."
+
+#: classes/models/groupuser.php:465
+msgid "You can't leave this group."
+msgstr "Tuto skupinu nemůžete opustit."
+
+#: classes/models/groupuser.php:463 groups.php:1454
+msgid "You are the group %s"
+msgstr "Jste %s skupiny"
+
+#: classes/models/groupuser.php:444
+msgid "You are a group %s"
+msgstr "Jste %s skupiny"
+
+#: classes/models/groupuser.php:434 classes/models/groupuser.php:570
+msgid "Leave"
+msgstr "Opustit"
+
+#: classes/models/groupuser.php:428
+msgid "To join again a member will have to be invited."
+msgstr "Aby se uživatel mohl znovu připojit, bude jej třeba pozvat."
+
+#: classes/models/groupuser.php:424 classes/models/groupuser.php:575
+msgid "To join again you will have to be approved or invited."
+msgstr "Chcete-li se znovu připojit, musíte být schválen nebo pozván."
+
+#: classes/models/groupuser.php:421 classes/models/groupuser.php:572
+msgid "Are you sure you want to leave this group?"
+msgstr "Opravdu chcete tuto skupinu opustit?"
+
+#: classes/models/groupuser.php:411
+msgid "Request To Join"
+msgstr "Požádat O Připojení"
+
+#: classes/models/groupuser.php:404
+msgid "Join"
+msgstr "Připojit"
+
+#: classes/models/groupuser.php:397
+msgid "Cancel Request To Join"
+msgstr "Zrušit žádost o připojení se"
+
+#: classes/models/groupuser.php:391
+msgid "You need to be approved"
+msgstr "Musíte být schválen"
+
+#: classes/models/groupuser.php:390
+msgid "Pending approval"
+msgstr "Čeká na schválení"
+
+#: classes/models/groupuser.php:383
+msgid "Reject invite"
+msgstr "Odmítnout Pozvánku"
+
+#: classes/models/groupuser.php:377
+msgid "Accept invite"
+msgstr "Přijmout Pozvánku"
+
+#: classes/models/groupuser.php:358
+msgid "Add users"
+msgstr "Přidat uživatele"
+
+#: classes/models/groupuser.php:354
+msgid "Invite"
+msgstr "Pozvat"
+
+#: classes/models/groupuser.php:137
+msgid "As community administrator, you have the same control as group owner."
+msgstr "Jako administrátor komunity máte stejnou kontrolu jako vlastník skupiny."
+
+#: classes/models/groupuser.php:120
+msgid "As an owner you can manage all aspects of the group and its content"
+msgstr "Jako vlastník můžete spravovat všechny aspekty skupiny a její obsah"
+
+#: classes/models/groupuser.php:119
+msgid "owner"
+msgstr "vlastník"
+
+#: classes/models/groupuser.php:115
+msgid "As a manager you can manage the group members and edit or delete all posts and comments in this group"
+msgstr "Jako správce můžete spravovat členy skupiny a upravovat nebo mazat všechny příspěvky a komentáře v této skupině"
+
+#: classes/models/groupuser.php:114
+msgid "manager"
+msgstr "manažer"
+
+#: classes/models/groupuser.php:110
+msgid "As a moderator you can edit or delete all posts and comments in this group"
+msgstr "Jako moderátor můžete upravovat nebo mazat všechny příspěvky a komentáře v této skupině"
+
+#: classes/models/groupuser.php:109
+msgid "moderator"
+msgstr "moderátor"
+
+#: classes/models/groupuser.php:103 groups.php:2657
+#: templates/groups/groups-item.php:29
+msgid "member"
+msgstr "člen"
+
+#: classes/models/groupprivacy.php:35
+msgid "Non-members can't see the group at all."
+msgstr "Nečlenové skupinu vůbec nevidí."
+
+#: classes/models/groupprivacy.php:35
+msgid "Users need to be invited."
+msgstr "Uživatelé musí být pozváni."
+
+#: classes/models/groupprivacy.php:34
+msgid "secret"
+msgstr "tajné"
+
+#: classes/models/groupprivacy.php:33
+msgid "Secret"
+msgstr "Tajné"
+
+#: classes/models/groupprivacy.php:28
+msgid "Non-members can only see the group page."
+msgstr ""
+
+#: classes/models/groupprivacy.php:28
+msgid "Users need to be invited or request the group membership."
+msgstr ""
+
+#: classes/models/groupprivacy.php:27
+msgid "private"
+msgstr ""
+
+#: classes/models/groupprivacy.php:26
+msgid "Private"
+msgstr ""
+
+#: classes/models/groupprivacy.php:20
+msgid "Non-members can see the group content, but they can't post."
+msgstr ""
+
+#: classes/models/groupprivacy.php:19
+msgid "open"
+msgstr "otevřené"
+
+#: classes/models/groupprivacy.php:18
+msgid "Open"
+msgstr "Otevřeno"
+
+#: classes/models/groupfollower.php:218
+msgid "Receive emails about new posts in this group"
+msgstr ""
+
+#: classes/models/groupfollower.php:215 groups.php:1470
+msgid "Receive emails"
+msgstr ""
+
+#: classes/models/groupfollower.php:211
+msgid "Be notified about new posts in this group"
+msgstr "Buďte upozorněni na nové příspěvky v této skupině"
+
+#: classes/models/groupfollower.php:208 groups.php:1466
+msgid "Be notified"
+msgstr "Buďte upozorněni"
+
+#: classes/models/groupfollower.php:204
+msgid "Show posts from this group in \"my following\" stream"
+msgstr "Zobrazit příspěvky z této skupiny ve streamu „mé odběry“"
+
+#: classes/models/groupfollower.php:201 groups.php:1462
+msgid "Follow"
+msgstr "Sledovat"
+
+#: classes/models/groupfollower.php:190
+msgid "Not receiving notifications"
+msgstr ""
+
+#: classes/models/groupfollower.php:186
+msgid "Receiving notifications"
+msgstr ""
+
+#: classes/models/groupfollower.php:176
+msgid "Not following"
+msgstr "Nesledující"
+
+#: classes/models/groupfollower.php:173
+#: templates/groups/group-members-search-form.php:66
+msgid "Following"
+msgstr "Sledující"
+
+#: classes/models/groupcategory.php:79 groups.php:2662
+#: templates/groups/groups.php:128
+msgid "Uncategorized"
+msgstr "Nezařazeno"
+
+#: classes/models/group.php:416
+msgid "This group name cannot be used"
+msgstr ""
+
+#: classes/models/group.php:399
+msgid "Maximum length is %s"
+msgstr "Maximální délka je %s"
+
+#: classes/models/group.php:395
+msgid "Minimum length is %s characters"
+msgstr "Minimální délka je %s znaků"
+
+#: classes/models/group.php:391
+msgid "This field can't be a number"
+msgstr "Toto pole nemůže být číslo"
+
+#: classes/models/group.php:382 classes/models/group.php:386
+msgid "This field is required"
+msgstr "Toto pole je povinné"
+
+#: classes/api/groupusersajax.php:237 classes/api/groupusersajax.php:242
+msgid "No users found."
+msgstr "Nenalezeni žádní uživatelé."
+
+#: classes/api/groupuserajax.php:266
+msgid "Invalid role"
+msgstr "Neplatná role"
+
+#: classes/api/groupuserajax.php:219
+msgid "Unable to add this user"
+msgstr "Nelze přidat tohoto uživatele"
+
+#: classes/api/groupuserajax.php:215
+msgid "added you to a group"
+msgstr "Vás přidal/a do skupiny"
+
+#: classes/api/groupuserajax.php:206
+msgid "Unable to invite this user"
+msgstr "Nepodařilo se pozvat tohoto uživatele"
+
+#: classes/api/groupuserajax.php:204
+msgid "invited you to join a group"
+msgstr "vás pozval, abyste se připojil ke skupině"
+
+#: classes/api/groupuserajax.php:187
+msgid "You are not allowed to manage members"
+msgstr "Nemáte oprávnění spravovat členy"
+
+#: classes/api/groupuserajax.php:138
+msgid "Are you sure you want to block all future invites to this group?"
+msgstr "Opravdu chcete zablokovat všechny budoucí pozvánky do této skupiny?"
+
+#: classes/api/groupuserajax.php:137
+msgid "Block invites"
+msgstr "Blokovat pozvánky"
+
+#: classes/api/groupuserajax.php:128
+msgid "Unable to leave this group"
+msgstr "Tuto skupinu nelze opustit"
+
+#: classes/api/groupuserajax.php:108
+msgid "Unable to cancel request to join this group"
+msgstr "Nelze zrušit požadavek na připojení se k této skupině"
+
+#: classes/api/groupuserajax.php:63 classes/api/groupuserajax.php:87
+msgid "Unable to join this group"
+msgstr "K této skupině se nelze připojit"
+
+#: classes/api/groupsajax.php:123
+msgid "No groups found"
+msgstr "Nebyly nalezeny žádné skupiny"
+
+#: classes/api/groupsajax.php:120
+msgid "%s doesn't belong to any groups yet"
+msgstr "%s zatím nepatří do žádné skupiny"
+
+#: classes/api/groupsajax.php:120
+msgid "You don't belong to any groups yet"
+msgstr "Zatím nepatříte do žádné skupiny"
+
+#: classes/api/groupcategoryajax.php:13
+msgid "New Category"
+msgstr "Nová kategorie"
+
+#: classes/api/groupcategoryajax.php:9 classes/api/groupcategoryajax.php:52
+#: classes/api/groupcategoryajax.php:71 classes/api/groupcategoryajax.php:101
+#: classes/api/groupcategoryajax.php:136 classes/api/groupcategoryajax.php:161
+msgid "Insufficient permissions."
+msgstr "Nedostatečná oprávnění."
+
+#: classes/api/groupcategoriesajax.php:53
+msgid "No Categories Found."
+msgstr "Nebyly nalezeny žádné kategorie."
+
+#: classes/api/groupajax.php:751 classes/api/groupcategoryajax.php:506
+msgid "Changes saved."
+msgstr "Změny byly uloženy."
+
+#: classes/api/groupajax.php:610 classes/api/groupajax.php:716
+#: classes/api/groupcategoryajax.php:372 classes/api/groupcategoryajax.php:476
+msgid "No file uploaded."
+msgstr "Nebyl nahrán žádný soubor."
+
+#: classes/api/groupajax.php:599 classes/api/groupcategoryajax.php:361
+msgid "Minimum avatar resolution is %d x %d pixels."
+msgstr "Minimální rozlišení profilové fotky je %d x %d pixelů."
+
+#: classes/api/groupajax.php:576 classes/api/groupajax.php:699
+#: classes/api/groupcategoryajax.php:338 classes/api/groupcategoryajax.php:458
+msgid "The file type you uploaded is not allowed."
+msgstr "Typ souboru, který jste nahráli, není povolen."
+
+#: classes/api/groupajax.php:570 classes/api/groupajax.php:705
+#: classes/api/groupcategoryajax.php:332 classes/api/groupcategoryajax.php:464
+msgid "The file you uploaded is either missing or too large."
+msgstr "Nahraný soubor chybí nebo je příliš velký."
+
+#: classes/api/groupajax.php:554 classes/api/groupajax.php:641
+#: classes/api/groupajax.php:721 classes/api/groupajax.php:755
+#: classes/api/groupcategoryajax.php:316 classes/api/groupcategoryajax.php:402
+#: classes/api/groupcategoryajax.php:481
+msgid "You do not have enough permissions."
+msgstr "Nemáte dostatečná oprávnění."
+
+#: classes/api/groupajax.php:426 classes/api/groupajax.php:494
+#: classes/api/groupcategoryajax.php:190 classes/api/groupcategoryajax.php:257
+msgid "Invalid access"
+msgstr "Neplatný přístup"
+
+#: classes/api/groupajax.php:383 classes/api/groupajax.php:407
+msgid "You are not authorized to change this group categories."
+msgstr "Nemáte oprávnění měnit ketegorie této skupiny."
+
+#: classes/api/groupajax.php:378
+msgid "Group categories saved."
+msgstr "Kategorie skupiny uloženy."
+
+#: classes/api/groupajax.php:340
+msgid "You are not authorized to change this group description."
+msgstr "Nemáte oprávnění měnit popis této skupiny."
+
+#: classes/api/groupajax.php:337
+msgid "Group description saved."
+msgstr "Popis skupiny uložen."
+
+#: classes/api/groupajax.php:294
+msgid "You are not authorized to change this group name."
+msgstr "Nemáte oprávnění měnit název této skupiny."
+
+#: classes/api/groupajax.php:290
+msgid "Group privacy changed."
+msgstr "Bylo změněno soukromí skupiny."
+
+#: classes/api/groupajax.php:275
+msgid "Invalid Group Privacy"
+msgstr "Neplatné soukromí skupiny"
+
+#: classes/api/groupajax.php:245
+msgid "You are not authorized to manage this group's settings"
+msgstr "Nemáte oprávnění spravovat nastavení této skupiny"
+
+#: classes/api/groupajax.php:182 classes/api/groupajax.php:242
+msgid "Group name saved."
+msgstr "Název skupiny uložen."
+
+#: classes/api/groupajax.php:139 classes/api/groupajax.php:200
+#: classes/api/groupajax.php:260 classes/api/groupajax.php:309
+#: classes/api/groupajax.php:355 classes/api/groupajax.php:398
+#: classes/api/groupajax.php:544 classes/api/groupajax.php:627
+#: classes/api/groupajax.php:678 classes/api/groupajax.php:737
+#: classes/api/groupcategoryajax.php:307 classes/api/groupcategoryajax.php:389
+#: classes/api/groupcategoryajax.php:438 classes/api/groupcategoryajax.php:495
+msgid "Request could not be verified."
+msgstr "Žádost nemohla být ověřena."
+
+#: classes/api/groupajax.php:124 classes/api/groupajax.php:185
+#: classes/api/groupuserajax.php:273
+msgid "Insufficient permissions"
+msgstr "Nedostatečná oprávnění"
+
+#: classes/api/groupajax.php:121
+msgid "Setting saved"
+msgstr "Nastavení uloženo"
+
+#: classes/api/groupajax.php:94
+msgid "Request could not be verified"
+msgstr "Požadavek nelze ověřit"
+
+#: classes/admin/groupslisttable.php:328
+msgid "Show"
+msgstr "Zobrazit"
+
+#: classes/admin/groupslisttable.php:310
+msgid "Unpublished"
+msgstr "Nepublikováno"
+
+#: classes/admin/groupslisttable.php:308
+#: templates/admin/group_categories.php:80
+msgid "Published"
+msgstr "Publikováno"
+
+#: classes/admin/groupslisttable.php:305
+msgid "All"
+msgstr "Všechny"
+
+#: classes/admin/groupslisttable.php:279
+msgid "group"
+msgid_plural "groups"
+msgstr[0] "skupina"
+msgstr[1] "skupiny"
+msgstr[2] "skupiny"
+
+#: classes/admin/groupslisttable.php:270
+msgid "deleted"
+msgstr "smazán"
+
+#: classes/admin/groupslisttable.php:251
+msgid "updated"
+msgstr "aktualizováno"
+
+#: classes/admin/groupslisttable.php:243
+msgid "unpublished your group"
+msgstr "zrušil publikování vaší skupiny"
+
+#: classes/admin/groupslisttable.php:236
+msgid "published your group"
+msgstr "zveřejnil vaší skupinu"
+
+#: classes/admin/groupslisttable.php:200 templates/groups/dialog-avatar.php:8
+#: templates/groups/dialog-category-avatar.php:8
+#: templates/groups/group-category-header.php:72
+#: templates/groups/group-header.php:95
+msgid "Delete"
+msgstr "Smazat"
+
+#: classes/admin/groupslisttable.php:199
+msgid "Unpublish"
+msgstr "Zrušit publikování"
+
+#: classes/admin/groupslisttable.php:198
+msgid "Publish"
+msgstr "Publikovat"
+
+#: classes/admin/groupslisttable.php:173
+msgid "unpublished"
+msgstr "nepublikovaný"
+
+#: classes/admin/groupslisttable.php:173
+msgid "published"
+msgstr "publikováno"
+
+#: classes/admin/groupslisttable.php:128 templates/groups/dialog-create.php:65
+msgid "Privacy"
+msgstr "Soukromí"
+
+#: classes/admin/groupslisttable.php:116
+msgid "Read more"
+msgstr "Přečtěte si více"
+
+#: classes/admin/groupslisttable.php:62 templates/groups/group-header.php:213
+msgid "Members"
+msgstr "Členové"
+
+#: classes/admin/groupslisttable.php:61
+msgid "Status"
+msgstr "Stav"
+
+#: classes/admin/groupslisttable.php:60
+#: templates/groups/group-members-item.php:22
+#: templates/groups/group-members-item.php:29
+msgid "Owner"
+msgstr "Vlastník"
+
+#: classes/admin/groupslisttable.php:58
+#: templates/admin/group_categories.php:120
+#: templates/groups/dialog-create.php:16
+msgid "Description"
+msgstr "Popis"
+
+#: classes/admin/groupslisttable.php:57
+msgid "Group"
+msgstr "Skupina"
+
+#: classes/admin/configsectiongroups.php:522
+msgid "Advanced"
+msgstr "Pokročilé"
+
+#: classes/admin/configsectiongroups.php:495
+msgid "Show membership summary for group names on stream"
+msgstr "Zobrazit souhrn členství pro názvy skupin ve streamu"
+
+#: classes/admin/configsectiongroups.php:492
+msgid "When enabled, hovering over group names on stream will display membership and following summary. This feature is likely to slow down stream performance."
+msgstr "Pokud je povoleno, při najetí myší na názvy skupin ve streamu se zobrazí členství a následující souhrn. Tato funkce pravděpodobně zpomalí výkon streamu."
+
+#: classes/admin/configsectiongroups.php:486
+msgid "Email Admins when a new group is created"
+msgstr ""
+
+#: classes/admin/configsectiongroups.php:483
+msgid "Users with Administrator role will receive an email when a new group is created"
+msgstr ""
+
+#: classes/admin/configsectiongroups.php:477
+msgid "Replace \"invite\" with \"add\" for Admins"
+msgstr "Nahradit „POZVAT“ za „PŘIDAT“ pro administrátory"
+
+#: classes/admin/configsectiongroups.php:474
+msgid "Site and Community Administrators will add users to group without the need to confirm."
+msgstr "Administrátoři webu a komunity přidájí uživatele do skupiny bez nutnosti potvrzení."
+
+#: classes/admin/configsectiongroups.php:467
+msgid "Force unique names"
+msgstr ""
+
+#: classes/admin/configsectiongroups.php:464
+msgid "Enabled: PeepSo will disallow creating groups with the same names. Runs a risk of exposing the existence of secret groups to non-members."
+msgstr ""
+
+#: classes/admin/configsectiongroups.php:445
+msgid "Pin to top only inside groups"
+msgstr "Připnout nahoru pouze v rámci skupin"
+
+#: classes/admin/configsectiongroups.php:442
+msgid "Disabled: pinned group posts will be also pinned to top on author profile and main activity"
+msgstr "Zakázáno: Připnuté skupinové příspěvky budou také připnuty na začátek v profilu autora a hlavní aktivitu"
+
+#: classes/admin/configsectiongroups.php:442
+msgid "Enabled: pinned group posts will be pinned to top only in group views"
+msgstr "Povoleno: Připnuté skupinové příspěvky budou připnuty na začátek pouze ve skupinových zobrazeních."
+
+#: classes/admin/configsectiongroups.php:400
+msgid "Editing group posts and comments"
+msgstr "Úpravy skupinových příspěvků a komentářů"
+
+#: classes/admin/configsectiongroups.php:393
+#: classes/admin/configsectiongroups.php:427
+msgid "By group moderators"
+msgstr "Moderátory skupiny"
+
+#: classes/admin/configsectiongroups.php:389
+msgid "Enabled: group moderators can edit posts and comments in respective groups"
+msgstr "Povoleno: Moderátoři skupin mohou upravovat příspěvky a komentáře v příslušných skupinách."
+
+#: classes/admin/configsectiongroups.php:385
+#: classes/admin/configsectiongroups.php:419
+msgid "By group managers"
+msgstr "Manažery skupiny"
+
+#: classes/admin/configsectiongroups.php:381
+msgid "Enabled: group managers can edit posts and comments in respective groups"
+msgstr "Povoleno: Správci skupin mohou upravovat příspěvky a komentáře v příslušných skupinách."
+
+#: classes/admin/configsectiongroups.php:377
+#: classes/admin/configsectiongroups.php:411
+msgid "By group owners"
+msgstr "Vlastníky skupiny"
+
+#: classes/admin/configsectiongroups.php:373
+#: classes/admin/configsectiongroups.php:381
+#: classes/admin/configsectiongroups.php:389
+msgid "Disabled: only admin can edit posts and comments"
+msgstr "Zakázáno: Pouze administrátor může upravovat příspěvky a komentáře"
+
+#: classes/admin/configsectiongroups.php:373
+msgid "Enabled: group owners can edit posts and comments in respective groups"
+msgstr "Povoleno: Vlastníci skupin mohou upravovat příspěvky a komentáře v příslušných skupinách."
+
+#: classes/admin/configsectiongroups.php:366
+#: classes/admin/groupslisttable.php:59
+msgid "Categories"
+msgstr "Kategorie"
+
+#: classes/admin/configsectiongroups.php:359
+msgid "Show group count"
+msgstr "Zobrazit počet skupin"
+
+#: classes/admin/configsectiongroups.php:356
+msgid "The count will not be accurate if a category contains unpublished or secret groups."
+msgstr "Počet nebude přesný, pokud kategorie obsahuje nezveřejněné nebo tajné skupiny."
+
+#: classes/admin/configsectiongroups.php:350
+msgid "Hide empty categories"
+msgstr "Skrýt prázdné kategorie"
+
+#: classes/admin/configsectiongroups.php:347
+msgid "Hide categories which don't have any groups assigned to them."
+msgstr "Skrýt kategorie, které nemají přiřazené žádné skupiny."
+
+#: classes/admin/configsectiongroups.php:341
+msgid "Expand all categories"
+msgstr "Rozbalit všechny kategorie"
+
+#: classes/admin/configsectiongroups.php:338
+msgid "Disabled: only the first category shows a preview of the group listing."
+msgstr "Zakázáno: Pouze první kategorie zobrazuje náhled seznamu skupin."
+
+#: classes/admin/configsectiongroups.php:332
+msgid "Each category loads"
+msgstr "Každá kategorie se načte"
+
+#: classes/admin/configsectiongroups.php:328
+msgid "Only this many groups will show in each category before offering a link to the full category listing."
+msgstr "Pouze tolik skupin se zobrazí v každé kategorii, než se nabídne odkaz na úplný seznam kategorií."
+
+#: classes/admin/configsectiongroups.php:319
+msgid "%d groups"
+msgstr "%d skupiny"
+
+#: classes/admin/configsectiongroups.php:306
+msgid "Category listing"
+msgstr "Výpis kategorií"
+
+#: classes/admin/configsectiongroups.php:300
+msgid "Each ajax call loads"
+msgstr ""
+
+#: classes/admin/configsectiongroups.php:296
+msgid "Only this many categories will show in each ajax call in category listing."
+msgstr ""
+
+#: classes/admin/configsectiongroups.php:293
+#: classes/admin/configsectiongroups.php:322
+msgid "default"
+msgstr "výchozí"
+
+#: classes/admin/configsectiongroups.php:290
+msgid "%d category"
+msgid_plural "%d categories"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: classes/admin/configsectiongroups.php:280
+msgid "Allowed categories per group"
+msgstr ""
+
+#: classes/admin/configsectiongroups.php:267
+msgid "Allow multiple categories per group"
+msgstr "Povolit více kategorií pro každou skupinu"
+
+#: classes/admin/configsectiongroups.php:264
+msgid "Users will be able to assign a group to multiple categories"
+msgstr "Uživatelé budou moci přiřadit skupinu do více kategorií"
+
+#: classes/admin/configsectiongroups.php:257
+msgid "Set group categories as default view."
+msgstr "Nastavit kategorie skupin jako výchozí zobrazení."
+
+#: classes/admin/configsectiongroups.php:249
+msgid "Enable group categories"
+msgstr "Povolit kategorie skupin"
+
+#: classes/admin/configsectiongroups.php:246
+msgid "Users will be able to assign groups to categories."
+msgstr "Uživatelé budou moci přiřadit skupiny do kategorií."
+
+#: classes/admin/configsectiongroups.php:238
+msgid "New members"
+msgstr "Noví členové"
+
+#: classes/admin/configsectiongroups.php:231
+msgid "Automatically subscribe new members to emails"
+msgstr ""
+
+#: classes/admin/configsectiongroups.php:228
+msgid "Enabled: new group members will automatically be subscribed to receive new posts email notifications"
+msgstr ""
+
+#: classes/admin/configsectiongroups.php:222
+msgid "Automatically subscribe new members to notifications"
+msgstr "Automaticky přihlásit nové členy k odběru oznámení"
+
+#: classes/admin/configsectiongroups.php:219
+msgid "Enabled: new group members will automatically be subscribed to receive new posts notifications (on-site)"
+msgstr "Povoleno: Noví členové skupiny budou automaticky přihlášeni k odběru nových oznámení o nových příspěvcích (na webu)."
+
+#: classes/admin/configsectiongroups.php:213
+msgid "Notifications"
+msgstr "Upozornění"
+
+#: classes/admin/configsectiongroups.php:207
+msgid "Action text (on other streams)"
+msgstr "Text akce (v jiných streamech)"
+
+#: classes/admin/configsectiongroups.php:204
+msgid "For example \"joined a group:\". Leave empty for default. Applies to old posts too."
+msgstr "Například „připojil se ke skupině“. Pro výchozí nastavení ponechte prázdné. Platí také pro staré příspěvky."
+
+#: classes/admin/configsectiongroups.php:200
+msgid "Action text (on group stream)"
+msgstr "Text akce (ve skupinovém streamu)"
+
+#: classes/admin/configsectiongroups.php:197
+msgid "For example \"joined this group\". Leave empty for default. Applies to old posts too."
+msgstr "Například „připojil se k této skupině“. Pro výchozí nastavení ponechte prázdné. Platí také pro staré příspěvky."
+
+#: classes/admin/configsectiongroups.php:193
+#: classes/admin/configsectiongroups.php:509
+msgid "Enabled"
+msgstr "Povoleno"
+
+#: classes/admin/configsectiongroups.php:190
+msgid "Enabled: automatically post on user's stream when they join a group. These posts are deleted automatically when the user leaves or is removed/banned from the group."
+msgstr "Povoleno: Automaticky přidat příspěvek na zeď uživatele, když se připojí ke skupině. Tyto příspěvky jsou automaticky mazány, když uživatel opustí skupinu nebo je ze skupiny odebrán/zakázán."
+
+#: classes/admin/configsectiongroups.php:185
+msgid "Post to stream when joining"
+msgstr "Při připojení přidat příspěvek do streamu"
+
+#: classes/admin/configsectiongroups.php:177
+msgid "General"
+msgstr "Všeobecné"
+
+#: classes/admin/configsectiongroups.php:142
+msgid "Enable group creation"
+msgstr "Povolit tvorbu skupin"
+
+#: classes/admin/configsectiongroups.php:139
+msgid "Disabled: only site admins can create groups"
+msgstr "Zakázáno: Skupiny mohou vytvářet pouze administrátoři stránek"
+
+#: classes/admin/configsectiongroups.php:139
+msgid "Enabled: all site members can create groups"
+msgstr "Povoleno: Všichni členové mohou vytvářet skupiny"
+
+#: classes/admin/configsectiongroups.php:131
+msgid "Group listings"
+msgstr "Výpisy skupin"
+
+#: classes/admin/configsectiongroups.php:104
+msgid "Default sort direction"
+msgstr "Výchozí směr řazení"
+
+#: classes/admin/configsectiongroups.php:97 templates/groups/groups.php:104
+msgid "Ascending"
+msgstr "Vzestupně"
+
+#: classes/admin/configsectiongroups.php:96
+msgid "Descending (default)"
+msgstr "Sestupně (výchozí)"
+
+#: classes/admin/configsectiongroups.php:91
+msgid "Default sort"
+msgstr ""
+
+#: classes/admin/configsectiongroups.php:85 templates/groups/groups.php:96
+msgid "Members count"
+msgstr "Počet členů"
+
+#: classes/admin/configsectiongroups.php:84
+#: templates/groups/group-members-search-form.php:55
+#: templates/groups/groups.php:95
+msgid "Alphabetical"
+msgstr "Abecedně"
+
+#: classes/admin/configsectiongroups.php:83
+msgid "Recently added (default)"
+msgstr "Nedávno přidané (výchozí)"
+
+#: classes/admin/configsectiongroups.php:78
+msgid "Allow guest access"
+msgstr "Povolit přístup hostů"
+
+#: classes/admin/configsectiongroups.php:75
+msgid "Show or hide the groups listing from visitors who are not logged in"
+msgstr "Zobrazit nebo skrýt seznam skupin před návštěvníky, kteří nejsou přihlášeni"
+
+#: classes/admin/configsectiongroups.php:70
+msgid "Show creation date"
+msgstr "Zobrazit datum vytvoření"
+
+#: classes/admin/configsectiongroups.php:67
+msgid "Show or hide the groups creation dates in the groups listing"
+msgstr "Zobrazit nebo skrýt data vytvoření skupin v seznamu skupin"
+
+#: classes/admin/configsectiongroups.php:61
+msgid "Show owner(s)"
+msgstr "Zobrazit vlastníka(y)"
+
+#: classes/admin/configsectiongroups.php:58
+msgid "Show or hide the groups owner(s) in the groups listing"
+msgstr "Zobrazit nebo skrýt vlastníky skupin v seznamu skupin."
+
+#: classes/admin/configsectiongroups.php:51
+msgid "SEO"
+msgstr ""
+
+#: classes/admin/configsectiongroups.php:45
+msgid "Group slug changes"
+msgstr "Změny slugu skupiny"
+
+#: classes/admin/configsectiongroups.php:42
+msgid "Option 3: the group owner can change the slug manually."
+msgstr "Možnost 3: Vlastník skupiny může slug změnit ručně."
+
+#: classes/admin/configsectiongroups.php:42
+msgid "Option 2: new group slug will be generated upon group name change."
+msgstr "Možnost 2: Nový slug skupiny bude vygenerován při změně názvu skupiny."
+
+#: classes/admin/configsectiongroups.php:42
+msgid "Option 1: group slug will stay the same as the original group name."
+msgstr "Možnost 1: Slug skupiny zůstane stejný jako původní název skupiny."
+
+#: classes/admin/configsectiongroups.php:38
+msgid "by the group owner"
+msgstr "vlastníkem skupiny"
+
+#: classes/admin/configsectiongroups.php:37
+msgid "when group name is changed"
+msgstr "při změně názvu skupiny"
+
+#: classes/admin/configsectiongroups.php:36
+msgid "never"
+msgstr "nikdy"
+
+#: classes/admin/configsectiongroups.php:31
+msgid "Use slugs in group URLs"
+msgstr "Používat slugy v adresách URL skupin"
+
+#: classes/admin/configsectiongroups.php:28
+msgid "Disabled: /groups/1234/"
+msgstr "Zakázáno: /skupiny/1234/"
+
+#: classes/admin/configsectiongroups.php:28
+msgid "Enabled: /groups/my-amazing-group/"
+msgstr "Povoleno: /skupiny/moje-skvela-skupina/"

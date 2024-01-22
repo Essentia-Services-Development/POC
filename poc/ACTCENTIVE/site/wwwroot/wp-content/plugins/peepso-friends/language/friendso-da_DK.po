@@ -1,0 +1,434 @@
+# Translation of PeepSo - Friends in Danish
+# This file is distributed under the same license as the PeepSo - Friends package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-07-18 11:26:07+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0\n"
+"Language: da_DK\n"
+"Project-Id-Version: PeepSo - Friends\n"
+
+#: peepsofriends.php:220
+msgid "Posts from your friends"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "PeepSo"
+msgstr "PeepSo"
+
+#. Description of the plugin/theme
+msgid "Friend connections and \"friends\" privacy level"
+msgstr "Venneforbindelser og \"venner\" privatliv niveau"
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://peepso.com"
+msgstr "https://peepso.com"
+
+#. Plugin Name of the plugin/theme
+msgid "PeepSo Core: Friends"
+msgstr "PeepSo Core: Venner"
+
+#: templates/widgets/friendsbirthday.tpl.php:117
+msgid "No upcoming birthdays."
+msgstr "Ingen kommende fødselsdage."
+
+#: templates/widgets/friendsbirthday.tpl.php:100
+msgid "Birthday tomorrow."
+msgid_plural "Birthday in %s days.</span>"
+msgstr[0] "Fødselsdag i morgen."
+msgstr[1] "Fødselsdag om %s dage.</span>"
+
+#: templates/widgets/friendsbirthday.tpl.php:67
+#: templates/widgets/friendsbirthday.tpl.php:116
+msgid "Upcoming Birthday"
+msgstr "Kommende fødselsdage"
+
+#: templates/widgets/friendsbirthday.tpl.php:55
+msgid "No friends' birthdays today."
+msgstr "Ingen venner har fødselsdag i dag."
+
+#: templates/widgets/friendsbirthday.tpl.php:39
+msgid "Say Happy Birthday!"
+msgstr "Sig tillykke med fødselsdagen!"
+
+#: templates/widgets/friendsbirthday.tpl.php:21
+#: templates/widgets/friendsbirthday.tpl.php:54
+msgid "Birthday Today"
+msgstr "Fødselsdag i dag"
+
+#: templates/widgets/friends.tpl.php:49
+#: templates/widgets/mutual-friends.tpl.php:40
+msgid "No friends"
+msgstr "Ingen venner"
+
+#: templates/widgets/friends.tpl.php:41
+msgid "View All"
+msgstr "Vis alle"
+
+#: templates/messages/list-header.php:2
+msgid "New message"
+msgstr "Ny besked"
+
+#: templates/friends/submenu.php:17
+msgid "Friend requests"
+msgstr "Venneanmodninger"
+
+#: templates/friends/pending.php:39
+msgid "Sent requests"
+msgstr "Sendte anmodninger"
+
+#: templates/friends/pending.php:20
+msgid "Received requests"
+msgstr "Modtagne anmodninger"
+
+#: templates/friends/notification-popover-item.php:41
+msgid "Approve"
+msgstr "Godkende"
+
+#: templates/friends/notification-popover-item.php:35
+msgid "Ignore"
+msgstr "Ignorer"
+
+#: templates/friends/notification-popover-header.php:3
+msgid "Search friends"
+msgstr "Søg venner"
+
+#: templates/friends/dialog-remove-friend.php:1
+msgid "Are you sure want to remove a friend?"
+msgstr "Er du sikker på du vil fjerne en ven?"
+
+#: peepsofriends.php:820
+msgid "Someone sent me a friend request"
+msgstr "Nogen har sendt mig en venneanmodning"
+
+#: peepsofriends.php:702
+msgid "Add as your friend"
+msgstr "Tilføj som din ven"
+
+#: peepsofriends.php:697
+msgid "Add Friend"
+msgstr "Tilføj ven"
+
+#: peepsofriends.php:684
+msgid "Friends limit reached"
+msgstr "Grænsen for venner er nået"
+
+#: peepsofriends.php:646
+msgid "Reject Request"
+msgstr "Afvis anmodning"
+
+#: peepsofriends.php:641
+msgid "Reject"
+msgstr "Afvis"
+
+#: peepsofriends.php:635
+msgid "Accept Request"
+msgstr "Acceptere anmodningen"
+
+#: peepsofriends.php:630
+msgid "Accept"
+msgstr "Acceptér"
+
+#: peepsofriends.php:615 peepsofriends.php:620
+msgid "Cancel Friend Request"
+msgstr "Annuller venneanmodning"
+
+#: peepsofriends.php:604
+msgid "Unfriend"
+msgstr "Fjern venskab"
+
+#: peepsofriends.php:602
+msgid "Remove friend"
+msgstr "Fjern ven"
+
+#: peepsofriends.php:597
+msgid "Friend"
+msgstr "Ven"
+
+#: peepsofriends.php:537 templates/friends/dialog-remove-friend.php:10
+msgid "Cancel"
+msgstr "Annuller"
+
+#: peepsofriends.php:535
+msgid "Are you sure?"
+msgstr "Er du sikker?"
+
+#: peepsofriends.php:534 peepsofriends.php:536
+#: templates/friends/dialog-remove-friend.php:7
+#: templates/friends/dialog-remove-friend.php:14
+msgid "Remove Friend"
+msgstr "Fjern ven"
+
+#: peepsofriends.php:439
+msgid "Friends Only"
+msgstr "Kun venner"
+
+#: peepsofriends.php:308
+msgid "Get it now!"
+msgstr "Få det nu!"
+
+#: peepsofriends.php:306
+msgid "The %s plugin requires the PeepSo plugin to be installed and activated."
+msgstr "Dette %s plugin kræver at PeepSo plugin er installeret og aktiveret."
+
+#: peepsofriends.php:180
+msgid "Pending friend requests"
+msgstr "Afventende venneanmodninger"
+
+#: install/activate.php:86 peepsofriends.php:366 peepsofriends.php:367
+#: templates/friends/notification-popover-header.php:1
+msgid "Friend Requests"
+msgstr "Venneanmodninger"
+
+#: classes/widgets/widgetmutualfriends.php:16
+msgid "PeepSo Mutual Friends Widget"
+msgstr "PeepSo gensidige venne Widget"
+
+#: classes/widgets/widgetmutualfriends.php:15
+msgid "PeepSo Mutual Friends"
+msgstr "PeepSo gensidige venner"
+
+#: classes/widgets/widgetfriendsbirthday.php:204
+msgid "Max number of upcoming birthdays to show:"
+msgstr "Max antal kommende fødselsdage at vise:"
+
+#: classes/widgets/widgetfriendsbirthday.php:189
+msgid "How many days ahead?"
+msgstr "Hvor mange dage forude?"
+
+#: classes/widgets/widgetfriendsbirthday.php:184
+msgid "Show upcoming birthdays"
+msgstr "Vis kommende fødselsdage"
+
+#: classes/widgets/widgetfriendsbirthday.php:178
+msgid "Upcoming Birthdays"
+msgstr "Kommende fødselsdage"
+
+#: classes/widgets/widgetfriendsbirthday.php:175
+msgid "Hide if empty"
+msgstr "Skjul, hvis tomt"
+
+#: classes/widgets/widgetfriendsbirthday.php:165
+msgid "Title"
+msgstr "Titel"
+
+#: classes/widgets/widgetfriendsbirthday.php:162
+msgid "General Settings"
+msgstr "Generelle indstillinger"
+
+#: classes/widgets/widgetfriendsbirthday.php:149
+msgid "Upcoming Friends Birthdays"
+msgstr "Kommende venners fødselsdage"
+
+#: classes/widgets/widgetfriendsbirthday.php:15
+msgid "PeepSo Friends Birthday Widget"
+msgstr "PeepSo venners-fødselsdags-widget"
+
+#: classes/widgets/widgetfriendsbirthday.php:14
+msgid "PeepSo Friends Birthday"
+msgstr "PeepSo venners fødselsdage"
+
+#: classes/widgets/widgetfriends.php:132
+msgid "My Friends"
+msgstr "Mine venner"
+
+#: classes/widgets/widgetfriends.php:18
+msgid "PeepSo Friends Widget"
+msgstr "PeepSo venner-widget"
+
+#: classes/widgets/widgetfriends.php:17
+msgid "PeepSo Friends"
+msgstr "PeepSo venner"
+
+#: classes/userautofriends.php:172
+msgid "The user has been successfully added."
+msgstr "Brugeren er tilføjet."
+
+#: classes/userautofriends.php:121
+msgid "The user has been successfully removed."
+msgstr "Brugeren er fjernet."
+
+#: classes/userautofriends.php:92
+msgid "The user is now friends with all other users."
+msgstr "Brugeren er nu venner med alle andre brugere."
+
+#: classes/userautofriends.php:86 classes/userautofriends.php:115
+#: classes/userautofriends.php:166
+msgid "Could not verify nonce."
+msgstr "Kunne ikke verificere nonce."
+
+#: classes/userautofriends.php:53
+msgid "1 item"
+msgid_plural "%s items"
+msgstr[0] "1 emne"
+msgstr[1] "%s emner"
+
+#: classes/userautofriends.php:15 classes/userautofriends.php:80
+#: classes/userautofriends.php:109 classes/userautofriends.php:138
+#: classes/userautofriends.php:160
+msgid "Insufficient permissions."
+msgstr "Utilstrækkelige tilladelser."
+
+#: classes/friendsrequests.php:555 classes/friendsrequests.php:565
+msgid "Friend Request Ignored"
+msgstr "Venneanmodning ignoreret"
+
+#: classes/friendsrequests.php:545
+msgid "Friend Request Denied"
+msgstr "Venneanmodning nægtet"
+
+#: classes/friendsrequests.php:520
+msgid "accepted your friend request"
+msgstr "accepterede din venneanmodning"
+
+#: classes/friendsrequests.php:502 classes/friendsrequests.php:509
+msgid "%s accepted your friend request"
+msgstr "%s accepterede din venneanmodning"
+
+#: classes/friendsrequests.php:475 classes/friendsrequests.php:482
+msgid "New Friend Request from %s"
+msgstr "Ny venneanmodning fra %s"
+
+#: classes/friendsrequests.php:286 classes/friendsshortcode.php:145
+#: peepsofriends.php:862
+msgid " mutual friend"
+msgid_plural " mutual friends"
+msgstr[0] " fælles ven"
+msgstr[1] " fælles venner"
+
+#: classes/friendsrequests.php:72 classes/friendsrequests.php:104
+#: classes/friendsrequests.php:142
+msgid "You do not have enough permissions."
+msgstr "Du har ikke nok tilladelser."
+
+#: classes/friendsrequests.php:58
+msgid "[FRIENDS] request already sent"
+msgstr "[FRIENDS] anmodning allerede sendt"
+
+#: classes/friendspostswidget.php:17
+msgid "This will select up to 5 posts, displaying the most recent post by each of up to five users that are friends."
+msgstr "Dette vil vælge 5 indlæg, og viser de seneste indlæg fra hver af op til 5 brugere, som er venner."
+
+#: classes/friendspostswidget.php:16
+msgid "Friends Posts"
+msgstr "Venners indlæg"
+
+#: classes/friendsconfig.php:82
+msgid "This will be sent to a user when a friend request is accepted."
+msgstr "Dette vil blive sendt til bruger, når en venneanmodning er accepteret."
+
+#: classes/friendsconfig.php:81
+msgid "Friend Request Accepted"
+msgstr "Venneanmodning accepteret"
+
+#: classes/friendsconfig.php:77
+msgid "This will be sent to a user when a friend request is received."
+msgstr "Dette vil blive sendt til ven, når en venneanmodning er modtaget."
+
+#: classes/friendsconfig.php:76
+msgid "Friend Request Received"
+msgstr "Venneanmodning modtaget"
+
+#: classes/friendsconfig.php:60
+msgid "Friends Settings"
+msgstr "Indstillinger for venner"
+
+#: classes/friendsconfig.php:40
+msgid "Members can send messages to"
+msgstr "Medlemmer kan sende meddelelser til"
+
+#: classes/friendsajax.php:292 classes/widgets/widgetmutualfriends.php:109
+msgid "Mutual Friends"
+msgstr "Fælles venner"
+
+#: classes/friendsajax.php:247
+msgid "%s has no friends yet"
+msgstr "%s har ingen venner endnu"
+
+#: classes/friendsajax.php:247
+msgid "You have no friends yet"
+msgstr "Du har ingen venner endnu"
+
+#: classes/friendsajax.php:187 templates/friends/pending.php:33
+msgid "You currently have no friend requests"
+msgstr "Du har i øjeblikket ingen venneanmodninger"
+
+#: classes/friendsajax.php:46 classes/friendsajax.php:117 peepsofriends.php:675
+msgid "%s already has %d friends"
+msgstr "%s har allerede %d venner"
+
+#: classes/friendsajax.php:44 classes/friendsajax.php:119 peepsofriends.php:673
+msgid "You already have %d friends"
+msgstr "Du har allerede %d venner"
+
+#: classes/admin/userautofriendslisttable.php:224
+msgid "user"
+msgid_plural "users"
+msgstr[0] "bruger"
+msgstr[1] "brugere"
+
+#: classes/admin/userautofriendslisttable.php:218
+msgid "removed"
+msgstr "fjernet"
+
+#: classes/admin/userautofriendslisttable.php:212
+msgid "befriend"
+msgstr "blive ven"
+
+#: classes/admin/userautofriendslisttable.php:167
+msgid "Remove from list autofriends creation."
+msgstr "Fjern fra den automatiske venneoprettelsesliste."
+
+#: classes/admin/userautofriendslisttable.php:166
+#: classes/admin/userautofriendslisttable.php:192
+msgid "Remove"
+msgstr "Fjern"
+
+#: classes/admin/userautofriendslisttable.php:163
+msgid "Befriend All users."
+msgstr "Bliv ven med alle brugere."
+
+#: classes/admin/userautofriendslisttable.php:162
+#: classes/admin/userautofriendslisttable.php:191
+msgid "Befriend All Users"
+msgstr "Bliv ven med alle brugere"
+
+#: classes/admin/userautofriendslisttable.php:90
+msgid "Actions"
+msgstr "Handlinger"
+
+#: classes/admin/userautofriendslisttable.php:89 install/activate.php:81
+#: peepsofriends.php:218 peepsofriends.php:571 peepsofriends.php:574
+#: peepsofriends.php:817 peepsofriends.php:882 peepsofriends.php:910
+#: templates/friends/submenu.php:9
+msgid "Friends"
+msgstr "Venner"
+
+#: classes/admin/userautofriendslisttable.php:88
+msgid "Name"
+msgstr "Navn"
+
+#: classes/admin/configsectionfriends.php:92
+msgid "Auto Friends"
+msgstr "Auto venner"
+
+#: classes/admin/configsectionfriends.php:63
+msgid "Adding a user to the list below will automatically create friendship between that user and any newly registered user. It will not create friendships between this user and already existing ones. <br> To create missing friendship connections, please use the button on the right. Once clicked it'll add that user as friends to everyone else in your PeepSo community. <br> Removing user from the list below will <strong>NOT</strong> remove existing friendship connections. "
+msgstr "Tilføjelse af en bruger til listen nedenfor vil automatisk skabe venskab mellem denne bruger og enhver nyregistreret bruger. Det vil ikke skabe venskaber mellem denne bruger og allerede eksisterende. <br> For at oprette manglende venskabsforbindelser, brug venligst knappen til højre. Når du har klikket på den, tilføjer den brugeren som ven til alle andre i dit PeepSo-fællesskab. <br> Fjernelse af bruger fra listen nedenfor vil <strong>IKKE</strong> fjerne eksisterende venskabsforbindelser."
+
+#: classes/admin/configsectionfriends.php:57
+msgid "search"
+msgstr "søg"
+
+#: classes/admin/configsectionfriends.php:35
+#: classes/admin/configsectionfriends.php:42
+msgid "Maximum amount of friends"
+msgstr "Maksimum antal venner"
+
+#: classes/admin/configsectionfriends.php:32
+msgid "Too many friendships can result in degraded performance for the user. Limit of friends applies to all users, including the administrators."
+msgstr "For mange venskaber kan resultere i forringet ydeevne for brugeren. Begrænsningen af venner gælder for alle brugere, inklusive administratorerne."

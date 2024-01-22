@@ -1,0 +1,61 @@
+.affegg-masonry .item {
+    font-size: 12px;
+    font-weight: 400;
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: linear-gradient(to bottom, #F6F6F6 0%, #EAEAEA 100%) repeat scroll 0 0 transparent;
+    border-radius: 4px 4px 4px 4px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15), 0 2px 1px rgba(0, 0, 0, 0.1), 0 3px 1px rgba(0, 0, 0, 0.05);
+    text-shadow: 0 1px 0 #DDDDDD;
+    width: 210px;
+    margin: 10px;
+    float: left;
+}
+
+.affegg-masonry .item:hover {
+
+    opacity:0.8;   
+    -moz-opacity:0.8;   
+    filter: alpha(opacity=50) white;   
+    -khtml-opacity: 0.8;   
+    background-color:#ffffff;          
+}   
+
+.affegg-masonry .item .item-content {
+    padding: 10px;
+}
+
+.affegg-masonry .item .picture .description {
+    margin-top: 10px;
+}
+
+.affegg-masonry .item .meta  {
+    text-align: right;
+    font-size: 12px !important;
+    line-height: 16px !important;
+    margin-right: 5px;
+}
+
+.affegg-masonry .item .picture {
+    display: block;
+    position: relative;
+    z-index: 5;
+    border-top: 1px solid #999999;
+    border-radius: 4px 4px 4px 4px;
+}
+
+.affegg-masonry .item .picture a.image {
+    display: block;
+    height: auto;
+    width: 100%;
+}
+
+.affegg-masonry .item .picture img {
+    border-radius: 2px 2px 0px 0px;
+    height: auto;
+    position: relative;
+    width: 100%;
+    z-index: -1;
+}

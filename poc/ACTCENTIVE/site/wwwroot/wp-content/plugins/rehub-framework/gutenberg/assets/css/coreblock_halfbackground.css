@@ -1,0 +1,1 @@
+.is-style-halfbackground::before {content: "";position: absolute;left: 0;bottom: 0;height: 50%;background-color: white;width:100vw;margin-left: calc(-100vw / 2 + 100% / 2);margin-right: calc(-100vw / 2 + 100% / 2);}.is-style-halfbackground, .is-style-halfbackground img{position:relative; margin-top:0; margin-bottom:0}

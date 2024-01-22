@@ -1,0 +1,332 @@
+# Translation of PeepSo - Email Digest in Chinese (China)
+# This file is distributed under the same license as the PeepSo - Email Digest package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-02-02 12:23:44+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/3.0.0\n"
+"Language: zh_CN\n"
+"Project-Id-Version: PeepSo - Email Digest\n"
+
+#: peepsoemaildigest.php:822
+msgid "A summary of community activity is sent if you are inactive for more than %d days."
+msgstr ""
+
+#: peepsoemaildigest.php:821
+msgid "%s email digest"
+msgstr ""
+
+#: peepsoemaildigest.php:315
+msgid "Monthly"
+msgstr ""
+
+#: peepsoemaildigest.php:314
+msgid "Biweekly"
+msgstr ""
+
+#: peepsoemaildigest.php:313
+msgid "Weekly"
+msgstr ""
+
+#: peepsoemaildigest.php:312
+msgid "Daily"
+msgstr ""
+
+#: classes/configsectionemaildigest.php:37
+msgid "Use files"
+msgstr ""
+
+#: peepsoemaildigest.php:150
+msgid "Every 2 weeks"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "PeepSo"
+msgstr "PeepSo"
+
+#. Description of the plugin/theme
+msgid "Bring users back with automated newsletter"
+msgstr "发送自动新闻稿吸引用户回来"
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://peepso.com"
+msgstr "https://peepso.com"
+
+#. Plugin Name of the plugin/theme
+msgid "PeepSo Core: Email Digest"
+msgstr ""
+
+#: templates/general/email-digest.php:41
+msgid "Comment"
+msgstr "评论"
+
+#: templates/general/email-digest.php:41
+msgid "Like"
+msgstr "喜欢"
+
+#: templates/general/email-digest.php:39
+msgid "Read more"
+msgstr "阅读更多"
+
+#: templates/general/email-digest.php:25
+msgid "shared a post"
+msgstr "分享了一条信息"
+
+#: templates/general/email-digest-recipient.php:16
+msgid "Last email sent: "
+msgstr "上次发送的电子邮件："
+
+#: templates/general/email-digest-recipient.php:13
+msgid "User last login: "
+msgstr "用户上次登录："
+
+#: peepsoemaildigest.php:935
+msgid "Preview email was sent"
+msgstr "预览电子邮件已发送"
+
+#: peepsoemaildigest.php:724
+msgid "Most commented post"
+msgstr "最多评论的信息"
+
+#: peepsoemaildigest.php:686
+msgid "Most liked post"
+msgstr "最喜欢的帖子"
+
+#: peepsoemaildigest.php:624
+msgid "Email digest is not activated"
+msgstr "电子邮件摘要未激活"
+
+#: peepsoemaildigest.php:619
+msgid "Email digest sent to %d users"
+msgstr "发送给%d个用户的电子邮件摘要"
+
+#: peepsoemaildigest.php:479
+msgid "Other popular posts"
+msgstr "其他热门帖子"
+
+#: peepsoemaildigest.php:472
+msgid "There are only %d posts, required at least %d"
+msgstr "只有%d篇帖子，至少需要%d篇"
+
+#: peepsoemaildigest.php:400
+msgid "Current time is %s, cron scheduled at %s"
+msgstr "当前时间是%s，计时程序安排在%s"
+
+#: peepsoemaildigest.php:364
+msgid "There are %d logs in your database. You can clear the logs by clicking the button below."
+msgstr "您的数据库中有%d个日志。单击下面的按钮可以清除日志。"
+
+#: peepsoemaildigest.php:363
+msgid "Clear Logs"
+msgstr "清除日志"
+
+#: peepsoemaildigest.php:362
+msgid "Preview email failed"
+msgstr ""
+
+#: peepsoemaildigest.php:361
+msgid "Preview email sent"
+msgstr ""
+
+#: peepsoemaildigest.php:343
+msgid "PeepSo Email Digest"
+msgstr "PeepSo电子邮件摘要"
+
+#: peepsoemaildigest.php:292
+msgid "Get it now!"
+msgstr "立即获取！"
+
+#: peepsoemaildigest.php:290
+msgid "The %s plugin requires the PeepSo plugin to be installed and activated."
+msgstr "%s插件需要安装并激活PeepSo插件。"
+
+#: classes/emaildigestadminajax.php:46
+msgid "No Log Found."
+msgstr "找不到日志。"
+
+#: classes/emaildigestadmin.php:42
+msgid "This will be sent to user based on schedule."
+msgstr "这将根据计划发送给用户。"
+
+#: classes/emaildigestadmin.php:41
+msgid "Digest Email"
+msgstr "摘要电子邮件"
+
+#: classes/configsectionemaildigest.php:356
+msgid "Sent Email Digest Logs"
+msgstr "已发送的电子邮件摘要日志"
+
+#: classes/configsectionemaildigest.php:349
+msgid "The logs keep latest 100 sent Email Digest emails. You can see which users got the emails and what was their last login when the email was generated and sent to them. You can also preview the email that was sent."
+msgstr "日志保存最近发送的100封电子邮件摘要。您可以看到哪些用户收到了电子邮件，以及生成电子邮件并发送给他们时，他们的最后一次登录是什么时候。您还可以预览已发送的电子邮件。"
+
+#: classes/configsectionemaildigest.php:341
+msgid "General"
+msgstr "一般"
+
+#: classes/configsectionemaildigest.php:315
+msgid "How many emails should be created in a batch"
+msgstr "应在批处理中创建多少个电子邮件"
+
+#: classes/configsectionemaildigest.php:312
+msgid "Depending on the amount of inactive users in your community, not to overload the site there's a batch creation system. This setting controls how many emails will be generated in one batch. This setting does not send the emails. PeepSo mailqueue takes care of the delivery."
+msgstr "根据您社区中非活动用户的数量，不要超负荷的网站有一个批创建系统。此设置控制在一个批次中生成多少电子邮件。此设置不发送电子邮件。 PeepSo邮件队列负责交货。"
+
+#: classes/configsectionemaildigest.php:308
+msgid "Execute Email Digest email creation via cron job"
+msgstr "通过cron作业执行电子邮件摘要电子邮件创建"
+
+#: classes/configsectionemaildigest.php:305
+msgid "It's advised to switch this setting on and setup a server-side cron job. You can use this command: wget %s It can easily run every hour."
+msgstr "建议打开此设置并设置服务器端cron作业。您可以使用此命令：wget%s它可以轻松地每小时运行。"
+
+#: classes/configsectionemaildigest.php:236
+#: classes/configsectionemaildigest.php:243
+#: classes/configsectionemaildigest.php:260
+#: classes/configsectionemaildigest.php:283
+msgid "At"
+msgstr "在"
+
+#: classes/configsectionemaildigest.php:233
+#: classes/configsectionemaildigest.php:256
+#: classes/configsectionemaildigest.php:279
+msgid "The time when Email Digest emails will start to be sent. Emails are sent in batches by the mailqueue, they're not all sent at once, so your users might get them at different times."
+msgstr "将开始发送电子邮件摘要电子邮件的时间。电子邮件由邮件队列批量发送，它们不是一次性发送，因此您的用户可能会在不同的时间收到他们。"
+
+#: classes/configsectionemaildigest.php:206
+msgid "Sat"
+msgstr "星期六"
+
+#: classes/configsectionemaildigest.php:205
+msgid "Fri"
+msgstr "星期五"
+
+#: classes/configsectionemaildigest.php:204
+msgid "Thu"
+msgstr "星期四"
+
+#: classes/configsectionemaildigest.php:203
+msgid "Wed"
+msgstr "星期三"
+
+#: classes/configsectionemaildigest.php:202
+msgid "Tue"
+msgstr "星期二"
+
+#: classes/configsectionemaildigest.php:201
+msgid "Mon"
+msgstr "星期一"
+
+#: classes/configsectionemaildigest.php:200
+msgid "Sun"
+msgstr "星期天"
+
+#: classes/configsectionemaildigest.php:195
+#: classes/configsectionemaildigest.php:212
+msgid "Every"
+msgstr "每一个"
+
+#: classes/configsectionemaildigest.php:191
+msgid "If selected date is bigger than the number of days in month, email digest will be sent at the end of the month."
+msgstr "如果所选日期大于月份的天数，则将在月底发送电子邮件摘要。"
+
+#: classes/configsectionemaildigest.php:181
+msgid "How often should the Email Digest emails be sent"
+msgstr "电子邮件摘要电子邮件的发送频率"
+
+#: classes/configsectionemaildigest.php:172
+msgid "Send Email Digest emails to users inactive for more than"
+msgstr "发送电子邮件摘要电子邮件给不活跃的用户"
+
+#: classes/configsectionemaildigest.php:168
+msgid "Users who didn't visit the site in the number of days selected or more will receive the Email Digest emails."
+msgstr "未在所选天数内访问该网站的用户将收到电子邮件摘要电子邮件。"
+
+#: classes/configsectionemaildigest.php:158
+msgid "Send Email Digest emails"
+msgstr "发送电子邮件摘要电子邮件"
+
+#: classes/configsectionemaildigest.php:155
+msgid "Email Digest emails contains only posts which have 'Public' or 'Site Members' privacy settings. All other posts, meaning with privacy settings of 'Only me' and 'Friends Only' will be ignored and not sent as part of the Email Digest."
+msgstr "电子邮件摘要电子邮件只包含具有“公开”或“网站会员”隐私设置的帖子。所有其他帖子（隐私设置为“仅限我”和“仅限好友”）将被忽略，不会作为电子邮件摘要的一部分发送。"
+
+#: classes/configsectionemaildigest.php:150
+msgid "These settings control the Email Digest plugin. The plugin has been designed to interest and bring inactive users back to your community by showing them most interesting and engaging posts from a given period."
+msgstr "这些设置控制电子邮件摘要插件。该插件已被设计为感兴趣，并通过显示他们最有趣和吸引力的帖子从给定的时期，使非活动用户回到您的社区。"
+
+#: classes/configsectionemaildigest.php:136
+msgid "Users"
+msgstr "用户"
+
+#: classes/configsectionemaildigest.php:120
+msgid "Which User Roles should receive the emails"
+msgstr "哪些用户角色应该接收电子邮件"
+
+#: classes/configsectionemaildigest.php:106
+msgid "Subscribe new users by default"
+msgstr "默认情况下订阅新用户"
+
+#: classes/configsectionemaildigest.php:99
+msgid "Content"
+msgstr "内容"
+
+#: classes/configsectionemaildigest.php:90
+msgid "Show 'read mode' if the posts can't be shown in full and they hit the limit of characters."
+msgstr "如果帖子无法完整显示并且达到字符数限制，则显示“阅读模式”。"
+
+#: classes/configsectionemaildigest.php:86
+msgid "Limit the post length in Email Digest email to"
+msgstr "将“电子邮件摘要”电子邮件中的帖子长度限制为"
+
+#: classes/configsectionemaildigest.php:79
+msgid "Allow duplicate posts"
+msgstr "允许重复帖子"
+
+#: classes/configsectionemaildigest.php:76
+msgid "With this setting on, most commented on and most liked posts will be showcased as such. However, they might also, and most likely will be shown in the main content of the Email Digest email."
+msgstr "启用此设置后，大多数人评论过的内容和最喜欢的帖子都会显示。但是，他们也可能，并且很可能会显示在电子邮件摘要电子邮件的主要内容中。"
+
+#: classes/configsectionemaildigest.php:72
+msgid "Include most commented post"
+msgstr "包含最多评论的信息"
+
+#: classes/configsectionemaildigest.php:69
+msgid "With this setting switched on, Email Digest email will also contain the most commented on post from a given period and showcase it as such."
+msgstr "启用此设置后，“电子邮件摘要”电子邮件也将包含给定时间段内评论过的信息，并以此显示。"
+
+#: classes/configsectionemaildigest.php:65
+msgid "Include most liked post"
+msgstr "包含最喜欢的讯息"
+
+#: classes/configsectionemaildigest.php:62
+msgid "With this setting switched on, Email Digest email will also contain the most liked post from a given period and showcase it as such."
+msgstr "启用此设置后，“电子邮件摘要”电子邮件也将包含给定时间段内最喜欢的帖子并展示。"
+
+#: classes/configsectionemaildigest.php:58
+msgid "Send Email Digest emails even if there are less posts"
+msgstr "发送电子邮件即使有较少的帖子，摘要电子邮件"
+
+#: classes/configsectionemaildigest.php:55
+msgid "An Email Digest email must have at least 1 new post to be sent out. If there are no new ones it won't be sent."
+msgstr "电子邮件摘要电子邮件必须至少有1个新帖子发送出去。如果没有新的，它不会被发送。"
+
+#: classes/configsectionemaildigest.php:51
+msgid "How many posts should be included per one email"
+msgstr "每个电子邮件应包含多少帖子"
+
+#: classes/configsectionemaildigest.php:29
+msgid "Use images"
+msgstr "使用图像"
+
+#: classes/configsectionemaildigest.php:21
+msgid "Email Digest Title"
+msgstr "电子邮件摘要标题"
+
+#: classes/configsectionemaildigest.php:18 peepsoemaildigest.php:340
+#: peepsoemaildigest.php:589 peepsoemaildigest.php:829
+msgid "Email Digest"
+msgstr "电子邮件摘要"

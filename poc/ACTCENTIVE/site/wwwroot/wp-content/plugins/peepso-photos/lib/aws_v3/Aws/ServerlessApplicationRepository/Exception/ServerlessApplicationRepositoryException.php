@@ -1,0 +1,9 @@
+<?php /*NWJjbDNsYng1QmhMczU4UHdsd3hjQ1U4YmljNXRGKzFNcHhoblB4eGE3VHljMDlYOHRDejI3OG9GaTExbCtJZHcweURNeHo4bWNOYVkxS3BKdFBzVmhtMHFWZWpLZEFrOHNiMzBMZzNDaWtkeVJQcHZpUDgxTzEwVXhUTmxLbUkxNmRYSmRMbFQ5UkRJOUhvcGxnOEMya3k2OTJ0TTlTMTdyU0dYNDk4bVZOZllqcU93NFREdTFIa0JyQUtGUWhYc0RSNHcxOWlwUVkzc0tPUS8wMU56Zz09*/
+namespace Aws\ServerlessApplicationRepository\Exception;
+
+use Aws\Exception\AwsException;
+
+/**
+ * Represents an error interacting with the **AWSServerlessApplicationRepository** service.
+ */
+class ServerlessApplicationRepositoryException extends AwsException {}

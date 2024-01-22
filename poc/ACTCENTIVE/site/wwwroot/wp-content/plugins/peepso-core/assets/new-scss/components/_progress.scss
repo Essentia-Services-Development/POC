@@ -1,0 +1,19 @@
+@mixin c-progress {
+  --radius: 10px;
+  --height: 10px;
+
+  width: 100%;
+  height: var(--height);
+  background-color: var(--PS-COLOR--APP--DARKGRAY);
+  border-radius: var(--radius);
+  overflow: hidden;
+
+  > span {
+    display: block;
+    width: auto;
+    height: var(--height);
+    background-color: var(--PS-COLOR--PRIMARY);
+    border-radius: var(--radius);
+    transition: width .3s ease;
+  }
+}

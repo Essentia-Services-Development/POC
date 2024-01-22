@@ -1,0 +1,1922 @@
+[Sun, 11 Jun 2023 14:26:31 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:26:31 +0000] flush group options
+
+[Sun, 11 Jun 2023 14:26:31 +0000] [/sa-marketplace/wp-cron.php?doing_wp_cron] [1686493591.8742]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      24
+Cached queries:     0
+Total query time:   0.0290
+[Sun, 11 Jun 2023 14:26:44 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:26:44 +0000] flush group options
+
+[Sun, 11 Jun 2023 14:26:44 +0000] [/sa-marketplace/wp-cron.php?doing_wp_cron] [1686493604.7807]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      25
+Cached queries:     0
+Total query time:   0.0286
+[Sun, 11 Jun 2023 14:26:57 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:26:57 +0000] flush group options
+[Sun, 11 Jun 2023 14:26:57 +0000] flushing based on sqlquery group options with extras {"modification_query":"INSERT INTO `wp_6_options` (`option_name`, `option_value`, `autoload`) VALUES ('_transient_doing_cron', '1686493617.6745619773864746093750', 'yes') ON DUPLICATE KEY UPDATE `option_name` = VALUES(`option_name`), `option_value` = VALUES(`option_value`), `autoload` = VALUES(`autoload`)"}
+[Sun, 11 Jun 2023 14:26:57 +0000] flush group options
+[Sun, 11 Jun 2023 14:26:57 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:26:57 +0000] flush group options
+[Sun, 11 Jun 2023 14:26:57 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:26:57 +0000] flush group options
+[Sun, 11 Jun 2023 14:26:57 +0000] flushing based on sqlquery group singletables with extras {"modification_query":"UPDATE wp_6_actionscheduler_actions SET claim_id=3719, last_attempt_gmt='2023-06-11 14:26:57', last_attempt_local='2023-06-11 15:26:57' WHERE claim_id = 0 AND scheduled_date_gmt .= '2023-06-11 14:26:57' AND status='pending' ORDER BY attempts ASC, scheduled_date_gmt ASC, action_id ASC LIMIT 25"}
+[Sun, 11 Jun 2023 14:26:57 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:26:57 +0000] flush group options
+[Sun, 11 Jun 2023 14:26:57 +0000] flush group comments
+[Sun, 11 Jun 2023 14:26:57 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:26:57 +0000] flushing based on sqlquery group singletables with extras {"wpdb_delete":"wp_6_actionscheduler_claims"}
+[Sun, 11 Jun 2023 14:26:57 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:26:57 +0000] flush group options
+[Sun, 11 Jun 2023 14:26:57 +0000] flush group comments
+[Sun, 11 Jun 2023 14:26:57 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:26:57 +0000] flushing based on sqlquery group options with extras {"wpdb_delete":"wp_6_options"}
+[Sun, 11 Jun 2023 14:26:57 +0000] flush group options
+
+[Sun, 11 Jun 2023 14:26:57 +0000] [/sa-marketplace/wp-cron.php?doing_wp_cron] [1686493617.7266]
+Database Caching using redis (Request-wide modification query)
+
+Db cache debug info:
+Total queries:      38
+Cached queries:     0
+Total query time:   0.0472
+[Sun, 11 Jun 2023 14:27:10 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:27:10 +0000] flush group options
+
+[Sun, 11 Jun 2023 14:27:10 +0000] [/sa-marketplace/wp-cron.php?doing_wp_cron] [1686493630.5665]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      74
+Cached queries:     0
+Total query time:   0.0805
+[Sun, 11 Jun 2023 14:27:23 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:27:23 +0000] flush group options
+
+[Sun, 11 Jun 2023 14:27:23 +0000] [/sa-marketplace/wp-cron.php?doing_wp_cron] [1686493643.4698]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      71
+Cached queries:     0
+Total query time:   0.0668
+[Sun, 11 Jun 2023 14:27:49 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:27:49 +0000] flush group options
+
+[Sun, 11 Jun 2023 14:27:49 +0000] [/sa-marketplace/wp-cron.php?doing_wp_cron] [1686493669.376]
+Database Caching using apc (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      33
+Cached queries:     0
+Total query time:   0.0362
+[Sun, 11 Jun 2023 14:28:02 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:28:02 +0000] flush group options
+[Sun, 11 Jun 2023 14:28:02 +0000] flushing based on sqlquery group options with extras {"modification_query":"INSERT INTO `wp_6_options` (`option_name`, `option_value`, `autoload`) VALUES ('_transient_doing_cron', '1686493682.2869179248809814453125', 'yes') ON DUPLICATE KEY UPDATE `option_name` = VALUES(`option_name`), `option_value` = VALUES(`option_value`), `autoload` = VALUES(`autoload`)"}
+[Sun, 11 Jun 2023 14:28:02 +0000] flush group options
+[Sun, 11 Jun 2023 14:28:02 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:28:02 +0000] flush group options
+[Sun, 11 Jun 2023 14:28:02 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:28:02 +0000] flush group options
+[Sun, 11 Jun 2023 14:28:02 +0000] flushing based on sqlquery group singletables with extras {"modification_query":"UPDATE wp_6_actionscheduler_actions SET claim_id=3720, last_attempt_gmt='2023-06-11 14:28:02', last_attempt_local='2023-06-11 15:28:02' WHERE claim_id = 0 AND scheduled_date_gmt .= '2023-06-11 14:28:02' AND status='pending' ORDER BY attempts ASC, scheduled_date_gmt ASC, action_id ASC LIMIT 25"}
+[Sun, 11 Jun 2023 14:28:02 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:28:02 +0000] flush group options
+[Sun, 11 Jun 2023 14:28:02 +0000] flush group comments
+[Sun, 11 Jun 2023 14:28:02 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:28:02 +0000] flushing based on sqlquery group singletables with extras {"wpdb_delete":"wp_6_actionscheduler_claims"}
+[Sun, 11 Jun 2023 14:28:02 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:28:02 +0000] flush group options
+[Sun, 11 Jun 2023 14:28:02 +0000] flush group comments
+[Sun, 11 Jun 2023 14:28:02 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:28:02 +0000] flushing based on sqlquery group options with extras {"wpdb_delete":"wp_6_options"}
+[Sun, 11 Jun 2023 14:28:02 +0000] flush group options
+
+[Sun, 11 Jun 2023 14:28:02 +0000] [/sa-marketplace/wp-cron.php?doing_wp_cron] [1686493682.3435]
+Database Caching using redis (Request-wide modification query)
+
+Db cache debug info:
+Total queries:      38
+Cached queries:     0
+Total query time:   0.0499
+[Sun, 11 Jun 2023 14:28:15 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:28:15 +0000] flush group options
+
+[Sun, 11 Jun 2023 14:28:15 +0000] [/sa-marketplace/wp-cron.php?doing_wp_cron] [1686493695.3512]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      65
+Cached queries:     0
+Total query time:   0.0617
+[Sun, 11 Jun 2023 14:28:28 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:28:28 +0000] flush group options
+
+[Sun, 11 Jun 2023 14:28:28 +0000] [/sa-marketplace/wp-cron.php?doing_wp_cron] [1686493708.2454]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      74
+Cached queries:     0
+Total query time:   0.0743
+[Sun, 11 Jun 2023 14:28:41 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:28:41 +0000] flush group options
+
+[Sun, 11 Jun 2023 14:28:41 +0000] [/sa-marketplace/wp-cron.php?doing_wp_cron] [1686493721.1383]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      27
+Cached queries:     0
+Total query time:   0.0292
+[Sun, 11 Jun 2023 14:28:53 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:28:53 +0000] flush group options
+[Sun, 11 Jun 2023 14:28:53 +0000] flushing based on sqlquery group options with extras {"modification_query":"INSERT INTO `wp_6_options` (`option_name`, `option_value`, `autoload`) VALUES ('_transient_doing_cron', '1686493733.9741790294647216796875', 'yes') ON DUPLICATE KEY UPDATE `option_name` = VALUES(`option_name`), `option_value` = VALUES(`option_value`), `autoload` = VALUES(`autoload`)"}
+[Sun, 11 Jun 2023 14:28:53 +0000] flush group options
+[Sun, 11 Jun 2023 14:28:53 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:28:53 +0000] flush group options
+[Sun, 11 Jun 2023 14:28:53 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:28:53 +0000] flush group options
+[Sun, 11 Jun 2023 14:28:54 +0000] flushing based on sqlquery group singletables with extras {"modification_query":"UPDATE wp_6_actionscheduler_actions SET claim_id=3721, last_attempt_gmt='2023-06-11 14:28:54', last_attempt_local='2023-06-11 15:28:54' WHERE claim_id = 0 AND scheduled_date_gmt .= '2023-06-11 14:28:54' AND status='pending' ORDER BY attempts ASC, scheduled_date_gmt ASC, action_id ASC LIMIT 25"}
+[Sun, 11 Jun 2023 14:28:54 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:28:54 +0000] flush group options
+[Sun, 11 Jun 2023 14:28:54 +0000] flush group comments
+[Sun, 11 Jun 2023 14:28:54 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:28:54 +0000] flushing based on sqlquery group singletables with extras {"wpdb_delete":"wp_6_actionscheduler_claims"}
+[Sun, 11 Jun 2023 14:28:54 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:28:54 +0000] flush group options
+[Sun, 11 Jun 2023 14:28:54 +0000] flush group comments
+[Sun, 11 Jun 2023 14:28:54 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:28:54 +0000] flushing based on sqlquery group options with extras {"wpdb_delete":"wp_6_options"}
+[Sun, 11 Jun 2023 14:28:54 +0000] flush group options
+
+[Sun, 11 Jun 2023 14:28:54 +0000] [/sa-marketplace/wp-cron.php?doing_wp_cron] [1686493734.031]
+Database Caching using redis (Request-wide modification query)
+
+Db cache debug info:
+Total queries:      38
+Cached queries:     0
+Total query time:   0.0480
+[Sun, 11 Jun 2023 14:29:08 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:29:08 +0000] flush group options
+
+[Sun, 11 Jun 2023 14:29:08 +0000] [/sa-marketplace/wp-cron.php?doing_wp_cron] [1686493748.756]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      26
+Cached queries:     0
+Total query time:   0.0311
+[Sun, 11 Jun 2023 14:29:21 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:29:21 +0000] flush group options
+
+[Sun, 11 Jun 2023 14:29:21 +0000] [/sa-marketplace/wp-cron.php?doing_wp_cron] [1686493761.575]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      26
+Cached queries:     0
+Total query time:   0.0307
+[Sun, 11 Jun 2023 14:30:21 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:30:21 +0000] flush group options
+[Sun, 11 Jun 2023 14:30:21 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:30:21 +0000] flush group options
+[Sun, 11 Jun 2023 14:30:23 +0000] flushing based on sqlquery group options with extras {"modification_query":"INSERT INTO `wp_6_options` (`option_name`, `option_value`, `autoload`) VALUES ('_transient_doing_cron', '1686493823.3242869377136230468750', 'yes') ON DUPLICATE KEY UPDATE `option_name` = VALUES(`option_name`), `option_value` = VALUES(`option_value`), `autoload` = VALUES(`autoload`)"}
+[Sun, 11 Jun 2023 14:30:23 +0000] flush group options
+[Sun, 11 Jun 2023 14:30:23 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:30:23 +0000] flush group options
+[Sun, 11 Jun 2023 14:30:23 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:30:23 +0000] flush group options
+[Sun, 11 Jun 2023 14:30:23 +0000] flushing based on sqlquery group singletables with extras {"modification_query":"UPDATE wp_6_actionscheduler_actions SET claim_id=3722, last_attempt_gmt='2023-06-11 14:30:23', last_attempt_local='2023-06-11 15:30:23' WHERE claim_id = 0 AND scheduled_date_gmt .= '2023-06-11 14:30:23' AND status='pending' ORDER BY attempts ASC, scheduled_date_gmt ASC, action_id ASC LIMIT 25"}
+[Sun, 11 Jun 2023 14:30:23 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:30:23 +0000] flush group options
+[Sun, 11 Jun 2023 14:30:23 +0000] flush group comments
+[Sun, 11 Jun 2023 14:30:23 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:30:23 +0000] flushing based on sqlquery group singletables with extras {"wpdb_delete":"wp_6_actionscheduler_claims"}
+[Sun, 11 Jun 2023 14:30:23 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:30:23 +0000] flush group options
+[Sun, 11 Jun 2023 14:30:23 +0000] flush group comments
+[Sun, 11 Jun 2023 14:30:23 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:30:23 +0000] flushing based on sqlquery group options with extras {"wpdb_delete":"wp_6_options"}
+[Sun, 11 Jun 2023 14:30:23 +0000] flush group options
+
+[Sun, 11 Jun 2023 14:30:23 +0000] [/sa-marketplace/wp-cron.php?doing_wp_cron] [1686493823.4386]
+Database Caching using redis (Request-wide modification query)
+
+Db cache debug info:
+Total queries:      107
+Cached queries:     0
+Total query time:   0.1883
+[Sun, 11 Jun 2023 14:30:37 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:30:37 +0000] flush group options
+
+[Sun, 11 Jun 2023 14:30:39 +0000] [/sa-marketplace/wp-cron.php?doing_wp_cron] [1686493839.5711]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      21
+Cached queries:     0
+Total query time:   0.0396
+[Sun, 11 Jun 2023 14:30:56 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:30:56 +0000] flush group options
+[Sun, 11 Jun 2023 14:30:57 +0000] flushing based on sqlquery group options with extras {"modification_query":"INSERT INTO `wp_6_options` (`option_name`, `option_value`, `autoload`) VALUES ('_transient_doing_cron', '1686493857.5555899143218994140625', 'yes') ON DUPLICATE KEY UPDATE `option_name` = VALUES(`option_name`), `option_value` = VALUES(`option_value`), `autoload` = VALUES(`autoload`)"}
+[Sun, 11 Jun 2023 14:30:57 +0000] flush group options
+[Sun, 11 Jun 2023 14:30:57 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:30:57 +0000] flush group options
+[Sun, 11 Jun 2023 14:30:57 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:30:57 +0000] flush group options
+[Sun, 11 Jun 2023 14:30:57 +0000] flushing based on sqlquery group singletables with extras {"modification_query":"UPDATE wp_6_actionscheduler_actions SET claim_id=3723, last_attempt_gmt='2023-06-11 14:30:57', last_attempt_local='2023-06-11 15:30:57' WHERE claim_id = 0 AND scheduled_date_gmt .= '2023-06-11 14:30:57' AND status='pending' ORDER BY attempts ASC, scheduled_date_gmt ASC, action_id ASC LIMIT 25"}
+[Sun, 11 Jun 2023 14:30:57 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:30:57 +0000] flush group options
+[Sun, 11 Jun 2023 14:30:57 +0000] flush group comments
+[Sun, 11 Jun 2023 14:30:57 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:30:57 +0000] flushing based on sqlquery group singletables with extras {"wpdb_delete":"wp_6_actionscheduler_claims"}
+[Sun, 11 Jun 2023 14:30:57 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:30:57 +0000] flush group options
+[Sun, 11 Jun 2023 14:30:57 +0000] flush group comments
+[Sun, 11 Jun 2023 14:30:57 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:30:57 +0000] flushing based on sqlquery group options with extras {"wpdb_delete":"wp_6_options"}
+[Sun, 11 Jun 2023 14:30:57 +0000] flush group options
+
+[Sun, 11 Jun 2023 14:30:57 +0000] [/sa-marketplace/wp-cron.php?doing_wp_cron] [1686493857.6843]
+Database Caching using redis (Request-wide modification query)
+
+Db cache debug info:
+Total queries:      37
+Cached queries:     0
+Total query time:   0.1323
+[Sun, 11 Jun 2023 14:31:14 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:31:14 +0000] flush group options
+
+[Sun, 11 Jun 2023 14:31:16 +0000] [/sa-marketplace/wp-cron.php?doing_wp_cron] [1686493876.1196]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      25
+Cached queries:     0
+Total query time:   0.0355
+[Sun, 11 Jun 2023 14:31:32 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:31:32 +0000] flush group options
+
+[Sun, 11 Jun 2023 14:31:33 +0000] [/sa-marketplace/wp-cron.php?doing_wp_cron] [1686493893.9275]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      25
+Cached queries:     0
+Total query time:   0.0364
+[Sun, 11 Jun 2023 14:31:51 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:31:51 +0000] flush group options
+
+[Sun, 11 Jun 2023 14:31:52 +0000] [/sa-marketplace/wp-cron.php?doing_wp_cron] [1686493912.4179]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      21
+Cached queries:     0
+Total query time:   0.0314
+[Sun, 11 Jun 2023 14:32:09 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:32:09 +0000] flush group options
+[Sun, 11 Jun 2023 14:32:11 +0000] flushing based on sqlquery group options with extras {"modification_query":"INSERT INTO `wp_6_options` (`option_name`, `option_value`, `autoload`) VALUES ('_transient_doing_cron', '1686493931.2531089782714843750000', 'yes') ON DUPLICATE KEY UPDATE `option_name` = VALUES(`option_name`), `option_value` = VALUES(`option_value`), `autoload` = VALUES(`autoload`)"}
+[Sun, 11 Jun 2023 14:32:11 +0000] flush group options
+[Sun, 11 Jun 2023 14:32:11 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:32:11 +0000] flush group options
+[Sun, 11 Jun 2023 14:32:11 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:32:11 +0000] flush group options
+[Sun, 11 Jun 2023 14:32:11 +0000] flushing based on sqlquery group singletables with extras {"modification_query":"UPDATE wp_6_actionscheduler_actions SET claim_id=3724, last_attempt_gmt='2023-06-11 14:32:11', last_attempt_local='2023-06-11 15:32:11' WHERE claim_id = 0 AND scheduled_date_gmt .= '2023-06-11 14:32:11' AND status='pending' ORDER BY attempts ASC, scheduled_date_gmt ASC, action_id ASC LIMIT 25"}
+[Sun, 11 Jun 2023 14:32:11 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:32:11 +0000] flush group options
+[Sun, 11 Jun 2023 14:32:11 +0000] flush group comments
+[Sun, 11 Jun 2023 14:32:11 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:32:11 +0000] flushing based on sqlquery group singletables with extras {"wpdb_delete":"wp_6_actionscheduler_claims"}
+[Sun, 11 Jun 2023 14:32:11 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:32:11 +0000] flush group options
+[Sun, 11 Jun 2023 14:32:11 +0000] flush group comments
+[Sun, 11 Jun 2023 14:32:11 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:32:11 +0000] flushing based on sqlquery group options with extras {"wpdb_delete":"wp_6_options"}
+[Sun, 11 Jun 2023 14:32:11 +0000] flush group options
+
+[Sun, 11 Jun 2023 14:32:11 +0000] [/sa-marketplace/wp-cron.php?doing_wp_cron] [1686493931.3765]
+Database Caching using redis (Request-wide modification query)
+
+Db cache debug info:
+Total queries:      43
+Cached queries:     0
+Total query time:   0.1229
+[Sun, 11 Jun 2023 14:32:28 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:32:28 +0000] flush group options
+
+[Sun, 11 Jun 2023 14:32:29 +0000] [/sa-marketplace/wp-cron.php?doing_wp_cron] [1686493949.9133]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      22
+Cached queries:     0
+Total query time:   0.0330
+[Sun, 11 Jun 2023 14:32:46 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:32:46 +0000] flush group options
+
+[Sun, 11 Jun 2023 14:32:46 +0000] [/sa-marketplace/wp-cron.php?doing_wp_cron] [1686493966.9395]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      22
+Cached queries:     0
+Total query time:   0.0358
+[Sun, 11 Jun 2023 14:33:04 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:33:04 +0000] flush group options
+[Sun, 11 Jun 2023 14:33:05 +0000] flushing based on sqlquery group options with extras {"modification_query":"INSERT INTO `wp_6_options` (`option_name`, `option_value`, `autoload`) VALUES ('_transient_doing_cron', '1686493985.8811249732971191406250', 'yes') ON DUPLICATE KEY UPDATE `option_name` = VALUES(`option_name`), `option_value` = VALUES(`option_value`), `autoload` = VALUES(`autoload`)"}
+[Sun, 11 Jun 2023 14:33:05 +0000] flush group options
+[Sun, 11 Jun 2023 14:33:05 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:33:05 +0000] flush group options
+[Sun, 11 Jun 2023 14:33:05 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:33:05 +0000] flush group options
+[Sun, 11 Jun 2023 14:33:05 +0000] flushing based on sqlquery group singletables with extras {"modification_query":"UPDATE wp_6_actionscheduler_actions SET claim_id=3725, last_attempt_gmt='2023-06-11 14:33:05', last_attempt_local='2023-06-11 15:33:05' WHERE claim_id = 0 AND scheduled_date_gmt .= '2023-06-11 14:33:05' AND status='pending' ORDER BY attempts ASC, scheduled_date_gmt ASC, action_id ASC LIMIT 25"}
+[Sun, 11 Jun 2023 14:33:05 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:33:05 +0000] flush group options
+[Sun, 11 Jun 2023 14:33:05 +0000] flush group comments
+[Sun, 11 Jun 2023 14:33:05 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:33:05 +0000] flushing based on sqlquery group singletables with extras {"wpdb_delete":"wp_6_actionscheduler_claims"}
+[Sun, 11 Jun 2023 14:33:05 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:33:05 +0000] flush group options
+[Sun, 11 Jun 2023 14:33:05 +0000] flush group comments
+[Sun, 11 Jun 2023 14:33:05 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:33:05 +0000] flushing based on sqlquery group options with extras {"wpdb_delete":"wp_6_options"}
+[Sun, 11 Jun 2023 14:33:05 +0000] flush group options
+
+[Sun, 11 Jun 2023 14:33:05 +0000] [/sa-marketplace/wp-cron.php?doing_wp_cron] [1686493985.9899]
+Database Caching using redis (Request-wide modification query)
+
+Db cache debug info:
+Total queries:      37
+Cached queries:     0
+Total query time:   0.1090
+[Sun, 11 Jun 2023 14:33:21 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:33:21 +0000] flush group options
+[Sun, 11 Jun 2023 14:33:22 +0000] flushing based on sqlquery group options with extras {"modification_query":"INSERT INTO `wp_6_options` (`option_name`, `option_value`, `autoload`) VALUES ('_transient_doing_cron', '1686494002.3027570247650146484375', 'yes') ON DUPLICATE KEY UPDATE `option_name` = VALUES(`option_name`), `option_value` = VALUES(`option_value`), `autoload` = VALUES(`autoload`)"}
+[Sun, 11 Jun 2023 14:33:22 +0000] flush group options
+[Sun, 11 Jun 2023 14:33:22 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:33:22 +0000] flush group options
+[Sun, 11 Jun 2023 14:33:22 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:33:22 +0000] flush group options
+[Sun, 11 Jun 2023 14:33:35 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:33:35 +0000] flush group options
+[Sun, 11 Jun 2023 14:33:35 +0000] flushing based on sqlquery group options with extras {"wpdb_delete":"wp_6_options"}
+[Sun, 11 Jun 2023 14:33:35 +0000] flush group options
+
+[Sun, 11 Jun 2023 14:33:35 +0000] [/sa-marketplace/wp-cron.php?doing_wp_cron] [1686494015.9758]
+Database Caching using redis (Request-wide modification query)
+
+Db cache debug info:
+Total queries:      30
+Cached queries:     0
+Total query time:   0.0831
+[Sun, 11 Jun 2023 14:33:42 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:33:42 +0000] flush group options
+
+[Sun, 11 Jun 2023 14:33:43 +0000] [/sa-marketplace/wp-cron.php?doing_wp_cron] [1686494023.253]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      40
+Cached queries:     0
+Total query time:   0.0533
+[Sun, 11 Jun 2023 14:34:00 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:34:00 +0000] flush group options
+[Sun, 11 Jun 2023 14:34:01 +0000] flushing based on sqlquery group options with extras {"modification_query":"INSERT INTO `wp_6_options` (`option_name`, `option_value`, `autoload`) VALUES ('_transient_doing_cron', '1686494041.5367460250854492187500', 'yes') ON DUPLICATE KEY UPDATE `option_name` = VALUES(`option_name`), `option_value` = VALUES(`option_value`), `autoload` = VALUES(`autoload`)"}
+[Sun, 11 Jun 2023 14:34:01 +0000] flush group options
+[Sun, 11 Jun 2023 14:34:01 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:34:01 +0000] flush group options
+[Sun, 11 Jun 2023 14:34:01 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:34:01 +0000] flush group options
+[Sun, 11 Jun 2023 14:34:01 +0000] flushing based on sqlquery group singletables with extras {"modification_query":"UPDATE wp_6_actionscheduler_actions SET claim_id=3726, last_attempt_gmt='2023-06-11 14:34:01', last_attempt_local='2023-06-11 15:34:01' WHERE claim_id = 0 AND scheduled_date_gmt .= '2023-06-11 14:34:01' AND status='pending' ORDER BY attempts ASC, scheduled_date_gmt ASC, action_id ASC LIMIT 25"}
+[Sun, 11 Jun 2023 14:34:01 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:34:01 +0000] flush group options
+[Sun, 11 Jun 2023 14:34:01 +0000] flush group comments
+[Sun, 11 Jun 2023 14:34:01 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:34:01 +0000] flushing based on sqlquery group singletables with extras {"wpdb_delete":"wp_6_actionscheduler_claims"}
+[Sun, 11 Jun 2023 14:34:01 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:34:01 +0000] flush group options
+[Sun, 11 Jun 2023 14:34:01 +0000] flush group comments
+[Sun, 11 Jun 2023 14:34:01 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:34:01 +0000] flushing based on sqlquery group options with extras {"wpdb_delete":"wp_6_options"}
+[Sun, 11 Jun 2023 14:34:01 +0000] flush group options
+
+[Sun, 11 Jun 2023 14:34:01 +0000] [/sa-marketplace/wp-cron.php?doing_wp_cron] [1686494041.658]
+Database Caching using redis (Request-wide modification query)
+
+Db cache debug info:
+Total queries:      31
+Cached queries:     0
+Total query time:   0.1077
+[Sun, 11 Jun 2023 14:34:15 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:34:15 +0000] flush group options
+
+[Sun, 11 Jun 2023 14:34:16 +0000] [/sa-marketplace/wp-cron.php?doing_wp_cron] [1686494056.4297]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      23
+Cached queries:     0
+Total query time:   0.0334
+[Sun, 11 Jun 2023 14:34:34 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:34:34 +0000] flush group options
+
+[Sun, 11 Jun 2023 14:34:36 +0000] [/sa-marketplace/wp-cron.php?doing_wp_cron] [1686494076.0474]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      19
+Cached queries:     0
+Total query time:   0.0315
+[Sun, 11 Jun 2023 14:34:53 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:34:53 +0000] flush group options
+[Sun, 11 Jun 2023 14:34:55 +0000] flushing based on sqlquery group options with extras {"modification_query":"INSERT INTO `wp_6_options` (`option_name`, `option_value`, `autoload`) VALUES ('_transient_doing_cron', '1686494095.0810689926147460937500', 'yes') ON DUPLICATE KEY UPDATE `option_name` = VALUES(`option_name`), `option_value` = VALUES(`option_value`), `autoload` = VALUES(`autoload`)"}
+[Sun, 11 Jun 2023 14:34:55 +0000] flush group options
+[Sun, 11 Jun 2023 14:34:55 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:34:55 +0000] flush group options
+[Sun, 11 Jun 2023 14:34:55 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:34:55 +0000] flush group options
+[Sun, 11 Jun 2023 14:34:55 +0000] flushing based on sqlquery group singletables with extras {"modification_query":"UPDATE wp_6_actionscheduler_actions SET claim_id=3727, last_attempt_gmt='2023-06-11 14:34:55', last_attempt_local='2023-06-11 15:34:55' WHERE claim_id = 0 AND scheduled_date_gmt .= '2023-06-11 14:34:55' AND status='pending' ORDER BY attempts ASC, scheduled_date_gmt ASC, action_id ASC LIMIT 25"}
+[Sun, 11 Jun 2023 14:34:55 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:34:55 +0000] flush group options
+[Sun, 11 Jun 2023 14:34:55 +0000] flush group comments
+[Sun, 11 Jun 2023 14:34:55 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:34:55 +0000] flushing based on sqlquery group singletables with extras {"wpdb_delete":"wp_6_actionscheduler_claims"}
+[Sun, 11 Jun 2023 14:34:55 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:34:55 +0000] flush group options
+[Sun, 11 Jun 2023 14:34:55 +0000] flush group comments
+[Sun, 11 Jun 2023 14:34:55 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:34:55 +0000] flushing based on sqlquery group options with extras {"wpdb_delete":"wp_6_options"}
+[Sun, 11 Jun 2023 14:34:55 +0000] flush group options
+
+[Sun, 11 Jun 2023 14:34:55 +0000] [/sa-marketplace/wp-cron.php?doing_wp_cron] [1686494095.2122]
+Database Caching using redis (Request-wide modification query)
+
+Db cache debug info:
+Total queries:      35
+Cached queries:     0
+Total query time:   0.1222
+[Sun, 11 Jun 2023 14:35:12 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:35:12 +0000] flush group options
+
+[Sun, 11 Jun 2023 14:35:13 +0000] [/sa-marketplace/wp-cron.php?doing_wp_cron] [1686494113.9201]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      19
+Cached queries:     0
+Total query time:   0.0295
+[Sun, 11 Jun 2023 14:35:30 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:35:30 +0000] flush group options
+
+[Sun, 11 Jun 2023 14:35:31 +0000] [/sa-marketplace/wp-cron.php?doing_wp_cron] [1686494131.719]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      23
+Cached queries:     0
+Total query time:   0.0386
+[Sun, 11 Jun 2023 14:35:48 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:35:48 +0000] flush group options
+
+[Sun, 11 Jun 2023 14:35:50 +0000] [/sa-marketplace/wp-cron.php?doing_wp_cron] [1686494150.0087]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      24
+Cached queries:     0
+Total query time:   0.0611
+[Sun, 11 Jun 2023 14:36:06 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:36:06 +0000] flush group options
+[Sun, 11 Jun 2023 14:36:07 +0000] flushing based on sqlquery group options with extras {"modification_query":"INSERT INTO `wp_6_options` (`option_name`, `option_value`, `autoload`) VALUES ('_transient_doing_cron', '1686494167.4610750675201416015625', 'yes') ON DUPLICATE KEY UPDATE `option_name` = VALUES(`option_name`), `option_value` = VALUES(`option_value`), `autoload` = VALUES(`autoload`)"}
+[Sun, 11 Jun 2023 14:36:07 +0000] flush group options
+[Sun, 11 Jun 2023 14:36:07 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:36:07 +0000] flush group options
+[Sun, 11 Jun 2023 14:36:07 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:36:07 +0000] flush group options
+[Sun, 11 Jun 2023 14:36:07 +0000] flushing based on sqlquery group singletables with extras {"modification_query":"UPDATE wp_6_actionscheduler_actions SET claim_id=3728, last_attempt_gmt='2023-06-11 14:36:07', last_attempt_local='2023-06-11 15:36:07' WHERE claim_id = 0 AND scheduled_date_gmt .= '2023-06-11 14:36:07' AND status='pending' ORDER BY attempts ASC, scheduled_date_gmt ASC, action_id ASC LIMIT 25"}
+[Sun, 11 Jun 2023 14:36:07 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:36:07 +0000] flush group options
+[Sun, 11 Jun 2023 14:36:07 +0000] flush group comments
+[Sun, 11 Jun 2023 14:36:07 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:36:07 +0000] flushing based on sqlquery group singletables with extras {"wpdb_delete":"wp_6_actionscheduler_claims"}
+[Sun, 11 Jun 2023 14:36:07 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:36:07 +0000] flush group options
+[Sun, 11 Jun 2023 14:36:07 +0000] flush group comments
+[Sun, 11 Jun 2023 14:36:07 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:36:07 +0000] flushing based on sqlquery group options with extras {"wpdb_delete":"wp_6_options"}
+[Sun, 11 Jun 2023 14:36:07 +0000] flush group options
+
+[Sun, 11 Jun 2023 14:36:07 +0000] [/sa-marketplace/wp-cron.php?doing_wp_cron] [1686494167.5798]
+Database Caching using redis (Request-wide modification query)
+
+Db cache debug info:
+Total queries:      31
+Cached queries:     0
+Total query time:   0.1130
+[Sun, 11 Jun 2023 14:36:23 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:36:23 +0000] flush group options
+
+[Sun, 11 Jun 2023 14:36:25 +0000] [/sa-marketplace/wp-cron.php?doing_wp_cron] [1686494185.2276]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      73
+Cached queries:     0
+Total query time:   0.0937
+[Sun, 11 Jun 2023 14:36:41 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:36:41 +0000] flush group options
+
+[Sun, 11 Jun 2023 14:36:43 +0000] [/sa-marketplace/wp-cron.php?doing_wp_cron] [1686494203.3524]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      20
+Cached queries:     0
+Total query time:   0.0365
+[Sun, 11 Jun 2023 14:36:54 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:36:54 +0000] flush group options
+[Sun, 11 Jun 2023 14:36:55 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:36:55 +0000] flush group options
+[Sun, 11 Jun 2023 14:36:55 +0000] flushing based on sqlquery group options with extras {"modification_query":"INSERT INTO `wp_6_options` (`option_name`, `option_value`, `autoload`) VALUES ('_transient_doing_cron', '1686494215.1477830410003662109375', 'yes') ON DUPLICATE KEY UPDATE `option_name` = VALUES(`option_name`), `option_value` = VALUES(`option_value`), `autoload` = VALUES(`autoload`)"}
+[Sun, 11 Jun 2023 14:36:55 +0000] flush group options
+[Sun, 11 Jun 2023 14:36:55 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:36:55 +0000] flush group options
+[Sun, 11 Jun 2023 14:36:55 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:36:55 +0000] flush group options
+[Sun, 11 Jun 2023 14:36:55 +0000] flushing based on sqlquery group singletables with extras {"modification_query":"UPDATE wp_6_actionscheduler_actions SET claim_id=3729, last_attempt_gmt='2023-06-11 14:36:55', last_attempt_local='2023-06-11 15:36:55' WHERE claim_id = 0 AND scheduled_date_gmt .= '2023-06-11 14:36:55' AND status='pending' ORDER BY attempts ASC, scheduled_date_gmt ASC, action_id ASC LIMIT 25"}
+[Sun, 11 Jun 2023 14:36:55 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:36:55 +0000] flush group options
+[Sun, 11 Jun 2023 14:36:55 +0000] flush group comments
+[Sun, 11 Jun 2023 14:36:55 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:36:55 +0000] flushing based on sqlquery group singletables with extras {"wpdb_delete":"wp_6_actionscheduler_claims"}
+[Sun, 11 Jun 2023 14:36:55 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:36:55 +0000] flush group options
+[Sun, 11 Jun 2023 14:36:55 +0000] flush group comments
+[Sun, 11 Jun 2023 14:36:55 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:36:55 +0000] flushing based on sqlquery group options with extras {"wpdb_delete":"wp_6_options"}
+[Sun, 11 Jun 2023 14:36:55 +0000] flush group options
+
+[Sun, 11 Jun 2023 14:36:55 +0000] [/sa-marketplace/wp-cron.php?doing_wp_cron] [1686494215.206]
+Database Caching using redis (Request-wide modification query)
+
+Db cache debug info:
+Total queries:      54
+Cached queries:     0
+Total query time:   0.0668
+[Sun, 11 Jun 2023 14:37:07 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:37:07 +0000] flush group options
+
+[Sun, 11 Jun 2023 14:37:07 +0000] [/sa-marketplace/wp-cron.php?doing_wp_cron] [1686494227.9978]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      26
+Cached queries:     0
+Total query time:   0.0322
+[Sun, 11 Jun 2023 14:37:20 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:37:20 +0000] flush group options
+
+[Sun, 11 Jun 2023 14:37:20 +0000] [/sa-marketplace/wp-cron.php?doing_wp_cron] [1686494240.8278]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      27
+Cached queries:     0
+Total query time:   0.0365
+[Sun, 11 Jun 2023 14:37:33 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:37:33 +0000] flush group options
+
+[Sun, 11 Jun 2023 14:37:33 +0000] [/sa-marketplace/wp-cron.php?doing_wp_cron] [1686494253.6385]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      26
+Cached queries:     0
+Total query time:   0.0300
+[Sun, 11 Jun 2023 14:37:46 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:37:46 +0000] flush group options
+
+[Sun, 11 Jun 2023 14:37:46 +0000] [/sa-marketplace/wp-cron.php?doing_wp_cron] [1686494266.5231]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      22
+Cached queries:     0
+Total query time:   0.0258
+[Sun, 11 Jun 2023 14:37:59 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:37:59 +0000] flush group options
+[Sun, 11 Jun 2023 14:37:59 +0000] flushing based on sqlquery group options with extras {"modification_query":"INSERT INTO `wp_6_options` (`option_name`, `option_value`, `autoload`) VALUES ('_transient_doing_cron', '1686494279.4571011066436767578125', 'yes') ON DUPLICATE KEY UPDATE `option_name` = VALUES(`option_name`), `option_value` = VALUES(`option_value`), `autoload` = VALUES(`autoload`)"}
+[Sun, 11 Jun 2023 14:37:59 +0000] flush group options
+[Sun, 11 Jun 2023 14:37:59 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:37:59 +0000] flush group options
+[Sun, 11 Jun 2023 14:37:59 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:37:59 +0000] flush group options
+[Sun, 11 Jun 2023 14:37:59 +0000] flushing based on sqlquery group singletables with extras {"modification_query":"UPDATE wp_6_actionscheduler_actions SET claim_id=3730, last_attempt_gmt='2023-06-11 14:37:59', last_attempt_local='2023-06-11 15:37:59' WHERE claim_id = 0 AND scheduled_date_gmt .= '2023-06-11 14:37:59' AND status='pending' ORDER BY attempts ASC, scheduled_date_gmt ASC, action_id ASC LIMIT 25"}
+[Sun, 11 Jun 2023 14:37:59 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:37:59 +0000] flush group options
+[Sun, 11 Jun 2023 14:37:59 +0000] flush group comments
+[Sun, 11 Jun 2023 14:37:59 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:37:59 +0000] flushing based on sqlquery group singletables with extras {"wpdb_delete":"wp_6_actionscheduler_claims"}
+[Sun, 11 Jun 2023 14:37:59 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:37:59 +0000] flush group options
+[Sun, 11 Jun 2023 14:37:59 +0000] flush group comments
+[Sun, 11 Jun 2023 14:37:59 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:37:59 +0000] flushing based on sqlquery group options with extras {"wpdb_delete":"wp_6_options"}
+[Sun, 11 Jun 2023 14:37:59 +0000] flush group options
+
+[Sun, 11 Jun 2023 14:37:59 +0000] [/sa-marketplace/wp-cron.php?doing_wp_cron] [1686494279.5101]
+Database Caching using redis (Request-wide modification query)
+
+Db cache debug info:
+Total queries:      38
+Cached queries:     0
+Total query time:   0.0475
+[Sun, 11 Jun 2023 14:38:12 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:38:12 +0000] flush group options
+
+[Sun, 11 Jun 2023 14:38:12 +0000] [/sa-marketplace/wp-cron.php?doing_wp_cron] [1686494292.312]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      22
+Cached queries:     0
+Total query time:   0.0256
+[Sun, 11 Jun 2023 14:38:25 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:38:25 +0000] flush group options
+
+[Sun, 11 Jun 2023 14:38:25 +0000] [/sa-marketplace/wp-cron.php?doing_wp_cron] [1686494305.3215]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      35
+Cached queries:     0
+Total query time:   0.0453
+[Sun, 11 Jun 2023 14:38:38 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:38:38 +0000] flush group options
+
+[Sun, 11 Jun 2023 14:38:38 +0000] [/sa-marketplace/wp-cron.php?doing_wp_cron] [1686494318.2005]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      26
+Cached queries:     0
+Total query time:   0.0315
+[Sun, 11 Jun 2023 14:38:50 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:38:50 +0000] flush group options
+[Sun, 11 Jun 2023 14:38:51 +0000] flushing based on sqlquery group options with extras {"modification_query":"INSERT INTO `wp_6_options` (`option_name`, `option_value`, `autoload`) VALUES ('_transient_doing_cron', '1686494331.0875680446624755859375', 'yes') ON DUPLICATE KEY UPDATE `option_name` = VALUES(`option_name`), `option_value` = VALUES(`option_value`), `autoload` = VALUES(`autoload`)"}
+[Sun, 11 Jun 2023 14:38:51 +0000] flush group options
+[Sun, 11 Jun 2023 14:38:51 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:38:51 +0000] flush group options
+[Sun, 11 Jun 2023 14:38:51 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:38:51 +0000] flush group options
+[Sun, 11 Jun 2023 14:38:51 +0000] flushing based on sqlquery group options with extras {"wpdb_delete":"wp_6_options"}
+[Sun, 11 Jun 2023 14:38:51 +0000] flush group options
+
+[Sun, 11 Jun 2023 14:38:51 +0000] [/sa-marketplace/wp-cron.php?doing_wp_cron] [1686494331.1558]
+Database Caching using redis (Request-wide modification query)
+
+Db cache debug info:
+Total queries:      31
+Cached queries:     0
+Total query time:   0.0414
+[Sun, 11 Jun 2023 14:39:03 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:39:03 +0000] flush group options
+[Sun, 11 Jun 2023 14:39:03 +0000] flushing based on sqlquery group options with extras {"modification_query":"INSERT INTO `wp_6_options` (`option_name`, `option_value`, `autoload`) VALUES ('_transient_doing_cron', '1686494343.9817490577697753906250', 'yes') ON DUPLICATE KEY UPDATE `option_name` = VALUES(`option_name`), `option_value` = VALUES(`option_value`), `autoload` = VALUES(`autoload`)"}
+[Sun, 11 Jun 2023 14:39:03 +0000] flush group options
+[Sun, 11 Jun 2023 14:39:03 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:39:03 +0000] flush group options
+[Sun, 11 Jun 2023 14:39:03 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:39:03 +0000] flush group options
+[Sun, 11 Jun 2023 14:39:04 +0000] flushing based on sqlquery group singletables with extras {"modification_query":"UPDATE wp_6_actionscheduler_actions SET claim_id=3731, last_attempt_gmt='2023-06-11 14:39:04', last_attempt_local='2023-06-11 15:39:04' WHERE claim_id = 0 AND scheduled_date_gmt .= '2023-06-11 14:39:04' AND status='pending' ORDER BY attempts ASC, scheduled_date_gmt ASC, action_id ASC LIMIT 25"}
+[Sun, 11 Jun 2023 14:39:04 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:39:04 +0000] flush group options
+[Sun, 11 Jun 2023 14:39:04 +0000] flush group comments
+[Sun, 11 Jun 2023 14:39:04 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:39:04 +0000] flushing based on sqlquery group singletables with extras {"wpdb_delete":"wp_6_actionscheduler_claims"}
+[Sun, 11 Jun 2023 14:39:04 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:39:04 +0000] flush group options
+[Sun, 11 Jun 2023 14:39:04 +0000] flush group comments
+[Sun, 11 Jun 2023 14:39:04 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:39:04 +0000] flushing based on sqlquery group options with extras {"wpdb_delete":"wp_6_options"}
+[Sun, 11 Jun 2023 14:39:04 +0000] flush group options
+
+[Sun, 11 Jun 2023 14:39:04 +0000] [/sa-marketplace/wp-cron.php?doing_wp_cron] [1686494344.0366]
+Database Caching using redis (Request-wide modification query)
+
+Db cache debug info:
+Total queries:      38
+Cached queries:     0
+Total query time:   0.0487
+[Sun, 11 Jun 2023 14:39:16 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:39:16 +0000] flush group options
+
+[Sun, 11 Jun 2023 14:39:16 +0000] [/sa-marketplace/wp-cron.php?doing_wp_cron] [1686494356.8103]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      26
+Cached queries:     0
+Total query time:   0.0313
+[Sun, 11 Jun 2023 14:39:29 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:39:29 +0000] flush group options
+
+[Sun, 11 Jun 2023 14:39:29 +0000] [/sa-marketplace/wp-cron.php?doing_wp_cron] [1686494369.7108]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      28
+Cached queries:     0
+Total query time:   0.0489
+[Sun, 11 Jun 2023 14:39:42 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:39:42 +0000] flush group options
+
+[Sun, 11 Jun 2023 14:39:42 +0000] [/sa-marketplace/wp-cron.php?doing_wp_cron] [1686494382.513]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      22
+Cached queries:     0
+Total query time:   0.0262
+[Sun, 11 Jun 2023 14:39:55 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:39:55 +0000] flush group options
+[Sun, 11 Jun 2023 14:39:55 +0000] flushing based on sqlquery group options with extras {"modification_query":"INSERT INTO `wp_6_options` (`option_name`, `option_value`, `autoload`) VALUES ('_transient_doing_cron', '1686494395.3937890529632568359375', 'yes') ON DUPLICATE KEY UPDATE `option_name` = VALUES(`option_name`), `option_value` = VALUES(`option_value`), `autoload` = VALUES(`autoload`)"}
+[Sun, 11 Jun 2023 14:39:55 +0000] flush group options
+[Sun, 11 Jun 2023 14:39:55 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:39:55 +0000] flush group options
+[Sun, 11 Jun 2023 14:39:55 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:39:55 +0000] flush group options
+[Sun, 11 Jun 2023 14:39:55 +0000] flushing based on sqlquery group singletables with extras {"modification_query":"UPDATE wp_6_actionscheduler_actions SET claim_id=3732, last_attempt_gmt='2023-06-11 14:39:55', last_attempt_local='2023-06-11 15:39:55' WHERE claim_id = 0 AND scheduled_date_gmt .= '2023-06-11 14:39:55' AND status='pending' ORDER BY attempts ASC, scheduled_date_gmt ASC, action_id ASC LIMIT 25"}
+[Sun, 11 Jun 2023 14:39:55 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:39:55 +0000] flush group options
+[Sun, 11 Jun 2023 14:39:55 +0000] flush group comments
+[Sun, 11 Jun 2023 14:39:55 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:39:55 +0000] flushing based on sqlquery group singletables with extras {"wpdb_delete":"wp_6_actionscheduler_claims"}
+[Sun, 11 Jun 2023 14:39:55 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:39:55 +0000] flush group options
+[Sun, 11 Jun 2023 14:39:55 +0000] flush group comments
+[Sun, 11 Jun 2023 14:39:55 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:39:55 +0000] flushing based on sqlquery group options with extras {"wpdb_delete":"wp_6_options"}
+[Sun, 11 Jun 2023 14:39:55 +0000] flush group options
+
+[Sun, 11 Jun 2023 14:39:55 +0000] [/sa-marketplace/wp-cron.php?doing_wp_cron] [1686494395.4474]
+Database Caching using redis (Request-wide modification query)
+
+Db cache debug info:
+Total queries:      34
+Cached queries:     0
+Total query time:   0.0458
+[Sun, 11 Jun 2023 14:40:08 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:40:08 +0000] flush group options
+
+[Sun, 11 Jun 2023 14:40:08 +0000] [/sa-marketplace/wp-cron.php?doing_wp_cron] [1686494408.2839]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      43
+Cached queries:     0
+Total query time:   0.0483
+[Sun, 11 Jun 2023 14:40:21 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:40:21 +0000] flush group options
+
+[Sun, 11 Jun 2023 14:40:21 +0000] [/sa-marketplace/wp-cron.php?doing_wp_cron] [1686494421.2123]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      26
+Cached queries:     0
+Total query time:   0.0293
+[Sun, 11 Jun 2023 14:40:34 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:40:34 +0000] flush group options
+
+[Sun, 11 Jun 2023 14:40:34 +0000] [/sa-marketplace/wp-cron.php?doing_wp_cron] [1686494434.13]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      26
+Cached queries:     0
+Total query time:   0.0326
+[Sun, 11 Jun 2023 14:40:46 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:40:46 +0000] flush group options
+
+[Sun, 11 Jun 2023 14:40:46 +0000] [/sa-marketplace/wp-cron.php?doing_wp_cron] [1686494446.9855]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      22
+Cached queries:     0
+Total query time:   0.0287
+[Sun, 11 Jun 2023 14:40:59 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:40:59 +0000] flush group options
+[Sun, 11 Jun 2023 14:40:59 +0000] flushing based on sqlquery group options with extras {"modification_query":"INSERT INTO `wp_6_options` (`option_name`, `option_value`, `autoload`) VALUES ('_transient_doing_cron', '1686494459.8456749916076660156250', 'yes') ON DUPLICATE KEY UPDATE `option_name` = VALUES(`option_name`), `option_value` = VALUES(`option_value`), `autoload` = VALUES(`autoload`)"}
+[Sun, 11 Jun 2023 14:40:59 +0000] flush group options
+[Sun, 11 Jun 2023 14:40:59 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:40:59 +0000] flush group options
+[Sun, 11 Jun 2023 14:40:59 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:40:59 +0000] flush group options
+[Sun, 11 Jun 2023 14:40:59 +0000] flushing based on sqlquery group singletables with extras {"modification_query":"UPDATE wp_6_actionscheduler_actions SET claim_id=3733, last_attempt_gmt='2023-06-11 14:40:59', last_attempt_local='2023-06-11 15:40:59' WHERE claim_id = 0 AND scheduled_date_gmt .= '2023-06-11 14:40:59' AND status='pending' ORDER BY attempts ASC, scheduled_date_gmt ASC, action_id ASC LIMIT 25"}
+[Sun, 11 Jun 2023 14:40:59 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:40:59 +0000] flush group options
+[Sun, 11 Jun 2023 14:40:59 +0000] flush group comments
+[Sun, 11 Jun 2023 14:40:59 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:40:59 +0000] flushing based on sqlquery group singletables with extras {"wpdb_delete":"wp_6_actionscheduler_claims"}
+[Sun, 11 Jun 2023 14:40:59 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:40:59 +0000] flush group options
+[Sun, 11 Jun 2023 14:40:59 +0000] flush group comments
+[Sun, 11 Jun 2023 14:40:59 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:40:59 +0000] flushing based on sqlquery group options with extras {"wpdb_delete":"wp_6_options"}
+[Sun, 11 Jun 2023 14:40:59 +0000] flush group options
+
+[Sun, 11 Jun 2023 14:40:59 +0000] [/sa-marketplace/wp-cron.php?doing_wp_cron] [1686494459.898]
+Database Caching using redis (Request-wide modification query)
+
+Db cache debug info:
+Total queries:      41
+Cached queries:     0
+Total query time:   0.0497
+[Sun, 11 Jun 2023 14:41:12 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:41:12 +0000] flush group options
+
+[Sun, 11 Jun 2023 14:41:12 +0000] [/sa-marketplace/wp-cron.php?doing_wp_cron] [1686494472.9043]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      26
+Cached queries:     0
+Total query time:   0.0330
+[Sun, 11 Jun 2023 14:41:25 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:41:25 +0000] flush group options
+
+[Sun, 11 Jun 2023 14:41:25 +0000] [/sa-marketplace/wp-cron.php?doing_wp_cron] [1686494485.8867]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      26
+Cached queries:     0
+Total query time:   0.0290
+[Sun, 11 Jun 2023 14:41:38 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:41:38 +0000] flush group options
+
+[Sun, 11 Jun 2023 14:41:38 +0000] [/sa-marketplace/wp-cron.php?doing_wp_cron] [1686494498.7649]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      26
+Cached queries:     0
+Total query time:   0.0316
+[Sun, 11 Jun 2023 14:41:51 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:41:51 +0000] flush group options
+
+[Sun, 11 Jun 2023 14:41:51 +0000] [/sa-marketplace/wp-cron.php?doing_wp_cron] [1686494511.5952]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      22
+Cached queries:     0
+Total query time:   0.0259
+[Sun, 11 Jun 2023 14:42:04 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:42:04 +0000] flush group options
+[Sun, 11 Jun 2023 14:42:04 +0000] flushing based on sqlquery group options with extras {"modification_query":"INSERT INTO `wp_6_options` (`option_name`, `option_value`, `autoload`) VALUES ('_transient_doing_cron', '1686494524.4997689723968505859375', 'yes') ON DUPLICATE KEY UPDATE `option_name` = VALUES(`option_name`), `option_value` = VALUES(`option_value`), `autoload` = VALUES(`autoload`)"}
+[Sun, 11 Jun 2023 14:42:04 +0000] flush group options
+[Sun, 11 Jun 2023 14:42:04 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:42:04 +0000] flush group options
+[Sun, 11 Jun 2023 14:42:04 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:42:04 +0000] flush group options
+[Sun, 11 Jun 2023 14:42:04 +0000] flushing based on sqlquery group singletables with extras {"modification_query":"UPDATE wp_6_actionscheduler_actions SET claim_id=3734, last_attempt_gmt='2023-06-11 14:42:04', last_attempt_local='2023-06-11 15:42:04' WHERE claim_id = 0 AND scheduled_date_gmt .= '2023-06-11 14:42:04' AND status='pending' ORDER BY attempts ASC, scheduled_date_gmt ASC, action_id ASC LIMIT 25"}
+[Sun, 11 Jun 2023 14:42:04 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:42:04 +0000] flush group options
+[Sun, 11 Jun 2023 14:42:04 +0000] flush group comments
+[Sun, 11 Jun 2023 14:42:04 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:42:04 +0000] flushing based on sqlquery group singletables with extras {"wpdb_delete":"wp_6_actionscheduler_claims"}
+[Sun, 11 Jun 2023 14:42:04 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:42:04 +0000] flush group options
+[Sun, 11 Jun 2023 14:42:04 +0000] flush group comments
+[Sun, 11 Jun 2023 14:42:04 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:42:04 +0000] flushing based on sqlquery group options with extras {"wpdb_delete":"wp_6_options"}
+[Sun, 11 Jun 2023 14:42:04 +0000] flush group options
+
+[Sun, 11 Jun 2023 14:42:04 +0000] [/sa-marketplace/wp-cron.php?doing_wp_cron] [1686494524.5581]
+Database Caching using redis (Request-wide modification query)
+
+Db cache debug info:
+Total queries:      38
+Cached queries:     0
+Total query time:   0.0552
+[Sun, 11 Jun 2023 14:42:17 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:42:17 +0000] flush group options
+
+[Sun, 11 Jun 2023 14:42:17 +0000] [/sa-marketplace/wp-cron.php?doing_wp_cron] [1686494537.4426]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      27
+Cached queries:     0
+Total query time:   0.0327
+[Sun, 11 Jun 2023 14:42:30 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:42:30 +0000] flush group options
+
+[Sun, 11 Jun 2023 14:42:30 +0000] [/sa-marketplace/wp-cron.php?doing_wp_cron] [1686494550.4949]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      24
+Cached queries:     0
+Total query time:   0.0265
+[Sun, 11 Jun 2023 14:42:43 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:42:43 +0000] flush group options
+
+[Sun, 11 Jun 2023 14:42:43 +0000] [/sa-marketplace/wp-cron.php?doing_wp_cron] [1686494563.3786]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      26
+Cached queries:     0
+Total query time:   0.0313
+[Sun, 11 Jun 2023 14:42:56 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:42:56 +0000] flush group options
+[Sun, 11 Jun 2023 14:42:56 +0000] flushing based on sqlquery group options with extras {"modification_query":"INSERT INTO `wp_6_options` (`option_name`, `option_value`, `autoload`) VALUES ('_transient_doing_cron', '1686494576.3275940418243408203125', 'yes') ON DUPLICATE KEY UPDATE `option_name` = VALUES(`option_name`), `option_value` = VALUES(`option_value`), `autoload` = VALUES(`autoload`)"}
+[Sun, 11 Jun 2023 14:42:56 +0000] flush group options
+[Sun, 11 Jun 2023 14:42:56 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:42:56 +0000] flush group options
+[Sun, 11 Jun 2023 14:42:56 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:42:56 +0000] flush group options
+[Sun, 11 Jun 2023 14:42:56 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:42:56 +0000] flush group options
+[Sun, 11 Jun 2023 14:42:56 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:42:56 +0000] flush group options
+[Sun, 11 Jun 2023 14:42:56 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:42:56 +0000] flush group options
+[Sun, 11 Jun 2023 14:42:56 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:42:56 +0000] flush group options
+[Sun, 11 Jun 2023 14:42:56 +0000] flushing based on sqlquery group singletables with extras {"modification_query":"UPDATE wp_6_actionscheduler_actions SET claim_id=3735, last_attempt_gmt='2023-06-11 14:42:56', last_attempt_local='2023-06-11 15:42:56' WHERE claim_id = 0 AND scheduled_date_gmt .= '2023-06-11 14:42:56' AND status='pending' ORDER BY attempts ASC, scheduled_date_gmt ASC, action_id ASC LIMIT 25"}
+[Sun, 11 Jun 2023 14:42:56 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:42:56 +0000] flush group options
+[Sun, 11 Jun 2023 14:42:56 +0000] flush group comments
+[Sun, 11 Jun 2023 14:42:56 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:42:56 +0000] flushing based on sqlquery group singletables with extras {"wpdb_delete":"wp_6_actionscheduler_claims"}
+[Sun, 11 Jun 2023 14:42:56 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:42:56 +0000] flush group options
+[Sun, 11 Jun 2023 14:42:56 +0000] flush group comments
+[Sun, 11 Jun 2023 14:42:56 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:42:56 +0000] flushing based on sqlquery group options with extras {"wpdb_delete":"wp_6_options"}
+[Sun, 11 Jun 2023 14:42:56 +0000] flush group options
+
+[Sun, 11 Jun 2023 14:42:56 +0000] [/sa-marketplace/wp-cron.php?doing_wp_cron] [1686494576.4204]
+Database Caching using redis (Request-wide modification query)
+
+Db cache debug info:
+Total queries:      38
+Cached queries:     0
+Total query time:   0.0554
+[Sun, 11 Jun 2023 14:43:09 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:43:09 +0000] flush group options
+
+[Sun, 11 Jun 2023 14:43:09 +0000] [/sa-marketplace/wp-cron.php?doing_wp_cron] [1686494589.2044]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      43
+Cached queries:     0
+Total query time:   0.0436
+[Sun, 11 Jun 2023 14:43:21 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:43:21 +0000] flush group options
+
+[Sun, 11 Jun 2023 14:43:22 +0000] [/sa-marketplace/wp-cron.php?doing_wp_cron] [1686494602.0978]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      26
+Cached queries:     0
+Total query time:   0.0315
+[Sun, 11 Jun 2023 14:43:34 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:43:34 +0000] flush group options
+
+[Sun, 11 Jun 2023 14:43:34 +0000] [/sa-marketplace/wp-cron.php?doing_wp_cron] [1686494614.9605]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      26
+Cached queries:     0
+Total query time:   0.0273
+[Sun, 11 Jun 2023 14:43:47 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:43:47 +0000] flush group options
+
+[Sun, 11 Jun 2023 14:43:47 +0000] [/sa-marketplace/wp-cron.php?doing_wp_cron] [1686494627.7874]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      26
+Cached queries:     0
+Total query time:   0.0320
+[Sun, 11 Jun 2023 14:44:00 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:44:00 +0000] flush group options
+[Sun, 11 Jun 2023 14:44:00 +0000] flushing based on sqlquery group options with extras {"modification_query":"INSERT INTO `wp_6_options` (`option_name`, `option_value`, `autoload`) VALUES ('_transient_doing_cron', '1686494640.6637248992919921875000', 'yes') ON DUPLICATE KEY UPDATE `option_name` = VALUES(`option_name`), `option_value` = VALUES(`option_value`), `autoload` = VALUES(`autoload`)"}
+[Sun, 11 Jun 2023 14:44:00 +0000] flush group options
+[Sun, 11 Jun 2023 14:44:00 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:44:00 +0000] flush group options
+[Sun, 11 Jun 2023 14:44:00 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:44:00 +0000] flush group options
+[Sun, 11 Jun 2023 14:44:00 +0000] flushing based on sqlquery group singletables with extras {"modification_query":"UPDATE wp_6_actionscheduler_actions SET claim_id=3736, last_attempt_gmt='2023-06-11 14:44:00', last_attempt_local='2023-06-11 15:44:00' WHERE claim_id = 0 AND scheduled_date_gmt .= '2023-06-11 14:44:00' AND status='pending' ORDER BY attempts ASC, scheduled_date_gmt ASC, action_id ASC LIMIT 25"}
+[Sun, 11 Jun 2023 14:44:00 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:44:00 +0000] flush group options
+[Sun, 11 Jun 2023 14:44:00 +0000] flush group comments
+[Sun, 11 Jun 2023 14:44:00 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:44:00 +0000] flushing based on sqlquery group singletables with extras {"wpdb_delete":"wp_6_actionscheduler_claims"}
+[Sun, 11 Jun 2023 14:44:00 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:44:00 +0000] flush group options
+[Sun, 11 Jun 2023 14:44:00 +0000] flush group comments
+[Sun, 11 Jun 2023 14:44:00 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:44:00 +0000] flushing based on sqlquery group options with extras {"wpdb_delete":"wp_6_options"}
+[Sun, 11 Jun 2023 14:44:00 +0000] flush group options
+
+[Sun, 11 Jun 2023 14:44:00 +0000] [/sa-marketplace/wp-cron.php?doing_wp_cron] [1686494640.7195]
+Database Caching using redis (Request-wide modification query)
+
+Db cache debug info:
+Total queries:      34
+Cached queries:     0
+Total query time:   0.0485
+[Sun, 11 Jun 2023 14:44:13 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:44:13 +0000] flush group options
+
+[Sun, 11 Jun 2023 14:44:13 +0000] [/sa-marketplace/wp-cron.php?doing_wp_cron] [1686494653.6224]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      26
+Cached queries:     0
+Total query time:   0.0293
+[Sun, 11 Jun 2023 14:44:26 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:44:26 +0000] flush group options
+
+[Sun, 11 Jun 2023 14:44:26 +0000] [/sa-marketplace/wp-cron.php?doing_wp_cron] [1686494666.5445]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      22
+Cached queries:     0
+Total query time:   0.0265
+[Sun, 11 Jun 2023 14:44:39 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:44:39 +0000] flush group options
+
+[Sun, 11 Jun 2023 14:44:39 +0000] [/sa-marketplace/wp-cron.php?doing_wp_cron] [1686494679.3717]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      26
+Cached queries:     0
+Total query time:   0.0287
+[Sun, 11 Jun 2023 14:44:52 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:44:52 +0000] flush group options
+
+[Sun, 11 Jun 2023 14:44:52 +0000] [/sa-marketplace/wp-cron.php?doing_wp_cron] [1686494692.2028]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      25
+Cached queries:     0
+Total query time:   0.0300
+[Sun, 11 Jun 2023 14:45:04 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:45:04 +0000] flush group options
+[Sun, 11 Jun 2023 14:45:05 +0000] flushing based on sqlquery group options with extras {"modification_query":"INSERT INTO `wp_6_options` (`option_name`, `option_value`, `autoload`) VALUES ('_transient_doing_cron', '1686494705.0606119632720947265625', 'yes') ON DUPLICATE KEY UPDATE `option_name` = VALUES(`option_name`), `option_value` = VALUES(`option_value`), `autoload` = VALUES(`autoload`)"}
+[Sun, 11 Jun 2023 14:45:05 +0000] flush group options
+[Sun, 11 Jun 2023 14:45:05 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:45:05 +0000] flush group options
+[Sun, 11 Jun 2023 14:45:05 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:45:05 +0000] flush group options
+[Sun, 11 Jun 2023 14:45:05 +0000] flushing based on sqlquery group singletables with extras {"modification_query":"UPDATE wp_6_actionscheduler_actions SET claim_id=3737, last_attempt_gmt='2023-06-11 14:45:05', last_attempt_local='2023-06-11 15:45:05' WHERE claim_id = 0 AND scheduled_date_gmt .= '2023-06-11 14:45:05' AND status='pending' ORDER BY attempts ASC, scheduled_date_gmt ASC, action_id ASC LIMIT 25"}
+[Sun, 11 Jun 2023 14:45:05 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:45:05 +0000] flush group options
+[Sun, 11 Jun 2023 14:45:05 +0000] flush group comments
+[Sun, 11 Jun 2023 14:45:05 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:45:05 +0000] flushing based on sqlquery group singletables with extras {"wpdb_delete":"wp_6_actionscheduler_claims"}
+[Sun, 11 Jun 2023 14:45:05 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:45:05 +0000] flush group options
+[Sun, 11 Jun 2023 14:45:05 +0000] flush group comments
+[Sun, 11 Jun 2023 14:45:05 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:45:05 +0000] flushing based on sqlquery group options with extras {"wpdb_delete":"wp_6_options"}
+[Sun, 11 Jun 2023 14:45:05 +0000] flush group options
+
+[Sun, 11 Jun 2023 14:45:05 +0000] [/sa-marketplace/wp-cron.php?doing_wp_cron] [1686494705.1149]
+Database Caching using redis (Request-wide modification query)
+
+Db cache debug info:
+Total queries:      34
+Cached queries:     0
+Total query time:   0.0427
+[Sun, 11 Jun 2023 14:45:17 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:45:17 +0000] flush group options
+
+[Sun, 11 Jun 2023 14:45:17 +0000] [/sa-marketplace/wp-cron.php?doing_wp_cron] [1686494717.9506]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      28
+Cached queries:     0
+Total query time:   0.0309
+[Sun, 11 Jun 2023 14:45:30 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:45:30 +0000] flush group options
+
+[Sun, 11 Jun 2023 14:45:30 +0000] [/sa-marketplace/wp-cron.php?doing_wp_cron] [1686494730.8389]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      26
+Cached queries:     0
+Total query time:   0.0264
+[Sun, 11 Jun 2023 14:45:43 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:45:43 +0000] flush group options
+
+[Sun, 11 Jun 2023 14:45:43 +0000] [/sa-marketplace/wp-cron.php?doing_wp_cron] [1686494743.7451]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      28
+Cached queries:     0
+Total query time:   0.0306
+[Sun, 11 Jun 2023 14:45:56 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:45:56 +0000] flush group options
+[Sun, 11 Jun 2023 14:45:56 +0000] flushing based on sqlquery group options with extras {"modification_query":"INSERT INTO `wp_6_options` (`option_name`, `option_value`, `autoload`) VALUES ('_transient_doing_cron', '1686494756.5888810157775878906250', 'yes') ON DUPLICATE KEY UPDATE `option_name` = VALUES(`option_name`), `option_value` = VALUES(`option_value`), `autoload` = VALUES(`autoload`)"}
+[Sun, 11 Jun 2023 14:45:56 +0000] flush group options
+[Sun, 11 Jun 2023 14:45:56 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:45:56 +0000] flush group options
+[Sun, 11 Jun 2023 14:45:56 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:45:56 +0000] flush group options
+[Sun, 11 Jun 2023 14:45:56 +0000] flushing based on sqlquery group singletables with extras {"modification_query":"UPDATE wp_6_actionscheduler_actions SET claim_id=3738, last_attempt_gmt='2023-06-11 14:45:56', last_attempt_local='2023-06-11 15:45:56' WHERE claim_id = 0 AND scheduled_date_gmt .= '2023-06-11 14:45:56' AND status='pending' ORDER BY attempts ASC, scheduled_date_gmt ASC, action_id ASC LIMIT 25"}
+[Sun, 11 Jun 2023 14:45:56 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:45:56 +0000] flush group options
+[Sun, 11 Jun 2023 14:45:56 +0000] flush group comments
+[Sun, 11 Jun 2023 14:45:56 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:45:56 +0000] flushing based on sqlquery group singletables with extras {"wpdb_delete":"wp_6_actionscheduler_claims"}
+[Sun, 11 Jun 2023 14:45:56 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:45:56 +0000] flush group options
+[Sun, 11 Jun 2023 14:45:56 +0000] flush group comments
+[Sun, 11 Jun 2023 14:45:56 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:45:56 +0000] flushing based on sqlquery group options with extras {"wpdb_delete":"wp_6_options"}
+[Sun, 11 Jun 2023 14:45:56 +0000] flush group options
+
+[Sun, 11 Jun 2023 14:45:56 +0000] [/sa-marketplace/wp-cron.php?doing_wp_cron] [1686494756.6405]
+Database Caching using redis (Request-wide modification query)
+
+Db cache debug info:
+Total queries:      34
+Cached queries:     0
+Total query time:   0.0442
+[Sun, 11 Jun 2023 14:46:09 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:46:09 +0000] flush group options
+
+[Sun, 11 Jun 2023 14:46:09 +0000] [/sa-marketplace/wp-cron.php?doing_wp_cron] [1686494769.4647]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      26
+Cached queries:     0
+Total query time:   0.0283
+[Sun, 11 Jun 2023 14:46:22 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:46:22 +0000] flush group options
+
+[Sun, 11 Jun 2023 14:46:22 +0000] [/sa-marketplace/wp-cron.php?doing_wp_cron] [1686494782.3508]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      39
+Cached queries:     0
+Total query time:   0.0449
+[Sun, 11 Jun 2023 14:46:35 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:46:35 +0000] flush group options
+
+[Sun, 11 Jun 2023 14:46:35 +0000] [/sa-marketplace/wp-cron.php?doing_wp_cron] [1686494795.1851]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      22
+Cached queries:     0
+Total query time:   0.0263
+[Sun, 11 Jun 2023 14:46:48 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:46:48 +0000] flush group options
+
+[Sun, 11 Jun 2023 14:46:48 +0000] [/sa-marketplace/wp-cron.php?doing_wp_cron] [1686494808.1531]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      26
+Cached queries:     0
+Total query time:   0.0453
+[Sun, 11 Jun 2023 14:47:00 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:47:00 +0000] flush group options
+[Sun, 11 Jun 2023 14:47:01 +0000] flushing based on sqlquery group options with extras {"modification_query":"INSERT INTO `wp_6_options` (`option_name`, `option_value`, `autoload`) VALUES ('_transient_doing_cron', '1686494821.0149888992309570312500', 'yes') ON DUPLICATE KEY UPDATE `option_name` = VALUES(`option_name`), `option_value` = VALUES(`option_value`), `autoload` = VALUES(`autoload`)"}
+[Sun, 11 Jun 2023 14:47:01 +0000] flush group options
+[Sun, 11 Jun 2023 14:47:01 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:47:01 +0000] flush group options
+[Sun, 11 Jun 2023 14:47:01 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:47:01 +0000] flush group options
+[Sun, 11 Jun 2023 14:47:01 +0000] flushing based on sqlquery group singletables with extras {"modification_query":"UPDATE wp_6_actionscheduler_actions SET claim_id=3739, last_attempt_gmt='2023-06-11 14:47:01', last_attempt_local='2023-06-11 15:47:01' WHERE claim_id = 0 AND scheduled_date_gmt .= '2023-06-11 14:47:01' AND status='pending' ORDER BY attempts ASC, scheduled_date_gmt ASC, action_id ASC LIMIT 25"}
+[Sun, 11 Jun 2023 14:47:01 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:47:01 +0000] flush group options
+[Sun, 11 Jun 2023 14:47:01 +0000] flush group comments
+[Sun, 11 Jun 2023 14:47:01 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:47:01 +0000] flushing based on sqlquery group singletables with extras {"wpdb_delete":"wp_6_actionscheduler_claims"}
+[Sun, 11 Jun 2023 14:47:01 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:47:01 +0000] flush group options
+[Sun, 11 Jun 2023 14:47:01 +0000] flush group comments
+[Sun, 11 Jun 2023 14:47:01 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:47:01 +0000] flushing based on sqlquery group options with extras {"wpdb_delete":"wp_6_options"}
+[Sun, 11 Jun 2023 14:47:01 +0000] flush group options
+
+[Sun, 11 Jun 2023 14:47:01 +0000] [/sa-marketplace/wp-cron.php?doing_wp_cron] [1686494821.0665]
+Database Caching using redis (Request-wide modification query)
+
+Db cache debug info:
+Total queries:      38
+Cached queries:     0
+Total query time:   0.0471
+[Sun, 11 Jun 2023 14:47:13 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:47:13 +0000] flush group options
+
+[Sun, 11 Jun 2023 14:47:13 +0000] [/sa-marketplace/wp-cron.php?doing_wp_cron] [1686494833.9069]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      26
+Cached queries:     0
+Total query time:   0.0307
+[Sun, 11 Jun 2023 14:47:26 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:47:26 +0000] flush group options
+
+[Sun, 11 Jun 2023 14:47:26 +0000] [/sa-marketplace/wp-cron.php?doing_wp_cron] [1686494846.7701]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      22
+Cached queries:     0
+Total query time:   0.0289
+[Sun, 11 Jun 2023 14:47:39 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:47:39 +0000] flush group options
+
+[Sun, 11 Jun 2023 14:47:39 +0000] [/sa-marketplace/wp-cron.php?doing_wp_cron] [1686494859.6144]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      26
+Cached queries:     0
+Total query time:   0.0345
+[Sun, 11 Jun 2023 14:47:52 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:47:52 +0000] flush group options
+
+[Sun, 11 Jun 2023 14:47:52 +0000] [/sa-marketplace/wp-cron.php?doing_wp_cron] [1686494872.5705]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      22
+Cached queries:     0
+Total query time:   0.0248
+[Sun, 11 Jun 2023 14:48:05 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:48:05 +0000] flush group options
+[Sun, 11 Jun 2023 14:48:05 +0000] flushing based on sqlquery group options with extras {"modification_query":"INSERT INTO `wp_6_options` (`option_name`, `option_value`, `autoload`) VALUES ('_transient_doing_cron', '1686494885.4254720211029052734375', 'yes') ON DUPLICATE KEY UPDATE `option_name` = VALUES(`option_name`), `option_value` = VALUES(`option_value`), `autoload` = VALUES(`autoload`)"}
+[Sun, 11 Jun 2023 14:48:05 +0000] flush group options
+[Sun, 11 Jun 2023 14:48:05 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:48:05 +0000] flush group options
+[Sun, 11 Jun 2023 14:48:05 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:48:05 +0000] flush group options
+[Sun, 11 Jun 2023 14:48:05 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:48:05 +0000] flush group options
+[Sun, 11 Jun 2023 14:48:05 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:48:05 +0000] flush group options
+[Sun, 11 Jun 2023 14:48:05 +0000] flushing based on sqlquery group singletables with extras {"modification_query":"UPDATE wp_6_actionscheduler_actions SET claim_id=3740, last_attempt_gmt='2023-06-11 14:48:05', last_attempt_local='2023-06-11 15:48:05' WHERE claim_id = 0 AND scheduled_date_gmt .= '2023-06-11 14:48:05' AND status='pending' ORDER BY attempts ASC, scheduled_date_gmt ASC, action_id ASC LIMIT 25"}
+[Sun, 11 Jun 2023 14:48:05 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:48:05 +0000] flush group options
+[Sun, 11 Jun 2023 14:48:05 +0000] flush group comments
+[Sun, 11 Jun 2023 14:48:05 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:48:05 +0000] flushing based on sqlquery group singletables with extras {"wpdb_delete":"wp_6_actionscheduler_claims"}
+[Sun, 11 Jun 2023 14:48:05 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:48:05 +0000] flush group options
+[Sun, 11 Jun 2023 14:48:05 +0000] flush group comments
+[Sun, 11 Jun 2023 14:48:05 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:48:05 +0000] flushing based on sqlquery group options with extras {"wpdb_delete":"wp_6_options"}
+[Sun, 11 Jun 2023 14:48:05 +0000] flush group options
+
+[Sun, 11 Jun 2023 14:48:05 +0000] [/sa-marketplace/wp-cron.php?doing_wp_cron] [1686494885.4981]
+Database Caching using redis (Request-wide modification query)
+
+Db cache debug info:
+Total queries:      34
+Cached queries:     0
+Total query time:   0.0454
+[Sun, 11 Jun 2023 14:48:18 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:48:18 +0000] flush group options
+
+[Sun, 11 Jun 2023 14:48:18 +0000] [/sa-marketplace/wp-cron.php?doing_wp_cron] [1686494898.3245]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      26
+Cached queries:     0
+Total query time:   0.0335
+[Sun, 11 Jun 2023 14:48:31 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:48:31 +0000] flush group options
+[Sun, 11 Jun 2023 14:48:31 +0000] flushing based on sqlquery group options with extras {"modification_query":"INSERT INTO `wp_6_options` (`option_name`, `option_value`, `autoload`) VALUES ('_transient_doing_cron', '1686494911.2418470382690429687500', 'yes') ON DUPLICATE KEY UPDATE `option_name` = VALUES(`option_name`), `option_value` = VALUES(`option_value`), `autoload` = VALUES(`autoload`)"}
+[Sun, 11 Jun 2023 14:48:31 +0000] flush group options
+[Sun, 11 Jun 2023 14:48:31 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:48:31 +0000] flush group options
+[Sun, 11 Jun 2023 14:48:31 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:48:31 +0000] flush group options
+[Sun, 11 Jun 2023 14:48:32 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:48:32 +0000] flush group options
+[Sun, 11 Jun 2023 14:48:34 +0000] flushing based on sqlquery group options with extras {"wpdb_delete":"wp_6_options"}
+[Sun, 11 Jun 2023 14:48:34 +0000] flush group options
+
+[Sun, 11 Jun 2023 14:48:34 +0000] [/sa-marketplace/wp-cron.php?doing_wp_cron] [1686494914.9112]
+Database Caching using redis (Request-wide modification query)
+
+Db cache debug info:
+Total queries:      31
+Cached queries:     0
+Total query time:   0.0398
+[Sun, 11 Jun 2023 14:48:43 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:48:43 +0000] flush group options
+
+[Sun, 11 Jun 2023 14:48:44 +0000] [/sa-marketplace/wp-cron.php?doing_wp_cron] [1686494924.0877]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      28
+Cached queries:     0
+Total query time:   0.0344
+[Sun, 11 Jun 2023 14:48:56 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:48:56 +0000] flush group options
+[Sun, 11 Jun 2023 14:48:56 +0000] flushing based on sqlquery group options with extras {"modification_query":"INSERT INTO `wp_6_options` (`option_name`, `option_value`, `autoload`) VALUES ('_transient_doing_cron', '1686494936.9840009212493896484375', 'yes') ON DUPLICATE KEY UPDATE `option_name` = VALUES(`option_name`), `option_value` = VALUES(`option_value`), `autoload` = VALUES(`autoload`)"}
+[Sun, 11 Jun 2023 14:48:56 +0000] flush group options
+[Sun, 11 Jun 2023 14:48:56 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:48:56 +0000] flush group options
+[Sun, 11 Jun 2023 14:48:56 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:48:56 +0000] flush group options
+[Sun, 11 Jun 2023 14:48:57 +0000] flushing based on sqlquery group singletables with extras {"modification_query":"UPDATE wp_6_actionscheduler_actions SET claim_id=3741, last_attempt_gmt='2023-06-11 14:48:57', last_attempt_local='2023-06-11 15:48:57' WHERE claim_id = 0 AND scheduled_date_gmt .= '2023-06-11 14:48:57' AND status='pending' ORDER BY attempts ASC, scheduled_date_gmt ASC, action_id ASC LIMIT 25"}
+[Sun, 11 Jun 2023 14:48:57 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:48:57 +0000] flush group options
+[Sun, 11 Jun 2023 14:48:57 +0000] flush group comments
+[Sun, 11 Jun 2023 14:48:57 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:48:57 +0000] flushing based on sqlquery group singletables with extras {"wpdb_delete":"wp_6_actionscheduler_claims"}
+[Sun, 11 Jun 2023 14:48:57 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:48:57 +0000] flush group options
+[Sun, 11 Jun 2023 14:48:57 +0000] flush group comments
+[Sun, 11 Jun 2023 14:48:57 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:48:57 +0000] flushing based on sqlquery group options with extras {"wpdb_delete":"wp_6_options"}
+[Sun, 11 Jun 2023 14:48:57 +0000] flush group options
+
+[Sun, 11 Jun 2023 14:48:57 +0000] [/sa-marketplace/wp-cron.php?doing_wp_cron] [1686494937.0392]
+Database Caching using redis (Request-wide modification query)
+
+Db cache debug info:
+Total queries:      86
+Cached queries:     0
+Total query time:   0.0993
+[Sun, 11 Jun 2023 14:49:09 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:49:09 +0000] flush group options
+
+[Sun, 11 Jun 2023 14:49:09 +0000] [/sa-marketplace/wp-cron.php?doing_wp_cron] [1686494949.8766]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      22
+Cached queries:     0
+Total query time:   0.0252
+[Sun, 11 Jun 2023 14:49:22 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:49:22 +0000] flush group options
+
+[Sun, 11 Jun 2023 14:49:22 +0000] [/sa-marketplace/wp-cron.php?doing_wp_cron] [1686494962.7279]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      26
+Cached queries:     0
+Total query time:   0.0296
+[Sun, 11 Jun 2023 14:49:35 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:49:35 +0000] flush group options
+
+[Sun, 11 Jun 2023 14:49:35 +0000] [/sa-marketplace/wp-cron.php?doing_wp_cron] [1686494975.7116]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      43
+Cached queries:     0
+Total query time:   0.0509
+[Sun, 11 Jun 2023 14:49:48 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:49:48 +0000] flush group options
+
+[Sun, 11 Jun 2023 14:49:48 +0000] [/sa-marketplace/wp-cron.php?doing_wp_cron] [1686494988.6577]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      26
+Cached queries:     0
+Total query time:   0.0336
+[Sun, 11 Jun 2023 14:50:01 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:50:01 +0000] flush group options
+[Sun, 11 Jun 2023 14:50:01 +0000] flushing based on sqlquery group options with extras {"modification_query":"INSERT INTO `wp_6_options` (`option_name`, `option_value`, `autoload`) VALUES ('_transient_doing_cron', '1686495001.5109748840332031250000', 'yes') ON DUPLICATE KEY UPDATE `option_name` = VALUES(`option_name`), `option_value` = VALUES(`option_value`), `autoload` = VALUES(`autoload`)"}
+[Sun, 11 Jun 2023 14:50:01 +0000] flush group options
+[Sun, 11 Jun 2023 14:50:01 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:50:01 +0000] flush group options
+[Sun, 11 Jun 2023 14:50:01 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:50:01 +0000] flush group options
+[Sun, 11 Jun 2023 14:50:01 +0000] flushing based on sqlquery group singletables with extras {"modification_query":"UPDATE wp_6_actionscheduler_actions SET claim_id=3742, last_attempt_gmt='2023-06-11 14:50:01', last_attempt_local='2023-06-11 15:50:01' WHERE claim_id = 0 AND scheduled_date_gmt .= '2023-06-11 14:50:01' AND status='pending' ORDER BY attempts ASC, scheduled_date_gmt ASC, action_id ASC LIMIT 25"}
+[Sun, 11 Jun 2023 14:50:01 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:50:01 +0000] flush group options
+[Sun, 11 Jun 2023 14:50:01 +0000] flush group comments
+[Sun, 11 Jun 2023 14:50:01 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:50:01 +0000] flushing based on sqlquery group singletables with extras {"wpdb_delete":"wp_6_actionscheduler_claims"}
+[Sun, 11 Jun 2023 14:50:01 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:50:01 +0000] flush group options
+[Sun, 11 Jun 2023 14:50:01 +0000] flush group comments
+[Sun, 11 Jun 2023 14:50:01 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:50:01 +0000] flushing based on sqlquery group options with extras {"wpdb_delete":"wp_6_options"}
+[Sun, 11 Jun 2023 14:50:01 +0000] flush group options
+
+[Sun, 11 Jun 2023 14:50:01 +0000] [/sa-marketplace/wp-cron.php?doing_wp_cron] [1686495001.5687]
+Database Caching using redis (Request-wide modification query)
+
+Db cache debug info:
+Total queries:      38
+Cached queries:     0
+Total query time:   0.0485
+[Sun, 11 Jun 2023 14:50:14 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:50:14 +0000] flush group options
+
+[Sun, 11 Jun 2023 14:50:14 +0000] [/sa-marketplace/wp-cron.php?doing_wp_cron] [1686495014.3657]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      26
+Cached queries:     0
+Total query time:   0.0287
+[Sun, 11 Jun 2023 14:50:27 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:50:27 +0000] flush group options
+
+[Sun, 11 Jun 2023 14:50:27 +0000] [/sa-marketplace/wp-cron.php?doing_wp_cron] [1686495027.2098]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      74
+Cached queries:     0
+Total query time:   0.0726
+[Sun, 11 Jun 2023 14:50:39 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:50:39 +0000] flush group options
+
+[Sun, 11 Jun 2023 14:50:40 +0000] [/sa-marketplace/wp-cron.php?doing_wp_cron] [1686495040.0534]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      26
+Cached queries:     0
+Total query time:   0.0300
+[Sun, 11 Jun 2023 14:50:52 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:50:52 +0000] flush group options
+
+[Sun, 11 Jun 2023 14:50:52 +0000] [/sa-marketplace/wp-cron.php?doing_wp_cron] [1686495052.9296]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      26
+Cached queries:     0
+Total query time:   0.0300
+[Sun, 11 Jun 2023 14:51:05 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:51:05 +0000] flush group options
+[Sun, 11 Jun 2023 14:51:05 +0000] flushing based on sqlquery group options with extras {"modification_query":"INSERT INTO `wp_6_options` (`option_name`, `option_value`, `autoload`) VALUES ('_transient_doing_cron', '1686495065.7781300544738769531250', 'yes') ON DUPLICATE KEY UPDATE `option_name` = VALUES(`option_name`), `option_value` = VALUES(`option_value`), `autoload` = VALUES(`autoload`)"}
+[Sun, 11 Jun 2023 14:51:05 +0000] flush group options
+[Sun, 11 Jun 2023 14:51:05 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:51:05 +0000] flush group options
+[Sun, 11 Jun 2023 14:51:05 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:51:05 +0000] flush group options
+[Sun, 11 Jun 2023 14:51:05 +0000] flushing based on sqlquery group singletables with extras {"modification_query":"UPDATE wp_6_actionscheduler_actions SET claim_id=3743, last_attempt_gmt='2023-06-11 14:51:05', last_attempt_local='2023-06-11 15:51:05' WHERE claim_id = 0 AND scheduled_date_gmt .= '2023-06-11 14:51:05' AND status='pending' ORDER BY attempts ASC, scheduled_date_gmt ASC, action_id ASC LIMIT 25"}
+[Sun, 11 Jun 2023 14:51:05 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:51:05 +0000] flush group options
+[Sun, 11 Jun 2023 14:51:05 +0000] flush group comments
+[Sun, 11 Jun 2023 14:51:05 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:51:05 +0000] flushing based on sqlquery group singletables with extras {"wpdb_delete":"wp_6_actionscheduler_claims"}
+[Sun, 11 Jun 2023 14:51:05 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:51:05 +0000] flush group options
+[Sun, 11 Jun 2023 14:51:05 +0000] flush group comments
+[Sun, 11 Jun 2023 14:51:05 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:51:05 +0000] flushing based on sqlquery group options with extras {"wpdb_delete":"wp_6_options"}
+[Sun, 11 Jun 2023 14:51:05 +0000] flush group options
+
+[Sun, 11 Jun 2023 14:51:05 +0000] [/sa-marketplace/wp-cron.php?doing_wp_cron] [1686495065.8314]
+Database Caching using redis (Request-wide modification query)
+
+Db cache debug info:
+Total queries:      38
+Cached queries:     0
+Total query time:   0.0496
+[Sun, 11 Jun 2023 14:51:18 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:51:18 +0000] flush group options
+
+[Sun, 11 Jun 2023 14:51:18 +0000] [/sa-marketplace/wp-cron.php?doing_wp_cron] [1686495078.6365]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      26
+Cached queries:     0
+Total query time:   0.0300
+[Sun, 11 Jun 2023 14:51:31 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:51:31 +0000] flush group options
+
+[Sun, 11 Jun 2023 14:51:31 +0000] [/sa-marketplace/wp-cron.php?doing_wp_cron] [1686495091.5269]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      22
+Cached queries:     0
+Total query time:   0.0250
+[Sun, 11 Jun 2023 14:51:44 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:51:44 +0000] flush group options
+
+[Sun, 11 Jun 2023 14:51:44 +0000] [/sa-marketplace/wp-cron.php?doing_wp_cron] [1686495104.6551]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      93
+Cached queries:     0
+Total query time:   0.2392
+[Sun, 11 Jun 2023 14:51:57 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:51:57 +0000] flush group options
+[Sun, 11 Jun 2023 14:51:57 +0000] flushing based on sqlquery group options with extras {"modification_query":"INSERT INTO `wp_6_options` (`option_name`, `option_value`, `autoload`) VALUES ('_transient_doing_cron', '1686495117.2993130683898925781250', 'yes') ON DUPLICATE KEY UPDATE `option_name` = VALUES(`option_name`), `option_value` = VALUES(`option_value`), `autoload` = VALUES(`autoload`)"}
+[Sun, 11 Jun 2023 14:51:57 +0000] flush group options
+[Sun, 11 Jun 2023 14:51:57 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:51:57 +0000] flush group options
+[Sun, 11 Jun 2023 14:51:57 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:51:57 +0000] flush group options
+[Sun, 11 Jun 2023 14:51:57 +0000] flushing based on sqlquery group singletables with extras {"modification_query":"UPDATE wp_6_actionscheduler_actions SET claim_id=3744, last_attempt_gmt='2023-06-11 14:51:57', last_attempt_local='2023-06-11 15:51:57' WHERE claim_id = 0 AND scheduled_date_gmt .= '2023-06-11 14:51:57' AND status='pending' ORDER BY attempts ASC, scheduled_date_gmt ASC, action_id ASC LIMIT 25"}
+[Sun, 11 Jun 2023 14:51:57 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:51:57 +0000] flush group options
+[Sun, 11 Jun 2023 14:51:57 +0000] flush group comments
+[Sun, 11 Jun 2023 14:51:57 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:51:57 +0000] flushing based on sqlquery group singletables with extras {"wpdb_delete":"wp_6_actionscheduler_claims"}
+[Sun, 11 Jun 2023 14:51:57 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:51:57 +0000] flush group options
+[Sun, 11 Jun 2023 14:51:57 +0000] flush group comments
+[Sun, 11 Jun 2023 14:51:57 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:51:57 +0000] flushing based on sqlquery group options with extras {"wpdb_delete":"wp_6_options"}
+[Sun, 11 Jun 2023 14:51:57 +0000] flush group options
+
+[Sun, 11 Jun 2023 14:51:57 +0000] [/sa-marketplace/wp-cron.php?doing_wp_cron] [1686495117.3531]
+Database Caching using redis (Request-wide modification query)
+
+Db cache debug info:
+Total queries:      36
+Cached queries:     0
+Total query time:   0.0482
+[Sun, 11 Jun 2023 14:52:10 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:52:10 +0000] flush group options
+
+[Sun, 11 Jun 2023 14:52:10 +0000] [/sa-marketplace/wp-cron.php?doing_wp_cron] [1686495130.1644]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      26
+Cached queries:     0
+Total query time:   0.0301
+[Sun, 11 Jun 2023 14:52:22 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:52:22 +0000] flush group options
+
+[Sun, 11 Jun 2023 14:52:23 +0000] [/sa-marketplace/wp-cron.php?doing_wp_cron] [1686495143.0593]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      26
+Cached queries:     0
+Total query time:   0.0318
+[Sun, 11 Jun 2023 14:52:35 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:52:35 +0000] flush group options
+
+[Sun, 11 Jun 2023 14:52:35 +0000] [/sa-marketplace/wp-cron.php?doing_wp_cron] [1686495155.8899]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      27
+Cached queries:     0
+Total query time:   0.0340
+[Sun, 11 Jun 2023 14:52:48 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:52:48 +0000] flush group options
+
+[Sun, 11 Jun 2023 14:52:48 +0000] [/sa-marketplace/wp-cron.php?doing_wp_cron] [1686495168.7885]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      43
+Cached queries:     0
+Total query time:   0.0514
+[Sun, 11 Jun 2023 14:53:01 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:53:01 +0000] flush group options
+[Sun, 11 Jun 2023 14:53:01 +0000] flushing based on sqlquery group options with extras {"modification_query":"INSERT INTO `wp_6_options` (`option_name`, `option_value`, `autoload`) VALUES ('_transient_doing_cron', '1686495181.6078128814697265625000', 'yes') ON DUPLICATE KEY UPDATE `option_name` = VALUES(`option_name`), `option_value` = VALUES(`option_value`), `autoload` = VALUES(`autoload`)"}
+[Sun, 11 Jun 2023 14:53:01 +0000] flush group options
+[Sun, 11 Jun 2023 14:53:01 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:53:01 +0000] flush group options
+[Sun, 11 Jun 2023 14:53:01 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:53:01 +0000] flush group options
+[Sun, 11 Jun 2023 14:53:01 +0000] flushing based on sqlquery group singletables with extras {"modification_query":"UPDATE wp_6_actionscheduler_actions SET claim_id=3745, last_attempt_gmt='2023-06-11 14:53:01', last_attempt_local='2023-06-11 15:53:01' WHERE claim_id = 0 AND scheduled_date_gmt .= '2023-06-11 14:53:01' AND status='pending' ORDER BY attempts ASC, scheduled_date_gmt ASC, action_id ASC LIMIT 25"}
+[Sun, 11 Jun 2023 14:53:01 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:53:01 +0000] flush group options
+[Sun, 11 Jun 2023 14:53:01 +0000] flush group comments
+[Sun, 11 Jun 2023 14:53:01 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:53:01 +0000] flushing based on sqlquery group singletables with extras {"wpdb_delete":"wp_6_actionscheduler_claims"}
+[Sun, 11 Jun 2023 14:53:01 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:53:01 +0000] flush group options
+[Sun, 11 Jun 2023 14:53:01 +0000] flush group comments
+[Sun, 11 Jun 2023 14:53:01 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:53:01 +0000] flushing based on sqlquery group options with extras {"wpdb_delete":"wp_6_options"}
+[Sun, 11 Jun 2023 14:53:01 +0000] flush group options
+
+[Sun, 11 Jun 2023 14:53:01 +0000] [/sa-marketplace/wp-cron.php?doing_wp_cron] [1686495181.6621]
+Database Caching using redis (Request-wide modification query)
+
+Db cache debug info:
+Total queries:      34
+Cached queries:     0
+Total query time:   0.0440
+[Sun, 11 Jun 2023 14:53:14 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:53:14 +0000] flush group options
+
+[Sun, 11 Jun 2023 14:53:14 +0000] [/sa-marketplace/wp-cron.php?doing_wp_cron] [1686495194.5372]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      26
+Cached queries:     0
+Total query time:   0.0301
+[Sun, 11 Jun 2023 14:53:27 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:53:27 +0000] flush group options
+
+[Sun, 11 Jun 2023 14:53:27 +0000] [/sa-marketplace/wp-cron.php?doing_wp_cron] [1686495207.5145]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      26
+Cached queries:     0
+Total query time:   0.0275
+[Sun, 11 Jun 2023 14:53:40 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:53:40 +0000] flush group options
+
+[Sun, 11 Jun 2023 14:53:40 +0000] [/sa-marketplace/wp-cron.php?doing_wp_cron] [1686495220.6588]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      45
+Cached queries:     0
+Total query time:   0.1858
+[Sun, 11 Jun 2023 14:53:53 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:53:53 +0000] flush group options
+[Sun, 11 Jun 2023 14:53:53 +0000] flushing based on sqlquery group options with extras {"modification_query":"INSERT INTO `wp_6_options` (`option_name`, `option_value`, `autoload`) VALUES ('_transient_doing_cron', '1686495233.4515728950500488281250', 'yes') ON DUPLICATE KEY UPDATE `option_name` = VALUES(`option_name`), `option_value` = VALUES(`option_value`), `autoload` = VALUES(`autoload`)"}
+[Sun, 11 Jun 2023 14:53:53 +0000] flush group options
+[Sun, 11 Jun 2023 14:53:53 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:53:53 +0000] flush group options
+[Sun, 11 Jun 2023 14:53:53 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:53:53 +0000] flush group options
+[Sun, 11 Jun 2023 14:53:53 +0000] flushing based on sqlquery group singletables with extras {"modification_query":"UPDATE wp_6_actionscheduler_actions SET claim_id=3746, last_attempt_gmt='2023-06-11 14:53:53', last_attempt_local='2023-06-11 15:53:53' WHERE claim_id = 0 AND scheduled_date_gmt .= '2023-06-11 14:53:53' AND status='pending' ORDER BY attempts ASC, scheduled_date_gmt ASC, action_id ASC LIMIT 25"}
+[Sun, 11 Jun 2023 14:53:53 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:53:53 +0000] flush group options
+[Sun, 11 Jun 2023 14:53:53 +0000] flush group comments
+[Sun, 11 Jun 2023 14:53:53 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:53:53 +0000] flushing based on sqlquery group singletables with extras {"wpdb_delete":"wp_6_actionscheduler_claims"}
+[Sun, 11 Jun 2023 14:53:53 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:53:53 +0000] flush group options
+[Sun, 11 Jun 2023 14:53:53 +0000] flush group comments
+[Sun, 11 Jun 2023 14:53:53 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:53:53 +0000] flushing based on sqlquery group options with extras {"wpdb_delete":"wp_6_options"}
+[Sun, 11 Jun 2023 14:53:53 +0000] flush group options
+
+[Sun, 11 Jun 2023 14:53:53 +0000] [/sa-marketplace/wp-cron.php?doing_wp_cron] [1686495233.5051]
+Database Caching using redis (Request-wide modification query)
+
+Db cache debug info:
+Total queries:      38
+Cached queries:     0
+Total query time:   0.0504
+[Sun, 11 Jun 2023 14:54:06 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:54:06 +0000] flush group options
+
+[Sun, 11 Jun 2023 14:54:06 +0000] [/sa-marketplace/wp-cron.php?doing_wp_cron] [1686495246.3139]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      22
+Cached queries:     0
+Total query time:   0.0260
+[Sun, 11 Jun 2023 14:54:19 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:54:19 +0000] flush group options
+
+[Sun, 11 Jun 2023 14:54:19 +0000] [/sa-marketplace/wp-cron.php?doing_wp_cron] [1686495259.4042]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      45
+Cached queries:     0
+Total query time:   0.1774
+[Sun, 11 Jun 2023 14:54:32 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:54:32 +0000] flush group options
+
+[Sun, 11 Jun 2023 14:54:32 +0000] [/sa-marketplace/wp-cron.php?doing_wp_cron] [1686495272.2598]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      41
+Cached queries:     0
+Total query time:   0.1653
+[Sun, 11 Jun 2023 14:54:45 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:54:45 +0000] flush group options
+
+[Sun, 11 Jun 2023 14:54:45 +0000] [/sa-marketplace/wp-cron.php?doing_wp_cron] [1686495285.3316]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      45
+Cached queries:     0
+Total query time:   0.2506
+[Sun, 11 Jun 2023 14:54:57 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:54:57 +0000] flush group options
+[Sun, 11 Jun 2023 14:54:57 +0000] flushing based on sqlquery group options with extras {"modification_query":"INSERT INTO `wp_6_options` (`option_name`, `option_value`, `autoload`) VALUES ('_transient_doing_cron', '1686495297.9685359001159667968750', 'yes') ON DUPLICATE KEY UPDATE `option_name` = VALUES(`option_name`), `option_value` = VALUES(`option_value`), `autoload` = VALUES(`autoload`)"}
+[Sun, 11 Jun 2023 14:54:57 +0000] flush group options
+[Sun, 11 Jun 2023 14:54:57 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:54:57 +0000] flush group options
+[Sun, 11 Jun 2023 14:54:57 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:54:57 +0000] flush group options
+[Sun, 11 Jun 2023 14:54:58 +0000] flushing based on sqlquery group singletables with extras {"modification_query":"UPDATE wp_6_actionscheduler_actions SET claim_id=3747, last_attempt_gmt='2023-06-11 14:54:58', last_attempt_local='2023-06-11 15:54:58' WHERE claim_id = 0 AND scheduled_date_gmt .= '2023-06-11 14:54:58' AND status='pending' ORDER BY attempts ASC, scheduled_date_gmt ASC, action_id ASC LIMIT 25"}
+[Sun, 11 Jun 2023 14:54:58 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:54:58 +0000] flush group options
+[Sun, 11 Jun 2023 14:54:58 +0000] flush group comments
+[Sun, 11 Jun 2023 14:54:58 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:54:58 +0000] flushing based on sqlquery group singletables with extras {"wpdb_delete":"wp_6_actionscheduler_claims"}
+[Sun, 11 Jun 2023 14:54:58 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:54:58 +0000] flush group options
+[Sun, 11 Jun 2023 14:54:58 +0000] flush group comments
+[Sun, 11 Jun 2023 14:54:58 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:54:58 +0000] flushing based on sqlquery group options with extras {"wpdb_delete":"wp_6_options"}
+[Sun, 11 Jun 2023 14:54:58 +0000] flush group options
+
+[Sun, 11 Jun 2023 14:54:58 +0000] [/sa-marketplace/wp-cron.php?doing_wp_cron] [1686495298.0246]
+Database Caching using redis (Request-wide modification query)
+
+Db cache debug info:
+Total queries:      39
+Cached queries:     0
+Total query time:   0.0537
+[Sun, 11 Jun 2023 14:55:10 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:55:10 +0000] flush group options
+
+[Sun, 11 Jun 2023 14:55:10 +0000] [/sa-marketplace/wp-cron.php?doing_wp_cron] [1686495310.8115]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      27
+Cached queries:     0
+Total query time:   0.0315
+[Sun, 11 Jun 2023 14:55:23 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:55:23 +0000] flush group options
+
+[Sun, 11 Jun 2023 14:55:23 +0000] [/sa-marketplace/wp-cron.php?doing_wp_cron] [1686495323.8596]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      45
+Cached queries:     0
+Total query time:   0.1815
+[Sun, 11 Jun 2023 14:55:36 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:55:36 +0000] flush group options
+
+[Sun, 11 Jun 2023 14:55:36 +0000] [/sa-marketplace/wp-cron.php?doing_wp_cron] [1686495336.7254]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      41
+Cached queries:     0
+Total query time:   0.1834
+[Sun, 11 Jun 2023 14:55:49 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:55:49 +0000] flush group options
+
+[Sun, 11 Jun 2023 14:55:49 +0000] [/sa-marketplace/wp-cron.php?doing_wp_cron] [1686495349.6505]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      62
+Cached queries:     0
+Total query time:   0.1881
+[Sun, 11 Jun 2023 14:56:02 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:56:02 +0000] flush group options
+[Sun, 11 Jun 2023 14:56:02 +0000] flushing based on sqlquery group options with extras {"modification_query":"INSERT INTO `wp_6_options` (`option_name`, `option_value`, `autoload`) VALUES ('_transient_doing_cron', '1686495362.5727610588073730468750', 'yes') ON DUPLICATE KEY UPDATE `option_name` = VALUES(`option_name`), `option_value` = VALUES(`option_value`), `autoload` = VALUES(`autoload`)"}
+[Sun, 11 Jun 2023 14:56:02 +0000] flush group options
+[Sun, 11 Jun 2023 14:56:02 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:56:02 +0000] flush group options
+[Sun, 11 Jun 2023 14:56:02 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:56:02 +0000] flush group options
+[Sun, 11 Jun 2023 14:56:02 +0000] flushing based on sqlquery group singletables with extras {"modification_query":"UPDATE wp_6_actionscheduler_actions SET claim_id=3748, last_attempt_gmt='2023-06-11 14:56:02', last_attempt_local='2023-06-11 15:56:02' WHERE claim_id = 0 AND scheduled_date_gmt .= '2023-06-11 14:56:02' AND status='pending' ORDER BY attempts ASC, scheduled_date_gmt ASC, action_id ASC LIMIT 25"}
+[Sun, 11 Jun 2023 14:56:02 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:56:02 +0000] flush group options
+[Sun, 11 Jun 2023 14:56:02 +0000] flush group comments
+[Sun, 11 Jun 2023 14:56:02 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:56:02 +0000] flushing based on sqlquery group singletables with extras {"wpdb_delete":"wp_6_actionscheduler_claims"}
+[Sun, 11 Jun 2023 14:56:02 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:56:02 +0000] flush group options
+[Sun, 11 Jun 2023 14:56:02 +0000] flush group comments
+[Sun, 11 Jun 2023 14:56:02 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:56:02 +0000] flushing based on sqlquery group options with extras {"wpdb_delete":"wp_6_options"}
+[Sun, 11 Jun 2023 14:56:02 +0000] flush group options
+
+[Sun, 11 Jun 2023 14:56:02 +0000] [/sa-marketplace/wp-cron.php?doing_wp_cron] [1686495362.624]
+Database Caching using redis (Request-wide modification query)
+
+Db cache debug info:
+Total queries:      57
+Cached queries:     0
+Total query time:   0.2013
+[Sun, 11 Jun 2023 14:56:15 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:56:15 +0000] flush group options
+
+[Sun, 11 Jun 2023 14:56:15 +0000] [/sa-marketplace/wp-cron.php?doing_wp_cron] [1686495375.4477]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      45
+Cached queries:     0
+Total query time:   0.1763
+[Sun, 11 Jun 2023 14:56:28 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:56:28 +0000] flush group options
+
+[Sun, 11 Jun 2023 14:56:28 +0000] [/sa-marketplace/wp-cron.php?doing_wp_cron] [1686495388.3783]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      45
+Cached queries:     0
+Total query time:   0.1850
+[Sun, 11 Jun 2023 14:56:41 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:56:41 +0000] flush group options
+
+[Sun, 11 Jun 2023 14:56:41 +0000] [/sa-marketplace/wp-cron.php?doing_wp_cron] [1686495401.3196]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      41
+Cached queries:     0
+Total query time:   0.1794
+[Sun, 11 Jun 2023 14:56:54 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:56:54 +0000] flush group options
+[Sun, 11 Jun 2023 14:56:54 +0000] flushing based on sqlquery group options with extras {"modification_query":"INSERT INTO `wp_6_options` (`option_name`, `option_value`, `autoload`) VALUES ('_transient_doing_cron', '1686495414.3123509883880615234375', 'yes') ON DUPLICATE KEY UPDATE `option_name` = VALUES(`option_name`), `option_value` = VALUES(`option_value`), `autoload` = VALUES(`autoload`)"}
+[Sun, 11 Jun 2023 14:56:54 +0000] flush group options
+[Sun, 11 Jun 2023 14:56:54 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:56:54 +0000] flush group options
+[Sun, 11 Jun 2023 14:56:54 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:56:54 +0000] flush group options
+[Sun, 11 Jun 2023 14:56:54 +0000] flushing based on sqlquery group singletables with extras {"modification_query":"UPDATE wp_6_actionscheduler_actions SET claim_id=3749, last_attempt_gmt='2023-06-11 14:56:54', last_attempt_local='2023-06-11 15:56:54' WHERE claim_id = 0 AND scheduled_date_gmt .= '2023-06-11 14:56:54' AND status='pending' ORDER BY attempts ASC, scheduled_date_gmt ASC, action_id ASC LIMIT 25"}
+[Sun, 11 Jun 2023 14:56:54 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:56:54 +0000] flush group options
+[Sun, 11 Jun 2023 14:56:54 +0000] flush group comments
+[Sun, 11 Jun 2023 14:56:54 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:56:54 +0000] flushing based on sqlquery group singletables with extras {"wpdb_delete":"wp_6_actionscheduler_claims"}
+[Sun, 11 Jun 2023 14:56:54 +0000] flush group remaining
+[Sun, 11 Jun 2023 14:56:54 +0000] flush group options
+[Sun, 11 Jun 2023 14:56:54 +0000] flush group comments
+[Sun, 11 Jun 2023 14:56:54 +0000] flush group singletables
+[Sun, 11 Jun 2023 14:56:54 +0000] flushing based on sqlquery group options with extras {"wpdb_delete":"wp_6_options"}
+[Sun, 11 Jun 2023 14:56:54 +0000] flush group options
+
+[Sun, 11 Jun 2023 14:56:54 +0000] [/sa-marketplace/wp-cron.php?doing_wp_cron] [1686495414.3682]
+Database Caching using redis (Request-wide modification query)
+
+Db cache debug info:
+Total queries:      57
+Cached queries:     0
+Total query time:   0.2059
+[Sun, 11 Jun 2023 14:57:07 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:57:07 +0000] flush group options
+
+[Sun, 11 Jun 2023 14:57:07 +0000] [/sa-marketplace/wp-cron.php?doing_wp_cron] [1686495427.2417]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      41
+Cached queries:     0
+Total query time:   0.1841
+[Sun, 11 Jun 2023 14:57:20 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:57:20 +0000] flush group options
+
+[Sun, 11 Jun 2023 14:57:20 +0000] [/sa-marketplace/wp-cron.php?doing_wp_cron] [1686495440.2036]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      45
+Cached queries:     0
+Total query time:   0.1874
+[Sun, 11 Jun 2023 14:57:33 +0000] flushing based on sqlquery group options with extras {"wpdb_update":"wp_6_options"}
+[Sun, 11 Jun 2023 14:57:33 +0000] flush group options
+
+[Sun, 11 Jun 2023 14:57:33 +0000] [/sa-marketplace/wp-cron.php?doing_wp_cron] [1686495453.1208]
+Database Caching using redis (Request-wide DOING_CRON constant defined)
+
+Db cache debug info:
+Total queries:      45
+Cached queries:     0
+Total query time:   0.1814

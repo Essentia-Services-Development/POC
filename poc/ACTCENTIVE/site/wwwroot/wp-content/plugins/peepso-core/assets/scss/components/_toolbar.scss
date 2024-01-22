@@ -1,0 +1,238 @@
+//
+//  TOOLBAR COMPONENT
+//
+//  Designed to display menu-items inline,
+//  supports dropdown and popover components.
+//
+
+
+
+.ps-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: $padding-base;
+  font-size: 14px;
+  line-height: 1;
+  background-color: $scss-toolbar-bg;
+
+  // ROUNDED CORNERS
+  @if $scss-rounded == true {
+    border-radius: 6px;
+  }
+
+  + div {
+    .ps-focus-image {
+      border-top-left-radius: 0;
+      border-top-right-radius: 0;
+    }
+  }
+
+  @include media('large') {
+    display: none;
+  }
+}
+
+
+.ps-toolbar__menu {
+  // ROUNDED CORNERS
+  @if $scss-rounded == true {
+    > span:first-child > a {
+      @if $scss-direction == rtl {
+        border-top-right-radius: 6px;
+        border-bottom-right-radius: 6px;
+      } @else {
+        border-top-left-radius: 6px;
+        border-bottom-left-radius: 6px;
+      }
+    }
+
+    @include media('small') {
+      > span:last-child > a {
+        @if $scss-direction == rtl {
+          border-top-left-radius: 6px;
+          border-bottom-left-radius: 6px;
+        } @else {
+          border-top-right-radius: 6px;
+          border-bottom-right-radius: 6px;
+        }
+      }
+    }
+  }
+}
+
+
+.ps-toolbar__menu,
+.ps-toolbar__notifications {
+  display: flex;
+  width: 100%;
+
+  > span {
+    flex-grow: 1;
+
+    @if $scss-direction == rtl {
+      border-left: $scss-toolbar-separator;
+
+      &:last-child {
+        border-left: none;
+      }
+    } @else {
+      border-right: $scss-toolbar-separator;
+
+      &:last-child {
+        border-right: none;
+      }
+    }
+
+    > a {
+      display: block;
+      height: 100%;
+      padding: $padd--med $padd;
+      text-align: center;
+      color: $scss-toolbar-color;
+
+      &:hover {
+        color: $scss-toolbar-color-hover;
+        background-color: $scss-toolbar-bg-hover;
+      }
+
+      @include media('large') {
+        padding: $padd;
+      }
+    }
+
+    @include media('large') {
+      flex-grow: 0;
+    }
+  }
+
+  @include media('large') {
+    width: auto;
+  }
+}
+
+
+.ps-toolbar__notifications {
+  > a {
+    &:first-child {
+      @if $scss-direction == rtl {
+        border-left: none;
+      } @else {
+        border-right: none;
+      }
+    }
+  }
+
+  // ROUNDED CORNERS
+  @if $scss-rounded == true {
+    > span:last-child > a {
+      @if $scss-direction == rtl {
+        border-top-left-radius: 6px;
+        border-bottom-left-radius: 6px;
+      } @else {
+        border-top-right-radius: 6px;
+        border-bottom-right-radius: 6px;
+      }
+    }
+  }
+}
+
+
+.ps-toolbar__submenu {
+  position: relative;
+  display: none;
+  width: 100%;
+  background-color: $scss-submenu-bg;
+  border: $scss-toolbar-separator;
+  box-shadow: 0 -3px 1px $scss-submenu-shadow;
+
+  &.open {
+    display: block;
+  }
+
+  > a,
+  > span > a {
+    position: relative;
+    display: block;
+    padding: $padd $padd--med;
+    color: $scss-toolbar-color;
+    border-bottom: $scss-toolbar-separator !important;
+
+    &:hover {
+      color: $scss-toolbar-color-hover;
+      background-color: $scss-toolbar-bg-hover;
+    }
+
+    &:last-child {
+      border-bottom: none !important;
+    }
+
+    &.open {
+      &:hover {
+        background-color: $scss-submenu-bg;
+      }
+    }
+  }
+
+  > span {
+    display: block;
+    border-bottom: $scss-toolbar-separator !important;
+
+    &.ps-dropdown > a {
+      &:after {
+        position: absolute;
+        top: $padd;
+        right: $padd--med;
+        display: block;
+        font-family: "peepso";
+        content: '\e818';
+      }
+
+      &.open:after {
+        content: '\e817';
+      }
+    }
+
+    &:last-child {
+      border-bottom: none !important;
+    }
+
+    > a:last-of-type {
+      border-bottom: none !important;
+    }
+  }
+
+  &:before {
+    position: absolute;
+    top: -12px;
+    left: 13px;
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid $scss-submenu-shadow;
+    content: " ";
+  }
+
+  &:after {
+    position: absolute;
+    top: -8px;
+    left: 15px;
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-bottom: 8px solid $scss-submenu-bg;
+    content: " ";
+  }
+}
+
+
+.ps-toolbar--desktop {
+  display: none;
+
+  @include media('large') {
+    display: flex;
+  }
+}

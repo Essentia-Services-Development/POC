@@ -1,0 +1,198 @@
+# Translation of PeepSo - MyCRED Integration in Arabic
+# This file is distributed under the same license as the PeepSo - MyCRED Integration package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: +0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=(n == 0) ? 0 : ((n == 1) ? 1 : ((n == 2) ? 2 : ((n % 100 >= 3 && n % 100 <= 10) ? 3 : ((n % 100 >= 11 && n % 100 <= 99) ? 4 : 5))));\n"
+"X-Generator: GlotPress/3.0.0\n"
+"Language: ar\n"
+"Project-Id-Version: PeepSo - MyCRED Integration\n"
+
+#. Description of the plugin/theme
+msgid "Award myCRED points for performing actions in PeepSo. Requires the MyCred plugin."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "PeepSo"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://peepso.com"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "PeepSo Integrations: myCRED"
+msgstr ""
+
+#: templates/profile/profile-mycred.php:22
+msgid "%s History"
+msgstr ""
+
+#: peepsocreds.php:356
+msgid "Get it now!"
+msgstr ""
+
+#: peepsocreds.php:354
+msgid "The %s plugin requires the PeepSo plugin to be installed and activated."
+msgstr ""
+
+#: peepsocreds.php:268 peepsocreds.php:269 peepsocreds.php:272
+msgid "myCRED"
+msgstr ""
+
+#: peepsocreds.php:234
+msgid "PeepSo - New stream photo"
+msgstr ""
+
+#: peepsocreds.php:231
+msgid "PeepSo - Add friend"
+msgstr ""
+
+#: peepsocreds.php:228
+msgid "PeepSo - New message"
+msgstr ""
+
+#: peepsocreds.php:225
+msgid "PeepSo - New profile avatar"
+msgstr ""
+
+#: peepsocreds.php:222
+msgid "PeepSo - New profile cover"
+msgstr ""
+
+#: peepsocreds.php:219
+msgid "PeepSo - Like content"
+msgstr ""
+
+#: peepsocreds.php:216
+msgid "PeepSo - New comment"
+msgstr ""
+
+#: peepsocreds.php:213
+msgid "PeepSo - New post"
+msgstr ""
+
+#: peepsocreds.php:169
+msgid "User Points"
+msgstr ""
+
+#: peepsocreds.php:161
+msgid "Point"
+msgid_plural "Points"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: peepsocreds.php:115
+msgctxt "Profile link"
+msgid "Points"
+msgstr ""
+
+#: classes/mycredhook.php:749
+msgid "%plural% for deleting PeepSo Profile Avatar"
+msgstr ""
+
+#: classes/mycredhook.php:725
+msgid "%plural% for Add New PeepSo Profile Avatar"
+msgstr ""
+
+#: classes/mycredhook.php:705
+msgid "%plural% for deleting PeepSo Profile Cover"
+msgstr ""
+
+#: classes/mycredhook.php:681
+msgid "%plural% for Add New PeepSo Profile Cover"
+msgstr ""
+
+#: classes/mycredhook.php:661
+msgid "%plural% for deleting PeepSo Stream Photo"
+msgstr ""
+
+#: classes/mycredhook.php:637
+msgid "%plural% for Add New PeepSo Stream Photo"
+msgstr ""
+
+#: classes/mycredhook.php:617
+msgid "%plural% for PeepSo Friend Deletion"
+msgstr ""
+
+#: classes/mycredhook.php:593
+msgid "%plural% for Add New PeepSo Friend"
+msgstr ""
+
+#: classes/mycredhook.php:572
+msgid "%plural% for Un-Like PeepSo Content / Profile"
+msgstr ""
+
+#: classes/mycredhook.php:548
+msgid "%plural% for Like PeepSo Content / Profile"
+msgstr ""
+
+#: classes/mycredhook.php:527
+msgid "%plural% for Comment Deletion"
+msgstr ""
+
+#: classes/mycredhook.php:521
+msgid "PeepSo Message authors can receive %_plural% for replying to their own Message"
+msgstr ""
+
+#: classes/mycredhook.php:496
+msgid "%plural% for New PeepSo Comment"
+msgstr ""
+
+#: classes/mycredhook.php:478
+msgid "%plural% for PeepSo Message Deletion"
+msgstr ""
+
+#: classes/mycredhook.php:472
+msgid "PeepSo Message authors can receive %_plural% for creating new message."
+msgstr ""
+
+#: classes/mycredhook.php:447
+msgid "%plural% for New PeepSo Message"
+msgstr ""
+
+#: classes/mycredhook.php:428
+msgid "%plural% for PeepSo Post Deletion"
+msgstr ""
+
+#: classes/mycredhook.php:418 classes/mycredhook.php:437
+#: classes/mycredhook.php:461 classes/mycredhook.php:487
+#: classes/mycredhook.php:510 classes/mycredhook.php:536
+#: classes/mycredhook.php:562 classes/mycredhook.php:581
+#: classes/mycredhook.php:607 classes/mycredhook.php:626
+#: classes/mycredhook.php:651 classes/mycredhook.php:670
+#: classes/mycredhook.php:695 classes/mycredhook.php:714
+#: classes/mycredhook.php:739 classes/mycredhook.php:758
+msgid "Log template"
+msgstr ""
+
+#: classes/mycredhook.php:412 classes/mycredhook.php:455
+#: classes/mycredhook.php:504 classes/mycredhook.php:556
+#: classes/mycredhook.php:601 classes/mycredhook.php:645
+#: classes/mycredhook.php:689 classes/mycredhook.php:733
+msgid "Limit"
+msgstr ""
+
+#: classes/mycredhook.php:404
+msgid "%plural% for New PeepSo Post"
+msgstr ""
+
+#: classes/configsectionmycred.php:33
+msgid "General"
+msgstr ""
+
+#: classes/configsectionmycred.php:17
+msgid "Show myCRED Points History Page"
+msgstr ""
+
+#: classes/configsectionmycred.php:15
+msgid "When enabled it will show user's points history in their profile."
+msgstr ""

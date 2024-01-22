@@ -1,0 +1,77 @@
+//
+//  Custom Styles for Dark theme
+//
+.peepso {
+	.ps-classified__item--stream {
+		background-color: rgba(0,0,0, .2);
+		border-color: transparent;
+	}
+
+	.ps-classified__item-footer {
+		border-color: rgba(255,255,255, .04);
+	}
+
+	.adverts-manage-delete-confirm {
+		background-color: #151515;
+	}
+
+	.mce-panel {
+		background-color: #141414;
+	}
+
+	.wp-editor-wrap {
+		border-color: #323232;
+	}
+
+	.mce-toolbar-grp {
+		background-color: #1D1D1D;
+	}
+
+	.mce-btn:hover,
+	.mce-btn:focus,
+	.mce-btn button:hover,
+	.mce-btn button:focus {
+		background-color: transparent !important;
+		border-color: #323232 !important;
+		box-shadow: none !important;
+	}
+
+	.adverts-gallery {
+		background-color: #1D1D1D;
+		border-color: #323232;
+	}
+
+	.adverts-button {
+		color: #999 !important;
+		background: #2C2C2C !important;
+	}
+
+	.adverts-multiselect-options {
+		background-color: #1D1D1D;
+		border-color: #393939;
+		box-shadow: 0 4px 3px rgba(0,0,0, .3);
+
+		label {
+			color: #8F8F8F;
+
+			&:hover,
+			&:focus {
+				background-color: rgba(0,0,0, .1);
+			}
+		}
+	}
+
+	.adverts-gallery-upload-item {
+		background-color: rgba(0,0,0, .2) !important;
+	}
+
+	.adverts-grid-closed-top,
+	.adverts-grid-row {
+		border-color: rgba(255,255,255, .05) !important;
+	}
+
+	.adverts-contact-box {
+		background-color: rgba(0,0,0, .3);
+		border: none !important;
+	}
+}

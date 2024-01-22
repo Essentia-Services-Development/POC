@@ -1,0 +1,358 @@
+/* Copyright 2014 Mozilla Foundation
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+.toolbarButton::before,
+  .secondaryToolbarButton::before,
+  .dropdownToolbarButton::after,
+  .treeItemToggler::before {
+    /* All matching images have a size of 16x16
+     * All relevant containers have a size of 28x28 */
+    position: absolute;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    content: "";
+    -webkit-mask-size: cover;
+    mask-size: cover;
+  }
+
+  .toolbarButton::before {
+    top: 6px;
+    left: 6px;
+  }
+  
+  /** viewer Retina screen **/
+  @media screen and (-webkit-min-device-pixel-ratio: 2), screen and (min-resolution: 2dppx){
+    /* Rules for Retina screens */
+    .toolbarButton::before { -webkit-transform: scale(0.5); transform: scale(0.5); top: -2px !important; }
+    .secondaryToolbarButton::before { -webkit-transform: scale(0.5); transform: scale(0.5); top: -10px; }
+    .toolbarButton::before,
+    html[dir='rtl'] .toolbarButton::before { left: 0px; }
+    .secondaryToolbarButton::before { left: -2px; }
+    html[dir='rtl'] .secondaryToolbarButton::before { left: 186px; }
+    .toolbarField.pageNumber.visiblePageIsLoading,
+    .dropdownToolbarButton {background-size: 7px 16px; }
+    .toolbarButton#sidebarToggle::before { width: 32px; height: 32px; }
+    html[dir='rtl'] .toolbarButton#sidebarToggle::before {width: 32px; height: 32px; }
+    .toolbarButton#secondaryToolbarToggle::before { width: 32px; height: 32px; }
+    html[dir='rtl'] .toolbarButton#secondaryToolbarToggle::before { width: 32px; height: 32px; }
+    .toolbarButton.findPrevious::before { width: 32px; height: 27px; }
+    html[dir='rtl'] .toolbarButton.findPrevious::before { width: 32px; height: 32px; }
+    .toolbarButton.findNext::before { width: 32px; height: 27px; }
+    html[dir='rtl'] .toolbarButton.findNext::before { width: 46px; height: 32px; }
+    .toolbarButton.pageUp::before {width: 32px; height: 32px; }
+    html[dir='rtl'] .toolbarButton.pageUp::before {width: 32px; height: 32px; }
+    .toolbarButton.pageDown::before {  width: 32px; height: 32px; }
+    html[dir='rtl'] .toolbarButton.pageDown::before { width: 32px; height: 32px; }
+    .toolbarButton.zoomIn::before { width: 32px; height: 32px; }
+    .toolbarButton.zoomOut::before { width: 23px; height: 32px; }
+    .toolbarButton.presentationMode::before,
+    .secondaryToolbarButton.presentationMode::before { width: 32px; height: 32px; }
+    .toolbarButton.print::before,
+    .secondaryToolbarButton.print::before { width: 32px; height: 32px; }
+    .toolbarButton.openFile::before,
+    .secondaryToolbarButton.openFile::before { width: 32px; height: 32px; }
+    .toolbarButton.download::before,
+    .secondaryToolbarButton.download::before { width: 32px; height: 32px; }
+    .toolbarButton.bookmark::before,
+    .secondaryToolbarButton.bookmark::before { width: 32px; height: 32px; }
+    #viewThumbnail.toolbarButton::before {width: 32px; height: 32px; }
+    #viewOutline.toolbarButton::before {width: 32px; height: 32px; }
+    html[dir='rtl'] #viewOutline.toolbarButton::before { width: 32px; height: 32px; }
+    #viewAttachments.toolbarButton::before {width: 32px; height: 32px; }
+    #viewFind.toolbarButton::before {width: 32px; height: 32px; }
+    .secondaryToolbarButton.firstPage::before { width:32px; height: 32px; }
+    .secondaryToolbarButton.lastPage::before { width: 32px; height: 32px; }
+    .secondaryToolbarButton.rotateCcw::before { width: 32px; height: 32px; }
+    .secondaryToolbarButton.rotateCw::before { width: 32px; height: 32px; }
+    .secondaryToolbarButton.handTool::before { width: 32px; height: 32px; }
+    .secondaryToolbarButton.documentProperties::before {width: 32px; height: 32px; }
+    .outlineItemToggler::before { -webkit-transform: scale(0.5); transform: scale(0.5); top: -1px; width: 32px; height: 32px; }
+    .outlineItemToggler.outlineItemsHidden::before { width: 32px; height: 32px; }
+    html[dir='rtl'] .outlineItemToggler.outlineItemsHidden::before { width: 32px; height: 32px; }
+    .outlineItemToggler::before { right: 0; }
+    html[dir='rtl'] .outlineItemToggler::before { left: 0; }
+    .social_icon_d { background-size: 32px 32px; margin: 5px 0; width:32px; height: 32x; }
+    .tnc_fb {background-size: 32px 32px; text-indent: -999em; }
+    .tnc_tw { background-size: 32px 32px; text-indent: -999em; }
+    .tnc_lin {background-size: 32px 32px; text-indent: -999em; }
+    .tnc_whatsapp {background-size: 32px 32px; text-indent: -999em; }
+    .tnc_email { background-size: 32px 32px; text-indent: -999em; }
+    
+    .findbar, .secondaryToolbar {
+       top: 38px !important;
+     }
+
+     #viewLayers.toolbarButton::before {
+       margin-top:4px !important;
+     }
+     .logo_text a img {
+      max-width: 90px !important;
+    }
+    .horizontalToolbarSeparator {
+      margin: 0px 0 0px !important;
+      height: 0px !important;
+      width: 100%  !important;
+    }
+    .bookViewer {
+      margin: 0px auto 0 auto !important;
+    }
+    #viewerContainer {
+      top:50px;
+      bottom:20px;
+    }
+  
+}
+.pvfw_page_prev img, .pvfw_page_next img{
+    width: 30px;
+    height:30px;
+    padding: 10px;
+}
+/** Viewer Next Prev Icon end **/
+/** Viewer Logo icon Start  **/
+.logo_text a img {
+    max-width: 120px;
+}
+/** Viewer Social start  **/
+.tnc_social_share { display: table; margin: 5px 10px; }
+.tnc_social_share ul { padding: 0; }
+.tnc_social_share ul li { float: left; margin: 0 5px;}
+.tnc_social_share ul li a { display: block; width: 24px; height: 24px; }
+.tnc_social_share ul li a.tnc_share { width: 42px; padding-top: 4px; font-weight: bold; font-size: 14px; text-decoration: none; }
+.social_icon_d {background-size: 23px 23px; margin: 5px 0; width: 23px; height: 23px; }
+.tnc_fb { background-size: 23px 23px; text-indent: -999em; }
+.tnc_tw { background-size: 23px 23px; text-indent: -999em; }
+.tnc_lin { background-size: 23px 23px; text-indent: -999em; }
+.tnc_whatsapp { background-size: 23px 23px; text-indent: -999em; }
+.tnc_email {background-size: 23px 23px; text-indent: -999em; }
+.logo_text a {font-size: 18px; padding: 8px 10px 0 0; font-weight: bold; text-decoration: none; }
+.logo_block { margin-right: 20px; margin-top: 7px; }
+
+/** Viewer Social end **/ 
+
+/** toolbar height **/
+#toolbarContainer,
+.findbar,
+.secondaryToolbar {
+  height: 32px;
+}
+#toolbarViewer {
+  height: 32px;
+}
+/** toolbar field **/
+.toolbarField {
+  padding: 4px 7px;
+  margin: 3px 0;
+  border-radius: 2px;
+  background-clip: padding-box;
+  border-width: 1px;
+  border-style: solid;
+  box-shadow: none;
+  font-size: 12px;
+  line-height: 16px;
+  outline-style: none;
+}
+.dropdownToolbarButton::after {
+  top: 6px;
+  pointer-events: none;
+} 
+html[dir="ltr"] #numPages.toolbarLabel {
+  padding-left: 3px;
+  
+}
+html[dir="rtl"] #numPages.toolbarLabel {
+  padding-right: 3px;
+}
+
+.dropdownToolbarButton {
+  padding: 0;
+  overflow: hidden;
+  margin-top: 1px !important;
+}
+
+html[dir="ltr"] #toolbarSidebar .toolbarButton {
+  margin-right: 2px !important;
+  margin-top: 0px;
+}
+
+/**right bookmark sidebar **/
+
+#toolbarSidebar {
+  width: 100%;
+  height: 32px;
+}
+
+html[dir="ltr"] #sidebarContent {
+  left: 0;
+  box-shadow: inset -1px 0 0 rgba(0, 0, 0, 0.25);
+}
+
+html[dir="ltr"] #toolbarSidebar .toolbarButton {
+  margin-right: 2px !important;
+}
+
+html[dir="ltr"] #toolbarSidebar {
+  box-shadow: inset -1px 0 0 rgba(0, 0, 0, 0.25), 0 1px 0 rgba(0, 0, 0, 0.15),
+    0 0 1px rgba(0, 0, 0, 0.1);
+}
+
+#viewLayers.toolbarButton::before{
+  left: 0;
+  top: 0px;
+  width: 23px;
+  height: 23px;
+  margin-top: 3px;
+}
+ .toolbarButton,
+ .secondaryToolbarButton,
+ .overlayButton {
+   border: 0 none;
+   background: none;
+   width: 32px;
+   height: 28px;
+ }
+
+ .toolbarField.pageNumber {
+  -moz-appearance: textfield; /* hides the spinner in moz */
+  min-width: 16px;
+  text-align: right;
+  width: 40px;
+}
+
+.toolbarLabel {
+  min-width: 16px;
+  padding: 7px;
+  margin: 2px;
+  border-radius: 2px;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: left;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+  cursor: default;
+}
+
+.dropdownToolbarButton > select {
+  height: 28px;
+  font-size: 12px;
+  margin: 0;
+  padding: 1px 0 2px;
+  border: none;
+}
+
+.splitToolbarButtonSeparator {
+  padding: 10px 0;
+  width: 1px;
+  z-index: 99;
+  display: inline-block;
+  margin: 4px 0;
+}
+
+.verticalToolbarSeparator {
+  display: block;
+  padding: 11px 0;
+  margin: 5px 2px;
+  width: 1px;
+}
+
+.toolbarButton,
+  .dropdownToolbarButton,
+  .secondaryToolbarButton,
+  .overlayButton {
+    font-size: 12px;
+    line-height: 14px;
+  }
+
+  #secondaryToolbarButtonContainer {
+    max-width: 220px;
+    max-height: 400px;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    margin-bottom: -4px;
+    width: 220px;
+  }
+
+  .findbar,
+  .secondaryToolbar {
+    top: 32px;
+    position: absolute;
+    z-index: 10000;
+    height: auto;
+    min-width: 16px;
+    padding: 0px 0px;
+    margin: 4px 2px;
+    color: rgba(217, 217, 217, 1);
+    font-size: 12px;
+    line-height: 14px;
+    text-align: left;
+    cursor: default;
+  }
+
+  .findbar > div {
+    height: 32px;
+    padding: 5px 10px;
+  }
+
+  html[dir="ltr"] .findbar .splitToolbarButton {
+    margin-left: 0;
+    margin-right: 5px;
+  }
+
+  #findInput {
+    width: 200px;
+  } 
+
+  .findbar .splitToolbarButton > .toolbarButton {
+    border-radius: 0;
+    height: 26px;
+  }
+
+  .findbar .splitToolbarButtonSeparator {
+    margin: 0;
+    padding: 13px 0;
+  }
+  
+  .findbar .splitToolbarButton > .toolbarButton::before {
+    top: 4px;
+  }
+
+  #tnc-share{
+    display: none;
+    position: absolute !important;
+    margin-top: 32px;
+    left: 100px;
+    padding: 4px 2px;
+  }
+  .findbar .splitToolbarButton {
+    margin-top: 3px;
+  }
+
+  .tnc_social_share ul li {
+    list-style:none !important;
+  }
+ 
+  button#documentProperties {
+    margin-bottom: 10px;
+  }
+  
+  .findbar .splitToolbarButton > .findNext {
+    width: 29px;
+  }
+
+  #viewerContainer {
+    top:50px;
+    bottom:20px;
+  }

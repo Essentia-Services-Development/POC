@@ -1,0 +1,1664 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-06-23 18:19+0600\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: admin/import-pdf-file.php:43
+msgid "Import a PDF File from url"
+msgstr ""
+
+#: admin/import-pdf-file.php:44
+msgid ""
+"This page allows you easily import a file from web to your media library. "
+"The purpose of this page is to reduce the amount of work you need to do to "
+"download the file to computer and upload again to media library."
+msgstr ""
+
+#: admin/migrate-settings.php:158
+msgid "Migrate Old Plugin settings to new panel."
+msgstr ""
+
+#: admin/migrate-settings.php:159
+msgid ""
+"This page is only useful if you have upgraded to PDF Viewer for WordPress "
+"version 10 or newer from an old version, We have changed the setting panel "
+"completely on version 10 & you can copy the followng code and import on our "
+"new panel to have your previous data imported to new panel."
+msgstr ""
+
+#: admin/migrate-settings.php:160
+msgid ""
+"It imports almost every settings except the image settings for logo and "
+"favicon. You need to set that again on the new panel."
+msgstr ""
+
+#: admin/migrate-settings.php:164
+msgid "How to import?"
+msgstr ""
+
+#: admin/migrate-settings.php:165
+msgid "1. Copy the code from the textarea above"
+msgstr ""
+
+#: admin/migrate-settings.php:166
+msgid "2. Navigate to PDF Viewer > Global Settings > Export/Import Menu"
+msgstr ""
+
+#: admin/migrate-settings.php:167
+msgid ""
+"3. Paste the code in the textarea above import button and click on import"
+msgstr ""
+
+#: admin/migrate-settings.php:168
+msgid ""
+"4. That's it, your previous settings should now be implemented on the new "
+"panel."
+msgstr ""
+
+#: admin/tnc-pdf-viewer-options.php:11 admin/tnc-pdf-viewer-options.php:17
+#: admin/tnc-pdf-viewer-options.php:24
+msgid "You do not have sufficient permissions to access this page."
+msgstr ""
+
+#: includes/automatic-features.php:58 includes/pvfw-new-shortcodes.php:45
+msgid "Fullscreen Mode"
+msgstr ""
+
+#: includes/cpt.php:18
+msgctxt "Post Type General Name"
+msgid "PDF Viewer"
+msgstr ""
+
+#: includes/cpt.php:19
+msgctxt "Post Type Singular Name"
+msgid "PDF Viewer"
+msgstr ""
+
+#: includes/cpt.php:20 includes/cpt.php:21 includes/cpt.php:47
+msgid "PDF Viewer"
+msgstr ""
+
+#: includes/cpt.php:22
+msgid "PDF Viewer Archives"
+msgstr ""
+
+#: includes/cpt.php:23
+msgid "PDF Viewer Attributes"
+msgstr ""
+
+#: includes/cpt.php:24
+msgid "Parent PDF Viewer:"
+msgstr ""
+
+#: includes/cpt.php:25
+msgid "All PDF Viewers"
+msgstr ""
+
+#: includes/cpt.php:26
+msgid "Add New PDF Viewer"
+msgstr ""
+
+#: includes/cpt.php:27 includes/csf/classes/shortcode-options.class.php:251
+#: includes/csf/fields/group/group.php:23
+msgid "Add New"
+msgstr ""
+
+#: includes/cpt.php:28
+msgid "New PDF Viewer"
+msgstr ""
+
+#: includes/cpt.php:29
+msgid "Edit PDF Viewer"
+msgstr ""
+
+#: includes/cpt.php:30
+msgid "Update PDF Viewer"
+msgstr ""
+
+#: includes/cpt.php:31 includes/cpt.php:32
+msgid "View PDF Viewer"
+msgstr ""
+
+#: includes/cpt.php:33
+msgid "Search PDF Viewer"
+msgstr ""
+
+#: includes/cpt.php:34
+msgid "Not found"
+msgstr ""
+
+#: includes/cpt.php:35
+msgid "Not found in Trash"
+msgstr ""
+
+#: includes/cpt.php:36
+msgid "Featured Image"
+msgstr ""
+
+#: includes/cpt.php:37
+msgid "Set featured image"
+msgstr ""
+
+#: includes/cpt.php:38
+msgid "Remove featured image"
+msgstr ""
+
+#: includes/cpt.php:39
+msgid "Use as featured image"
+msgstr ""
+
+#: includes/cpt.php:40
+msgid "Insert into PDF Viewer"
+msgstr ""
+
+#: includes/cpt.php:41
+msgid "Uploaded to this PDF Viewer"
+msgstr ""
+
+#: includes/cpt.php:42
+msgid "PDF Viewers list"
+msgstr ""
+
+#: includes/cpt.php:43
+msgid "PDF Viewers list navigation"
+msgstr ""
+
+#: includes/cpt.php:44
+msgid "Filter PDF Viewers list"
+msgstr ""
+
+#: includes/cpt.php:48
+msgid "PDF Viewer items"
+msgstr ""
+
+#: includes/helper-functions.php:132
+#, php-format
+msgid ""
+"Please create PDF Viewers using %s (PDF Viewer > Add New) before creating a "
+"shortcode."
+msgstr ""
+
+#: includes/pvfw-csf-custom-field.php:17
+msgid "PDF Viewer Settings"
+msgstr ""
+
+#: includes/pvfw-csf-custom-field.php:25 includes/pvfw-csf-custom-field.php:29
+msgid "Basic Settings"
+msgstr ""
+
+#: includes/pvfw-csf-custom-field.php:36
+msgid "Select or Upload a PDF File"
+msgstr ""
+
+#: includes/pvfw-csf-custom-field.php:216
+msgid "Return to Site Link"
+msgstr ""
+
+#: includes/pvfw-csf-custom-field.php:217
+msgid ""
+"Enter the url where the Return to site button on bottom right should link "
+"to. Keeping blank will use the previous page link."
+msgstr ""
+
+#: includes/pvfw-csf-custom-field.php:236
+#: includes/pvfw-csf-custom-field.php:382
+msgid "Use Global Settings"
+msgstr ""
+
+#: includes/pvfw-csf-custom-field.php:242 includes/pvfw-csf-options.php:530
+msgid "Toolbar Elements Visibility"
+msgstr ""
+
+#: includes/pvfw-csf-custom-field.php:395 includes/pvfw-csf-options.php:293
+msgid "Do you want to use a Theme or use custom colors?"
+msgstr ""
+
+#: includes/pvfw-csf-custom-field.php:408 includes/pvfw-csf-options.php:305
+msgid "Select Theme"
+msgstr ""
+
+#: includes/pvfw-csf-custom-field.php:434 includes/pvfw-csf-options.php:339
+msgid "Icon Style"
+msgstr ""
+
+#: includes/pvfw-csf-custom-field.php:484
+msgid "Error Heading"
+msgstr ""
+
+#: includes/pvfw-csf-custom-field.php:486 web/pdf-viewer-single.php:249
+#: web/viewer-shortcode.php:257 web/viewer.php:236
+msgid "SORRY"
+msgstr ""
+
+#: includes/pvfw-csf-custom-field.php:493
+msgid "Error Content"
+msgstr ""
+
+#: includes/pvfw-csf-custom-field.php:495 web/pdf-viewer-single.php:253
+#: web/viewer-shortcode.php:258 web/viewer.php:237
+msgid ""
+"You do not have permission to view this file, please contact us if you think "
+"this was by a mistake."
+msgstr ""
+
+#: includes/pvfw-csf-custom-field.php:502
+msgid "Error Button Text"
+msgstr ""
+
+#: includes/pvfw-csf-custom-field.php:504 web/pdf-viewer-single.php:257
+#: web/viewer-shortcode.php:259 web/viewer.php:238
+msgid "Go To Homepage"
+msgstr ""
+
+#: includes/pvfw-csf-custom-field.php:511
+msgid "Error Button URL"
+msgstr ""
+
+#: includes/pvfw-csf-options.php:42
+msgid "Welcome to PDF Viewer for WordPress"
+msgstr ""
+
+#: includes/pvfw-csf-options.php:47
+msgid ""
+"Thank you for purchasing PDF Viewer for WordPress. On this page we'll give "
+"you some quick details you may need."
+msgstr ""
+
+#: includes/pvfw-csf-options.php:52
+msgid "Getting Started"
+msgstr ""
+
+#: includes/pvfw-csf-options.php:57
+msgid ""
+"PDF Viewer for WordPress comes with 2 ways of using it. You can start by "
+"creating PDF Viewers using <strong>PDF Viewer > Add New</strong> Menu, then "
+"share the link anywhere for users to access. <br><br />The other way is "
+"using Automatic Link/Embed option. This setup will Automatically convert all "
+"of the .pdf links on your website to open with PDF Viewer for WordPress. Go "
+"to <strong>PDF Viewer > Global Settings > Automatic Display</strong> Menu to "
+"setup this feature.<br><br />Here are some videos from our documentation "
+"that will help you to figure out specific parts more easily."
+msgstr ""
+
+#: includes/pvfw-csf-options.php:67
+msgid "Useful Links"
+msgstr ""
+
+#: includes/pvfw-csf-options.php:85
+msgid "Latest updates from ThemeNcode"
+msgstr ""
+
+#: includes/pvfw-csf-options.php:95
+msgid "Sign up for ThemeNcode NewsLetter"
+msgstr ""
+
+#: includes/pvfw-csf-options.php:122
+msgid "Automatic Display"
+msgstr ""
+
+#: includes/pvfw-csf-options.php:127
+msgid ""
+"You can set options here to have all of your current .pdf links to either "
+"open or embed with a PDF Viewer."
+msgstr ""
+
+#: includes/pvfw-csf-options.php:134
+msgid ""
+"If you want to convert all current .pdf links to open with PDF Viewer, "
+"select any of the options."
+msgstr ""
+
+#: includes/pvfw-csf-options.php:144
+msgid ""
+"All links ending in .pdf will be replaced with Embedded PDF Viewer "
+"automatically"
+msgstr ""
+
+#: includes/pvfw-csf-options.php:154
+msgid "All links ending in .pdf will open with PDF Viewer automatically"
+msgstr ""
+
+#: includes/pvfw-csf-options.php:165
+msgid "Link Target"
+msgstr ""
+
+#: includes/pvfw-csf-options.php:181
+msgid "Automatic iFrame Width"
+msgstr ""
+
+#: includes/pvfw-csf-options.php:193
+msgid "Automatic iFrame Height"
+msgstr ""
+
+#: includes/pvfw-csf-options.php:215
+msgid "General Settings"
+msgstr ""
+
+#: includes/pvfw-csf-options.php:220
+msgid ""
+"There are some common settings related to the viewer, set all the options "
+"accordingly."
+msgstr ""
+
+#: includes/pvfw-csf-options.php:226 includes/pvfw-csf-options.php:583
+msgid "Logo"
+msgstr ""
+
+#: includes/pvfw-csf-options.php:227
+msgid "Logo that appears on top right corner of viewer page"
+msgstr ""
+
+#: includes/pvfw-csf-options.php:237
+msgid "Favicon"
+msgstr ""
+
+#: includes/pvfw-csf-options.php:238
+msgid "Favicon for viewer pages."
+msgstr ""
+
+#: includes/pvfw-csf-options.php:248
+msgid "FullScreen Link Text"
+msgstr ""
+
+#: includes/pvfw-csf-options.php:249
+msgid ""
+"Only applicable for iframe shortcode, the link that appears just above iframe"
+msgstr ""
+
+#: includes/pvfw-csf-options.php:256
+msgid "Return to Site Link Text"
+msgstr ""
+
+#: includes/pvfw-csf-options.php:257
+msgid ""
+"Return to site link that appears on bottom right corner of fullscreen viewer"
+msgstr ""
+
+#: includes/pvfw-csf-options.php:264
+msgid "Google Analytics ID"
+msgstr ""
+
+#: includes/pvfw-csf-options.php:265
+msgid "Example: UA-XXXXXXXX-X"
+msgstr ""
+
+#: includes/pvfw-csf-options.php:271
+msgid "iFrame Responsive Fix"
+msgstr ""
+
+#: includes/pvfw-csf-options.php:364
+msgid "Toolbar Global Defaults"
+msgstr ""
+
+#: includes/pvfw-csf-options.php:369 includes/pvfw-csf-options.php:535
+msgid "Specify Global Default setting here"
+msgstr ""
+
+#: includes/pvfw-csf-options.php:375
+msgid "Default Scroll"
+msgstr ""
+
+#: includes/pvfw-csf-options.php:388
+msgid "Default Spread"
+msgstr ""
+
+#: includes/pvfw-csf-options.php:418
+msgid "Viewer Language"
+msgstr ""
+
+#: includes/pvfw-csf-options.php:541
+msgid "Share"
+msgstr ""
+
+#: includes/pvfw-csf-options.php:548 web/pdf-viewer-single.php:559
+#: web/pdf-viewer-single.php:699 web/viewer-shortcode.php:497
+#: web/viewer-shortcode.php:637 web/viewer.php:476 web/viewer.php:616
+msgid "Print"
+msgstr ""
+
+#: includes/pvfw-csf-options.php:555 web/pdf-viewer-single.php:563
+#: web/pdf-viewer-single.php:703 web/viewer-shortcode.php:501
+#: web/viewer-shortcode.php:641 web/viewer.php:480 web/viewer.php:620
+msgid "Download"
+msgstr ""
+
+#: includes/pvfw-csf-options.php:562 web/pdf-viewer-single.php:555
+#: web/pdf-viewer-single.php:695 web/viewer-shortcode.php:493
+#: web/viewer-shortcode.php:633 web/viewer.php:472 web/viewer.php:612
+msgid "Open"
+msgstr ""
+
+#: includes/pvfw-csf-options.php:569
+msgid "Zoom"
+msgstr ""
+
+#: includes/pvfw-csf-options.php:576
+msgid "Fullscreen"
+msgstr ""
+
+#: includes/pvfw-csf-options.php:590 web/pdf-viewer-single.php:645
+#: web/viewer-shortcode.php:583 web/viewer.php:562
+msgid "Find"
+msgstr ""
+
+#: includes/pvfw-csf-options.php:597
+msgid "Page Navigation"
+msgstr ""
+
+#: includes/pvfw-csf-options.php:604 web/pdf-viewer-single.php:567
+#: web/pdf-viewer-single.php:706 web/viewer-shortcode.php:505
+#: web/viewer-shortcode.php:644 web/viewer.php:484 web/viewer.php:623
+msgid "Current View"
+msgstr ""
+
+#: includes/pvfw-csf-options.php:611
+msgid "Rotate"
+msgstr ""
+
+#: includes/pvfw-csf-options.php:618
+msgid "Handtool"
+msgstr ""
+
+#: includes/pvfw-csf-options.php:625
+msgid "Document Properties"
+msgstr ""
+
+#: includes/pvfw-csf-options.php:632
+msgid "Left Toggle Menu"
+msgstr ""
+
+#: includes/pvfw-csf-options.php:639
+msgid "Right Toggle Menu"
+msgstr ""
+
+#: includes/pvfw-csf-options.php:646
+msgid "Scroll Options"
+msgstr ""
+
+#: includes/pvfw-csf-options.php:653
+msgid "Spread Options"
+msgstr ""
+
+#: includes/pvfw-csf-options.php:668
+msgid "Advanced Settings"
+msgstr ""
+
+#: includes/pvfw-csf-options.php:673
+msgid ""
+"Only change the first 2 settings if you know what you're doing or is "
+"suggested by ThemeNcode support"
+msgstr ""
+
+#: includes/pvfw-csf-options.php:680
+msgid "ThemeNcode PDF Viewer Page"
+msgstr ""
+
+#: includes/pvfw-csf-options.php:681
+msgid ""
+"This should be set to the auto created page \"ThemeNcode PDF Viewer [Do Not "
+"Delete]\", only change if you see wrong page selected here. "
+msgstr ""
+
+#: includes/pvfw-csf-options.php:693
+msgid "ThemeNcode PDF Viewer SC Page"
+msgstr ""
+
+#: includes/pvfw-csf-options.php:694
+msgid ""
+"This should be set to the auto created page \"ThemeNcode PDF Viewer SC [Do "
+"Not Delete]\", only change if you see wrong page selected here. "
+msgstr ""
+
+#: includes/pvfw-csf-options.php:706
+msgid "Context Menu/Right Click on Viewer Pages"
+msgstr ""
+
+#: includes/pvfw-csf-options.php:716
+msgid "Text Copying (ctrl+c) keyboard shortcut"
+msgstr ""
+
+#: includes/pvfw-csf-options.php:736
+msgid "Custom CSS and JS"
+msgstr ""
+
+#: includes/pvfw-csf-options.php:741
+msgid ""
+"The custom css and javascript code you put below will be executed on viewer "
+"pages only."
+msgstr ""
+
+#: includes/pvfw-csf-options.php:778
+msgid "Addons & Integrations"
+msgstr ""
+
+#: includes/pvfw-csf-options.php:783
+msgid ""
+"Here are the available addons and integrations with PDF Viewer for WordPress."
+msgstr ""
+
+#: includes/pvfw-csf-sc.php:57
+msgid "Select Viewer to Embed"
+msgstr ""
+
+#: includes/pvfw-csf-sc.php:58 includes/pvfw-csf-sc.php:122
+msgid "Search using the viewer title"
+msgstr ""
+
+#: includes/pvfw-csf-sc.php:59 includes/pvfw-csf-sc.php:123
+msgid "Select a Viewer"
+msgstr ""
+
+#: includes/pvfw-csf-sc.php:103
+msgid "Link to a PDF Viewer"
+msgstr ""
+
+#: includes/pvfw-csf-sc.php:121
+msgid "Select Viewer to Link to"
+msgstr ""
+
+#: includes/csf/classes/admin-options.class.php:225
+msgid "Error while saving the changes."
+msgstr ""
+
+#: includes/csf/classes/admin-options.class.php:285
+msgid "Settings successfully imported."
+msgstr ""
+
+#: includes/csf/classes/admin-options.class.php:297
+#: includes/csf/classes/admin-options.class.php:313
+msgid "Default settings restored."
+msgstr ""
+
+#: includes/csf/classes/admin-options.class.php:384
+msgid "Settings saved."
+msgstr ""
+
+#: includes/csf/classes/admin-options.class.php:563
+msgid "You have unsaved changes, save your changes!"
+msgstr ""
+
+#: includes/csf/classes/admin-options.class.php:565
+msgid "show all settings"
+msgstr ""
+
+#: includes/csf/classes/admin-options.class.php:567
+#: includes/csf/fields/icon/icon.php:57 includes/csf/fields/map/map.php:23
+msgid "Search..."
+msgstr ""
+
+#: includes/csf/classes/admin-options.class.php:570
+#: includes/csf/classes/admin-options.class.php:693
+msgid "Save"
+msgstr ""
+
+#: includes/csf/classes/admin-options.class.php:570
+#: includes/csf/classes/admin-options.class.php:693
+msgid "Saving..."
+msgstr ""
+
+#: includes/csf/classes/admin-options.class.php:571
+#: includes/csf/classes/admin-options.class.php:694
+msgid "Reset Section"
+msgstr ""
+
+#: includes/csf/classes/admin-options.class.php:571
+#: includes/csf/classes/admin-options.class.php:694
+msgid "Are you sure to reset this section options?"
+msgstr ""
+
+#: includes/csf/classes/admin-options.class.php:572
+#: includes/csf/classes/admin-options.class.php:695
+msgid "Reset All"
+msgstr ""
+
+#: includes/csf/classes/admin-options.class.php:572
+#: includes/csf/classes/admin-options.class.php:695
+#: includes/csf/classes/comment-options.class.php:215
+#: includes/csf/classes/metabox-options.class.php:293
+#: includes/csf/fields/backup/backup.php:31
+msgid "Reset"
+msgstr ""
+
+#: includes/csf/classes/admin-options.class.php:572
+#: includes/csf/classes/admin-options.class.php:695
+msgid "Are you sure you want to reset all settings to default values?"
+msgstr ""
+
+#: includes/csf/classes/admin-options.class.php:670
+#: includes/csf/classes/comment-options.class.php:198
+#: includes/csf/classes/metabox-options.class.php:276
+#: includes/csf/fields/button_set/button_set.php:56
+#: includes/csf/fields/checkbox/checkbox.php:76
+#: includes/csf/fields/radio/radio.php:75
+#: includes/csf/fields/select/select.php:113
+#: includes/csf/functions/actions.php:41
+msgid "No data available."
+msgstr ""
+
+#: includes/csf/classes/comment-options.class.php:216
+#: includes/csf/classes/metabox-options.class.php:294
+msgid "update post"
+msgstr ""
+
+#: includes/csf/classes/comment-options.class.php:216
+#: includes/csf/classes/metabox-options.class.php:294
+#: web/pdf-viewer-single.php:798 web/pdf-viewer-single.php:865
+#: web/viewer-shortcode.php:736 web/viewer-shortcode.php:803
+#: web/viewer.php:715 web/viewer.php:782
+msgid "Cancel"
+msgstr ""
+
+#: includes/csf/classes/setup.class.php:529
+msgid "Are you sure?"
+msgstr ""
+
+#: includes/csf/classes/setup.class.php:530
+#, php-format
+msgid "Please enter %s or more characters"
+msgstr ""
+
+#: includes/csf/classes/setup.class.php:531
+msgid "Searching..."
+msgstr ""
+
+#: includes/csf/classes/setup.class.php:532
+msgid "No results found."
+msgstr ""
+
+#: includes/csf/classes/setup.class.php:634
+msgid "Oops! Not allowed."
+msgstr ""
+
+#: includes/csf/classes/setup.class.php:708
+#: includes/csf/classes/setup.class.php:712
+msgid "Field not found!"
+msgstr ""
+
+#: includes/csf/classes/shortcode-options.class.php:288
+#: includes/csf/functions/actions.php:16 includes/csf/functions/actions.php:68
+#: includes/csf/functions/actions.php:106
+#: includes/csf/functions/actions.php:141
+#: includes/csf/functions/actions.php:170
+msgid "Error: Invalid nonce verification."
+msgstr ""
+
+#: includes/csf/fields/background/background.php:36
+#: includes/csf/fields/media/media.php:57
+msgid "Not selected"
+msgstr ""
+
+#: includes/csf/fields/background/background.php:72
+#: includes/csf/fields/date/date.php:31
+msgid "From"
+msgstr ""
+
+#: includes/csf/fields/background/background.php:90
+#: includes/csf/fields/date/date.php:32
+msgid "To"
+msgstr ""
+
+#: includes/csf/fields/background/background.php:108
+msgid "Direction"
+msgstr ""
+
+#: includes/csf/fields/background/background.php:114
+msgid "Gradient Direction"
+msgstr ""
+
+#: includes/csf/fields/background/background.php:115
+msgid "&#8659; top to bottom"
+msgstr ""
+
+#: includes/csf/fields/background/background.php:116
+msgid "&#8658; left to right"
+msgstr ""
+
+#: includes/csf/fields/background/background.php:117
+msgid "&#8664; corner top to right"
+msgstr ""
+
+#: includes/csf/fields/background/background.php:118
+msgid "&#8665; corner top to left"
+msgstr ""
+
+#: includes/csf/fields/background/background.php:161
+msgid "Background Position"
+msgstr ""
+
+#: includes/csf/fields/background/background.php:162
+msgid "Left Top"
+msgstr ""
+
+#: includes/csf/fields/background/background.php:163
+msgid "Left Center"
+msgstr ""
+
+#: includes/csf/fields/background/background.php:164
+msgid "Left Bottom"
+msgstr ""
+
+#: includes/csf/fields/background/background.php:165
+msgid "Center Top"
+msgstr ""
+
+#: includes/csf/fields/background/background.php:166
+msgid "Center Center"
+msgstr ""
+
+#: includes/csf/fields/background/background.php:167
+msgid "Center Bottom"
+msgstr ""
+
+#: includes/csf/fields/background/background.php:168
+msgid "Right Top"
+msgstr ""
+
+#: includes/csf/fields/background/background.php:169
+msgid "Right Center"
+msgstr ""
+
+#: includes/csf/fields/background/background.php:170
+msgid "Right Bottom"
+msgstr ""
+
+#: includes/csf/fields/background/background.php:184
+msgid "Background Repeat"
+msgstr ""
+
+#: includes/csf/fields/background/background.php:185
+msgid "Repeat"
+msgstr ""
+
+#: includes/csf/fields/background/background.php:186
+msgid "No Repeat"
+msgstr ""
+
+#: includes/csf/fields/background/background.php:187
+msgid "Repeat Horizontally"
+msgstr ""
+
+#: includes/csf/fields/background/background.php:188
+msgid "Repeat Vertically"
+msgstr ""
+
+#: includes/csf/fields/background/background.php:202
+msgid "Background Attachment"
+msgstr ""
+
+#: includes/csf/fields/background/background.php:203
+msgid "Scroll"
+msgstr ""
+
+#: includes/csf/fields/background/background.php:204
+msgid "Fixed"
+msgstr ""
+
+#: includes/csf/fields/background/background.php:218
+msgid "Background Size"
+msgstr ""
+
+#: includes/csf/fields/background/background.php:219
+msgid "Cover"
+msgstr ""
+
+#: includes/csf/fields/background/background.php:220
+msgid "Contain"
+msgstr ""
+
+#: includes/csf/fields/background/background.php:221
+msgid "Auto"
+msgstr ""
+
+#: includes/csf/fields/background/background.php:235
+msgid "Background Origin"
+msgstr ""
+
+#: includes/csf/fields/background/background.php:236
+#: includes/csf/fields/background/background.php:254
+msgid "Padding Box"
+msgstr ""
+
+#: includes/csf/fields/background/background.php:237
+#: includes/csf/fields/background/background.php:253
+msgid "Border Box"
+msgstr ""
+
+#: includes/csf/fields/background/background.php:238
+#: includes/csf/fields/background/background.php:255
+msgid "Content Box"
+msgstr ""
+
+#: includes/csf/fields/background/background.php:252
+msgid "Background Clip"
+msgstr ""
+
+#: includes/csf/fields/background/background.php:269
+msgid "Background Blend Mode"
+msgstr ""
+
+#: includes/csf/fields/background/background.php:270
+#: includes/csf/fields/link_color/link_color.php:36
+#: includes/csf/fields/typography/typography.php:186
+msgid "Normal"
+msgstr ""
+
+#: includes/csf/fields/background/background.php:271
+msgid "Multiply"
+msgstr ""
+
+#: includes/csf/fields/background/background.php:272
+msgid "Screen"
+msgstr ""
+
+#: includes/csf/fields/background/background.php:273
+msgid "Overlay"
+msgstr ""
+
+#: includes/csf/fields/background/background.php:274
+msgid "Darken"
+msgstr ""
+
+#: includes/csf/fields/background/background.php:275
+msgid "Lighten"
+msgstr ""
+
+#: includes/csf/fields/background/background.php:276
+msgid "Color Dodge"
+msgstr ""
+
+#: includes/csf/fields/background/background.php:277
+msgid "Saturation"
+msgstr ""
+
+#: includes/csf/fields/background/background.php:278
+msgid "Color"
+msgstr ""
+
+#: includes/csf/fields/background/background.php:279
+msgid "Luminosity"
+msgstr ""
+
+#: includes/csf/fields/backup/backup.php:26
+msgid "Import"
+msgstr ""
+
+#: includes/csf/fields/backup/backup.php:29
+msgid "Export & Download"
+msgstr ""
+
+#: includes/csf/fields/border/border.php:25
+#: includes/csf/fields/spacing/spacing.php:25
+msgid "top"
+msgstr ""
+
+#: includes/csf/fields/border/border.php:26
+#: includes/csf/fields/spacing/spacing.php:26
+msgid "right"
+msgstr ""
+
+#: includes/csf/fields/border/border.php:27
+#: includes/csf/fields/spacing/spacing.php:27
+msgid "bottom"
+msgstr ""
+
+#: includes/csf/fields/border/border.php:28
+#: includes/csf/fields/spacing/spacing.php:28
+msgid "left"
+msgstr ""
+
+#: includes/csf/fields/border/border.php:29
+#: includes/csf/fields/spacing/spacing.php:29
+msgid "all"
+msgstr ""
+
+#: includes/csf/fields/border/border.php:51
+#: includes/csf/fields/typography/typography.php:214
+msgid "Solid"
+msgstr ""
+
+#: includes/csf/fields/border/border.php:52
+#: includes/csf/fields/typography/typography.php:217
+msgid "Dashed"
+msgstr ""
+
+#: includes/csf/fields/border/border.php:53
+#: includes/csf/fields/typography/typography.php:216
+msgid "Dotted"
+msgstr ""
+
+#: includes/csf/fields/border/border.php:54
+#: includes/csf/fields/typography/typography.php:215
+msgid "Double"
+msgstr ""
+
+#: includes/csf/fields/border/border.php:55
+msgid "Inset"
+msgstr ""
+
+#: includes/csf/fields/border/border.php:56
+msgid "Outset"
+msgstr ""
+
+#: includes/csf/fields/border/border.php:57
+msgid "Groove"
+msgstr ""
+
+#: includes/csf/fields/border/border.php:58
+msgid "ridge"
+msgstr ""
+
+#: includes/csf/fields/border/border.php:59
+#: includes/csf/fields/typography/typography.php:199
+#: includes/csf/fields/typography/typography.php:213
+msgid "None"
+msgstr ""
+
+#: includes/csf/fields/dimensions/dimensions.php:22
+msgid "width"
+msgstr ""
+
+#: includes/csf/fields/dimensions/dimensions.php:23
+msgid "height"
+msgstr ""
+
+#: includes/csf/fields/gallery/gallery.php:20
+msgid "Add Gallery"
+msgstr ""
+
+#: includes/csf/fields/gallery/gallery.php:21
+msgid "Edit Gallery"
+msgstr ""
+
+#: includes/csf/fields/gallery/gallery.php:22
+msgid "Clear"
+msgstr ""
+
+#: includes/csf/fields/group/group.php:35
+#: includes/csf/fields/repeater/repeater.php:27
+msgid "Error: Field ID conflict."
+msgstr ""
+
+#: includes/csf/fields/group/group.php:46
+#: includes/csf/fields/group/group.php:87
+#: includes/csf/fields/repeater/repeater.php:48
+#: includes/csf/fields/repeater/repeater.php:76
+msgid "Are you sure to delete this item?"
+msgstr ""
+
+#: includes/csf/fields/group/group.php:121
+#: includes/csf/fields/repeater/repeater.php:89
+msgid "You cannot add more."
+msgstr ""
+
+#: includes/csf/fields/group/group.php:122
+#: includes/csf/fields/repeater/repeater.php:90
+msgid "You cannot remove more."
+msgstr ""
+
+#: includes/csf/fields/icon/icon.php:20 includes/csf/fields/icon/icon.php:53
+msgid "Add Icon"
+msgstr ""
+
+#: includes/csf/fields/icon/icon.php:21
+msgid "Remove Icon"
+msgstr ""
+
+#: includes/csf/fields/link/link.php:20
+msgid "Add Link"
+msgstr ""
+
+#: includes/csf/fields/link/link.php:21
+msgid "Edit Link"
+msgstr ""
+
+#: includes/csf/fields/link/link.php:22
+msgid "Remove Link"
+msgstr ""
+
+#: includes/csf/fields/link_color/link_color.php:37
+msgid "Hover"
+msgstr ""
+
+#: includes/csf/fields/link_color/link_color.php:38
+msgid "Active"
+msgstr ""
+
+#: includes/csf/fields/link_color/link_color.php:39
+msgid "Visited"
+msgstr ""
+
+#: includes/csf/fields/link_color/link_color.php:40
+msgid "Focus"
+msgstr ""
+
+#: includes/csf/fields/map/map.php:24
+msgid "Latitude"
+msgstr ""
+
+#: includes/csf/fields/map/map.php:25
+msgid "Longitude"
+msgstr ""
+
+#: includes/csf/fields/media/media.php:23
+#: includes/csf/fields/upload/upload.php:21
+msgid "Upload"
+msgstr ""
+
+#: includes/csf/fields/media/media.php:24
+#: includes/csf/fields/upload/upload.php:22
+msgid "Remove"
+msgstr ""
+
+#: includes/csf/fields/sorter/sorter.php:21
+msgid "Enabled"
+msgstr ""
+
+#: includes/csf/fields/sorter/sorter.php:22
+msgid "Disabled"
+msgstr ""
+
+#: includes/csf/fields/switcher/switcher.php:20
+msgid "On"
+msgstr ""
+
+#: includes/csf/fields/switcher/switcher.php:21
+msgid "Off"
+msgstr ""
+
+#: includes/csf/fields/typography/typography.php:96
+msgid "Font Family"
+msgstr ""
+
+#: includes/csf/fields/typography/typography.php:97
+msgid "Select a font"
+msgstr ""
+
+#: includes/csf/fields/typography/typography.php:105
+msgid "Backup Font Family"
+msgstr ""
+
+#: includes/csf/fields/typography/typography.php:119
+#: includes/csf/fields/typography/typography.php:132
+#: includes/csf/fields/typography/typography.php:145
+#: includes/csf/fields/typography/typography.php:160
+#: includes/csf/fields/typography/typography.php:176
+#: includes/csf/fields/typography/typography.php:189
+#: includes/csf/fields/typography/typography.php:203
+#: includes/csf/fields/typography/typography.php:221
+msgid "Default"
+msgstr ""
+
+#: includes/csf/fields/typography/typography.php:130
+msgid "Font Style"
+msgstr ""
+
+#: includes/csf/fields/typography/typography.php:144
+#: includes/csf/fields/typography/typography.php:145
+msgid "Load Extra Styles"
+msgstr ""
+
+#: includes/csf/fields/typography/typography.php:158
+msgid "Subset"
+msgstr ""
+
+#: includes/csf/fields/typography/typography.php:168
+msgid "Text Align"
+msgstr ""
+
+#: includes/csf/fields/typography/typography.php:170
+msgid "Inherit"
+msgstr ""
+
+#: includes/csf/fields/typography/typography.php:171
+msgid "Left"
+msgstr ""
+
+#: includes/csf/fields/typography/typography.php:172
+msgid "Center"
+msgstr ""
+
+#: includes/csf/fields/typography/typography.php:173
+msgid "Right"
+msgstr ""
+
+#: includes/csf/fields/typography/typography.php:174
+msgid "Justify"
+msgstr ""
+
+#: includes/csf/fields/typography/typography.php:175
+msgid "Initial"
+msgstr ""
+
+#: includes/csf/fields/typography/typography.php:184
+msgid "Font Variant"
+msgstr ""
+
+#: includes/csf/fields/typography/typography.php:187
+msgid "Small Caps"
+msgstr ""
+
+#: includes/csf/fields/typography/typography.php:188
+msgid "All Small Caps"
+msgstr ""
+
+#: includes/csf/fields/typography/typography.php:197
+msgid "Text Transform"
+msgstr ""
+
+#: includes/csf/fields/typography/typography.php:200
+msgid "Capitalize"
+msgstr ""
+
+#: includes/csf/fields/typography/typography.php:201
+msgid "Uppercase"
+msgstr ""
+
+#: includes/csf/fields/typography/typography.php:202
+msgid "Lowercase"
+msgstr ""
+
+#: includes/csf/fields/typography/typography.php:211
+msgid "Text Decoration"
+msgstr ""
+
+#: includes/csf/fields/typography/typography.php:218
+msgid "Wavy"
+msgstr ""
+
+#: includes/csf/fields/typography/typography.php:219
+msgid "Overline"
+msgstr ""
+
+#: includes/csf/fields/typography/typography.php:220
+msgid "Line-through"
+msgstr ""
+
+#: includes/csf/fields/typography/typography.php:233
+msgid "Font Size"
+msgstr ""
+
+#: includes/csf/fields/typography/typography.php:245
+msgid "Line Height"
+msgstr ""
+
+#: includes/csf/fields/typography/typography.php:257
+msgid "Letter Spacing"
+msgstr ""
+
+#: includes/csf/fields/typography/typography.php:269
+msgid "Word Spacing"
+msgstr ""
+
+#: includes/csf/fields/typography/typography.php:284
+msgid "Font Color"
+msgstr ""
+
+#: includes/csf/fields/typography/typography.php:295
+msgid "Custom Style"
+msgstr ""
+
+#: includes/csf/fields/typography/typography.php:362
+msgid "Custom Web Fonts"
+msgstr ""
+
+#: includes/csf/fields/typography/typography.php:368
+msgid "Safe Web Fonts"
+msgstr ""
+
+#: includes/csf/fields/typography/typography.php:388
+msgid "Google Web Fonts"
+msgstr ""
+
+#: includes/csf/functions/actions.php:72
+#: includes/csf/functions/actions.php:110
+msgid "Error: Invalid key."
+msgstr ""
+
+#: includes/csf/functions/actions.php:114
+msgid "Error: The response is not a valid JSON response."
+msgstr ""
+
+#: includes/csf/functions/actions.php:174
+msgid "Error: Invalid term ID."
+msgstr ""
+
+#: includes/csf/functions/actions.php:180
+msgid "Error: You do not have permission to do that."
+msgstr ""
+
+#: includes/csf/functions/validate.php:14
+#: includes/csf/functions/validate.php:86
+msgid "Please enter a valid email address."
+msgstr ""
+
+#: includes/csf/functions/validate.php:32
+#: includes/csf/functions/validate.php:106
+msgid "Please enter a valid number."
+msgstr ""
+
+#: includes/csf/functions/validate.php:50
+#: includes/csf/functions/validate.php:126
+msgid "This field is required."
+msgstr ""
+
+#: includes/csf/functions/validate.php:68
+#: includes/csf/functions/validate.php:146
+msgid "Please enter a valid URL."
+msgstr ""
+
+#: web/pdf-viewer-single.php:272 web/viewer-shortcode.php:210
+#: web/viewer.php:196
+msgid "Permission Denied"
+msgstr ""
+
+#: web/pdf-viewer-single.php:479 web/viewer-shortcode.php:417
+#: web/viewer.php:396
+msgid "Show Thumbnails"
+msgstr ""
+
+#: web/pdf-viewer-single.php:480 web/viewer-shortcode.php:418
+#: web/viewer.php:397
+msgid "Thumbnails"
+msgstr ""
+
+#: web/pdf-viewer-single.php:482 web/viewer-shortcode.php:420
+#: web/viewer.php:399
+msgid "Show Document Outline (double-click to expand/collapse all items)"
+msgstr ""
+
+#: web/pdf-viewer-single.php:483 web/viewer-shortcode.php:421
+#: web/viewer.php:400
+msgid "Document Outline"
+msgstr ""
+
+#: web/pdf-viewer-single.php:485 web/viewer-shortcode.php:423
+#: web/viewer.php:402
+msgid "Show Attachments"
+msgstr ""
+
+#: web/pdf-viewer-single.php:486 web/viewer-shortcode.php:424
+#: web/viewer.php:403
+msgid "Attachments"
+msgstr ""
+
+#: web/pdf-viewer-single.php:488 web/viewer-shortcode.php:426
+#: web/viewer.php:405
+msgid "Show Layers (double-click to reset all layers to the default state)"
+msgstr ""
+
+#: web/pdf-viewer-single.php:489 web/viewer-shortcode.php:427
+#: web/viewer.php:406
+msgid "Layers"
+msgstr ""
+
+#: web/pdf-viewer-single.php:497 web/viewer-shortcode.php:435
+#: web/viewer.php:414
+msgid "Current Outline Item"
+msgstr ""
+
+#: web/pdf-viewer-single.php:521 web/pdf-viewer-single.php:649
+#: web/viewer-shortcode.php:459 web/viewer-shortcode.php:587
+#: web/viewer.php:438 web/viewer.php:566
+msgid "Previous"
+msgstr ""
+
+#: web/pdf-viewer-single.php:525 web/pdf-viewer-single.php:653
+#: web/viewer-shortcode.php:463 web/viewer-shortcode.php:591
+#: web/viewer.php:442 web/viewer.php:570
+msgid "Next"
+msgstr ""
+
+#: web/pdf-viewer-single.php:532 web/viewer-shortcode.php:470
+#: web/viewer.php:449
+msgid "Highlight all"
+msgstr ""
+
+#: web/pdf-viewer-single.php:534 web/viewer-shortcode.php:472
+#: web/viewer.php:451
+msgid "Match case"
+msgstr ""
+
+#: web/pdf-viewer-single.php:539 web/viewer-shortcode.php:477
+#: web/viewer.php:456
+msgid "Whole words"
+msgstr ""
+
+#: web/pdf-viewer-single.php:551 web/pdf-viewer-single.php:691
+#: web/viewer-shortcode.php:489 web/viewer-shortcode.php:629
+#: web/viewer.php:468 web/viewer.php:608
+msgid "Presentation Mode"
+msgstr ""
+
+#: web/pdf-viewer-single.php:573 web/viewer-shortcode.php:511
+#: web/viewer.php:490
+msgid "Go to First Page"
+msgstr ""
+
+#: web/pdf-viewer-single.php:576 web/viewer-shortcode.php:514
+#: web/viewer.php:493
+msgid "Go to Last Page"
+msgstr ""
+
+#: web/pdf-viewer-single.php:582 web/viewer-shortcode.php:520
+#: web/viewer.php:499
+msgid "Rotate Clockwise"
+msgstr ""
+
+#: web/pdf-viewer-single.php:585 web/viewer-shortcode.php:523
+#: web/viewer.php:502
+msgid "Rotate Counterclockwise"
+msgstr ""
+
+#: web/pdf-viewer-single.php:591 web/viewer-shortcode.php:529
+#: web/viewer.php:508
+msgid "Text Selection Tool"
+msgstr ""
+
+#: web/pdf-viewer-single.php:595 web/viewer-shortcode.php:533
+#: web/viewer.php:512
+msgid "Hand Tool"
+msgstr ""
+
+#: web/pdf-viewer-single.php:601 web/viewer-shortcode.php:539
+#: web/viewer.php:518
+msgid "Vertical Scrolling"
+msgstr ""
+
+#: web/pdf-viewer-single.php:604 web/viewer-shortcode.php:542
+#: web/viewer.php:521
+msgid "Horizontal Scrolling"
+msgstr ""
+
+#: web/pdf-viewer-single.php:607 web/viewer-shortcode.php:545
+#: web/viewer.php:524
+msgid "Wrapped Scrolling"
+msgstr ""
+
+#: web/pdf-viewer-single.php:612 web/viewer-shortcode.php:550
+#: web/viewer.php:529
+msgid "Book Flip"
+msgstr ""
+
+#: web/pdf-viewer-single.php:618 web/viewer-shortcode.php:556
+#: web/viewer.php:535
+msgid "No Spreads"
+msgstr ""
+
+#: web/pdf-viewer-single.php:621 web/viewer-shortcode.php:559
+#: web/viewer.php:538
+msgid "Odd Spreads"
+msgstr ""
+
+#: web/pdf-viewer-single.php:624 web/viewer-shortcode.php:562
+#: web/viewer.php:541
+msgid "Even Spreads"
+msgstr ""
+
+#: web/pdf-viewer-single.php:631 web/viewer-shortcode.php:569
+#: web/viewer.php:548
+msgid "Document Properties…"
+msgstr ""
+
+#: web/pdf-viewer-single.php:641 web/viewer-shortcode.php:579
+#: web/viewer.php:558
+msgid "Toggle Sidebar"
+msgstr ""
+
+#: web/pdf-viewer-single.php:679 web/viewer-shortcode.php:617
+#: web/viewer.php:596
+msgid "Facebook"
+msgstr ""
+
+#: web/pdf-viewer-single.php:680 web/viewer-shortcode.php:618
+#: web/viewer.php:597
+msgid "Twitter"
+msgstr ""
+
+#: web/pdf-viewer-single.php:681 web/viewer-shortcode.php:619
+#: web/viewer.php:598
+msgid "Linkedin"
+msgstr ""
+
+#: web/pdf-viewer-single.php:682 web/viewer-shortcode.php:620
+#: web/viewer.php:599
+msgid "WhatsApp"
+msgstr ""
+
+#: web/pdf-viewer-single.php:683 web/viewer-shortcode.php:621
+#: web/viewer.php:600
+msgid "Email"
+msgstr ""
+
+#: web/pdf-viewer-single.php:712 web/viewer-shortcode.php:650
+#: web/viewer.php:629
+msgid "Tools"
+msgstr ""
+
+#: web/pdf-viewer-single.php:718 web/viewer-shortcode.php:656
+#: web/viewer.php:635
+msgid "Zoom Out"
+msgstr ""
+
+#: web/pdf-viewer-single.php:722 web/viewer-shortcode.php:660
+#: web/viewer.php:639
+msgid "Zoom In"
+msgstr ""
+
+#: web/pdf-viewer-single.php:727 web/viewer-shortcode.php:665
+#: web/viewer.php:644
+msgid "Automatic Zoom"
+msgstr ""
+
+#: web/pdf-viewer-single.php:728 web/viewer-shortcode.php:666
+#: web/viewer.php:645
+msgid "Actual Size"
+msgstr ""
+
+#: web/pdf-viewer-single.php:729 web/viewer-shortcode.php:667
+#: web/viewer.php:646
+msgid "Page Fit"
+msgstr ""
+
+#: web/pdf-viewer-single.php:730 web/viewer-shortcode.php:668
+#: web/viewer.php:647
+msgid "Page Width"
+msgstr ""
+
+#: web/pdf-viewer-single.php:732 web/viewer-shortcode.php:670
+#: web/viewer.php:649
+msgid "50%"
+msgstr ""
+
+#: web/pdf-viewer-single.php:733 web/viewer-shortcode.php:671
+#: web/viewer.php:650
+msgid "75%"
+msgstr ""
+
+#: web/pdf-viewer-single.php:734 web/viewer-shortcode.php:672
+#: web/viewer.php:651
+msgid "100%"
+msgstr ""
+
+#: web/pdf-viewer-single.php:735 web/viewer-shortcode.php:673
+#: web/viewer.php:652
+msgid "125%"
+msgstr ""
+
+#: web/pdf-viewer-single.php:736 web/viewer-shortcode.php:674
+#: web/viewer.php:653
+msgid "150%"
+msgstr ""
+
+#: web/pdf-viewer-single.php:737 web/viewer-shortcode.php:675
+#: web/viewer.php:654
+msgid "200%"
+msgstr ""
+
+#: web/pdf-viewer-single.php:738 web/viewer-shortcode.php:676
+#: web/viewer.php:655
+msgid "300%"
+msgstr ""
+
+#: web/pdf-viewer-single.php:739 web/viewer-shortcode.php:677
+#: web/viewer.php:656
+msgid "400%"
+msgstr ""
+
+#: web/pdf-viewer-single.php:772 web/viewer-shortcode.php:710
+#: web/viewer.php:689
+msgid "More Information"
+msgstr ""
+
+#: web/pdf-viewer-single.php:775 web/viewer-shortcode.php:713
+#: web/viewer.php:692
+msgid "Less Information"
+msgstr ""
+
+#: web/pdf-viewer-single.php:780 web/pdf-viewer-single.php:851
+#: web/viewer-shortcode.php:718 web/viewer-shortcode.php:789
+#: web/viewer.php:697 web/viewer.php:768
+msgid "Close"
+msgstr ""
+
+#: web/pdf-viewer-single.php:792 web/viewer-shortcode.php:730
+#: web/viewer.php:709
+msgid "Enter the password to open this PDF file:"
+msgstr ""
+
+#: web/pdf-viewer-single.php:799 web/viewer-shortcode.php:737
+#: web/viewer.php:716
+msgid "OK"
+msgstr ""
+
+#: web/pdf-viewer-single.php:806 web/viewer-shortcode.php:744
+#: web/viewer.php:723
+msgid "File name:"
+msgstr ""
+
+#: web/pdf-viewer-single.php:809 web/viewer-shortcode.php:747
+#: web/viewer.php:726
+msgid "File size:"
+msgstr ""
+
+#: web/pdf-viewer-single.php:813 web/viewer-shortcode.php:751
+#: web/viewer.php:730
+msgid "Title:"
+msgstr ""
+
+#: web/pdf-viewer-single.php:816 web/viewer-shortcode.php:754
+#: web/viewer.php:733
+msgid "Author:"
+msgstr ""
+
+#: web/pdf-viewer-single.php:819 web/viewer-shortcode.php:757
+#: web/viewer.php:736
+msgid "Subject:"
+msgstr ""
+
+#: web/pdf-viewer-single.php:822 web/viewer-shortcode.php:760
+#: web/viewer.php:739
+msgid "Keywords:"
+msgstr ""
+
+#: web/pdf-viewer-single.php:825 web/viewer-shortcode.php:763
+#: web/viewer.php:742
+msgid "Creation Date:"
+msgstr ""
+
+#: web/pdf-viewer-single.php:828 web/viewer-shortcode.php:766
+#: web/viewer.php:745
+msgid "Modification Date:"
+msgstr ""
+
+#: web/pdf-viewer-single.php:831 web/viewer-shortcode.php:769
+#: web/viewer.php:748
+msgid "Creator:"
+msgstr ""
+
+#: web/pdf-viewer-single.php:835 web/viewer-shortcode.php:773
+#: web/viewer.php:752
+msgid "PDF Producer:"
+msgstr ""
+
+#: web/pdf-viewer-single.php:838 web/viewer-shortcode.php:776
+#: web/viewer.php:755
+msgid "PDF Version:"
+msgstr ""
+
+#: web/pdf-viewer-single.php:841 web/viewer-shortcode.php:779
+#: web/viewer.php:758
+msgid "Page Count:"
+msgstr ""
+
+#: web/pdf-viewer-single.php:844 web/viewer-shortcode.php:782
+#: web/viewer.php:761
+msgid "Page Size:"
+msgstr ""
+
+#: web/pdf-viewer-single.php:848 web/viewer-shortcode.php:786
+#: web/viewer.php:765
+msgid "Fast Web View:"
+msgstr ""
+
+#: web/pdf-viewer-single.php:858 web/viewer-shortcode.php:796
+#: web/viewer.php:775
+msgid "Preparing document for printing…"
+msgstr ""
+
+#: web/pdf-viewer-single.php:862 web/viewer-shortcode.php:800
+#: web/viewer.php:779
+msgid "0%"
+msgstr ""
+
+#: web/pdf-viewer-single.php:874 web/viewer-shortcode.php:812
+#: web/viewer.php:791
+msgid "Share this file with friends"
+msgstr ""
+
+#: web/pdf-viewer-single.php:876 web/viewer-shortcode.php:814
+#: web/viewer.php:793
+msgid "Your Name"
+msgstr ""
+
+#: web/pdf-viewer-single.php:878 web/viewer-shortcode.php:816
+#: web/viewer.php:795
+msgid "Friends Name"
+msgstr ""
+
+#: web/pdf-viewer-single.php:880 web/viewer-shortcode.php:818
+#: web/viewer.php:797
+msgid "Your Email Address"
+msgstr ""
+
+#: web/pdf-viewer-single.php:883 web/viewer-shortcode.php:821
+#: web/viewer.php:800
+msgid "Friends Email Address"
+msgstr ""
+
+#: web/pdf-viewer-single.php:886 web/viewer-shortcode.php:824
+#: web/viewer.php:803
+msgid "Email Subject"
+msgstr ""
+
+#: web/pdf-viewer-single.php:889 web/viewer-shortcode.php:827
+#: web/viewer.php:806
+msgid "Message"
+msgstr ""
+
+#: web/pdf-viewer-single.php:963
+msgid "Return to Site"
+msgstr ""

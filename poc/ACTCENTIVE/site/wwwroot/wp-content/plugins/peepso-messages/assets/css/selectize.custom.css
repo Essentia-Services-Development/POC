@@ -1,0 +1,53 @@
+.peepso .selectize-control > img,
+.ps-modal__wrapper .selectize-control > img {
+	display: none;
+	position: absolute;
+	right: 11px;
+	top: 11px;
+	z-index: 1;
+}
+
+.peepso .selectize-control.loading > img,
+.ps-modal__wrapper .selectize-control.loading > img {
+	display: block;
+}
+
+.peepso .selectize-input [data-value] > img,
+.ps-modal__wrapper .selectize-input [data-value] > img {
+	float: left;
+	height: 18px;
+}
+
+.peepso .selectize-input [data-value] > span,
+.ps-modal__wrapper .selectize-input [data-value] > span {
+	font-size: 12px;
+	height: 14px;
+	line-height: 14px;
+	padding-left: 5px;
+}
+
+.peepso .selectize-input [data-value] > a.remove,
+.ps-modal__wrapper .selectize-input [data-value] > a.remove {
+	top: 1px;
+}
+
+.peepso .selectize-dropdown-content [data-value] > img,
+.ps-modal__wrapper .selectize-dropdown-content [data-value] > img {
+	float: left;
+	height: 32px;
+}
+
+.peepso .selectize-dropdown-content [data-value] > span,
+.ps-modal__wrapper .selectize-dropdown-content [data-value] > span {
+	height: 32px;
+	line-height: 32px;
+	padding-left: 8px;
+}
+
+/** @Since 4.x Legacy fallback for people with old template overrides **/
+.peepso .selectize-input > div.ui-sortable-content {
+    background-color: #004e7b;
+    display: block;
+    float: left;
+    border: solid 1px #002502;
+}                   

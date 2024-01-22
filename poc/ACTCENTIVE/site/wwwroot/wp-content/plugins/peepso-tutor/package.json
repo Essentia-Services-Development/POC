@@ -1,0 +1,31 @@
+{
+  "name": "peepso-integration-tutorlms",
+  "scripts": {
+    "build": "browserify -e assets/js/index.js | uglifyjs -c -m -o assets/js/bundle.min.js",
+    "watch": "watchify -e assets/js/index.js -o assets/js/bundle.min.js"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.19.6",
+    "@babel/preset-env": "^7.19.4",
+    "babelify": "^10.0.0",
+    "browserify": "^17.0.0",
+    "browserify-shim": "^3.8.16",
+    "uglify-js": "^3.17.4",
+    "watchify": "^4.0.0"
+  },
+  "browserify": {
+    "transform": [
+      "babelify",
+      "browserify-shim"
+    ]
+  },
+  "browserify-shim": {
+    "jquery": "global:jQuery",
+    "peepso": "global:peepso"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env"
+    ]
+  }
+}

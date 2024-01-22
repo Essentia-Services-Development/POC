@@ -1,0 +1,13 @@
+.ps-form--repost {
+  blockquote {
+    p {
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+  
+  .wp-embedded-content {
+    max-width: 100%;
+  }
+}

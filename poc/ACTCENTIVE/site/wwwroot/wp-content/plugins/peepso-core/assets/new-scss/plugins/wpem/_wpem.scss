@@ -1,0 +1,675 @@
+@mixin ps-btn {
+  --padd: var(--PADD) var(--PADD--MD); 
+  --bg: var(--c-ps-btn-action-bg);
+  --color: var(--c-ps-btn-action-color);
+  --bg--hover: var(--c-ps-btn-action-bg-hover);
+  --color--hover: var(--c-ps-btn-action-color-hover);
+
+  display: inline-block;
+  padding: var(--padd);
+  font-size: var(--PS-FONT-SIZE);
+  line-height: var(--PS-LINE-HEIGHT);
+  color: var(--color);
+  background-color: var(--bg);
+  border-radius: var(--BORDER-RADIUS--MD);
+  box-shadow: inset 0 0 0 1px var(--DIVIDER--LIGHTEN);
+  font-weight: normal;
+
+  &:hover {
+    background-color: var(--bg--hover);
+  }
+}
+
+//
+//  Page modifier class
+//
+.ps-page--wpem {}
+
+//
+//  WPEM wrapper
+//
+.ps-wpem {
+  // background-color: var(--COLOR--APP);
+  // box-shadow: var(--BOX-SHADOW--HARD);
+  // border-radius: var(--BORDER-RADIUS--MD);
+}
+
+//
+//  Tabs
+//
+.ps-wpem__tabs {}
+
+.ps-wpem__tabs-inner {
+  @include tabs($center: true);
+}
+
+.ps-wpem__tab {
+  @include tab($default: true);
+
+  width: 50%;
+}
+
+.ps-wpem__tab--active {
+  @include tab($active: true, $arrow: true);
+}
+
+//
+//  Change grid layout to 2 columns
+//
+.wpem-event-listings {
+  .wpem-event-title {
+    display: block;
+    width: 100%;
+  }
+
+  &.wpem-event-listing-box-view {
+    .ps-page--wpem & {
+      .wpem-event-layout-wrapper {
+        border-radius: var(--BORDER-RADIUS--MD);
+
+        .wpem-event-banner,
+        .wpem-event-banner .wpem-event-banner-img {
+          border-top-left-radius: var(--BORDER-RADIUS--MD);
+          border-top-right-radius: var(--BORDER-RADIUS--MD);
+        }
+      }
+    }
+
+    .ps-page--wpem-two-columns & {
+      .wpem-event-box-col {
+        @include mq($from: desktop) {
+          -ms-flex: 0 0 50%;
+          flex: 0 0 50%;
+          max-width: 50%;
+        }
+      }
+    }
+  }
+
+  &.wpem-event-listing-list-view {
+    overflow: visible;
+  }
+}
+
+//
+//  Override WPEM grid/list view toggle buttons
+//
+.wpem-event-listings-header .wpem-event-layout-action-wrapper .wpem-event-layout-action {
+  .ps-page--wpem & {
+    @include mq($until: desktop) {
+      display: -webkit-flex;
+      display: -ms-flex;
+      display: flex;
+      justify-content: center;
+    }
+  }
+
+  //  Toggle button
+  .wpem-event-layout-icon {
+    .ps-page--wpem & {
+      width: auto;
+      height: auto;
+      margin: 0;
+      padding: var(--PADD);
+      font-size: 90%;
+      line-height: 0;
+      color: var(--PS-COLOR--TEXT--LIGHT);
+      background-color: var(--PS-COLOR--APP);
+      border-radius: 0;
+      border: none;
+      box-shadow: inset 0 0 0 1px var(--DIVIDER--LIGHT);
+
+      > i {
+        line-height: 1.2;
+        vertical-align: middle;
+      }
+
+      &:first-child {
+        @if ($rtl) {
+          margin-left: -1px;
+          border-top-right-radius: var(--BORDER-RADIUS--MD);
+          border-bottom-right-radius: var(--BORDER-RADIUS--MD);
+        } @else {
+          margin-right: -1px;
+          border-top-left-radius: var(--BORDER-RADIUS--MD);
+          border-bottom-left-radius: var(--BORDER-RADIUS--MD);
+        }
+      }
+
+      &:last-child {
+        @if ($rtl) {
+          border-top-left-radius: var(--BORDER-RADIUS--MD);
+          border-bottom-left-radius: var(--BORDER-RADIUS--MD);
+        } @else {
+          border-top-right-radius: var(--BORDER-RADIUS--MD);
+          border-bottom-right-radius: var(--BORDER-RADIUS--MD);
+        }
+      }
+
+      &:hover {
+        color: var(--PS-COLOR--TEXT);
+        background-color: var(--PS-COLOR--APP--GRAY);
+      }
+
+      &.wpem-active-layout {
+        color: var(--PS-COLOR--TEXT);
+        background-color: var(--PS-COLOR--APP--GRAY);
+
+        &:hover {
+          background-color: var(--PS-COLOR--APP--GRAY);
+        }
+      }
+    }
+  }
+}
+
+//
+//  Override list view box
+//
+.wpem-event-listing-list-view.wpem-event-listings .wpem-event-layout-wrapper .event_listing {
+  min-height: 190px;
+
+  .wpem-event-infomation {
+    position: static;
+
+    .wpem-event-details {
+      display: -webkit-flex;
+      display: -ms-flex;
+      display: flex;
+      flex-wrap: wrap;
+      padding-left: 0;
+      padding-right: 0;
+
+      .wpem-event-title {
+        display: block;
+        width: 100%;
+      }
+
+      > .wpem-event-action-url {
+        width: 100%;
+        order: 0;
+
+        > div {
+          &:last-child {
+            margin-bottom: var(--PADD--MD);
+          }
+        }
+      }
+
+      .wpem-event-type {
+        order: 2;
+        padding-top: 0;
+
+        a {
+          display: inline-block;
+        }
+
+        span {
+          margin: 0;
+          padding: var(--PADD);
+          font-size: 90%;
+          line-height: 1.2;
+        }
+      }
+
+      .wpem-event-register-label {
+        order: 1;
+        margin-bottom: var(--PADD--SM);
+
+        @if ($rtl) {
+          margin-left: var(--PADD--SM);
+        } @else {
+          margin-right: var(--PADD--SM);
+        }
+      }
+
+      .ps-dropdown {
+        .ps-dropdown__toggle {
+          padding: var(--PADD);
+          font-size: 90%;
+          line-height: 1.2;
+        }
+      }
+    }
+
+    .wpem-event-date {
+      left: 20px;
+      top: 125px;
+      transition: all .2s;
+    }
+  }
+
+  &:hover {
+    .wpem-event-infomation {
+      .wpem-event-date {
+        left: 25px;
+      }
+    }
+  }
+}
+
+//
+//  Event Filters
+//
+.event_filters.wpem-form-wrapper {
+  * {
+    box-sizing: border-box;
+  }
+
+  .wpem-row {
+    margin-left: -5px;
+    margin-right: -5px;
+
+    .wpem-col {
+      padding-left: 5px;
+      padding-right: 5px;
+    }
+
+    .wpem-form-group {
+      margin-bottom: var(--PADD);
+    }
+  }
+
+  .wpem-form-group {
+    .chosen-container,
+    .comiseo-daterangepicker-triggerbutton,
+    input[type="text"],
+    select {
+      @include input;
+
+      min-width: 100%;
+      font-size: 14px;
+      z-index: auto;
+
+      &:read-only {
+        background-color: var(--PS-COLOR--APP);
+        box-shadow: inset 0 0 0 1px var(--DIVIDER--LIGHT);
+
+        &:hover {
+          background-color: var(--PS-COLOR--APP);
+          box-shadow: inset 0 0 0 1px var(--DIVIDER);
+        }
+
+        &:focus {
+          background-color: var(--PS-COLOR--APP);
+          box-shadow: inset 0 0 0 1px var(--INPUT-SHADOW--IN), 0 0 0 3px var(--INPUT-SHADOW);
+        }
+      }
+
+      optgroup {
+        color: var(--PS-COLOR--TEXT);
+        font-size: 14px;
+      }
+    }
+
+    .comiseo-daterangepicker-triggerbutton {
+      font-size: 14px;
+
+      &:read-only {
+        background-color: var(--PS-COLOR--APP);
+        box-shadow: inset 0 0 0 1px var(--DIVIDER--LIGHT);
+        color: var(--PS-COLOR--TEXT);
+
+        &:hover {
+          background-color: var(--PS-COLOR--APP);
+          box-shadow: inset 0 0 0 1px var(--DIVIDER);
+        }
+
+        &.comiseo-daterangepicker-active {
+          background-color: var(--PS-COLOR--APP);
+          box-shadow: inset 0 0 0 1px var(--INPUT-SHADOW--IN), 0 0 0 3px var(--INPUT-SHADOW);
+        }
+      }
+
+      .ui-button-icon {
+        display: inline-block;
+      }
+    }
+
+    .chosen-container {
+      .chosen-single div b {
+        background-position: 0 2px;
+      }
+
+      > a {
+        padding: 0;
+        font-size: 14px;
+        line-height: 1.4;
+      }
+
+      &:read-only {
+        background-color: var(--PS-COLOR--APP);
+        box-shadow: inset 0 0 0 1px var(--DIVIDER--LIGHT);
+
+        &:hover {
+          background-color: var(--PS-COLOR--APP);
+          box-shadow: inset 0 0 0 1px var(--DIVIDER);
+        }
+
+        &.chosen-container-active {
+          background-color: var(--PS-COLOR--APP);
+          box-shadow: inset 0 0 0 1px var(--INPUT-SHADOW--IN), 0 0 0 3px var(--INPUT-SHADOW);
+        }
+      }
+    }
+  }
+}
+
+// Multi chosen
+.wpem-form-wrapper .wpem-form-group {
+  .chosen-container {
+    &.chosen-container-multi {
+      padding: 0;
+      background-color: var(--PS-COLOR--APP);
+      box-shadow: inset 0 0 0 1px var(--DIVIDER--LIGHT);
+      border: none;
+
+      &:hover {
+        background-color: var(--PS-COLOR--APP);
+        box-shadow: inset 0 0 0 1px var(--DIVIDER);
+      }
+
+      .chosen-choices {
+        padding: 0;
+        font-size: 14px;
+        line-height: 1.4;
+
+        .search-field {
+          > input {
+            color: var(--PS-COLOR--TEXT) !important;
+            border-radius: var(--BORDER-RADIUS--MD);
+          }
+
+          input[type=text] {
+            font-size: 14px;
+            height: 30px;
+            padding: var(--PADD--SM);
+            margin: var(--PADD--SM);
+            background-color: var(--PS-COLOR--APP) !important;
+          }
+        }
+      }
+
+      li.search-choice {
+        margin: 10px 0 0px 10px;
+      }
+    }
+
+    .chosen-drop {
+      background-color: var(--PS-COLOR--APP);
+
+      .chosen-results {
+        li {
+          font-size: 14px;
+
+          &.no-results {
+            background-color: var(--PS-COLOR--APP--GRAY);
+          }
+
+          &.active-result {
+            color: var(--PS-COLOR--TEXT);
+          }
+
+          &.result-selected {
+            color: var(--PS-COLOR--TEXT--LIGHTEN);
+          }
+        }
+      }
+    }
+
+    .chosen-search input[type=text] {
+      background-position: right -20px;
+    }
+  }
+}
+
+//
+// Other
+//
+.event_listings .wpem-event-listings.wpem-event-listing-list-view .wpem-event-layout-wrapper .wpem-event-infomation .wpem-event-details .wpem-event-date-time,
+.event_listings .wpem-event-listings.wpem-event-listing-list-view .wpem-event-layout-wrapper .wpem-event-infomation .wpem-event-details .wpem-event-location,
+.event_listings .wpem-event-listings.wpem-event-listing-list-view .wpem-event-layout-wrapper .wpem-event-infomation .wpem-event-details .wpem-event-type {
+  margin: 0;
+  margin-bottom: var(--PADD--SM);
+}
+
+.wpem-single-event-page .wpem-event-register-label,
+.wpem-event-listing-box-view .wpem-event-register-label {
+  position: relative;
+}
+
+//
+// RSVP dropdown
+//
+.wpem-event-register-label,
+.ps-wpem--dropdown-rsvp.ps-post__action,
+.calendar-tooltip-content {
+  .ps-dropdown__toggle {
+    display: block;
+    padding: var(--PADD--SM);
+    color: #fff;
+    background-color: rgba(0,0,0, .75);
+    outline: none;
+    border: none;
+    box-shadow: none;
+    border-radius: var(--BORDER-RADIUS);
+    white-space: nowrap;
+    transition: all .2s ease;
+
+    &:hover {
+      background-color: rgba(0,0,0, .9);
+    }
+
+    > i {
+      @if ($rtl) {
+        margin-left: var(--PADD--SM);
+      } @else {
+        margin-right: var(--PADD--SM);
+      }
+    }
+
+    span {
+      font-family: sans-serif;
+      font-weight: normal;
+
+      &:before {
+        margin-right: var(--PADD--SM);
+        font-family: "Font Awesome 6 Free";
+        font-weight: 900;
+        color: var(--PS-COLOR--TEXT--LIGHT);
+      }
+    }
+  }
+
+  .ps-dropdown__menu {
+    padding-top: 0;
+    padding-bottom: 0;
+    right: var(--PADD--MD);
+
+    > button {
+      display: block;
+      width: 100%;
+      padding: var(--PADD);
+      text-align: left;
+      background-color: var(--PS-COLOR--APP);
+      outline: none;
+      border: none;
+      border-bottom: 1px solid var(--DIVIDER--LIGHT);
+      box-shadow: none;
+
+      &.active {
+        font-weight: bold;
+        background-color: var(--PS-COLOR--APP--GRAY);
+
+        i {
+          color: #46494f;
+        }
+      }
+
+      &:first-child {
+        border-top-left-radius: var(--BORDER-RADIUS--MD);
+        border-top-right-radius: var(--BORDER-RADIUS--MD);
+      }
+
+      &:last-child {
+        border-bottom: none;
+        border-bottom-left-radius: var(--BORDER-RADIUS--MD);
+        border-bottom-right-radius: var(--BORDER-RADIUS--MD);
+      }
+
+      &:active,
+      &:focus,
+      &:hover {
+        color: var(--PS-COLOR--TEXT);
+        background-color: var(--PS-COLOR--APP--GRAY);
+        outline: none;
+        border: none;
+        border-bottom: 1px solid var(--DIVIDER--LIGHT);
+        box-shadow: none;
+      }
+
+      &.active {
+        > i {
+          color: var(--PS-COLOR--TEXT);
+        }
+      }
+    }
+  }
+}
+
+.ps-wpem--dropdown-rsvp {
+  .ps-dropdown__menu {
+    > button {
+      &.active {
+        > i {
+          color: var(--PS-COLOR--TEXT);
+        }
+      }
+    }
+  }
+}
+
+.wpem-single-event-page {
+  .wpem-single-event-wrapper {
+    border: 0;
+  }
+
+  .wpem-heading-text {
+    font-size: 160%;
+    font-weight: normal;
+    color: var(--COLOR--HEADING);
+  }
+}
+
+.wpem-single-event-page .wpem-single-event-wrapper .wpem-single-event-body .wpem-single-event-left-content .wpem-single-event-short-info {
+  padding: var(--PADD--MD) var(--PADD--MD) 0;
+}
+
+.wpem-single-event-page .wpem-single-event-wrapper .wpem-single-event-body .wpem-single-event-left-content .wpem-single-event-body-content {
+  padding: var(--PADD--MD);
+}
+
+.wpem-single-event-page .wpem-single-event-wrapper .wpem-single-event-body .wpem-single-event-body-sidebar {
+  padding: var(--PADD--MD) var(--PADD--MD) var(--PADD--MD) 0;
+
+  @include mq($from: desktop) {
+    margin-left: calc(-1 * var(--PADD));
+  }
+
+  @include mq($until: desktop) {
+    padding-left: var(--PADD--MD);
+  }
+}
+
+.wpem-event-single-image {
+  > img {
+    border-top-left-radius: var(--BORDER-RADIUS--MD);
+    border-top-right-radius: var(--BORDER-RADIUS--MD);
+  }
+}
+
+.wpem-single-event-body {}
+
+.wpem-single-event-body-content {
+  p:empty {
+    margin-bottom: 0;
+  }
+}
+
+.wpem-single-event-body-sidebar {
+  .ps-dropdown {
+    position: static;
+  }
+
+  .ps-dropdown__toggle {
+    width: 100%;
+    font-size: 90%;
+  }
+
+  .ps-dropdown__menu {
+    width: 100%;
+  }
+}
+
+.wpem-event-organizer-name {
+  color: var(--GC-COLOR--TEXT--LIGHT);
+}
+
+.ps-wpem__organizer-name,
+.ps-wpem__attendee {
+  img {
+    width: 30px;
+    border-radius: 100%;
+  }
+}
+
+.ps-wpem__attendee {
+  margin-bottom: var(--PADD--SM);
+
+  img.maybe {
+    opacity: 0.5;
+  }
+}
+
+.ps-wpem__attendees-desc {
+  > span {
+    white-space: nowrap;
+  }
+}
+
+.wpem-event-sidebar-button {
+  button {
+    @include ps-btn;
+    border-radius: 0;
+  }
+}
+
+.wpem-single-event-sidebar-info {
+  .ps-btn--notifications {
+    --font-size: 80%;
+    --line-height: 1.2;
+    --padd: var(--PADD--SM) var(--PADD);
+    --radius: var(--BORDER-RADIUS);
+
+    width: 100%;
+    margin-top: var(--PADD);
+
+    > i {
+      font-size: 95%;
+      width: 16px;
+      text-align: center;
+    }
+
+    > span {
+      font-size: 95%;
+    }
+  }
+}
+
+.wpem-single-event-footer {}
+
+.wpem-organizer-profile-wrapper {}
+
+.wpem-main .wpem-calendar-view-container .calendar-contents-container table.calendar td.calendar-day-container .calendar-tooltip-box .calendar-tooltip {
+  z-index: 100;
+}

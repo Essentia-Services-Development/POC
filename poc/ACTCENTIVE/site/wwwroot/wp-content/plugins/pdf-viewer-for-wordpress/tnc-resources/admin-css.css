@@ -1,0 +1,1129 @@
+.mce-tnc_scroll{
+	overflow: scroll;
+	overflow-x: hidden;
+	max-height: 90%;
+}
+/* Options Page */
+.tnc-pdf-column-left{
+	width: 720px;
+	max-width: 100%;
+	margin-right: 30px;
+	float: left;
+}
+.tnc-pdf-column-right{
+	width: 350px;
+	float: left;
+	max-width: 100%;
+}
+.tnc-upload-container{
+	
+}
+.tnc-upload-container{
+	margin-bottom: 50px;
+}
+.tnc_pdf_upload{
+	height: 50px!important;
+	padding-top: 10px!important;
+	padding-left: 50px!important;
+	padding-right: 50px!important;
+}
+.uploaded_file_url{
+	width: 350px;
+	padding: 10px;
+	max-width: 100%;
+}
+
+#poststuff h3 {
+    border-bottom: 1px solid #f4f4f4;
+    padding: 0 10px 10px 10px;
+}
+.addon-image{
+	display: block;
+	margin: 0 auto;
+}
+.addon-buy-btn{
+	display: block!important;
+    margin: 15px auto!important;
+    width: 190px;
+}
+
+.tnc-3col{
+	width: 100%;
+	max-width: 230px;
+	float: left;
+}
+.tnc-3col select{
+	width: 95%;
+}
+.tnc-view-link{
+	width: 100%;
+}
+.post_item{
+	margin-bottom: 10px;
+}
+.post_item a {
+    padding-bottom: 5px;
+    display: inline-block;
+}
+.toplevel_page_themencode-pdf-viewer-options .wp-menu-image img{
+	width: 30px;
+    margin: 0;
+    padding-top: 5px!important;
+}
+
+a.menu-icon-pdfviewer .wp-menu-image img {
+    width: 25px;
+    margin: 0;
+    padding-top: 5px!important;
+    height: 25px;
+    object-fit: contain;
+}
+.pvfw-url-copied-message{
+	margin: 5px 0;
+	display: block;
+	text-align: center;
+}
+
+.tnc-pvfw-copy-share-url{
+	width: 100%;
+    padding: 5px;
+    border: 1px solid #eee!important;
+}
+
+/*
+* >> Review Notice on pdf viewer admin pages
+*/
+
+.review_notice_on_pdf_viewer_admin_page p,
+.review_notice_on_pdf_viewer_admin_page form {
+	display: inline-block;
+}
+
+.review_notice_on_pdf_viewer_admin_page_form_button {
+	position: absolute;
+	right: 50px;
+}
+
+.review_notice_on_pdf_viewer_admin_page_form_button form {
+	padding: 7px 2px;
+}
+
+#review_notice_on_pdf_viewer_admin_page_already_did,
+#review_notice_on_pdf_viewer_admin_page_not_interest {
+	cursor: pointer;
+}
+.review_notice_on_pdf_viewer_admin_page{
+	padding: 10px;
+}
+.review_notice_on_pdf_viewer_admin_page .notice-dismiss{
+	top: 12px;
+}
+
+
+/*
+* >> tnc pvfw metabox style start
+**/
+
+div#tnc_pvfw_metabox_upgrade_pro .postbox-header{
+	display: none !important;
+}
+
+#tnc_pvfw_metabox_upgrade_pro {
+	background: #FFFFFF;
+	box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
+	border-radius: 5px; 
+	border:none;
+	padding:0px;
+}
+
+.tnc_pdf_upgrade_btn {
+	padding-bottom: 20px;
+}
+
+.tnc_pdf_upgrade_btn a {
+	background: #5E77FD;
+	border-radius: 5px;
+	display: inline-block;
+	padding: 10px 20px;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 15px;
+	line-height: 35px;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.tnc_pdf_pro_content {
+	background: #F9A826;
+	border-radius: 5px 5px 0px 0px;
+	padding:15px;
+}
+
+div#tnc_pvfw_metabox_upgrade_pro .inside {
+	padding: 0px !important;
+}
+
+.tnc_pdf_get_upgrade_btn_col {
+	padding:15px;
+}
+
+.tnc_pdf_pro_content h4 {
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 23px;
+	color: #FFFFFF;
+	margin: 0px;
+}
+
+.tnc_pdf_pro_content p {
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 22px;
+	color: #FFFFFF;
+	margin: 0px;
+	padding: 10px 0px;
+}
+
+.tnc_pdf_pro_feature ul li {
+	font-size: 14px;
+	line-height: 21px;
+	color: #292b31;
+	padding: 1px 0px;
+}
+
+.tnc_pdf_pro_feature ul  {
+	margin-bottom: 0px !important;
+}
+
+.tnc_pdf_pro_feature ul li span.dashicons.dashicons-yes-alt {
+	color:#5E77FD;
+	padding-right:5px;
+}
+
+#tnc_pvfw_metabox_review .postbox-header {
+	display: none !important;
+}
+
+#tnc_pvfw_metabox_review {
+	border-radius: 5px;
+    background: #1A1414;
+    padding-top:24px;
+    padding-bottom:14px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.tnc_pvfw_review_subtitle p {
+	font-size: 16px;
+	line-height: 25px;
+	text-align: center;
+	color: #FFFFFF;
+	margin: 0px;
+}
+
+.tnc_pvfw_review_rating ul {
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+}
+
+.tnc_pvfw_review_rating ul li {
+	display: inline-block;
+}
+
+.tnc_pvfw_review_rating ul li span {
+	color: #F9A826;
+	font-size: 22px !important;
+	padding: 2px;
+}
+
+.tnc_pvfw_review_btn a {
+	color: #FFF;
+    font-size: 14px;
+    border-radius: 3px;
+    background: #F9A826;
+    padding:8px 26px;
+    text-decoration: none;
+}
+
+.tnc_pvfw_review_btn {
+	text-align: center;
+	padding-bottom: 24px;
+}
+
+.tnc_pvfw_review_title {
+	padding-top: 8px;
+	padding-bottom: 11px;
+}
+
+.tnc_pvfw_review_rating {
+	padding-top: 5px;
+	padding-bottom: 10px;
+}
+
+#tnc_pvfw_metabox_doc .postbox-header {
+	display: none !important;
+} 
+
+#tnc_pvfw_metabox_doc {
+	background: #708EF7;
+	box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
+	border-radius: 5px;
+}
+
+.tnc_pvfw_metabox_doc_title {
+	padding-top: 15px;
+	padding-bottom: 5px;
+}
+
+.tnc_pvfw_metabox_doc_title h4 {
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 30px;
+	text-align: center;
+	color: #FFFFFF;
+	margin: 0px;
+	text-transform: uppercase;
+}
+
+.tnc_pvfw_metabox_doc_desc {
+	padding-top: 5px;
+	padding-bottom: 10px;
+}
+
+.tnc_pvfw_metabox_doc_desc p {
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 20px;
+	text-align: center;
+	color: #FFFFFF;
+	margin: 0px;
+}
+
+.tnc_pvfw_metabox_docs_btn {
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.tnc_pvfw_metabox_docs_btn a {
+	background: #F9A826;
+	border-radius: 5px;
+	display: inline-block;
+	padding: 8px 15px;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 15px;
+	line-height: 35px;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+/*
+* >> tnc pvfw metabox style end
+**/
+
+
+/**Addon & Integration**/
+.addon-title-wrapper {
+    background: #F7F7FF;
+    border: 1px solid #E6E8FF;
+}
+
+.pdfviewer_page_pdf-addon-integration-page #wpcontent {
+	padding:0px;
+}
+
+.addon-title-container {
+    max-width: 1090px;
+	padding:20px;
+}
+
+.addon-title-container h2 {
+	font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    color: #01041E;
+}
+
+.addon-title-container p {
+	font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    color: #666666;
+}
+.addon-integration-wrapper {
+    background: #F6F7FB;
+    border: 1px solid #E5E8FF;
+}
+
+.addon-integration-container {
+	padding:20px;
+	max-width:1090px;
+}
+
+.addon-integration-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    grid-column-gap: 40px;
+    grid-row-gap: 40px;
+	padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.addon-integration-item {
+    background: #FFFFFF;
+    border: 1px solid #E5E8FF;
+    border-radius: 5px;
+    padding: 30px;
+	display: grid;
+}
+
+.pdfviewer_page_pdf-addon-integration-page div#wpfooter {
+	bottom:unset !important;
+}
+
+.image-wrap h4 {
+    font-weight: 600;
+    font-size: 18px;
+    color: #01041E;
+}
+.addon-integration-item .image-wrap {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+.addon-integration-item .item-content h3 {
+   font-size: 17px;
+   line-height: 25px;
+   color: #666666;
+}
+
+.addon-integration-item .item-content p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #8C8C8C;
+}
+
+.addon-integration-item .item-btn a {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+	background: #F9A826;
+    border-radius: 3px;
+	padding:10px 25px;
+}
+.addon-integration-item  .item-btn {
+	padding-top: 40px;
+	padding-bottom: 30px;
+	align-self: end;
+}
+
+.tnc-features-col .features-content{
+  display: flex;  
+  align-items: center;
+}
+.tnc-features-col .features-content img {
+    width: 20px;
+    padding-left: 13px;
+}
+
+.pdf-viewer-fetaure-content .premium-title {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.pdf-viewer-fetaure-content .premium-title a {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.pdfviewer_page_themencode-pdf-viewer-import-file div#wpcontent {
+    padding-left: 0px;
+	padding-right: 0px !important;
+}  
+
+
+.tnc-upload-container {
+	background: #F6F7FB;
+    border: 1px solid #E5E8FF;
+	padding-top:20px;
+	padding-bottom: 20px;
+	padding-left:20px;
+	
+} 
+
+.tnc-upload-container .tnc-import-pdf-title  {
+	max-width: 700px;
+	font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    color: #666666;
+    padding-bottom: 20px;
+}
+.tnc-upload-container  h1 {
+	font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    color: #01041E;
+}
+
+.tnc-promo-banner-top {
+  padding-left:20px;
+}
+
+/*alert*/
+.tnc-pdf-viewer-pro .bstnc-field {
+    position: relative !important;
+}
+
+.tnc-pdf-viewer-pro::after {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.6) !important;
+    z-index: 2;
+    content: '';
+    top: 0px;
+    left: 0px;
+    cursor: pointer;
+}
+
+button.swal2-confirm.swal2-styled {
+    display: none !important;
+}
+
+.bstnc-pro-col p {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.bstnc-pro-col a {
+    background-color: #5E77FD;
+    display: inline-block;
+    text-transform: uppercase;
+    padding: 15px 30px;
+    color:#fff;
+    text-decoration:none;
+    border-radius: 5px;
+    margin-top:20px;
+}
+
+
+.tnc-pdf-viewer-pro::before {
+    content: ' PRO';
+    font-size: 14px;
+    font-weight: 600;
+    background-color:#F9A826 !important;
+    padding: 5px;
+    color: #fff;
+	color:#01041E;
+}
+
+h2#swal2-title {
+	line-height: 38px;
+}
+
+.features-content.free h4 {
+    padding-left: 13px;
+    align-items: center;
+    display: flex;
+}
+
+.features-content.free h4 span  {
+	font-size: 27px !important;
+}
+
+
+/**tnc flipbook csf css override***/
+
+/* 
+.pvfwof-theme-dark .pvfwof-nav-background {
+   background-color: #4F5DE0;
+}
+
+
+.pvfwof-theme-dark .pvfwof-nav ul li a {
+	background-color: #4F5DE0;
+	color: #FFF;
+}
+
+.pvfwof-theme-dark .pvfwof-nav ul li .pvfwof-active {
+	background: #708EF6;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.10);
+}
+
+.pvfwof-theme-dark .pvfwof-nav-normal ul li a {
+	border-bottom-color: rgba(112, 142, 246, 0.50);
+} */
+
+.pvfwof-field-upload input {
+	border-radius: 3px;
+    border: 1px solid #E9E9FF;
+	height: 40px;
+	background-color: #ffffff;
+	color: #8C8C8C !important;
+	font-weight: 500;
+}
+
+.pvfwof--button  {
+    display: inline-block;
+    padding: 5px 26px !important;
+} 
+
+.pvfwof--remove {
+	display: inline-block;
+    padding: 5px 26px !important;
+}
+
+.pvfwof-field+.pvfwof-field {
+    border-top: 1px solid #E5E8FF;
+    background: #F6F7FB;
+} 
+
+.pvfwof-field.pvfwof-field-subheading {
+    background: #F6F7FF;
+}
+
+.pvfwof-fieldset input {
+
+	border-radius: 3px;
+    border: 1px solid #E9E9FF;
+	height: 40px;
+	color: #8C8C8C !important;
+	font-weight: 500;
+	background: #fff !important;
+}
+
+.pvfwof-fieldset input:focus {
+	color: #8C8C8C !important;
+	font-weight: 500;
+	background: #fff !important;
+}
+
+.pvfwof-fieldset select {
+	border-radius: 3px;
+    border: 1px solid #E9E9FF;
+	height: 40px;
+	color: #8C8C8C !important;
+	font-weight: 500;
+}
+.pvfwof-fieldset textarea {
+	border-radius: 3px;
+    border: 1px solid #E9E9FF;
+	color: #8C8C8C !important;
+	font-weight: 500;
+	padding: 10px;
+}
+
+.pvfwof-field.pvfwof-field-backup textarea {
+	border-radius: 3px;
+    border: 1px solid #E9E9FF;
+	color: #8C8C8C !important;
+	font-weight: 500;
+	padding: 10px;
+}
+
+.pvfwof-title h4 {
+    color: #666666 !important;
+    font-size: 14px;
+}
+
+.pvfwof-desc-text {
+    color: #8C8C8C !important; 
+    font-size: 14px;
+} 
+
+.pvfwof-copyright {
+    float: left;
+    margin-top: 5px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+
+.pvfwof-field.pvfwof-field-subheading {
+	color: #666666 !important;
+    font-size: 14px;
+	font-weight: 600;
+}
+
+/**Addon & Integration**/
+.addon-title-wrapper {
+    background: #F7F7FF;
+    border: 1px solid #E6E8FF;
+}
+
+.pdfviewer_page_pdf-addon-integration-page #wpcontent {
+	padding:0px;
+}
+
+.addon-title-container {
+    max-width: 1090px;
+	padding:20px;
+}
+
+.addon-title-container h2 {
+	font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    color: #01041E;
+}
+
+.addon-title-container p {
+	font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    color: #666666;
+}
+.addon-integration-wrapper {
+    background: #F6F7FB;
+    border: 1px solid #E5E8FF;
+}
+
+.addon-integration-container {
+	padding:20px;
+	max-width:1090px;
+}
+
+.addon-integration-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    grid-column-gap: 40px;
+    grid-row-gap: 40px;
+	padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.addon-integration-item {
+    background: #FFFFFF;
+    border: 1px solid #E5E8FF;
+    border-radius: 5px;
+    padding: 30px;
+	display: grid;
+}
+
+.pdfviewer_page_pdf-addon-integration-page div#wpfooter {
+	bottom:unset !important;
+}
+
+.image-wrap h4 {
+    font-weight: 600;
+    font-size: 18px;
+    color: #01041E;
+}
+.addon-integration-item .image-wrap {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+.addon-integration-item .item-content h3 {
+   font-size: 17px;
+   line-height: 25px;
+   color: #666666;
+}
+
+.addon-integration-item .item-content p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #8C8C8C;
+}
+
+.addon-integration-item .item-btn a {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+	background: #F9A826;
+    border-radius: 3px;
+	padding:10px 25px;
+	
+}
+.addon-integration-item  .item-btn {
+	padding-top: 40px;
+	padding-bottom: 30px;
+	align-self: end;
+}
+
+.privacy-sc-addon {
+	background: none !important;
+    border: none !important;
+}
+
+/**End addon & integration style **/
+
+
+/*custom css for tnc flipbook pdf viewer  for wordpress start*/
+.pdf-viewer-feature-container {
+    padding: 20px;
+    max-width: 1090px;
+  }
+.tnc-fetaures-row {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    grid-column-gap:15px;
+    grid-row-gap:15px;
+}
+.tnc-features-col {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 30px rgba(79, 93, 224, 0.1);
+    border-radius: 5px;
+}
+
+.pdf-viewer-welcome-container {
+    background: #F7F7FF;
+    border: 1px solid #E6E8FF;
+    padding: 20px;
+}
+.pdf-viewer-feature-section {
+    background: #F6F7FB;
+    border: 1px solid #E5E8FF;
+}
+.tnc-features-col h4 {
+    margin: 0px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    color: #666666;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    padding-left: 5px;
+    margin-top: 3px;
+}
+
+.tnc-features-col h4 span {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 16px;
+    color: #E15D5D;
+    text-transform: capitalize;
+    padding-right: 5px;
+}
+
+
+.tnc-features-col  span.dashicons.dashicons-yes-alt {
+    color: #BCD3FF;
+    font-size: 32px;
+    margin-top: 5px;
+    margin-right: 13px;
+}
+
+.pvfwof-field.pvfwof-field-callback {
+    padding:0px;
+}
+
+.pdf-viewer-content h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    color: #01041E;
+}
+p.welcome-desc {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    color: #666666;
+    max-width: 547px;
+    padding-bottom: 20px;
+}
+
+
+.pdf-viewer-fetaure-content h3 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    color: #01041E;
+}
+
+.tnc-features-wrapper {
+    padding-bottom: 20px;
+}
+
+.tnc-installation-content h3 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    color: #01041E;
+}
+
+.tnc-installation-content p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 23px;
+    color: #8C8C8C;
+}
+
+.tnc-installtion-secion {
+    background: #FFFFFF;
+}
+
+.tnc-installation-container {
+    padding:20px;
+}
+
+.tnc-installation-content {
+    max-width: 90%;
+    padding-bottom: 40px;
+}
+.tnc-installtion-video {
+    max-width: 900px;
+}
+.tnc-usefull-section {
+    background: #F7F7FF;
+    border: 1px solid #E6E8FF;
+}
+
+.tnc-usefull-section {
+    background: #F7F7FF;
+    border: 1px solid #E6E8FF;
+}
+
+.tnc-usefull-container {
+     max-width: 990px;
+     padding:20px;
+}
+
+.tnc-usefull-content h3 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    color: #01041E;
+} 
+
+.tnc-usefull-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(236px,1fr));
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
+    padding-bottom: 20px;
+}
+
+.tnc-usefull-col {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 30px rgba(79, 93, 224, 0.1);
+    border-radius: 5px; 
+    padding:20px  30px;
+ }
+
+ .tnc-usefull-col .usefull-icon {
+    text-align: center;
+} 
+
+.tnc-usefull-col .usefull-icon span.dashicons.dashicons-desktop {
+    color:#F49595;  
+    font-size:40px;
+} 
+.tnc-usefull-col .usefull-icon span.dashicons.dashicons-welcome-write-blog {
+    color:#90B4FB;  
+    font-size:40px;
+} 
+.tnc-usefull-col .usefull-icon span.dashicons.dashicons-format-video {
+    color:#F5D83E;  
+    font-size:40px;
+} 
+.tnc-usefull-col .usefull-icon span.dashicons.dashicons-groups {
+    color:#07B461;  
+    font-size:40px;
+} 
+
+
+.tnc-usefull-col  .usefull-titile h4 {
+    text-align: center;
+} 
+
+.tnc-usefull-col .usefull-titile {
+    padding-top: 30px;
+}
+
+.tnc-usefull-col .usefull-titile  h4 {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #666666;
+}
+
+.tnc-usefull-col .usefull-icon span {
+    display: inline;
+}
+
+.tnc-usefull-grid a {
+    text-decoration: none;
+}
+
+/*custom css for tnc flipbook pdf viewer  for wordpress start*/
+
+
+.pvfwof-field.pvfwof-field-callback .post_item {
+    margin-left: 30px;
+	
+}
+
+.pvfwof-field.pvfwof-field-callback .post_item:nth-child(1){
+	margin-top: 25px;
+}
+
+
+/*****Metabox style part start ****/
+
+div#tnc_pvfw_metabox_wp_file .postbox-header  {
+    display: none !important;
+}
+
+div#tnc_pvfw_metabox_display .postbox-header  {
+    display: none !important;
+}
+
+div#tnc_pvfw_metabox_wp_file {
+    border-radius: 5px;
+    background: #183763;
+    box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.10);
+    padding-top: 33px;
+    padding-bottom: 25px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.tnc_pvfw_wp_file_title h4 {
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    margin: 0px;
+}
+
+.tnc_pvfw_wp_file_subtitle p {
+
+    color: rgba(255, 255, 255, 0.80);
+    text-align: center;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.tnc_pvfw_wp_file_btn a {
+
+    border-radius: 3px;
+    background: #50BEE8; 
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    line-height: 35px;
+    padding:8px 26px;
+    text-decoration: none;
+} 
+
+.tnc_pvfw_wp_file_btn {
+    text-align: center;
+    padding-top: 10px;
+} 
+div#tnc_pvfw_metabox_display {
+    border-radius: 5px;
+    background: #2844AA;
+    box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.10);
+}
+
+
+
+.tnc_pvfw_display_title h4 {
+    color: #FFF;
+    text-align: center;
+    font-size: 30px;
+    line-height: normal;
+    letter-spacing: 0.6px;
+    text-transform: uppercase;
+}
+.tnc-display-logo {
+   text-align: center;
+}
+
+.tnc_pvfw_display_subtitle p {
+    color: rgba(255, 255, 255, 0.80);
+    text-align: center;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.tnc_pvfw_display_btn a {
+    border-radius: 3px;
+    background: #F9A826;
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    line-height: 35px;   
+    padding:8px 26px;
+    text-decoration: none;
+}
+
+.tnc_pvfw_display_btn {
+
+    text-align: center;
+    padding-top: 10px;
+}
+
+.tnc-review-heading h3 {
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    border: none !important;
+    margin: 0px;
+} 
+
+#tnc_pvfw_metabox_review .tnc_pvfw_review_title h4 {
+	color: #FCB11F;
+    text-align: center;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 200 !important;
+    line-height: normal;
+    margin: 0px;
+}
+
+div#tnc_pvfw_metabox_display {
+    padding-top: 33px;
+    padding-bottom: 25px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.tnc-review-heading {
+
+    padding-top: 10px;
+}
+
+
+
+
+
+/*****Metabox style part end ****/
+
+
+
+
+
+
+

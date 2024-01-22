@@ -1,0 +1,161 @@
+.ps-avatar--hovercard {
+  --width: var(--normal) !important;
+
+  @if $rtl {
+    margin-left: var(--PADD);
+  } @else {
+    margin-right: var(--PADD);
+  }
+
+  > img {
+    vertical-align: middle;
+    border: 3px solid #fff !important;
+  }
+}
+
+.ps-hovercard {
+  --width: 300px;
+  --bg: var(--PS-COLOR--APP);
+  --shadow: var(--BOX-SHADOW--MD);
+  --radius: var(--BORDER-RADIUS--MD);
+
+  width: var(--width);
+  min-height: 100px;
+  line-height: var(--PS-LINE-HEIGHT);
+  background-color: var(--bg);
+  box-shadow: var(--shadow);
+  border-radius: var(--radius);
+  box-sizing: border-box;
+
+  * {
+    box-sizing: border-box;
+  }
+
+  @include mq($until: desktop) {
+    width: 100%;
+  }
+}
+
+.ps-hovercard--audio {
+  --width: 200px;
+}
+
+.ps-hovercard__inner {
+  position: relative;
+}
+
+.ps-hovercard__header {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  border-top-left-radius: var(--radius);
+  border-top-right-radius: var(--radius);
+
+  .ps-hovercard--audio & {
+    height: var(--width);
+  }
+}
+
+.ps-hovercard__overlay {
+  display: flex;
+  align-items: flex-end;
+  min-height: 100px;
+  padding: var(--PADD);
+  background: rgb(0,0,0);
+  background: -webkit-linear-gradient(270deg, rgba(0,0,0,0.7035014689469538) 0%, rgba(255,255,255,0) 35%);
+  background: -o-linear-gradient(270deg, rgba(0,0,0,0.7035014689469538) 0%, rgba(255,255,255,0) 35%);
+  background: linear-gradient(360deg, rgba(0,0,0,0.7035014689469538) 0%, rgba(255,255,255,0) 35%);
+}
+
+.ps-hovercard__name {
+  font-size: 90%;
+  color: #fff;
+  text-shadow: 0 1px 1px #000;
+}
+
+.ps-hovercard__body {}
+
+.ps-hovercard__footer {
+  font-size: 80%;
+}
+
+.ps-hovercard__details {
+  display: flex;
+  align-items: stretch;
+}
+
+.ps-hovercard__count {
+  flex-grow: 1;
+  padding: var(--PADD) var(--PADD--SM);
+  text-align: center;
+  color: var(--PS-COLOR--TEXT--LIGHT);
+
+  > i {
+    color: var(--PS-COLOR--TEXT--LIGHTEN);
+  }
+}
+
+.ps-hovercard__count--views {
+  @if $rtl {
+    border-left: 1px solid var(--DIVIDER--LIGHT);
+  } @else {
+    border-right: 1px solid var(--DIVIDER--LIGHT);
+  }
+}
+
+.ps-hovercard__count--likes {}
+
+.ps-hovercard__actions {
+  flex-grow: 1;
+  padding: var(--PADD) var(--PADD--SM);
+  text-align: center;
+  color: var(--PS-COLOR--TEXT);
+
+  @include mq($from: tablet) {
+    &:hover {
+      color: var(--PS-COLOR--TEXT--LIGHT);
+    }
+  }
+
+  @if $rtl {
+    border-right: 1px solid var(--DIVIDER--LIGHT);
+  } @else {
+    border-left: 1px solid var(--DIVIDER--LIGHT);
+  }
+
+  // @include mq($from: desktop) {
+  //   display: none;
+  // }
+}
+
+.ps-hovercard__meta {
+  padding: var(--PADD);
+  border-bottom: 1px solid var(--DIVIDER--LIGHT);
+
+  &:last-child {
+    border-bottom: none;
+  }
+}
+
+.ps-hovercard__meta-label {
+  > i {
+    min-width: 20px;
+    color: var(--PS-COLOR--TEXT--LIGHT);
+  }
+}
+
+.ps-hovercard__meta-data {}
+
+.ps-hovercard__loading {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  transform: translateY(-50%);
+  display: none;
+  padding: var(--PADD--MD);
+  text-align: center;
+  z-index: 1;
+  color: var(--PS-COLOR--TEXT--LIGHT);
+}

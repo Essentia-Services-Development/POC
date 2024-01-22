@@ -1,0 +1,37 @@
+.doorHanger:after,
+  .doorHanger:before,
+  .doorHangerRight:after,
+  .doorHangerRight:before {
+    bottom: 100%;
+    border: solid rgba(0, 0, 0, 0); 
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+  }
+
+  .doorHanger:before, .doorHangerRight:before {
+    border-width: 9px !important;
+  }  
+
+@media screen and (max-width:332px) {
+  .toolbarField.pageNumber {
+      width: 25px;
+    }
+}
+
+@media screen and (min-width:641px) {
+  html[dir="ltr"] .toolbar-top-full-width.icon-medium .findbar {
+    left: 81px !important;
+  }
+  
+  html[dir="ltr"] .toolbar-top-full-width.icon-large .findbar {
+    left: 81px !important;
+  }
+} 
+
+
+ 
+
+ 

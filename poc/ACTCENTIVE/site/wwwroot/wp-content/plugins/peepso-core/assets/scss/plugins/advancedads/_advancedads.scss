@@ -1,0 +1,14 @@
+/*  Add botom margin to Ads wrapper  */
+.ps-stream-container > div {
+	margin-bottom: 14px;
+}
+
+.ps-stream-container > div:last-child {
+	margin-bottom: 0;
+}
+
+/*  Modifier for Ad post on Activity Stream  */
+.ps-stream--advads {}
+
+/*  Wrapping Ad image */
+.ps-advads__image {}

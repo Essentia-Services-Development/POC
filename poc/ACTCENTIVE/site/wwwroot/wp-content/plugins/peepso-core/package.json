@@ -1,0 +1,72 @@
+{
+  "name": "peepso",
+  "private": true,
+  "scripts": {
+    "core": "PKG=core npm run _${MODE:-build}",
+    "modules": "PKG=modules npm run _${MODE:-build}",
+    "classes": "exit 1",
+    "elements": "PKG=elements npm run _${MODE:-build}",
+    "sections": "PKG=sections npm run _${MODE:-build}",
+    "bundle": "browserify -e assets/js/index.js | uglifyjs -c -m -o assets/js/bundle.min.js",
+    "blogposts": "PKG=blogposts npm run _${MODE:-build}",
+    "fileupload": "browserify -g browserify-shim -e assets/js/fileupload/index.js | uglifyjs -c -m -o assets/js/fileupload.min.js",
+    "hashtags": "PKG=hashtags npm run _${MODE:-build}",
+    "location": "PKG=location npm run _${MODE:-build}",
+    "markdown": "PKG=markdown npm run _${MODE:-build}",
+    "moods": "PKG=moods npm run _${MODE:-build}",
+    "profile": "PKG=profile npm run _${MODE:-build}",
+    "usertags": "PKG=usertags npm run _${MODE:-build}",
+    "css": "node-sass assets/scss/styles.scss --output-style compressed > templates/css/template.css",
+    "_build": "browserify -e assets/js/$PKG/index.js | uglifyjs -c -m -o assets/js/$PKG.min.js",
+    "_watch": "watchify -e assets/js/$PKG/index.js -o assets/js/$PKG.min.js --delay 1500"
+  },
+  "dependencies": {
+    "blueimp-file-upload": "^10.32.0",
+    "fg-loadcss": "^3.1.0",
+    "imagesloaded": "^5.0.0",
+    "load-script": "^2.0.0",
+    "marked": "^4.2.5",
+    "object-assign": "^4.1.1",
+    "promise": "^8.3.0",
+    "swipejs": "github:rsusanto/swipe#rtl-support",
+    "truncate": "github:pathable/truncate"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.7",
+    "@babel/plugin-proposal-class-properties": "^7.18.6",
+    "@babel/preset-env": "^7.20.2",
+    "@peepso/prettier-config": "^1.0.3",
+    "@wordpress/browserslist-config": "^5.7.0",
+    "babelify": "^10.0.0",
+    "browserify": "^17.0.0",
+    "browserify-shim": "^3.8.16",
+    "node-sass": "^8.0.0",
+    "prettier": "^2.8.1",
+    "uglify-js": "^3.17.4"
+  },
+  "babel": {
+    "plugins": [
+      "@babel/plugin-proposal-class-properties"
+    ],
+    "presets": [
+      "@babel/preset-env"
+    ]
+  },
+  "browserify": {
+    "transform": [
+      "babelify",
+      "browserify-shim"
+    ]
+  },
+  "browserify-shim": {
+    "jquery": "global:jQuery",
+    "./vendor/jquery.ui.widget": "global:jQuery",
+    "underscore": "global:_",
+    "peepso": "global:peepso",
+    "peepsodata": "global:peepsodata"
+  },
+  "browserslist": [
+    "extends @wordpress/browserslist-config"
+  ],
+  "prettier": "@peepso/prettier-config"
+}

@@ -1,0 +1,15 @@
+@mixin custom-scrollbar {
+  &::-webkit-scrollbar {
+    width: 4px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background: var(--PS-COLOR--APP--GRAY);
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: var(--PS-COLOR--TEXT--LIGHT);
+    border-radius: 20px;
+    border: 1px solid var(--PS-COLOR--APP--GRAY);
+  }
+}

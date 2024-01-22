@@ -1,0 +1,33 @@
+.ps-form--report {
+  .ps-input {
+    font-size: 90%;
+  }
+
+  .ps-input--select {
+    margin-bottom: var(--PADD);
+  }
+
+  .ps-alert {
+    margin-bottom: 0;
+  }
+}
+
+.ps-form--ban {
+  font-size: 90%;
+
+  .ps-form__row {
+    align-items: center;
+  }
+
+  .ps-form__label {
+    @if $rtl {
+      margin-left: var(--PADD);
+    } @else {
+      margin-right: var(--PADD);
+    }
+  }
+
+  .ps-form__field {
+    margin-top: 0;
+  }
+}

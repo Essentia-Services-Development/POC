@@ -1,0 +1,60 @@
+.rh-t-model :not(:defined) > :not(.poster) {
+    display: none;
+}
+.rh-t-model :defined > .poster > .pre-prompt {
+    display: none;
+}
+.rh-t-model .poster {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.rh-t-model .pre-prompt {
+    pointer-events: none;
+    animation-name: lefttoright;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+.rh-t-model .ar-button{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+    bottom: 16px;
+    font-size: 14px;
+    border-radius: 18px;
+    border: 1px solid #DADCE0;
+    color:cornflowerblue;
+    display: inline-block;
+}
+.progress-bar {
+    display: block;
+    width: 33%;
+    height: 10%;
+    max-height: 2%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate3d(-50%, -50%, 0);
+    border-radius: 25px;
+}
+.progress-bar.hide {
+    visibility: hidden;
+    transition: visibility 0.3s;
+}
+.update-bar {
+    background-image: linear-gradient(45deg, #B2A2CD 25%, #5c5269 25%, #5c5269 50%, #B2A2CD 50%, #B2A2CD 75%, #5c5269 75%, #5c5269 100%);
+    background-size: 28.28px 28.28px;
+    width: 0%;
+    height: 100%;
+    border-radius: 25px;
+    float: left;
+    transition: width 0.3s;
+}

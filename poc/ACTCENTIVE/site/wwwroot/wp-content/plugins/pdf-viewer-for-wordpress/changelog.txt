@@ -1,0 +1,497 @@
+== 11.6.0 ==
+* Removed unnecessary google fonts from admin part to improve performance.
+
+== 11.5.0 ==
+* Changed Default zoom to page-fit
+* Added REST Support for the post type
+
+== 11.4.0 ==
+* Fixed issue with presentation mode
+* Added Flip Sound Control on individual flipbook settings
+* Improved error handling
+* Misc. other updates & improvements
+
+== 11.3.0 ==
+* Fixed issue with plain permalink structure
+* Improved JS file for conflict
+* Fixed a wraning coming up for return link text
+* Misc. other updates & improvements
+
+== 11.2.0 ==
+* Added Shortcode support to Error Message field (WP File Access Manager)
+* Added Return to site Link Text on individual flipbook edit page
+* Changed example code format of GA4
+* Misc. other updates & improvements
+
+== 11.1.0 ==
+* Updated Analytics Tracking code for GA4
+* Polished some areas in terms of appearance
+* Moved Addons & Integrations from Global Settings to Submenu
+* Misc. other updates & improvements
+
+== 11.0.2 ==
+* Fixed Issue with Automatic Linking and Embed
+
+== 11.0.1 ==
+* Fixed scrollbar appearance issue
+
+== 11.0.0 ==
+* Updated name with new Branding TNC FlipBook - PDF viewer for WordPress
+* Added 3 different icon size (Small, Medium, Large)
+* Added 4 different toolbar placement options (Top center, Bottom Center, Top Full Width, Bottom Full Width)
+* Added option to use custom background image on viewer
+* Added buttons to get rid of the review seeking notice
+* Optimized color schemes
+* Fixed issue with auto_viewer redirection
+* Misc. Other fixes and improvements
+
+== 10.9.4 ==
+* Added Flip Sound effect
+* Fixed Too many redirects error on draft preview of viewer
+* Added option to Use separate logo & favicon for each viewer
+
+== 10.9.3 ==
+* Preview Addon is now available. You can display preview of a few pages before providing access to full pdf file.
+* Provide access based on user/roles/woocommerce purchase or pmpro levels.
+* Added new Color Theme Called "Sea Green"
+* Added a filter to dynamically change pdf url to be loaded. Makes it compatible with Preview Addon.
+
+== 10.9.2 ==
+* Better integration with Oxygen Builder, Now you can use the default GUI for Oxygen As well.
+* Fixed X embed Shortcode
+* Fixed Fullscreen Mode setting issue on X shortcodes
+
+== 10.9.0 ==
+* Fixed shaking of flipbook on some screens
+* Added 2 X shortcodes to make it compatible with Oxygen builder.
+
+== 10.8.3 ==
+* Moved some instructions as subtitle instead of description
+* Added 3 new addons (Display Addon, Avada Addon & Divi Addon ) on Addons page
+* Misc. Other Improvements
+
+== 10.8.2 ==
+* Added a new color theme Louis Purple
+
+== 10.8.1 ==
+* Bookshelf layout is now available with Display Addon: https://themencode.com/display-pdf-viewer-for-wordpress-addon/
+* Added a new Color Theme "Smart Red"
+* Fixed Dark icon issue when using custom color setting
+* Misc. Other improvements
+
+== 10.8.0 ==
+* Added [pvfw-image-link] shortcode
+* Moved zoom, jump to page, pagemode settings to edit pdf viewer page from shortcode builder
+* Added a button to copy pdf viewer url on archive and single viewer edit page
+* Divi addon is now available: https://themencode.com/divi-pdf-viewer-for-wordpress
+* Misc. Other improvements
+
+== 10.7.0 ==
+* Added instructions under a few setting fields
+* Organized & Optimized css code
+* Fixed a Warning for pagemode parameter
+* Fixed typo issues
+* Added Video & Documentation Links on plugins page
+* Misc. Other improvements
+
+== 10.6.5 ==
+* Fixed Warnings on Fresh Installation
+* Added Dismissable Notice in case of invalid registration
+* Misc. Fixes and improvements
+
+== 10.6.4 ==
+* Updated the way custom color option works to prevent 403 forbidden issues on some servers
+* Fixed Global options reset issue on plugin activation for existing installations
+* Fixed Issue with Legacy Pages auto Selection in global settings
+* Fixed Issue with Pagenav Display on Automatic Link & embed options
+
+== 10.6.3 ==
+* Fixed Warnings on Fresh Installation
+* Fixed Issues with Theme Selection on Single Viewer
+* Fixed Issues with Theme Selection on Global Settings
+* Misc improvements
+
+== 10.6.2 ==
+* Fixed Warnings on 404 page
+* Fixed some warnings for fresh installations
+* Misc improvements
+
+== 10.6.1 ==
+* Fixed a small issue.
+
+== 10.6 ==
+* Fixed ODD spread mode not working issue
+* External Links are set to open in new tab now
+* Go Home button set to use parent target for WFAM protected files
+* Misc. improvements to  get rid of various warnings
+
+== 10.5.1 ==
+* Fixed broken issue happening for custom color scheme
+
+== 10.5.0 ==
+* Updated pdf js build
+* Various improvements
+
+== 10.4.5 ==
+* Updated Options Framework
+* Misc. Improvements.
+
+== 10.4.4 ==
+* Fixed issue with purchase code registration happening to some users.
+
+== 10.4.3 ==
+* Fixed fatal error showing on some sites.
+
+== 10.4.2 ==
+* Improvement to automatic zoom option
+* Added option to define a viewer height on mobile
+* Various other improvements
+
+== 10.4.1 ==
+* Fixed Issue on firefox with tabs
+* Added Separate jQuery
+* Changed PDF Viewer Capability.
+* Misc. improvements
+
+== 10.4 ==
+* Fixed Automatic Update issue. Please update to this version manually to be able to use auto update feature from next versions.
+* Fixed issue with Printing
+* Fixed Some issues with zoom
+* Added 2 new shortcode parameters for zoom and page mode.
+* Misc. improvements
+
+== 10.3 ==
+* Misc. improvements.
+* Registration required for the viewer to work.
+
+== 10.2 == 
+* Added translation pot file
+* Fixed issue with Zoom
+* Misc. improvements.
+
+== 10.1.5 == 
+* Fixed not working issue on auto link and discontinued shortcodes.
+
+== 10.1.4 == 
+* Fixed old php compatibility
+
+== 10.1.3 == 
+* Fixed Default zoom issue
+
+== 10.1.2 == 
+* Fixed Compatibility with older php versions
+
+== 10.1.1 == 
+* Fixed Left right pagenav issue
+
+== 10.1.0 == 
+* Fixed Default spread mode on flipbook mode
+* Fixed Left right pagenav
+* Misc. fixes and improvements
+
+== 10.0.1 == 
+* Fixes to some issues on arised on v10.0
+
+== 10.0 == 
+* 10.0 is a Major Update, Please follow this article to migrate settings: https://themencode.support-hub.io/articles/upgrading-to-version-10-2508
+* Changed the url structure to be much shorter.
+* Changed the way to create PDF Viewers, now its easier than ever before!
+* There's a new post tye pdfviewer for the PDF Viewers
+* Added 2 new shortcodes, [pvfw-embed] & [pvfw-link]
+* Discontinued Old shortcodes, previously created shortcodes will still work but you can't create those shortcodes anymore now
+* Remove Shortcode Generator Menu items
+* Updated the Options page to a new, modern & clean one
+* Added option to sync global settings for each and every individual pdf viewers
+* Updated Documentation, New documentation here: https://themencode.support-hub.io/knowledgebase/977
+* Updated Video instructions. Can be found in this playlist: https://youtube.com/playlist?list=PL0BHfncpP5oSkv9_LfgeXoElT_xhhEla1
+* Added lot more flexibility to use.
+* PDF Viewer featured images will be used as social share thumbnail image
+* Fixed linkedin share url
+* Added option to customize WP File Access Manager Error Messages for every pdf viewer
+* Added option to customize return to site link for every pdf viewer
+* Added option to use custom JS on viewer pages
+* Removed previous tinymce editor codes completely
+
+== 9.2.1 == 
+* Fixed an issue with Shortlink shortcode
+* Misc. Improvments in jQuery and other areas.
+
+== 9.2 == 
+* New Gutenberg Block to create PDF Viewer shortcodes more easily and quickly.
+* Replaced old Tinymce interface with new one for Classic Editor.
+* Misc. Improvments.
+
+== 9.1.3 == 
+* Fixed flipbook width being smaller on mobile devices.
+
+== 9.1.2 == 
+* Fixed javascript conflict due to cache on update's
+
+== 9.1.1 == 
+* Fixed Defaulting to Flipbook mode (Raised in v9.1)
+* Fixed Presentation Mode not working issue
+* Fixed Return to site button appearance issue
+* Misc. improvements & cleanups
+
+== 9.1 == 
+* Added support for pdf's with fillable forms
+* Updated shortcodes to be extendable
+* Fixed issue with responsive fix
+* Fixed issue with pinch-zoom
+* Misc. improvements
+
+== 9.0.5 == 
+* Security fixes
+* Fixed variable mismatch issue on shortcode generator pages
+* Fixed spread issue on flipbook mode
+
+== 9.0.4 == 
+* Fixed icons size issue on scaled displays on windows devices
+* Fixed a typo issue in options page
+* Misc. improvements
+
+== 9.0.3 == 
+* Added the option to upload favicon for viewer pages
+* Fixed pagenav visibility issue on android devices
+* Fixed issue with pagenav display shortcode parameter.
+* Added rtl support to pagenav icons.
+* Appended version number to static resources to avoid caching issues on update.
+
+== 9.0.2 == 
+* Fixed a small issue with pagenav
+
+== 9.0.1 == 
+* Added Elementor Addon Details on Addons Page (New addon available on codecayon to allow PDF Viewer shortcode creation using Elementor Builder)
+* Updated Page Navigation buttons functionality for better performance.
+* Updated Menu icon
+* Misc. Improvements
+
+== 9.0 == 
+* Added Flipbook Mode, Simply choose Flip in Default Scrolling Mode and Even Spread in Default Spread Mode setting to enable Flipbook by default.
+* Fixed Return to Site text saving issue
+* Fixed link color issue on Retiurn to Site Link on custom setting
+* Added Next/Previous page buttons on  left and right center. Best for Flip Mode
+* Fixed a small issue on iFrame Shortcode
+* Removed Google Plus Share icon
+* Added Whatsapp share icon
+* Updated Viewer Page title to be unique, so it doesn't get treated as duplicates by search engines.
+* Fixed a missing image (loading-small.svg) console warning
+* Misc. Improvements
+
+== 8.5.1 == 
+* Fixed issue with Automatic Link/iFrame Feature
+* Removed duplicate fields from tinymce editor.
+
+== 8.5 == 
+* Changed Admin Menu Name to PDF Viewer from ThemeNcode PDF Viewer
+* Updated Admin Menu icon
+* Added new shortcode parameters to set default scroll and default spread values
+* Added a Return to Site link on bottom right corner which will use the referrer link.
+* Other misc. improvements
+* Fixed Highlighting Issue on toolbar items
+* Slightly updated the design of right menu elements to look cleaner.
+* Fixed social icons display issue on Aqua white color scheme
+* Updated viewer page title, so Viewer title will use the site name instead of pdf file name.
+* Made Updates/Site registration menu items visible to only admin users.
+
+== 8.4 == 
+* Added Integration with WP File Access Manager ( https://codecanyon.net/item/wp-file-access-manager/26430349 ). Not allowed users will get specific error message.
+* Fixed Language Issue
+* Updated style on Upload PDF File Page
+* Updated Style on Import PDF File Page
+* Other misc. improvements
+
+== 8.3 == 
+* Added 2 actions for header and footer (Details on blog post)
+* Added Default social sharing image, can be updated using filter
+* Implemented pdfjs 2.3.200
+* Enqueued jQuery from plugin
+* Added Option to enable/disable context menu/right click
+* Added option to enable/disable copy shortcut ctrl+c/cmd+c
+* Misc. improvements
+
+== 8.2 == 
+* Added new shortcode parameter (iframe_title) to iFrame shortcode
+* Fixed Link shortcode generator having a field duplicated on tinymce shortcode generator
+* Added Default value for pagemode shortcode parameter to none
+* Added attachments pagemode in shortcode generator
+* Fixed icon size issue on safari
+
+== 8.1 == 
+* Added site Deregistration option for automatic updates
+* Added support for PDF Files from external url's (Requires CORS config on external domain)
+* Keep last settings saved for all the shortcode generator pages on wp-admin
+* Some other small improvements and fixes
+
+== 8.0 == 
+* Fixed Printing issue
+* Added Automatic Update functionality
+
+== 7.6 ==
+* Fixed issue with Automatic Link/iFrame
+* Fixed issue on Shortcode Generator Pages
+
+== 7.5 ==
+* Added Horizontal/Vertical scrolling options
+* Added additional shortcode parameters to provide better control on toolbar items
+* Added option pages to generate shortcodes from admin panel
+* Lots of other improvements
+
+== 7.4 ==
+* Fixed Auto Link conflict with regular links
+* Fixed Share by Email functionality
+* Updated & improved Share by email popup look
+
+== 7.3 ==
+* Fixed Error in Raw Link Generator
+* Fixed Warning messaged on plugin activation with debug mode
+* Fixed Warning messaged on plugin options page with debug mode
+
+== 7.2 ==
+* pdfjs 1.9.426 which includes lots of improvements
+* Fullscreen mode link with autoiframe feature
+
+== 7.1 ==
+* Added 3 Themes & way to choose Themes
+* Updated the color customizer with more options
+* Updated icons
+* Added Light & Dark version of icons
+* Added pinch & zoom for mobile devices (beta)
+* Made design & functional adjustments
+
+== 7.0 ==
+* Fixed: Typo mistakes in shortcode
+* Added: Shortcode Parameters to Hide Current View
+* Added: Shortcode Parameters to Hide Rotate
+* Added: Shortcode Parameters to Hide Hand Tool
+* Added: Shortcode Parameters to Hide Document Properties
+* Added: Shortcode Parameters to Hide Right Toggle Menu completely
+* Added: Options for hiding all the buttons (Current View, Rotate, Hand Tool, Document Properties, Toggle Menu)
+* Updated: PDF js to latest stable build 1.8.188
+* Some other misc fixes and updates...
+
+== 6.6 ==
+* Fixed: Page templates not showing/working for a few users with specific themes.
+
+== 6.5 ==
+* Updated pdfjs to 1.7.225
+* Fixed printing issues on Edge
+* Improved performance
+* Fixed toggle bookmarks bar visibility on mobile
+* Added new addon details to addons page
+
+== 6.1 ==
+* Fixed error in autolink and autoiframe
+* URL Generator updated with new structure
+* Changed url parameter from view to tnc_pvfw to avoid conflicts
+* Added Language Selector in Options page which will be used for autolink and autoiframe.
+* Removed extra slash from url generated by shortcode
+
+== 6.0 ==
+* Updated url structure, so PDF file url is not visible on Address bar anymore now
+* Disabled Right Click on viewer
+* PDf js script updated to latest stable version
+* Some other minor updates...
+
+== 5.5 ==
+* Added a Link Generator which you can use to create direct links
+* Made Iframe Responsive Fix as not mandatory. You can now enable/disable it.
+* Design Cleanup on Admin settings pages
+* Added Addons menu where you can find PDF Viewer addons
+* Some other minor updates...
+
+== 5.3 ==
+* Fixed a typo mistake in viewer.php
+
+== 5.2 ==
+* Fix to a few minor issues
+* Updated pdfjs to latest version
+
+== 5.1 ==
+* Fixed Saving issue in Options page
+
+== 5.0 ==
+* Newly Updated Documentation (can be found here: http://themencode.com/docs/pdf-viewer-for-wordpress/)
+* Added New Shortcode for Raw Link (tnc-pdf-viewer-raw-link)
+* Changed update notification url to https
+* New Parameter pagemode added to all shortcodes
+* Removed Unnecessary Fields from shortcode generator
+* Added an option to assign viewer page id's manually
+* Improvements and fixes to print option
+* Links inside pdf will open in new tab now
+* Fixed Compatibility with Plain Permalink structure
+* Added Link Target Parameter Back to Shortlink Shortcode
+* Many improvements to Viewer loading and other functionalities
+* Fixed formatting issue on Options Page
+* Some other minor improvements
+
+== 4.5 ==
+* The url is more shorter now.
+* Uses Page Templates to render pdf viewer now.
+* Added option to ignore external pdf links for automatic link and iframe options
+* Fixed Fulscreen Mode Display Option on iFrame Shortcode
+* Fixed Warnings on Save Options and viewer page
+
+== 4.1 ==
+* Added PDF Importer from external Website
+* Added Google Analytics Option
+* Added option to change Fullscreen Text
+* Some other Minor improvements
+
+== 4.0 ==
+* Update code structure to make the url shorter
+* Fixed Translation Feature
+* Added a link for fullscreen mode on iframe shortcode
+* Removed Target parameter from shortlink shortcode. It will now be controled using the option in backend
+* Some other Minor improvements
+
+== 3.6 ==
+* Fixed conflict on frontend admin bar
+* Fixed a syntax error
+* Fixed styling issues on Upload PDF File Page on Backend.
+* Fixed Default zoom in iframe shortcode
+
+== 3.5 ==
+* Now supports links inside pdf files
+* Fixed Iframe shortcode issue
+* Fixed Automatic Iframe height issue
+* Fixed Prefix Issue to avoid conflict with other ThemeNcode Plugins/Themes
+* Improved pdf uploader
+* Some more adjustments which makes the viewer work more smoothly
+
+== 3.0 ==
+* New Shortcode to have Image Links
+* Tinymce button added to easily create shortcodes
+* Automatic Email Sending Issue Fix (It was happening for a few servers)
+* Fixed Visibility options in Responsive Mode
+* Fixed Social Share Hiding Issue
+* Fixed Saving Issue on Backend Settings Page
+* Added Page Links shortcode Parameter (link to a specific page of pdf file)
+* Added new shortcode parameter for default zoom
+* Added Automatic Iframe Option
+* Added a Page for Uploading PDF File & get link easily
+
+== 2.0 ==
+* Translatable into 100+ Languages
+* New Shortcode to keep the link short
+* Autolink Target Option
+* Custom Css Field for Viewer
+* Integrated Logo Uploader
+* Customize colors of Viewer
+
+== 1.3 == == 
+* Fixed Automatic Linking issue
+
+1.2 ==
+* Fixed Logo Formatting
+* More Clear & Nice Admin Interface
+* Replaced split function so its compatible with php 5.3+
+* Added More Screenshots
+
+== 1.1 ==
+* Fixed Compatibility Issue with Safari Browser
+* Fixed Social Media Icon aligning
+* Fixed Responsive Issues
+
+== 1.0 ==
+First Release

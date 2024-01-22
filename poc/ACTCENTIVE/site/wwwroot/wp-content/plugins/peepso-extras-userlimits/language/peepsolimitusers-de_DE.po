@@ -1,0 +1,373 @@
+# Translation of PeepSo - User Limits in German
+# This file is distributed under the same license as the PeepSo - User Limits package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2023-01-29 04:46:11+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0\n"
+"Language: de\n"
+"Project-Id-Version: PeepSo - User Limits\n"
+
+#: templates/limitusers/debug-formatted.php:53
+msgid "Add a profile cover to:"
+msgstr ""
+
+#: templates/limitusers/debug-formatted.php:42
+msgid "Add an avatar to:"
+msgstr ""
+
+#: templates/limitusers/debug-formatted.php:21
+msgid "Some actions are role-restricted:"
+msgstr ""
+
+#: classes/configsectionlimitusers.php:267
+msgid "Roles"
+msgstr ""
+
+#: classes/configsectionlimitusers.php:248
+msgid "Controls file uploads in posts, comments, and chats.<br/>Does not affect Photos, Videos, Audio plugins."
+msgstr ""
+
+#: classes/configsectionlimitusers.php:247
+msgid "Files"
+msgstr ""
+
+#: classes/configsectionlimitusers.php:238
+msgid "Controls audio uploads.<br/>Does not affect embeds & links."
+msgstr ""
+
+#: classes/configsectionlimitusers.php:237
+msgid "Audio - upload"
+msgstr ""
+
+#: classes/configsectionlimitusers.php:230
+msgid "Controls embedding audios in their posts.<br/>Does not affect audio links in text posts."
+msgstr ""
+
+#: classes/configsectionlimitusers.php:229
+msgid "Audio - embed"
+msgstr ""
+
+#: classes/configsectionlimitusers.php:222
+msgid "Controls video uploads.<br/>Does not affect embeds & links."
+msgstr ""
+
+#: classes/configsectionlimitusers.php:221
+msgid "Videos - upload"
+msgstr ""
+
+#: classes/configsectionlimitusers.php:214
+msgid "Controls embedding videos in their posts.<br/>Does not affect video links in text posts."
+msgstr ""
+
+#: classes/configsectionlimitusers.php:213
+msgid "Videos - embed"
+msgstr ""
+
+#: classes/configsectionlimitusers.php:205
+msgid "Controls album creation and uploading photos in posts, comments, chats.<br/>Does not affect avatars and covers."
+msgstr ""
+
+#: classes/configsectionlimitusers.php:204
+msgid "Photos"
+msgstr ""
+
+#: classes/configsectionlimitusers.php:196
+msgid "Controls creating new message threads.<br/>Does not affect pre-existing threads."
+msgstr ""
+
+#: classes/configsectionlimitusers.php:195
+msgid "Chat - new threads"
+msgstr ""
+
+#: classes/configsectionlimitusers.php:187
+msgid "Controls group creation.<br/>Does not affect groups created earlier."
+msgstr ""
+
+#: classes/configsectionlimitusers.php:186
+msgid "Groups - create"
+msgstr ""
+
+#: classes/configsectionlimitusers.php:178
+msgid "Controls joining groups and being invited to groups.<br/>Does not affect groups created earlier."
+msgstr ""
+
+#: classes/configsectionlimitusers.php:177
+msgid "Groups - join"
+msgstr ""
+
+#: classes/configsectionlimitusers.php:169
+msgid "Controls sending friend requests.<br/>Does not affect receiving friend requests."
+msgstr ""
+
+#: classes/configsectionlimitusers.php:168
+msgid "Friend requests"
+msgstr ""
+
+#: classes/configsectionlimitusers.php:159
+msgid "Jobs"
+msgstr ""
+
+#: classes/configsectionlimitusers.php:150
+msgid "Events - RSVP"
+msgstr ""
+
+#: classes/configsectionlimitusers.php:145
+msgid "Events - create / manage"
+msgstr ""
+
+#: classes/configsectionlimitusers.php:133
+msgid "Post Backgrounds"
+msgstr ""
+
+#: classes/configsectionlimitusers.php:125
+msgid "Controls adding polls.<br/>Does not affect voting."
+msgstr ""
+
+#: classes/configsectionlimitusers.php:124
+msgid "Polls"
+msgstr ""
+
+#: classes/configsectionlimitusers.php:118
+msgid "Controls adding reactions.<br/>Includes reactions in groups."
+msgstr ""
+
+#: classes/configsectionlimitusers.php:111
+msgid "Controls writing comments.<br/>Includes commenting in groups."
+msgstr ""
+
+#: classes/configsectionlimitusers.php:110
+msgid "Comments"
+msgstr ""
+
+#: classes/configsectionlimitusers.php:102
+msgid "RePost"
+msgstr ""
+
+#: classes/configsectionlimitusers.php:95
+msgid "Controls creating new posts.<br/>Includes posting in groups."
+msgstr ""
+
+#: classes/configsectionlimitusers.php:94
+msgid "New posts"
+msgstr ""
+
+#: classes/configsectionlimitusers.php:87
+msgid "Controls which users are shown in the listings.<br/>Administrators will always see everyone."
+msgstr ""
+
+#: classes/configsectionlimitusers.php:86
+msgid "Users Listings"
+msgstr ""
+
+#: classes/configsectionlimitusers.php:80
+msgid "Configuration"
+msgstr ""
+
+#: classes/configsectionlimitusers.php:73
+msgid "URL"
+msgstr ""
+
+#: classes/configsectionlimitusers.php:70
+msgid "Page where users can change their role/membership (if applicable)"
+msgstr ""
+
+#: classes/configsectionlimitusers.php:65
+msgid "Message"
+msgstr ""
+
+#: classes/configsectionlimitusers.php:62
+msgid "Leave empty for the default value"
+msgstr ""
+
+#: classes/configsectionlimitusers.php:51
+msgid "Logic mode"
+msgstr ""
+
+#: classes/configsectionlimitusers.php:46
+msgid "Allowlist (BETA): require at least one matching role"
+msgstr ""
+
+#: classes/configsectionlimitusers.php:45
+msgid "Blocklist: limit users with a matching role"
+msgstr ""
+
+#: classes/configsectionlimitusers.php:38
+msgid "Role based limits"
+msgstr ""
+
+#: limitusers.php:254
+msgid "create jobs"
+msgstr ""
+
+#: limitusers.php:260
+msgid "add file"
+msgstr "Datei hinzufügen"
+
+#. Author of the plugin/theme
+msgid "PeepSo"
+msgstr "PeepSo"
+
+#. Description of the plugin/theme
+msgid "Limit user privileges and/or hide them from PeepSo user listings based on role and profile completeness"
+msgstr "Beschränken Sie Benutzerberechtigungen und / oder verbergen Sie sie aus PeepSo-Benutzerlisten, die auf Rollen- und Profil-Vollständigkeit basieren"
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://peepso.com"
+msgstr "https://peepso.com"
+
+#. Plugin Name of the plugin/theme
+msgid "PeepSo Core: User Limits"
+msgstr "PeepSo Core: Benutzerlimits"
+
+#: templates/limitusers/debug-formatted.php:71
+msgid "to"
+msgstr "bis"
+
+#: templates/limitusers/debug-formatted.php:67
+msgid "Complete your profile to at least:"
+msgstr "Vervollständigen Sie Ihr Profil bis mindestens:"
+
+#: limitusers.php:706
+msgid "You are currently not allowed to create new comments"
+msgstr "Sie sind derzeit nicht berechtigt, neue Kommentare zu erstellen"
+
+#: limitusers.php:680
+msgid "You are currently not allowed to create new posts"
+msgstr "Sie sind derzeit nicht berechtigt, neue Beiträge zu erstellen"
+
+#: limitusers.php:537
+msgid "Configure which users to hide from the listings"
+msgstr "Konfigurieren Sie, welche Benutzer sie aus den Listen verstecken möchten"
+
+#: limitusers.php:534
+msgid "User Limits"
+msgstr "Benutzerlimit"
+
+#: limitusers.php:487
+msgid "Get it now!"
+msgstr "Jetzt holen!"
+
+#: limitusers.php:485
+msgid "The %s plugin requires the PeepSo plugin to be installed and activated."
+msgstr "Damit das %s Plugin genutzt werden kann, muss PeepSo installiert und aktiviert sein."
+
+#: limitusers.php:247
+msgid "RSVP events"
+msgstr "RSVP-Ereignisse"
+
+#: limitusers.php:242
+msgid "create and manage events"
+msgstr "Ereignisse erstellen und verwalten"
+
+#: limitusers.php:236
+msgid "add audio via link"
+msgstr "Audio per Link hinzufügen"
+
+#: limitusers.php:232
+msgid "upload audio"
+msgstr "Audio hochladen"
+
+#: limitusers.php:228
+msgid "add videos via link"
+msgstr "Videos per Link hinzufügen"
+
+#: limitusers.php:224
+msgid "upload videos"
+msgstr "Videos hochladen"
+
+#: limitusers.php:218
+msgid "add polls"
+msgstr "Umfrage hinzufügen"
+
+#: limitusers.php:212
+msgid "add photos"
+msgstr "Fotos hinzufügen"
+
+#: limitusers.php:206
+msgid "write new messages"
+msgstr "Neue Nachricht erstellen"
+
+#: limitusers.php:200
+msgid "create groups"
+msgstr "erstelle Gruppen"
+
+#: limitusers.php:196
+msgid "join groups"
+msgstr "Gruppen beitreten"
+
+#: limitusers.php:190
+msgid "send friend requests"
+msgstr "Freundschaftsanfrage senden"
+
+#: limitusers.php:184
+msgid "create posts with backgrounds"
+msgstr "Posts mit Hintergründen erstellen"
+
+#: limitusers.php:171
+msgid "react on posts and comments"
+msgstr "auf Beiträge und Kommentare reagieren"
+
+#: limitusers.php:170
+msgid "comment on posts"
+msgstr "Kommentare zum Post"
+
+#: limitusers.php:169
+msgid "repost"
+msgstr "repost"
+
+#: limitusers.php:168
+msgid "add new posts"
+msgstr "Eintrag hinzufügen"
+
+#: limitusers.php:167
+msgid "show on members page"
+msgstr "auf der Seite \"Mitglieder\" anzeigen"
+
+#: classes/widgets/widgetlimitusers.php:83
+msgid "Message:"
+msgstr "Mitteilung:"
+
+#: classes/widgets/widgetlimitusers.php:65
+msgid "Your actions in the Community are limited."
+msgstr "Ihre Aktionen in der Gemeinschaft sind begrenzt."
+
+#: classes/widgets/widgetlimitusers.php:10
+msgid "PeepSo User Limits Widget"
+msgstr "PeepSo Benutzer Limit Widget"
+
+#: classes/widgets/widgetlimitusers.php:9
+msgid "PeepSo User Limits"
+msgstr "PeepSo Benutzer Limit"
+
+#: classes/configsectionlimitusers.php:325
+msgid "Based on cover"
+msgstr "Basierend auf Cover"
+
+#: classes/configsectionlimitusers.php:313
+msgid "Based on avatar"
+msgstr "Basierend auf avatar"
+
+#: classes/configsectionlimitusers.php:307
+msgid "Require"
+msgstr "Erforderlich"
+
+#: classes/configsectionlimitusers.php:301
+msgid "-- no limit --"
+msgstr "--Kein Limit--"
+
+#: classes/configsectionlimitusers.php:291
+msgid "Based on profile completeness"
+msgstr "Basierend auf Profilvollständigkeit"
+
+#: classes/configsectionlimitusers.php:278
+msgid "Administrator can't be limited"
+msgstr "Administrator kann nicht beschränkt werden."
+
+#: classes/configsectionlimitusers.php:117
+msgid "Disable reactions"
+msgstr "Reaktionen deaktivieren"

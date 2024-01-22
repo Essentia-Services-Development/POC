@@ -1,0 +1,97 @@
+.ps-location {
+  --map-height: 250px;
+
+  width: 100%;
+  display: none;
+  margin-top: var(--PADD);
+}
+
+.ps-location__inner {
+  background-color: var(--PS-COLOR--APP--LIGHTGRAY);
+  border-radius: var(--BORDER-RADIUS--MD);
+  overflow: hidden;
+}
+
+.ps-location__loading {}
+
+.ps-location__box {
+  position: relative;
+  display: flex;
+}
+
+.ps-location__view {
+  flex-grow: 1;
+  position: relative;
+  width: 60%;
+  min-width: 60%;
+  height: var(--map-height);
+  background-color: var(--PS-COLOR--APP--GRAY);
+
+  &:before {
+    content: "\f21d";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    transform: translateY(-50%);
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    font-size: 50px;
+    text-align: center;
+    color: var(--PS-COLOR--TEXT--LIGHT);
+  }
+}
+
+.ps-location__select {
+  padding: var(--PADD--MD);
+  color: var(--PS-COLOR--TEXT--LIGHT);
+  font-size: 80%;
+}
+
+.ps-location__list {
+  width: 40%;
+  max-height: var(--map-height);
+  overflow: auto;
+}
+
+.ps-location__list-item {
+  display: block;
+  padding: var(--PADD) var(--PADD--MD);
+  font-size: 80%;
+  color: var(--PS-COLOR--TEXT);
+  border-bottom: 1px solid var(--DIVIDER--LIGHT);
+
+  &:hover {
+    color: var(--PS-COLOR--TEXT);
+    background-color: var(--PS-COLOR--APP--GRAY);
+  }
+
+  span {
+    display: block;
+    color: var(--PS-COLOR--TEXT--LIGHT);
+  }
+
+  &:last-child {
+    border-bottom: none;
+  }
+}
+
+.ps-location__actions {
+  position: absolute;
+  top: var(--PADD);
+
+  @if $rtl {
+    left: var(--PADD);
+  } @else {
+    right: var(--PADD);
+  }
+
+  display: flex;
+
+  .ps-btn {
+    display: none;
+  }
+}

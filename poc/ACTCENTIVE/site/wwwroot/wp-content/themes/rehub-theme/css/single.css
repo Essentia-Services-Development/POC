@@ -1,0 +1,39 @@
+.float-posts-nav{ opacity: 0 ;transition: all .7s ease-in-out; }
+.postNavigation { position: fixed; bottom: 0;  margin-top: -47px;z-index: 9999; height: 100px; transition: all .7s ease-in-out;}
+.postNavigation .postnavprev { display: inline-block; background: #DFDFDF; transition: all .4s ease-in-out; vertical-align: middle; position: relative; width: 40px; height: 100px; color: #fff; }
+.postNavigation .postnavprev:before { position: absolute; font-size: 28px; top: 50%; margin-top: -14px;line-height: 28px; }
+.prevPostBox .postnavprev:before { content: "\f104"; left: 12px }
+.nextPostBox .postnavprev:before { content: "\f105";right: 12px }
+.nextPostBox { right: 0; }
+.prevPostBox { left: 0; }
+.postNavigation .thumbnail {float: right;margin-left: 5px;position: relative;width: 70px;height: 70px; text-align: center;}
+.postNavigation.nextPostBox .thumbnail {float: left;margin-left: 0;margin-right: 5px;}
+.postNavigation .headline {height: 70px;overflow: hidden;position: relative;-webkit-font-smoothing: antialiased;font-size: 14px;padding: 0 8px;}
+.postNavigation .headline span{ font-size: 10px; line-height: 10px; text-transform: uppercase; letter-spacing: 1px; display: block; margin-bottom: 8px}
+.postNavigation .headline h4{ margin: 0}
+.postNavigation .inner-prevnext {position: absolute;top: 0;height: 100%;padding: 15px;width: 290px;background-color: #fff; color: #111 !important;  transition: all .2s ease-in-out 0.3s;}
+.postNavigation.nextPostBox .inner-prevnext{margin: 0 0 0 40px; left: 0; }
+.postNavigation.prevPostBox .inner-prevnext{margin: 0 40px 0 0; right: 0;}
+.openedprevnext .postNavigation .postnavprev{width: 138px}
+.openedprevnext .prevPostBox .postnavprev:before{ left: 114px}
+.openedprevnext .nextPostBox .postnavprev:before{right: 114px}
+.openedprevnext .prevPostBox .postnavprev:hover:before{ left: 12px}
+.openedprevnext .nextPostBox .postnavprev:hover:before{right: 12px}
+.postNavigation .postnavprev:hover {color: #fff; width: 330px }
+.postNavigation.nextPostBox .postnavprev:hover .inner-prevnext{ margin: 0 40px 0 0; opacity: 1}
+.postNavigation.prevPostBox .postnavprev:hover .inner-prevnext{ margin: 0 0 0 40px; opacity: 1}
+.float-posts-nav.scrollvisible{ opacity: 1}
+.breadcrumb { margin-bottom: 20px; color: #999; font-size: 12px; line-height: 14px }
+.breadcrumb a { color: #666; text-decoration: none; }
+.single .tags p { color: #666666; font-size: 12px; font-weight: bold; }
+.single .tags p .tags-title-post{padding: 3px 8px;text-transform: uppercase; background-color: #111; color: #fff;  margin: 0 4px 8px 0; display: inline-block; }
+.single .tags p a { color: #666666; font-size: 12px;border: 1px solid #ddd;padding: 2px 8px; margin: 0 4px 8px 0; display: inline-block; }
+.single .full_width .single_custom_bottom .rehub_chimp, .single .full_width .tags, .single .full_width .author_detail_box, .full_width .related_articles, .full_width #comments, .full_width #review_form{max-width: 900px;margin: 25px auto; }
+#rh-share-sticky.floating{position: -webkit-sticky;position: sticky; top:90px; z-index: 1}
+.single .hotmeter_wrap {  margin-bottom: 25px }
+.single .rh-star-ajax .title_star_ajax { font-size: 14px; color: #111111; display: block; margin-bottom: 5px; }
+.single .rh-star-ajax .title_star_ajax span { font-weight: normal; }
+
+@media (max-width: 767px) {
+.float-posts-nav{ display: none}
+}

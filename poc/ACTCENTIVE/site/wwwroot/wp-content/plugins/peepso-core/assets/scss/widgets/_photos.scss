@@ -1,0 +1,34 @@
+//
+//  WIDGET: PHOTOS
+//
+
+
+
+.ps-widget--photos {}
+
+
+.ps-widget--photos__wrapper {}
+
+
+.ps-widget__photos {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: -2px;
+  margin-left: -2px;
+  margin-right: -2px;
+}
+
+
+.ps-widget__photos-item {
+  width: 25%;
+  padding: 2px;
+
+  img {
+    vertical-align: middle;
+
+    // ROUNDED CORNERS
+    @if $scss-rounded == true {
+      border-radius: 6px;
+    }
+  }
+}

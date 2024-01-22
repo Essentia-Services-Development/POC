@@ -1,0 +1,56 @@
+//
+//  HELPER: PHOTOS
+//  Created for photos list
+//
+
+
+
+//
+//  Used for photo items
+//
+%photos {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -($padding-sm / 2);
+  margin-right: -($padding-sm / 2);
+}
+
+
+//
+//  Helper used for photo wrappers, which can
+//  wrap a photo item and its details
+//
+%photo__wrapper {
+  width: 50%;
+  height: 100% !important;
+  margin-bottom: $padding-sm;
+  padding-left: ($padding-sm / 2);
+  padding-right: ($padding-sm / 2);
+
+  @include media('medium') {
+    width: 25%;
+  }
+}
+
+
+//
+//  Used for photo items to position it
+//  inside a wrapper
+//
+%photo__item {
+  position: relative;
+  max-width: 256px;
+  margin-left: auto;
+  margin-right: auto;
+
+  > a {
+    display: block;
+  }
+
+  img {
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
+    width: 100%;
+  }
+}

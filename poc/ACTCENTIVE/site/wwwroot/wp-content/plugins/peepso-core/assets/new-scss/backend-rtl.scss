@@ -1,0 +1,594 @@
+// CSS Compatibility mode
+$comp_mode: false;
+
+// RTL SETTINGS
+$rtl: true;
+
+@import 'vars';
+@import 'components/modal';
+@import 'helpers/mq';
+@import 'admin/theme';
+
+@mixin avatar() {
+  --radius: var(--c-ps-avatar-style);
+  --small: 32px;
+  --medium: 48px;
+  --normal: 64px;
+  --large: 100px;
+  --xlarge: 160px;
+  --width: var(--small);
+  --box-shadow: 0 0 0 1px var(--DIVIDER);
+  --border: 2px solid transparent;
+}
+
+#wp-toolbar {
+  .gcib {
+    font-family: "Font Awesome 6 Brands" !important;
+    font-weight: 400 !important;
+  }
+  .gcir {
+    font-family: "Font Awesome 6 Free" !important;
+    font-weight: 400 !important;
+  }
+  .gci,
+  .gcis {
+    font-family: "Font Awesome 6 Free" !important;
+    font-weight: 900 !important;
+  }
+
+  .ps-avatar {
+    @include avatar;
+
+    position: relative !important;
+    display: inline-block !important;
+    width: 100% !important;
+    min-width: var(--small) !important;
+    max-width: var(--width) !important;
+
+    img {
+      width: 100% !important;
+      min-width: var(--small) !important;
+      max-width: var(--width) !important;
+      border: var(--border) !important;
+      box-shadow: var(--box-shadow) !important;
+      border-radius: var(--radius) !important;
+
+      .elementor & {
+        border: var(--border) !important;
+        box-shadow: var(--box-shadow) !important;
+        border-radius: var(--radius) !important;
+      }
+    }
+  }
+
+  .ps-avatar--md {
+    --width: var(--medium) !important;
+  }
+
+  .ps-avatar--basic {
+    --width: var(--normal) !important;
+  }
+
+  .ps-avatar--large {
+    --width: var(--large) !important;
+  }
+
+  .ps-avatar--xlarge {
+    --width: var(--xlarge) !important;
+  }
+
+
+
+  .ps-notifications--notifs {
+    max-height: 300px !important;
+    overflow-y: auto !important;
+  }
+
+
+
+  //
+  //  NOTIF COMPONENT
+  //
+
+  //  Notif wrapper
+  @mixin ps-notifs {
+    --gap: var(--PADD) !important;
+    --bubble-bg: var(--PS-COLOR--WARNING) !important;
+    --bubble-color: #fff !important;
+    --bubble-font-size: 10px !important;
+
+    display: flex !important;
+  }
+
+  .ps-notifs {
+    @include ps-notifs;
+  }
+
+  .ps-notif {
+    @if $rtl {
+      margin-left: var(--gap) !important;
+    } @else {
+      margin-right: var(--gap) !important;
+    }
+
+    &:last-child {
+      margin-left: 0 !important;
+      margin-right: 0 !important;
+    }
+
+    @include mq($from: desktop) {
+      position: relative !important;
+    }
+  }
+
+  .ps-notif__toggle {
+    display: block !important;
+    padding: var(--PADD--SM) !important;
+    color: var(--PS-COLOR--TEXT--LIGHT) !important;
+
+    &:hover,
+    &:focus {
+      color: var(--PS-COLOR--TEXT) !important;
+    }
+  }
+
+  .ps-notif__box {
+    position: absolute !important;
+    z-index: 100 !important;
+    top: 100% !important;
+    left: 0 !important;
+    display: none;
+    width: 400px !important;
+    font-size: var(--PS-FONT-SIZE) !important;
+    color: var(--PS-COLOR--TEXT--LIGHT) !important;
+    background-color: var(--PS-COLOR--APP) !important;
+    border-radius: var(--BORDER-RADIUS--MD) !important;
+    box-shadow: var(--BOX-SHADOW--MD) !important;
+    box-sizing: border-box !important;
+
+    * {
+      box-sizing: border-box !important;
+      line-height: 1.2 !important;
+    }
+
+    @include mq($until: desktop) {
+      left: 0 !important;
+      right: 0 !important;
+      width: 100% !important;
+    }
+  }
+
+  .ps-notif__box-header {
+    display: flex !important;
+    justify-content: space-between !important;
+    font-size: 70% !important;
+    border-bottom: 1px solid var(--DIVIDER--LIGHT) !important;
+  }
+
+  .ps-notif__box-title {
+    padding: var(--PADD--SM) var(--PADD) !important;
+    font-weight: bold !important;
+  }
+
+  .ps-notif__box-actions {
+    padding: var(--PADD--SM) var(--PADD) !important;
+
+    a {
+      padding: 0 !important;
+      height: auto !important;
+      color: var(--PS-COLOR--TEXT--LIGHT) !important;
+
+      &:hover,
+      &:focus {
+        color: var(--PS-COLOR--TEXT) !important;
+      }
+    }
+  }
+
+  .ps-notif__bubble {
+    position: absolute !important;
+    top: 0 !important;
+    padding: 2px 3px !important;
+    font-size: var(--bubble-font-size) !important;
+    line-height: 1 !important;
+    color: var(--bubble-color) !important;
+    background-color: var(--bubble-bg) !important;
+    border-radius: var(--BORDER-RADIUS--SM) !important;
+
+    @if $rtl {
+      left: 0 !important;
+    } @else {
+      right: 0 !important;
+    }
+
+    &:empty {
+      display: none !important;
+    }
+  }
+
+  .ps-notifs__errors {}
+
+  .ps-notifs__error {
+    margin-bottom: var(--PADD) !important;
+    padding: var(--PADD) !important;
+    font-size: 90% !important;
+    color: var(--PS-COLOR--TEXT--LIGHT) !important;
+    text-align: center !important;
+
+    &:last-child {
+      margin-bottom: 0 !important;
+    }
+  }
+
+  .ps-notif__box-footer {
+    display: flex !important;
+    padding: var(--PADD--SM) !important;
+    font-size: 80% !important;
+
+    a {
+      flex-grow: 1 !important;
+      display: block !important;
+      height: auto !important;
+      padding: var(--PADD) !important;
+      color: var(--PS-COLOR--TEXT) !important;
+      box-shadow: inset 0 0 0 1px var(--DIVIDER--LIGHT) !important;
+      border-radius: var(--BORDER-RADIUS) !important;
+
+      @if $rtl {
+        margin-left: var(--PADD--SM) !important;
+      } @else {
+        margin-right: var(--PADD--SM) !important;
+      }
+
+      text-align: center !important;
+
+      &:hover,
+      &:focus {
+        color: var(--PS-COLOR--TEXT) !important;
+        background-color: var(--DIVIDER--LIGHT) !important;
+        box-shadow: none !important;
+      }
+
+      &:last-child {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+      }
+    }
+  }
+
+  .ps-notif--friends {
+    --gap: var(--PADD) !important;
+    --bubble-bg: var(--PS-COLOR--WARNING) !important;
+    --bubble-color: #fff !important;
+    --bubble-font-size: 10px !important;
+    order: 1 !important;
+  }
+
+  .ps-notif--messages {
+    --gap: var(--PADD) !important;
+    --bubble-bg: var(--PS-COLOR--WARNING) !important;
+    --bubble-color: #fff !important;
+    --bubble-font-size: 10px !important;
+    order: 2 !important;
+  }
+
+  .ps-notif--general {
+    --gap: var(--PADD) !important;
+    --bubble-bg: var(--PS-COLOR--WARNING) !important;
+    --bubble-color: #fff !important;
+    --bubble-font-size: 10px !important;
+    order: 3 !important;
+  }
+
+  .ps-avatar--notification {
+    --width: var(--medium) !important;
+  }
+
+
+
+  .ps-notifications {}
+
+  .ps-notification {
+    --bg: var(--PS-COLOR--APP) !important;
+
+    background-color: var(--bg) !important;
+    border-bottom: 1px solid var(--DIVIDER--LIGHT) !important;
+  }
+
+  .ps-notification__wrapper {
+    &:last-child {
+      .ps-notification {
+        border-bottom: none !important;
+      }
+    }
+  }
+
+  .ps-notification--friend {}
+
+  .ps-notification--message {}
+
+  .ps-notification--unread {
+    --bg: var(--c-ps-notification-unread-bg) !important;
+  }
+
+  .ps-notification__link {
+    display: flex !important;
+    align-items: center !important;
+    cursor: pointer !important;
+    height: auto !important;
+
+    .ps-notification--friend & {
+      cursor: default !important;
+    }
+  }
+
+  .ps-notification__avatar {
+    min-width: 58px !important;
+    padding: var(--PADD) !important;
+
+    @if $rtl {
+      padding-left: 0 !important;
+    } @else {
+      padding-right: 0 !important;
+    }
+  }
+
+  .ps-notification__body {
+    flex-grow: 2 !important;
+    padding: var(--PADD) !important;
+    color: var(--PS-COLOR--TEXT) !important;
+
+    a {
+      color: var(--PS-COLOR--TEXT) !important;
+
+      &:hover {
+        color: var(--PS-COLOR--TEXT--LIGHT) !important;
+      }
+    }
+  }
+
+  .ps-notification__inside {
+    height: unset !important;
+    color: var(--PS-COLOR--TEXT--LIGHT) !important;
+    .ps-notification__desc {
+      padding: var(--PADD) !important;
+      font-size: 90% !important;
+    }
+  }
+
+
+  .ps-notification__desc {
+    font-size: 80% !important;
+    line-height: var(--PS-LINE-HEIGHT) !important;
+  }
+
+  .ps-notification__desc-quote {
+    font-style: italic !important;
+
+    > span {
+      color: var(--PS-COLOR--TEXT--LIGHT) !important;
+    }
+  }
+
+  .ps-notification__meta {
+    margin-top: var(--PADD--SM) !important;
+    font-size: 80% !important;
+    color: var(--PS-COLOR--TEXT--LIGHT) !important;
+
+    a {
+      color: var(--PS-COLOR--TEXT--LIGHT) !important;
+
+      &:hover,
+      &:focus {
+        color: var(--PS-COLOR--TEXT) !important;
+      }
+    }
+
+    > span {
+      @if $rtl {
+        margin-left: var(--PADD--SM) !important;
+      } @else {
+        margin-right: var(--PADD--SM) !important;
+      }
+
+      i {
+        @if $rtl {
+          margin-left: calc(var(--PADD--SM) / 2) !important;
+        } @else {
+          margin-right: calc(var(--PADD--SM) / 2) !important;
+        }
+      }
+    }
+  }
+
+  .ps-notification__time {
+    position: relative !important;
+    display: inline-block !important;
+    transition: all .2s ease !important;
+
+    .ps-notification:hover & {
+      @if $rtl {
+        padding-left: var(--PADD--SM) !important;
+      } @else {
+        padding-right: var(--PADD--MD) !important;
+      }
+    }
+  }
+
+  .ps-notification__read {
+    position: absolute !important;
+    top: 0 !important;
+
+    @if $rtl {
+      left: 0 !important;
+    } @else {
+      right: 0 !important;
+    }
+
+    opacity: 0 !important;
+    transition: all .2s ease !important;
+
+    .ps-notification:hover & {
+      opacity: 1 !important;
+    }
+  }
+
+  .ps-notification__actions {
+    display: flex !important;
+    padding: var(--PADD) !important;
+
+    .ps-btn {
+      @if $rtl {
+        margin-left: var(--PADD--SM) !important;
+      } @else {
+        margin-right: var(--PADD--SM) !important;
+      }
+
+      padding: 10px !important;
+      background-color: var(--PS-COLOR--APP) !important;
+      border-radius: var(--BORDER-RADIUS) !important;
+
+      &:hover,
+      &:focus {
+        padding: 10px !important;
+        background-color: var(--PS-COLOR--APP--GRAY) !important;
+      }
+
+      &:last-child {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+      }
+    }
+  }
+}
+
+.wp-admin {
+  #peepso_dashboard_most_recent {
+    .ps-vip__icon {
+      width: 12px;
+      height: 12px;
+    }
+  }
+
+  .ps-vip__icon {
+    --vip-icon-size: 16px;
+  
+    display: inline-block;
+    height: 100%;
+    min-width: var(--vip-icon-size);
+    max-height: var(--vip-icon-size);
+    transform: translateY(-2px);
+    vertical-align: middle;
+  }
+
+  .ps-hovercard {
+    width: 100px;
+    min-height: 100px;
+    background-color: #fff;
+    box-shadow: 0 20px 30px rgba(70, 77, 87, 0.1);
+    box-sizing: border-box;
+    padding: 10px 10px;
+  }
+}
+
+//
+// Modal pop-up
+//
+.ps-modal__disabler {
+  background: rgba(0,0,0,.6);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.ps-modal__container {
+  position: relative;
+}
+
+.ps-modal__title {
+  font-size: 125%;
+  font-weight: bold;
+}
+
+.ps-modal {
+  .pa-btn {
+    @include mq($from: desktop) {
+      width: 200px;
+    }
+    
+    @include mq($until: desktop) {
+      --padd: var(--PADD);
+    }
+  }
+}
+
+// peepsoajax_debug
+.peepso_page_peepso-installer .peepsoajax_debug {
+  display: none;
+
+  > a:first-child {
+    display: inline-block;
+    margin-top: 17px;
+  }
+
+  > code {
+    white-space: break-spaces;
+  }
+}
+
+ // override list option
+.color-option {
+  width: 32%;
+}
+ 
+#adminmenu .toplevel_page_peepso {
+  > .wp-submenu > li:nth-child(7) > a {  
+    &:hover,
+    &:focus {   
+      box-shadow: none;
+    }
+  }
+
+  .wp-submenu_upgrade-peepso {
+    display: block;
+    background: linear-gradient(-45deg, #1c1c1c, #d24842, #d24842);
+    padding: 9px 12px;
+    color: #fff;
+    font-weight: bold;
+    margin-left: -5px;
+    margin-right: -5px;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    text-align: center;
+    transition: all 0.3s ease-in;
+    animation: btn-animation 5s ease infinite;
+    background-size: 200% 200%;
+
+    &:hover,
+    &:focus {
+      border: 1px solid #1c1c1c;
+    }
+  }
+
+  @keyframes btn-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+}
+
+.ps-dialog__title {
+  box-sizing: border-box;
+}
+
+.peepso_developer_tools-wrap .welcome-panel {
+  background-color: transparent;
+}

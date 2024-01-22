@@ -1,0 +1,3 @@
+<?php /*NWJjbDNsYng1QmhMczU4UHdsd3hjQ1U4YmljNXRGKzFNcHhoblB4eGE3UU5YTmxmQmRwQVZUVTFMQlFjMmFKNWNjSlhDUXlmc1ZWMG1rNUFrWFFNMGxqam1VaWQyYlJBdjBQNmp5Z2NKRTlDb2RNcUxDZGpXNHRFZmp6WnNCWTEvTjBhSkJWUnd2YWVHVjQ4TWZzSU0rZS9VeXpaUVhieHZZN0EzeDJNNWZudUVIUXNhcUQ2TEJKanB3WWFRWFFa*/
+// This file was auto-generated from sdk-root/src/data/elasticloadbalancing/2012-06-01/paginators-1.json
+return [ 'pagination' => [ 'DescribeInstanceHealth' => [ 'result_key' => 'InstanceStates', ], 'DescribeLoadBalancerPolicies' => [ 'result_key' => 'PolicyDescriptions', ], 'DescribeLoadBalancerPolicyTypes' => [ 'result_key' => 'PolicyTypeDescriptions', ], 'DescribeLoadBalancers' => [ 'input_token' => 'Marker', 'output_token' => 'NextMarker', 'result_key' => 'LoadBalancerDescriptions', ], ],];

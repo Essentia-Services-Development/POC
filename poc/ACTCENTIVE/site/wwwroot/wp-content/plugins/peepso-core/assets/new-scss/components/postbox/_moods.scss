@@ -1,0 +1,93 @@
+.ps-postbox__menu-item--moods {
+  position: static;
+}
+
+.ps-postbox__moods {
+  --width: auto;
+
+  left: var(--PADD);
+  right: var(--PADD);
+
+  @include mq($until: desktop) {
+    width: 100%;
+    left: 0;
+    right: 0;
+  }
+
+  &.ps-dropdown__menu {
+    --bg: var(--c-ps-postbox-dropdown-bg);
+    --bg--light: var(--c-ps-postbox-dropdown-bg-light);
+    --text-color: var(--c-ps-postbox-dropdown-text-color);
+
+    background-color: var(--bg);
+
+    .ps-postbox__moods-item {
+      color: var(--text-color);
+
+      @if $comp_mode {
+        color: var(--text-color) !important;
+      }
+
+      @include mq($from: tablet) {
+        &:hover,
+        &:focus,
+        &.active {
+          color: var(--text-color);
+          background-color: var(--bg--light);
+
+          @if $comp_mode {
+            color: var(--text-color) !important;
+          }
+        }
+      }
+    }
+  }
+}
+
+.ps-postbox__moods-inner {
+  position: relative;
+  padding: var(--PADD);
+}
+
+.ps-postbox__moods-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.ps-postbox__moods-item {
+  display: flex;
+  align-items: center;
+  width: 50%;
+  padding: var(--PADD);
+  color: var(--PS-COLOR--TEXT);
+  border-radius: var(--BORDER-RADIUS--MD);
+
+  span {
+    @if $rtl {
+      margin-right: var(--PADD--SM);
+    } @else {
+      margin-left: var(--PADD--SM);
+    }
+  }
+
+  @include mq($from: tablet) {
+    &:hover {
+      color: var(--PS-COLOR--TEXT);
+      background-color: var(--PS-COLOR--APP--GRAY);
+    }
+  }
+
+  @include mq($from: desktop) {
+    width: 20%;
+  }
+
+  .ps-activity--narrow & {
+    width: 50%;
+  }
+}
+
+.ps-postbox__moods-remove {
+  display: none;
+  width: 100%;
+  margin-top: var(--PADD);
+}

@@ -1,0 +1,34 @@
+.ps-page--register {
+  --bg: var(--PS-COLOR--APP);
+  --radius: var(--BORDER-RADIUS--XL);
+  --shadow: var(--BOX-SHADOW--HARD);
+
+  padding: var(--PADD--MD);
+  background-color: var(--bg);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+
+  .ps-form__field {
+    @include input--password-icon;
+  
+    .ps-password-preview {
+      top: 22px; 
+    }
+  }
+}
+
+.ps-page--register-main {}
+
+.ps-page--register-activate {}
+
+.ps-page--register-complete {}
+
+.ps-page--register-resend {}
+
+.ps-page--register-resent {}
+
+.ps-page--register-verified {}
+
+.ps-page--register-recover {}
+
+.ps-page--register-recover-sent {}

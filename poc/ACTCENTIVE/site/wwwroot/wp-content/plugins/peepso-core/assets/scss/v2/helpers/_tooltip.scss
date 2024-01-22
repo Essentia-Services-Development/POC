@@ -1,0 +1,21 @@
+%tooltip {
+  position: relative;
+
+  &:hover {
+    &:before {
+      position: absolute;
+      bottom: 100%;
+      left: 50%;
+      transform: translateX(-50%);
+      display: block;
+      padding: var(--padd--sm) var(--padd);
+      background-color: rgba(0,0,0, .8);
+      white-space: nowrap;
+      content: attr(data-tooltip);
+      color: #ddd;
+      font-size: var(--ps_FONT_SIZE-SM);
+      z-index: 10;
+      border-radius: 4px;
+    }
+  }
+}

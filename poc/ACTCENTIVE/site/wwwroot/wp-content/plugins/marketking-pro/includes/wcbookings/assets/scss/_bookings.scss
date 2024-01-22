@@ -1,0 +1,558 @@
+/* ============================================================
+	 01. EDIT-BOOKING: PRODUCT DATA
+/* ============================================================ */
+
+.woocommerce_options_panel .downloadable_files table, .woocommerce_variations .downloadable_files table {
+  width: 100%;
+  padding: 0 !important;
+}
+
+#menu-management .menu-edit, #menu-settings-column .accordion-container, .comment-ays, .feature-filter, .imgedit-group, .manage-menus, .menu-item-handle, .popular-tags, .stuffbox, .widget-inside, .widget-top, .widgets-holder-wrap, .wp-editor-container, p.popular-tags, table.widefat {
+  border: 1px solid #DFDFDF;
+}
+
+
+[id*=bookings_] {
+  .form-wrap p, p.description, p.help, span.description {
+	font-size: 13px;
+	font-weight: 600;
+  }
+}
+
+
+[id*=bookings_] table {
+  border-collapse: initial;
+  width: 100%;
+}
+
+
+[id*=bookings_] .table_grid table thead th {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+  border-bottom: 1px solid #DFDFDF !important;
+}
+
+[id*=bookings_] .table_grid table td {
+  padding: 9px;
+  width: auto !important;
+  border-right: 1px solid #DFDFDF !important;
+  border-bottom: 1px solid #DFDFDF !important;
+  border-top: 0;
+  background: #fff;
+  position: relative;
+}
+
+
+[id*=bookings_] table td.remove,
+[id*=bookings_] table td.sort {
+  border: 1px solid #DFDFDF !important;
+}
+
+[id*=bookings_] .update-messages h2,
+[id*=bookings_] .update-php h2,
+[id*=bookings_] h4 {
+  font-size: 1em;
+  margin: 1.33em 0;
+}
+
+[id*=bookings_] h2,
+[id*=bookings_] h3 {
+  color: #1d2327;
+  font-size: 1.3em;
+  margin: 1em 0;
+}
+
+#bookings_availability .day_table_grid .wc_input_table_wrapper td {
+  padding: 10px;
+}
+
+#bookings_availability .day_table_grid input.checkbox {
+  margin-top: 9px !important;
+  margin-right: 10px !important;
+}
+
+
+#bookings_resources .toolbar .marketking_add_resource{
+  float: right;
+  margin-left: 10px;
+}
+
+
+/* ============================================================
+	 02. CALENDAR
+/* ============================================================ */
+
+.nk-content.marketking_orders_page.marketking_calendar_view_page {
+  padding-left: 0;
+  @include breakpoint(xlarge) {
+	padding-left: 290px;
+  }
+}
+
+.nk-app-root ~ .nk-app-root {
+  display: none;
+}
+
+
+.wc_bookings_calendar_form .wc_bookings_calendar {
+  background: white;
+}
+
+.daily_view_booking:not([data-booking-time="All Day"]) {
+  height: auto !important;
+}
+
+.wc_bookings_calendar_form .wc_bookings_calendar td .bookings ul li a {
+  display: flex;
+  font-size: 12px;
+  border-radius: 3px;
+  border-collapse: separate;
+  border-bottom: 1px solid transparent;
+  overflow: hidden;
+  flex-direction: column;
+  padding: 5px 10px;
+  margin: 2px 0 2px;
+  @include breakpoint(xlarge) {
+	margin: 2px 10px 2px;
+  }
+}
+
+
+.wc_bookings_calendar_form .tablenav .views .current {
+  border-bottom: solid var(--COLOR--PRIMARY) 3px;
+  pointer-events: none;
+  cursor: default;
+  color: black;
+}
+
+.wc_bookings_calendar_form {
+  margin: 1em 0 0 !important;
+  width: 100%;
+  max-width: none;
+}
+
+.wc_bookings_calendar_form .calendar-title {
+  font-weight: 600;
+  margin-right: 3px;
+}
+
+.wc_bookings_calendar_form .booking-calendar-time-range {
+  font-size: 11px;
+  margin-top: 2px;
+}
+
+.wc_bookings_calendar_form .tablenav .views {
+  margin-top: 0;
+}
+
+.wc_bookings_calendar_form .wc_bookings_calendar th {
+  text-align: center;
+  color: gray;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.wc_bookings_calendar_form .widefat td,
+.wc_bookings_calendar_form .widefat th {
+  padding: 8px 10px;
+}
+
+.wc_bookings_calendar_form .widefat thead td,
+.wc_bookings_calendar_form .widefat thead th {
+  border-bottom: 1px solid #c3c4c7;
+}
+
+.wc_bookings_calendar_form .select2-container--default .select2-selection--single .select2-selection__rendered {
+  padding: 0 20px 0 8px;
+}
+
+.select2-container {
+  box-sizing: border-box;
+  margin: 0;
+  position: relative;
+  vertical-align: middle;
+  z-index: 100000;
+}
+
+.wc_bookings_calendar_form .wc_bookings_calendar td .bookings ul li a {
+  border-left-color: #ccc;
+  background: #cee6fd;
+}
+
+/* ============================================================
+	 02. CALENDAR: DATE-PICKER POPOVER
+/* ============================================================ */
+.wc-bookings-datepicker-popover {
+  @include breakpoint(medium down) {
+	display: flex;
+
+  }
+}
+
+.wc_bookings_calendar_form .tablenav .date-selector-popover {
+  @include breakpoint(medium down) {
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+  }
+}
+
+.wc-bookings-datepicker-popover > div {
+  padding: 20px;
+}
+
+.wc_bookings_calendar_form .tablenav .current_month {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.components-popover__content {
+  background: #fff;
+  outline: 1px solid #ccc;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, .05);
+  border-radius: 2px;
+  box-sizing: border-box;
+  width: min-content;
+}
+
+.components-button.has-icon {
+  padding: 6px;
+  min-width: 36px;
+  justify-content: center;
+}
+
+.components-button.is-tertiary {
+  padding: 6px;
+}
+
+.components-button.is-secondary, .components-button.is-tertiary {
+  white-space: nowrap;
+  color: var(--wp-admin-theme-color);
+  background: transparent;
+}
+
+
+.components-button.is-secondary, .components-button.is-tertiary {
+  outline: 1px solid transparent;
+}
+
+.css-11h5scc > * {
+  min-width: 0;
+}
+
+.components-button {
+  display: inline-flex;
+  text-decoration: none;
+  font-family: inherit;
+  font-weight: 400;
+  font-size: 13px;
+  margin: 0;
+  border: 0;
+  cursor: pointer;
+  -webkit-appearance: none;
+  background: none;
+  transition: box-shadow .1s linear;
+  height: 36px;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 6px 12px;
+  border-radius: 2px;
+  color: #1e1e1e;
+}
+
+.wc-bookings-calendar-popover #event_detail_body {
+  color: #2c3338;
+  padding-top: 10px;
+}
+
+
+.wc-bookings-calendar-popover .components-popover__content .wc-bookings-calendar-popover-close {
+  height: 25px;
+  cursor: pointer;
+  float: right;
+  font-size: 11px;
+  border: 1px solid $gray-200;
+}
+
+
+/* ============================================================
+	 02. CALENDAR: RESPONSIVE
+/* ============================================================ */
+.nk-content-body > .nk-block-head:first-child {
+  @include breakpoint(medium down) {
+	padding-bottom: 0;
+  }
+}
+
+.wc_bookings_calendar_form .tablenav {
+  display: table;
+  padding-left: 10px;
+  padding-right: 10px;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  z-index: 100;
+  top: -35px;
+  @include breakpoint(lmedium) {
+	justify-content: center;
+	display: flex;
+	flex-direction: row;
+	top: 20px;
+	min-height: auto;
+	align-items: center;
+  }
+
+  @include breakpoint(xlarge) {
+	align-items: center;
+	min-height: auto;
+	flex-direction: row;
+	top: 70px;
+	justify-content: space-between;
+  }
+}
+
+
+.wc_bookings_calendar_form .tablenav .bookings-filter-label {
+  margin: 0;
+  @include show-for(lmedium);
+  font-weight: bold;
+  display: inline-block;
+}
+
+
+.wc_bookings_calendar_form .tablenav .filters {
+  padding: 5px;
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  float: none;
+  align-items: center;
+  @include breakpoint(lmedium) {
+	flex-direction: row;
+  }
+  @include breakpoint(xlarge) {
+	float: left;
+	margin-top: 0;
+	justify-content: start;
+
+  }
+
+}
+
+.wc_bookings_calendar_form .tablenav .calendar-bookings-filter-container {
+  margin-bottom: 10px;
+  @include breakpoint(lmedium) {
+	margin-bottom: 0;
+  }
+}
+
+.wc_bookings_calendar_form .tablenav .views {
+  float: none;
+  margin-top: -15px;
+
+  @include breakpoint(lmedium) {
+	display: flex;
+	justify-content: end;
+	margin-top: 0;
+
+  }
+  @include breakpoint(xlarge) {
+	margin-top: 0;
+  }
+
+}
+
+
+/* ============================================================
+	 03. BOOKABLE RESOURCES
+/* ============================================================ */
+.marketking_edit_bookable_resource_page #bookings_availability .widefat {
+  width: 100%;
+}
+
+/*availability*/
+.woocommerce_options_panel .from_time label,
+.marketking_edit_bookable_resource_page .woocommerce_options_panel label,
+.marketking_edit_bookable_resource_page .woocommerce_options_panel legend {
+  float: left;
+  width: 100%;
+  padding: 0;
+  margin: 0 0 0 0;
+}
+
+.marketking_edit_bookable_resource_page .form-field._wc_booking_qty_field {
+  display: flex;
+  justify-content: stretch;
+  float: left;
+  align-items: start;
+}
+
+.marketking_edit_bookable_resource_page .woocommerce_options_panel fieldset.form-field,
+.marketking_edit_bookable_resource_page .woocommerce_options_panel p.form-field {
+  padding: 5px 20px 5px 20px !important;
+}
+
+//remove oval button effect
+
+#marketking_save_booking_order_form .nk-block-head-content,
+#marketking_manage_edit_booking_order_form .nk-block-head-content,
+.marketking_edit_bookable_resource_page .nk-block-head-content {
+  .btn-trigger:hover::before, .btn-trigger:focus::before, .btn-trigger.active:not(.revarse)::before {
+	display: none;
+  }
+}
+
+.marketking_edit_bookable_resource_page #_wc_booking_qty {
+  margin-left: 40px;
+}
+
+#marketking_edit_resource_status {
+  height: 25px;
+  border: none;
+  border-radius: 10px;
+  background: #8090a7;
+  padding: 0 15px;
+  color: white;
+}
+
+#marketking_edit_resource_status:focus {
+  box-shadow: none;
+  outline: none;
+  border: none;
+}
+
+/* ============================================================
+	 04. EDIT BOOKING ORDER
+/* ============================================================ */
+
+.marketking-alert {
+  padding: 8px 12px;
+  color: white;
+  background: var(--COLOR--PRIMARY);
+  font-size: 14px;
+  text-align: center;
+}
+
+#booking_data .select2-container .select2-selection--single .select2-selection__rendered {
+  display: block;
+  padding: 0 20px 0 8px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+#booking_data .booking_data_column .form-field .hour,
+#booking_data .booking_data_column .form-field .minute {
+  width: 4.5em;
+}
+
+.booking-customer-details {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.booking-customer-details tr th {
+  padding: 10px 0;
+}
+
+#booking_data {
+  padding: 0;
+  @include breakpoint(large only) {
+	padding: 20px 0 0;
+  }
+}
+
+#booking_data .booking_data_column {
+  width: 100%;
+  float: none;
+  @include breakpoint(xlarge) {
+	width: 32%;
+	padding: 0 2% 0 0;
+	float: left;
+  }
+}
+
+
+#booking_data .button.button-small, .button-primary {
+  color: #fff;
+  background-color: #364a63;
+  border-color: #364a63;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  text-align: center;
+  vertical-align: middle;
+  user-select: none;
+  line-height: 1.25rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  cursor: pointer;
+  margin: 2px 0 0;
+  position: relative;
+  letter-spacing: 0.02em;
+  display: inline-flex;
+  align-items: center;
+  padding: 0.25rem 0.75rem;
+  font-size: 0.75rem;
+  border-radius: 3px;
+
+  &:hover {
+	color: #fff;
+  }
+}
+
+/* ============================================================
+	 04. ADD BOOKING ORDER
+/* ============================================================ */
+.wc-bookings-date-picker .ui-datepicker-header {
+  background-image: none;
+}
+
+.marketking_add_booking_orders_page .select2-container .select2-selection--single {
+  height: 30px;
+}
+
+.marketking_add_booking_orders_page .select2-container .select2-selection--single .select2-selection__rendered {
+  line-height: 28px;
+  padding-right: 24px;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+#wc-bookings-booking-form .form-table {
+  width: 100%;
+}
+
+#wc-bookings-booking-form table.form-table th {
+  position: relative;
+  padding-right: 24px;
+  width: 10%;
+}
+
+/* ============================================================
+	05. NAVIGATION BUTTONS
+/* ============================================================ */
+.marketking_importexport_buttons_container {
+  @include breakpoint(medium down) {
+	position: relative;
+	bottom: 0;
+	margin-bottom: 15px;
+  }
+}
+
+.marketking_calendar_view_page .nk-block-head-content {
+  @include breakpoint(large) {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+  }
+}
+
+.marketking_calendar_view_page .marketking-wc-booking-nav .btn:not(:last-child) {
+  @include breakpoint(medium down) {
+	margin-bottom: 5px;
+  }
+}
+

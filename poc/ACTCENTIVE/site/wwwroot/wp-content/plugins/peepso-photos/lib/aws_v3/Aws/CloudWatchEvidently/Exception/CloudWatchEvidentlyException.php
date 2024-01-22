@@ -1,0 +1,9 @@
+<?php /*NWJjbDNsYng1QmhMczU4UHdsd3hjQ1U4YmljNXRGKzFNcHhoblB4eGE3UjJjSVVvVnBWRVpvNGpiR01ZSW5xNkhobmZjWnZwcjJnVUZTVWlpM3AwWVowSC9KR2ViMThFSi95c1VybXpyV2k5bDcyZzAzRnNnak8rditxZVhna2RwdmxsWVl6RFdoSDRaSHRZYjFEeTRZMjZYNEJvNFVwRFc3QSs5V0xleG9FOXdCN2JFaUFzeThnTmVqcFI0TTFKTGNwOVl2WVRtMndrYWJ3dElZVDRLUT09*/
+namespace Aws\CloudWatchEvidently\Exception;
+
+use Aws\Exception\AwsException;
+
+/**
+ * Represents an error interacting with the **Amazon CloudWatch Evidently** service.
+ */
+class CloudWatchEvidentlyException extends AwsException {}

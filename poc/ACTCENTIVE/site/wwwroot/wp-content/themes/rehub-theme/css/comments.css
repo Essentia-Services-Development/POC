@@ -1,0 +1,56 @@
+#comments { position: relative; margin-top: 30px; clear: both;  }
+#comments .title_comments { font-size: 18px;line-height: 20px; color: #111111; padding-bottom: 25px; font-weight: bold; }
+.commentlist { margin: 0 0 30px 0; list-style: none; clear: both; }
+.commentlist li { margin: 0 0 25px 0; }
+.commbox { background: none repeat scroll 0 0 #FFFFFF; border: 1px solid #ededed; box-shadow: 0 1px 1px #ededed; height: auto; max-width: 100%;  position: relative; }
+.commentlist ul.children {  margin-left: 23px; padding-left: 23px; position: relative; margin-top: 23px; }
+.commentlist ul.children .commbox:before { content: "\f176"; left: -24px; position: absolute; top: 50%; width: 25px; color:#C8C8C8; font-size:15px; }
+.commentlist .comment-author img { width: 50px; height: 50px; float: left; margin-right: 20px; }
+.commentlist .comment-author .fn { font-weight:bold; font-size: 15px; line-height:15px; text-transform: uppercase; display: block;  }
+.commentlist .comment-author .fn a { margin: 0;color: #000; }
+.commentlist .comment-author .fn .url:hover { color: #999; }
+.commentlist .comment-author span.time { font-size: 12px; display:block;  text-decoration: none; margin: 6px 0 0 0; }
+.commentlist .comment-author span.time a{color: #999999;}
+.commentlist .comment-author a div.comment-link { font-size: 16px; margin-top: -3px; margin-left: -10px; }
+.commentlist .comment-content { display: block; padding: 15px 20px; position: relative; overflow:auto;}
+.commentlist .comment-content p { font-size: 14px;line-height: 22px; color: #111; margin: 0 0 12px 0; }
+.commentlist .comment-content a, .subcategortes { word-break: break-word; }
+.commentlist .comment-content small { color: #999; display: block; font-size: 12px; margin-top: 3px; }
+.comment-reply-link, .comment-reply-login { font-size: 12px; float: right; color: #ccc }
+.comment-reply-link:before, .comment-reply-login:before { content: "\f062 "; padding-right: 2px }
+.comment-edit-link { float: right; font-size: 11px;margin-left: 8px; }
+.comment-respond { padding: 30px 35px; margin-bottom: 30px; box-shadow: 0 1px 1px 0 rgba(0,0,0,.12); background: #f6f6f6 }
+.comment-respond h3 { font-weight:bold; font-size: 19px; line-height:21px; text-transform: uppercase; margin: 0 0 25px 0; }
+#cancel-comment-reply-link { border-bottom: 1px dotted #111; margin: 0 10px; text-decoration: none; font-size: 12px }
+.comment-respond .usr_re input, .comment-respond .email_re input, .comment-respond .site_re input {    padding: 0 0 0 50px; width: 100%; font-size: 14px; margin-bottom: 20px; border-radius: 0px; height: 38px; border: 1px solid #cbd0d2; float: left; position: relative; }
+.comment-respond textarea { width: 100%; margin-bottom: 20px; clear: both }
+.comment-respond .usr_re, .comment-respond .email_re, .comment-respond .site_re{display: block; vertical-align: middle; position: relative; float: left; width: 32%; margin-right: 2%}
+.comment-respond .end { margin-right: 0px !important; }
+.comment-respond .usr_re:after, .comment-respond .email_re:after, .comment-respond .site_re:after{background: none #2f2f2f; position: absolute; left: 0; top: 0; color: #fff; width: 38px; height: 38px; text-align: center; line-height: 38px }
+.comment-respond .usr_re:after {  content: "\f007"; }
+.comment-respond .email_re:after { content: "\f0e0" }
+.comment-respond .site_re:after { content: "\f0c3"}
+.comment-respond p.form-submit{clear: both; margin-top: 15px}
+#commentform #submit{ font-size: 16px; padding: 8px 14px;display: block  }
+#disqus_thread { margin-top: 20px; }
+p.comment-subscription-form { margin-top: 10px }
+#comments_pagination {font-size: 18px;}
+#comments_pagination a{ color: #111}
+#comments_pagination span.page-numbers.current{background: #eee; padding: 3px 7px;}
+#loadcomment-list .loadingcomment i{ font-size: 20px; color: #ff9800}
+.comm_meta_wrap{margin: 0 0 0 70px}
+.commentlist #user_reviews_in_comment {display: none;}
+.ap_waiting{color: red; margin: 10px 0}
+#rehub-comments-tabs .add_user_review_link{ float: right; padding: 5px 10px;margin: 5px 0 20px 20px;}
+.commentlist .rh-user-rank-mc{font-size: 11px; padding: 2px 5px}
+.commentlist  .rh_mycred-users-badges img{width: 20px;height: 20px;margin: 0 2.5px;border-radius: 0;}
+@media screen and (max-width: 767px) {
+.comment-respond .usr_re, .comment-respond .email_re, .comment-respond .site_re{ width: 100%; margin: 0}
+.commentlist .comment-author a, .commentlist .comment-author time{ margin:0 0 10px 0; float:none; display:block}
+a.comment-reply-link, a.comment-edit-link { text-align: right;}
+.commentlist .comment-author a.comment-edit-link{ margin-bottom: 4px}
+.commentlist .comment-author .fn, .commentlist .comment-author .fn a{ float:none}
+.commentlist .comment-author img{ }
+.commentlist ul.children{ margin-left:10px; padding-left: 0; border-left: none }
+.commentlist ul.children .commbox:before { display: none;}
+}

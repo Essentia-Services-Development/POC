@@ -1,0 +1,94 @@
+.main,
+.dokan-store .site-main {
+	--size: var(--c-gc-main-column);
+	--grid-gap: var(--c-gc-layout-gap);
+	--sidebar--left: var(--c-gc-sidebar-left-width);
+	--sidebar--right: var(--c-gc-sidebar-right-width);
+
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	width: 100%;
+	padding-bottom: var(--PADD--XL);
+
+	@extend %container;
+
+	@include mq($until: desktop) {
+		padding: var(--PADD--MD);
+
+		.peepso-sts & {
+			padding-left: 0;
+			padding-right: 0;
+		}
+	}
+
+	@include mq($from: desktop) {
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-template-rows: auto 1fr auto;
+		grid-template-areas:
+		"above-content"
+		"content"
+		"under-content";
+		grid-column-gap: var(--grid-gap);
+		grid-row-gap: 0;
+		padding-top: var(--PADD--XL);
+	}
+
+	@include mq($from: wide) {
+		grid-column-gap: var(--grid-gap);
+		grid-row-gap: 0;
+	}
+}
+
+.main--left {
+	@include mq($from: desktop) {
+		grid-template-columns: var(--sidebar--left) var(--c-gc-main-column);
+		grid-template-areas:
+		"sidebar-left above-content"
+		"sidebar-left content"
+		"sidebar-left under-content";
+	}
+}
+
+.main--right {
+	@include mq($from: desktop) {
+		grid-template-columns: var(--c-gc-main-column) var(--sidebar--right);
+		grid-template-areas:
+		"above-content sidebar-right"
+		"content sidebar-right"
+		"under-content sidebar-right";
+	}
+}
+
+.main--both {
+	@include mq($from: desktop) {
+		grid-template-columns: var(--sidebar--left) var(--c-gc-main-column) var(--sidebar--right);
+		grid-template-areas:
+		"sidebar-left above-content sidebar-right"
+		"sidebar-left content sidebar-right"
+		"sidebar-left under-content sidebar-right";
+	}
+}
+
+.main--inside {
+	grid-column-gap: var(--PADD--MD);
+	grid-row-gap: var(--PADD--MD);
+	padding: 0;
+}
+
+.main--full {
+	width: 100% !important;
+	max-width: 100% !important;
+}
+
+.main--builder {
+	width: 100% !important;
+	max-width: 100% !important;
+	padding: 0;
+	margin: 0;
+
+	.ps-navbar {
+		margin-top: var(--PADD--MD);
+	}
+}

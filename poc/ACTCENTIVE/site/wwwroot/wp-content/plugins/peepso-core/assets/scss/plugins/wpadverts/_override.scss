@@ -1,0 +1,108 @@
+.peepso {
+	//
+	//  Categories view
+	//
+	.adverts-flexbox {
+		margin-top: -14px;
+		margin-left: -14px;
+		margin-right: -14px;
+	}
+
+	.adverts-flexbox-item {
+		margin: 0;
+		padding: 14px;
+		background-color: transparent;
+		box-shadow: none;
+
+		&:hover {
+			background-color: transparent;
+		}
+	}
+
+	.adverts-flexbox-wrap {
+		position: relative;
+		height: 100%;
+		padding: 5px;
+		background-color: rgba(0,0,0, .05);
+	}
+
+	.adverts-flexbox-icon {
+		color: #888;
+	}
+
+	.adverts-flash-error {
+		margin-top: $padding-base;
+		color: #ffebee;
+		background-color: #ef5350;
+		border: none;
+	}
+
+	.adverts-flash-info {
+		margin-top: $padding-base;
+		color: #2196f3;
+		background-color: #b3e5fc;
+		border: none;
+	}
+
+	.adverts-button {
+		border-bottom: 1px solid rgba(0, 0, 0, 0.2) !important;
+	}
+
+	.adverts-single-box {
+		margin-top: 0;
+	}
+
+	.adverts-manage-delete-confirm {
+		position: absolute;
+		right: 0;
+		bottom: 0;
+		background-color: #fff;
+	}
+
+	.adverts-listing-type-x {
+		position: relative;
+		margin-bottom: $padding-base;
+
+		.adverts-listing-type-field {
+			padding-left: 35px;
+			line-height: 1.4;
+		}
+
+		.adverts-listing-type-name {
+			margin-bottom: 5px;
+			padding-bottom: 5px;
+			font-weight: 600;
+			border-bottom: $divider;
+		}
+
+		.adverts-listing-type-cost {
+			display: inline-block;
+			margin-top: 5px;
+			margin-left: 35px;
+			padding: 4px 8px;
+			color: $btn-color;
+			background-color: $btn-bg;
+			border: $btn-border;
+		}
+
+		.adverts-listing-type-features {
+			font-size: $font-size-sm;
+		}
+
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
+}
+
+.adverts-multiselect-options input[type="radio"],
+.adverts-multiselect-options input[type="checkbox"] {
+    position: static;
+    width: auto;
+    height: auto;
+		opacity: 1 !important;
+}
+
+select#advert_category {
+	min-height: 100px;
+}

@@ -1,0 +1,5 @@
+<step title="Startup Request" date="2023-06-01T12:25:21.074" instance="359730" url="/api/deployments/?$orderby=ReceivedTime%20desc&amp;$top=20&amp;api-version=2022-03-01" method="GET" type="request" pid="92,1,22" ScmType="None" >
+  <step title="Cleanup Xml Logs" date="2023-06-01T12:25:21.080" >
+    <step title="Cleanup Infos" date="2023-06-01T12:25:21.094" totalFiles="502" totalCleanup="342" /><!-- duration: 6ms -->
+  </step><!-- duration: 24ms -->
+</step><!-- duration: 33ms -->

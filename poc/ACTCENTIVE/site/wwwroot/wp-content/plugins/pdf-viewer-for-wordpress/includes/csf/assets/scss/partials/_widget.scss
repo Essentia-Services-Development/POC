@@ -1,0 +1,67 @@
+/**
+ * 04. Widget
+ */
+.pvfwof-widgets{
+
+  > .pvfwof-field{
+    position: relative;
+    top: -1px;
+    margin-left: -15px;
+    margin-right: -15px;
+    padding: 12px 15px;
+
+    .pvfwof-title{
+      float: none;
+      width: 100%;
+      margin-bottom: 5px;
+    }
+
+    .pvfwof-fieldset{
+      float: none;
+      width: 100%;
+    }
+  }
+
+  .pvfwof-field-text input{
+    width: 100%;
+  }
+
+  .pvfwof-field-notice .pvfwof-notice{
+    padding: 15px;
+  }
+}
+
+.control-section{
+
+  .pvfwof-widgets{
+
+    > .pvfwof-field{
+      margin-left: -10px;
+      margin-right: -10px;
+      padding: 10px 12px;
+    }
+  }
+}
+
+.wp-block{
+
+  .pvfwof-widgets{
+    font-size: 13px;
+
+    > .pvfwof-field{
+      margin-left: -10px;
+      margin-right: -10px;
+
+      .button-primary{
+        color: #fff;
+      }
+
+      > .pvfwof-title{
+
+        > h4{
+          font-size: 13px;
+        }
+      }
+    }
+  }
+}

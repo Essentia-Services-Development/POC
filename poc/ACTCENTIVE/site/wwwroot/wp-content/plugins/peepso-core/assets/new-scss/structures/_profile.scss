@@ -1,0 +1,144 @@
+.ps-profile {}
+
+//
+//  EDIT
+//
+.ps-profile--edit {}
+
+.ps-profile__layout {
+  @include mq($from: desktop) {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+}
+
+.ps-profile__side {
+  @include mq($from: desktop) {
+    min-width: 200px;
+    max-width: 200px;
+
+    @if $rtl {
+      margin-right: var(--PADD--MD);
+    } @else {
+      margin-left: var(--PADD--MD);
+    }
+  }
+
+  .ps-profile__widget {
+    .ps-widget {
+      margin-bottom: var(--PADD--MD);
+    }
+  }
+}
+
+.ps-profile__middle {
+  @include mq($from: desktop) {
+    flex-grow: 1;
+    min-width: 0;
+  }
+}
+
+.ps-profile__edit {
+  background-color: var(--PS-COLOR--APP);
+  border-radius: var(--BORDER-RADIUS--MD);
+  box-shadow: var(--BOX-SHADOW--HARD);
+}
+
+.ps-profile__edit-tabs {
+  flex-wrap: wrap;
+  margin-bottom: 0;
+  font-size: 80%;
+  border-radius: 0;
+  box-shadow: none;
+
+  .ps-tabs__item {
+    > a {
+      color: var(--tabs-text-color--hover);
+      background-color: transparent;
+      border-bottom: 1px solid var(--tabs-item-separator);
+
+      @include mq($from: tablet) {
+        &:hover {
+          background-color: var(--tabs-bg--hover);
+        }
+      }
+
+      @include mq($until: desktop) {
+        display: block;
+
+        > span {
+          font-size: 80%;
+        }
+      }
+    }
+
+    &:first-child,
+    &:last-child {
+      > a {
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+      }
+    }
+  }
+
+  .ps-tabs__item--active {
+    > a {
+      border-bottom: 1px solid transparent;
+
+      &:hover {
+        background-color: transparent;
+      }
+    }
+  }
+}
+
+.ps-profile__progress {
+  padding: var(--PADD--MD);
+  border-bottom: 1px solid var(--DIVIDER--LIGHT);
+}
+
+.ps-profile__progress-message {
+  margin-bottom: var(--PADD);
+  font-size: 80%;
+  color: var(--PS-COLOR--TEXT--LIGHT);
+
+  > a {
+    color: var(--PS-COLOR--TEXT--LIGHT);
+
+    @if $comp_mode {
+      color: var(--PS-COLOR--TEXT--LIGHT) !important;
+    }
+
+    @include mq($from: tablet) {
+      &:hover,
+      &:focus {
+        color: var(--PS-COLOR--TEXT);
+
+        @if $comp_mode {
+          color: var(--PS-COLOR--TEXT) !important;
+        }
+      }
+    }
+  }
+}
+
+.ps-profile__progress-message--required {}
+
+.ps-profile__progress-bar {
+  @include c-progress;
+}
+
+.ps-profile__progress-required {
+  margin-top: var(--PADD);
+  font-size: 80%;
+  color: var(--PS-COLOR--ABORT);
+
+  &:before {
+    content: " ";
+    display: inline;
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+  }
+}
+
+.ps-profile__edit-page {}

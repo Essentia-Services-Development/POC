@@ -1,0 +1,197 @@
+// window: album create
+.ps-form--album-create {}
+
+.ps-album__upload {
+  margin-top: var(--PADD--MD);
+  background-color: var(--PS-COLOR--APP--LIGHTGRAY);
+  border-radius: var(--BORDER-RADIUS--MD);
+}
+
+.ps-album__upload-area {
+  padding-top: var(--PADD--MD);
+  text-align: center;
+}
+//
+
+.ps-page--album {}
+
+.ps-album {
+  --grid-items: 4;
+  --item-radius: var(--BORDER-RADIUS--MD);
+}
+
+.ps-album--custom {}
+
+.ps-album--edit {}
+
+.ps-album__header {
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--PADD--MD);
+
+  .ps-album--edit & {
+    flex-wrap: wrap;
+  }
+}
+
+.ps-album__filters {
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--PADD--MD);
+}
+
+.ps-album__list-view {
+  @if $rtl {
+    margin-left: var(--PADD);
+  } @else {
+    margin-right: var(--PADD);
+  }
+}
+
+.ps-album__title {
+  flex-grow: 2;
+
+  @if $rtl {
+    margin-left: var(--PADD);
+  } @else {
+    margin-right: var(--PADD);
+  }
+
+  > span {
+    font-size: 110%;
+  }
+
+  > i {
+    @if $rtl {
+      margin-left: var(--PADD);
+    } @else {
+      margin-right: var(--PADD);
+    }
+
+    color: var(--PS-COLOR--TEXT--LIGHT);
+  }
+
+  .ps-album--edit & {
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: var(--PADD--MD);
+    font-weight: bold;
+  }
+}
+
+.ps-album__title-edit {
+  display: flex;
+  width: 100%;
+
+  > * {
+    @if $rtl {
+      margin-left: var(--PADD--SM);
+    } @else {
+      margin-right: var(--PADD--SM);
+    }
+
+    &:last-child {
+      margin-left: 0;
+      margin-right: 0;
+    }
+  }
+}
+
+.ps-album__actions {
+  display: flex;
+  white-space: nowrap;
+
+  @if $rtl {
+    margin-right: auto;
+  } @else {
+    margin-left: auto;
+  }
+
+  .ps-btn {
+    @if $rtl {
+      margin-left: var(--PADD--SM);
+    } @else {
+      margin-right: var(--PADD--SM);
+    }
+
+    &:last-child {
+      margin: 0;
+    }
+  }
+}
+
+.ps-album__desc {
+  margin-bottom: var(--PADD--MD);
+}
+
+.ps-album__desc-title {
+  margin-bottom: var(--PADD);
+  padding-bottom: var(--PADD);
+  border-bottom: 1px solid var(--DIVIDER);
+  font-size: 90%;
+}
+
+.ps-album__desc-text {
+  color: var(--PS-COLOR--TEXT--LIGHT);
+  font-size: 90%;
+}
+
+.ps-album__desc-privacy {
+  display: inline-block;
+
+  @if $rtl {
+    margin-right: var(--PADD);
+  } @else {
+    margin-left: var(--PADD);
+  }
+
+  > a {
+    color: var(--PS-COLOR--TEXT--LIGHT);
+
+    &:hover,
+    &:focus {
+      color: var(--PS-COLOR--TEXT);
+    }
+  }
+}
+
+.ps-album__desc-edit {
+  @if $rtl {
+    text-align: left;
+  } @else {
+    text-align: right;
+  }
+
+  .ps-input {
+    margin-bottom: var(--PADD);
+  }
+}
+
+.ps-album__edit-toggle {
+  @if $rtl {
+    margin-right: var(--PADD);
+  } @else {
+    margin-left: var(--PADD);
+  }
+
+  color: var(--PS-COLOR--TEXT--LIGHT);
+
+  &:hover,
+  &:focus {
+    color: var(--PS-COLOR--TEXT);
+  }
+}
+
+.ps-album__edit-input {
+  .ps-album__title & {
+    flex-grow: 2;
+  }
+}
+
+.ps-album__edit-action {}
+
+.ps-album__comments {
+  background-color: var(--PS-COLOR--APP);
+  border-radius: var(--BORDER-RADIUS--MD);
+  box-shadow: var(--BOX-SHADOW--HARD);
+}
