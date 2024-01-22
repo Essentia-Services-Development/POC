@@ -1,4 +1,4 @@
-![image](https://github.com/App-Abacus-Limited/IDEA-Engine-AI/assets/31509362/100ba664-7c45-42bf-bdb6-d044ce6af075)# IDEA Engine AI is a Pioneering Global Community
+# IDEA Engine AI is a Pioneering Global Community
 This is the public repo for the IDEA Engine AI project!
 
 ![image](assets/IDEA-Engine-Text-Logo-350x50.png)
@@ -32,15 +32,15 @@ Every project on the IDEA Engine is unique, and the platform acknowledges this. 
 
 Powering the IDEA Engine is a robust technological foundation:
 
-	• Cloud and AI Services: Microsoft Azure, Azure OpenAI, Azure Machine Learning
-	• Azure Kubernetes microservice architecture using Docker containers  
-	• Databases: Surreal Db, Qdrant, Azure Redis
-	• Web Services: Azure web app service (Linux, NGINX)
-	• Development Frameworks: Rust, Python, JavaScript, NodeJS, TypeScript, ASP. NET CORE 8.0, .NET MAUI .NET 8.0, .NET Blazor, .NET 8.0, ML.NET, Microsoft Semantic Kernel, Microsoft CoPilot's, OpenAI, Stability AI
-	• Programming Languages: Rust, Python, C#, NodeJS, React, Ruby
-	• AI Libraries: Huggingface, Langchain
-	• Collaboration Tools: GitHub, GitHub Copilot, GitHub Copilot Chat
-	• IDEs: Visual Studio 2022, VS Code
+• Cloud and AI Services: Microsoft Azure, Azure OpenAI, Azure Machine Learning
+• Azure Kubernetes microservice architecture using Docker containers  
+• Databases: Surreal Db, Qdrant, Azure Redis
+• Web Services: Azure web app service (Linux, NGINX)
+• Development Frameworks: Rust, Python, JavaScript, NodeJS, TypeScript, ASP. NET CORE 8.0, .NET MAUI .NET 8.0, .NET Blazor, .NET 8.0, ML.NET, Microsoft Semantic Kernel, Microsoft CoPilot's, OpenAI, Stability AI
+• Programming Languages: Rust, Python, C#, NodeJS, React, Ruby
+• AI Libraries: Huggingface, OpenAI, Azure
+• Collaboration Tools: GitHub, GitHub Copilot, GitHub Copilot Chat
+• IDEs: Visual Studio 2022, VS Code
 
 This list, while extensive, is just the tip of the iceberg. The IDEA Engine is an amalgamation of these technologies, each playing a pivotal role in shaping the platform.
 
