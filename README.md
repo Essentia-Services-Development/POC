@@ -1,4 +1,4 @@
-# IDEA Engine AI is a Pioneering Global Community
+![image](https://github.com/App-Abacus-Limited/IDEA-Engine-AI/assets/31509362/100ba664-7c45-42bf-bdb6-d044ce6af075)# IDEA Engine AI is a Pioneering Global Community
 This is the public repo for the IDEA Engine AI project!
 
 ![image](assets/IDEA-Engine-Text-Logo-350x50.png)
@@ -6,13 +6,15 @@ This is the public repo for the IDEA Engine AI project!
 ## Overview
 The platform is a project that is powered by the underlying microservices:
 
-	• IDEA Engine -  Community Portal
-		○ IDEA Engine - Model Factory
-		○ IDEA Engine -  Coding Factory
-		○ IDEA Engine - Project Management
-		○ IDEA Engine -  Personal AI Companion
-	• Universal Data Lake
-	• Actcentive Loyalty Coins
+• IDEA Engine - Community Portal
+	○ IDEA Engine - IDEA Project Managment	
+	○ IDEA Engine - Personal AI Companion
+• IDEA Engine - Internal Development Solutions (DevOps)
+	○ IDEA Engine - Model Factory
+	○ IDEA Engine - Coding Factory
+	○ IDEA Engine - DevOps Project Management
+• UniSphere - Universal Data Lake
+• Actcentive - Loyalty Coins
 
 The IDEA Engine stands as a beacon for global knowledge and prosperity enhancement. It's not just a platform; it's a movement that categorizes its vast community into three distinct segments: individuals, communities, and businesses.
 
