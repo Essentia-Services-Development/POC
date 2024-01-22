@@ -1,10 +1,9 @@
 # IDEA Engine AI is a Pioneering Global Community
+This is the public repo for the IDEA Engine AI project!
 
 ![image](assets/IDEA-Engine-Text-Logo-350x50.png)
-
-This is the public repo for the IDEA Engine AI project!
 <!-- OVERVIEW -->
-## IDEA Engine AI Overview
+## Overview
 
 <!-- FEATURES -->
 ## Features
