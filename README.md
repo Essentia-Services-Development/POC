@@ -2,8 +2,7 @@
 
 ![image](assets/IDEA-Engine-Text-Logo-350x50.png)
 
-#### Note: This is the public repo for the IDEA Engine AI project!
-
+This is the public repo for the IDEA Engine AI project!
 <!-- OVERVIEW -->
 ## IDEA Engine AI Overview
 
