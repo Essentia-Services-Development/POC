@@ -1,10 +1,19 @@
+This is the public repo for the IDEA Engine AI project
 ![image](assets/IDEA-Engine-Text-Logo-350x50.png)
 
 # IDEA-Engine-AI
-This is the public repo for the IDEA Engine AI project
 
 <!-- OVERVIEW -->
-## IDEA Engine a Pioneering Global Community
+## IDEA Engine AI is a Pioneering Global Community
+
+<!-- FEATURES -->
+## Features
+
+- ✅ Text Generation
+    - ✅ Connect to Open AI compatible API's i.e. LocalAI
+    - ✅ Select different prompts
+    - [x] Syntax highlighting for code
+- [ ] Image Generation
 
 
 <!-- ROADMAP -->
