@@ -44,7 +44,7 @@ Powering the IDEA Engine is a robust technological foundation:
 
 This list, while extensive, is just the tip of the iceberg. The IDEA Engine is an amalgamation of these technologies, each playing a pivotal role in shaping the platform.
 
-The platform's initial development phase zeroes in on the IDEA Engine Coder project. Drawing inspiration from a plethora of open-source projects on GitHub, the objective is clear: forge a groundbreaking platform using the synergies of Microsoft MAUI, Blazor, C#, Python, and Azure. The future of development is here, and it's powered by the IDEA Engine.![image](https://github.com/App-Abacus-Limited/IDEA-Engine-AI/assets/31509362/f2d356bb-860a-4e7e-b467-d6d0c9ca5bea)
+The platform's initial development phase zeroes in on the IDEA Engine Coder project. Drawing inspiration from a plethora of open-source projects on GitHub, the objective is clear: forge a groundbreaking platform using the synergies of Microsoft MAUI, Blazor, C#, Python, and Azure. The future of development is here, and it's powered by the IDEA Engine.
 
 <!-- FEATURES -->
 ## Features
