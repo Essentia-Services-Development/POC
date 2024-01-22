@@ -1,7 +1,9 @@
 # IDEA-Engine-AI
 Public repo for the IDEA Engine AI project
 
-IDEA Engine a Pioneering Global Community![image](https://github.com/App-Abacus-Limited/IDEA-Engine-AI/assets/31509362/dbcf6a86-93a6-4f2d-83bf-8e278ded0392)
+![image](https://github.com/App-Abacus-Limited/IDEA-Engine-AI/assets/IDEA-Engine-Text-Logo-350x50.png)
+
+## IDEA Engine a Pioneering Global Community
 
 
 <!-- ROADMAP -->
