@@ -4,6 +4,9 @@ This is the public repo for the IDEA Engine AI project!
 ![image](assets/IDEA-Engine-Text-Logo-350x50.png)
 <!-- OVERVIEW -->
 ## Overview
+
+
+## Solution Microservices
 The platform is a project that is powered by the underlying microservices:
 
 - IDEA Engine - Community Portal
@@ -45,7 +48,7 @@ Powering the IDEA Engine is a robust technological foundation:
 
 This list, while extensive, is just the tip of the iceberg. The IDEA Engine is an amalgamation of these technologies, each playing a pivotal role in shaping the platform.
 
-The platform's initial development phase zeroes in on the IDEA Engine Coder project. Drawing inspiration from a plethora of open-source projects on GitHub, the objective is clear: forge a groundbreaking platform using the synergies of Microsoft MAUI, Blazor, C#, Python, and Azure. The future of development is here, and it's powered by the IDEA Engine.
+The platform's initial development phase zeroes in on the IDEA Engine Coder project. Drawing inspiration from a plethora of open-source projects on GitHub, the objective is clear: forge a groundbreaking platform using the synergies of Rust, Microsoft .NET MAUI, Blazor, C#, Python, and Azure technologies. The future of development is here, and it's powered by the IDEA Engine.
 
 <!-- FEATURES -->
 ## Features
