@@ -131,7 +131,6 @@ The platform's initial development phase zeroes in on the IDEA Engine Coder proj
 
 - ✅ Rust
 - ✅ Python
-  - ✅ Anaconda
 - ✅ Microsoft .NET
 - ✅ NodeJS
   - ✅ TypeScript
