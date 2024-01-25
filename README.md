@@ -29,7 +29,7 @@ At its core, the IDEA Engine empowers every member. Whether you're nurturing a f
 
 Central to the IDEA Engine is the Universal Data Lake using Azure, Microsoft Fabric, Semantic Kernel including a comprehensive repository using Microsoft Graph connecting individual, communities and businesses. This seamlessly integrates with the Actcentive brand e-commerce marketplace, a dynamic space that harnesses the power of affiliate marketing, social media, and more to generate revenue. While Actcentive remains an integral part of this ecosystem, further details on its operation and benefits will be elaborated upon in subsequent sections.
 
-The platform's heartbeat is its array of Language Learning Models (LLMs). These AI models, tailored for specific platform workflows, draw inspiration from cutting-edge research projects. The spectrum of models spans from renowned ones like OpenAI's GPT to open-source solutions and proprietary models developed using ML.NET. The software architecture is based on a number of opensource projects Microsoft AutoGen, ChatDev, Aider, 
+The platform's heartbeat is its array of Language Language Models (LLMs), Small Language Models (SLMs) and Large Action Models (LAMs). These AI models, tailored for specific domaina and platform workflows, draw inspiration from cutting-edge research projects. The spectrum of models spans from renowned ones like OpenAI's GPT4 to open-source solutions and internal proprietary models developed using ML.NET. The software architecture is based on a number of opensource projects Microsoft AutoGen, ChatDev, Aider, Huggingface Candel.
 
 Every project on the IDEA Engine is unique, and the platform acknowledges this. Depending on project specifics such as geographical location, category (individual, community, business), and sector, it undergoes a tailored workflow, ensuring optimal results.
 
@@ -116,6 +116,17 @@ The platform's initial development phase zeroes in on the IDEA Engine Coder proj
     - [x] Kubernetes deployment strategy.
     - [x] Kubernetes Operator
     - [ ] Hardware recommendations.
+
+<!-- DEVELOPMENT -->
+## Development Requirements Code Languages
+
+- ✅ Rust
+- ✅ Python
+  - ✅ Anaconda
+- ✅ Microsoft .NET
+- ✅ NodeJS
+  - ✅ TypeScript
+  - ✅ JavaScript
 
 ## Git LFS
 We use Git LFS for dependencies that are expensive to build.
