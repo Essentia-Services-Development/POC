@@ -46,7 +46,7 @@ Powering the IDEA Engine is a robust technological foundation:
 - Web Services: Azure web app service (Linux, NGINX)
 - Development Frameworks: Rust, Python, JavaScript, NodeJS, TypeScript, ASP. NET CORE 8.0, .NET MAUI .NET 8.0, .NET Blazor,
   			.NET 8.0, ML.NET, Microsoft Semantic Kernel, Microsoft CoPilot's, OpenAI, Stability AI
-- Programming Languages: Rust, Python, C#, NodeJS, React, Ruby
+- Programming Languages: Rust, Python, C#, TypeScript, JavaScript
 - AI Libraries: Huggingface, OpenAI, Azure
 - Collaboration Tools: GitHub, GitHub Copilot, GitHub Copilot Chat
 - IDEs: Visual Studio 2022, VS Code
