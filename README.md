@@ -13,10 +13,11 @@ The platform is a project that is powered by the underlying microservices:
 - ✅ Internal Beta Testing
 
 - IDEA Engine - Community Portal
-	- 🟠 IDEA Engine - IDEA Profile Management
+	- 🟠 IDEA Engine - Profile Management
  	- 🟠 IDEA Engine - Community Hub
 	- 🟠 IDEA Engine - IDEA Content Management	
-	- 🟠  IDEA Engine - IDEA Project Management	
+	- 🟠 IDEA Engine - IDEA Project Management
+ 	- 🟠 IDEA Engine - Affiliate Partner Management
 	- IDEA Engine - Personal AI Companion
 - IDEA Engine - Internal Development Solutions (DevOps)
 	- ✅ IDEA Engine - Model Factory
