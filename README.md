@@ -131,6 +131,7 @@ The platform's initial development phase zeroes in on the IDEA Engine Coder proj
 
 - ✅ Rust
 - ✅ Python
+	- ✅ hatch: https://github.com/pypa/hatch
 - ✅ Microsoft .NET
 - ✅ NodeJS
   - ✅ TypeScript
