@@ -10,13 +10,13 @@ This is the public repo for the IDEA Engine AI project (Development Phase)!
 The platform is a project that is powered by the underlying microservices:
 
 - IDEA Engine - Community Portal
-	- IDEA Engine - IDEA Profile Managment
-	- IDEA Engine - IDEA Content Managment	
-	- IDEA Engine - IDEA Project Managment	
+	- IDEA Engine - IDEA Profile Management
+	- IDEA Engine - IDEA Content Management	
+	- IDEA Engine - IDEA Project Management	
 	- IDEA Engine - Personal AI Companion
 - IDEA Engine - Internal Development Solutions (DevOps)
-  	- IDEA Engine - Model Factory
-	- IDEA Engine - Coding Factory
+	- ✅ IDEA Engine - Model Factory
+	- ✅ IDEA Engine - Coding Factory
 	- IDEA Engine - DevOps Project Management
 - UniSphere - Universal Data Lake
   	- IDEA Engine - Surreal DB
@@ -29,7 +29,7 @@ At its core, the IDEA Engine empowers every member. Whether you're nurturing a f
 
 Central to the IDEA Engine is the Universal Data Lake using Azure, Microsoft Fabric, Semantic Kernel including a comprehensive repository using Microsoft Graph connecting individual, communities and businesses. This seamlessly integrates with the Actcentive brand e-commerce marketplace, a dynamic space that harnesses the power of affiliate marketing, social media, and more to generate revenue. While Actcentive remains an integral part of this ecosystem, further details on its operation and benefits will be elaborated upon in subsequent sections.
 
-The platform's heartbeat is its array of Language Language Models (LLMs), Small Language Models (SLMs) and Large Action Models (LAMs). These AI models, tailored for specific domaina and platform workflows, draw inspiration from cutting-edge research projects. The spectrum of models spans from renowned ones like OpenAI's GPT4 to open-source solutions and internal proprietary models developed using ML.NET. The software architecture is based on a number of opensource projects Microsoft AutoGen, ChatDev, Aider, Huggingface Candel.
+The platform's heartbeat is its array of Large Language Models (LLMs), Small Language Models (SLMs) and Large Action Models (LAMs). These AI models, tailored for a specific domain and platform workflows, drawing inspiration from cutting-edge research projects. The spectrum of models spans from renowned ones like OpenAI's GPT4 to open-source solutions and internal proprietary models developed using C# ML.NET and Rust. The software architecture is based on a number of opensource projects Microsoft AutoGen, ChatDev, Aider, Huggingface Candle.
 
 Every project on the IDEA Engine is unique, and the platform acknowledges this. Depending on project specifics such as geographical location, category (individual, community, business), and sector, it undergoes a tailored workflow, ensuring optimal results.
 
