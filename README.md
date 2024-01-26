@@ -148,6 +148,12 @@ following commands in this repo:
 git lfs install
 git lfs pull
 ```
+## Development Requirements
+
+CMake
+https://cmake.org/download/
+
+
 ## Open Source Project
 A list of the open source projects GitHub repos being used as inspiration:
 
