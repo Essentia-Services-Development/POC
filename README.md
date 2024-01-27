@@ -44,7 +44,16 @@ The platform's heartbeat is its array of Large Language Models (LLMs), Small Lan
 
 Every project on the IDEA Engine is unique, and the platform acknowledges this. Depending on project specifics such as geographical location, category (individual, community, business), and sector, it undergoes a tailored workflow, ensuring optimal results.
 
-Powering the IDEA Engine is a robust technological foundation:
+## Development Concept
+At a very high level, IDEA Engine AI is about providing a complete and common system architecture for high-performing desktop, mobile, and cloud applications with Rust.
+
+Why? Because we think Rust is a transformative language, environment, and ecosystem that provides the necessary building blocks for building next generation desktop, mobile, and cloud applications.
+
+The "Cargo" way to think about it, is that IDEA Engine AI is about making desktop, mobile, and cloud Cargo features. 
+
+Our aim is to develop from the ground up new solution using Rust, Tauri, Native Web Components, and SurrealDB.
+
+### Powering the IDEA Engine is a robust technological foundation:
 
 - Cloud and AI Services: Microsoft Azure, Azure OpenAI, Azure Machine Learning
 - Azure Kubernetes microservice architecture using Docker containers  
