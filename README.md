@@ -4,6 +4,8 @@ This is the public repo for the IDEA Engine AI project!
 
 ![image](assets/IDEA-Engine-Text-Logo-350x50.png)
 
+## :moneybag: [Sponsor this project](https://github.com/App-Abacus-Limited/IDEA-Engine-AI/blob/main/SPONSORSHIP.md)
+
 ## Solution Microservices
 The platform is a project that is powered by the underlying microservices:
 
