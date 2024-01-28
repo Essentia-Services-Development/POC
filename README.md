@@ -19,6 +19,8 @@ The platform is a project that is powered by the underlying microservices:
 	- 🟠 IDEA Engine - IDEA Project Management
  	- 🟠 IDEA Engine - Affiliate Partner Management
 	- 🟠 IDEA Engine - Personal AI Companion
+	- 🟠 IDEA Engine - Communicator
+	- 🟠 IDEA Engine - Scheduler
 - IDEA Engine - Internal Development Solutions (DevOps)
 	- ✅ IDEA Engine - Model Factory
 		- 🟠 IDEA Engine - Module Creation & Training Engine
