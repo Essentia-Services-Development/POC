@@ -1,6 +1,6 @@
 Certainly! Below is a comprehensive tutorial written in Markdown (.md) format, detailing the Docker `run` command parameters. This guide is designed to help both beginners and advanced users understand how to use the `run` command effectively in Docker.
 
----
+--
 
 # Docker Run Command: A Comprehensive Guide
 
