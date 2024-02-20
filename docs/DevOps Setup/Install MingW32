@@ -1,0 +1,14 @@
+# MinGW
+
+Using MSYS2 and MinGW to install the GCC compiler on Windows. Here are the steps:
+
+1. Download MSYS2 from the official website⁸.
+2. After installing, navigate to the directory where it was installed, and run `msys2.exe`. For this tutorial, we will assume the default location of `C:\\msys64`.
+3. Open the MSYS2 bash shell. You should find yourself in a bash shell.
+4. Update all the packages using the command: `pacman -Syu`.
+5. Install the build toolchain and compilers using the command: `pacman -S base-devel gcc vim cmake`. Note that `vim` and `cmake` are optional, but handy to have¹.
+6. After installing those packages, you will have `gcc` and the other tools available to be used while in the MSYS2 shell.
+
+Please note that if you want to use the toolchains (with installed libraries) outside of the MSYS2 environment, you need to add `C:\msys64\mingw64\bin` to your PATH.
+
+Remember to replace `x86_64` with `i686` if you are using a 32-bit operating system³⁴.
