@@ -247,18 +247,6 @@ https://github.com/PromtEngineer/localGPT
 
 https://github.com/pinokiocomputer/pinokiod
 
-https://github.com/App-Abacus-Limited/ChatALL
-
-https://github.com/App-Abacus-Limited/FastChat
-
-https://github.com/App-Abacus-Limited/AgentGPT
-
-https://github.com/App-Abacus-Limited/SalesGPT
-
-https://github.com/App-Abacus-Limited/researchgpt
-
-https://github.com/App-Abacus-Limited/quivr
-
 https://github.com/homanp/superagent
 
 https://github.com/assafelovic/gpt-researcher
@@ -269,7 +257,18 @@ https://github.com/huggingface/chat-ui
 
 https://github.com/jamesmontemagno/ThreadsApp
 
-Documentation:
+https://github.com/sunner/ChatALL
+
+https://github.com/NumberZeros/SalesGPT
+
+https://github.com/reworkd/AgentGPT
+
+https://github.com/lm-sys/FastChat
+
+https://github.com/QuivrHQ/quivr
+
+### Documentation:
+
 
 https://github.com/MicrosoftDocs/semantic-kernel-docs
 
