@@ -34,6 +34,7 @@ The platform is a project that is powered by the underlying microservices:
 	- 🟠 IDEA Engine - Loyality Coins Mangement
 
 <!-- OVERVIEW -->
+
 ## Overview
 
 The IDEA Engine stands as a beacon for global knowledge and prosperity enhancement. It's not just a platform; it's a movement that categorizes its vast community into three distinct segments: individuals, communities, and businesses.
@@ -47,6 +48,7 @@ The platform's heartbeat is its array of Large Language Models (LLMs), Small Lan
 Every project on the IDEA Engine is unique, and the platform acknowledges this. Depending on project specifics such as geographical location, category (individual, community, business), and sector, it undergoes a tailored workflow, ensuring optimal results.
 
 ## Development Concept
+
 At a very high level, IDEA Engine AI is about providing a complete and common system architecture for high-performing desktop, mobile, and cloud applications with Rust.
 
 Why? Because we think Rust is a transformative language, environment, and ecosystem that provides the necessary building blocks for building next generation desktop, mobile, and cloud applications.
@@ -166,13 +168,8 @@ git lfs pull
 CMake
 https://cmake.org/download/
 
-
 ## Open Source Project
 A list of the open source projects GitHub repos being used as inspiration:
-
-The overall platform will be driven by workflows based on the Open Project (GitHub repo link below) and this will be merged and updated to suit the platforms requirements. Essentially each IDEA being managed by the platform will be regarded as a project and managed accordioning.
-
-https://github.com/App-Abacus-Limited/openproject
 
 Microsoft Semantic Kernel will be used to manage the AI planner, agent, persona and other aspects of the AI LLM infrastructure:
 https://github.com/microsoft/semantic-kernel
@@ -184,8 +181,6 @@ https://github.com/microsoft/semantic-memory
 https://github.com/Azure-Samples/miyagi
 
 Development tools to inspire the IDEA Engine coder project. The goal is to develop an end to end development project lifecycle solution that uses both Visual Studio, VSCode and the IDEA Engines UI to manage the coding aspect of a project. These are a few of the open source projects that will be used to build the overall IDEA Engine Coder solution:
-
-
 
 https://github.com/paul-gauthier/aider
 
@@ -207,13 +202,8 @@ https://github.com/Stability-AI/StableStudio
 
 https://github.com/Stability-AI/stablediffusion
 
+### Platform Agents
 
-LLM acceleration 
-Based on the vLLM project which will be integrated into this platform (GitHub repo link below):
-
-https://github.com/App-Abacus-Limited/vllm
-
-Platform Agents
 The platforms community membership aspect includes individual personalised models that are allowed to communicate as agents with each other throughout the community. This concept requires additional research and details to be defined. The overall concept is based on the Generative Agent concept (GitHub rep link below):
 
 https://github.com/joonspk-research/generative_agents
@@ -222,7 +212,7 @@ https://github.com/TransformerOptimus/SuperAGI
 
 Additional inspiration and concepts sourced from the MetaGPT project:
 
-https://github.com/App-Abacus-Limited/MetaGPT
+https://github.com/geekan/MetaGPT
 
 Other concepts that will be included in the overall IDEA Engine platform solution:
 https://github.com/ShishirPatil/gorilla
@@ -230,8 +220,6 @@ https://github.com/ShishirPatil/gorilla
 https://github.com/mshumer/gpt-author
 
 https://github.com/kyegomez/tree-of-thoughts
-
-https://github.com/App-Abacus-Limited/langflow
 
 https://github.com/trrahul/llama2.cs
 
