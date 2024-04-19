@@ -28,17 +28,17 @@
 
 #### Check Teleport Enabled.
 
-[Check Teleport Enabled](https://github.com/fzwoch/obs-teleport/raw/main/img/teleport-output.png)
+![Check Teleport Enabled](https://github.com/fzwoch/obs-teleport/raw/main/img/teleport-output.png)
 
 ### Setup Sender as Audio/Video Filter
 
 #### Click <Source> Right click → Filters.
 
-[Filters](https://github.com/fzwoch/obs-teleport/raw/main/img/teleport-properties.png)
+![Filters](https://github.com/fzwoch/obs-teleport/raw/main/img/teleport-properties.png)
 
 #### Click + → Teleport.
 
-[Teleport](https://github.com/fzwoch/obs-teleport/raw/main/img/teleport-filter.png)
+![Teleport](https://github.com/fzwoch/obs-teleport/raw/main/img/teleport-filter.png)
 
 ## Setup Receiver
 
@@ -55,11 +55,11 @@
 
 #### In your Scene do Sources → Add → Teleport.
 
-[Setup Receiver](https://github.com/fzwoch/obs-teleport/raw/main/img/teleport-add.png)
+![Setup Receiver](https://github.com/fzwoch/obs-teleport/raw/main/img/teleport-add.png)
 
 #### Select a detected stream from the Teleport drop down.
 
-[](https://github.com/fzwoch/obs-teleport/raw/main/img/teleport-source.png)
+![Teleport drop down](https://github.com/fzwoch/obs-teleport/raw/main/img/teleport-source.png)
 
 ## **Step 3: Establish the Connection**
 
