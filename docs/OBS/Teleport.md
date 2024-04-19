@@ -24,7 +24,7 @@
 
 #### Go to Tools → Teleport.
 
-[Setup Sender](https://github.com/fzwoch/obs-teleport/raw/main/img/teleport-tools.png)
+![Setup Sender](https://github.com/fzwoch/obs-teleport/raw/main/img/teleport-tools.png)
 
 #### Check Teleport Enabled.
 
